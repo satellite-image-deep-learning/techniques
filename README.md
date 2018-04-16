@@ -55,6 +55,16 @@ List of available cloud resources
 * [ML engine](https://cloud.google.com/ml-engine/) - sklearn, tensorflow, keras
 * Collaboratory ([notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time), Tensorflow examples, pytorch can be installed, [useful articles](https://towardsdatascience.com/fast-ai-lesson-1-on-google-colab-free-gpu-d2af89f53604)
 
+### Floydhub
+* https://www.floydhub.com/
+* Cloud GPUs
+* Jupyter Notebooks
+* Tensorboard
+* Version Control for DL
+* Deploy Models as REST APIs
+* Public Datasets
+
+
 # Interesting projects
 ### DeepOSM
 * https://github.com/trailbehind/DeepOSM
@@ -67,3 +77,21 @@ List of available cloud resources
 ### Skynet-data
 * https://github.com/developmentseed/skynet-data
 * Data pipeline for machine learning with OpenStreetMap
+
+# Production
+### Custom REST API
+* Basic https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html
+* Advanced https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
+
+### Tensorflow Serving
+* https://www.tensorflow.org/serving/
+* Official version is python 2 but python 3 build [here](https://github.com/illagrenan/tensorflow-serving-api-python3)
+* Another approach is [to use Docker](https://www.tensorflow.org/serving/docker)
+
+TensorFlow Serving makes it easy to deploy new algorithms and experiments, while keeping the same server architecture and APIs. Multiple models, or indeed multiple versions of the same model, can be served simultaneously.  TensorFlow Serving comes with a scheduler that groups individual inference requests into batches for joint execution on a GPU
+
+### Floydhub??
+
+# Useful References
+* https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
+* https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb
