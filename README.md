@@ -80,7 +80,7 @@ List of available cloud resources
 
 # Production
 ### Custom REST API
-* Basic https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html
+* Basic https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html with code [here](https://github.com/jrosebr1/simple-keras-rest-api)
 * Advanced https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
 
 ### Tensorflow Serving
