@@ -1,0 +1,38 @@
+airplane
+baseball field
+basketball court
+beach
+bridge
+cemetery
+chaparral
+christmas tree farm
+closed road
+coastal mansion
+crosswalk
+dense residential
+ferry terminal
+football field
+forest
+freeway
+golf course
+harbor
+intersection
+mobile home park
+nursing home
+oil gas field
+oil well
+overpass
+parking lot
+parking space
+railway
+river
+runway
+runway marking
+shipping yard
+solar panel
+sparse residential
+storage tank
+swimming pool
+tennis court
+transformer station
+wastewater treatment plant
