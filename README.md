@@ -64,8 +64,17 @@ List of available cloud resources
 * Deploy Models as REST APIs
 * Public Datasets
 
+### modeldepot
+* https://modeldepot.io
+* ML models hosted
+* Expose models as rest API via Docker.
+
 
 # Interesting projects
+### RoboSat
+* https://github.com/mapbox/robosat
+* Generic ecosystem for feature extraction from aerial and satellite imagery.
+
 ### DeepOSM
 * https://github.com/trailbehind/DeepOSM
 * Train a deep learning net with OpenStreetMap features and satellite imagery.
