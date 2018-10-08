@@ -34,12 +34,15 @@ Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and
 * https://aws.amazon.com/earth/
 * Optical, radar, segmented etc.
 
-
 # Online computing resources
 List of available cloud resources
+
 ### Kaggle
-* Kernels may run for 1 hour which limites usefullness
-* Tensorflow available
+* GOU Kernels (may run for 1 hour which limits usefulness?)
+* Tensorflow, pytorch & fast.ai available
+* Advantage that many datasets are already available
+* Free to use
+* [Read](https://medium.com/@hortonhearsafoo/announcing-fast-ai-part-1-now-available-as-kaggle-kernels-8ef4ca3b9ce6)
 
 ### AWS
 * GPU available (link?)
@@ -53,7 +56,9 @@ List of available cloud resources
 
 ### Google
 * [ML engine](https://cloud.google.com/ml-engine/) - sklearn, tensorflow, keras
-* Collaboratory ([notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time), Tensorflow examples, pytorch can be installed, [useful articles](https://towardsdatascience.com/fast-ai-lesson-1-on-google-colab-free-gpu-d2af89f53604)
+* Collaboratory ([notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time),
+* Tensorflow available
+* pytorch can be installed, [useful articles](https://towardsdatascience.com/fast-ai-lesson-1-on-google-colab-free-gpu-d2af89f53604)
 
 ### Floydhub
 * https://www.floydhub.com/
@@ -64,11 +69,19 @@ List of available cloud resources
 * Deploy Models as REST APIs
 * Public Datasets
 
-### modeldepot
-* https://modeldepot.io
-* ML models hosted
-* Expose models as rest API via Docker.
+### Paperspace
+* https://www.paperspace.com/
+* 1-Click Jupyter Notebooks
+* GPU on demand
+* [Python API](https://github.com/Paperspace/paperspace-python)
 
+## Crestle
+* https://www.crestle.com/
+* Cloud GPU & persistent file store
+* Fast.ai lessons pre-installed
+
+## Salamander
+* https://salamander.ai/
 
 # Interesting projects
 ### RoboSat
@@ -101,6 +114,10 @@ List of available cloud resources
 TensorFlow Serving makes it easy to deploy new algorithms and experiments, while keeping the same server architecture and APIs. Multiple models, or indeed multiple versions of the same model, can be served simultaneously.  TensorFlow Serving comes with a scheduler that groups individual inference requests into batches for joint execution on a GPU
 
 ### Floydhub??
+
+### modeldepot
+* https://modeldepot.io
+* ML models hosted
 
 # Useful References
 * https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
