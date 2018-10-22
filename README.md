@@ -44,6 +44,12 @@ List of available cloud resources
 * Free to use
 * [Read](https://medium.com/@hortonhearsafoo/announcing-fast-ai-part-1-now-available-as-kaggle-kernels-8ef4ca3b9ce6)
 
+### Clouderizer
+* https://clouderizer.com/
+* Clouderizer is a cloud computing management service, it takes care of installing the required packages to a cloud computing instance (like Amazon AWS or Google Colab). Clouderizer is free for 200 hours per month (Robbie plan) and does not require a credit card to sign up.
+* Run projects locally, on cloud or both.
+* SSH terminal, Jupyter Notebooks and Tensorboard are securely accessible from Clouderizer Web Console.
+
 ### AWS
 * GPU available (link?)
 * https://aws.amazon.com/ec2/?ft=n
