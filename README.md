@@ -125,6 +125,17 @@ TensorFlow Serving makes it easy to deploy new algorithms and experiments, while
 * https://modeldepot.io
 * ML models hosted
 
+# Image formats & catalogues
+* We certainly want to consider cloud optimised GeoTiffs https://www.cogeo.org/
+* https://terria.io/ for pretty catalogues
+
+# State of the art
+What are companies doing?
+* Many using AWS S3 backend for image storage, see [DigitalGlobe](http://blog.digitalglobe.com/developers/cloud-optimized-geotiffs-and-the-path-to-accessible-satellite-imagery-analytics/). some have these integrated with (likely) Geoserver, e.g. [Planet](https://github.com/planetlabs). Just speculating, but a [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be the way to go. For simplifying deployment services like [Algorithmia](https://algorithmia.com/) may be useful
+* [Voyager](https://www.voyagersearch.com/using-aws-batch-to-generate-image-thumbnails-for-voyager)
+* Pangeo - resources for parallel processing of images http://pangeo.io/index.html
+* Open Data Cube - serve up cubes of data https://www.opendatacube.org/
+
 # Useful References
 * https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
 * https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb
