@@ -1,4 +1,6 @@
 # Datasets
+* https://github.com/chrieke/awesome-satellite-imagery-datasets
+
 Kaggle hosts several large satellite image datasets ([> 1 GB](https://www.kaggle.com/datasets?sortBy=relevance&group=public&search=image&page=1&pageSize=20&size=large&filetype=all&license=all)). A list if general image datasets is [here](https://gisgeography.com/free-satellite-imagery-data-list/). A list of land-use datasets is [here](https://gisgeography.com/free-global-land-cover-land-use-data/).
 
 ### Kaggle - Deepsat - classification challenge
@@ -93,6 +95,10 @@ List of available cloud resources
 ### RoboSat
 * https://github.com/mapbox/robosat
 * Generic ecosystem for feature extraction from aerial and satellite imagery.
+
+### RoboSat.Pink
+* A fork of robotsat
+* https://github.com/datapink/robosat.pink
 
 ### DeepOSM
 * https://github.com/trailbehind/DeepOSM
