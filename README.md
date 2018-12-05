@@ -1,5 +1,6 @@
 # Datasets
 * https://github.com/chrieke/awesome-satellite-imagery-datasets
+* [Various datasets listed here](https://www.maptiler.com/gallery/satellite/)
 
 Kaggle hosts several large satellite image datasets ([> 1 GB](https://www.kaggle.com/datasets?sortBy=relevance&group=public&search=image&page=1&pageSize=20&size=large&filetype=all&license=all)). A list if general image datasets is [here](https://gisgeography.com/free-satellite-imagery-data-list/). A list of land-use datasets is [here](https://gisgeography.com/free-global-land-cover-land-use-data/).
 
@@ -33,8 +34,10 @@ Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and
 * https://cloud.google.com/public-datasets/
 
 ### AWS datasets
-* https://aws.amazon.com/earth/
-* Optical, radar, segmented etc.
+* Landsat -> free viewer at [remotepixel](https://viewer.remotepixel.ca/#3/40/-70.5) and [libra](https://libra.developmentseed.org/)
+* Sentinel 2 -> [raw data - requester pays](https://registry.opendata.aws/sentinel-2/) Also paid access via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py)
+* Optical, radar, segmented etc. https://aws.amazon.com/earth/
+* [SpaceNet](https://spacenetchallenge.github.io/datasets/datasetHomePage.html)
 
 # Online computing resources
 List of available cloud resources
@@ -134,6 +137,8 @@ TensorFlow Serving makes it easy to deploy new algorithms and experiments, while
 # Image formats & catalogues
 * We certainly want to consider cloud optimised GeoTiffs https://www.cogeo.org/
 * https://terria.io/ for pretty catalogues
+* [Remote pixel](https://remotepixel.ca/projects/index.html#satsearch)
+* [Sentinel-hub eo-browser](https://apps.sentinel-hub.com/eo-browser/)
 
 # State of the art
 What are companies doing?
@@ -141,7 +146,13 @@ What are companies doing?
 * [Voyager](https://www.voyagersearch.com/using-aws-batch-to-generate-image-thumbnails-for-voyager)
 * Pangeo - resources for parallel processing of images http://pangeo.io/index.html
 * Open Data Cube - serve up cubes of data https://www.opendatacube.org/
+* [Process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
+
+## Cloud detection
+* Either (1) algorithm that detects thresholds in multiple bands or (2) machine learning single pixel classification -> https://medium.com/sentinel-hub/improving-cloud-detection-with-machine-learning-c09dc5d7cf13
+
 
 # Useful References
 * https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
 * https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb
+* [Geonotebooks](https://github.com/OpenGeoscience/geonotebook) with [Docker container](https://github.com/OpenGeoscience/geonotebook/tree/master/devops/docker)
