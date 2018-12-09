@@ -140,6 +140,13 @@ TensorFlow Serving makes it easy to deploy new algorithms and experiments, while
 * [Remote pixel](https://remotepixel.ca/projects/index.html#satsearch)
 * [Sentinel-hub eo-browser](https://apps.sentinel-hub.com/eo-browser/)
 
+# STAC - SpatioTemporal Asset Catalog
+* Specification describing the layout of a catalogue comprising of static files. The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface.
+* Spec at https://github.com/radiantearth/stac-spec
+* Browser at https://github.com/radiantearth/stac-browser
+* Talk at https://docs.google.com/presentation/d/1O6W0lMeXyUtPLl-k30WPJIyH1ecqrcWk29Np3bi6rl0/edit#slide=id.p
+* Example catalogue at https://landsat-stac.s3.amazonaws.com/catalog.json
+
 # State of the art
 What are companies doing?
 * Many using AWS S3 backend for image storage, see [DigitalGlobe](http://blog.digitalglobe.com/developers/cloud-optimized-geotiffs-and-the-path-to-accessible-satellite-imagery-analytics/). some have these integrated with (likely) Geoserver, e.g. [Planet](https://github.com/planetlabs). Just speculating, but a [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be the way to go. For simplifying deployment services like [Algorithmia](https://algorithmia.com/) may be useful
