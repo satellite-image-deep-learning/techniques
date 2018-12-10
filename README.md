@@ -163,6 +163,7 @@ TensorFlow Serving makes it easy to deploy new algorithms and experiments, while
 * Talk at https://docs.google.com/presentation/d/1O6W0lMeXyUtPLl-k30WPJIyH1ecqrcWk29Np3bi6rl0/edit#slide=id.p
 * Example catalogue at https://landsat-stac.s3.amazonaws.com/catalog.json
 * Chat https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby
+* Several useful repos on https://github.com/sat-utils
 
 # State of the art
 What are companies doing?
