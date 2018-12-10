@@ -175,7 +175,7 @@ What are companies doing?
 This section explores the different techniques (DL, ML & classical) people are applying to common problems in satellite imagery analysis. Classification problems are the most simply addressed via DL, object detection is harder, and cloud detection harder still (niche interest).
 
 ## Land classification
-* Very common problem, typically addressed via CNN. See my notebooks.
+* Very common problem, typically addressed via CNN. [See my notebooks](https://github.com/robmarkcole/satellite-image-deep-learning/tree/master/land_classification)
 
 ## Object detection
 * A typical task is detecting boats on the ocean, which should be simpler than land based challenges owing to blank background in images, but is still challenging and no convincing robust solutions available.
