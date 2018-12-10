@@ -175,12 +175,18 @@ What are companies doing?
 * Pangeo - resources for parallel processing using Dask and Xarray http://pangeo.io/index.html
 * Open Data Cube - serve up cubes of data https://www.opendatacube.org/
 * [Process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
+* [OpenDroneMap](https://github.com/OpenDroneMap/ODM) - generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images.
 
 # Techniques
 This section explores the different techniques (DL, ML & classical) people are applying to common problems in satellite imagery analysis. Classification problems are the most simply addressed via DL, object detection is harder, and cloud detection harder still (niche interest).
 
 ## Land classification
 * Very common problem, typically addressed via CNN. [See my notebooks](https://github.com/robmarkcole/satellite-image-deep-learning/tree/master/land_classification)
+
+## Change detection
+* Monitor water levels, coast lines, size of urban areas, wildfire damage
+*
+
 
 ## Object detection
 * A typical task is detecting boats on the ocean, which should be simpler than land based challenges owing to blank background in images, but is still challenging and no convincing robust solutions available.
@@ -195,12 +201,16 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [This article](https://www.mdpi.com/2072-4292/8/8/666) compares a number of ML algorithms, random forests, stochastic gradient descent, support vector machines, Bayesian method.
 * DL..
 
-## Hyper resolution
-* Some academic papers on this
+## Super resolution
+* https://medium.com/the-downlinq/super-resolution-on-satellite-imagery-using-deep-learning-part-1-ec5c5cd3cd2
+* https://modeldepot.io/joe/vdsr-for-super-resolution
 
 ## Pansharpening
 * Does not require DL, classical algos suffice
 * https://github.com/mapbox/rio-pansharpen
+
+## Photogrammetry
+
 
 ## NVDI - vegetation index
 * Does not require DL.
