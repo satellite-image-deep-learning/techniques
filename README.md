@@ -1,3 +1,6 @@
+# Introduction
+This document primarily lists resources for performing deep learning (DL) on satellite imagery.
+
 # Datasets
 * https://github.com/chrieke/awesome-satellite-imagery-datasets
 * [Various datasets listed here](https://www.maptiler.com/gallery/satellite/)
@@ -128,7 +131,8 @@ List of available cloud resources
 
 TensorFlow Serving makes it easy to deploy new algorithms and experiments, while keeping the same server architecture and APIs. Multiple models, or indeed multiple versions of the same model, can be served simultaneously.  TensorFlow Serving comes with a scheduler that groups individual inference requests into batches for joint execution on a GPU
 
-### Floydhub??
+### Floydhub
+* Allows exposing model via rest API
 
 ### modeldepot
 * https://modeldepot.io
@@ -142,22 +146,33 @@ TensorFlow Serving makes it easy to deploy new algorithms and experiments, while
 
 # STAC - SpatioTemporal Asset Catalog
 * Specification describing the layout of a catalogue comprising of static files. The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface.
+* An initiative of https://www.radiant.earth/ in particular https://github.com/cholmes
 * Spec at https://github.com/radiantearth/stac-spec
 * Browser at https://github.com/radiantearth/stac-browser
 * Talk at https://docs.google.com/presentation/d/1O6W0lMeXyUtPLl-k30WPJIyH1ecqrcWk29Np3bi6rl0/edit#slide=id.p
 * Example catalogue at https://landsat-stac.s3.amazonaws.com/catalog.json
+* Chat https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby
 
 # State of the art
 What are companies doing?
 * Many using AWS S3 backend for image storage, see [DigitalGlobe](http://blog.digitalglobe.com/developers/cloud-optimized-geotiffs-and-the-path-to-accessible-satellite-imagery-analytics/). some have these integrated with (likely) Geoserver, e.g. [Planet](https://github.com/planetlabs). Just speculating, but a [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be the way to go. For simplifying deployment services like [Algorithmia](https://algorithmia.com/) may be useful
-* [Voyager](https://www.voyagersearch.com/using-aws-batch-to-generate-image-thumbnails-for-voyager)
 * Pangeo - resources for parallel processing of images http://pangeo.io/index.html
 * Open Data Cube - serve up cubes of data https://www.opendatacube.org/
 * [Process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
 
-## Cloud detection
-* Either (1) algorithm that detects thresholds in multiple bands or (2) machine learning single pixel classification -> https://medium.com/sentinel-hub/improving-cloud-detection-with-machine-learning-c09dc5d7cf13
+# Techniques
+This section explores the different techniques (classical and DL) people are applying to common problems in imagery analysis.
 
+## Cloud detection
+* From [this article on sentinelhub](https://medium.com/sentinel-hub/improving-cloud-detection-with-machine-learning-c09dc5d7cf13) there are three popular classical algorithms that detects thresholds in multiple bands in order to identify clouds. In the same article they discuss a using semantic segmentation combined with a CNN for a cloud classifier (excellent review paper [here](https://arxiv.org/pdf/1704.06857.pdf)).
+* DL..
+
+## NVDI - vegetation index
+* Does not require DL.
+* [Planet use numpy](https://github.com/planetlabs/notebooks/blob/master/jupyter-notebooks/ndvi/ndvi_planetscope.ipynb)
+
+## Object detection
+* [Planet use non DL felzenszwalb algorithm to detect ships](https://github.com/planetlabs/notebooks/blob/master/jupyter-notebooks/ship-detector/01_ship_detector.ipynb)
 
 # Useful References
 * https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
