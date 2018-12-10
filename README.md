@@ -172,18 +172,22 @@ What are companies doing?
 * [Process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
 
 # Techniques
-This section explores the different techniques (DL, ML & classical) people are applying to common problems in satellite imagery analysis.
+This section explores the different techniques (DL, ML & classical) people are applying to common problems in satellite imagery analysis. Classification problems are the most simply addressed via DL, object detection is harder, and cloud detection harder still (niche interest).
 
-## Cloud detection
-* From [this article on sentinelhub](https://medium.com/sentinel-hub/improving-cloud-detection-with-machine-learning-c09dc5d7cf13) there are three popular classical algorithms that detects thresholds in multiple bands in order to identify clouds. In the same article they propose using semantic segmentation combined with a CNN for a cloud classifier (excellent review paper [here](https://arxiv.org/pdf/1704.06857.pdf)), but state that this requires too much compute resources.
-* [This article](https://www.mdpi.com/2072-4292/8/8/666) compares a number of ML algorithms, random forests, stochastic gradient descent, support vector machines, Bayesian method.
-* DL..
+## Land classification
+* Very common problem, typically addressed via CNN. See my notebooks.
 
 ## Object detection
 * A typical task is detecting boats on the ocean, which should be simpler than land based challenges owing to blank background in images, but is still challenging and no convincing robust solutions available.
 * [Planet use non DL felzenszwalb algorithm to detect ships](https://github.com/planetlabs/notebooks/blob/master/jupyter-notebooks/ship-detector/01_ship_detector.ipynb)
 * See Kaggle Airbus Ship Detection Challenge
 * Intro article [here](https://medium.com/earthcube-stories/how-hard-it-is-for-an-ai-to-detect-ships-on-satellite-images-7265e34aadf0)
+
+## Cloud detection
+* A subset of the object detection problem, but surprisingly challenging
+* From [this article on sentinelhub](https://medium.com/sentinel-hub/improving-cloud-detection-with-machine-learning-c09dc5d7cf13) there are three popular classical algorithms that detects thresholds in multiple bands in order to identify clouds. In the same article they propose using semantic segmentation combined with a CNN for a cloud classifier (excellent review paper [here](https://arxiv.org/pdf/1704.06857.pdf)), but state that this requires too much compute resources.
+* [This article](https://www.mdpi.com/2072-4292/8/8/666) compares a number of ML algorithms, random forests, stochastic gradient descent, support vector machines, Bayesian method.
+* DL..
 
 ## Hyper resolution
 * Some academic papers on this
