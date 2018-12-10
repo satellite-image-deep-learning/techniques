@@ -7,7 +7,7 @@ This document primarily lists resources for performing deep learning (DL) on sat
 
 ## Sentinel-hub
 * Sentinel is the most interesting of the 'open' data sets but is paid. Sentinel-hub provides access to a range of Sentinel data and may be the best overall source of imagery + data.
-* Sentinel 2 -> [raw data - requester pays](https://registry.opendata.aws/sentinel-2/) Also paid access via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py)
+* Sentinel 2 -> [raw data - requester pays](https://registry.opendata.aws/sentinel-2/) Also paid access via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py). [GBDX also has Sentinel imagery](https://notebooks.geobigdata.io/hub/pricing).
 
 ## Kaggle
 Kaggle hosts several large satellite image datasets ([> 1 GB](https://www.kaggle.com/datasets?sortBy=relevance&group=public&search=image&page=1&pageSize=20&size=large&filetype=all&license=all)). A list if general image datasets is [here](https://gisgeography.com/free-satellite-imagery-data-list/). A list of land-use datasets is [here](https://gisgeography.com/free-global-land-cover-land-use-data/).
@@ -166,12 +166,12 @@ TensorFlow Serving makes it easy to deploy new algorithms and experiments, while
 
 # State of the art
 What are companies doing?
-* Overall many using AWS S3 backend for image storage. Just speculating, but a [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks, whilst providing a Jupyter notebook approach for custom analysis.
-* DigitalGlobe have a cloud hosted Jupyter notebook platform called [GBDX](https://platform.digitalglobe.com/gbdx/).
-* Planet have a [Jupyter notebook platform](https://developers.planet.com/) which can be deployed locally and requires an API key. They have a python wrapper to their rest API (which is possibly a wrapper around Geoserver?).
+* Overall trend to using AWS S3 backend for image storage. Just speculating, but a [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks, whilst providing a Jupyter notebook approach for custom analysis. [Cloud optimised geotiffs to become the standard?](http://blog.digitalglobe.com/developers/cloud-optimized-geotiffs-and-the-path-to-accessible-satellite-imagery-analytics/)
+* DigitalGlobe have a cloud hosted Jupyter notebook platform called [GBDX](https://platform.digitalglobe.com/gbdx/). Cloud hosting means they can guarantee the infrastructure supports their algorithms, and they appear to be close/closer to deploying DL. [Tutorial notebooks here](https://notebooks.geobigdata.io/hub/tutorials/list).
+* Planet have a [Jupyter notebook platform](https://developers.planet.com/) which can be deployed locally and requires an [API key](https://developers.planet.com/docs/quickstart/getting-started/) (14 days free). They have a python wrapper (2.7?!) to their rest API. They are mostly focussed on classical & fast algorithms?
 
 # Interesting projects
-* Pangeo - resources for parallel processing of images http://pangeo.io/index.html
+* Pangeo - resources for parallel processing using Dask and Xarray http://pangeo.io/index.html
 * Open Data Cube - serve up cubes of data https://www.opendatacube.org/
 * [Process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
 
