@@ -17,23 +17,23 @@ Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and
 * [Sat4](https://www.kaggle.com/crawford/deepsat-sat4) 500,000 image patches covering four broad land cover classes - **barren land, trees, grassland and a class that consists of all land cover classes other than the above three** [Example notebook](https://www.kaggle.com/robmarkcole/satellite-image-classification)
 * [Sat6](https://www.kaggle.com/crawford/deepsat-sat6) 405,000 image patches each of size 28x28 and covering 6 landcover classes - **barren land, trees, grassland, roads, buildings and water bodies.**
 
-### Kaggle - Draper - place images in order of time
-* https://www.kaggle.com/c/draper-satellite-image-chronology/data
-* Images are grouped into sets of five, each of which have the same setId. Each image in a set was taken on a different day (but not necessarily at the same time each day). The images for each set cover approximately the same area but are not exactly aligned.
+### Kaggle - Amazon from space - classification challenge
+* https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data
+* 3-5 meter resolution GeoTIFF images
+* 12 classes including - **cloudy, primary + waterway** etc
 
 ### Kaggle - DSTL - segmentation challenge
 * https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection
 * 45 satellite images covering 1km x 1km in both 3-band and 16-band formats.
 * 10 Labelled classes include - **Buildings, Road, Trees, Crops, Waterway, Vehicles**
 
-### Kaggle - Amazon from space - classification challenge
-* https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data
-* 3-5 meter resolution GeoTIFF images
-* 12 classes including - **cloudy, primary + waterway** etc
-
 ### Kaggle - Airbus Ship Detection Challenge
 * https://www.kaggle.com/c/airbus-ship-detection/overview
 * I believe there was a problem with this dataset, which led to many complaints that the competition was ruined.
+
+### Kaggle - Draper - place images in order of time
+* https://www.kaggle.com/c/draper-satellite-image-chronology/data
+* Images are grouped into sets of five, each of which have the same setId. Each image in a set was taken on a different day (but not necessarily at the same time each day). The images for each set cover approximately the same area but are not exactly aligned.
 
 ## Alternative datasets
 There are a variety of datasets suitable for land classification problems.
@@ -166,7 +166,11 @@ TensorFlow Serving makes it easy to deploy new algorithms and experiments, while
 
 # State of the art
 What are companies doing?
-* Many using AWS S3 backend for image storage, see [DigitalGlobe](http://blog.digitalglobe.com/developers/cloud-optimized-geotiffs-and-the-path-to-accessible-satellite-imagery-analytics/). some have these integrated with (likely) Geoserver, e.g. [Planet](https://github.com/planetlabs). Just speculating, but a [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be the way to go. For simplifying deployment services like [Algorithmia](https://algorithmia.com/) may be useful
+* Overall many using AWS S3 backend for image storage. Just speculating, but a [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks, whilst providing a Jupyter notebook approach for custom analysis.
+* DigitalGlobe have a cloud hosted Jupyter notebook platform called [GBDX](https://platform.digitalglobe.com/gbdx/).
+* Planet have a [Jupyter notebook platform](https://developers.planet.com/) which can be deployed locally and requires an API key. They have a python wrapper to their rest API (which is possibly a wrapper around Geoserver?).
+
+# Interesting projects
 * Pangeo - resources for parallel processing of images http://pangeo.io/index.html
 * Open Data Cube - serve up cubes of data https://www.opendatacube.org/
 * [Process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
@@ -179,9 +183,10 @@ This section explores the different techniques (DL, ML & classical) people are a
 
 ## Object detection
 * A typical task is detecting boats on the ocean, which should be simpler than land based challenges owing to blank background in images, but is still challenging and no convincing robust solutions available.
+* Intro articles [here](https://medium.com/earthcube-stories/how-hard-it-is-for-an-ai-to-detect-ships-on-satellite-images-7265e34aadf0) and [here](https://medium.com/the-downlinq/object-detection-in-satellite-imagery-a-low-overhead-approach-part-i-cbd96154a1b7).
+* [DigitalGlobe article](http://gbdxstories.digitalglobe.com/boats/) - they use a combination classical techniques (masks, erodes) to reduce the search space (identifying water via [NDWI](https://en.wikipedia.org/wiki/Normalized_difference_water_index) which requires SWIR) then apply a binary DL classifier on candidate regions of interest. They deploy the final algo [as a task](https://github.com/platformstories/boat-detector) on their GBDX platform. They propose that in the future an R-CNN may be suitable for the whole process.
 * [Planet use non DL felzenszwalb algorithm to detect ships](https://github.com/planetlabs/notebooks/blob/master/jupyter-notebooks/ship-detector/01_ship_detector.ipynb)
-* See Kaggle Airbus Ship Detection Challenge
-* Intro article [here](https://medium.com/earthcube-stories/how-hard-it-is-for-an-ai-to-detect-ships-on-satellite-images-7265e34aadf0)
+
 
 ## Cloud detection
 * A subset of the object detection problem, but surprisingly challenging
