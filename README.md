@@ -209,8 +209,10 @@ This section explores the different techniques (DL, ML & classical) people are a
 * Does not require DL, classical algos suffice
 * https://github.com/mapbox/rio-pansharpen
 
-## Photogrammetry
-
+## Stereo imaging
+* https://github.com/MISS3D/s2p -> produces elevation models from images taken by high resolution optical satellites -> demo code on https://gfacciol.github.io/IS18/
+* https://www.digitalglobe.com/resources/product-samples/stereo-satellite-imagery -> stereo imagery
+* https://www.iarpa.gov/challenges/3dchallenge.html -> DARPA competition -> winning solution https://gfacciol.github.io/multi-date-stereo/ 
 
 ## NVDI - vegetation index
 * Does not require DL.
