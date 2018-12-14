@@ -6,7 +6,7 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * [Various datasets listed here](https://www.maptiler.com/gallery/satellite/)
 
 ## Sentinel-hub
-* Sentinel is the most interesting of the 'open' data sets but is paid. Sentinel-hub provides access to a range of Sentinel data and may be the best overall source of imagery + data.
+* One of the best known open data sets. Sentinel-hub provides access to a range of Sentinel data and may be the best overall source of imagery + data.
 * Sentinel 2 -> [raw data - requester pays](https://registry.opendata.aws/sentinel-2/) Also paid access via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py). [GBDX also has Sentinel imagery](https://notebooks.geobigdata.io/hub/pricing).
 
 ## Kaggle
@@ -181,11 +181,14 @@ What are companies doing?
 This section explores the different techniques (DL, ML & classical) people are applying to common problems in satellite imagery analysis. Classification problems are the most simply addressed via DL, object detection is harder, and cloud detection harder still (niche interest).
 
 ## Land classification
-* Very common problem, typically addressed via CNN. [See my notebooks](https://github.com/robmarkcole/satellite-image-deep-learning/tree/master/land_classification)
+* Very common problem, assign land classification to a pixel based on pixel value, can be addressed via [simple sklearn cluster algorithm](https://github.com/acgeospatial/Satellite_Imagery_Python/blob/master/Clustering_KMeans-Sentinel2.ipynb) or [deep learning](https://towardsdatascience.com/land-use-land-cover-classification-with-deep-learning-9a5041095ddb).
+* Land use is related to classification, but we are trying to detect a scene, e.g. housing, forestry. I have tried CNN -> [See my notebooks](https://github.com/robmarkcole/satellite-image-deep-learning/tree/master/land_classification)
+* [Sea-Land segmentation using DL](https://arxiv.org/pdf/1709.00201.pdf)
 
 ## Change detection
-* Monitor water levels, coast lines, size of urban areas, wildfire damage
-*
+* Monitor water levels, coast lines, size of urban areas, wildfire damage.
+* Using PCA -> https://appliedmachinelearning.blog/2017/11/25/unsupervised-changed-detection-in-multi-temporal-satellite-images-using-pca-k-means-python-code/
+* Using CNN -> https://github.com/vbhavank/Unstructured-change-detection-using-CNN
 
 
 ## Object detection
@@ -209,10 +212,14 @@ This section explores the different techniques (DL, ML & classical) people are a
 * Does not require DL, classical algos suffice
 * https://github.com/mapbox/rio-pansharpen
 
-## Stereo imaging
+## Stereo imaging for terrain mapping
+* Map terrain from stereo images to produce a digital elevation model (DEM) -> high resolution & paired images required, typically 0.3 m, e.g. [Worldview](https://dg-cms-uploads-production.s3.amazonaws.com/uploads/document/file/37/DG-WV2ELEVACCRCY-WP.pdf) or [GeoEye](https://www.pobonline.com/articles/100233-when-is-satellite-stereo-imagery-the-best-option-for-3d-modeling).
+* Process of creating a DEM [here](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLI-B1/327/2016/isprs-archives-XLI-B1-327-2016.pdf) and [here](https://www.geoimage.com.au/media/brochure_pdfs/Geoimage_DEM_brochure_Oct10_LR.pdf).
 * https://github.com/MISS3D/s2p -> produces elevation models from images taken by high resolution optical satellites -> demo code on https://gfacciol.github.io/IS18/
-* https://www.digitalglobe.com/resources/product-samples/stereo-satellite-imagery -> stereo imagery
-* https://www.iarpa.gov/challenges/3dchallenge.html -> DARPA competition -> winning solution https://gfacciol.github.io/multi-date-stereo/ 
+* [Intro to depth from stereo](https://github.com/IntelRealSense/librealsense/blob/master/doc/depth-from-stereo.md)
+* [Automatic 3D Reconstruction from Multi-Date Satellite Images](http://dev.ipol.im/~facciolo/pub/CVPRW2017.pdf)
+* [Semi-global matching with neural networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Seki_SGM-Nets_Semi-Global_Matching_CVPR_2017_paper.pdf)
+* [Predict the fate of glaciers](https://github.com/geohackweek/glacierhack_2018)
 
 ## NVDI - vegetation index
 * Does not require DL.
@@ -222,3 +229,4 @@ This section explores the different techniques (DL, ML & classical) people are a
 * https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
 * https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb
 * [Geonotebooks](https://github.com/OpenGeoscience/geonotebook) with [Docker container](https://github.com/OpenGeoscience/geonotebook/tree/master/devops/docker)
+* [Sentinel NetCDF data](https://github.com/acgeospatial/Sentinel-5P/blob/master/Sentinel_5P.ipynb)
