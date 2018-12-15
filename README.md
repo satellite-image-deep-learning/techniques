@@ -1,8 +1,12 @@
 # Introduction
 This document primarily lists resources for performing deep learning (DL) on satellite imagery. To a lesser extent Machine learning (ML, e.g. random forests, stochastic gradient descent) are also discussed, as are classical image processing techniques.
 
-# Datasets
+# Top links
 * https://github.com/chrieke/awesome-satellite-imagery-datasets
+* https://github.com/deepVector/geospatial-machine-learning
+* [A modern geospatial workflow](https://gist.github.com/jacquestardie/0d1c0cb413b3b9b06edf)
+
+# Datasets
 * [Various datasets listed here](https://www.maptiler.com/gallery/satellite/)
 
 ## Sentinel-hub
@@ -189,13 +193,22 @@ This section explores the different techniques (DL, ML & classical) people are a
 * Monitor water levels, coast lines, size of urban areas, wildfire damage.
 * Using PCA -> https://appliedmachinelearning.blog/2017/11/25/unsupervised-changed-detection-in-multi-temporal-satellite-images-using-pca-k-means-python-code/
 * Using CNN -> https://github.com/vbhavank/Unstructured-change-detection-using-CNN
+* [Siamese neural network to detect changes in aerial images](https://github.com/vbhavank/Siamese-neural-network-for-change-detection)
+* https://www.spaceknow.com/
 
+## Image registration
+* [Wikipedia article on registration](https://en.wikipedia.org/wiki/Image_registration) -> register for change detection or [image stitching](https://mono.software/2018/03/14/Image-stitching/)
+* Traditional approach -> define control points, employ RANSAC algorithm
+* [Phase correlation](https://en.wikipedia.org/wiki/Phase_correlation) used to estimate the translation between two images with sub-pixel accuracy, useful for [allows accurate registration of low resolution imagery onto high resolution imagery](https://onlinelibrary.wiley.com/doi/10.1002/9781118724194.ch11), or register a [sub-image on a full image](https://www.mathworks.com/help/images/registering-an-image-using-normalized-cross-correlation.html) -> Unlike many spatial-domain algorithms, the phase correlation method is resilient to noise, occlusions, and other defects. [Applied to Landsat images here](https://github.com/JamieTurrin/Phase-Correlation).
 
 ## Object detection
 * A typical task is detecting boats on the ocean, which should be simpler than land based challenges owing to blank background in images, but is still challenging and no convincing robust solutions available.
 * Intro articles [here](https://medium.com/earthcube-stories/how-hard-it-is-for-an-ai-to-detect-ships-on-satellite-images-7265e34aadf0) and [here](https://medium.com/the-downlinq/object-detection-in-satellite-imagery-a-low-overhead-approach-part-i-cbd96154a1b7).
 * [DigitalGlobe article](http://gbdxstories.digitalglobe.com/boats/) - they use a combination classical techniques (masks, erodes) to reduce the search space (identifying water via [NDWI](https://en.wikipedia.org/wiki/Normalized_difference_water_index) which requires SWIR) then apply a binary DL classifier on candidate regions of interest. They deploy the final algo [as a task](https://github.com/platformstories/boat-detector) on their GBDX platform. They propose that in the future an R-CNN may be suitable for the whole process.
 * [Planet use non DL felzenszwalb algorithm to detect ships](https://github.com/planetlabs/notebooks/blob/master/jupyter-notebooks/ship-detector/01_ship_detector.ipynb)
+* [Segmentation of buildings on kaggle](https://www.kaggle.com/kmader/synthetic-word-ocr/kernels)
+* [Identifying Buildings in Satellite Images with Machine Learning and Quilt](https://blog.quiltdata.com/identifying-buildings-in-satellite-images-with-machine-learning-and-quilt-5a5579670885)
+* [Deep learning for satellite imagery via image segmentation](https://deepsense.ai/deep-learning-for-satellite-imagery-via-image-segmentation/)
 
 
 ## Cloud detection
@@ -209,7 +222,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * https://modeldepot.io/joe/vdsr-for-super-resolution
 
 ## Pansharpening
-* Does not require DL, classical algos suffice
+* Does not require DL, classical algos suffice, [see this notebook](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/panchromatic_sharpening.ipynb)
 * https://github.com/mapbox/rio-pansharpen
 
 ## Stereo imaging for terrain mapping
@@ -220,10 +233,14 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Automatic 3D Reconstruction from Multi-Date Satellite Images](http://dev.ipol.im/~facciolo/pub/CVPRW2017.pdf)
 * [Semi-global matching with neural networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Seki_SGM-Nets_Semi-Global_Matching_CVPR_2017_paper.pdf)
 * [Predict the fate of glaciers](https://github.com/geohackweek/glacierhack_2018)
+* [monodepth - Unsupervised single image depth prediction with CNNs](https://github.com/mrharicot/monodepth)
+* [Stereo Matching by Training a Convolutional Neural Network to Compare Image Patches](https://github.com/jzbontar/mc-cnn)
 
 ## NVDI - vegetation index
-* Does not require DL.
-* [Planet use numpy](https://github.com/planetlabs/notebooks/blob/master/jupyter-notebooks/ndvi/ndvi_planetscope.ipynb)
+* Simple band math - [see this notebook](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/ndvi_calculation.ipynb)
+
+# For fun
+* [Style transfer - see the world in a new way](https://gist.github.com/jacquestardie/6227891818625e4c19c1b1d5bebe4fe4)
 
 # Useful References
 * https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
