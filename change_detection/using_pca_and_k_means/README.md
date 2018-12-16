@@ -1,0 +1,1 @@
+Nicely written article and code on Github [here](https://github.com/abhijeet3922/Change-Detection-in-Satellite-Imagery) but out of data (python 2 and dependencies not listed in a requirements.txt). Therefore reproduce this work using modern stack.
