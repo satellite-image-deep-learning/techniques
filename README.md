@@ -57,6 +57,9 @@ There are a variety of datasets suitable for land classification problems.
 * Optical, radar, segmented etc. https://aws.amazon.com/earth/
 * [SpaceNet](https://spacenetchallenge.github.io/datasets/datasetHomePage.html)
 
+### Quilt
+* Several people have uploaded datasets to [Quilt](https://quiltdata.com/search/?q=satellite)
+
 # Online computing resources
 Generally a GPU is required for DL. [Googles colab](https://colab.research.google.com/) is free but limited compute time (12 hours) and somewhat non persistent,
 
@@ -207,7 +210,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [DigitalGlobe article](http://gbdxstories.digitalglobe.com/boats/) - they use a combination classical techniques (masks, erodes) to reduce the search space (identifying water via [NDWI](https://en.wikipedia.org/wiki/Normalized_difference_water_index) which requires SWIR) then apply a binary DL classifier on candidate regions of interest. They deploy the final algo [as a task](https://github.com/platformstories/boat-detector) on their GBDX platform. They propose that in the future an R-CNN may be suitable for the whole process.
 * [Planet use non DL felzenszwalb algorithm to detect ships](https://github.com/planetlabs/notebooks/blob/master/jupyter-notebooks/ship-detector/01_ship_detector.ipynb)
 * [Segmentation of buildings on kaggle](https://www.kaggle.com/kmader/synthetic-word-ocr/kernels)
-* [Identifying Buildings in Satellite Images with Machine Learning and Quilt](https://blog.quiltdata.com/identifying-buildings-in-satellite-images-with-machine-learning-and-quilt-5a5579670885)
+* [Identifying Buildings in Satellite Images with Machine Learning and Quilt](https://github.com/jyamaoka/LandUse) -> NDVI & edge detection via gaussian blur as features, fed to TPOT for training with labels from OpenStreetMap, modelled as a two class problem, “Buildings” and “Nature”. 
 * [Deep learning for satellite imagery via image segmentation](https://deepsense.ai/deep-learning-for-satellite-imagery-via-image-segmentation/)
 
 
@@ -237,7 +240,9 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Stereo Matching by Training a Convolutional Neural Network to Compare Image Patches](https://github.com/jzbontar/mc-cnn)
 
 ## NVDI - vegetation index
-* Simple band math - [see this notebook](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/ndvi_calculation.ipynb)
+* Simple band math `ndvi = np.true_divide((ir - r), (ir + r))`
+* [Example notebook](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/ndvi_calculation.ipynb)
+
 
 # For fun
 * [Style transfer - see the world in a new way](https://gist.github.com/jacquestardie/6227891818625e4c19c1b1d5bebe4fe4)
