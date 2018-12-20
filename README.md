@@ -52,10 +52,6 @@ There are a variety of datasets suitable for land classification problems.
 * There are 100 RGB TIFF images for each class
 * Each image measures 256x256 pixels with a pixel resolution of 1 foot
 
-### Google Datasets
-* A wide variety of datasets, including satellite imagery in optical, radar bands etc.
-* https://cloud.google.com/public-datasets/
-
 ### AWS datasets
 * Landsat -> free viewer at [remotepixel](https://viewer.remotepixel.ca/#3/40/-70.5) and [libra](https://libra.developmentseed.org/)
 * Optical, radar, segmented etc. https://aws.amazon.com/earth/
@@ -63,6 +59,14 @@ There are a variety of datasets suitable for land classification problems.
 
 ### Quilt
 * Several people have uploaded datasets to [Quilt](https://quiltdata.com/search/?q=satellite)
+
+### Google Earth Engine
+* https://developers.google.com/earth-engine/
+* Various imagery and climate datasets, including Landsat & Sentinel imagery
+* [Python API](https://developers.google.com/earth-engine/python_install) but  all compute happens on Googles servers
+
+### Weather Datasets
+* https://www.metoffice.gov.uk/datapoint
 
 # Online computing resources
 Generally a GPU is required for DL. [Googles colab](https://colab.research.google.com/) is free but limited compute time (12 hours) and somewhat non persistent,
