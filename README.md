@@ -43,6 +43,9 @@ Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and
 * https://www.kaggle.com/c/draper-satellite-image-chronology/data
 * Images are grouped into sets of five, each of which have the same setId. Each image in a set was taken on a different day (but not necessarily at the same time each day). The images for each set cover approximately the same area but are not exactly aligned.
 
+### Kaggle - other
+* Satellite + loan data -> https://www.kaggle.com/reubencpereira/spatial-data-repo
+
 ## Alternative datasets
 There are a variety of datasets suitable for land classification problems.
 
@@ -66,7 +69,10 @@ There are a variety of datasets suitable for land classification problems.
 * [Python API](https://developers.google.com/earth-engine/python_install) but  all compute happens on Googles servers
 
 ### Weather Datasets
-* https://www.metoffice.gov.uk/datapoint
+* UK met-odffice -> https://www.metoffice.gov.uk/datapoint
+* NASA (make request and emailed when ready) -> https://search.earthdata.nasa.gov
+* NOAA (requires BigQuery) -> https://www.kaggle.com/noaa/goes16/home
+* Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 
 # Online computing resources
 Generally a GPU is required for DL. [Googles colab](https://colab.research.google.com/) is free but limited compute time (12 hours) and somewhat non persistent,
@@ -169,6 +175,8 @@ TensorFlow Serving makes it easy to deploy new algorithms and experiments, while
 * https://terria.io/ for pretty catalogues
 * [Remote pixel](https://remotepixel.ca/projects/index.html#satsearch)
 * [Sentinel-hub eo-browser](https://apps.sentinel-hub.com/eo-browser/)
+* Large datasets may come in HDF5 format, can view with -> https://www.hdfgroup.org/downloads/hdfview/
+* Climate data is often in netcdf format, which can be [opened using xarray](https://moderndata.plot.ly/weather-maps-in-python-with-mapbox-gl-xarray-and-netcdf4/)
 
 # STAC - SpatioTemporal Asset Catalog
 * Specification describing the layout of a catalogue comprising of static files. The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface.
