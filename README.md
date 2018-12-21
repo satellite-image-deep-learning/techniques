@@ -14,7 +14,7 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * [Production](https://github.com/robmarkcole/satellite-image-deep-learning#production)
 * [Image formats and catalogues](https://github.com/robmarkcole/satellite-image-deep-learning#image-formats--catalogues)
 * [State of the art](https://github.com/robmarkcole/satellite-image-deep-learning#state-of-the-art)
-* [Interesting projects](https://github.com/robmarkcole/satellite-image-deep-learning#interesting-projects)
+* [Online platforms for Geo analysis](https://github.com/robmarkcole/satellite-image-deep-learning#online-platforms-for-geo-analysis)
 * [Techniques](https://github.com/robmarkcole/satellite-image-deep-learning#techniques)
 * [Useful references](https://github.com/robmarkcole/satellite-image-deep-learning#useful-references)
 
