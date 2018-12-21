@@ -5,6 +5,18 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * https://github.com/chrieke/awesome-satellite-imagery-datasets
 * https://github.com/deepVector/geospatial-machine-learning
 * [A modern geospatial workflow](https://gist.github.com/jacquestardie/0d1c0cb413b3b9b06edf)
+* [geospatial-machine-learning](https://github.com/deepVector/geospatial-machine-learning)
+
+# Table of contents
+* [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
+* [Online computing resources](https://github.com/robmarkcole/satellite-image-deep-learning#online-computing-resources)
+* [Interesting dl projects](https://github.com/robmarkcole/satellite-image-deep-learning#interesting-dl-projects)
+* [Production](https://github.com/robmarkcole/satellite-image-deep-learning#production)
+* [Image formats and catalogues](https://github.com/robmarkcole/satellite-image-deep-learning#image-formats--catalogues)
+* [State of the art](https://github.com/robmarkcole/satellite-image-deep-learning#state-of-the-art)
+* [Interesting projects](https://github.com/robmarkcole/satellite-image-deep-learning#interesting-projects)
+* [Techniques](https://github.com/robmarkcole/satellite-image-deep-learning#techniques)
+* [Useful references](https://github.com/robmarkcole/satellite-image-deep-learning#useful-references)
 
 # Datasets
 * [Various datasets listed here](https://www.maptiler.com/gallery/satellite/)
@@ -178,7 +190,7 @@ TensorFlow Serving makes it easy to deploy new algorithms and experiments, while
 * Large datasets may come in HDF5 format, can view with -> https://www.hdfgroup.org/downloads/hdfview/
 * Climate data is often in netcdf format, which can be [opened using xarray](https://moderndata.plot.ly/weather-maps-in-python-with-mapbox-gl-xarray-and-netcdf4/)
 
-# STAC - SpatioTemporal Asset Catalog
+## STAC - SpatioTemporal Asset Catalog
 * Specification describing the layout of a catalogue comprising of static files. The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface.
 * An initiative of https://www.radiant.earth/ in particular https://github.com/cholmes
 * Spec at https://github.com/radiantearth/stac-spec
@@ -208,7 +220,11 @@ This section explores the different techniques (DL, ML & classical) people are a
 ## Land classification
 * Very common problem, assign land classification to a pixel based on pixel value, can be addressed via [simple sklearn cluster algorithm](https://github.com/acgeospatial/Satellite_Imagery_Python/blob/master/Clustering_KMeans-Sentinel2.ipynb) or [deep learning](https://towardsdatascience.com/land-use-land-cover-classification-with-deep-learning-9a5041095ddb).
 * Land use is related to classification, but we are trying to detect a scene, e.g. housing, forestry. I have tried CNN -> [See my notebooks](https://github.com/robmarkcole/satellite-image-deep-learning/tree/master/land_classification)
+* [Land Use Classification using Convolutional Neural Network in Keras](https://github.com/tavgreen/landuse_classification)
 * [Sea-Land segmentation using DL](https://arxiv.org/pdf/1709.00201.pdf)
+* [Pixel level segmentation on Azure](https://github.com/Azure/pixel_level_land_classification)
+* [Deep Learning-Based Classification of Hyperspectral Data](https://github.com/hantek/deeplearn_hsi)
+* [A U-net based on Tensorflow for objection detection (or segmentation) of satellite images - DSTL dataset but python 2.7](https://github.com/rogerxujiang/dstl_unet)
 
 ## Change detection
 * Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
@@ -216,6 +232,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * Using CNN -> https://github.com/vbhavank/Unstructured-change-detection-using-CNN
 * [Siamese neural network to detect changes in aerial images](https://github.com/vbhavank/Siamese-neural-network-for-change-detection)
 * https://www.spaceknow.com/
+* [LANDSAT Time Series Analysis for Multi-temporal Land Cover Classification using Random Forest](https://github.com/agr-ayush/Landsat-Time-Series-Analysis-for-Multi-Temporal-Land-Cover-Classification)
 
 ## Image registration
 * [Wikipedia article on registration](https://en.wikipedia.org/wiki/Image_registration) -> register for change detection or [image stitching](https://mono.software/2018/03/14/Image-stitching/)
@@ -246,7 +263,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * Does not require DL, classical algos suffice, [see this notebook](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/panchromatic_sharpening.ipynb)
 * https://github.com/mapbox/rio-pansharpen
 
-## Stereo imaging for terrain mapping
+## Stereo imaging for terrain mapping & DEMs
 * Map terrain from stereo images to produce a digital elevation model (DEM) -> high resolution & paired images required, typically 0.3 m, e.g. [Worldview](https://dg-cms-uploads-production.s3.amazonaws.com/uploads/document/file/37/DG-WV2ELEVACCRCY-WP.pdf) or [GeoEye](https://www.pobonline.com/articles/100233-when-is-satellite-stereo-imagery-the-best-option-for-3d-modeling).
 * Process of creating a DEM [here](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLI-B1/327/2016/isprs-archives-XLI-B1-327-2016.pdf) and [here](https://www.geoimage.com.au/media/brochure_pdfs/Geoimage_DEM_brochure_Oct10_LR.pdf).
 * https://github.com/MISS3D/s2p -> produces elevation models from images taken by high resolution optical satellites -> demo code on https://gfacciol.github.io/IS18/
@@ -256,6 +273,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Predict the fate of glaciers](https://github.com/geohackweek/glacierhack_2018)
 * [monodepth - Unsupervised single image depth prediction with CNNs](https://github.com/mrharicot/monodepth)
 * [Stereo Matching by Training a Convolutional Neural Network to Compare Image Patches](https://github.com/jzbontar/mc-cnn)
+* [Terrain and hydrological analysis based on LiDAR-derived digital elevation models (DEM) - Python package](https://github.com/giswqs/lidar)
 
 ## NVDI - vegetation index
 * Simple band math `ndvi = np.true_divide((ir - r), (ir + r))`
