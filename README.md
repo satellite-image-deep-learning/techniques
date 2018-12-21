@@ -24,6 +24,8 @@ This document primarily lists resources for performing deep learning (DL) on sat
 ## Sentinel
 * One of the best known open data sets. See [wikipedia](https://en.wikipedia.org/wiki/Sentinel-2).
 * Sentinel-hub provides access to a range of Sentinel data and may be the best overall source of imagery + data.
+* [Descartes Labs Platform hosts sentinel data](https://medium.com/descarteslabs-team/fighting-wildfires-using-a-cloud-based-supercomputer-e6ca7852ff91)
+* [Playground to explore data](https://apps.sentinel-hub.com/sentinel-playground)
 * [raw data - requester pays](https://registry.opendata.aws/sentinel-2/)
 * Paid access via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py).
 * [GBDX also has Sentinel imagery](https://notebooks.geobigdata.io/hub/pricing).
@@ -205,14 +207,13 @@ What are companies doing?
 * Overall trend to using AWS S3 backend for image storage. There are a variety of tools for exploring and having teams collaborate on data on S3, e.g. [T4](https://github.com/quiltdata/t4).
 * Just speculating, but a [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks, whilst providing a Jupyter notebook approach for custom analysis.
 * [Cloud optimised geotiffs to become the standard?](http://blog.digitalglobe.com/developers/cloud-optimized-geotiffs-and-the-path-to-accessible-satellite-imagery-analytics/)
+
+# Online platforms for Geo analysis
+* Pangeo - open source resources for parallel processing using Dask and Xarray http://pangeo.io/index.html
+* [Descartes Labs](https://www.descarteslabs.com/) -> access to EO imagery from a variety of providers
 * DigitalGlobe have a cloud hosted Jupyter notebook platform called [GBDX](https://platform.digitalglobe.com/gbdx/). Cloud hosting means they can guarantee the infrastructure supports their algorithms, and they appear to be close/closer to deploying DL. [Tutorial notebooks here](https://notebooks.geobigdata.io/hub/tutorials/list).
 * Planet have a [Jupyter notebook platform](https://developers.planet.com/) which can be deployed locally and requires an [API key](https://developers.planet.com/docs/quickstart/getting-started/) (14 days free). They have a python wrapper (2.7?!) to their rest API. They are mostly focussed on classical & fast algorithms?
 
-# Interesting projects
-* Pangeo - resources for parallel processing using Dask and Xarray http://pangeo.io/index.html
-* Open Data Cube - serve up cubes of data https://www.opendatacube.org/
-* [Process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
-* [OpenDroneMap](https://github.com/OpenDroneMap/ODM) - generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images.
 
 # Techniques
 This section explores the different techniques (DL, ML & classical) people are applying to common problems in satellite imagery analysis. Classification problems are the most simply addressed via DL, object detection is harder, and cloud detection harder still (niche interest).
@@ -247,6 +248,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Segmentation of buildings on kaggle](https://www.kaggle.com/kmader/synthetic-word-ocr/kernels)
 * [Identifying Buildings in Satellite Images with Machine Learning and Quilt](https://github.com/jyamaoka/LandUse) -> NDVI & edge detection via gaussian blur as features, fed to TPOT for training with labels from OpenStreetMap, modelled as a two class problem, “Buildings” and “Nature”.
 * [Deep learning for satellite imagery via image segmentation](https://deepsense.ai/deep-learning-for-satellite-imagery-via-image-segmentation/)
+* [Building Extraction with YOLT2 and SpaceNet Data](https://medium.com/the-downlinq/building-extraction-with-yolt2-and-spacenet-data-a926f9ffac4f)
 
 
 ## Cloud detection
@@ -279,7 +281,6 @@ This section explores the different techniques (DL, ML & classical) people are a
 * Simple band math `ndvi = np.true_divide((ir - r), (ir + r))`
 * [Example notebook](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/ndvi_calculation.ipynb)
 
-
 # For fun
 * [Style transfer - see the world in a new way](https://gist.github.com/jacquestardie/6227891818625e4c19c1b1d5bebe4fe4)
 
@@ -288,3 +289,6 @@ This section explores the different techniques (DL, ML & classical) people are a
 * https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb
 * [Geonotebooks](https://github.com/OpenGeoscience/geonotebook) with [Docker container](https://github.com/OpenGeoscience/geonotebook/tree/master/devops/docker)
 * [Sentinel NetCDF data](https://github.com/acgeospatial/Sentinel-5P/blob/master/Sentinel_5P.ipynb)
+* Open Data Cube - serve up cubes of data https://www.opendatacube.org/
+* [Process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
+* [OpenDroneMap](https://github.com/OpenDroneMap/ODM) - generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images.
