@@ -190,6 +190,7 @@ TensorFlow Serving makes it easy to deploy new algorithms and experiments, while
 * [Sentinel-hub eo-browser](https://apps.sentinel-hub.com/eo-browser/)
 * Large datasets may come in HDF5 format, can view with -> https://www.hdfgroup.org/downloads/hdfview/
 * Climate data is often in netcdf format, which can be [opened using xarray](https://moderndata.plot.ly/weather-maps-in-python-with-mapbox-gl-xarray-and-netcdf4/)
+* The xarray docs list a number of ways that data [can be stored and loaded](http://xarray.pydata.org/en/latest/io.html#).
 
 ## STAC - SpatioTemporal Asset Catalog
 * Specification describing the layout of a catalogue comprising of static files. The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface.
