@@ -21,7 +21,7 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * [Various datasets listed here](https://www.maptiler.com/gallery/satellite/)
 
 ## Sentinel
-* One of the best known open data sets. See [wikipedia](https://en.wikipedia.org/wiki/Sentinel-2).
+* As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_Programme), multiple Sentinel satellites are capturing imagery -> see [wikipedia](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions).
 * Sentinel-hub provides access to a range of Sentinel data and may be the best overall source of imagery + data.
 * [Descartes Labs Platform hosts sentinel data](https://medium.com/descarteslabs-team/fighting-wildfires-using-a-cloud-based-supercomputer-e6ca7852ff91)
 * [Playground to explore data](https://apps.sentinel-hub.com/sentinel-playground)
@@ -29,6 +29,10 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * Paid access via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py).
 * [GBDX also has Sentinel imagery](https://notebooks.geobigdata.io/hub/pricing).
 * [Example loading sentinel data in a notebook](https://github.com/binder-examples/getting-data/blob/master/Sentinel2.ipynb)
+
+## Landsat
+* Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
+* [Imagery on GCP](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with imagery analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) on Pangeo
 
 ## Kaggle
 Kaggle hosts several large satellite image datasets ([> 1 GB](https://www.kaggle.com/datasets?sortBy=relevance&group=public&search=image&page=1&pageSize=20&size=large&filetype=all&license=all)). A list if general image datasets is [here](https://gisgeography.com/free-satellite-imagery-data-list/). A list of land-use datasets is [here](https://gisgeography.com/free-global-land-cover-land-use-data/).
@@ -210,6 +214,7 @@ What are companies doing?
 * Traditional data formats aren't designed for processing, so new standards are developing such as [cloud optimised geotiffs](http://blog.digitalglobe.com/developers/cloud-optimized-geotiffs-and-the-path-to-accessible-satellite-imagery-analytics/) and [zarr](https://github.com/zarr-developers/zarr)
 
 # Online platforms for Geo analysis
+* [This article discusses some of the available platforms](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2) -> TLDR Pangeo rocks
 * Pangeo - open source resources for parallel processing using Dask and Xarray http://pangeo.io/index.html
 * [Descartes Labs](https://www.descarteslabs.com/) -> access to EO imagery from a variety of providers
 * DigitalGlobe have a cloud hosted Jupyter notebook platform called [GBDX](https://platform.digitalglobe.com/gbdx/). Cloud hosting means they can guarantee the infrastructure supports their algorithms, and they appear to be close/closer to deploying DL. [Tutorial notebooks here](https://notebooks.geobigdata.io/hub/tutorials/list).
@@ -279,8 +284,9 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Terrain and hydrological analysis based on LiDAR-derived digital elevation models (DEM) - Python package](https://github.com/giswqs/lidar)
 
 ## NVDI - vegetation index
-* Simple band math `ndvi = np.true_divide((ir - r), (ir + r))`
-* [Example notebook](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/ndvi_calculation.ipynb)
+* Simple band math `ndvi = np.true_divide((ir - r), (ir + r))` but challenging due to the size of the imagery.
+* [Example notebook local](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/ndvi_calculation.ipynb)
+* [Landsat data in cloud optimised format analysed for NVDI](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) with [medium article here](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2).
 
 # For fun
 * [Style transfer - see the world in a new way](https://gist.github.com/jacquestardie/6227891818625e4c19c1b1d5bebe4fe4)
