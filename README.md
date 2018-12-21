@@ -3,7 +3,6 @@ This document primarily lists resources for performing deep learning (DL) on sat
 
 # Top links
 * https://github.com/chrieke/awesome-satellite-imagery-datasets
-* https://github.com/deepVector/geospatial-machine-learning
 * [A modern geospatial workflow](https://gist.github.com/jacquestardie/0d1c0cb413b3b9b06edf)
 * [geospatial-machine-learning](https://github.com/deepVector/geospatial-machine-learning)
 
@@ -261,7 +260,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * https://medium.com/the-downlinq/super-resolution-on-satellite-imagery-using-deep-learning-part-1-ec5c5cd3cd2
 * https://modeldepot.io/joe/vdsr-for-super-resolution
 
-## Pansharpening
+## Pansharpening
 * Does not require DL, classical algos suffice, [see this notebook](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/panchromatic_sharpening.ipynb)
 * https://github.com/mapbox/rio-pansharpen
 
