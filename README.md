@@ -35,7 +35,7 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * [Imagery on GCP](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with imagery analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) on Pangeo
 
 ## Kaggle
-Kaggle hosts several large satellite image datasets ([> 1 GB](https://www.kaggle.com/datasets?sortBy=relevance&group=public&search=image&page=1&pageSize=20&size=large&filetype=all&license=all)). A list if general image datasets is [here](https://gisgeography.com/free-satellite-imagery-data-list/). A list of land-use datasets is [here](https://gisgeography.com/free-global-land-cover-land-use-data/).
+Kaggle hosts several large satellite image datasets ([> 1 GB](https://www.kaggle.com/datasets?sortBy=relevance&group=public&search=image&page=1&pageSize=20&size=large&filetype=all&license=all)). A list if general image datasets is [here](https://gisgeography.com/free-satellite-imagery-data-list/). A list of land-use datasets is [here](https://gisgeography.com/free-global-land-cover-land-use-data/). The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 
 ### Kaggle - Deepsat - classification challenge
 Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and near infrared. The training and test labels are one-hot encoded 1x6 vectors. Each image patch is size normalized to 28x28 pixels. Data in `.mat` Matlab format. JPEG?
@@ -46,11 +46,15 @@ Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and
 * https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data
 * 3-5 meter resolution GeoTIFF images
 * 12 classes including - **cloudy, primary + waterway** etc
+* [1st place winner interview - used 11 custom CNN](http://blog.kaggle.com/2017/10/17/planet-understanding-the-amazon-from-space-1st-place-winners-interview/)
 
 ### Kaggle - DSTL - segmentation challenge
 * https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection
+* Rating - medium, many good examples (see the Discussion as well as kernels)
+* 3 (i.e. RGB) and 16-band (400nm - SWIR) images
 * 45 satellite images covering 1km x 1km in both 3-band and 16-band formats.
 * 10 Labelled classes include - **Buildings, Road, Trees, Crops, Waterway, Vehicles**
+* [Interview with 1st place winner who used segmentation networks](http://blog.kaggle.com/2017/04/26/dstl-satellite-imagery-competition-1st-place-winners-interview-kyle-lee/) - 40+ models, each tweaked for particular target (e.g. roads, trees)
 
 ### Kaggle - Airbus Ship Detection Challenge
 * https://www.kaggle.com/c/airbus-ship-detection/overview
@@ -61,6 +65,7 @@ Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and
 * https://www.kaggle.com/c/draper-satellite-image-chronology/data
 * Rating - hard. Not many useful kernels.
 * Images are grouped into sets of five, each of which have the same setId. Each image in a set was taken on a different day (but not necessarily at the same time each day). The images for each set cover approximately the same area but are not exactly aligned.
+* Kaggle interviews for entrants who [used XGBOOST](http://blog.kaggle.com/2016/09/15/draper-satellite-image-chronology-machine-learning-solution-vicens-gaitan/) and a [hybrid human/ML approach](http://blog.kaggle.com/2016/09/08/draper-satellite-image-chronology-damien-soukhavong/)
 
 ### Kaggle - other
 * Satellite + loan data -> https://www.kaggle.com/reubencpereira/spatial-data-repo
