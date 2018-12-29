@@ -34,6 +34,12 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
 * [Imagery on GCP](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with imagery analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) on Pangeo
 
+## Worldview-3
+* https://en.wikipedia.org/wiki/WorldView-3
+* 0.3m PAN, 1.24 MS, 3.7m SWIR
+* [Some publicly available data here](http://menthe.ovh.hw.ipol.im/IARPA_data/cloud_optimized_geotif/) used in the 3D modelling notebook [here](https://gfacciol.github.io/IS18/).
+
+
 ## Kaggle
 Kaggle hosts several large satellite image datasets ([> 1 GB](https://www.kaggle.com/datasets?sortBy=relevance&group=public&search=image&page=1&pageSize=20&size=large&filetype=all&license=all)). A list if general image datasets is [here](https://gisgeography.com/free-satellite-imagery-data-list/). A list of land-use datasets is [here](https://gisgeography.com/free-global-land-cover-land-use-data/). The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 
