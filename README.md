@@ -61,6 +61,7 @@ Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and
 * 45 satellite images covering 1km x 1km in both 3-band and 16-band formats.
 * 10 Labelled classes include - **Buildings, Road, Trees, Crops, Waterway, Vehicles**
 * [Interview with 1st place winner who used segmentation networks](http://blog.kaggle.com/2017/04/26/dstl-satellite-imagery-competition-1st-place-winners-interview-kyle-lee/) - 40+ models, each tweaked for particular target (e.g. roads, trees)
+* [Deepsense 4th place solution](https://deepsense.ai/deep-learning-for-satellite-imagery-via-image-segmentation/)
 
 ### Kaggle - Airbus Ship Detection Challenge
 * https://www.kaggle.com/c/airbus-ship-detection/overview
