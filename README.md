@@ -89,7 +89,7 @@ There are a variety of datasets suitable for land classification problems.
 ### AWS datasets
 * Landsat -> free viewer at [remotepixel](https://viewer.remotepixel.ca/#3/40/-70.5) and [libra](https://libra.developmentseed.org/)
 * Optical, radar, segmented etc. https://aws.amazon.com/earth/
-* [SpaceNet](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) and [article here](https://spark-in.me/post/spacenet-three-challenge)
+* [SpaceNet](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) and [article here](https://spark-in.me/post/spacenet-three-challenge). Also example [semantic segmentation using Raster Vision](https://docs.rastervision.io/en/0.8/quickstart.html)
 
 ### Quilt
 * Several people have uploaded datasets to [Quilt](https://quiltdata.com/search/?q=satellite)
@@ -161,6 +161,12 @@ Generally a GPU is required for DL. [Googles colab](https://colab.research.googl
 * https://salamander.ai/
 
 # Interesting DL projects
+### Raster Vision by Azavea
+* https://www.azavea.com/projects/raster-vision/
+* An open source Python framework for building computer vision models on aerial, satellite, and other large imagery sets.
+* Accessible through the [Raster Foundry](https://www.rasterfoundry.com/)
+* [Example use cases on open data](https://github.com/azavea/raster-vision-examples)
+
 ### RoboSat
 * https://github.com/mapbox/robosat
 * Generic ecosystem for feature extraction from aerial and satellite imagery.
