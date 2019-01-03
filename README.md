@@ -56,7 +56,7 @@ Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and
 
 ### Kaggle - DSTL - segmentation challenge
 * https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection
-* Rating - medium, many good examples (see the Discussion as well as kernels)
+* Rating - medium, many good examples (see the Discussion as well as kernels), but as this competition was run a couple of years ago many examples use python 2
 * 3 (i.e. RGB) and 16-band (400nm - SWIR) images
 * 45 satellite images covering 1km x 1km in both 3-band and 16-band formats.
 * 10 Labelled classes include - **Buildings, Road, Trees, Crops, Waterway, Vehicles**
@@ -88,7 +88,7 @@ There are a variety of datasets suitable for land classification problems.
 ### AWS datasets
 * Landsat -> free viewer at [remotepixel](https://viewer.remotepixel.ca/#3/40/-70.5) and [libra](https://libra.developmentseed.org/)
 * Optical, radar, segmented etc. https://aws.amazon.com/earth/
-* [SpaceNet](https://spacenetchallenge.github.io/datasets/datasetHomePage.html)
+* [SpaceNet](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) and [article here](https://spark-in.me/post/spacenet-three-challenge)
 
 ### Quilt
 * Several people have uploaded datasets to [Quilt](https://quiltdata.com/search/?q=satellite)
@@ -253,6 +253,9 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Siamese neural network to detect changes in aerial images](https://github.com/vbhavank/Siamese-neural-network-for-change-detection)
 * https://www.spaceknow.com/
 * [LANDSAT Time Series Analysis for Multi-temporal Land Cover Classification using Random Forest](https://github.com/agr-ayush/Landsat-Time-Series-Analysis-for-Multi-Temporal-Land-Cover-Classification)
+* [Change Detection in 3D: Generating Digital Elevation Models from Dove Imagery](https://www.planet.com/pulse/publications/change-detection-in-3d-generating-digital-elevation-models-from-dove-imagery/)
+* [Change Detection in Hyperspectral Images Using Recurrent 3D Fully Convolutional Networks](https://www.mdpi.com/2072-4292/10/11/1827)
+* [PySAR - InSAR (Interferometric Synthetic Aperture Radar) timeseries analysis in python](https://github.com/hfattahi/PySAR)
 
 ## Image registration
 * [Wikipedia article on registration](https://en.wikipedia.org/wiki/Image_registration) -> register for change detection or [image stitching](https://mono.software/2018/03/14/Image-stitching/)
@@ -286,7 +289,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * https://github.com/mapbox/rio-pansharpen
 
 ## Stereo imaging for terrain mapping & DEMs
-* [Wikipedia DEM article](https://en.wikipedia.org/wiki/Digital_elevation_model) and [phase correlation](https://en.wikipedia.org/wiki/Phase_correlation) article 
+* [Wikipedia DEM article](https://en.wikipedia.org/wiki/Digital_elevation_model) and [phase correlation](https://en.wikipedia.org/wiki/Phase_correlation) article
 * [Intro to depth from stereo](https://github.com/IntelRealSense/librealsense/blob/master/doc/depth-from-stereo.md)
 * Map terrain from stereo images to produce a digital elevation model (DEM) -> high resolution & paired images required, typically 0.3 m, e.g. [Worldview](https://dg-cms-uploads-production.s3.amazonaws.com/uploads/document/file/37/DG-WV2ELEVACCRCY-WP.pdf) or [GeoEye](https://www.pobonline.com/articles/100233-when-is-satellite-stereo-imagery-the-best-option-for-3d-modeling).
 * Process of creating a DEM [here](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLI-B1/327/2016/isprs-archives-XLI-B1-327-2016.pdf) and [here](https://www.geoimage.com.au/media/brochure_pdfs/Geoimage_DEM_brochure_Oct10_LR.pdf).
