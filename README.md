@@ -5,6 +5,7 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * https://github.com/chrieke/awesome-satellite-imagery-datasets
 * [A modern geospatial workflow](https://gist.github.com/jacquestardie/0d1c0cb413b3b9b06edf)
 * [geospatial-machine-learning](https://github.com/deepVector/geospatial-machine-learning)
+* [Long list of satellite missions with example imagery](https://www.satimagingcorp.com/satellite-sensors/)
 
 # Table of contents
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
@@ -18,35 +19,31 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * [Useful references](https://github.com/robmarkcole/satellite-image-deep-learning#useful-references)
 
 # Datasets
-* [Various datasets listed here](https://www.maptiler.com/gallery/satellite/)
+* [Various datasets listed here](https://www.maptiler.com/gallery/satellite/) and at [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
 
 ## Sentinel
 * As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_Programme), multiple Sentinel satellites are capturing imagery -> see [wikipedia](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions).
-* Sentinel-hub provides access to a range of Sentinel data and may be the best overall source of imagery + data.
-* [Descartes Labs Platform hosts sentinel data](https://medium.com/descarteslabs-team/fighting-wildfires-using-a-cloud-based-supercomputer-e6ca7852ff91)
-* [Playground to explore data](https://apps.sentinel-hub.com/sentinel-playground)
-* [raw data - requester pays](https://registry.opendata.aws/sentinel-2/)
+* 13 bands, Spatial resolution of 10 m, 20 m and 60 m, 290 km swath, the temporal resolution is 5 days
+* [Open access data on GCP](https://console.cloud.google.com/storage/browser/gcp-public-data-sentinel-2?prefix=tiles%2F31%2FT%2FCJ%2F)
 * Paid access via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py).
-* [GBDX also has Sentinel imagery](https://notebooks.geobigdata.io/hub/pricing).
 * [Example loading sentinel data in a notebook](https://github.com/binder-examples/getting-data/blob/master/Sentinel2.ipynb)
 
 ## Landsat
 * Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
+* 8 bands, 15 to 60 meters, 185km swath, the temporal resolution is 16 days
 * [Imagery on GCP](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with imagery analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) on Pangeo
 
 ## Worldview-3
 * https://en.wikipedia.org/wiki/WorldView-3
-* 0.3m PAN, 1.24 MS, 3.7m SWIR
-* [Some publicly available data here](http://menthe.ovh.hw.ipol.im/IARPA_data/cloud_optimized_geotif/) used in the 3D modelling notebook [here](https://gfacciol.github.io/IS18/).
+* 0.3m PAN, 1.24 MS, 3.7m SWIR.
+* Owned by [DigitalGlobe](https://www.digitalglobe.com/)
+* [Some publicly available data here](http://menthe.ovh.hw.ipol.im/IARPA_data/cloud_optimized_geotif/) used in the 3D modelling notebook [here](https://gfacciol.github.io/IS18/). See Kaggle DSTL competition.
 
+### Shuttle Radar Topography Mission (digital elevation maps)
+* [Data - open access](http://srtm.csi.cgiar.org/srtmdata/)
 
 ## Kaggle
 Kaggle hosts several large satellite image datasets ([> 1 GB](https://www.kaggle.com/datasets?sortBy=relevance&group=public&search=image&page=1&pageSize=20&size=large&filetype=all&license=all)). A list if general image datasets is [here](https://gisgeography.com/free-satellite-imagery-data-list/). A list of land-use datasets is [here](https://gisgeography.com/free-global-land-cover-land-use-data/). The [kaggle blog](http://blog.kaggle.com) is an interesting read.
-
-### Kaggle - Deepsat - classification challenge
-Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and near infrared. The training and test labels are one-hot encoded 1x6 vectors. Each image patch is size normalized to 28x28 pixels. Data in `.mat` Matlab format. JPEG?
-* [Sat4](https://www.kaggle.com/crawford/deepsat-sat4) 500,000 image patches covering four broad land cover classes - **barren land, trees, grassland and a class that consists of all land cover classes other than the above three** [Example notebook](https://www.kaggle.com/robmarkcole/satellite-image-classification)
-* [Sat6](https://www.kaggle.com/crawford/deepsat-sat6) 405,000 image patches each of size 28x28 and covering 6 landcover classes - **barren land, trees, grassland, roads, buildings and water bodies.**
 
 ### Kaggle - Amazon from space - classification challenge
 * https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data
@@ -73,6 +70,13 @@ Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and
 * Rating - hard. Not many useful kernels.
 * Images are grouped into sets of five, each of which have the same setId. Each image in a set was taken on a different day (but not necessarily at the same time each day). The images for each set cover approximately the same area but are not exactly aligned.
 * Kaggle interviews for entrants who [used XGBOOST](http://blog.kaggle.com/2016/09/15/draper-satellite-image-chronology-machine-learning-solution-vicens-gaitan/) and a [hybrid human/ML approach](http://blog.kaggle.com/2016/09/08/draper-satellite-image-chronology-damien-soukhavong/)
+
+### Kaggle - Deepsat - classification challenge
+Not satellite but airborne imagery. Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and near infrared. The training and test labels are one-hot encoded 1x6 vectors. Each image patch is size normalized to 28x28 pixels. Data in `.mat` Matlab format. JPEG?
+* [Imagery source](https://csc.lsu.edu/~saikat/deepsat/)
+* [Sat4](https://www.kaggle.com/crawford/deepsat-sat4) 500,000 image patches covering four broad land cover classes - **barren land, trees, grassland and a class that consists of all land cover classes other than the above three** [Example notebook](https://www.kaggle.com/robmarkcole/satellite-image-classification)
+* [Sat6](https://www.kaggle.com/crawford/deepsat-sat6) 405,000 image patches each of size 28x28 and covering 6 landcover classes - **barren land, trees, grassland, roads, buildings and water bodies.**
+* [Deep Gradient Boosted Learning article](https://alan.do/deep-gradient-boosted-learning-4e33adaf2969)
 
 ### Kaggle - other
 * Satellite + loan data -> https://www.kaggle.com/reubencpereira/spatial-data-repo
@@ -234,8 +238,9 @@ What are companies doing?
 * Traditional data formats aren't designed for processing, so new standards are developing such as [cloud optimised geotiffs](http://blog.digitalglobe.com/developers/cloud-optimized-geotiffs-and-the-path-to-accessible-satellite-imagery-analytics/) and [zarr](https://github.com/zarr-developers/zarr)
 
 # Online platforms for Geo analysis
-* [This article discusses some of the available platforms](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2) -> TLDR Pangeo rocks
+* [This article discusses some of the available platforms](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2) -> TLDR Pangeo rocks, but must BYO imagery
 * Pangeo - open source resources for parallel processing using Dask and Xarray http://pangeo.io/index.html
+* [Airbus Sandbox](https://sandbox.intelligence-airbusds.com/web/) -> will provide access to imagery
 * [Descartes Labs](https://www.descarteslabs.com/) -> access to EO imagery from a variety of providers via python API -> not clear which imagery is available (Airbus + others?) or pricing
 * DigitalGlobe have a cloud hosted Jupyter notebook platform called [GBDX](https://platform.digitalglobe.com/gbdx/). Cloud hosting means they can guarantee the infrastructure supports their algorithms, and they appear to be close/closer to deploying DL. [Tutorial notebooks here](https://notebooks.geobigdata.io/hub/tutorials/list). Only Sentinel-2 and Landsat data on free tier.
 * Planet have a [Jupyter notebook platform](https://developers.planet.com/) which can be deployed locally and requires an [API key](https://developers.planet.com/docs/quickstart/getting-started/) (14 days free). They have a python wrapper (2.7..) to their rest API. No price after 14 day trial.
@@ -324,6 +329,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 # Useful open source software
 * [QGIS](https://qgis.org/en/site/)- Create, edit, visualise, analyse and publish geospatial information. [Python scripting and plugins](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/intro.html#scripting-in-the-python-console).
 * [Orfeo toolbox](https://www.orfeo-toolbox.org/) - remote sensing toolbox with python API (just a wrapper to the C code). Do activites such as [pansharpening](https://www.orfeo-toolbox.org/CookBook/Applications/app_Pansharpening.html), ortho-rectification, image registration, image segmentation & classification. Not much documentation.
+* [QUICK TERRAIN READER - view DEMS, Windows](http://appliedimagery.com/download/)
 
 # Useful References
 * https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
