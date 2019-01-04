@@ -50,18 +50,18 @@ Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and
 
 ### Kaggle - Amazon from space - classification challenge
 * https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data
-* 3-5 meter resolution GeoTIFF images
+* 3-5 meter resolution GeoTIFF images from planet Dove satellite constellation
 * 12 classes including - **cloudy, primary + waterway** etc
 * [1st place winner interview - used 11 custom CNN](http://blog.kaggle.com/2017/10/17/planet-understanding-the-amazon-from-space-1st-place-winners-interview/)
 
 ### Kaggle - DSTL - segmentation challenge
 * https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection
 * Rating - medium, many good examples (see the Discussion as well as kernels), but as this competition was run a couple of years ago many examples use python 2
-* 3 (i.e. RGB) and 16-band (400nm - SWIR) images
-* 45 satellite images covering 1km x 1km in both 3-band and 16-band formats.
+* WorldView 3 - 45 satellite images covering 1km x 1km in both 3 (i.e. RGB) and 16-band (400nm - SWIR) images
 * 10 Labelled classes include - **Buildings, Road, Trees, Crops, Waterway, Vehicles**
 * [Interview with 1st place winner who used segmentation networks](http://blog.kaggle.com/2017/04/26/dstl-satellite-imagery-competition-1st-place-winners-interview-kyle-lee/) - 40+ models, each tweaked for particular target (e.g. roads, trees)
 * [Deepsense 4th place solution](https://deepsense.ai/deep-learning-for-satellite-imagery-via-image-segmentation/)
+* My analysis [here](https://github.com/robmarkcole/Useful-python/tree/master/Kaggle/dstl-satellite-imagery-feature-detection)
 
 ### Kaggle - Airbus Ship Detection Challenge
 * https://www.kaggle.com/c/airbus-ship-detection/overview
