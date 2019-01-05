@@ -6,6 +6,7 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * [A modern geospatial workflow](https://gist.github.com/jacquestardie/0d1c0cb413b3b9b06edf)
 * [geospatial-machine-learning](https://github.com/deepVector/geospatial-machine-learning)
 * [Long list of satellite missions with example imagery](https://www.satimagingcorp.com/satellite-sensors/)
+* [AWS datasets](https://registry.opendata.aws/)
 
 # Table of contents
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
@@ -19,17 +20,18 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * [Useful references](https://github.com/robmarkcole/satellite-image-deep-learning#useful-references)
 
 # Datasets
+* **Warning** satellite image files can be LARGE, even a small data set may comprise 50 GB of imagery
 * [Various datasets listed here](https://www.maptiler.com/gallery/satellite/) and at [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
-* TLDR -> checkout [SpaceNet](https://spacenetchallenge.github.io/datasets/datasetHomePage.html)
 
 ## WorldView - SpaceNet
 * https://en.wikipedia.org/wiki/WorldView-3
 * 0.3m PAN, 1.24 MS, 3.7m SWIR. Off-Nadir (stereo) available.
 * Owned by [DigitalGlobe](https://www.digitalglobe.com/)
-* [SpaceNet dataset on AWS](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) -> see [this getting started notebook](https://medium.com/the-downlinq/getting-started-with-spacenet-data-827fd2ec9f53) and this notebook on the [off-Nadir dataset](https://medium.com/the-downlinq/introducing-the-spacenet-off-nadir-imagery-and-buildings-dataset-e4a3c1cb4ce3)
-* [Some publicly available data here](http://menthe.ovh.hw.ipol.im/IARPA_data/cloud_optimized_geotif/) used in the 3D modelling notebook [here](https://gfacciol.github.io/IS18/).
-* Also see Kaggle DSTL competition.
+* [Intro to SpaceNet](https://medium.com/@sumit.arora/getting-started-with-aws-spacenet-and-spacenet-dataset-visualization-basics-7ddd2e5809a2)
+* [SpaceNet dataset on AWS](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) -> see [this getting started notebook](https://medium.com/the-downlinq/getting-started-with-spacenet-data-827fd2ec9f53) and this notebook on the [off-Nadir dataset](https://medium.com/the-downlinq/introducing-the-spacenet-off-nadir-imagery-and-buildings-dataset-e4a3c1cb4ce3). Note -> REQUESTER PAYS
+* [cloud_optimized_geotif here](http://menthe.ovh.hw.ipol.im/IARPA_data/cloud_optimized_geotif/) used in the 3D modelling notebook [here](https://gfacciol.github.io/IS18/).
 * [Package of utilities](https://github.com/SpaceNetChallenge/utilities) to assist working with the SpaceNet dataset.
+* For more Worldview imagery see Kaggle DSTL competition.
 
 ## Sentinel
 * As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_Programme), multiple Sentinel satellites are capturing imagery -> see [wikipedia](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions).
