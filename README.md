@@ -20,6 +20,16 @@ This document primarily lists resources for performing deep learning (DL) on sat
 
 # Datasets
 * [Various datasets listed here](https://www.maptiler.com/gallery/satellite/) and at [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
+* TLDR -> checkout [SpaceNet](https://spacenetchallenge.github.io/datasets/datasetHomePage.html)
+
+## WorldView - SpaceNet
+* https://en.wikipedia.org/wiki/WorldView-3
+* 0.3m PAN, 1.24 MS, 3.7m SWIR. Off-Nadir (stereo) available.
+* Owned by [DigitalGlobe](https://www.digitalglobe.com/)
+* [SpaceNet dataset on AWS](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) -> see [this getting started notebook](https://medium.com/the-downlinq/getting-started-with-spacenet-data-827fd2ec9f53) and this notebook on the [off-Nadir dataset](https://medium.com/the-downlinq/introducing-the-spacenet-off-nadir-imagery-and-buildings-dataset-e4a3c1cb4ce3)
+* [Some publicly available data here](http://menthe.ovh.hw.ipol.im/IARPA_data/cloud_optimized_geotif/) used in the 3D modelling notebook [here](https://gfacciol.github.io/IS18/).
+* Also see Kaggle DSTL competition.
+* [Package of utilities](https://github.com/SpaceNetChallenge/utilities) to assist working with the SpaceNet dataset.
 
 ## Sentinel
 * As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_Programme), multiple Sentinel satellites are capturing imagery -> see [wikipedia](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions).
@@ -33,11 +43,6 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * 8 bands, 15 to 60 meters, 185km swath, the temporal resolution is 16 days
 * [Imagery on GCP](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with imagery analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) on Pangeo
 
-## Worldview-3
-* https://en.wikipedia.org/wiki/WorldView-3
-* 0.3m PAN, 1.24 MS, 3.7m SWIR.
-* Owned by [DigitalGlobe](https://www.digitalglobe.com/)
-* [Some publicly available data here](http://menthe.ovh.hw.ipol.im/IARPA_data/cloud_optimized_geotif/) used in the 3D modelling notebook [here](https://gfacciol.github.io/IS18/). See Kaggle DSTL competition.
 
 ### Shuttle Radar Topography Mission (digital elevation maps)
 * [Data - open access](http://srtm.csi.cgiar.org/srtmdata/)
@@ -93,7 +98,7 @@ There are a variety of datasets suitable for land classification problems.
 ### AWS datasets
 * Landsat -> free viewer at [remotepixel](https://viewer.remotepixel.ca/#3/40/-70.5) and [libra](https://libra.developmentseed.org/)
 * Optical, radar, segmented etc. https://aws.amazon.com/earth/
-* [SpaceNet](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) and [article here](https://spark-in.me/post/spacenet-three-challenge). Also example [semantic segmentation using Raster Vision](https://docs.rastervision.io/en/0.8/quickstart.html)
+* [SpaceNet - WorldView-3](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) and [article here](https://spark-in.me/post/spacenet-three-challenge). Also example [semantic segmentation using Raster Vision](https://docs.rastervision.io/en/0.8/quickstart.html)
 
 ### Quilt
 * Several people have uploaded datasets to [Quilt](https://quiltdata.com/search/?q=satellite)
@@ -110,20 +115,18 @@ There are a variety of datasets suitable for land classification problems.
 * Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 
 # Online computing resources
-Generally a GPU is required for DL. [Googles colab](https://colab.research.google.com/) is free but limited compute time (12 hours) and somewhat non persistent,
+Generally a GPU is required for DL.
 
-### Kaggle
+### Google Colab
+* Collaboratory [notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time
+* Tensorflow available & pytorch can be installed, [useful articles](https://towardsdatascience.com/fast-ai-lesson-1-on-google-colab-free-gpu-d2af89f53604)
+
+### Kaggle - also Google!
 * Free to use
-* GPU Kernels (may run for 1 hour which limits usefulness?)
+* GPU Kernels - may run for 1 hour
 * Tensorflow, pytorch & fast.ai available
 * Advantage that many datasets are already available
 * [Read](https://medium.com/@hortonhearsafoo/announcing-fast-ai-part-1-now-available-as-kaggle-kernels-8ef4ca3b9ce6)
-
-### Clouderizer
-* https://clouderizer.com/
-* Clouderizer is a cloud computing management service, it takes care of installing the required packages to a cloud computing instance (like Amazon AWS or Google Colab). Clouderizer is free for 200 hours per month (Robbie plan) and does not require a credit card to sign up.
-* Run projects locally, on cloud or both.
-* SSH terminal, Jupyter Notebooks and Tensorboard are securely accessible from Clouderizer Web Console.
 
 ### AWS
 * GPU available
@@ -135,20 +138,20 @@ Generally a GPU is required for DL. [Googles colab](https://colab.research.googl
 * https://azure.microsoft.com/en-us/free/?b=16.45
 * https://docs.microsoft.com/en-us/azure/machine-learning/preview/scenario-aerial-image-classification
 
-### Google
-* [ML engine](https://cloud.google.com/ml-engine/) - sklearn, tensorflow, keras
-* Collaboratory ([notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time),
-* Tensorflow available
-* pytorch can be installed, [useful articles](https://towardsdatascience.com/fast-ai-lesson-1-on-google-colab-free-gpu-d2af89f53604)
-
 ### Floydhub
 * https://www.floydhub.com/
-* Cloud GPUs
+* Cloud GPUs (AWS backend)
 * Jupyter Notebooks
 * Tensorboard
 * Version Control for DL
 * Deploy Models as REST APIs
 * Public Datasets
+
+### Clouderizer
+* https://clouderizer.com/
+* Clouderizer is a cloud computing management service, it takes care of installing the required packages to a cloud computing instance (like Amazon AWS or Google Colab). Clouderizer is free for 200 hours per month (Robbie plan) and does not require a credit card to sign up.
+* Run projects locally, on cloud or both.
+* SSH terminal, Jupyter Notebooks and Tensorboard are securely accessible from Clouderizer Web Console.
 
 ### Paperspace
 * https://www.paperspace.com/
