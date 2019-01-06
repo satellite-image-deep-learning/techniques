@@ -263,6 +263,11 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Deep Learning-Based Classification of Hyperspectral Data](https://github.com/hantek/deeplearn_hsi)
 * [A U-net based on Tensorflow for objection detection (or segmentation) of satellite images - DSTL dataset but python 2.7](https://github.com/rogerxujiang/dstl_unet)
 
+## Semantic segmentation
+* Pixel-wise classification
+* [Instance segmentation with keras - links to satellite examples](https://github.com/matterport/Mask_RCNN)
+
+
 ## Change detection
 * Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
 * Using PCA (python 2, requires updating) -> https://appliedmachinelearning.blog/2017/11/25/unsupervised-changed-detection-in-multi-temporal-satellite-images-using-pca-k-means-python-code/
@@ -288,6 +293,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Identifying Buildings in Satellite Images with Machine Learning and Quilt](https://github.com/jyamaoka/LandUse) -> NDVI & edge detection via gaussian blur as features, fed to TPOT for training with labels from OpenStreetMap, modelled as a two class problem, “Buildings” and “Nature”.
 * [Deep learning for satellite imagery via image segmentation](https://deepsense.ai/deep-learning-for-satellite-imagery-via-image-segmentation/)
 * [Building Extraction with YOLT2 and SpaceNet Data](https://medium.com/the-downlinq/building-extraction-with-yolt2-and-spacenet-data-a926f9ffac4f)
+* [Find sports fields using Mask R-CNN and overlay on open-street-map](https://github.com/jremillard/images-to-osm)
 
 
 ## Cloud detection
@@ -319,6 +325,9 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Stereo Matching by Training a Convolutional Neural Network to Compare Image Patches](https://github.com/jzbontar/mc-cnn)
 * [Terrain and hydrological analysis based on LiDAR-derived digital elevation models (DEM) - Python package](https://github.com/giswqs/lidar)
 * [Phase correlation in scikit-image](http://scikit-image.org/docs/dev/auto_examples/transform/plot_register_translation.html?highlight=cross%20correlation)
+
+## Lidar
+* [Reconstructing 3D buildings from aerial LiDAR with Mask R-CNN)](https://medium.com/geoai/reconstructing-3d-buildings-from-aerial-lidar-with-ai-details-6a81cb3079c0)
 
 ## NVDI - vegetation index
 * Simple band math `ndvi = np.true_divide((ir - r), (ir + r))` but challenging due to the size of the imagery.
