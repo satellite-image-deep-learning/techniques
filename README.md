@@ -117,7 +117,7 @@ There are a variety of datasets suitable for land classification problems.
 * Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 
 # Online computing resources
-Generally a GPU is required for DL.
+Generally a GPU is required for DL, and this section lists Jupyter environments with GPU available. TLDR: Colab for free computing with GPU, all others have strings attached.
 
 ### Google Colab
 * Collaboratory [notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time
@@ -130,20 +130,11 @@ Generally a GPU is required for DL.
 * Advantage that many datasets are already available
 * [Read](https://medium.com/@hortonhearsafoo/announcing-fast-ai-part-1-now-available-as-kaggle-kernels-8ef4ca3b9ce6)
 
-### AWS
-* GPU available
-* https://aws.amazon.com/ec2/?ft=n
-
-### Microsoft Azure
-* GPU available (link?)
-* Focus on CNTK?
-* https://azure.microsoft.com/en-us/free/?b=16.45
-* https://docs.microsoft.com/en-us/azure/machine-learning/preview/scenario-aerial-image-classification
-
 ### Floydhub
 * https://www.floydhub.com/
+* Pricing -> https://www.floydhub.com/pricing
+* Free plan allows 1 job and 10GB storage, but pay for GPU.
 * Cloud GPUs (AWS backend)
-* Jupyter Notebooks
 * Tensorboard
 * Version Control for DL
 * Deploy Models as REST APIs
@@ -151,23 +142,22 @@ Generally a GPU is required for DL.
 
 ### Clouderizer
 * https://clouderizer.com/
-* Clouderizer is a cloud computing management service, it takes care of installing the required packages to a cloud computing instance (like Amazon AWS or Google Colab). Clouderizer is free for 200 hours per month (Robbie plan) and does not require a credit card to sign up.
+* Clouderizer $5 month for 200 hours (Robbie plan)
 * Run projects locally, on cloud or both.
 * SSH terminal, Jupyter Notebooks and Tensorboard are securely accessible from Clouderizer Web Console.
 
 ### Paperspace
 * https://www.paperspace.com/
-* 1-Click Jupyter Notebooks
-* GPU on demand
+* 1-Click Jupyter Notebooks, GPU on demand
+* Pay as you go -> https://www.paperspace.com/pricing
 * [Python API](https://github.com/Paperspace/paperspace-python)
 
 ## Crestle
 * https://www.crestle.com/
+* Pricing -> https://www.crestle.com/pricing
+* Min plan is $5 per month with 200 hours per month. Pay $0.59/hour for GPU and storage $0.014/GB/day
 * Cloud GPU & persistent file store
 * Fast.ai lessons pre-installed
-
-## Salamander
-* https://salamander.ai/
 
 # Interesting DL projects
 ### Raster Vision by Azavea
