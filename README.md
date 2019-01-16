@@ -120,7 +120,7 @@ There are a variety of datasets suitable for land classification problems.
 Generally a GPU is required for DL, and this section lists Jupyter environments with GPU available. TLDR: Colab for free computing with GPU, all others have strings attached.
 
 ### Google Colab
-* Collaboratory [notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time
+* Collaboratory [notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time. Note that the GPU may be shared with other users, so if you aren't getting good performance try reloading.
 * Tensorflow available & pytorch can be installed, [useful articles](https://towardsdatascience.com/fast-ai-lesson-1-on-google-colab-free-gpu-d2af89f53604)
 
 ### Kaggle - also Google!
