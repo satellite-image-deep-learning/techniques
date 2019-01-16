@@ -326,6 +326,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 
 ## SAR
 * [Removing speckle noise from Sentinel-1 SAR using a CNN](https://medium.com/upstream/denoising-sentinel-1-radar-images-5f764faffb3e)
+* A dataset which is specifically made for deep learning on SAR and optical imagery is the SEN1-2 dataset, which contains around 250K corresponding patch pairs of Sentinel 1 (VV) and 2 (RGB) data. [Data download](https://mediatum.ub.tum.de/1436631), [Paper](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/IV-1/141/2018/isprs-annals-IV-1-141-2018.pdf)
 
 # For fun
 * [Style transfer - see the world in a new way](https://gist.github.com/jacquestardie/6227891818625e4c19c1b1d5bebe4fe4)
