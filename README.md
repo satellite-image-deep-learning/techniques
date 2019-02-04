@@ -28,7 +28,7 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * 0.3m PAN, 1.24 MS, 3.7m SWIR. Off-Nadir (stereo) available.
 * Owned by [DigitalGlobe](https://www.digitalglobe.com/)
 * [Intro to SpaceNet](https://medium.com/@sumit.arora/getting-started-with-aws-spacenet-and-spacenet-dataset-visualization-basics-7ddd2e5809a2)
-* [SpaceNet dataset on AWS](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) -> see [this getting started notebook](https://medium.com/the-downlinq/getting-started-with-spacenet-data-827fd2ec9f53) and this notebook on the [off-Nadir dataset](https://medium.com/the-downlinq/introducing-the-spacenet-off-nadir-imagery-and-buildings-dataset-e4a3c1cb4ce3). Note -> REQUESTER PAYS
+* [SpaceNet dataset on AWS](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) -> see [this getting started notebook](https://medium.com/the-downlinq/getting-started-with-spacenet-data-827fd2ec9f53) and this notebook on the [off-Nadir dataset](https://medium.com/the-downlinq/introducing-the-spacenet-off-nadir-imagery-and-buildings-dataset-e4a3c1cb4ce3)
 * [cloud_optimized_geotif here](http://menthe.ovh.hw.ipol.im/IARPA_data/cloud_optimized_geotif/) used in the 3D modelling notebook [here](https://gfacciol.github.io/IS18/).
 * [Package of utilities](https://github.com/SpaceNetChallenge/utilities) to assist working with the SpaceNet dataset.
 * For more Worldview imagery see Kaggle DSTL competition.
