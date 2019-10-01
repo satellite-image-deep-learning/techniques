@@ -96,6 +96,7 @@ There are a variety of datasets suitable for land classification problems.
 
 ### UC Merced
 * http://weegee.vision.ucmerced.edu/datasets/landuse.html
+* Available as a Tensorflow dataset -> https://www.tensorflow.org/datasets/catalog/uc_merced
 * This is a 21 class land use image dataset meant for research purposes.
 * There are 100 RGB TIFF images for each class
 * Each image measures 256x256 pixels with a pixel resolution of 1 foot
