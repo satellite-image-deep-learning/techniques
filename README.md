@@ -265,6 +265,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Pixel level segmentation on Azure](https://github.com/Azure/pixel_level_land_classification)
 * [Deep Learning-Based Classification of Hyperspectral Data](https://github.com/hantek/deeplearn_hsi)
 * [A U-net based on Tensorflow for objection detection (or segmentation) of satellite images - DSTL dataset but python 2.7](https://github.com/rogerxujiang/dstl_unet)
+* [What’s growing there? Using eo-learn and fastai to identify crops from multi-spectral remote sensing data (Sentinel 2)](https://towardsdatascience.com/whats-growing-there-a5618a2e6933)
 
 ## Semantic segmentation
 * Pixel-wise classification
