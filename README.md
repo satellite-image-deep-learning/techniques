@@ -344,6 +344,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Removing speckle noise from Sentinel-1 SAR using a CNN](https://medium.com/upstream/denoising-sentinel-1-radar-images-5f764faffb3e)
 * A dataset which is specifically made for deep learning on SAR and optical imagery is the SEN1-2 dataset, which contains corresponding patch pairs of Sentinel 1 (VV) and 2 (RGB) data. It is the largest manually curated dataset of S1 and S2 products, with corresponding labels for land use/land cover mapping, SAR-optical fusion, segmentation and classification tasks. Paper: https://elib.dlr.de/128117/1/SEN12MS_Preprint.pdf Data: https://mediatum.ub.tum.de/1474000
 * [so2sat on Tensorflow datasets](https://www.tensorflow.org/datasets/catalog/so2sat) - So2Sat LCZ42 is a dataset consisting of co-registered synthetic aperture radar and multispectral optical image patches acquired by the Sentinel-1 and Sentinel-2 remote sensing satellites, and the corresponding local climate zones (LCZ) label. The dataset is distributed over 42 cities across different continents and cultural regions of the world.
+* [Using Machine Learning to Automatically Detect Volcanic Unrest in a Time Series of Interferograms](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JB017519)
 
 ## Aerial imagery (drones)
 * [RetinaNet for pedestrian detection](https://towardsdatascience.com/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6)
