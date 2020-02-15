@@ -185,9 +185,9 @@ Generally a GPU is required for DL, and this section lists Jupyter environments 
 * https://github.com/mapbox/robosat
 * Generic ecosystem for feature extraction from aerial and satellite imagery.
 
-### RoboSat.Pink
-* A fork of robotsat
-* https://github.com/datapink/robosat.pink
+### neat-EO
+* https://github.com/datapink/neat-EO
+* Efficient AI4EO OpenSource framework
 
 ### DeepOSM
 * https://github.com/trailbehind/DeepOSM
