@@ -12,13 +12,13 @@ This document primarily lists resources for performing deep learning (DL) on sat
 
 # Table of contents
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
-* [Online computing resources](https://github.com/robmarkcole/satellite-image-deep-learning#online-computing-resources)
-* [Interesting dl projects](https://github.com/robmarkcole/satellite-image-deep-learning#interesting-dl-projects)
-* [Production](https://github.com/robmarkcole/satellite-image-deep-learning#production)
-* [Image formats and catalogues](https://github.com/robmarkcole/satellite-image-deep-learning#image-formats--catalogues)
+* [Interesting deep learning projects](https://github.com/robmarkcole/satellite-image-deep-learning#interesting-deep-learning-projects)
+* [Techniques](https://github.com/robmarkcole/satellite-image-deep-learning#techniques)
+* [Image formats and catalogues](https://github.com/robmarkcole/satellite-image-deep-learning#image-formats-and-catalogues)
 * [State of the art](https://github.com/robmarkcole/satellite-image-deep-learning#state-of-the-art)
 * [Online platforms for Geo analysis](https://github.com/robmarkcole/satellite-image-deep-learning#online-platforms-for-geo-analysis)
-* [Techniques](https://github.com/robmarkcole/satellite-image-deep-learning#techniques)
+* [Free online computing resources](https://github.com/robmarkcole/satellite-image-deep-learning#free-online-computing-resources)
+* [Production](https://github.com/robmarkcole/satellite-image-deep-learning#production)
 * [Useful references](https://github.com/robmarkcole/satellite-image-deep-learning#useful-references)
 
 # Datasets
@@ -50,7 +50,6 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * 8 bands, 15 to 60 meters, 185km swath, the temporal resolution is 16 days
 * [Imagery on GCP](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with imagery analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) on Pangeo
 
-
 ### Shuttle Radar Topography Mission (digital elevation maps)
 * [Data - open access](http://srtm.csi.cgiar.org/srtmdata/)
 
@@ -65,6 +64,7 @@ Kaggle hosts several large satellite image datasets ([> 1 GB](https://www.kaggle
 * 3-5 meter resolution GeoTIFF images from planet Dove satellite constellation
 * 12 classes including - **cloudy, primary + waterway** etc
 * [1st place winner interview - used 11 custom CNN](http://blog.kaggle.com/2017/10/17/planet-understanding-the-amazon-from-space-1st-place-winners-interview/)
+* [FastAI Multi-label image classification](https://towardsdatascience.com/fastai-multi-label-image-classification-8034be646e95)
 
 ### Kaggle - DSTL - segmentation challenge
 * https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection
@@ -131,50 +131,7 @@ There are a variety of datasets suitable for land classification problems.
 * NOAA (requires BigQuery) -> https://www.kaggle.com/noaa/goes16/home
 * Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 
-# Online computing resources
-Generally a GPU is required for DL, and this section lists Jupyter environments with GPU available. There is a good overview of online Jupyter envs [on the fast.at site](https://course-v3.fast.ai/index.html).
-
-### Google Colab
-* Collaboratory [notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time. Note that the GPU may be shared with other users, so if you aren't getting good performance try reloading.
-* Tensorflow available & pytorch can be installed, [useful articles](https://towardsdatascience.com/fast-ai-lesson-1-on-google-colab-free-gpu-d2af89f53604)
-
-### Kaggle - also Google!
-* Free to use
-* GPU Kernels - may run for 1 hour
-* Tensorflow, pytorch & fast.ai available
-* Advantage that many datasets are already available
-* [Read](https://medium.com/@hortonhearsafoo/announcing-fast-ai-part-1-now-available-as-kaggle-kernels-8ef4ca3b9ce6)
-
-### Floydhub
-* https://www.floydhub.com/
-* Pricing -> https://www.floydhub.com/pricing
-* Free plan allows 1 job and 10GB storage, but pay for GPU.
-* Cloud GPUs (AWS backend)
-* Tensorboard
-* Version Control for DL
-* Deploy Models as REST APIs
-* Public Datasets
-
-### Clouderizer
-* https://clouderizer.com/
-* Clouderizer $5 month for 200 hours (Robbie plan)
-* Run projects locally, on cloud or both.
-* SSH terminal, Jupyter Notebooks and Tensorboard are securely accessible from Clouderizer Web Console.
-
-### Paperspace
-* https://www.paperspace.com/
-* 1-Click Jupyter Notebooks, GPU on demand
-* Pay as you go -> https://www.paperspace.com/pricing
-* [Python API](https://github.com/Paperspace/paperspace-python)
-
-## Crestle
-* https://www.crestle.com/
-* Pricing -> https://www.crestle.com/pricing
-* Min plan is $5 per month with 200 hours per month. Pay $0.59/hour for GPU and storage $0.014/GB/day
-* Cloud GPU & persistent file store
-* Fast.ai lessons pre-installed
-
-# Interesting DL projects
+# Interesting deep learning projects
 ### Raster Vision by Azavea
 * https://www.azavea.com/projects/raster-vision/
 * An open source Python framework for building computer vision models on aerial, satellite, and other large imagery sets.
@@ -200,63 +157,6 @@ Generally a GPU is required for DL, and this section lists Jupyter environments 
 ### Skynet-data
 * https://github.com/developmentseed/skynet-data
 * Data pipeline for machine learning with OpenStreetMap
-
-# Production
-### Custom REST API
-* Basic https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html with code [here](https://github.com/jrosebr1/simple-keras-rest-api)
-* Advanced https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
-* https://github.com/galiboo/olympus
-
-### Tensorflow Serving
-* https://www.tensorflow.org/serving/
-* Official version is python 2 but python 3 build [here](https://github.com/illagrenan/tensorflow-serving-api-python3)
-* Another approach is [to use Docker](https://www.tensorflow.org/serving/docker)
-
-TensorFlow Serving makes it easy to deploy new algorithms and experiments, while keeping the same server architecture and APIs. Multiple models, or indeed multiple versions of the same model, can be served simultaneously.  TensorFlow Serving comes with a scheduler that groups individual inference requests into batches for joint execution on a GPU
-
-### chip-n-scale-queue-arranger by developmentseed
-* https://github.com/developmentseed/chip-n-scale-queue-arranger
-* an orchestration pipeline for running machine learning inference at scale
-* [Supports fast.ai models](https://github.com/developmentseed/fastai-serving)
-
-### modeldepot
-* https://modeldepot.io
-* ML models hosted
-
-# Image formats & catalogues
-* We certainly want to consider cloud optimised GeoTiffs https://www.cogeo.org/
-* https://terria.io/ for pretty catalogues
-* [Remote pixel](https://remotepixel.ca/projects/index.html#satsearch)
-* [Sentinel-hub eo-browser](https://apps.sentinel-hub.com/eo-browser/)
-* Large datasets may come in HDF5 format, can view with -> https://www.hdfgroup.org/downloads/hdfview/
-* Climate data is often in netcdf format, which can be [opened using xarray](https://moderndata.plot.ly/weather-maps-in-python-with-mapbox-gl-xarray-and-netcdf4/)
-* The xarray docs list a number of ways that data [can be stored and loaded](http://xarray.pydata.org/en/latest/io.html#).
-
-## STAC - SpatioTemporal Asset Catalog
-* Specification describing the layout of a catalogue comprising of static files. The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface.
-* An initiative of https://www.radiant.earth/ in particular https://github.com/cholmes
-* Spec at https://github.com/radiantearth/stac-spec
-* Browser at https://github.com/radiantearth/stac-browser
-* Talk at https://docs.google.com/presentation/d/1O6W0lMeXyUtPLl-k30WPJIyH1ecqrcWk29Np3bi6rl0/edit#slide=id.p
-* Example catalogue at https://landsat-stac.s3.amazonaws.com/catalog.json
-* Chat https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby
-* Several useful repos on https://github.com/sat-utils
-
-# State of the art
-What are companies doing?
-* Overall trend to using AWS S3 backend for image storage. There are a variety of tools for exploring and having teams collaborate on data on S3, e.g. [T4](https://github.com/quiltdata/t4).
-* Bucking the trend, [Descartes & Airbus are using a google backend](https://spacenews.com/descartes-labs-platform-adds-airbus-imagery/) -> checkout [gcsts for google cloud storage sile-system](https://github.com/dask/gcsfs)
-* Just speculating, but a [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks, whilst providing a Jupyter notebook approach for custom analysis.
-* Traditional data formats aren't designed for processing, so new standards are developing such as [cloud optimised geotiffs](http://blog.digitalglobe.com/developers/cloud-optimized-geotiffs-and-the-path-to-accessible-satellite-imagery-analytics/) and [zarr](https://github.com/zarr-developers/zarr)
-
-# Online platforms for Geo analysis
-* [This article discusses some of the available platforms](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2) -> TLDR Pangeo rocks, but must BYO imagery
-* Pangeo - open source resources for parallel processing using Dask and Xarray http://pangeo.io/index.html
-* [Airbus Sandbox](https://sandbox.intelligence-airbusds.com/web/) -> will provide access to imagery
-* [Descartes Labs](https://www.descarteslabs.com/) -> access to EO imagery from a variety of providers via python API -> not clear which imagery is available (Airbus + others?) or pricing
-* DigitalGlobe have a cloud hosted Jupyter notebook platform called [GBDX](https://platform.digitalglobe.com/gbdx/). Cloud hosting means they can guarantee the infrastructure supports their algorithms, and they appear to be close/closer to deploying DL. [Tutorial notebooks here](https://notebooks.geobigdata.io/hub/tutorials/list). Only Sentinel-2 and Landsat data on free tier.
-* Planet have a [Jupyter notebook platform](https://developers.planet.com/) which can be deployed locally and requires an [API key](https://developers.planet.com/docs/quickstart/getting-started/) (14 days free). They have a python wrapper (2.7..) to their rest API. No price after 14 day trial.
-
 
 # Techniques
 This section explores the different techniques (DL, ML & classical) people are applying to common problems in satellite imagery analysis. Classification problems are the most simply addressed via DL, object detection is harder, and cloud detection harder still (niche interest).
@@ -304,12 +204,10 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Building Extraction with YOLT2 and SpaceNet Data](https://medium.com/the-downlinq/building-extraction-with-yolt2-and-spacenet-data-a926f9ffac4f)
 * [Find sports fields using Mask R-CNN and overlay on open-street-map](https://github.com/jremillard/images-to-osm)
 
-
 ## Cloud detection
 * A subset of the object detection problem, but surprisingly challenging
 * From [this article on sentinelhub](https://medium.com/sentinel-hub/improving-cloud-detection-with-machine-learning-c09dc5d7cf13) there are three popular classical algorithms that detects thresholds in multiple bands in order to identify clouds. In the same article they propose using semantic segmentation combined with a CNN for a cloud classifier (excellent review paper [here](https://arxiv.org/pdf/1704.06857.pdf)), but state that this requires too much compute resources.
 * [This article](https://www.mdpi.com/2072-4292/8/8/666) compares a number of ML algorithms, random forests, stochastic gradient descent, support vector machines, Bayesian method.
-* DL..
 
 ## Super resolution
 * https://medium.com/the-downlinq/super-resolution-on-satellite-imagery-using-deep-learning-part-1-ec5c5cd3cd2
@@ -352,8 +250,69 @@ This section explores the different techniques (DL, ML & classical) people are a
 ## Aerial imagery (drones)
 * [RetinaNet for pedestrian detection](https://towardsdatascience.com/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6)
 
-# For fun
-* [Style transfer - see the world in a new way](https://gist.github.com/jacquestardie/6227891818625e4c19c1b1d5bebe4fe4)
+# Image formats and catalogues
+* We certainly want to consider cloud optimised GeoTiffs https://www.cogeo.org/
+* https://terria.io/ for pretty catalogues
+* [Remote pixel](https://remotepixel.ca/projects/index.html#satsearch)
+* [Sentinel-hub eo-browser](https://apps.sentinel-hub.com/eo-browser/)
+* Large datasets may come in HDF5 format, can view with -> https://www.hdfgroup.org/downloads/hdfview/
+* Climate data is often in netcdf format, which can be [opened using xarray](https://moderndata.plot.ly/weather-maps-in-python-with-mapbox-gl-xarray-and-netcdf4/)
+* The xarray docs list a number of ways that data [can be stored and loaded](http://xarray.pydata.org/en/latest/io.html#).
+
+## STAC - SpatioTemporal Asset Catalog
+* Specification describing the layout of a catalogue comprising of static files. The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface.
+* An initiative of https://www.radiant.earth/ in particular https://github.com/cholmes
+* Spec at https://github.com/radiantearth/stac-spec
+* Browser at https://github.com/radiantearth/stac-browser
+* Talk at https://docs.google.com/presentation/d/1O6W0lMeXyUtPLl-k30WPJIyH1ecqrcWk29Np3bi6rl0/edit#slide=id.p
+* Example catalogue at https://landsat-stac.s3.amazonaws.com/catalog.json
+* Chat https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby
+* Several useful repos on https://github.com/sat-utils
+
+# State of the art
+What are companies doing?
+* Overall trend to using AWS S3 backend for image storage. There are a variety of tools for exploring and having teams collaborate on data on S3, e.g. [T4](https://github.com/quiltdata/t4).
+* Bucking the trend, [Descartes & Airbus are using a google backend](https://spacenews.com/descartes-labs-platform-adds-airbus-imagery/) -> checkout [gcsts for google cloud storage sile-system](https://github.com/dask/gcsfs)
+* Just speculating, but a [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks, whilst providing a Jupyter notebook approach for custom analysis.
+* Traditional data formats aren't designed for processing, so new standards are developing such as [cloud optimised geotiffs](http://blog.digitalglobe.com/developers/cloud-optimized-geotiffs-and-the-path-to-accessible-satellite-imagery-analytics/) and [zarr](https://github.com/zarr-developers/zarr)
+
+# Online platforms for Geo analysis
+* [This article discusses some of the available platforms](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2) -> TLDR Pangeo rocks, but must BYO imagery
+* Pangeo - open source resources for parallel processing using Dask and Xarray http://pangeo.io/index.html
+* [Airbus Sandbox](https://sandbox.intelligence-airbusds.com/web/) -> will provide access to imagery
+* [Descartes Labs](https://www.descarteslabs.com/) -> access to EO imagery from a variety of providers via python API -> not clear which imagery is available (Airbus + others?) or pricing
+* DigitalGlobe have a cloud hosted Jupyter notebook platform called [GBDX](https://platform.digitalglobe.com/gbdx/). Cloud hosting means they can guarantee the infrastructure supports their algorithms, and they appear to be close/closer to deploying DL. [Tutorial notebooks here](https://notebooks.geobigdata.io/hub/tutorials/list). Only Sentinel-2 and Landsat data on free tier.
+* Planet have a [Jupyter notebook platform](https://developers.planet.com/) which can be deployed locally and requires an [API key](https://developers.planet.com/docs/quickstart/getting-started/) (14 days free). They have a python wrapper (2.7..) to their rest API. No price after 14 day trial.
+
+# Free online computing resources
+Generally a GPU is required for DL, and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter envs [on the fast.at site](https://course-v3.fast.ai/index.html).
+
+### Google Colab
+* Collaboratory [notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time. Note that the GPU may be shared with other users, so if you aren't getting good performance try reloading.
+* Also a pro tier for $10 a month -> https://colab.research.google.com/signup
+* Tensorflow available & pytorch can be installed, [useful articles](https://towardsdatascience.com/fast-ai-lesson-1-on-google-colab-free-gpu-d2af89f53604)
+
+### Kaggle - also Google!
+* Free to use
+* GPU Kernels - may run for 1 hour
+* Tensorflow, pytorch & fast.ai available
+* Advantage that many datasets are already available
+* [Read](https://medium.com/@hortonhearsafoo/announcing-fast-ai-part-1-now-available-as-kaggle-kernels-8ef4ca3b9ce6)
+
+# Production
+### Custom REST API
+* Basic https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html with code [here](https://github.com/jrosebr1/simple-keras-rest-api)
+* Advanced https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
+* https://github.com/galiboo/olympus
+
+### Tensorflow Serving
+* https://www.tensorflow.org/serving/
+* TensorFlow Serving makes it easy to deploy new algorithms and experiments, while keeping the same server architecture and APIs. Multiple models, or indeed multiple versions of the same model, can be served simultaneously.  TensorFlow Serving comes with a scheduler that groups individual inference requests into batches for joint execution on a GPU
+
+### chip-n-scale-queue-arranger by developmentseed
+* https://github.com/developmentseed/chip-n-scale-queue-arranger
+* an orchestration pipeline for running machine learning inference at scale
+* [Supports fast.ai models](https://github.com/developmentseed/fastai-serving)
 
 # Useful open source software
 * [QGIS](https://qgis.org/en/site/)- Create, edit, visualise, analyse and publish geospatial information. [Python scripting and plugins](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/intro.html#scripting-in-the-python-console).
@@ -363,6 +322,9 @@ This section explores the different techniques (DL, ML & classical) people are a
 # Useful github repos
 * [torchvision-enhance](https://github.com/sshuair/torchvision-enhance) -> Enhance PyTorch vision for semantic segmentation, multi-channel images and TIF file,...
 * [dl-satellite-docker](https://github.com/sshuair/dl-satellite-docker) -> docker files for geospatial analysis, including tensorflow, pytorch, gdal, xgboost...
+
+# For fun
+* [Style transfer - see the world in a new way](https://gist.github.com/jacquestardie/6227891818625e4c19c1b1d5bebe4fe4)
 
 # Useful References
 * https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
