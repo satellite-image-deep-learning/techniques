@@ -214,8 +214,10 @@ Generally a GPU is required for DL, and this section lists Jupyter environments 
 
 TensorFlow Serving makes it easy to deploy new algorithms and experiments, while keeping the same server architecture and APIs. Multiple models, or indeed multiple versions of the same model, can be served simultaneously.  TensorFlow Serving comes with a scheduler that groups individual inference requests into batches for joint execution on a GPU
 
-### Floydhub
-* Allows exposing model via rest API
+### chip-n-scale-queue-arranger by developmentseed
+* https://github.com/developmentseed/chip-n-scale-queue-arranger
+* an orchestration pipeline for running machine learning inference at scale
+* [Supports fast.ai models](https://github.com/developmentseed/fastai-serving)
 
 ### modeldepot
 * https://modeldepot.io
@@ -268,11 +270,12 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Deep Learning-Based Classification of Hyperspectral Data](https://github.com/hantek/deeplearn_hsi)
 * [A U-net based on Tensorflow for objection detection (or segmentation) of satellite images - DSTL dataset but python 2.7](https://github.com/rogerxujiang/dstl_unet)
 * [What’s growing there? Using eo-learn and fastai to identify crops from multi-spectral remote sensing data (Sentinel 2)](https://towardsdatascience.com/whats-growing-there-a5618a2e6933)
+* [FastAI Multi-label image classification](https://towardsdatascience.com/fastai-multi-label-image-classification-8034be646e95)
 
 ## Semantic segmentation
 * Pixel-wise classification
 * [Instance segmentation with keras - links to satellite examples](https://github.com/matterport/Mask_RCNN)
-
+* [Semantic Segmentation on Aerial Images using fastai](https://medium.com/swlh/semantic-segmentation-on-aerial-images-using-fastai-a2696e4db127)
 
 ## Change detection
 * Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
