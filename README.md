@@ -51,6 +51,7 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * 8 bands, 15 to 60 meters, 185km swath, the temporal resolution is 16 days
 * [Imagery on GCP](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with imagery analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) on Pangeo
 * https://github.com/kylebarron/landsat-mosaic-latest - Auto-updating cloudless Landsat 8 mosaic from AWS SNS notifications
+* [Visualise landsat imagery using Datashader](https://examples.pyviz.org/landsat/landsat.html#landsat-gallery-landsat)
 
 ### Shuttle Radar Topography Mission (digital elevation maps)
 * [Data - open access](http://srtm.csi.cgiar.org/srtmdata/)
@@ -113,6 +114,7 @@ There are a variety of datasets suitable for land classification problems.
 * This is a 21 class land use image dataset meant for research purposes.
 * There are 100 RGB TIFF images for each class
 * Each image measures 256x256 pixels with a pixel resolution of 1 foot
+* [Image classification using Keras](https://examples.pyviz.org/landuse_classification/Image_Classification.html#landuse-classification-gallery-image-classification)
 
 ### AWS datasets
 * Landsat -> free viewer at [remotepixel](https://viewer.remotepixel.ca/#3/40/-70.5) and [libra](https://libra.developmentseed.org/)
@@ -173,6 +175,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [A U-net based on Tensorflow for objection detection (or segmentation) of satellite images - DSTL dataset but python 2.7](https://github.com/rogerxujiang/dstl_unet)
 * [What’s growing there? Using eo-learn and fastai to identify crops from multi-spectral remote sensing data (Sentinel 2)](https://towardsdatascience.com/whats-growing-there-a5618a2e6933)
 * [FastAI Multi-label image classification](https://towardsdatascience.com/fastai-multi-label-image-classification-8034be646e95)
+* * [Image classification using Keras](https://examples.pyviz.org/landuse_classification/Image_Classification.html#landuse-classification-gallery-image-classification)
 
 ## Semantic segmentation
 * Pixel-wise classification
@@ -244,6 +247,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * Simple band math `ndvi = np.true_divide((ir - r), (ir + r))` but challenging due to the size of the imagery.
 * [Example notebook local](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/ndvi_calculation.ipynb)
 * [Landsat data in cloud optimised format analysed for NVDI](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) with [medium article here](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2).
+* [Visualise water loss with Holoviews](https://examples.pyviz.org/walker_lake/Walker_Lake.html#walker-lake-gallery-walker-lake)
 
 ## SAR
 * [Removing speckle noise from Sentinel-1 SAR using a CNN](https://medium.com/upstream/denoising-sentinel-1-radar-images-5f764faffb3e)
@@ -323,6 +327,7 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 * [Orfeo toolbox](https://www.orfeo-toolbox.org/) - remote sensing toolbox with python API (just a wrapper to the C code). Do activites such as [pansharpening](https://www.orfeo-toolbox.org/CookBook/Applications/app_Pansharpening.html), ortho-rectification, image registration, image segmentation & classification. Not much documentation.
 * [QUICK TERRAIN READER - view DEMS, Windows](http://appliedimagery.com/download/)
 * [satpy](https://github.com/pytroll/satpy) - a python library for reading and manipulating meteorological remote sensing data and writing it to various image and data file formats
+* [Pyviz](https://examples.pyviz.org/) examples include several interesting geospatial visualisations
 
 # Useful github repos
 * [torchvision-enhance](https://github.com/sshuair/torchvision-enhance) -> Enhance PyTorch vision for semantic segmentation, multi-channel images and TIF file,...
