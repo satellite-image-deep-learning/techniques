@@ -9,6 +9,7 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * [geospatial-machine-learning](https://github.com/deepVector/geospatial-machine-learning)
 * [Long list of satellite missions with example imagery](https://www.satimagingcorp.com/satellite-sensors/)
 * [AWS datasets](https://registry.opendata.aws/)
+* [awesome-earthobservation-code](https://github.com/acgeospatial/awesome-earthobservation-code)
 
 # Table of contents
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
@@ -49,6 +50,7 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
 * 8 bands, 15 to 60 meters, 185km swath, the temporal resolution is 16 days
 * [Imagery on GCP](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with imagery analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) on Pangeo
+* https://github.com/kylebarron/landsat-mosaic-latest - Auto-updating cloudless Landsat 8 mosaic from AWS SNS notifications
 
 ### Shuttle Radar Topography Mission (digital elevation maps)
 * [Data - open access](http://srtm.csi.cgiar.org/srtmdata/)
@@ -118,7 +120,7 @@ There are a variety of datasets suitable for land classification problems.
 * [SpaceNet - WorldView-3](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) and [article here](https://spark-in.me/post/spacenet-three-challenge). Also example [semantic segmentation using Raster Vision](https://docs.rastervision.io/en/0.8/quickstart.html)
 
 ### Quilt
-* Several people have uploaded datasets to [Quilt](https://quiltdata.com/search/?q=satellite)
+* Several people have uploaded datasets to [Quilt](https://open.quiltdata.com/search?q=satellite)
 
 ### Google Earth Engine
 * https://developers.google.com/earth-engine/
@@ -176,6 +178,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * Pixel-wise classification
 * [Instance segmentation with keras - links to satellite examples](https://github.com/matterport/Mask_RCNN)
 * [Semantic Segmentation on Aerial Images using fastai](https://medium.com/swlh/semantic-segmentation-on-aerial-images-using-fastai-a2696e4db127)
+* https://github.com/Paulymorphous/Road-Segmentation
 
 ## Change detection
 * Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
@@ -212,6 +215,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 ## Super resolution
 * https://medium.com/the-downlinq/super-resolution-on-satellite-imagery-using-deep-learning-part-1-ec5c5cd3cd2
 * https://modeldepot.io/joe/vdsr-for-super-resolution
+* https://github.com/WarrenGreen/srcnn
 
 ## Pansharpening
 * Image fusion of low res multispectral with high res pan band. Several algorithms described [in the ArcGIS docs](http://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/fundamentals-of-panchromatic-sharpening.htm), with the simplest being taking the mean of the pan and RGB pixel value.
@@ -318,11 +322,15 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 * [QGIS](https://qgis.org/en/site/)- Create, edit, visualise, analyse and publish geospatial information. [Python scripting and plugins](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/intro.html#scripting-in-the-python-console).
 * [Orfeo toolbox](https://www.orfeo-toolbox.org/) - remote sensing toolbox with python API (just a wrapper to the C code). Do activites such as [pansharpening](https://www.orfeo-toolbox.org/CookBook/Applications/app_Pansharpening.html), ortho-rectification, image registration, image segmentation & classification. Not much documentation.
 * [QUICK TERRAIN READER - view DEMS, Windows](http://appliedimagery.com/download/)
+* [satpy](https://github.com/pytroll/satpy) - a python library for reading and manipulating meteorological remote sensing data and writing it to various image and data file formats
 
 # Useful github repos
 * [torchvision-enhance](https://github.com/sshuair/torchvision-enhance) -> Enhance PyTorch vision for semantic segmentation, multi-channel images and TIF file,...
 * [dl-satellite-docker](https://github.com/sshuair/dl-satellite-docker) -> docker files for geospatial analysis, including tensorflow, pytorch, gdal, xgboost...
 * [Geowombat](https://geowombat.readthedocs.io/) -> geo-utilities applied to air- and space-borne imagery, uses Rasterio, Xarray and Dask for I/O and distributed computing with named coordinates
+
+# Online communities
+* [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
 
 # For fun
 * [Style transfer - see the world in a new way](https://gist.github.com/jacquestardie/6227891818625e4c19c1b1d5bebe4fe4)
