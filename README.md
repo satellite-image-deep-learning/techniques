@@ -1,5 +1,3 @@
-[![Sponsor](https://img.shields.io/badge/sponsor-%F0%9F%92%96-green)](https://github.com/sponsors/robmarkcole)
-
 # Introduction
 This document primarily lists resources for performing deep learning (DL) on satellite imagery. To a lesser extent Machine learning (ML, e.g. random forests, stochastic gradient descent) are also discussed, as are classical image processing techniques.
 
@@ -351,8 +349,3 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 * Open Data Cube - serve up cubes of data https://www.opendatacube.org/
 * [Process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
 * [OpenDroneMap](https://github.com/OpenDroneMap/ODM) - generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images.
-
-## ✨ Support this work
-https://github.com/sponsors/robmarkcole
-
-If you or your business find this work useful please consider becoming a sponsor at the link above, this really helps justify the time I invest in maintaining this repo. As we say in England, 'every little helps' - thanks in advance! 
