@@ -58,7 +58,8 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * [Stanford Drone Dataset](http://cvgl.stanford.edu/projects/uav_data/)
 
 ## Kaggle
-Kaggle hosts several large satellite image datasets ([> 1 GB](https://www.kaggle.com/datasets?sortBy=relevance&group=public&search=image&page=1&pageSize=20&size=large&filetype=all&license=all)). A list if general image datasets is [here](https://gisgeography.com/free-satellite-imagery-data-list/). A list of land-use datasets is [here](https://gisgeography.com/free-global-land-cover-land-use-data/). The [kaggle blog](http://blog.kaggle.com) is an interesting read.
+Kaggle hosts over 60 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
+The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 
 ### Kaggle - Amazon from space - classification challenge
 * https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data
@@ -207,6 +208,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Deep learning for satellite imagery via image segmentation](https://deepsense.ai/deep-learning-for-satellite-imagery-via-image-segmentation/)
 * [Building Extraction with YOLT2 and SpaceNet Data](https://medium.com/the-downlinq/building-extraction-with-yolt2-and-spacenet-data-a926f9ffac4f)
 * [Find sports fields using Mask R-CNN and overlay on open-street-map](https://github.com/jremillard/images-to-osm)
+* [Detecting solar panels from satellite imagery](https://towardsdatascience.com/weekend-project-detecting-solar-panels-from-satellite-imagery-f6f5d5e0da40)
 
 ## Cloud detection
 * A subset of the object detection problem, but surprisingly challenging
@@ -335,6 +337,11 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 * [dl-satellite-docker](https://github.com/sshuair/dl-satellite-docker) -> docker files for geospatial analysis, including tensorflow, pytorch, gdal, xgboost...
 * [Geowombat](https://geowombat.readthedocs.io/) -> geo-utilities applied to air- and space-borne imagery, uses Rasterio, Xarray and Dask for I/O and distributed computing with named coordinates
 
+# Movers and shakers on Github
+* [Chris Holmes](https://github.com/cholmes) is doing great things at Planet
+* [Christoph Rieke](https://github.com/chrieke) maintains a very popular imagery repo and has published his thesis on segmentation
+* [Robin Wilson](https://github.com/robintw) is a former academic who is very active in the satellite imagery space
+
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
 
@@ -349,3 +356,6 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 * Open Data Cube - serve up cubes of data https://www.opendatacube.org/
 * [Process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
 * [OpenDroneMap](https://github.com/OpenDroneMap/ODM) - generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images.
+
+# About the author
+My background is optical physics, and I have a PhD from Cambridge on the topic of Plasmon enhanced Raman spectroscopy. After doing a post doc I left academia and took a variety of roles, from industrial research at [Sharp Labs Europe](https://www.sle.sharp.co.uk/), to medical physics, to building optical telescopes at [Surrey Satellites](https://www.sstl.co.uk/) (SSTL). It was whilst at SSTL that I started this repo as a personal resource. I left SSTL, actually was made redundant along with 30% of the company, and after a brief stint at an IOT start up, I now work as a data engineer. Deep learning is currently a hobby, but I have ambitions to move into this domain when the right opportunity presents itself. Feel free to connect with me [on LinkedIn](https://www.linkedin.com/in/robmarkcole/).
