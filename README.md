@@ -294,6 +294,7 @@ What are companies doing?
 * [Descartes Labs](https://www.descarteslabs.com/) -> access to EO imagery from a variety of providers via python API -> not clear which imagery is available (Airbus + others?) or pricing
 * DigitalGlobe have a cloud hosted Jupyter notebook platform called [GBDX](https://platform.digitalglobe.com/gbdx/). Cloud hosting means they can guarantee the infrastructure supports their algorithms, and they appear to be close/closer to deploying DL. [Tutorial notebooks here](https://notebooks.geobigdata.io/hub/tutorials/list). Only Sentinel-2 and Landsat data on free tier.
 * Planet have a [Jupyter notebook platform](https://developers.planet.com/) which can be deployed locally and requires an [API key](https://developers.planet.com/docs/quickstart/getting-started/) (14 days free). They have a python wrapper (2.7..) to their rest API. No price after 14 day trial.
+* Earth-i [Spectrum](https://earthi.space/spectrum/) appears to allow processing of imagery, with the capability to perform segmentation, change detection, object recognition. [This promo video](https://vimeo.com/420726376) contains some screenshots of the application. 
 
 # Free online computing resources
 Generally a GPU is required for DL, and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter envs [on the fast.at site](https://course-v3.fast.ai/index.html).
