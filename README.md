@@ -146,7 +146,7 @@ There are a variety of datasets suitable for land classification problems.
 * Generic ecosystem for feature extraction from aerial and satellite imagery.
 
 ### neat-EO
-* https://github.com/datapink/neat-EO
+* https://neat-EO.pink
 * Efficient AI4EO OpenSource framework
 
 ### DeepOSM
