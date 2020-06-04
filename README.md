@@ -134,6 +134,9 @@ There are a variety of datasets suitable for land classification problems.
 * NOAA (requires BigQuery) -> https://www.kaggle.com/noaa/goes16/home
 * Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 
+### Synthetic data
+* [The Synthinel-1 dataset: a collection of high resolution synthetic overhead imagery for building segmentation](https://arxiv.org/ftp/arxiv/papers/2001/2001.05130.pdf)
+
 # Interesting deep learning projects
 ### Raster Vision by Azavea
 * https://www.azavea.com/projects/raster-vision/
