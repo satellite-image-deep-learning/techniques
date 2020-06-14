@@ -359,6 +359,9 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
 
+# Geopsatial companies
+* https://github.com/chrieke/geospatial-companies -> List of 500+ geospatial companies by Christoph Rieke
+
 # For fun
 * [Style transfer - see the world in a new way](https://gist.github.com/jacquestardie/6227891818625e4c19c1b1d5bebe4fe4)
 
