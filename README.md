@@ -134,8 +134,14 @@ There are a variety of datasets suitable for land classification problems.
 * NOAA (requires BigQuery) -> https://www.kaggle.com/noaa/goes16/home
 * Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 
+### UAV datasets
+* These are mostly referenced on https://www.visualdata.io
+* [AU-AIR dataset](https://bozcani.github.io/auairdataset) -> a multi-modal UAV dataset for object detection.
+* [ERA](https://lcmou.github.io/ERA_Dataset/) ->  A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos.
+
 ### Synthetic data
 * [The Synthinel-1 dataset: a collection of high resolution synthetic overhead imagery for building segmentation](https://arxiv.org/ftp/arxiv/papers/2001/2001.05130.pdf)
+* [RarePlanes](https://www.cosmiqworks.org/RarePlanes/) ->  incorporates both real and synthetically generated satellite imagery including aircraft.
 
 # Interesting deep learning projects
 ### Raster Vision by Azavea
@@ -346,6 +352,9 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 * [Chris Holmes](https://github.com/cholmes) is doing great things at Planet
 * [Christoph Rieke](https://github.com/chrieke) maintains a very popular imagery repo and has published his thesis on segmentation
 * [Robin Wilson](https://github.com/robintw) is a former academic who is very active in the satellite imagery space
+
+# Courses
+* [Manning: Monitoring Changes in Surface Water Using Satellite Image Data](https://liveproject.manning.com/course/106/monitoring-changes-in-surface-water-using-satellite-image-data?)
 
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
