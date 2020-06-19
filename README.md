@@ -134,10 +134,11 @@ There are a variety of datasets suitable for land classification problems.
 * NOAA (requires BigQuery) -> https://www.kaggle.com/noaa/goes16/home
 * Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 
-### UAV datasets
-* These are mostly referenced on https://www.visualdata.io
+### UAV & Drone datasets
+* Many on https://www.visualdata.io
 * [AU-AIR dataset](https://bozcani.github.io/auairdataset) -> a multi-modal UAV dataset for object detection.
 * [ERA](https://lcmou.github.io/ERA_Dataset/) ->  A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos.
+* [Aerial Maritime Drone Dataset](https://public.roboflow.ai/object-detection/aerial-maritime)
 
 ### Synthetic data
 * [The Synthinel-1 dataset: a collection of high resolution synthetic overhead imagery for building segmentation](https://arxiv.org/ftp/arxiv/papers/2001/2001.05130.pdf)
@@ -218,6 +219,7 @@ This section explores the different techniques (DL, ML & classical) people are a
 * [Building Extraction with YOLT2 and SpaceNet Data](https://medium.com/the-downlinq/building-extraction-with-yolt2-and-spacenet-data-a926f9ffac4f)
 * [Find sports fields using Mask R-CNN and overlay on open-street-map](https://github.com/jremillard/images-to-osm)
 * [Detecting solar panels from satellite imagery](https://towardsdatascience.com/weekend-project-detecting-solar-panels-from-satellite-imagery-f6f5d5e0da40)
+* [Anomaly Detection on Mars using a GAN](https://omdena.com/projects/anomaly-detection-mars/)
 
 ## Cloud detection
 * A subset of the object detection problem, but surprisingly challenging
