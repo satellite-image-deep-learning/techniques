@@ -96,6 +96,11 @@ Not satellite but airborne imagery. Each sample image is 28x28 pixels and consis
 * [Sat6](https://www.kaggle.com/crawford/deepsat-sat6) 405,000 image patches each of size 28x28 and covering 6 landcover classes - **barren land, trees, grassland, roads, buildings and water bodies.**
 * [Deep Gradient Boosted Learning article](https://alan.do/deep-gradient-boosted-learning-4e33adaf2969)
 
+### Kaggle - Understanding Clouds from Satellite Images
+In this challenge, you will build a model to classify cloud organization patterns from satellite images.
+* https://www.kaggle.com/c/understanding_cloud_organization/
+* [3rd place solution on Github by naivelamb](https://github.com/naivelamb/kaggle-cloud-organization)
+
 ### Kaggle - other
 * Satellite + loan data -> https://www.kaggle.com/reubencpereira/spatial-data-repo
 
