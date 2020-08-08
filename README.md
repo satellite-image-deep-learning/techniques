@@ -24,16 +24,15 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * **Warning** satellite image files can be LARGE, even a small data set may comprise 50 GB of imagery
 * [Various datasets listed here](https://www.maptiler.com/gallery/satellite/) and at [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
 
-## WorldView - SpaceNet
+## WorldView
 * https://en.wikipedia.org/wiki/WorldView-3
 * 0.3m PAN, 1.24 MS, 3.7m SWIR. Off-Nadir (stereo) available.
 * Owned by [DigitalGlobe](https://www.digitalglobe.com/)
-* [Intro to SpaceNet](https://medium.com/@sumit.arora/getting-started-with-aws-spacenet-and-spacenet-dataset-visualization-basics-7ddd2e5809a2)
-* [SpaceNet dataset on AWS](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) -> see [this getting started notebook](https://medium.com/the-downlinq/getting-started-with-spacenet-data-827fd2ec9f53) and this notebook on the [off-Nadir dataset](https://medium.com/the-downlinq/introducing-the-spacenet-off-nadir-imagery-and-buildings-dataset-e4a3c1cb4ce3)
+getting-started-with-aws-spacenet-and-spacenet-dataset-visualization-basics-7ddd2e5809a2)
+* [Dataset on AWS](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) -> see [this getting started notebook](https://medium.com/the-downlinq/getting-started-with-spacenet-data-827fd2ec9f53) and this notebook on the [off-Nadir dataset](https://medium.com/the-downlinq/introducing-the-spacenet-off-nadir-imagery-and-buildings-dataset-e4a3c1cb4ce3)
 * [cloud_optimized_geotif here](http://menthe.ovh.hw.ipol.im/IARPA_data/cloud_optimized_geotif/) used in the 3D modelling notebook [here](https://gfacciol.github.io/IS18/).
 * [Package of utilities](https://github.com/SpaceNetChallenge/utilities) to assist working with the SpaceNet dataset.
 * For more Worldview imagery see Kaggle DSTL competition.
-* [spacenet.ai website](https://spacenet.ai/) covering the series of SpaceNet challenges, lots of useful resources (blog, video and papers)
 
 ## Sentinel
 * As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_Programme), multiple Sentinel satellites are capturing imagery -> see [wikipedia](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions).
@@ -53,6 +52,13 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * https://github.com/kylebarron/landsat-mosaic-latest - Auto-updating cloudless Landsat 8 mosaic from AWS SNS notifications
 * [Visualise landsat imagery using Datashader](https://examples.pyviz.org/landsat/landsat.html#landsat-gallery-landsat)
 * [Landsat-mosaic-tiler](https://github.com/kylebarron/landsat-mosaic-tiler) - The repo host all the code for [landsatlive.live](https://landsatlive.live) website and APIs.
+
+## Spacenet
+* Spacenet is an online hub for data, challenges, algorithms, and tools.
+* [spacenet.ai website](https://spacenet.ai/) covering the series of SpaceNet challenges, lots of useful resources (blog, video and papers)
+* [The SpaceNet 7 Multi-Temporal Urban Development Challenge: Dataset Release](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5)
+* [SpaceNet - WorldView-3](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) and [article here](https://spark-in.me/post/spacenet-three-challenge). Also example [semantic segmentation using Raster Vision](https://docs.rastervision.io/en/0.8/quickstart.html)
+
 
 ### Shuttle Radar Topography Mission (digital elevation maps)
 * [Data - open access](http://srtm.csi.cgiar.org/srtmdata/)
@@ -126,7 +132,7 @@ There are a variety of datasets suitable for land classification problems.
 ### AWS datasets
 * Landsat -> free viewer at [remotepixel](https://viewer.remotepixel.ca/#3/40/-70.5) and [libra](https://libra.developmentseed.org/)
 * Optical, radar, segmented etc. https://aws.amazon.com/earth/
-* [SpaceNet - WorldView-3](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) and [article here](https://spark-in.me/post/spacenet-three-challenge). Also example [semantic segmentation using Raster Vision](https://docs.rastervision.io/en/0.8/quickstart.html)
+* Spacenet data is hosted on S3
 
 ### Quilt
 * Several people have uploaded datasets to [Quilt](https://open.quiltdata.com/search?q=satellite)
