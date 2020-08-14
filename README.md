@@ -392,8 +392,13 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
 
-# Geopsatial companies
+# Companies
 * https://github.com/chrieke/geospatial-companies -> List of 500+ geospatial companies by Christoph Rieke
+* [Dymaxion Analytics](https://dymaxionlabs.com/) -> a machine learning API for developing bespoke object detection models for satellite and drone imagery. Test drive with limited free access [here](https://dymaxionlabs.us20.list-manage.com/track/click?u=473593473b81d57309a4c7adc&id=17000850a4&e=3502a0fd9c)
+
+# Neural nets in space
+Processing on satellite allows less data to be downlinked. E.g. super-resolution image might take 4-8 images to generate, then a single image is downlinked.
+* [Lockheed Martin and USC to Launch Jetson-Based Nanosatellite for Scientific Research Into Orbit](https://news.developer.nvidia.com/lockheed-martin-usc-jetson-nanosatellite/)
 
 # For fun
 * [Style transfer - see the world in a new way](https://gist.github.com/jacquestardie/6227891818625e4c19c1b1d5bebe4fe4)
