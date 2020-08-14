@@ -200,6 +200,7 @@ Assign a label to an image, e.g. this is an image of a forest.
 * [What’s growing there? Using eo-learn and fastai to identify crops from multi-spectral remote sensing data (Sentinel 2)](https://towardsdatascience.com/whats-growing-there-a5618a2e6933)
 * [FastAI Multi-label image classification](https://towardsdatascience.com/fastai-multi-label-image-classification-8034be646e95)
 * [Land use classification using Keras](https://examples.pyviz.org/landuse_classification/Image_Classification.html#landuse-classification-gallery-image-classification)
+* [Detecting Informal Settlements from Satellite Imagery using fine-tuning of ResNet-50 classifier](https://blog.goodaudience.com/detecting-informal-settlements-using-satellite-imagery-and-convolutional-neural-networks-d571a819bf44) with [repo](https://github.com/dymaxionlabs/ap-latam)
 
 ## Semantic segmentation
 Whilst classification will assign a label to a whole image, semantic segmentation will assign a label to each pixel
@@ -217,6 +218,7 @@ Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, c
 * [Change Detection in 3D: Generating Digital Elevation Models from Dove Imagery](https://www.planet.com/pulse/publications/change-detection-in-3d-generating-digital-elevation-models-from-dove-imagery/)
 * [Change Detection in Hyperspectral Images Using Recurrent 3D Fully Convolutional Networks](https://www.mdpi.com/2072-4292/10/11/1827)
 * [PySAR - InSAR (Interferometric Synthetic Aperture Radar) timeseries analysis in python](https://github.com/hfattahi/PySAR)
+* [QGIS 2 plugin for applying change detection algorithms on high resolution satellite imagery](https://github.com/dymaxionlabs/massive-change-detection)
 
 ## Image registration
 Image registration is the process of transforming different sets of data into one coordinate system. Typical use is overlapping images taken at different times or with different cameras.
@@ -394,7 +396,9 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 
 # Companies
 * https://github.com/chrieke/geospatial-companies -> List of 500+ geospatial companies by Christoph Rieke
-* [Dymaxion Analytics](https://dymaxionlabs.com/) -> a machine learning API for developing bespoke object detection models for satellite and drone imagery. Test drive with limited free access [here](https://dymaxionlabs.us20.list-manage.com/track/click?u=473593473b81d57309a4c7adc&id=17000850a4&e=3502a0fd9c)
+* [Dymaxion Analytics](https://dymaxionlabs.com/) -> a machine learning API for developing bespoke object detection models for satellite and drone imagery.
+* [Earth-i](https://earthi.space/) - consultancy
+* [Terrabotics](https://www.terrabotics.co.uk/) - specialise in terrain mapping
 
 # Neural nets in space
 Processing on satellite allows less data to be downlinked. E.g. super-resolution image might take 4-8 images to generate, then a single image is downlinked.
