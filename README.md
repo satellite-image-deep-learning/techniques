@@ -382,6 +382,7 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 * [s2p](https://github.com/cmla/s2p) -> a Python library and command line tool that implements a stereo pipeline which produces elevation models from images taken by high resolution optical satellites such as Pléiades, WorldView, QuickBird, Spot or Ikonos
 * [felicette](https://github.com/plant99/felicette) -> Satellite imagery for dummies. Generate JPEG earth imagery from coordinates/location name with publicly available satellite data.
 * [Land Cover Mapping web app from Microsoft](https://github.com/microsoft/landcover)
+* [sat-utils/sat-search](https://github.com/sat-utils/sat-search) -> Sat-search is a Python 3 library and a command line tool for discovering and downloading publicly available satellite imagery using STAC compliant API
 
 # Movers and shakers on Github
 * [Chris Holmes](https://github.com/cholmes) is doing great things at Planet
