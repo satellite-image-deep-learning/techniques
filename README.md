@@ -299,6 +299,7 @@ Measure surface contours.
 ## Aerial imagery (drones)
 * [RetinaNet for pedestrian detection](https://towardsdatascience.com/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6)
 * [Aerial Maritime Drone Dataset](https://public.roboflow.com/object-detection/aerial-maritime/1)
+* [EmergencyNet](https://github.com/ckyrkou/EmergencyNet) - identify fire and other emergencies from a drone
 
 # Image formats and catalogues
 * We certainly want to consider cloud optimised GeoTiffs https://www.cogeo.org/
