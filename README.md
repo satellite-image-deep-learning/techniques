@@ -239,6 +239,7 @@ A typical task is detecting boats on the ocean, which should be simpler than lan
 * [Detecting solar panels from satellite imagery](https://towardsdatascience.com/weekend-project-detecting-solar-panels-from-satellite-imagery-f6f5d5e0da40)
 * [Anomaly Detection on Mars using a GAN](https://omdena.com/projects/anomaly-detection-mars/)
 * [Tackling the Small Object Problem in Object Detection](https://blog.roboflow.com/tackling-the-small-object-problem-in-object-detection)
+* [Satellite Imagery Multiscale Rapid Detection with Windowed Networks (SIMRDWN)](https://github.com/avanetten/simrdwn) -> combines some of the leading object detection algorithms into a unified framework designed to detect objects both large and small in overhead imagery
 
 ## Cloud detection
 A subset of the object detection problem, but surprisingly challenging
@@ -388,6 +389,7 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 * [sat-utils/sat-search](https://github.com/sat-utils/sat-search) -> Sat-search is a Python 3 library and a command line tool for discovering and downloading publicly available satellite imagery using STAC compliant API
 
 # Movers and shakers on Github
+* [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
 * [Chris Holmes](https://github.com/cholmes) is doing great things at Planet
 * [Christoph Rieke](https://github.com/chrieke) maintains a very popular imagery repo and has published his thesis on segmentation
 * [Robin Wilson](https://github.com/robintw) is a former academic who is very active in the satellite imagery space
