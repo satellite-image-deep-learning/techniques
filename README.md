@@ -351,21 +351,26 @@ What are companies doing?
 * Earth-i [Spectrum](https://earthi.space/spectrum/) appears to allow processing of imagery, with the capability to perform segmentation, change detection, object recognition. [This promo video](https://vimeo.com/420726376) contains some screenshots of the application. 
 
 # Free online computing resources
-Generally a GPU is required for DL, and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter envs [on the fast.at site](https://course-v3.fast.ai/index.html).
+Generally a GPU is required for DL, and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter envs [on the fast.at site](https://course-v3.fast.ai/index.html). I personally use Colab with data hosgted on Google Drive
 
 ### Google Colab
 * Collaboratory [notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time. Note that the GPU may be shared with other users, so if you aren't getting good performance try reloading.
 * Also a pro tier for $10 a month -> https://colab.research.google.com/signup
-* Tensorflow available & pytorch can be installed, [useful articles](https://towardsdatascience.com/fast-ai-lesson-1-on-google-colab-free-gpu-d2af89f53604)
+* Tensorflow  pytorch can be installed
 
 ### Kaggle - also Google!
 * Free to use
 * GPU Kernels - may run for 1 hour
 * Tensorflow, pytorch & fast.ai available
 * Advantage that many datasets are already available
-* [Read](https://medium.com/@hortonhearsafoo/announcing-fast-ai-part-1-now-available-as-kaggle-kernels-8ef4ca3b9ce6)
+
+### Paperspace
+* Free tier available
+* https://docs.paperspace.com/gradient/instances/free-instances
 
 # Production
+Once you have a trained model how do you expose it to the internet and other services? Usually through a rest API. This section lists a number of hosting options.
+
 ### Custom REST API
 * Basic https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html with code [here](https://github.com/jrosebr1/simple-keras-rest-api)
 * Advanced https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
