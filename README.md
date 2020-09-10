@@ -399,6 +399,9 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 # Courses
 * [Manning: Monitoring Changes in Surface Water Using Satellite Image Data](https://liveproject.manning.com/course/106/monitoring-changes-in-surface-water-using-satellite-image-data?)
 
+# Live competitions
+* [Spacenet 7: Multi-Temporal Urban Development Challenge](https://www.topcoder.com/challenges/21ba3d19-3f7a-4abc-8d28-7c932887f0f6) - registration deadline Oct 28 2020. Track individual building construction over time from Planet imagery, challenge because of the small pixel area of each object, the high object density within images, and the dramatic image-to-image difference compared to frame-to-frame variation in video object tracking. 
+
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
 
