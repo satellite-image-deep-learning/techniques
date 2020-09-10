@@ -1,5 +1,5 @@
 # Introduction
-This document primarily lists resources for performing deep learning (DL) on satellite imagery. To a lesser extent Machine learning (ML, e.g. random forests, stochastic gradient descent) are also discussed, as are classical image processing techniques.
+This document primarily lists resources for performing deep learning (DL) on satellite imagery. To a lesser extent classical Machine learning (ML, e.g. random forests) are also discussed, as are classical image processing techniques.
 
 # Table of contents
 * [Top links](https://github.com/robmarkcole/satellite-image-deep-learning#top-links)
@@ -374,6 +374,15 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 ### Tensorflow Serving
 * https://www.tensorflow.org/serving/
 * TensorFlow Serving makes it easy to deploy new algorithms and experiments, while keeping the same server architecture and APIs. Multiple models, or indeed multiple versions of the same model, can be served simultaneously.  TensorFlow Serving comes with a scheduler that groups individual inference requests into batches for joint execution on a GPU
+
+### Pytorch serve
+* https://github.com/pytorch/serve
+
+### AWS sagemaker
+* https://aws.amazon.com/blogs/machine-learning/bring-your-own-deep-learning-framework-to-amazon-sagemaker-with-model-server-for-apache-mxnet/
+
+### Paperspace gradient
+* https://docs.paperspace.com/machine-learning/wiki/model-deployment
 
 ### chip-n-scale-queue-arranger by developmentseed
 * https://github.com/developmentseed/chip-n-scale-queue-arranger
