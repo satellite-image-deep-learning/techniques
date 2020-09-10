@@ -1,15 +1,8 @@
 # Introduction
 This document primarily lists resources for performing deep learning (DL) on satellite imagery. To a lesser extent Machine learning (ML, e.g. random forests, stochastic gradient descent) are also discussed, as are classical image processing techniques.
 
-# Top links
-* https://github.com/chrieke/awesome-satellite-imagery-datasets
-* [A modern geospatial workflow](https://gist.github.com/jacquestardie/0d1c0cb413b3b9b06edf)
-* [geospatial-machine-learning](https://github.com/deepVector/geospatial-machine-learning)
-* [Long list of satellite missions with example imagery](https://www.satimagingcorp.com/satellite-sensors/)
-* [AWS datasets](https://registry.opendata.aws/)
-* [awesome-earthobservation-code](https://github.com/acgeospatial/awesome-earthobservation-code)
-
 # Table of contents
+* [Top links](https://github.com/robmarkcole/satellite-image-deep-learning#top-links)
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
 * [Interesting deep learning projects](https://github.com/robmarkcole/satellite-image-deep-learning#interesting-deep-learning-projects)
 * [Techniques](https://github.com/robmarkcole/satellite-image-deep-learning#techniques)
@@ -18,7 +11,24 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * [Online platforms for Geo analysis](https://github.com/robmarkcole/satellite-image-deep-learning#online-platforms-for-geo-analysis)
 * [Free online computing resources](https://github.com/robmarkcole/satellite-image-deep-learning#free-online-computing-resources)
 * [Production](https://github.com/robmarkcole/satellite-image-deep-learning#production)
+* [Useful open source software](https://github.com/robmarkcole/satellite-image-deep-learning#useful-open-source-software)
+* [Movers and shakers on Github](https://github.com/robmarkcole/satellite-image-deep-learning#movers-and-shakers-on-github)
+* [Courses](https://github.com/robmarkcole/satellite-image-deep-learning#courses)
+* [Live competitions](https://github.com/robmarkcole/satellite-image-deep-learning#live-competitions)
+* [Online communities](https://github.com/robmarkcole/satellite-image-deep-learning#online-communities)
+* [Companies](https://github.com/robmarkcole/satellite-image-deep-learning#companies)
+* [Neural nets in space](https://github.com/robmarkcole/satellite-image-deep-learning#neural-nets-in-space)
+* [For fun](https://github.com/robmarkcole/satellite-image-deep-learning#for-fun)
 * [Useful references](https://github.com/robmarkcole/satellite-image-deep-learning#useful-references)
+* [About the author](https://github.com/robmarkcole/satellite-image-deep-learning#about-the-author)
+
+# Top links
+* https://github.com/chrieke/awesome-satellite-imagery-datasets
+* [A modern geospatial workflow](https://gist.github.com/jacquestardie/0d1c0cb413b3b9b06edf)
+* [geospatial-machine-learning](https://github.com/deepVector/geospatial-machine-learning)
+* [Long list of satellite missions with example imagery](https://www.satimagingcorp.com/satellite-sensors/)
+* [AWS datasets](https://registry.opendata.aws/)
+* [awesome-earthobservation-code](https://github.com/acgeospatial/awesome-earthobservation-code)
 
 # Datasets
 * **Warning** satellite image files can be LARGE, even a small data set may comprise 50 GB of imagery
@@ -58,7 +68,6 @@ getting-started-with-aws-spacenet-and-spacenet-dataset-visualization-basics-7ddd
 * [spacenet.ai website](https://spacenet.ai/) covering the series of SpaceNet challenges, lots of useful resources (blog, video and papers)
 * [The SpaceNet 7 Multi-Temporal Urban Development Challenge: Dataset Release](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5)
 * [SpaceNet - WorldView-3](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) and [article here](https://spark-in.me/post/spacenet-three-challenge). Also example [semantic segmentation using Raster Vision](https://docs.rastervision.io/en/0.8/quickstart.html)
-
 
 ### Shuttle Radar Topography Mission (digital elevation maps)
 * [Data - open access](http://srtm.csi.cgiar.org/srtmdata/)
