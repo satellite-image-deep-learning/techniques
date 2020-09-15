@@ -152,6 +152,9 @@ There are a variety of datasets suitable for land classification problems.
 * https://developers.google.com/earth-engine/
 * Various imagery and climate datasets, including Landsat & Sentinel imagery
 * [Python API](https://developers.google.com/earth-engine/python_install) but  all compute happens on Googles servers
+* [Google Earth Engine Community on Github](https://github.com/gee-community)
+* [awesome-google-earth-engine](https://github.com/gee-community/awesome-google-earth-engine) - Curated list of Google Earth Engine resources
+* [ee-tensorflow-notebooks](https://github.com/gee-community/ee-tensorflow-notebooks) - Repository to place example notebooks for Deep Learning applications with TensorFlow and Earth Engine.
 
 ### Weather Datasets
 * UK met-odffice -> https://www.metoffice.gov.uk/datapoint
