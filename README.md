@@ -17,6 +17,7 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * [Live competitions](https://github.com/robmarkcole/satellite-image-deep-learning#live-competitions)
 * [Online communities](https://github.com/robmarkcole/satellite-image-deep-learning#online-communities)
 * [Companies](https://github.com/robmarkcole/satellite-image-deep-learning#companies)
+* [Jobs](https://github.com/robmarkcole/satellite-image-deep-learning#jobs)
 * [Neural nets in space](https://github.com/robmarkcole/satellite-image-deep-learning#neural-nets-in-space)
 * [For fun](https://github.com/robmarkcole/satellite-image-deep-learning#for-fun)
 * [Useful references](https://github.com/robmarkcole/satellite-image-deep-learning#useful-references)
@@ -49,6 +50,7 @@ getting-started-with-aws-spacenet-and-spacenet-dataset-visualization-basics-7ddd
 * As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_Programme), multiple Sentinel satellites are capturing imagery -> see [wikipedia](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions).
 * 13 bands, Spatial resolution of 10 m, 20 m and 60 m, 290 km swath, the temporal resolution is 5 days
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) - a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
+* [Sentinel-2 Cloud-Optimized GeoTIFFs](https://registry.opendata.aws/sentinel-2-l2a-cogs/)
 * [Open access data on GCP](https://console.cloud.google.com/storage/browser/gcp-public-data-sentinel-2?prefix=tiles%2F31%2FT%2FCJ%2F)
 * Paid access via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py).
 * [Example loading sentinel data in a notebook](https://github.com/binder-examples/getting-data/blob/master/Sentinel2.ipynb)
@@ -181,11 +183,9 @@ There are a variety of datasets suitable for land classification problems.
 
 ### RoboSat
 * https://github.com/mapbox/robosat
-* Generic ecosystem for feature extraction from aerial and satellite imagery.
-
-### neat-EO
-* https://neat-EO.pink
-* Efficient AI4EO OpenSource framework
+* Semantic segmentation on aerial and satellite imagery. Extracts features such as: buildings, parking lots, roads, water, clouds
+* [robosat-jupyter-notebook](https://github.com/Element84/robosat-jupyter-notebook) -> walks through all of the steps in an excellent blog post on the Robosat feature extraction and machine learning pipeline.
+* Note there is/was fork of Robosat, originally named RoboSat.pink, and subsequently https://neat-EO.pink although this appears to be down/archived
 
 ### DeepOSM
 * https://github.com/trailbehind/DeepOSM
@@ -317,14 +317,16 @@ Measure surface contours.
 * [Aerial Maritime Drone Dataset](https://public.roboflow.com/object-detection/aerial-maritime/1)
 * [EmergencyNet](https://github.com/ckyrkou/EmergencyNet) - identify fire and other emergencies from a drone
 
-# Image formats and catalogues
+# Image formats, data management and catalogues
 * We certainly want to consider cloud optimised GeoTiffs https://www.cogeo.org/
+* [GeoServer](http://geoserver.org/) -> an open source server for sharing geospatial data.
 * https://terria.io/ for pretty catalogues
 * [Remote pixel](https://remotepixel.ca/projects/index.html#satsearch)
 * [Sentinel-hub eo-browser](https://apps.sentinel-hub.com/eo-browser/)
 * Large datasets may come in HDF5 format, can view with -> https://www.hdfgroup.org/downloads/hdfview/
 * Climate data is often in netcdf format, which can be [opened using xarray](https://moderndata.plot.ly/weather-maps-in-python-with-mapbox-gl-xarray-and-netcdf4/)
 * The xarray docs list a number of ways that data [can be stored and loaded](http://xarray.pydata.org/en/latest/io.html#).
+* [TileDB](https://tiledb.com/) -> a 'Universal Data Engine' to store, analyze and share any data (beyond tables), with any API or tool (beyond SQL) at planet-scale (beyond clusters), open source and managed options. [Recently hiring](https://discourse.pangeo.io/t/job-openings-at-tiledb-inc/787) to work with xarray, dask, netCDF and cloud native storage
 
 ## STAC - SpatioTemporal Asset Catalog
 * Specification describing the layout of a catalogue comprising of static files. The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface.
@@ -436,8 +438,12 @@ Once you have a trained model how do you expose it to the internet and other ser
 # Companies
 * https://github.com/chrieke/geospatial-companies -> List of 500+ geospatial companies by Christoph Rieke
 * [Dymaxion Analytics](https://dymaxionlabs.com/) -> a machine learning API for developing bespoke object detection models for satellite and drone imagery.
-* [Earth-i](https://earthi.space/) - consultancy
-* [Terrabotics](https://www.terrabotics.co.uk/) - specialise in terrain mapping
+* [Earth-i](https://earthi.space/) -> consultancy
+* [Terrabotics](https://www.terrabotics.co.uk/) - >specialise in terrain mapping
+* [Element84](https://www.element84.com/) -> consultancy
+
+# Jobs
+* [Pangeo discourse](https://discourse.pangeo.io/c/news/jobs) lists multiple jobs, global
 
 # Neural nets in space
 Processing on satellite allows less data to be downlinked. E.g. super-resolution image might take 4-8 images to generate, then a single image is downlinked.
