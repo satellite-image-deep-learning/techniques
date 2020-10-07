@@ -333,6 +333,7 @@ Measure surface contours.
 * An initiative of https://www.radiant.earth/ in particular https://github.com/cholmes
 * Spec at https://github.com/radiantearth/stac-spec
 * Browser at https://github.com/radiantearth/stac-browser
+* [stacindex](https://stacindex.org/) -> STAC Catalogs, Collections, APIs, Software and Tools
 * Talk at https://docs.google.com/presentation/d/1O6W0lMeXyUtPLl-k30WPJIyH1ecqrcWk29Np3bi6rl0/edit#slide=id.p
 * Example catalogue at https://landsat-stac.s3.amazonaws.com/catalog.json
 * Chat https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby
@@ -418,6 +419,7 @@ Once you have a trained model how do you expose it to the internet and other ser
 * [felicette](https://github.com/plant99/felicette) -> Satellite imagery for dummies. Generate JPEG earth imagery from coordinates/location name with publicly available satellite data.
 * [Land Cover Mapping web app from Microsoft](https://github.com/microsoft/landcover)
 * [sat-utils/sat-search](https://github.com/sat-utils/sat-search) -> Sat-search is a Python 3 library and a command line tool for discovering and downloading publicly available satellite imagery using STAC compliant API
+* [rio-cogeo](https://cogeotiff.github.io/rio-cogeo/) -> Cloud Optimized GeoTIFF (COG) creation and validation plugin for Rasterio.
 
 # Movers and shakers on Github
 * [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
