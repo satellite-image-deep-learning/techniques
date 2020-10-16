@@ -19,3 +19,4 @@ bin-release/
 # information for Eclipse / Flash Builder.
 
 .ipynb_checkpoints
+.DS_Store
