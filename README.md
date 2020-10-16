@@ -255,7 +255,7 @@ A typical task is detecting boats on the ocean, which should be simpler than lan
 * [Anomaly Detection on Mars using a GAN](https://omdena.com/projects/anomaly-detection-mars/)
 * [Tackling the Small Object Problem in Object Detection](https://blog.roboflow.com/tackling-the-small-object-problem-in-object-detection)
 * [Satellite Imagery Multiscale Rapid Detection with Windowed Networks (SIMRDWN)](https://github.com/avanetten/simrdwn) -> combines some of the leading object detection algorithms into a unified framework designed to detect objects both large and small in overhead imagery
-* [2020 Nature paper - An unexpectedly large count of trees in the West African Sahara and Sahel](https://www.nature.com/articles/s41586-020-2824-5) -> tree detection framework based on U-Net with code [here](https://zenodo.org/record/3978185#.X4k9ynhKidY)
+* [2020 Nature paper - An unexpectedly large count of trees in the West African Sahara and Sahel](https://www.nature.com/articles/s41586-020-2824-5) -> tree detection framework based on U-Net & tensorflow 2 with code [here](https://github.com/ankitkariryaa/An-unexpectedly-large-count-of-trees-in-the-western-Sahara-and-Sahel/tree/v1.0.0)
 
 ## Cloud detection
 A subset of the object detection problem, but surprisingly challenging
@@ -421,11 +421,12 @@ Once you have a trained model how do you expose it to the internet and other ser
 
 # Movers and shakers
 * [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
+* [Ankit Kariryaa](https://github.com/ankitkariryaa) published a recent nature paper on tree detection
 * [Chris Holmes](https://github.com/cholmes) is doing great things at Planet
 * [Christoph Rieke](https://github.com/chrieke) maintains a very popular imagery repo and has published his thesis on segmentation
-* [Robin Wilson](https://github.com/robintw) is a former academic who is very active in the satellite imagery space
-* [Qiusheng Wu](https://github.com/giswqs) is an Assistant Professor in the Department of Geography at the University of Tennessee
 * [Nicholas Murray](https://www.murrayensis.org/) is an Australia-based scientist with a focus on delivering the science necessary to inform large scale environmental management and conservation
+* [Qiusheng Wu](https://github.com/giswqs) is an Assistant Professor in the Department of Geography at the University of Tennessee
+* [Robin Wilson](https://github.com/robintw) is a former academic who is very active in the satellite imagery space
 
 # Courses
 * [Manning: Monitoring Changes in Surface Water Using Satellite Image Data](https://liveproject.manning.com/course/106/monitoring-changes-in-surface-water-using-satellite-image-data?)
