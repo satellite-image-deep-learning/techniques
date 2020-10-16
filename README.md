@@ -421,6 +421,7 @@ Once you have a trained model how do you expose it to the internet and other ser
 * [Land Cover Mapping web app from Microsoft](https://github.com/microsoft/landcover)
 * [sat-utils/sat-search](https://github.com/sat-utils/sat-search) -> Sat-search is a Python 3 library and a command line tool for discovering and downloading publicly available satellite imagery using STAC compliant API
 * [rio-cogeo](https://cogeotiff.github.io/rio-cogeo/) -> Cloud Optimized GeoTIFF (COG) creation and validation plugin for Rasterio.
+* [Solaris](https://github.com/CosmiQ/solaris) -> An open source ML pipeline for overhead imagery by [CosmiQ Works](https://www.cosmiqworks.org/)
 
 # Movers and shakers
 * [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
@@ -442,8 +443,6 @@ Once you have a trained model how do you expose it to the internet and other ser
 # Companies
 * https://github.com/chrieke/geospatial-companies -> List of 500+ geospatial companies by Christoph Rieke
 * [Dymaxion Analytics](https://dymaxionlabs.com/) -> a machine learning API for developing bespoke object detection models for satellite and drone imagery.
-* [Earth-i](https://earthi.space/) -> consultancy
-* [Terrabotics](https://www.terrabotics.co.uk/) - >specialise in terrain mapping
 * [Element84](https://www.element84.com/) -> consultancy
 
 # Jobs
