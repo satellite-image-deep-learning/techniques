@@ -1,5 +1,5 @@
 # Introduction
-This document primarily lists resources for performing deep learning (DL) on satellite imagery. To a lesser extent classical Machine learning (ML, e.g. random forests) are also discussed, as are classical image processing techniques.
+This document lists resources for performing deep learning (DL) on satellite imagery. To a lesser extent classical Machine learning (ML, e.g. random forests) are also discussed, as are classical image processing techniques.
 
 # Table of contents
 * [Top links](https://github.com/robmarkcole/satellite-image-deep-learning#top-links)
@@ -14,13 +14,10 @@ This document primarily lists resources for performing deep learning (DL) on sat
 * [Useful open source software](https://github.com/robmarkcole/satellite-image-deep-learning#useful-open-source-software)
 * [Movers and shakers on Github](https://github.com/robmarkcole/satellite-image-deep-learning#movers-and-shakers-on-github)
 * [Courses](https://github.com/robmarkcole/satellite-image-deep-learning#courses)
-* [Live competitions](https://github.com/robmarkcole/satellite-image-deep-learning#live-competitions)
 * [Online communities](https://github.com/robmarkcole/satellite-image-deep-learning#online-communities)
 * [Companies](https://github.com/robmarkcole/satellite-image-deep-learning#companies)
 * [Jobs](https://github.com/robmarkcole/satellite-image-deep-learning#jobs)
 * [Neural nets in space](https://github.com/robmarkcole/satellite-image-deep-learning#neural-nets-in-space)
-* [For fun](https://github.com/robmarkcole/satellite-image-deep-learning#for-fun)
-* [Useful references](https://github.com/robmarkcole/satellite-image-deep-learning#useful-references)
 * [About the author](https://github.com/robmarkcole/satellite-image-deep-learning#about-the-author)
 
 # Top links
@@ -58,6 +55,7 @@ getting-started-with-aws-spacenet-and-spacenet-dataset-visualization-basics-7ddd
 * [eurosat](https://www.tensorflow.org/datasets/catalog/eurosat) - EuroSAT dataset is based on Sentinel-2 satellite images covering 13 spectral bands and consisting of 10 classes with 27000 labeled and geo-referenced samples. Dataset and usage in [EuroSAT: Land Use and Land Cover Classification with Sentinel-2](https://github.com/phelber/EuroSAT), where a CNN achieves a classification accuracy 98.57%.
 * [bigearthnet](https://www.tensorflow.org/datasets/catalog/bigearthnet) - The BigEarthNet is a new large-scale Sentinel-2 benchmark archive, consisting of 590,326 Sentinel-2 image patches. The image patch size on the ground is 1.2 x 1.2 km with variable image size depending on the channel resolution. This is a multi-label dataset with 43 imbalanced labels.
 * [Jupyter Notebooks for working with Sentinel-5P Level 2 data stored on S3](https://github.com/Sentinel-5P/data-on-s3). The data can be browsed [here](https://meeo-s5p.s3.amazonaws.com/index.html#/?t=catalogs)
+* [Sentinel NetCDF data](https://github.com/acgeospatial/Sentinel-5P/blob/master/Sentinel_5P.ipynb)
 
 ## Landsat
 * Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -75,9 +73,6 @@ getting-started-with-aws-spacenet-and-spacenet-dataset-visualization-basics-7ddd
 
 ### Shuttle Radar Topography Mission (digital elevation maps)
 * [Data - open access](http://srtm.csi.cgiar.org/srtmdata/)
-
-### Aerial imagery (drones)
-* [Stanford Drone Dataset](http://cvgl.stanford.edu/projects/uav_data/)
 
 ## Kaggle
 Kaggle hosts over 60 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
@@ -169,6 +164,11 @@ There are a variety of datasets suitable for land classification problems.
 * [AU-AIR dataset](https://bozcani.github.io/auairdataset) -> a multi-modal UAV dataset for object detection.
 * [ERA](https://lcmou.github.io/ERA_Dataset/) ->  A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos.
 * [Aerial Maritime Drone Dataset](https://public.roboflow.ai/object-detection/aerial-maritime)
+* [Stanford Drone Dataset](http://cvgl.stanford.edu/projects/uav_data/)
+* [RetinaNet for pedestrian detection](https://towardsdatascience.com/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6)
+* [Aerial Maritime Drone Dataset](https://public.roboflow.com/object-detection/aerial-maritime/1)
+* [EmergencyNet](https://github.com/ckyrkou/EmergencyNet) - identify fire and other emergencies from a drone
+* [OpenDroneMap](https://github.com/OpenDroneMap/ODM) - generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images.
 
 ### Synthetic data
 * [The Synthinel-1 dataset: a collection of high resolution synthetic overhead imagery for building segmentation](https://arxiv.org/ftp/arxiv/papers/2001/2001.05130.pdf)
@@ -269,6 +269,7 @@ The goal is to predict economic activity from satellite imagery rather than cond
 * [Measuring Human and Economic Activity from Satellite Imagery to Support City-Scale Decision-Making during COVID-19 Pandemic](https://arxiv.org/abs/2004.07438)
 * [Predicting Food Security Outcomes Using CNNs for Satellite Tasking](https://arxiv.org/pdf/1902.05433.pdf)
 * [Crop yield Prediction with Deep Learning](https://github.com/JiaxuanYou/crop_yield_prediction) -> The necessary code for the paper Deep Gaussian Process for Crop Yield Prediction Based on Remote Sensing Data, AAAI 2017 (Best Student Paper Award in Computational Sustainability Track).
+* https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb
 
 ## Super resolution
 Super-resolution imaging is a class of techniques that enhance the resolution of an imaging system.
@@ -299,7 +300,7 @@ Measure surface contours.
 * [s2p](https://github.com/cmla/s2p) -> a Python library and command line tool that implements a stereo pipeline which produces elevation models from images taken by high resolution optical satellites such as Pléiades, WorldView, QuickBird, Spot or Ikonos
 
 ## Lidar
-* [Reconstructing 3D buildings from aerial LiDAR with Mask R-CNN)](https://medium.com/geoai/reconstructing-3d-buildings-from-aerial-lidar-with-ai-details-6a81cb3079c0)
+* [Reconstructing 3D buildings from aerial LiDAR with Mask R-CNN](https://medium.com/geoai/reconstructing-3d-buildings-from-aerial-lidar-with-ai-details-6a81cb3079c0)
 
 ## NVDI - vegetation index
 * Simple band math `ndvi = np.true_divide((ir - r), (ir + r))` but challenging due to the size of the imagery.
@@ -313,11 +314,6 @@ Measure surface contours.
 * [so2sat on Tensorflow datasets](https://www.tensorflow.org/datasets/catalog/so2sat) - So2Sat LCZ42 is a dataset consisting of co-registered synthetic aperture radar and multispectral optical image patches acquired by the Sentinel-1 and Sentinel-2 remote sensing satellites, and the corresponding local climate zones (LCZ) label. The dataset is distributed over 42 cities across different continents and cultural regions of the world.
 * [Using Machine Learning to Automatically Detect Volcanic Unrest in a Time Series of Interferograms](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JB017519)
 
-## Aerial imagery (drones)
-* [RetinaNet for pedestrian detection](https://towardsdatascience.com/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6)
-* [Aerial Maritime Drone Dataset](https://public.roboflow.com/object-detection/aerial-maritime/1)
-* [EmergencyNet](https://github.com/ckyrkou/EmergencyNet) - identify fire and other emergencies from a drone
-
 # Image formats, data management and catalogues
 * We certainly want to consider cloud optimised GeoTiffs https://www.cogeo.org/
 * [GeoServer](http://geoserver.org/) -> an open source server for sharing geospatial data.
@@ -328,6 +324,7 @@ Measure surface contours.
 * Climate data is often in netcdf format, which can be [opened using xarray](https://moderndata.plot.ly/weather-maps-in-python-with-mapbox-gl-xarray-and-netcdf4/)
 * The xarray docs list a number of ways that data [can be stored and loaded](http://xarray.pydata.org/en/latest/io.html#).
 * [TileDB](https://tiledb.com/) -> a 'Universal Data Engine' to store, analyze and share any data (beyond tables), with any API or tool (beyond SQL) at planet-scale (beyond clusters), open source and managed options. [Recently hiring](https://discourse.pangeo.io/t/job-openings-at-tiledb-inc/787) to work with xarray, dask, netCDF and cloud native storage
+* Open Data Cube - serve up cubes of data https://www.opendatacube.org/
 
 ## STAC - SpatioTemporal Asset Catalog
 * Specification describing the layout of a catalogue comprising of static files. The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface.
@@ -346,6 +343,7 @@ What are companies doing?
 * Bucking the trend, [Descartes & Airbus are using a google backend](https://spacenews.com/descartes-labs-platform-adds-airbus-imagery/) -> checkout [gcsts for google cloud storage sile-system](https://github.com/dask/gcsfs)
 * Just speculating, but a [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks, whilst providing a Jupyter notebook approach for custom analysis.
 * Traditional data formats aren't designed for processing, so new standards are developing such as [cloud optimised geotiffs](http://blog.digitalglobe.com/developers/cloud-optimized-geotiffs-and-the-path-to-accessible-satellite-imagery-analytics/) and [zarr](https://github.com/zarr-developers/zarr)
+* [Process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
 
 ## Batch processing
 * Google provide training on how to use Apache Spark on Google Cloud Dataproc to distribute a computationally intensive (satellite) image processing task onto a cluster of machines -> https://google.qwiklabs.com/focuses/5834?parent=catalog
@@ -360,7 +358,7 @@ What are companies doing?
 * Earth-i [Spectrum](https://earthi.space/spectrum/) appears to allow processing of imagery, with the capability to perform segmentation, change detection, object recognition. [This promo video](https://vimeo.com/420726376) contains some screenshots of the application. 
 
 # Free online computing resources
-Generally a GPU is required for DL, and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter envs [on the fast.at site](https://course-v3.fast.ai/index.html). I personally use Colab with data hosgted on Google Drive
+Generally a GPU is required for DL, and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter envs [on the fast.ai site](https://course-v3.fast.ai/index.html). I personally use Colab with data hosgted on Google Drive
 
 ### Google Colab
 * Collaboratory [notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time. Note that the GPU may be shared with other users, so if you aren't getting good performance try reloading.
@@ -434,7 +432,7 @@ Once you have a trained model how do you expose it to the internet and other ser
 # Courses
 * [Manning: Monitoring Changes in Surface Water Using Satellite Image Data](https://liveproject.manning.com/course/106/monitoring-changes-in-surface-water-using-satellite-image-data?)
 
-# Live competitions
+# Competitions
 * [Spacenet 7: Multi-Temporal Urban Development Challenge](https://www.topcoder.com/challenges/21ba3d19-3f7a-4abc-8d28-7c932887f0f6) - registration deadline Oct 28 2020. Track individual building construction over time from Planet imagery, challenge because of the small pixel area of each object, the high object density within images, and the dramatic image-to-image difference compared to frame-to-frame variation in video object tracking. 
 
 # Online communities
@@ -452,18 +450,6 @@ Once you have a trained model how do you expose it to the internet and other ser
 # Neural nets in space
 Processing on satellite allows less data to be downlinked. E.g. super-resolution image might take 4-8 images to generate, then a single image is downlinked.
 * [Lockheed Martin and USC to Launch Jetson-Based Nanosatellite for Scientific Research Into Orbit](https://news.developer.nvidia.com/lockheed-martin-usc-jetson-nanosatellite/)
-
-# For fun
-* [Style transfer - see the world in a new way](https://gist.github.com/jacquestardie/6227891818625e4c19c1b1d5bebe4fe4)
-
-# Useful References
-* https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
-* https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb
-* [Geonotebooks](https://github.com/OpenGeoscience/geonotebook) with [Docker container](https://github.com/OpenGeoscience/geonotebook/tree/master/devops/docker)
-* [Sentinel NetCDF data](https://github.com/acgeospatial/Sentinel-5P/blob/master/Sentinel_5P.ipynb)
-* Open Data Cube - serve up cubes of data https://www.opendatacube.org/
-* [Process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
-* [OpenDroneMap](https://github.com/OpenDroneMap/ODM) - generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images.
 
 # About the author
 My background is optical physics, and I have a PhD from Cambridge on the topic of Plasmon enhanced Raman spectroscopy. After doing a post doc I left academia and took a variety of roles, from industrial research at [Sharp Labs Europe](https://www.sle.sharp.co.uk/), to medical physics, to building optical telescopes at [Surrey Satellites](https://www.sstl.co.uk/) (SSTL). It was whilst at SSTL that I started this repo as a personal resource. I left SSTL, actually was made redundant along with 30% of the company, and after a brief stint at an IOT start up, I now work as a data engineer. Deep learning is currently a hobby, but I have ambitions to move into this domain when the right opportunity presents itself. My own satellite imagery projects are [here](https://github.com/robmarkcole/satellite-imagery-projects), and feel free to connect with me [on LinkedIn](https://www.linkedin.com/in/robmarkcole/).
