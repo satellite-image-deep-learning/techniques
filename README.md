@@ -421,7 +421,7 @@ Once you have a trained model how do you expose it to the internet and other ser
 * [Land Cover Mapping web app from Microsoft](https://github.com/microsoft/landcover)
 * [sat-utils/sat-search](https://github.com/sat-utils/sat-search) -> Sat-search is a Python 3 library and a command line tool for discovering and downloading publicly available satellite imagery using STAC compliant API
 * [rio-cogeo](https://cogeotiff.github.io/rio-cogeo/) -> Cloud Optimized GeoTIFF (COG) creation and validation plugin for Rasterio.
-* [Solaris](https://github.com/CosmiQ/solaris) -> An open source ML pipeline for overhead imagery by [CosmiQ Works](https://www.cosmiqworks.org/)
+* [Solaris](https://github.com/CosmiQ/solaris) -> An open source ML pipeline for overhead imagery by [CosmiQ Works](https://www.cosmiqworks.org/), similar to Rastervision but with some unique very vool features
 
 # Movers and shakers
 * [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
@@ -444,6 +444,7 @@ Once you have a trained model how do you expose it to the internet and other ser
 * https://github.com/chrieke/geospatial-companies -> List of 500+ geospatial companies by Christoph Rieke
 * [Dymaxion Analytics](https://dymaxionlabs.com/) -> a machine learning API for developing bespoke object detection models for satellite and drone imagery.
 * [Element84](https://www.element84.com/) -> consultancy
+* [CosmiQ Works](https://www.cosmiqworks.org/) -> an IQT Lab focused on developing, prototyping, and evaluating emerging open source artificial intelligence capabilities for geospatial use cases.
 
 # Jobs
 * [Pangeo discourse](https://discourse.pangeo.io/c/news/jobs) lists multiple jobs, global
