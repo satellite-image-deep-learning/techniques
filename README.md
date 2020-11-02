@@ -329,8 +329,9 @@ Measure surface contours.
 * [TileDB](https://tiledb.com/) -> a 'Universal Data Engine' to store, analyze and share any data (beyond tables), with any API or tool (beyond SQL) at planet-scale (beyond clusters), open source and managed options. [Recently hiring](https://discourse.pangeo.io/t/job-openings-at-tiledb-inc/787) to work with xarray, dask, netCDF and cloud native storage
 * Open Data Cube - serve up cubes of data https://www.opendatacube.org/
 
-## STAC - SpatioTemporal Asset Catalog
-* Specification describing the layout of a catalogue comprising of static files. The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface.
+## STAC - SpatioTemporal Asset Catalog specification
+The STAC specification provides a common metadata specification, API, and catalog format to describe geospatial assets, so they can more easily indexed and discovered. A 'spatiotemporal asset' is any file that represents information about the earth captured in a certain space and time. (from intake-stac docs)
+* The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface.
 * An initiative of https://www.radiant.earth/ in particular https://github.com/cholmes
 * Spec at https://github.com/radiantearth/stac-spec
 * Browser at https://github.com/radiantearth/stac-browser
@@ -339,6 +340,7 @@ Measure surface contours.
 * Example catalogue at https://landsat-stac.s3.amazonaws.com/catalog.json
 * Chat https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby
 * Several useful repos on https://github.com/sat-utils
+* [Intake-STAC](https://github.com/intake/intake-stac) -> Intake-STAC provides an opinionated way for users to load Assets from STAC catalogs into the scientific Python ecosystem. It uses the intake-xarray plugin and supports several file formats including GeoTIFF, netCDF, GRIB, and OpenDAP.
 
 # State of the art
 What are companies doing?
