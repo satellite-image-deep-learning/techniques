@@ -275,9 +275,12 @@ The goal is to predict economic activity from satellite imagery rather than cond
 * https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb
 
 ## Super resolution
-Super-resolution imaging is a class of techniques that enhance the resolution of an imaging system.
-* https://medium.com/the-downlinq/super-resolution-on-satellite-imagery-using-deep-learning-part-1-ec5c5cd3cd2
-* https://github.com/WarrenGreen/srcnn
+Super-resolution imaging is a class of techniques that enhance the resolution of an imaging system. Very hot topic of research.
+* https://medium.com/the-downlinq/super-resolution-on-satellite-imagery-using-deep-learning-part-1-ec5c5cd3cd2 -> Nov 2016 blog post by CosmiQ Works with a nice introduction to the topic. Proposes and demonstrates a new architecture with perturbation layers with practical guidance on the methodology by no linked code.
+* [Super Resolution for Satellite Imagery - srcnn repo](https://github.com/WarrenGreen/srcnn)
+* [TensorFlow implementation of "Accurate Image Super-Resolution Using Very Deep Convolutional Networks" adapted for working with geospatial data](https://github.com/CosmiQ/VDSR4Geo) 
+* [Random Forest Super-Resolution (RFSR repo)](https://github.com/jshermeyer/RFSR) including [sample data](https://github.com/jshermeyer/RFSR/tree/master/SampleImagery)
+* [Super-Resolution (python) Utilities for managing large satellite images](https://github.com/jshermeyer/SR_Utils)
 
 ## Pansharpening
 Image fusion of low res multispectral with high res pan band.
@@ -431,6 +434,7 @@ Once you have a trained model how do you expose it to the internet and other ser
 * [Ankit Kariryaa](https://github.com/ankitkariryaa) published a recent nature paper on tree detection
 * [Chris Holmes](https://github.com/cholmes) is doing great things at Planet
 * [Christoph Rieke](https://github.com/chrieke) maintains a very popular imagery repo and has published his thesis on segmentation
+* [Jake Shermeyer](https://github.com/jshermeyer) many interesting repos
 * [Nicholas Murray](https://www.murrayensis.org/) is an Australia-based scientist with a focus on delivering the science necessary to inform large scale environmental management and conservation
 * [Qiusheng Wu](https://github.com/giswqs) is an Assistant Professor in the Department of Geography at the University of Tennessee
 * [Robin Wilson](https://github.com/robintw) is a former academic who is very active in the satellite imagery space
