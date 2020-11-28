@@ -339,7 +339,7 @@ Measure surface contours.
 * TLDR: A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being hosted on a HTTP file server, with an internal organization that enables more efficient workflows on the cloud
 * [Intro presentation from Saheel Ahmed](https://github.com/saheelBreezo/Cloud-Optimised-Geotiff/blob/master/Talk/Cloud_Optimized_GeoTIFF_Blue_Sky_Analytics.pdf)
 * [Sentinel-2 Cloud-Optimized GeoTIFFs](https://registry.opendata.aws/sentinel-2-l2a-cogs/)
-* [Landsat-8 NDVI Analysis](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb)
+* [Landsat-8 NDVI Analysis](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) (data is stored in Cloud-Optimized Geotiff format)
 * [rio-cogeo](https://cogeotiff.github.io/rio-cogeo/) -> Cloud Optimized GeoTIFF (COG) creation and validation plugin for Rasterio.
 * [aiocogeo](https://github.com/geospatial-jeff/aiocogeo) -> Asynchronous cogeotiff reader (python asyncio)
 
@@ -439,6 +439,7 @@ Once you have a trained model how do you expose it to the internet and other ser
 * [rio-color](https://github.com/mapbox/rio-color) -> Color correction plugin for Rasterio
 * [NumpyTiles](https://github.com/planetlabs/numpytiles-spec) -> a specification for providing multiband full-bit depth raster data in the browser
 * [PyShp](https://github.com/GeospatialPython/pyshp) -> The Python Shapefile Library (PyShp) reads and writes ESRI Shapefiles in pure Python
+* [DeepHyperX](https://github.com/eecn/Hyperspectral-Classification) -> A Python/pytorch tool to perform deep learning experiments on various hyperspectral datasets.
 
 # Movers and shakers
 * [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
@@ -452,6 +453,7 @@ Once you have a trained model how do you expose it to the internet and other ser
 
 # Courses
 * [Manning: Monitoring Changes in Surface Water Using Satellite Image Data](https://liveproject.manning.com/course/106/monitoring-changes-in-surface-water-using-satellite-image-data?)
+* [Working with Geospatial Data in Python on Datacamp](https://www.datacamp.com/courses/working-with-geospatial-data-in-python?tap_a=5644-dce66f&tap_s=411670-1f1ebc)
 
 # Competitions
 * [Spacenet 7: Multi-Temporal Urban Development Challenge](https://www.topcoder.com/challenges/21ba3d19-3f7a-4abc-8d28-7c932887f0f6) - registration deadline Oct 28 2020. Track individual building construction over time from Planet imagery, challenge because of the small pixel area of each object, the high object density within images, and the dramatic image-to-image difference compared to frame-to-frame variation in video object tracking. 
