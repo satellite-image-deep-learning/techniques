@@ -6,7 +6,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
 * [Interesting deep learning projects](https://github.com/robmarkcole/satellite-image-deep-learning#interesting-deep-learning-projects)
 * [Techniques](https://github.com/robmarkcole/satellite-image-deep-learning#techniques)
-* [Image formats and catalogues](https://github.com/robmarkcole/satellite-image-deep-learning#image-formats-and-catalogues)
+* [Image formats and catalogues](https://github.com/robmarkcole/satellite-image-deep-learning#image-formats-data-management-and-catalogues)
 * [State of the art](https://github.com/robmarkcole/satellite-image-deep-learning#state-of-the-art)
 * [Online platforms for Geo analysis](https://github.com/robmarkcole/satellite-image-deep-learning#online-platforms-for-geo-analysis)
 * [Free online computing resources](https://github.com/robmarkcole/satellite-image-deep-learning#free-online-computing-resources)
@@ -58,9 +58,9 @@ getting-started-with-aws-spacenet-and-spacenet-dataset-visualization-basics-7ddd
 * [Sentinel NetCDF data](https://github.com/acgeospatial/Sentinel-5P/blob/master/Sentinel_5P.ipynb)
 
 ## Landsat
-* Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
+* Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program) and read [the official webpage](https://www.usgs.gov/core-science-systems/nli/landsat)
 * 8 bands, 15 to 60 meters, 185km swath, the temporal resolution is 16 days
-* [Imagery on GCP](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with imagery analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) on Pangeo
+* [Imagery on GCP](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with imagery analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb)
 * https://github.com/kylebarron/landsat-mosaic-latest - Auto-updating cloudless Landsat 8 mosaic from AWS SNS notifications
 * [Visualise landsat imagery using Datashader](https://examples.pyviz.org/landsat/landsat.html#landsat-gallery-landsat)
 * [Landsat-mosaic-tiler](https://github.com/kylebarron/landsat-mosaic-tiler) - The repo host all the code for [landsatlive.live](https://landsatlive.live) website and APIs.
@@ -324,7 +324,6 @@ Measure surface contours.
 * [Using Machine Learning to Automatically Detect Volcanic Unrest in a Time Series of Interferograms](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019JB017519)
 
 # Image formats, data management and catalogues
-* We certainly want to consider cloud optimised GeoTiffs https://www.cogeo.org/
 * [GeoServer](http://geoserver.org/) -> an open source server for sharing geospatial data.
 * https://terria.io/ for pretty catalogues
 * [Remote pixel](https://remotepixel.ca/projects/index.html#satsearch)
@@ -334,6 +333,15 @@ Measure surface contours.
 * The xarray docs list a number of ways that data [can be stored and loaded](http://xarray.pydata.org/en/latest/io.html#).
 * [TileDB](https://tiledb.com/) -> a 'Universal Data Engine' to store, analyze and share any data (beyond tables), with any API or tool (beyond SQL) at planet-scale (beyond clusters), open source and managed options. [Recently hiring](https://discourse.pangeo.io/t/job-openings-at-tiledb-inc/787) to work with xarray, dask, netCDF and cloud native storage
 * Open Data Cube - serve up cubes of data https://www.opendatacube.org/
+
+## Cloud Optimised GeoTiffs
+* https://www.cogeo.org/
+* TLDR: A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being hosted on a HTTP file server, with an internal organization that enables more efficient workflows on the cloud
+* [Intro presentation from Saheel Ahmed](https://github.com/saheelBreezo/Cloud-Optimised-Geotiff/blob/master/Talk/Cloud_Optimized_GeoTIFF_Blue_Sky_Analytics.pdf)
+* [Sentinel-2 Cloud-Optimized GeoTIFFs](https://registry.opendata.aws/sentinel-2-l2a-cogs/)
+* [Landsat-8 NDVI Analysis](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb)
+* [rio-cogeo](https://cogeotiff.github.io/rio-cogeo/) -> Cloud Optimized GeoTIFF (COG) creation and validation plugin for Rasterio.
+* [aiocogeo](https://github.com/geospatial-jeff/aiocogeo) -> Asynchronous cogeotiff reader (python asyncio)
 
 ## STAC - SpatioTemporal Asset Catalog specification
 The STAC specification provides a common metadata specification, API, and catalog format to describe geospatial assets, so they can more easily indexed and discovered. A 'spatiotemporal asset' is any file that represents information about the earth captured in a certain space and time. (from intake-stac docs)
@@ -427,9 +435,7 @@ Once you have a trained model how do you expose it to the internet and other ser
 * [felicette](https://github.com/plant99/felicette) -> Satellite imagery for dummies. Generate JPEG earth imagery from coordinates/location name with publicly available satellite data.
 * [Land Cover Mapping web app from Microsoft](https://github.com/microsoft/landcover)
 * [sat-utils/sat-search](https://github.com/sat-utils/sat-search) -> Sat-search is a Python 3 library and a command line tool for discovering and downloading publicly available satellite imagery using STAC compliant API
-* [rio-cogeo](https://cogeotiff.github.io/rio-cogeo/) -> Cloud Optimized GeoTIFF (COG) creation and validation plugin for Rasterio.
 * [Solaris](https://github.com/CosmiQ/solaris) -> An open source ML pipeline for overhead imagery by [CosmiQ Works](https://www.cosmiqworks.org/), similar to Rastervision but with some unique very vool features
-* [aiocogeo](https://github.com/geospatial-jeff/aiocogeo) -> Asynchronous cogeotiff reader (python asyncio)
 * [rio-color](https://github.com/mapbox/rio-color) -> Color correction plugin for Rasterio
 * [NumpyTiles](https://github.com/planetlabs/numpytiles-spec) -> a specification for providing multiband full-bit depth raster data in the browser
 * [PyShp](https://github.com/GeospatialPython/pyshp) -> The Python Shapefile Library (PyShp) reads and writes ESRI Shapefiles in pure Python
