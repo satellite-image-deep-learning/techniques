@@ -360,11 +360,11 @@ The STAC specification provides a common metadata specification, API, and catalo
 
 # State of the art
 What are companies doing?
-* Overall trend to using AWS S3 backend for image storage. There are a variety of tools for exploring and having teams collaborate on data on S3, e.g. [Quilt](https://open.quiltdata.com/)
-* Bucking the trend, [Descartes & Airbus are using a google backend](https://spacenews.com/descartes-labs-platform-adds-airbus-imagery/) -> checkout [gcsts for google cloud storage sile-system](https://github.com/dask/gcsfs)
-* Just speculating, but a [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks, whilst providing a Jupyter notebook approach for custom analysis.
+* Overall trend to using cloud (i.e. AWS, Google or Azure) storage buckets for hosting imagery
+* [Descartes & Airbus are using a Google backend](https://spacenews.com/descartes-labs-platform-adds-airbus-imagery/) -> checkout [gcsts for google cloud storage sile-system](https://github.com/dask/gcsfs)
+* [Planet are also on Google](https://cloud.google.com/customers/planet), not too surprising as Google own significant stock in Planet
+* A [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks, whilst providing a Jupyter notebook approach for custom analysis. Checkout [process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
 * Traditional data formats aren't designed for processing, so new standards are developing such as [cloud optimised geotiffs](http://blog.digitalglobe.com/developers/cloud-optimized-geotiffs-and-the-path-to-accessible-satellite-imagery-analytics/) and [zarr](https://github.com/zarr-developers/zarr)
-* [Process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
 * Google provide training on how to use Apache Spark on Google Cloud Dataproc to distribute a computationally intensive (satellite) image processing task onto a cluster of machines -> https://google.qwiklabs.com/focuses/5834?parent=catalog
 
 # Online platforms for Geo analysis
