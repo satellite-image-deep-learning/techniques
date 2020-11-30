@@ -361,7 +361,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 # State of the art
 What are companies doing?
 * Overall trend to using cloud (i.e. AWS, Google or Azure) storage buckets for hosting imagery
-* [Descartes & Airbus are using a Google backend](https://spacenews.com/descartes-labs-platform-adds-airbus-imagery/) -> checkout [gcsts for google cloud storage sile-system](https://github.com/dask/gcsfs)
+* [Airbus are using a Google backend](https://cloud.google.com/customers/airbus)
 * [Planet are also on Google](https://cloud.google.com/customers/planet), not too surprising as Google own significant stock in Planet
 * A [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks, whilst providing a Jupyter notebook approach for custom analysis. Checkout [process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
 * Traditional data formats aren't designed for processing, so new standards are developing such as [cloud optimised geotiffs](http://blog.digitalglobe.com/developers/cloud-optimized-geotiffs-and-the-path-to-accessible-satellite-imagery-analytics/) and [zarr](https://github.com/zarr-developers/zarr)
@@ -441,6 +441,7 @@ Once you have a trained model how do you expose it to the internet and other ser
 * [NumpyTiles](https://github.com/planetlabs/numpytiles-spec) -> a specification for providing multiband full-bit depth raster data in the browser
 * [PyShp](https://github.com/GeospatialPython/pyshp) -> The Python Shapefile Library (PyShp) reads and writes ESRI Shapefiles in pure Python
 * [DeepHyperX](https://github.com/eecn/Hyperspectral-Classification) -> A Python/pytorch tool to perform deep learning experiments on various hyperspectral datasets.
+* [gcsts for google cloud storage sile-system](https://github.com/dask/gcsfs) -> Pythonic file-system interface for Google Cloud Storage
 
 # Movers and shakers
 * [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
