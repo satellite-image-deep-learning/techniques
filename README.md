@@ -62,10 +62,11 @@ This document lists resources for performing deep learning (DL) on satellite ima
 ## Landsat
 * Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program) and read [the official webpage](https://www.usgs.gov/core-science-systems/nli/landsat)
 * 8 bands, 15 to 60 meters, 185km swath, the temporal resolution is 16 days
-* [Imagery on GCP](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with imagery analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb)
-* https://github.com/kylebarron/landsat-mosaic-latest - Auto-updating cloudless Landsat 8 mosaic from AWS SNS notifications
+* [Landsat 4, 5, 7, and 8 imagery on Google](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with Landsat 8 imagery analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb)
+* [Landsat 8 imagery on AWS](https://registry.opendata.aws/landsat-8/), with many tutorials and tools listed
+* https://github.com/kylebarron/landsat-mosaic-latest -> Auto-updating cloudless Landsat 8 mosaic from AWS SNS notifications
 * [Visualise landsat imagery using Datashader](https://examples.pyviz.org/landsat/landsat.html#landsat-gallery-landsat)
-* [Landsat-mosaic-tiler](https://github.com/kylebarron/landsat-mosaic-tiler) - The repo host all the code for [landsatlive.live](https://landsatlive.live) website and APIs.
+* [Landsat-mosaic-tiler](https://github.com/kylebarron/landsat-mosaic-tiler) -> The repo host all the code for [landsatlive.live](https://landsatlive.live) website and APIs.
 
 ## Spacenet
 * Spacenet is an online hub for data, challenges, algorithms, and tools.
