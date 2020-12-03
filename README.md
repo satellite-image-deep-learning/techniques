@@ -459,8 +459,9 @@ Once you have a trained model how do you expose it to the internet and other ser
 * [felicette](https://github.com/plant99/felicette) -> Satellite imagery for dummies. Generate JPEG earth imagery from coordinates/location name with publicly available satellite data.
 
 ## Tools for image annotation
-If you are performing object detection you will need to annotate images. Check that your annotation tools of choice supports large geotiff files, as not all will. Note also that GEOJSON as an annotation forma is widely used by remote sensing researchers but this format is not common in general computer vision frameworks
+If you are performing object detection you will need to annotate images. Check that your annotation tool of choice supports large image (likely geotiff) files, as not all will. Note also that GEOJSON is widely used by remote sensing researchers but this annotation format is not commonly supported in general computer vision frameworks.
 * [Labelme Image Annotation for Geotiffs](https://medium.com/@wvsharber/labelme-image-annotation-for-geotiffs-b460ba83804f) -> uses [Labelme](https://github.com/wkentaro/labelme)
+* [CVAT](https://github.com/openvinotoolkit/cvat) is worth investigating, and have an [open issue](https://github.com/openvinotoolkit/cvat/issues/531) to support large TIFF files. [This article on Roboflow](https://blog.roboflow.com/cvat/) gives a good intro to CVAT.
 * [Deep Block](https://app.deepblock.net) is a general purpose AI platform that includes a tool for COCOJSON export for aerial imagery. Checkout [this video](https://www.youtube.com/watch?v=gg5qSV-yw4U&feature=youtu.be)
 
 # Movers and shakers
