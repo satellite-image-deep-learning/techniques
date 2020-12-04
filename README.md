@@ -21,14 +21,13 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [About the author](https://github.com/robmarkcole/satellite-image-deep-learning#about-the-author)
 
 # Top links
-* https://github.com/chrieke/awesome-satellite-imagery-datasets
-* https://github.com/acgeospatial/awesome-earthobservation-code
+* [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
+* [awesome-earthobservation-code](https://github.com/acgeospatial/awesome-earthobservation-code)
+* [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel)
 * [A modern geospatial workflow](https://gist.github.com/jacquestardie/0d1c0cb413b3b9b06edf)
 * [geospatial-machine-learning](https://github.com/deepVector/geospatial-machine-learning)
 * [Long list of satellite missions with example imagery](https://www.satimagingcorp.com/satellite-sensors/)
 * [AWS datasets](https://registry.opendata.aws/)
-* [awesome-earthobservation-code](https://github.com/acgeospatial/awesome-earthobservation-code)
-* [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel)
 
 # Datasets
 * **Warning** satellite image files can be LARGE, even a small data set may comprise 50 GB of imagery
