@@ -22,6 +22,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 
 # Top links
 * https://github.com/chrieke/awesome-satellite-imagery-datasets
+* https://github.com/acgeospatial/awesome-earthobservation-code
 * [A modern geospatial workflow](https://gist.github.com/jacquestardie/0d1c0cb413b3b9b06edf)
 * [geospatial-machine-learning](https://github.com/deepVector/geospatial-machine-learning)
 * [Long list of satellite missions with example imagery](https://www.satimagingcorp.com/satellite-sensors/)
@@ -470,6 +471,7 @@ If you are performing object detection you will need to annotate images. Check t
 
 # Movers and shakers
 * [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
+* [Andrew Cutts](https://github.com/acgeospatial) cohosts the [Scene From Above podcast](https://scenefromabove.podbean.com) and has many interesting repos
 * [Ankit Kariryaa](https://github.com/ankitkariryaa) published a recent nature paper on tree detection
 * [Chris Holmes](https://github.com/cholmes) is doing great things at Planet
 * [Christoph Rieke](https://github.com/chrieke) maintains a very popular imagery repo and has published his thesis on segmentation
