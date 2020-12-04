@@ -124,8 +124,9 @@ In this challenge, you will build a model to classify cloud organization pattern
 * https://www.kaggle.com/c/understanding_cloud_organization/
 * [3rd place solution on Github by naivelamb](https://github.com/naivelamb/kaggle-cloud-organization)
 
-### Kaggle - other
-* Satellite + loan data -> https://www.kaggle.com/reubencpereira/spatial-data-repo
+### Kaggle - miscellaneous
+* https://www.kaggle.com/reubencpereira/spatial-data-repo -> Satellite + loan data
+* https://www.kaggle.com/towardsentropy/oil-storage-tanks -> Image data of industrial tanks with bounding box annotations, estimate tank fill % from shadows 
 
 ## Alternative datasets
 There are a variety of datasets suitable for land classification problems.
