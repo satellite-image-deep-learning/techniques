@@ -352,7 +352,7 @@ Measure surface contours.
 * [Landsat data in cloud optimised (COG) format analysed for NVDI](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) with [medium article Cloud Native Geoprocessing of Earth Observation Satellite Data with Pangeo](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2).
 
 ## STAC - SpatioTemporal Asset Catalog specification
-The STAC specification provides a common metadata specification, API, and catalog format to describe geospatial assets, so they can more easily indexed and discovered. A 'spatiotemporal asset' is any file that represents information about the earth captured in a certain space and time. (from intake-stac docs)
+The STAC specification provides a common metadata specification, API, and catalog format to describe geospatial assets, so they can more easily indexed and discovered.
 * The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface.
 * An initiative of https://www.radiant.earth/ in particular https://github.com/cholmes
 * Spec at https://github.com/radiantearth/stac-spec
@@ -381,7 +381,7 @@ What are companies doing?
 * [Descartes Labs](https://www.descarteslabs.com/) -> access to EO imagery from a variety of providers via python API
 * DigitalGlobe have a cloud hosted Jupyter notebook platform called [GBDX](https://platform.digitalglobe.com/gbdx/). Cloud hosting means they can guarantee the infrastructure supports their algorithms, and they appear to be close/closer to deploying DL. [Tutorial notebooks here](https://notebooks.geobigdata.io/hub/tutorials/list)
 * Planet have a [Jupyter notebook platform](https://developers.planet.com/) which can be deployed locally.
-* (jupyteo.com)[https://www.jupyteo.com] -> hosted Jupyter environment with many features for working with EO data
+* [jupyteo.com](https://www.jupyteo.com) -> hosted Jupyter environment with many features for working with EO data
 
 # Free online computing resources
 Generally a GPU is required for DL, and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter development environments [on the fast.ai site](https://course-v3.fast.ai/index.html). I personally use Colab with data hosted on Google Drive
@@ -405,8 +405,9 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 Once you have a trained model how do you expose it to the internet and other services? Usually through a rest API. This section lists a number of hosting options.
 
 ### Custom REST API
-* Basic https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html with code [here](https://github.com/jrosebr1/simple-keras-rest-api)
-* Advanced https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
+A conceptually simple and scalable approach to serving up deep learning model inference code is to wrap it in a rest API that is implemented in python (typically using flask or FastAPI) and deploy it to a lambda function.
+* Basic API: https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html with code [here](https://github.com/jrosebr1/simple-keras-rest-api)
+* Advanced API with request queuing: https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
 
 ### Tensorflow Serving
 * https://www.tensorflow.org/serving/
