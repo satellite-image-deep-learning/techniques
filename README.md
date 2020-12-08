@@ -30,7 +30,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [AWS datasets](https://registry.opendata.aws/)
 
 # Datasets
-* **Warning** satellite image files can be LARGE, even a small data set may comprise 50 GB of imagery
+* **Warning** satellite image files can be LARGE, even a small data set may comprise 50 GB of imagery.
 * [Various datasets listed here](https://www.maptiler.com/gallery/satellite/) and at [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
 
 ## WorldView
@@ -208,7 +208,7 @@ There are a variety of datasets suitable for land classification problems.
 * Data pipeline for machine learning with OpenStreetMap
 
 # Techniques
-This section explores the different techniques (DL, ML & classical) people are applying to common problems in satellite imagery analysis. Classification problems are the most simply addressed via DL, object detection is harder, and cloud detection harder still (niche interest).
+This section explores the different techniques (DL, ML & classical) people are applying to common problems in satellite imagery analysis. Classification problems are the most simply addressed via DL, object detection is harder, and cloud detection harder still (niche interest). Note that almost all aerial imagery data on the internet is in RGB format, and techniques designed for working with this 3 band imagery may fail or need significant adaptation to work with multiband data (e.g. 13-band Sentinel 2).
 
 ## Land classification
 Assign a label to an image, e.g. this is an image of a forest.
@@ -269,6 +269,7 @@ A good introduction to the challenge of performing object detection on aerial im
 * [Truck Detection with Sentinel-2 during COVID-19 crisis](https://github.com/hfisser/Truck_Detection_Sentinel2_COVID19) -> moving objects in Sentinel-2 data causes a specific reflectance relationship in the RGB, which looks like a rainbow, and serves as a marker for trucks. Improve accuracy by only analysing roads.
 * [Counting-Trees-using-Satellite-Images](https://github.com/A2Amir/Counting-Trees-using-Satellite-Images) -> create an inventory of incoming and outgoing trees for an annual tree inspections, uses keras
 * Several useful articles on [awesome-tiny-object-detection](https://github.com/kuanhungchen/awesome-tiny-object-detection)
+* [DeepSolar is a deep learning framework that analyzes satellite imagery to identify the GPS locations and sizes of solar panels](http://web.stanford.edu/group/deepsolar/ds)
 
 ## Cloud detection
 A subset of the object detection problem, but surprisingly challenging
@@ -466,7 +467,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [napari](https://napari.org) -> napari is a fast, interactive, multi-dimensional image viewer for Python. It’s designed for browsing, annotating, and analyzing large multi-dimensional images. By integrating closely with the Python ecosystem, napari can be easily coupled to leading machine learning and image analysis tools. [Example viewing Landsat-8 imagery](https://napari.org/tutorials/gallery#geospatial-data)
 
 ## Tools for image annotation
-If you are performing object detection you will need to annotate images with bounding boxes. Check that your annotation tool of choice supports large image (likely geotiff) files, as not all will. Note that GEOJSON is widely used by remote sensing researchers but this annotation format is not commonly supported in general computer vision frameworks, and in practice you may have to convert the annotation format to use the data with your chosen framework. There are both closed and open source tools for creating and converting annotation formats.
+If you are performing object detection you will need to annotate images with bounding boxes. Check that your annotation tool of choice supports large image (likely geotiff) files, as not all will. Note that GeoJSON is widely used by remote sensing researchers but this annotation format is not commonly supported in general computer vision frameworks, and in practice you may have to convert the annotation format to use the data with your chosen framework. There are both closed and open source tools for creating and converting annotation formats.
 * [Labelme Image Annotation for Geotiffs](https://medium.com/@wvsharber/labelme-image-annotation-for-geotiffs-b460ba83804f) -> uses [Labelme](https://github.com/wkentaro/labelme)
 * [CVAT](https://github.com/openvinotoolkit/cvat) is worth investigating, and have an [open issue](https://github.com/openvinotoolkit/cvat/issues/531) to support large TIFF files. [This article on Roboflow](https://blog.roboflow.com/cvat/) gives a good intro to CVAT.
 * [Deep Block](https://app.deepblock.net) is a general purpose AI platform that includes a tool for COCOJSON export for aerial imagery. Checkout [this video](https://www.youtube.com/watch?v=gg5qSV-yw4U&feature=youtu.be)
@@ -488,9 +489,6 @@ If you are performing object detection you will need to annotate images with bou
 # Courses
 * [Manning: Monitoring Changes in Surface Water Using Satellite Image Data](https://liveproject.manning.com/course/106/monitoring-changes-in-surface-water-using-satellite-image-data?)
 * [Working with Geospatial Data in Python on Datacamp](https://www.datacamp.com/courses/working-with-geospatial-data-in-python?tap_a=5644-dce66f&tap_s=411670-1f1ebc)
-
-# Competitions
-* [Spacenet 7: Multi-Temporal Urban Development Challenge](https://www.topcoder.com/challenges/21ba3d19-3f7a-4abc-8d28-7c932887f0f6) - registration deadline Oct 28 2020. Track individual building construction over time from Planet imagery, challenge because of the small pixel area of each object, the high object density within images, and the dramatic image-to-image difference compared to frame-to-frame variation in video object tracking. 
 
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
