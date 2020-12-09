@@ -267,6 +267,7 @@ A good introduction to the challenge of performing object detection on aerial im
 * [Satellite Imagery Multiscale Rapid Detection with Windowed Networks (SIMRDWN)](https://github.com/avanetten/simrdwn) -> combines some of the leading object detection algorithms into a unified framework designed to detect objects both large and small in overhead imagery
 * [2020 Nature paper - An unexpectedly large count of trees in the West African Sahara and Sahel](https://www.nature.com/articles/s41586-020-2824-5) -> tree detection framework based on U-Net & tensorflow 2 with code [here](https://github.com/ankitkariryaa/An-unexpectedly-large-count-of-trees-in-the-western-Sahara-and-Sahel/tree/v1.0.0). Also read the [Nasa article](https://earthobservatory.nasa.gov/images/147612/counting-trees-in-africas-drylands).
 * [Truck Detection with Sentinel-2 during COVID-19 crisis](https://github.com/hfisser/Truck_Detection_Sentinel2_COVID19) -> moving objects in Sentinel-2 data causes a specific reflectance relationship in the RGB, which looks like a rainbow, and serves as a marker for trucks. Improve accuracy by only analysing roads.
+* [Counting planes by monitoring the RGB pattern in Sentinel-2 imagery](https://www.esa.int/Applications/Observing_the_Earth/Monitoring_European_air_traffic_with_Earth_observation)
 * [Counting-Trees-using-Satellite-Images](https://github.com/A2Amir/Counting-Trees-using-Satellite-Images) -> create an inventory of incoming and outgoing trees for an annual tree inspections, uses keras
 * Several useful articles on [awesome-tiny-object-detection](https://github.com/kuanhungchen/awesome-tiny-object-detection)
 * [DeepSolar is a deep learning framework that analyzes satellite imagery to identify the GPS locations and sizes of solar panels](http://web.stanford.edu/group/deepsolar/ds)
@@ -383,6 +384,7 @@ What are companies doing?
 * DigitalGlobe have a cloud hosted Jupyter notebook platform called [GBDX](https://platform.digitalglobe.com/gbdx/). Cloud hosting means they can guarantee the infrastructure supports their algorithms, and they appear to be close/closer to deploying DL. [Tutorial notebooks here](https://notebooks.geobigdata.io/hub/tutorials/list)
 * Planet have a [Jupyter notebook platform](https://developers.planet.com/) which can be deployed locally.
 * [jupyteo.com](https://www.jupyteo.com) -> hosted Jupyter environment with many features for working with EO data
+* [eurodatacube.com](https://eurodatacube.com) -> data & platform for EO analytics in Jupyter env, paid
 
 # Free online computing resources
 Generally a GPU is required for DL, and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter development environments [on the fast.ai site](https://course-v3.fast.ai/index.html). I personally use Colab with data hosted on Google Drive
@@ -440,6 +442,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [Land Cover Mapping web app from Microsoft](https://github.com/microsoft/landcover)
 * [Solaris](https://github.com/CosmiQ/solaris) -> An open source ML pipeline for overhead imagery by [CosmiQ Works](https://www.cosmiqworks.org/), similar to Rastervision but with some unique very vool features
 * [openSAR](https://github.com/EarthBigData/openSAR) -> Synthetic Aperture Radar (SAR) Tools and Documents from Earth Big Data LLC (http://earthbigdata.com/)
+* [terrascope viewer](https://terrascope.be/en) for browsing Sentinel imagery on a map
 
 ## Python low level numerical & data manipulation
 * [Dask](https://docs.dask.org/en/latest/) -> [Read and manipulate tiled GeoTIFF datasets](https://examples.dask.org/applications/satellite-imagery-geotiff.html#)
