@@ -160,6 +160,7 @@ There are a variety of datasets suitable for land classification problems.
 * [Google Earth Engine Community on Github](https://github.com/gee-community)
 * [awesome-google-earth-engine](https://github.com/gee-community/awesome-google-earth-engine) - Curated list of Google Earth Engine resources
 * [ee-tensorflow-notebooks](https://github.com/gee-community/ee-tensorflow-notebooks) - Repository to place example notebooks for Deep Learning applications with TensorFlow and Earth Engine.
+* [geemap](https://github.com/giswqs/geemap): A Python package for interactive mapping with Google Earth Engine, ipyleaflet, and ipywidgets.
 
 ### Weather Datasets
 * UK met-odffice -> https://www.metoffice.gov.uk/datapoint
@@ -353,6 +354,7 @@ Measure surface contours.
 * [rio-cogeo](https://cogeotiff.github.io/rio-cogeo/) -> Cloud Optimized GeoTIFF (COG) creation and validation plugin for Rasterio.
 * [aiocogeo](https://github.com/geospatial-jeff/aiocogeo) -> Asynchronous cogeotiff reader (python asyncio)
 * [Landsat data in cloud optimised (COG) format analysed for NVDI](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) with [medium article Cloud Native Geoprocessing of Earth Observation Satellite Data with Pangeo](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2).
+* [Working with COGS and STAC in python using geemap](https://geemap.org/notebooks/44_cog_stac/)
 
 ## STAC - SpatioTemporal Asset Catalog specification
 The STAC specification provides a common metadata specification, API, and catalog format to describe geospatial assets, so they can more easily indexed and discovered.
@@ -468,7 +470,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [TorchSat](https://github.com/sshuair/torchsat) is an open-source deep learning framework for satellite imagery analysis based on PyTorch.
 * [torchvision-enhance](https://github.com/sshuair/torchvision-enhance) -> Enhance PyTorch vision for semantic segmentation, multi-channel images and TIF file,...
 * [felicette](https://github.com/plant99/felicette) -> Satellite imagery for dummies. Generate JPEG earth imagery from coordinates/location name with publicly available satellite data.
-* [napari](https://napari.org) -> napari is a fast, interactive, multi-dimensional image viewer for Python. It’s designed for browsing, annotating, and analyzing large multi-dimensional images. By integrating closely with the Python ecosystem, napari can be easily coupled to leading machine learning and image analysis tools. [Example viewing Landsat-8 imagery](https://napari.org/tutorials/gallery#geospatial-data)
+* [napari](https://napari.org) -> napari is a fast, interactive, multi-dimensional image viewer for Python. It’s designed for browsing, annotating, and analyzing large multi-dimensional images. By integrating closely with the Python ecosystem, napari can be easily coupled to leading machine learning and image analysis tools. [Example viewing Landsat-8 imagery](https://napari.org/tutorials/gallery#geospatial-data). Note that to view a 3GB COG I had to install the [napari-tifffile-reader](https://github.com/GenevieveBuckley/napari-tifffile-reader) plugin.
 
 ## Tools for image annotation
 If you are performing object detection you will need to annotate images with bounding boxes. Check that your annotation tool of choice supports large image (likely geotiff) files, as not all will. Note that GeoJSON is widely used by remote sensing researchers but this annotation format is not commonly supported in general computer vision frameworks, and in practice you may have to convert the annotation format to use the data with your chosen framework. There are both closed and open source tools for creating and converting annotation formats.
