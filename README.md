@@ -78,8 +78,9 @@ This document lists resources for performing deep learning (DL) on satellite ima
 ## Planet
 * [Planet’s high-resolution, analysis-ready mosaics of the world’s tropics](https://www.planet.com/nicfi/), supported through Norway’s International Climate & Forests Initiative. [BBC coverage](https://www.bbc.co.uk/news/science-environment-54651453)
 
-### Shuttle Radar Topography Mission (digital elevation maps)
-* [Data - open access](http://srtm.csi.cgiar.org/srtmdata/)
+### DEM (digital elevation maps)
+* Shuttle Radar Topography Mission: [data - open access](http://srtm.csi.cgiar.org/srtmdata/)
+* Copernicus Digital Elevation Model (DEM) on S3, represents the surface of the Earth including buildings, infrastructure and vegetation. Data is provided as Cloud Optimized GeoTIFFs. [link](https://registry.opendata.aws/copernicus-dem/)
 
 ## Kaggle
 Kaggle hosts over 60 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
@@ -146,9 +147,8 @@ There are a variety of datasets suitable for land classification problems.
 * Image classification of UCMerced using [Keras](https://examples.pyviz.org/landuse_classification/Image_Classification.html#landuse-classification-gallery-image-classification) or alternatively [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial-data-applications-multi-label-classification-2b0a1838fcf3)
 
 ### AWS datasets
-* Landsat -> free viewer at [remotepixel](https://viewer.remotepixel.ca/#3/40/-70.5) and [libra](https://libra.developmentseed.org/)
-* Optical, radar, segmented etc. https://aws.amazon.com/earth/
-* Spacenet data is hosted on S3
+* [Earth on AWS](https://aws.amazon.com/earth/) is the AWS equivalent of Google Earth Engine
+* Currently 27 satellite datasets on the [Registry of Open Data on AWS](https://registry.opendata.aws)
 
 ### Quilt
 * Several people have uploaded datasets to [Quilt](https://open.quiltdata.com/search?q=satellite)
@@ -273,6 +273,7 @@ A good introduction to the challenge of performing object detection on aerial im
 * [Counting-Trees-using-Satellite-Images](https://github.com/A2Amir/Counting-Trees-using-Satellite-Images) -> create an inventory of incoming and outgoing trees for an annual tree inspections, uses keras
 * Several useful articles on [awesome-tiny-object-detection](https://github.com/kuanhungchen/awesome-tiny-object-detection)
 * [DeepSolar is a deep learning framework that analyzes satellite imagery to identify the GPS locations and sizes of solar panels](http://web.stanford.edu/group/deepsolar/ds)
+* [Challenges with SpaceNet 4 off-nadir satellite imagery: Look angle and target azimuth angle](https://medium.com/the-downlinq/challenges-with-spacenet-4-off-nadir-satellite-imagery-look-angle-and-target-azimuth-angle-2402bc4c3cf6) -> building prediction in images taken at nearly identical look angles — for example, 29 and 30 degrees — produced radically different performance scores.
 
 ## Cloud detection
 A subset of the object detection problem, but surprisingly challenging
@@ -408,7 +409,7 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 * https://docs.paperspace.com/gradient/instances/free-instances
 
 # Production
-Once you have a trained model how do you expose it to the internet and other services? Usually through a rest API. This section lists a number of hosting options.
+Once you have a trained model how do you expose it to the internet and other services? Usually through a rest API. This section lists a number of training and hosting options. For an overview on this topic checkout [Practical-Deep-Learning-on-the-Cloud](https://github.com/PacktPublishing/-Practical-Deep-Learning-on-the-Cloud)
 
 ### Custom REST API
 A conceptually simple and scalable approach to serving up deep learning model inference code is to wrap it in a rest API that is implemented in python (typically using flask or FastAPI) and deploy it to a lambda function.
@@ -423,9 +424,10 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * https://github.com/pytorch/serve
 
 ### AWS
-* [Sagemaker](https://aws.amazon.com/blogs/machine-learning/bring-your-own-deep-learning-framework-to-amazon-sagemaker-with-model-server-for-apache-mxnet/)
-* [Rekognition](https://aws.amazon.com/rekognition/custom-labels-features/) custom labels
-* [Lambda functions](https://aws.amazon.com/blogs/apn/cutting-costs-with-aws-lambda-for-highly-scalable-image-processing/)
+* [Sagemaker](https://aws.amazon.com/sagemaker/?nc2=h_ql_prod_ml_sm) is a hosted Jupyter environment with easy deployment of models. Read [bring-your-own-deep-learning-framework-to-amazon-sagemaker-with-model-server-for-apache-mxnet](https://aws.amazon.com/blogs/machine-learning/bring-your-own-deep-learning-framework-to-amazon-sagemaker-with-model-server-for-apache-mxnet/)
+* [Rekognition](https://aws.amazon.com/rekognition/custom-labels-features/) custom labels is a 'code free' platform that includes tools for annotating data and performing training and inferencing. Read [Training models using Satellite (Sentinel-2) imagery on Amazon Rekognition Custom Labels](https://ryfeus.medium.com/training-models-using-satellite-imagery-on-amazon-rekognition-custom-labels-dd44ac6a3812) and [see the repo](https://github.com/ryfeus/amazon-rekognition-custom-labels-satellite-imagery)
+* [Lambda](https://aws.amazon.com/lambda/) functions are stateless functions which can be run at scale for low cost, read [cutting-costs-with-aws-lambda-for-highly-scalable-image-processing](https://aws.amazon.com/blogs/apn/cutting-costs-with-aws-lambda-for-highly-scalable-image-processing/). Limited run time and storage. For state management combine with AWS Step functions.
+* [Batch](https://aws.amazon.com/batch/) is suitable for longer running tasks, deploy as docker containers, typically hosting a long running python script
 
 ### Paperspace gradient
 * https://docs.paperspace.com/machine-learning/wiki/model-deployment
@@ -448,7 +450,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [terrascope viewer](https://terrascope.be/en) for browsing Sentinel imagery on a map
 
 ## Python low level numerical & data manipulation
-* [Dask](https://docs.dask.org/en/latest/) -> [Read and manipulate tiled GeoTIFF datasets](https://examples.dask.org/applications/satellite-imagery-geotiff.html#)
+* [Dask](https://docs.dask.org/en/latest/) works with your favorite PyData libraries to provide performance at scale for the tools you love -> checkout [Read and manipulate tiled GeoTIFF datasets](https://examples.dask.org/applications/satellite-imagery-geotiff.html#) and [accelerating-science-dask](https://coiled.io/blog/accelerating-science-dask-gentemann/). [Coiled](https://coiled.io) is a managed Dask service.
 * [Rasterio](https://rasterio.readthedocs.io/en/latest/) -> reads and writes GeoTIFF and other raster formats and provides a Python API based on Numpy N-dimensional arrays and GeoJSON.
 * [xarray](http://xarray.pydata.org/en/stable/) -> N-D labeled arrays and datasets. Read [Handling multi-temporal satellite images with Xarray](https://medium.com/@bonnefond.virginie/handling-multi-temporal-satellite-images-with-xarray-30d142d3391)
 * [xarray-spatial](https://github.com/makepath/xarray-spatial) -> Fast, Accurate Python library for Raster Operations. Implements algorithms using Numba and Dask, free of GDAL
