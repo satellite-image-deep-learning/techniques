@@ -392,7 +392,7 @@ What are companies doing?
 * [eurodatacube.com](https://eurodatacube.com) -> data & platform for EO analytics in Jupyter env, paid
 
 # Free online computing resources
-Generally a GPU is required for DL, and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter development environments [on the fast.ai site](https://course-v3.fast.ai/index.html). I personally use Colab with data hosted on Google Drive
+Generally a GPU is required for DL, and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter development environments [on the fast.ai site](https://course19.fast.ai). I personally use Colab with data hosted on Google Drive
 
 ### Google Colab
 * Collaboratory [notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time. Note that the GPU may be shared with other users, so if you aren't getting good performance try reloading.
