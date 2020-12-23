@@ -523,5 +523,7 @@ Processing on satellite allows less data to be downlinked. E.g. super-resolution
 # About the author
 My background is optical physics, and I have a PhD from Cambridge on the topic of Plasmon enhanced Raman spectroscopy. After doing a post doc I left academia and took a variety of roles, from industrial research at [Sharp Labs Europe](https://www.sle.sharp.co.uk/), to medical physics, to building optical telescopes at [Surrey Satellites](https://www.sstl.co.uk/) (SSTL). It was whilst at SSTL that I started this repo as a personal resource. I left SSTL, actually was made redundant along with 30% of the company, and after a brief stint at an IOT start up, I now work as a data engineer. Deep learning is currently a hobby, but I have ambitions to move into this domain when the right opportunity presents itself. My own satellite imagery projects are [here](https://github.com/robmarkcole/satellite-imagery-projects), and feel free to connect with me on Twitter & LinkedIn
 
+<!-- markdown-link-check-disable -->
 [![Linkedin: robmarkcole](https://img.shields.io/badge/-Robin%20Cole-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robmarkcole/)](https://www.linkedin.com/in/robmarkcole/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/robmarkcole?label=Follow)](https://twitter.com/robmarkcole)
+<!-- markdown-link-check-enable -->
