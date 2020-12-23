@@ -343,7 +343,7 @@ Measure surface contours.
 * [Remote pixel](https://remotepixel.ca/projects/index.html#satsearch)
 * [Sentinel-hub eo-browser](https://apps.sentinel-hub.com/eo-browser/)
 * Large datasets may come in HDF5 format, can view with -> https://www.hdfgroup.org/downloads/hdfview/
-* Climate data is often in netcdf format, which can be [opened using xarray](https://moderndata.plot.ly/weather-maps-in-python-with-mapbox-gl-xarray-and-netcdf4/)
+* Climate data is often in netcdf format, which can be opened using xarray
 * The xarray docs list a number of ways that data [can be stored and loaded](http://xarray.pydata.org/en/latest/io.html#).
 * [TileDB](https://tiledb.com/) -> a 'Universal Data Engine' to store, analyze and share any data (beyond tables), with any API or tool (beyond SQL) at planet-scale (beyond clusters), open source and managed options. [Recently hiring](https://discourse.pangeo.io/t/job-openings-at-tiledb-inc/787) to work with xarray, dask, netCDF and cloud native storage
 * Open Data Cube - serve up cubes of data https://www.opendatacube.org/
