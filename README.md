@@ -194,7 +194,7 @@ There are a variety of datasets suitable for land classification problems.
 * https://github.com/mapbox/robosat
 * Semantic segmentation on aerial and satellite imagery. Extracts features such as: buildings, parking lots, roads, water, clouds
 * [robosat-jupyter-notebook](https://github.com/Element84/robosat-jupyter-notebook) -> walks through all of the steps in an excellent blog post on the Robosat feature extraction and machine learning pipeline.
-* Note there is/was fork of Robosat, originally named RoboSat.pink, and subsequently https://neat-EO.pink although this appears to be down/archived
+* Note there is/was fork of Robosat, originally named RoboSat.pink, and subsequently neat-EO.pink although this appears to be dead/archived
 
 ### DeepOSM
 * https://github.com/trailbehind/DeepOSM
