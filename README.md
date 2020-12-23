@@ -504,7 +504,7 @@ If you are performing object detection you will need to annotate images with bou
 
 # Courses
 * [Manning: Monitoring Changes in Surface Water Using Satellite Image Data](https://liveproject.manning.com/course/106/monitoring-changes-in-surface-water-using-satellite-image-data?)
-* [Working with Geospatial Data in Python on Datacamp](https://www.datacamp.com/courses/working-with-geospatial-data-in-python?tap_a=5644-dce66f&tap_s=411670-1f1ebc)
+* [Working with Geospatial Data in Python on Datacamp](https://www.datacamp.com/courses/working-with-geospatial-data-in-python)
 
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
