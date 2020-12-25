@@ -150,6 +150,10 @@ There are a variety of datasets suitable for land classification problems.
 * [Earth on AWS](https://aws.amazon.com/earth/) is the AWS equivalent of Google Earth Engine
 * Currently 27 satellite datasets on the [Registry of Open Data on AWS](https://registry.opendata.aws)
 
+### Microsoft
+* [USBuildingFootprints](https://github.com/Microsoft/USBuildingFootprints) -> computer generated building footprints in all 50 US states, GeoJSON format, generated using semantic segmentation
+
+
 ### Quilt
 * Several people have uploaded datasets to [Quilt](https://open.quiltdata.com/search?q=satellite)
 
