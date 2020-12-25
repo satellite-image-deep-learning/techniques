@@ -274,6 +274,7 @@ A good introduction to the challenge of performing object detection on aerial im
 * Several useful articles on [awesome-tiny-object-detection](https://github.com/kuanhungchen/awesome-tiny-object-detection)
 * [DeepSolar is a deep learning framework that analyzes satellite imagery to identify the GPS locations and sizes of solar panels](http://web.stanford.edu/group/deepsolar/ds)
 * [Challenges with SpaceNet 4 off-nadir satellite imagery: Look angle and target azimuth angle](https://medium.com/the-downlinq/challenges-with-spacenet-4-off-nadir-satellite-imagery-look-angle-and-target-azimuth-angle-2402bc4c3cf6) -> building prediction in images taken at nearly identical look angles — for example, 29 and 30 degrees — produced radically different performance scores.
+* [Spotting elephants from space](https://www.ox.ac.uk/news/2020-12-18-spotting-elephants-space-satellite-revolution) -> Using high resolution Worldview 3 imagery from Maxar, and TensorFlow, researchers at Oxford have detected elephants from space with comparable accuracy to human detection capabilities.
 
 ## Cloud detection
 A subset of the object detection problem, but surprisingly challenging
@@ -336,7 +337,8 @@ Measure surface contours.
 * [so2sat on Tensorflow datasets](https://www.tensorflow.org/datasets/catalog/so2sat) - So2Sat LCZ42 is a dataset consisting of co-registered synthetic aperture radar and multispectral optical image patches acquired by the Sentinel-1 and Sentinel-2 remote sensing satellites, and the corresponding local climate zones (LCZ) label. The dataset is distributed over 42 cities across different continents and cultural regions of the world.
 
 # Image formats, data management and catalogues
-* [GeoServer](http://geoserver.org/) -> an open source server for sharing geospatial data.
+* [GeoServer](http://geoserver.org/) -> an open source server for sharing geospatial data
+* Open Data Cube - serve up cubes of data https://www.opendatacube.org/
 * https://terria.io/ for pretty catalogues
 * [Remote pixel](https://remotepixel.ca/projects/index.html#satsearch)
 * [Sentinel-hub eo-browser](https://apps.sentinel-hub.com/eo-browser/)
@@ -344,7 +346,8 @@ Measure surface contours.
 * Climate data is often in netcdf format, which can be opened using xarray
 * The xarray docs list a number of ways that data [can be stored and loaded](http://xarray.pydata.org/en/latest/io.html#).
 * [TileDB](https://tiledb.com/) -> a 'Universal Data Engine' to store, analyze and share any data (beyond tables), with any API or tool (beyond SQL) at planet-scale (beyond clusters), open source and managed options. [Recently hiring](https://discourse.pangeo.io/t/job-openings-at-tiledb-inc/787) to work with xarray, dask, netCDF and cloud native storage
-* Open Data Cube - serve up cubes of data https://www.opendatacube.org/
+* [BigVector database](https://deepai.org/bigvector) -> A fully-managed, highly-scalable, and cost-effective database for vectors. Vectorize structured data or orbital imagery and discover new insights
+
 
 ## Cloud Optimised GeoTiff (COG)
 * https://www.cogeo.org/
