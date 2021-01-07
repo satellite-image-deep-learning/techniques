@@ -308,6 +308,11 @@ Image fusion of low res multispectral with high res pan band.
 * Does not require DL, classical algos suffice, [see this notebook](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/panchromatic_sharpening.ipynb) and [this kaggle kernel](https://www.kaggle.com/resolut/panchromatic-sharpening)
 * https://github.com/mapbox/rio-pansharpen
 
+## Image-to-image translation using GANS
+Generative Adversarial Networks, or GANS, can be used to translate images, e.g. from SAR to RGB.
+* [How to Develop a Pix2Pix GAN for Image-to-Image Translation](https://machinelearningmastery.com/how-to-develop-a-pix2pix-gan-for-image-to-image-translation/) -> how to develop a Pix2Pix model for translating satellite photographs to Google map images. A good intro to GANS
+* [SAR to RGB Translation using CycleGAN](https://www.esri.com/arcgis-blog/products/api-python/imagery/sar-to-rgb-translation-using-cyclegan/) -> uses a CycleGAN model in the ArcGIS API for Python
+
 ## Stereo imaging for terrain mapping & DEMs
 Measure surface contours.
 * [Wikipedia DEM article](https://en.wikipedia.org/wiki/Digital_elevation_model) and [phase correlation](https://en.wikipedia.org/wiki/Phase_correlation) article
@@ -351,7 +356,6 @@ Measure surface contours.
 * The xarray docs list a number of ways that data [can be stored and loaded](http://xarray.pydata.org/en/latest/io.html#).
 * [TileDB](https://tiledb.com/) -> a 'Universal Data Engine' to store, analyze and share any data (beyond tables), with any API or tool (beyond SQL) at planet-scale (beyond clusters), open source and managed options. [Recently hiring](https://discourse.pangeo.io/t/job-openings-at-tiledb-inc/787) to work with xarray, dask, netCDF and cloud native storage
 * [BigVector database](https://deepai.org/bigvector) -> A fully-managed, highly-scalable, and cost-effective database for vectors. Vectorize structured data or orbital imagery and discover new insights
-
 
 ## Cloud Optimised GeoTiff (COG)
 * https://www.cogeo.org/
@@ -444,7 +448,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [Supports fast.ai models](https://github.com/developmentseed/fastai-serving)
 
 # Useful paid software
-* [ArcGIS](https://www.arcgis.com/index.html) -> mapping and analytics software, bothe local and cloud hosted options. Checkout [ArcGIS built-in python raster functions for deep learning](https://github.com/Esri/raster-deep-learning)
+* [ArcGIS](https://www.arcgis.com/index.html) -> mapping and analytics software, with both local and cloud hosted options. Checkout [Geospatial deep learning with arcgis.learn](https://developers.arcgis.com/python/guide/geospatial-deep-learning/). It [appears](https://www.esri.com/arcgis-blog/products/api-python/imagery/sar-to-rgb-translation-using-cyclegan/) ArcGIS are using fastai for their deep learning backend. [ArcGIS Jupyter Notebooks](https://www.esri.com/arcgis-blog/products/arcgis-enterprise/analytics/introducing-arcgis-notebooks/) in ArcGIS Enterprise are built to run big data analysis, deep learning models, and dynamic visualization tools. 
 
 # Useful open source software
 [A note on licensing](https://www.gislounge.com/businesses-using-open-source-gis/): The two general types of licenses for open source are copyleft and permissive. Copyleft requires that subsequent derived software products also carry the license forward, e.g. the GNU Public License (GNU GPLv3). For permissive, options to modify and use the code as one please are more open, e.g. MIT & Apache 2. Checkout [choosealicense.com/](https://choosealicense.com/)
@@ -530,7 +534,7 @@ Processing on satellite allows less data to be downlinked. E.g. super-resolution
 * [Intel to place movidius in orbit to filter images of clouds at source - Oct 2020](https://techcrunch.com/2020/10/20/intel-is-providing-the-smarts-for-the-first-satellite-with-local-ai-processing-on-board/) - Getting rid of these images before they’re even transmitted means that the satellite can actually realize a bandwidth savings of up to 30%,
 
 # About the author
-My background is optical physics, and I have a PhD from Cambridge on the topic of Plasmon enhanced Raman spectroscopy. After doing a post doc I left academia and took a variety of roles, from industrial research at [Sharp Labs Europe](https://www.sle.sharp.co.uk/), to medical physics, to building optical telescopes at [Surrey Satellites](https://www.sstl.co.uk/) (SSTL). It was whilst at SSTL that I started this repo as a personal resource. I left SSTL, actually was made redundant along with 30% of the company, and after a brief stint at an IOT start up, I now work as a data engineer. Deep learning is currently a hobby, but I have ambitions to move into this domain when the right opportunity presents itself. My own satellite imagery projects are [here](https://github.com/robmarkcole/satellite-imagery-projects), and feel free to connect with me on Twitter & LinkedIn
+My background is in optical physics, and I hold a PhD from Cambridge on the topic of [localised surface Plasmons](https://pubs.acs.org/doi/abs/10.1021/nl0710506). Since academia I have held a variety of roles, including doing research at [Sharp Labs Europe](https://www.sle.sharp.co.uk/), developing optical systems at [Surrey Satellites](https://www.sstl.co.uk/) (SSTL), and working at an IOT startup. It was whilst at SSTL that I started this repository as a personal resource. Over time I have steadily gravitated towards data analytics and software engineering with python, and I now work as a senior data scientist at [Satellite Vu](https://www.satellitevu.com/). Please feel free to connect with me on Twitter & LinkedIn, and please do let me know if this repository is useful to your work.
 
 <!-- markdown-link-check-disable -->
 [![Linkedin: robmarkcole](https://img.shields.io/badge/-Robin%20Cole-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robmarkcole/)](https://www.linkedin.com/in/robmarkcole/)
