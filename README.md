@@ -164,8 +164,9 @@ There are a variety of datasets suitable for land classification problems.
 * [Google Earth Engine Community on Github](https://github.com/gee-community)
 * [awesome-google-earth-engine](https://github.com/gee-community/awesome-google-earth-engine) - Curated list of Google Earth Engine resources
 * [ee-tensorflow-notebooks](https://github.com/gee-community/ee-tensorflow-notebooks) - Repository to place example notebooks for Deep Learning applications with TensorFlow and Earth Engine.
-* [geemap](https://github.com/giswqs/geemap): A Python package for interactive mapping with Google Earth Engine, ipyleaflet, and ipywidgets.
+* [geemap](https://github.com/giswqs/geemap) -> a python package for interactive mapping with Google Earth Engine, ipyleaflet, and ipywidgets.
 * [eemont](https://github.com/davemlz/eemont) -> extends Google Earth Engine with pre-processing and processing tools for the most used satellite platforms.
+* [EEwPython](https://github.com/csaybar/EEwPython) -> A series of Jupyter (colab) notebook to learn Google Earth Engine with Python
 
 ### Weather Datasets
 * UK met-odffice -> https://www.metoffice.gov.uk/datapoint
