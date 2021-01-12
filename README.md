@@ -495,6 +495,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [detectree](https://github.com/martibosch/detectree) -> Tree detection from aerial imagery
 * [pylandstats](https://github.com/martibosch/pylandstats) -> compute landscape metrics
 * [ipyearth](https://github.com/davidbrochart/ipyearth) -> An IPython Widget for Earth Maps
+* [arosics](https://danschef.git-pages.gfz-potsdam.de/arosics/doc/about.html) -> Perform automatic subpixel co-registration of two satellite image datasets based on an image matching approach
 
 ## Tools for image annotation
 If you are performing object detection you will need to annotate images with bounding boxes. Check that your annotation tool of choice supports large image (likely geotiff) files, as not all will. Note that GeoJSON is widely used by remote sensing researchers but this annotation format is not commonly supported in general computer vision frameworks, and in practice you may have to convert the annotation format to use the data with your chosen framework. There are both closed and open source tools for creating and converting annotation formats.
