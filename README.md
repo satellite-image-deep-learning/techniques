@@ -476,6 +476,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [GDAL](https://gdal.org) and [on twitter](https://twitter.com/gdaltips)
 * Can be difficult to build and install, I recommend using [conda](https://anaconda.org/conda-forge/gdal), brew (on OSX) or [docker](https://hub.docker.com/r/osgeo/gdal) in these situations
 * GDAL docker quickstart: `docker pull osgeo/gdal` then `docker run --rm -v $(pwd):/data/ gdalinfo /data/dem.tiff`
+* If you are using python you will probably want to use Rasterio which provides a pythonic wrapper for GDAL
 
 ## Python low level numerical & data manipulation
 * [Dask](https://docs.dask.org/en/latest/) works with your favorite PyData libraries to provide performance at scale for the tools you love -> checkout [Read and manipulate tiled GeoTIFF datasets](https://examples.dask.org/applications/satellite-imagery-geotiff.html#) and [accelerating-science-dask](https://coiled.io/blog/accelerating-science-dask-gentemann/). [Coiled](https://coiled.io) is a managed Dask service.
