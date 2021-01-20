@@ -526,7 +526,7 @@ If you are performing object detection you will need to annotate images with bou
 * [Roboflow](https://roboflow.com) can be used to convert between annotation formats
 * Other annotation tools include [supervise.ly](https://supervise.ly) (web UI), [rectlabel](https://rectlabel.com) (OSX desktop app) and [VoTT](https://github.com/Microsoft/VoTT)
 
-# Movers and shakers
+# Movers and shakers on Github
 * [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
 * [Andrew Cutts](https://github.com/acgeospatial) cohosts the [Scene From Above podcast](https://scenefromabove.podbean.com) and has many interesting repos
 * [Ankit Kariryaa](https://github.com/ankitkariryaa) published a recent nature paper on tree detection
