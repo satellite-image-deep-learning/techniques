@@ -386,6 +386,9 @@ The STAC specification provides a common metadata specification, API, and catalo
 * Several useful repos on https://github.com/sat-utils
 * [Intake-STAC](https://github.com/intake/intake-stac) -> Intake-STAC provides an opinionated way for users to load Assets from STAC catalogs into the scientific Python ecosystem. It uses the intake-xarray plugin and supports several file formats including GeoTIFF, netCDF, GRIB, and OpenDAP.
 * [sat-utils/sat-search](https://github.com/sat-utils/sat-search) -> Sat-search is a Python 3 library and a command line tool for discovering and downloading publicly available satellite imagery using STAC compliant API
+* [franklin](https://github.com/azavea/franklin) -> A STAC/OGC API Features Web Service focused on ease-of-use for end-users.
+* [stacframes](https://github.com/azavea/stacframes) -> A Python library for working with STAC Catalogs via Pandas DataFrames
+* [sat-api-pg](https://github.com/developmentseed/sat-api-pg) -> A Postgres backed STAC API
 
 # State of the art
 What are companies doing?
@@ -474,7 +477,10 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [GDAL](https://gdal.org) and [on twitter](https://twitter.com/gdaltips)
 * GDAL is a dependency of Rasterio and can be difficult to build and install. I recommend using conda, brew (on OSX) or docker in these situations
 * GDAL docker quickstart: `docker pull osgeo/gdal` then `docker run --rm -v $(pwd):/data/ osgeo/gdal gdalinfo /data/cog.tiff`
-* [Rasterio](https://rasterio.readthedocs.io/en/latest/) -> reads and writes GeoTIFF and other raster formats and provides a Python API based on Numpy N-dimensional arrays and GeoJSON.
+* [Even Rouault](https://github.com/rouault) maintains GDAL, please consider [sponsoring him](https://github.com/sponsors/rouault)
+* [Rasterio](https://rasterio.readthedocs.io/en/latest/) -> reads and writes GeoTIFF and other raster formats and provides a Python API based on Numpy N-dimensional arrays and GeoJSON. There are a variety of plugins that extend Rasterio functionality.
+* [rio-cogeo](https://cogeotiff.github.io/rio-cogeo/) -> Cloud Optimized GeoTIFF (COG) creation and validation plugin for Rasterio.
+* [rioxarray](https://github.com/corteva/rioxarray) -> geospatial xarray extension powered by rasterio
 * [aws-lambda-docker-rasterio](https://github.com/addresscloud/aws-lambda-docker-rasterio) -> AWS Lambda Container Image with Python Rasterio for querying Cloud Optimised GeoTiffs. See [this presentation](https://blog.addresscloud.com/rasters-revealed-2021/)
 
 ## Python low level numerical & data manipulation
@@ -513,6 +519,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 ## Tools for image annotation
 If you are performing object detection you will need to annotate images with bounding boxes. Check that your annotation tool of choice supports large image (likely geotiff) files, as not all will. Note that GeoJSON is widely used by remote sensing researchers but this annotation format is not commonly supported in general computer vision frameworks, and in practice you may have to convert the annotation format to use the data with your chosen framework. There are both closed and open source tools for creating and converting annotation formats.
 * [Labelme Image Annotation for Geotiffs](https://medium.com/@wvsharber/labelme-image-annotation-for-geotiffs-b460ba83804f) -> uses [Labelme](https://github.com/wkentaro/labelme)
+* [Label Maker](https://github.com/developmentseed/label-maker) -> downloads OpenStreetMap QA Tile information and satellite imagery tiles and saves them as an `.npz` file for use in machine learning training.
 * [CVAT](https://github.com/openvinotoolkit/cvat) is worth investigating, and have an [open issue](https://github.com/openvinotoolkit/cvat/issues/531) to support large TIFF files. [This article on Roboflow](https://blog.roboflow.com/cvat/) gives a good intro to CVAT.
 * [Deep Block](https://app.deepblock.net) is a general purpose AI platform that includes a tool for COCOJSON export for aerial imagery. Checkout [this video](https://www.youtube.com/watch?v=gg5qSV-yw4U&feature=youtu.be)
 * AWS supports image annotation via the [Rekognition Custom Labels console](https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/gs-console.html)
@@ -540,7 +547,12 @@ If you are performing object detection you will need to annotate images with bou
 # Companies on Github
 For a full list of companies, on and off Github, checkout [awesome-geospatial-companies](https://github.com/chrieke/awesome-geospatial-companies). The following lists companies with interesting Github profiles.
 * [Airbus Defence And Space](https://github.com/AirbusDefenceAndSpace)
-* [Planet Labs](https://github.com/planetlabs)
+* [Azavea](https://github.com/azavea) -> lots of interesting repos around STAC
+* [Development Seed](https://github.com/developmentseed)
+* [Descartes Labs](https://github.com/descarteslabs)
+* [Digital Globe](https://github.com/DigitalGlobe)
+* [Mapbox](https://github.com/mapbox) -> thanks for Rasterio!
+* [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
 
 # Jobs
 * [Pangeo discourse](https://discourse.pangeo.io/c/news/jobs) lists multiple jobs, global
