@@ -13,9 +13,9 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [Production](https://github.com/robmarkcole/satellite-image-deep-learning#production)
 * [Useful open source software](https://github.com/robmarkcole/satellite-image-deep-learning#useful-open-source-software)
 * [Movers and shakers on Github](https://github.com/robmarkcole/satellite-image-deep-learning#movers-and-shakers-on-github)
+* [Companies on Github](https://github.com/robmarkcole/satellite-image-deep-learning#companies-on-github)
 * [Courses](https://github.com/robmarkcole/satellite-image-deep-learning#courses)
 * [Online communities](https://github.com/robmarkcole/satellite-image-deep-learning#online-communities)
-* [Companies on Github](https://github.com/robmarkcole/satellite-image-deep-learning#companies-on-github)
 * [Jobs](https://github.com/robmarkcole/satellite-image-deep-learning#jobs)
 * [Neural nets in space](https://github.com/robmarkcole/satellite-image-deep-learning#neural-nets-in-space)
 * [About the author](https://github.com/robmarkcole/satellite-image-deep-learning#about-the-author)
@@ -538,12 +538,6 @@ If you are performing object detection you will need to annotate images with bou
 * [Qiusheng Wu](https://github.com/giswqs) is an Assistant Professor in the Department of Geography at the University of Tennessee
 * [Robin Wilson](https://github.com/robintw) is a former academic who is very active in the satellite imagery space
 
-# Courses
-* [Manning: Monitoring Changes in Surface Water Using Satellite Image Data](https://liveproject.manning.com/course/106/monitoring-changes-in-surface-water-using-satellite-image-data?)
-
-# Online communities
-* [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
-
 # Companies on Github
 For a full list of companies, on and off Github, checkout [awesome-geospatial-companies](https://github.com/chrieke/awesome-geospatial-companies). The following lists companies with interesting Github profiles.
 * [Airbus Defence And Space](https://github.com/AirbusDefenceAndSpace)
@@ -553,6 +547,12 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Digital Globe](https://github.com/DigitalGlobe)
 * [Mapbox](https://github.com/mapbox) -> thanks for Rasterio!
 * [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
+
+# Courses
+* [Manning: Monitoring Changes in Surface Water Using Satellite Image Data](https://liveproject.manning.com/course/106/monitoring-changes-in-surface-water-using-satellite-image-data?)
+
+# Online communities
+* [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
 
 # Jobs
 * [Pangeo discourse](https://discourse.pangeo.io/c/news/jobs) lists multiple jobs, global
