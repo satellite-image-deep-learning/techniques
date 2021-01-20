@@ -15,7 +15,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [Movers and shakers on Github](https://github.com/robmarkcole/satellite-image-deep-learning#movers-and-shakers-on-github)
 * [Courses](https://github.com/robmarkcole/satellite-image-deep-learning#courses)
 * [Online communities](https://github.com/robmarkcole/satellite-image-deep-learning#online-communities)
-* [Companies](https://github.com/robmarkcole/satellite-image-deep-learning#companies)
+* [Companies on Github](https://github.com/robmarkcole/satellite-image-deep-learning#companies-on-github)
 * [Jobs](https://github.com/robmarkcole/satellite-image-deep-learning#jobs)
 * [Neural nets in space](https://github.com/robmarkcole/satellite-image-deep-learning#neural-nets-in-space)
 * [About the author](https://github.com/robmarkcole/satellite-image-deep-learning#about-the-author)
@@ -525,6 +525,7 @@ If you are performing object detection you will need to annotate images with bou
 * [Ankit Kariryaa](https://github.com/ankitkariryaa) published a recent nature paper on tree detection
 * [Chris Holmes](https://github.com/cholmes) is doing great things at Planet
 * [Christoph Rieke](https://github.com/chrieke) maintains a very popular imagery repo and has published his thesis on segmentation
+* [Even Rouault](https://github.com/rouault) maintains several of the most critical tools in this domain such as GDAL, please consider [sponsoring him](https://github.com/sponsors/rouault)
 * [Jake Shermeyer](https://github.com/jshermeyer) many interesting repos
 * [Nicholas Murray](https://www.murrayensis.org/) is an Australia-based scientist with a focus on delivering the science necessary to inform large scale environmental management and conservation
 * [Qiusheng Wu](https://github.com/giswqs) is an Assistant Professor in the Department of Geography at the University of Tennessee
@@ -536,11 +537,10 @@ If you are performing object detection you will need to annotate images with bou
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
 
-# Companies
-* [awesome-geospatial-companies](https://github.com/chrieke/awesome-geospatial-companies) -> List of 500+ geospatial companies by Christoph Rieke
-* [Dymaxion Analytics](https://dymaxionlabs.com/) -> a machine learning API for developing bespoke object detection models for satellite and drone imagery.
-* [Element84](https://www.element84.com/) -> consultancy
-* [CosmiQ Works](https://www.cosmiqworks.org/) -> an IQT Lab focused on developing, prototyping, and evaluating emerging open source artificial intelligence capabilities for geospatial use cases.
+# Companies on Github
+For a full list of companies, on and off Github, checkout [awesome-geospatial-companies](https://github.com/chrieke/awesome-geospatial-companies). The following lists companies with interesting Github profiles.
+* [Airbus Defence And Space](https://github.com/AirbusDefenceAndSpace)
+* [Planet Labs](https://github.com/planetlabs)
 
 # Jobs
 * [Pangeo discourse](https://discourse.pangeo.io/c/news/jobs) lists multiple jobs, global
