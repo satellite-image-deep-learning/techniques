@@ -234,6 +234,8 @@ Assign a label to an image, e.g. this is an image of a forest.
 * [Water Detection in High Resolution Satellite Images using the waterdetect python package](https://towardsdatascience.com/water-detection-in-high-resolution-satellite-images-using-the-waterdetect-python-package-7c5a031e3d16) -> The main idea is to combine water indexes (NDWI, MNDWI, etc.) with reflectance bands (NIR, SWIR, etc.) into an automated clustering process
 * [AutoEncoders for Land Cover Classification of Hyperspectral Images](https://towardsdatascience.com/autoencoders-for-land-cover-classification-of-hyperspectral-images-part-1-c3c847ebc69b) -> An autoencoder nerual net is used to reduce 103 band data to 60 features (dimensionality reduction), keras
 * [Contrastive Sensor Fusion](https://github.com/descarteslabs/contrastive_sensor_fusion) -> Code implementing Contrastive Sensor Fusion, an approach for unsupervised learning of multi-sensor representations targeted at remote sensing imagery.
+* [Codebase for land cover classification with U-Net](https://github.com/jaeeolma/lulc_ml)
+* [Tree species classification from from airborne LiDAR and hyperspectral data using 3D convolutional neural networks](https://github.com/jaeeolma/tree-detection-evo#individual-tree-detection-and-matching-field-data-to-detected-tree-crowns)
 
 ## Semantic segmentation
 Whilst classification will assign a label to a whole image, semantic segmentation will assign a label to each pixel
@@ -283,12 +285,12 @@ A good introduction to the challenge of performing object detection on aerial im
 * Several useful articles on [awesome-tiny-object-detection](https://github.com/kuanhungchen/awesome-tiny-object-detection)
 * [DeepSolar is a deep learning framework that analyzes satellite imagery to identify the GPS locations and sizes of solar panels](http://web.stanford.edu/group/deepsolar/ds)
 * [Challenges with SpaceNet 4 off-nadir satellite imagery: Look angle and target azimuth angle](https://medium.com/the-downlinq/challenges-with-spacenet-4-off-nadir-satellite-imagery-look-angle-and-target-azimuth-angle-2402bc4c3cf6) -> building prediction in images taken at nearly identical look angles — for example, 29 and 30 degrees — produced radically different performance scores.
-* [Spotting elephants from space](https://www.ox.ac.uk/news/2020-12-18-spotting-elephants-space-satellite-revolution) -> Using high resolution Worldview 3 imagery from Maxar, and TensorFlow, researchers at Oxford have detected elephants from space with comparable accuracy to human detection capabilities.
+* [Spotting elephants from space](https://zslpublications.onlinelibrary.wiley.com/doi/10.1002/rse2.195) -> Using high resolution Worldview 3 imagery from Maxar, and TensorFlow, researchers at Oxford have detected elephants from space with comparable accuracy to human detection capabilities.
 
 ## Cloud detection
-A subset of the object detection problem, but surprisingly challenging
 * From [this article on sentinelhub](https://medium.com/sentinel-hub/improving-cloud-detection-with-machine-learning-c09dc5d7cf13) there are three popular classical algorithms that detects thresholds in multiple bands in order to identify clouds. In the same article they propose using semantic segmentation combined with a CNN for a cloud classifier (excellent review paper [here](https://arxiv.org/pdf/1704.06857.pdf)), but state that this requires too much compute resources.
 * [This article](https://www.mdpi.com/2072-4292/8/8/666) compares a number of ML algorithms, random forests, stochastic gradient descent, support vector machines, Bayesian method.
+* [Segmentation of Clouds in Satellite Images Using Deep Learning](https://medium.com/swlh/segmentation-of-clouds-in-satellite-images-using-deep-learning-a9f56e0aa83d) -> a U-Net is employed to interpret and extract the information embedded in the satellite images in a multi-channel fashion, and finally output a pixel-wise mask indicating the existence of cloud.
 
 ## Wealth and economic activity measurement
 The goal is to predict economic activity from satellite imagery rather than conducting labour intensive ground surveys
@@ -391,6 +393,8 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [franklin](https://github.com/azavea/franklin) -> A STAC/OGC API Features Web Service focused on ease-of-use for end-users.
 * [stacframes](https://github.com/azavea/stacframes) -> A Python library for working with STAC Catalogs via Pandas DataFrames
 * [sat-api-pg](https://github.com/developmentseed/sat-api-pg) -> A Postgres backed STAC API
+* [stactools](https://github.com/stac-utils/stactools) -> Command line utility and Python library for STAC
+* [pystac](https://github.com/stac-utils/pystac) -> Python library for working with any SpatioTemporal Asset Catalog (STAC)
 
 # State of the art
 What are companies doing?
