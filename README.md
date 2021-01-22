@@ -563,6 +563,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
+* [Kaggle Intro to Satellite imagery Analysis group](https://www.kaggle.com/getting-started/131455)
 
 # Jobs
 * [Pangeo discourse](https://discourse.pangeo.io/c/news/jobs) lists multiple jobs, global
