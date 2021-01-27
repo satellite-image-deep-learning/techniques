@@ -404,6 +404,7 @@ What are companies doing?
 * A [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks, whilst providing a Jupyter notebook approach for custom analysis. Checkout [process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
 * Traditional data formats aren't designed for processing, so new standards are developing such as COGS
 * Google provide training on how to use Apache Spark on Google Cloud Dataproc to distribute a computationally intensive (satellite) image processing task onto a cluster of machines -> https://google.qwiklabs.com/focuses/5834?parent=catalog
+* Read about [Planet on Google](https://cloud.google.com/customers/planet) and also [Airbus on Google](https://cloud.google.com/customers/airbus)
 
 # Online platforms for Geo analysis
 * [This article discusses some of the available platforms](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2)
@@ -480,6 +481,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [qhub](https://qhub.dev) -> QHub enables teams to build and maintain a cost effective and scalable compute/data science platform in the cloud.
 * [imagej](https://imagej.net) -> a very versatile image viewer and processing program
 * [Geo Data Viewer](https://github.com/RandomFractals/geo-data-viewer) extension for VSCode which enables opening and viewing various geo data formats with nice visualisations
+* [Datasette](https://datasette.io/) is a tool for exploring and publishing data as an interactive website and accompanying API, with SQLite backend. Various plugins extend its functionality, for example to allow displaying geospatial info, render images (useful for thumbnails), and add user authentication.
 
 ## GDAL & Rasterio
 * So improtant this pair gets their own section. GDAL is THE command line tool for reading and writing raster and vector geospatial data formats. If you are using python you will probably want to use Rasterio which provides a pythonic wrapper for GDAL
