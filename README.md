@@ -415,7 +415,7 @@ What are companies doing?
 * [Pangeo](http://pangeo.io/index.html) -> There is no single software package called “pangeo”; rather, the Pangeo project serves as a coordination point between scientists, software, and computing infrastructure. Includes open source resources for parallel processing using Dask and Xarray. Pangeo recently announced their 2.0 goals: pivoting away from directly operating cloud-based JupyterHubs, and towards eductaion and research
 * [Airbus Sandbox](https://sandbox.intelligence-airbusds.com/web/) -> will provide access to imagery
 * [Descartes Labs](https://www.descarteslabs.com/) -> access to EO imagery from a variety of providers via python API
-* DigitalGlobe have a cloud hosted Jupyter notebook platform called [GBDX](https://gbdxdocs.digitalglobe.com/docs/about-the-gbdx-platform). Cloud hosting means they can guarantee the infrastructure supports their algorithms, and they appear to be close/closer to deploying DL. [Tutorial notebooks here](https://notebooks.geobigdata.io/hub/tutorials/list)
+* DigitalGlobe have a cloud hosted Jupyter notebook platform called [GBDX](https://gbdxdocs.digitalglobe.com/docs/about-the-gbdx-platform). Cloud hosting means they can guarantee the infrastructure supports their algorithms, and they appear to be close/closer to deploying DL.
 * Planet have a [Jupyter notebook platform](https://developers.planet.com/) which can be deployed locally.
 * [jupyteo.com](https://www.jupyteo.com) -> hosted Jupyter environment with many features for working with EO data
 * [eurodatacube.com](https://eurodatacube.com) -> data & platform for EO analytics in Jupyter env, paid
