@@ -245,6 +245,7 @@ Assign a label to an image, e.g. this is an image of a forest.
 * [Codebase for land cover classification with U-Net](https://github.com/jaeeolma/lulc_ml)
 * [Tree species classification from from airborne LiDAR and hyperspectral data using 3D convolutional neural networks](https://github.com/jaeeolma/tree-detection-evo#individual-tree-detection-and-matching-field-data-to-detected-tree-crowns)
 * [Multi-Label Classification of Satellite Photos of the Amazon Rainforest](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-satellite-photos-of-the-amazon-rainforest/) -> uses the Planet dataset & TF 2 & Keras
+* [UrbanLandUse](https://github.com/wri/UrbanLandUse) -> This repository contains a comprehensive set of instructions for creating and applying ML models that characterize land use / land cover (LULC) in urban areas.
 
 ## Semantic segmentation
 Whilst classification will assign a label to a whole image, semantic segmentation will assign a label to each pixel
@@ -461,7 +462,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 ### AWS
 * [Sagemaker](https://aws.amazon.com/sagemaker/?nc2=h_ql_prod_ml_sm) is a hosted Jupyter environment with easy deployment of models. Read [bring-your-own-deep-learning-framework-to-amazon-sagemaker-with-model-server-for-apache-mxnet](https://aws.amazon.com/blogs/machine-learning/bring-your-own-deep-learning-framework-to-amazon-sagemaker-with-model-server-for-apache-mxnet/)
 * [Rekognition](https://aws.amazon.com/rekognition/custom-labels-features/) custom labels is a 'code free' platform that includes tools for annotating data and performing training and inferencing. Read [Training models using Satellite (Sentinel-2) imagery on Amazon Rekognition Custom Labels](https://ryfeus.medium.com/training-models-using-satellite-imagery-on-amazon-rekognition-custom-labels-dd44ac6a3812) and [see the repo](https://github.com/ryfeus/amazon-rekognition-custom-labels-satellite-imagery)
-* [Lambda](https://aws.amazon.com/lambda/) functions are stateless functions which can be run at scale for low cost, read [cutting-costs-with-aws-lambda-for-highly-scalable-image-processing](https://aws.amazon.com/blogs/apn/cutting-costs-with-aws-lambda-for-highly-scalable-image-processing/). Limited run time and storage. For state management combine with AWS Step functions.
+* [Lambda](https://aws.amazon.com/lambda/) functions are stateless functions which can be run at scale for low cost, read [cutting-costs-with-aws-lambda-for-highly-scalable-image-processing](https://aws.amazon.com/blogs/apn/cutting-costs-with-aws-lambda-for-highly-scalable-image-processing/). Limited run time and storage. For state management combine with AWS Step functions. [GeoLambda](https://github.com/developmentseed/geolambda) provides public Docker images and AWS Lambda Layers containing common geospatial native libraries. GeoLambda contains the libraries for GDAL, Proj, GEOS, GeoTIFF, HDF4/5, SZIP, NetCDF, OpenJPEG, WEBP, ZSTD, and others.
 * [Batch](https://aws.amazon.com/batch/) is suitable for longer running tasks, deploy as docker containers, typically hosting a long running python script
 
 ### Paperspace gradient
