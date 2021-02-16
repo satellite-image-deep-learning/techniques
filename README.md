@@ -406,6 +406,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [sat-api-pg](https://github.com/developmentseed/sat-api-pg) -> A Postgres backed STAC API
 * [stactools](https://github.com/stac-utils/stactools) -> Command line utility and Python library for STAC
 * [pystac](https://github.com/stac-utils/pystac) -> Python library for working with any SpatioTemporal Asset Catalog (STAC)
+* [STAC Examples for Nightlights data](https://github.com/developmentseed/nightlights_stac_examples) -> minimal example STAC implementation for the [Light Every Night](https://registry.opendata.aws/wb-light-every-night/) dataset of all VIIRS DNB and DMSP-OLS nighttime satellite data
 
 # State of the art
 What are companies doing?
