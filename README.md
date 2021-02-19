@@ -457,8 +457,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * Advanced API with request queuing: https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
 
 ### Tensorflow Serving
-* https://www.tensorflow.org/serving/
-* TensorFlow Serving makes it easy to deploy new algorithms and experiments, while keeping the same server architecture and APIs. Multiple models, or indeed multiple versions of the same model, can be served simultaneously.  TensorFlow Serving comes with a scheduler that groups individual inference requests into batches for joint execution on a GPU
+[TensorFlow Serving](https://www.tensorflow.org/tfx/guide/serving) makes it easy to deploy new algorithms and experiments, while keeping the same server architecture and APIs. Multiple models, or indeed multiple versions of the same model, can be served simultaneously.  TensorFlow Serving comes with a scheduler that groups individual inference requests into batches for joint execution on a GPU
 
 ### Pytorch serve
 * https://github.com/pytorch/serve
