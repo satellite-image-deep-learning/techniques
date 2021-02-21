@@ -377,6 +377,7 @@ Measure surface contours.
 * The xarray docs list a number of ways that data [can be stored and loaded](http://xarray.pydata.org/en/latest/io.html#).
 * [TileDB](https://tiledb.com/) -> a 'Universal Data Engine' to store, analyze and share any data (beyond tables), with any API or tool (beyond SQL) at planet-scale (beyond clusters), open source and managed options. [Recently hiring](https://discourse.pangeo.io/t/job-openings-at-tiledb-inc/787) to work with xarray, dask, netCDF and cloud native storage
 * [BigVector database](https://deepai.org/bigvector) -> A fully-managed, highly-scalable, and cost-effective database for vectors. Vectorize structured data or orbital imagery and discover new insights
+* Read about [Serverless PostGIS on AWS Aurora](https://blog.addresscloud.com/serverless-postgis/)
 
 ## Cloud Optimised GeoTiff (COG)
 * https://www.cogeo.org/
@@ -414,7 +415,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 # State of the art
 What are companies doing?
 * Overall trend to using cloud (i.e. AWS, Google or Azure) storage buckets for hosting imagery
-* A [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks, whilst providing a Jupyter notebook approach for custom analysis. Checkout [process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
+* A [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks and [even storage](https://blog.addresscloud.com/serverless-postgis/), whilst providing a Jupyter notebook approach for custom analysis. Checkout [process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
 * Traditional data formats aren't designed for processing, so new standards are developing such as COGS
 * Google provide training on how to use Apache Spark on Google Cloud Dataproc to distribute a computationally intensive (satellite) image processing task onto a cluster of machines -> https://google.qwiklabs.com/focuses/5834?parent=catalog
 * Read about [Planet on Google](https://cloud.google.com/customers/planet) and also how [Airbus use Google](https://cloud.google.com/customers/airbus) as the backend for their [OneAtlas](https://oneatlas.airbus.com/) data portal
@@ -494,7 +495,8 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [imagej](https://imagej.net) -> a very versatile image viewer and processing program
 * [Geo Data Viewer](https://github.com/RandomFractals/geo-data-viewer) extension for VSCode which enables opening and viewing various geo data formats with nice visualisations
 * [Datasette](https://datasette.io/) is a tool for exploring and publishing data as an interactive website and accompanying API, with SQLite backend. Various plugins extend its functionality, for example to allow displaying geospatial info, render images (useful for thumbnails), and add user authentication.
-
+* [Photoprism](https://github.com/photoprism/photoprism) is a privately hosted app for browsing, organizing, and sharing your photo collection, with support for tiffs
+  
 ## GDAL & Rasterio
 * So improtant this pair gets their own section. GDAL is THE command line tool for reading and writing raster and vector geospatial data formats. If you are using python you will probably want to use Rasterio which provides a pythonic wrapper for GDAL
 * [GDAL](https://gdal.org) and [on twitter](https://twitter.com/gdaltips)
