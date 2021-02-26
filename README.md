@@ -179,6 +179,9 @@ There are a variety of datasets suitable for land classification problems.
 * NOAA (requires BigQuery) -> https://www.kaggle.com/noaa/goes16/home
 * Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 
+### Time series datasets
+* [BreizhCrops](https://github.com/dl4sits/BreizhCrops) -> A Time Series Dataset for Crop Type Mapping
+
 ### UAV & Drone datasets
 * Many on https://www.visualdata.io
 * [AU-AIR dataset](https://bozcani.github.io/auairdataset) -> a multi-modal UAV dataset for object detection.
@@ -298,6 +301,7 @@ A good introduction to the challenge of performing object detection on aerial im
 * [DeepSolar is a deep learning framework that analyzes satellite imagery to identify the GPS locations and sizes of solar panels](http://web.stanford.edu/group/deepsolar/ds)
 * [Challenges with SpaceNet 4 off-nadir satellite imagery: Look angle and target azimuth angle](https://medium.com/the-downlinq/challenges-with-spacenet-4-off-nadir-satellite-imagery-look-angle-and-target-azimuth-angle-2402bc4c3cf6) -> building prediction in images taken at nearly identical look angles — for example, 29 and 30 degrees — produced radically different performance scores.
 * [Building footprint detection with fastai on the challenging SpaceNet7 dataset](https://deeplearning.berlin/satellite%20imagery/computer%20vision/fastai/2021/02/17/Building-Detection-SpaceNet7.html)
+* [YOLTv4](https://github.com/avanetten/yoltv4) -> YOLTv4 is designed to detect objects in aerial or satellite imagery in arbitrarily large images that far exceed the ~600×600 pixel size typically ingested by deep learning object detection frameworks.
 
 ## Cloud detection
 * From [this article on sentinelhub](https://medium.com/sentinel-hub/improving-cloud-detection-with-machine-learning-c09dc5d7cf13) there are three popular classical algorithms that detects thresholds in multiple bands in order to identify clouds. In the same article they propose using semantic segmentation combined with a CNN for a cloud classifier (excellent review paper [here](https://arxiv.org/pdf/1704.06857.pdf)), but state that this requires too much compute resources.
