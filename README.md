@@ -318,6 +318,7 @@ The goal is to predict economic activity from satellite imagery rather than cond
 * https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb
 * [Measuring the Impacts of Poverty Alleviation Programs with Satellite Imagery and Deep Learning](https://github.com/luna983/beyond-nightlight)
 * [Traffic density estimation as a regression problem](https://omdena.com/blog/ai-road-safety/)
+* [Building a Crop Yield Prediction App in Senegal Using Satellite Imagery and Jupyter](https://omdena.com/blog/yield-prediction/)
 
 ## Super resolution
 Super-resolution imaging is a class of techniques that enhance the resolution of an imaging system. Very hot topic of research.
