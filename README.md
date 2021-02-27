@@ -434,6 +434,7 @@ What are companies doing?
 * [jupyteo.com](https://www.jupyteo.com) -> hosted Jupyter environment with many features for working with EO data
 * [eurodatacube.com](https://eurodatacube.com) -> data & platform for EO analytics in Jupyter env, paid
 * [Unfolded Studio](https://studio.unfolded.ai/) -> next generation geospatial analytics and visualization platform building on open source geospatial technologies including kepler.gl, deck.gl and H3
+* [up42](https://up42.com/) is a developer platform and marketplace, offering all the building blocks for powerful, scalable geospatial products
 
 # Free online computing resources
 Generally a GPU is required for DL, and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter development environments [on the fast.ai site](https://course19.fast.ai). I personally use Colab with data hosted on Google Drive
@@ -500,6 +501,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [Geo Data Viewer](https://github.com/RandomFractals/geo-data-viewer) extension for VSCode which enables opening and viewing various geo data formats with nice visualisations
 * [Datasette](https://datasette.io/) is a tool for exploring and publishing data as an interactive website and accompanying API, with SQLite backend. Various plugins extend its functionality, for example to allow displaying geospatial info, render images (useful for thumbnails), and add user authentication.
 * [Photoprism](https://github.com/photoprism/photoprism) is a privately hosted app for browsing, organizing, and sharing your photo collection, with support for tiffs
+* [dbeaver](https://github.com/dbeaver/dbeaver) is a free universal database tool and SQL client
   
 ## GDAL & Rasterio
 * So improtant this pair gets their own section. GDAL is THE command line tool for reading and writing raster and vector geospatial data formats. If you are using python you will probably want to use Rasterio which provides a pythonic wrapper for GDAL
