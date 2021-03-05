@@ -194,6 +194,7 @@ There are a variety of datasets suitable for land classification problems.
 * [OpenDroneMap](https://github.com/OpenDroneMap/ODM) -> generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images.
 * [Dataset of thermal and visible aerial images for multi-modal and multi-spectral image registration and fusion](https://www.sciencedirect.com/science/article/pii/S2352340920302201) -> The dataset consists of 30 visible images and their metadata, 80 thermal images and their metadata, and a visible georeferenced orthoimage.
 * [BIRDSAI: A Dataset for Detection and Tracking in Aerial Thermal Infrared Videos](https://ieeexplore.ieee.org/document/9093284) -> TIR videos of humans and animals with several challenging scenarios like scale variations, background clutter due to thermal reflections, large camera rotations, and motion blur
+* [ERA: A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos](https://lcmou.github.io/ERA_Dataset/)
 
 ### Synthetic data
 * [The Synthinel-1 dataset: a collection of high resolution synthetic overhead imagery for building segmentation](https://arxiv.org/ftp/arxiv/papers/2001/2001.05130.pdf)
@@ -476,6 +477,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * https://github.com/pytorch/serve
 
 ### AWS
+* Quickread: [TerrAvion Uses AWS to Help Farmers Improve Crop Yields Through High-Resolution Aerial Images](https://aws.amazon.com/solutions/case-studies/terravion/)
 * [Sagemaker](https://aws.amazon.com/sagemaker/?nc2=h_ql_prod_ml_sm) is a hosted Jupyter environment with easy deployment of models. Read [bring-your-own-deep-learning-framework-to-amazon-sagemaker-with-model-server-for-apache-mxnet](https://aws.amazon.com/blogs/machine-learning/bring-your-own-deep-learning-framework-to-amazon-sagemaker-with-model-server-for-apache-mxnet/)
 * [Rekognition](https://aws.amazon.com/rekognition/custom-labels-features/) custom labels is a 'code free' platform that includes tools for annotating data and performing training and inferencing. Read [Training models using Satellite (Sentinel-2) imagery on Amazon Rekognition Custom Labels](https://ryfeus.medium.com/training-models-using-satellite-imagery-on-amazon-rekognition-custom-labels-dd44ac6a3812) and [see the repo](https://github.com/ryfeus/amazon-rekognition-custom-labels-satellite-imagery)
 * [Lambda](https://aws.amazon.com/lambda/) functions are stateless functions which can be run at scale for low cost, read [cutting-costs-with-aws-lambda-for-highly-scalable-image-processing](https://aws.amazon.com/blogs/apn/cutting-costs-with-aws-lambda-for-highly-scalable-image-processing/). Limited run time and storage. For state management combine with AWS Step functions. [GeoLambda](https://github.com/developmentseed/geolambda) provides public Docker images and AWS Lambda Layers containing common geospatial native libraries. GeoLambda contains the libraries for GDAL, Proj, GEOS, GeoTIFF, HDF4/5, SZIP, NetCDF, OpenJPEG, WEBP, ZSTD, and others. [Alternative example dockerfile showing install of GDAL.](https://github.com/zflamig/goes-to-cog/blob/main/Dockerfile)
@@ -556,6 +558,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [tifffile](https://github.com/cgohlke/tifffile) -> Read and write TIFF files
 * [xtiff](https://github.com/BodenmillerGroup/xtiff) -> A small Python 3 library for writing multi-channel TIFF stacks
 * [dask-geopandas](https://github.com/jsignell/dask-geopandas) -> Parallel GeoPandas with Dask
+* [geotiff](https://github.com/Open-Source-Agriculture/geotiff) -> A noGDAL tool for reading and writing geotiff files
 
 ## Python graphing and visualisation
 * [hvplot](https://hvplot.holoviz.org/) -> A high-level plotting API for the PyData ecosystem built on HoloViews. Allows overlaying data on map tiles, see [Exploring USGS Terrain Data in COG format using hvPlot](https://discourse.holoviz.org/t/exploring-usgs-terrain-data-in-cog-format-using-hvplot/1727)
