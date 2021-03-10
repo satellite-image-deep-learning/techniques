@@ -251,6 +251,7 @@ Assign a label to an image, e.g. this is an image of a forest.
 * [Multi-Label Classification of Satellite Photos of the Amazon Rainforest](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-satellite-photos-of-the-amazon-rainforest/) -> uses the Planet dataset & TF 2 & Keras
 * [UrbanLandUse](https://github.com/wri/UrbanLandUse) -> This repository contains a comprehensive set of instructions for creating and applying ML models that characterize land use / land cover (LULC) in urban areas.
 * [hyperspectral-autoencoders](https://github.com/lloydwindrim/hyperspectral-autoencoders) -> Tools for training and using unsupervised autoencoders and supervised deep learning classifiers for hyperspectral data, built on tensorflow. Autoencoders are unsupervised neural networks that are useful for a range of applications such as unsupervised feature learning and dimensionality reduction.
+* [Land cover classification of Sundarbans satellite imagery using K-Nearest Neighbor(K-NNC), Support Vector Machine (SVM), and Gradient Boosting classification algorithms with Python](https://towardsdatascience.com/land-cover-classification-in-satellite-imagery-using-python-ae39dbf2929)
 
 ## Semantic segmentation
 Whilst classification will assign a label to a whole image, semantic segmentation will assign a label to each pixel
@@ -376,6 +377,9 @@ Measure surface contours.
 * A dataset which is specifically made for deep learning on SAR and optical imagery is the SEN1-2 dataset, which contains corresponding patch pairs of Sentinel 1 (VV) and 2 (RGB) data. It is the largest manually curated dataset of S1 and S2 products, with corresponding labels for land use/land cover mapping, SAR-optical fusion, segmentation and classification tasks. Data: https://mediatum.ub.tum.de/1474000
 * [so2sat on Tensorflow datasets](https://www.tensorflow.org/datasets/catalog/so2sat) - So2Sat LCZ42 is a dataset consisting of co-registered synthetic aperture radar and multispectral optical image patches acquired by the Sentinel-1 and Sentinel-2 remote sensing satellites, and the corresponding local climate zones (LCZ) label. The dataset is distributed over 42 cities across different continents and cultural regions of the world.
 * [dinoSAR](https://github.com/scottyhq/dinosar) -> tools for InSAR processing on AWS, currently works with Sentinel-1 data to create Cloud-Optimized Geotiffs with accompanying STAC metadata.
+
+## Deep learning best practice
+* [4-ways-to-improve-class-imbalance](https://towardsdatascience.com/4-ways-to-improve-class-imbalance-for-image-data-9adec8f390f1) discusses the pros and cons of several rebalancing techniques, applied to an aerial dataset. Reason to read: models can reach an accuracy ceiling where majority classes are easily predicted but minority classes poorly predicted. Overall model accuracy may not improve until steps are taken to account for class imbalance.
 
 # Image formats, data management and catalogues
 * [GeoServer](http://geoserver.org/) -> an open source server for sharing geospatial data
