@@ -325,6 +325,7 @@ The goal is to predict economic activity from satellite imagery rather than cond
 * [Measuring the Impacts of Poverty Alleviation Programs with Satellite Imagery and Deep Learning](https://github.com/luna983/beyond-nightlight)
 * [Traffic density estimation as a regression problem](https://omdena.com/blog/ai-road-safety/)
 * [Crop Yield Prediction Using Deep Neural Networks and LSTM](https://omdena.com/blog/deep-learning-yield-prediction/) and [Building a Crop Yield Prediction App in Senegal Using Satellite Imagery and Jupyter](https://omdena.com/blog/yield-prediction/)
+* [Advanced Deep Learning Techniques for Predicting Maize Crop Yield using Sentinel-2 Satellite Imagery](https://zionayomide.medium.com/advanced-deep-learning-techniques-for-predicting-maize-crop-yield-using-sentinel-2-satellite-1b63ac8b0789)
 
 ## Super resolution
 Super-resolution imaging is a class of techniques that enhance the resolution of an imaging system. Very hot topic of research.
@@ -429,6 +430,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [pystac](https://github.com/stac-utils/pystac) -> Python library for working with any SpatioTemporal Asset Catalog (STAC)
 * [STAC Examples for Nightlights data](https://github.com/developmentseed/nightlights_stac_examples) -> minimal example STAC implementation for the [Light Every Night](https://registry.opendata.aws/wb-light-every-night/) dataset of all VIIRS DNB and DMSP-OLS nighttime satellite data
 * [stac-fields](https://github.com/stac-utils/stac-fields) -> A minimal STAC library that contains a list of STAC fields with some metadata (title, unit, prefix) and helper functions
+* [stackstac](https://github.com/gjoseph92/stackstac) -> Turn a STAC catalog into a dask-based xarray
 
 # State of the art
 What are companies doing?
