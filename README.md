@@ -311,6 +311,7 @@ A good introduction to the challenge of performing object detection on aerial im
 * [YOLTv4](https://github.com/avanetten/yoltv4) -> YOLTv4 is designed to detect objects in aerial or satellite imagery in arbitrarily large images that far exceed the ~600×600 pixel size typically ingested by deep learning object detection frameworks.
 * [Official repository for the "Identifying trees on satellite images" challenge from Omdena](https://github.com/cienciaydatos/ai-challenge-trees)
 * [DeepForest](https://deepforest.readthedocs.io/en/latest/index.html) is a python package for training and predicting individual tree crowns from airborne RGB imagery
+* [Detecting Ships in Satellite Imagery](https://medium.com/dataseries/detecting-ships-in-satellite-imagery-7f0ca04e7964) using the Planet dataset and Keras
 
 ## Cloud detection
 * From [this article on sentinelhub](https://medium.com/sentinel-hub/improving-cloud-detection-with-machine-learning-c09dc5d7cf13) there are three popular classical algorithms that detects thresholds in multiple bands in order to identify clouds. In the same article they propose using semantic segmentation combined with a CNN for a cloud classifier (excellent review paper [here](https://arxiv.org/pdf/1704.06857.pdf)), but state that this requires too much compute resources.
@@ -494,6 +495,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [Rekognition](https://aws.amazon.com/rekognition/custom-labels-features/) custom labels is a 'code free' platform that includes tools for annotating data and performing training and inferencing. Read [Training models using Satellite (Sentinel-2) imagery on Amazon Rekognition Custom Labels](https://ryfeus.medium.com/training-models-using-satellite-imagery-on-amazon-rekognition-custom-labels-dd44ac6a3812) and [see the repo](https://github.com/ryfeus/amazon-rekognition-custom-labels-satellite-imagery)
 * [Lambda](https://aws.amazon.com/lambda/) functions are stateless functions which can be run at scale for low cost, read [cutting-costs-with-aws-lambda-for-highly-scalable-image-processing](https://aws.amazon.com/blogs/apn/cutting-costs-with-aws-lambda-for-highly-scalable-image-processing/). Limited run time and storage. For state management combine with AWS Step functions. [GeoLambda](https://github.com/developmentseed/geolambda) provides public Docker images and AWS Lambda Layers containing common geospatial native libraries. GeoLambda contains the libraries for GDAL, Proj, GEOS, GeoTIFF, HDF4/5, SZIP, NetCDF, OpenJPEG, WEBP, ZSTD, and others. [Alternative example dockerfile showing install of GDAL.](https://github.com/zflamig/goes-to-cog/blob/main/Dockerfile)
 * [Batch](https://aws.amazon.com/batch/) is suitable for longer running tasks, deploy as docker containers, typically hosting a long running python script, or even parameterize and run jupyter notebooks on batch using [Papermill](https://papermill.readthedocs.io/en/latest/).
+* [Amazon S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/) allows you to add your own code (via a lambda) to S3 GET requests to modify and process data as it is returned to an application. Example use cases include dynamically resizing an image or georeferencing an image in a requested coordinate system.
 
 ### Paperspace gradient
 * https://docs.paperspace.com/machine-learning/wiki/model-deployment
@@ -575,6 +577,7 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [rasterstats](https://pythonhosted.org/rasterstats/) -> summarize geospatial raster datasets based on vector geometries
 * [turfpy](https://turfpy.readthedocs.io/en/latest/index.html) -> a Python library for performing geospatial data analysis which reimplements turf.js
 * [GatorSense Hyperspectral Image Analysis Toolkit](https://github.com/GatorSense/hsi_toolkit_py) -> This repo contains algorithms for Anomaly Detectors, Classifiers, Dimensionality Reduction, Endmember Extraction, Signature Detectors, Spectral Indices
+* [kornia](https://github.com/kornia/kornia) is a differentiable computer vision library for PyTorch. Perform image transformations, epipolar geometry, depth estimation, and low-level image processing such as filtering and edge detection that operate directly on tensors.
 
 ## Python graphing and visualisation
 * [hvplot](https://hvplot.holoviz.org/) -> A high-level plotting API for the PyData ecosystem built on HoloViews. Allows overlaying data on map tiles, see [Exploring USGS Terrain Data in COG format using hvPlot](https://discourse.holoviz.org/t/exploring-usgs-terrain-data-in-cog-format-using-hvplot/1727)
