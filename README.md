@@ -312,6 +312,7 @@ A good introduction to the challenge of performing object detection on aerial im
 * [Official repository for the "Identifying trees on satellite images" challenge from Omdena](https://github.com/cienciaydatos/ai-challenge-trees)
 * [DeepForest](https://deepforest.readthedocs.io/en/latest/index.html) is a python package for training and predicting individual tree crowns from airborne RGB imagery
 * [Detecting Ships in Satellite Imagery](https://medium.com/dataseries/detecting-ships-in-satellite-imagery-7f0ca04e7964) using the Planet dataset and Keras
+* [Machine Learning For Rooftop Detection and Solar Panel Installment](https://omdena.com/blog/machine-learning-rooftops/) discusses tiling large images and generating annotations from OSM data. Features of the roofs were calculated using a combination of contour detection and classification
 
 ## Cloud detection
 * From [this article on sentinelhub](https://medium.com/sentinel-hub/improving-cloud-detection-with-machine-learning-c09dc5d7cf13) there are three popular classical algorithms that detects thresholds in multiple bands in order to identify clouds. In the same article they propose using semantic segmentation combined with a CNN for a cloud classifier (excellent review paper [here](https://arxiv.org/pdf/1704.06857.pdf)), but state that this requires too much compute resources.
@@ -387,6 +388,7 @@ Measure surface contours.
 ## Deep learning best practice
 * [4-ways-to-improve-class-imbalance](https://towardsdatascience.com/4-ways-to-improve-class-imbalance-for-image-data-9adec8f390f1) discusses the pros and cons of several rebalancing techniques, applied to an aerial dataset. Reason to read: models can reach an accuracy ceiling where majority classes are easily predicted but minority classes poorly predicted. Overall model accuracy may not improve until steps are taken to account for class imbalance.
 * [Seven steps towards a satellite imagery dataset](https://omdena.com/blog/satellite-imagery-dataset/)
+* [Implementing Transfer Learning from RGB to Multi-channel Imagery](https://towardsdatascience.com/implementing-transfer-learning-from-rgb-to-multi-channel-imagery-f87924679166) -> takes a resnet50 model pre-trained on an input of 224x224 pixels with 3 channels (RGB) and updates it for a new input of 480x400 pixles and 15 channels (12 new + RGB) using keras
 
 # Image formats, data management and catalogues
 * [GeoServer](http://geoserver.org/) -> an open source server for sharing geospatial data
@@ -490,12 +492,13 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * https://github.com/pytorch/serve
 
 ### AWS
-* Quickread: [TerrAvion Uses AWS to Help Farmers Improve Crop Yields Through High-Resolution Aerial Images](https://aws.amazon.com/solutions/case-studies/terravion/)
 * [Sagemaker](https://aws.amazon.com/sagemaker/?nc2=h_ql_prod_ml_sm) is a hosted Jupyter environment with easy deployment of models. Read [bring-your-own-deep-learning-framework-to-amazon-sagemaker-with-model-server-for-apache-mxnet](https://aws.amazon.com/blogs/machine-learning/bring-your-own-deep-learning-framework-to-amazon-sagemaker-with-model-server-for-apache-mxnet/). I have personally found the Sagemaker UI to be very buggy, and have switched to using [deep learning AMIs](https://aws.amazon.com/machine-learning/amis/). These are just EC2 instances with deep learning frameworks preinstalled, and provide the same Jupyter environmnet as Sagemaker. They do require more setup from the user but in return allow access to the underlying hardware, which makes debugging issues much more straightforward. There is a [good guide to setting up your AMI instance on the Keras blog](https://blog.keras.io/running-jupyter-notebooks-on-gpu-on-aws-a-starter-guide.html)
 * [Rekognition](https://aws.amazon.com/rekognition/custom-labels-features/) custom labels is a 'code free' platform that includes tools for annotating data and performing training and inferencing. Read [Training models using Satellite (Sentinel-2) imagery on Amazon Rekognition Custom Labels](https://ryfeus.medium.com/training-models-using-satellite-imagery-on-amazon-rekognition-custom-labels-dd44ac6a3812) and [see the repo](https://github.com/ryfeus/amazon-rekognition-custom-labels-satellite-imagery)
 * [Lambda](https://aws.amazon.com/lambda/) functions are stateless functions which can be run at scale for low cost, read [cutting-costs-with-aws-lambda-for-highly-scalable-image-processing](https://aws.amazon.com/blogs/apn/cutting-costs-with-aws-lambda-for-highly-scalable-image-processing/). Limited run time and storage. For state management combine with AWS Step functions. [GeoLambda](https://github.com/developmentseed/geolambda) provides public Docker images and AWS Lambda Layers containing common geospatial native libraries. GeoLambda contains the libraries for GDAL, Proj, GEOS, GeoTIFF, HDF4/5, SZIP, NetCDF, OpenJPEG, WEBP, ZSTD, and others. [Alternative example dockerfile showing install of GDAL.](https://github.com/zflamig/goes-to-cog/blob/main/Dockerfile)
 * [Batch](https://aws.amazon.com/batch/) is suitable for longer running tasks, deploy as docker containers, typically hosting a long running python script, or even parameterize and run jupyter notebooks on batch using [Papermill](https://papermill.readthedocs.io/en/latest/).
 * [Amazon S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/) allows you to add your own code (via a lambda) to S3 GET requests to modify and process data as it is returned to an application. Example use cases include dynamically resizing an image or georeferencing an image in a requested coordinate system.
+* [TerrAvion Uses AWS to Help Farmers Improve Crop Yields Through High-Resolution Aerial Images](https://aws.amazon.com/solutions/case-studies/terravion/) presents a classic S3/EC2/lambda solution, with long term data storage on S3 glacier
+* [https://aws.amazon.com/solutions/case-studies/fireball-international-case-study/](Fireball International Shortens Wildfire Detection to 3 Minutes Using AWS) presents an event driven solution to store and process over 2.5 million images and over 30GB of satellite data per day. S3 for storage, SNS for events, and SES for email alerts. ML models are trained and deployed on EKS
 
 ### Paperspace gradient
 * https://docs.paperspace.com/machine-learning/wiki/model-deployment
@@ -578,6 +581,8 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [turfpy](https://turfpy.readthedocs.io/en/latest/index.html) -> a Python library for performing geospatial data analysis which reimplements turf.js
 * [GatorSense Hyperspectral Image Analysis Toolkit](https://github.com/GatorSense/hsi_toolkit_py) -> This repo contains algorithms for Anomaly Detectors, Classifiers, Dimensionality Reduction, Endmember Extraction, Signature Detectors, Spectral Indices
 * [kornia](https://github.com/kornia/kornia) is a differentiable computer vision library for PyTorch. Perform image transformations, epipolar geometry, depth estimation, and low-level image processing such as filtering and edge detection that operate directly on tensors.
+* [image_slicer](https://github.com/samdobson/image_slicer) -> Split images into tiles. Join the tiles back together.
+* [tiler](https://github.com/nuno-faria/tiler) -> split images into tiles and merge tiles into a large image
 
 ## Python graphing and visualisation
 * [hvplot](https://hvplot.holoviz.org/) -> A high-level plotting API for the PyData ecosystem built on HoloViews. Allows overlaying data on map tiles, see [Exploring USGS Terrain Data in COG format using hvPlot](https://discourse.holoviz.org/t/exploring-usgs-terrain-data-in-cog-format-using-hvplot/1727)
@@ -601,6 +606,7 @@ If you are performing object detection you will need to annotate images with bou
 * [Alturos.ImageAnnotation](https://github.com/AlturosDestinations/Alturos.ImageAnnotation) is a collaborative tool for labeling image data on S3 for yolo
 * [rectlabel](https://rectlabel.com/) is a desktop app for MacOS to label images for bounding box object detection and segmentation
 * [pigeonXT](https://github.com/dennisbakhuis/pigeonXT) can be used to create custom image classification annotators within Jupyter notebooks
+* [ipyannotations](https://github.com/janfreyberg/ipyannotations) -> Image annotations in python using jupyter notebooks
 
 # Movers and shakers on Github
 * [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
