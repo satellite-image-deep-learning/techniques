@@ -107,8 +107,8 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 
 ### Kaggle - Airbus Ship Detection Challenge
 * https://www.kaggle.com/c/airbus-ship-detection/overview
-* Rating - medium, most solutions using deep-learning, many kernels, [good example kernel](https://www.kaggle.com/kmader/baseline-u-net-model-part-1).
-* I believe there was a problem with this dataset, which led to many complaints that the competition was ruined.
+* Rating - medium, most solutions using deep-learning, many kernels, [good example kernel](https://www.kaggle.com/kmader/baseline-u-net-model-part-1)
+* I believe there was a problem with this dataset, which led to many complaints that the competition was ruined
 
 ### Kaggle - Draper - place images in order of time
 * https://www.kaggle.com/c/draper-satellite-image-chronology/data
@@ -229,14 +229,11 @@ There are a variety of datasets suitable for land classification problems.
 # Techniques
 This section explores the different techniques (DL, ML & classical) people are applying to common problems in satellite imagery analysis. Classification problems are the most simply addressed via DL, object detection is harder, and cloud detection harder still (niche interest). Note that almost all aerial imagery data on the internet is in RGB format, and techniques designed for working with this 3 band imagery may fail or need significant adaptation to work with multiband data (e.g. 13-band Sentinel 2).
 
-## Land classification
-Assign a label to an image, e.g. this is an image of a forest.
+## Land classification - RGB data
+Assign a label to an image, e.g. this is an image of a forest. With RGB imagery 'off the shelf' neural net architectures can be applied
 * Land classification using a [simple sklearn cluster algorithm](https://github.com/acgeospatial/Satellite_Imagery_Python/blob/master/Clustering_KMeans-Sentinel2.ipynb) or [deep learning](https://towardsdatascience.com/land-use-land-cover-classification-with-deep-learning-9a5041095ddb).
-* Land use is related to classification, but we are trying to detect a scene, e.g. housing, forestry. I have tried CNN -> [See my notebooks](https://github.com/robmarkcole/satellite-imagery-projects/tree/main/land_classification)
 * [Land Use Classification using Convolutional Neural Network in Keras](https://github.com/tavgreen/landuse_classification)
 * [Sea-Land segmentation using DL](https://arxiv.org/pdf/1709.00201.pdf)
-* [Pixel level segmentation on Azure](https://github.com/Azure/pixel_level_land_classification)
-* [Deep Learning-Based Classification of Hyperspectral Data](https://github.com/hantek/deeplearn_hsi)
 * [A U-net based on Tensorflow for objection detection (or segmentation) of satellite images - DSTL dataset but python 2.7](https://github.com/rogerxujiang/dstl_unet)
 * [What’s growing there? Using eo-learn and fastai to identify crops from multi-spectral remote sensing data (Sentinel 2)](https://towardsdatascience.com/whats-growing-there-a5618a2e6933)
 * [FastAI Multi-label image classification](https://towardsdatascience.com/fastai-multi-label-image-classification-8034be646e95)
@@ -244,20 +241,24 @@ Assign a label to an image, e.g. this is an image of a forest.
 * [Detecting Informal Settlements from Satellite Imagery using fine-tuning of ResNet-50 classifier](https://blog.goodaudience.com/detecting-informal-settlements-using-satellite-imagery-and-convolutional-neural-networks-d571a819bf44) with [repo](https://github.com/dymaxionlabs/ap-latam)
 * Image classification of UC Merced using [Keras](https://examples.pyviz.org/landuse_classification/Image_Classification.html#landuse-classification-gallery-image-classification) or alternatively [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial-data-applications-multi-label-classification-2b0a1838fcf3)
 * [Water Detection in High Resolution Satellite Images using the waterdetect python package](https://towardsdatascience.com/water-detection-in-high-resolution-satellite-images-using-the-waterdetect-python-package-7c5a031e3d16) -> The main idea is to combine water indexes (NDWI, MNDWI, etc.) with reflectance bands (NIR, SWIR, etc.) into an automated clustering process
-* [AutoEncoders for Land Cover Classification of Hyperspectral Images](https://towardsdatascience.com/autoencoders-for-land-cover-classification-of-hyperspectral-images-part-1-c3c847ebc69b) -> An autoencoder nerual net is used to reduce 103 band data to 60 features (dimensionality reduction), keras
 * [Contrastive Sensor Fusion](https://github.com/descarteslabs/contrastive_sensor_fusion) -> Code implementing Contrastive Sensor Fusion, an approach for unsupervised learning of multi-sensor representations targeted at remote sensing imagery.
 * [Codebase for land cover classification with U-Net](https://github.com/jaeeolma/lulc_ml)
-* [Tree species classification from from airborne LiDAR and hyperspectral data using 3D convolutional neural networks](https://github.com/jaeeolma/tree-detection-evo#individual-tree-detection-and-matching-field-data-to-detected-tree-crowns)
 * [Multi-Label Classification of Satellite Photos of the Amazon Rainforest](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-satellite-photos-of-the-amazon-rainforest/) -> uses the Planet dataset & TF 2 & Keras
 * [UrbanLandUse](https://github.com/wri/UrbanLandUse) -> This repository contains a comprehensive set of instructions for creating and applying ML models that characterize land use / land cover (LULC) in urban areas.
-* [hyperspectral-autoencoders](https://github.com/lloydwindrim/hyperspectral-autoencoders) -> Tools for training and using unsupervised autoencoders and supervised deep learning classifiers for hyperspectral data, built on tensorflow. Autoencoders are unsupervised neural networks that are useful for a range of applications such as unsupervised feature learning and dimensionality reduction.
 * [Land cover classification of Sundarbans satellite imagery using K-Nearest Neighbor(K-NNC), Support Vector Machine (SVM), and Gradient Boosting classification algorithms with Python](https://towardsdatascience.com/land-cover-classification-in-satellite-imagery-using-python-ae39dbf2929)
-* [hyperspectral_deeplearning_review](https://github.com/mhaut/hyperspectral_deeplearning_review) -> Code of December 2019 paper ["Deep Learning Classifiers for Hyperspectral Imaging: A Review"](https://www.sciencedirect.com/science/article/pii/S0924271619302187)
 * [Ground Truth Labeling of Satellite Imagery using K-Means Clustering with Python](https://towardsdatascience.com/ground-truth-labeling-of-satellite-imagery-using-k-means-clustering-with-python-b4ab02e1314f)
 * [Deep Learning for Land Cover Classification of Satellite Imagery Using Python](https://towardsdatascience.com/deep-learning-for-land-cover-classification-of-satellite-imagery-using-python-e7ca9f7bfa0a)
 
+## Land classification - Hyperspectral data
+Custom neural net architectures are required for this high dimensional imagery
+* [hyperspectral_deeplearning_review](https://github.com/mhaut/hyperspectral_deeplearning_review) -> Code of December 2019 paper ["Deep Learning Classifiers for Hyperspectral Imaging: A Review"](https://www.sciencedirect.com/science/article/pii/S0924271619302187)
+* [Deep Learning-Based Classification of Hyperspectral Data](https://github.com/hantek/deeplearn_hsi)
+* [AutoEncoders for Land Cover Classification of Hyperspectral Images](https://towardsdatascience.com/autoencoders-for-land-cover-classification-of-hyperspectral-images-part-1-c3c847ebc69b) -> An autoencoder nerual net is used to reduce 103 band data to 60 features (dimensionality reduction), keras
+* [Tree species classification from from airborne LiDAR and hyperspectral data using 3D convolutional neural networks](https://github.com/jaeeolma/tree-detection-evo#individual-tree-detection-and-matching-field-data-to-detected-tree-crowns)
+* [hyperspectral-autoencoders](https://github.com/lloydwindrim/hyperspectral-autoencoders) -> Tools for training and using unsupervised autoencoders and supervised deep learning classifiers for hyperspectral data, built on tensorflow. Autoencoders are unsupervised neural networks that are useful for a range of applications such as unsupervised feature learning and dimensionality reduction.
+
 ## Semantic segmentation
-Whilst classification will assign a label to a whole image, semantic segmentation will assign a label to each pixel
+Whilst classification will assign a label to a whole image, semantic segmentation will assign a label to each **pixel**
 * [Instance segmentation with keras - links to satellite examples](https://github.com/matterport/Mask_RCNN)
 * [Semantic Segmentation on Aerial Images using fastai](https://medium.com/swlh/semantic-segmentation-on-aerial-images-using-fastai-a2696e4db127)
 * https://github.com/Paulymorphous/Road-Segmentation
@@ -265,6 +266,7 @@ Whilst classification will assign a label to a whole image, semantic segmentatio
 * [Identification of roads and highways using Sentinel-2 imagery (10m) super-resolved using the SENX4 model up to x4 the initial spatial resolution (2.5m)](https://tracasa.es/innovative-stories/sen2roadlasviastambiensevendesdesentinel-2/)
 * [find-unauthorized-constructions-using-aerial-photography](https://medium.com/towards-artificial-intelligence/find-unauthorized-constructions-using-aerial-photography-and-deep-learning-with-code-part-2-b56ca80c8c99) -> U-Net & Keras
 * [WildFireDetection](https://github.com/yueureka/WildFireDetection) -> Using U-Net Model to Detect Wildfire from Satellite Imagery, with streamlit UI
+* [Pixel level segmentation on Azure](https://github.com/Azure/pixel_level_land_classification)
 
 ## Change detection
 Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
@@ -340,6 +342,7 @@ Super-resolution imaging is a class of techniques that enhance the resolution of
 * [Random Forest Super-Resolution (RFSR repo)](https://github.com/jshermeyer/RFSR) including [sample data](https://github.com/jshermeyer/RFSR/tree/master/SampleImagery)
 * [Super-Resolution (python) Utilities for managing large satellite images](https://github.com/jshermeyer/SR_Utils)
 * [Enhancing Sentinel 2 images by combining Deep Image Prior and Decrappify](https://medium.com/omdena/pushing-the-limits-of-open-source-data-enhancing-satellite-imagery-through-deep-learning-9d8a3bbc0e0a). Repo for [deep-image-prior](https://github.com/DmitryUlyanov/deep-image-prior) and article on [decrappify](https://www.fast.ai/2019/05/03/decrappify/)
+* The keras docs have a great tutorial - [Image Super-Resolution using an Efficient Sub-Pixel CNN](https://keras.io/examples/vision/super_resolution_sub_pixel/)
 
 ## Pansharpening
 Image fusion of low res multispectral with high res pan band.
@@ -473,23 +476,11 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 * Tensorflow, pytorch & fast.ai available
 * Advantage that many datasets are already available
 
-### Paperspace
-* Free tier available
-* https://docs.paperspace.com/gradient/instances/free-instances
-
 # Production
-Once you have a trained model how do you expose it to the internet and other services? Usually through a rest API. This section lists a number of training and hosting options. For an overview on this topic checkout [Practical-Deep-Learning-on-the-Cloud](https://github.com/PacktPublishing/-Practical-Deep-Learning-on-the-Cloud)
-
-### Custom REST API
-A conceptually simple and scalable approach to serving up deep learning model inference code is to wrap it in a rest API that is implemented in python (typically using flask or FastAPI) and deploy it to a lambda function.
+Once you have a trained model and wish to expose it to internal services or external clients, a common approach is to wrap the model in a rest API. This section lists a number of options for creating a rest API around your mode;. For an overview on this topic checkout [Practical-Deep-Learning-on-the-Cloud](https://github.com/PacktPublishing/-Practical-Deep-Learning-on-the-Cloud). A conceptually simple and scalable approach to serving up deep learning model inference code is to wrap it in a rest API that is implemented in python (typically using flask or FastAPI). This can be deployed as a lambda function, or hosted on a dedicated server (e.g. EC2).
 * Basic API: https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html with code [here](https://github.com/jrosebr1/simple-keras-rest-api)
 * Advanced API with request queuing: https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
-
-### Tensorflow Serving
-[TensorFlow Serving](https://www.tensorflow.org/tfx/guide/serving) makes it easy to deploy new algorithms and experiments, while keeping the same server architecture and APIs. Multiple models, or indeed multiple versions of the same model, can be served simultaneously.  TensorFlow Serving comes with a scheduler that groups individual inference requests into batches for joint execution on a GPU
-
-### Pytorch serve
-* https://github.com/pytorch/serve
+* [Tensorflow](https://www.tensorflow.org/tfx/guide/serving) and [pytorch](https://github.com/pytorch/serve) specific serving
 
 ### AWS
 * [Sagemaker](https://aws.amazon.com/sagemaker/?nc2=h_ql_prod_ml_sm) is a hosted Jupyter environment with easy deployment of models. Read [bring-your-own-deep-learning-framework-to-amazon-sagemaker-with-model-server-for-apache-mxnet](https://aws.amazon.com/blogs/machine-learning/bring-your-own-deep-learning-framework-to-amazon-sagemaker-with-model-server-for-apache-mxnet/). I have personally found the Sagemaker UI to be very buggy, and have switched to using [deep learning AMIs](https://aws.amazon.com/machine-learning/amis/). These are just EC2 instances with deep learning frameworks preinstalled, and provide the same Jupyter environmnet as Sagemaker. They do require more setup from the user but in return allow access to the underlying hardware, which makes debugging issues much more straightforward. There is a [good guide to setting up your AMI instance on the Keras blog](https://blog.keras.io/running-jupyter-notebooks-on-gpu-on-aws-a-starter-guide.html)
@@ -499,9 +490,6 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [Amazon S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/) allows you to add your own code (via a lambda) to S3 GET requests to modify and process data as it is returned to an application. Example use cases include dynamically resizing an image or georeferencing an image in a requested coordinate system.
 * [TerrAvion Uses AWS to Help Farmers Improve Crop Yields Through High-Resolution Aerial Images](https://aws.amazon.com/solutions/case-studies/terravion/) presents a classic S3/EC2/lambda solution, with long term data storage on S3 glacier
 * [Fireball International Shortens Wildfire Detection to 3 Minutes Using AWS](https://aws.amazon.com/solutions/case-studies/fireball-international-case-study/]) presents an event driven solution to store and process over 2.5 million images and over 30GB of satellite data per day. S3 for storage, SNS for events, and SES for email alerts. ML models are trained and deployed on EKS
-
-### Paperspace gradient
-* https://docs.paperspace.com/machine-learning/wiki/model-deployment
 
 ### chip-n-scale-queue-arranger by developmentseed
 * https://github.com/developmentseed/chip-n-scale-queue-arranger
@@ -543,18 +531,25 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [godal](https://github.com/airbusgeo/godal) -> golang wrapper for GDAL
 * [Write rasterio to xarray](https://github.com/robintw/XArrayAndRasterio/blob/master/rasterio_to_xarray.py)
 
-## Python low level numerical & data manipulation
-* [Dask](https://docs.dask.org/en/latest/) works with your favorite PyData libraries to provide performance at scale for the tools you love -> checkout [Read and manipulate tiled GeoTIFF datasets](https://examples.dask.org/applications/satellite-imagery-geotiff.html#) and [accelerating-science-dask](https://coiled.io/blog/accelerating-science-dask-gentemann/). [Coiled](https://coiled.io) is a managed Dask service.
+## Python low level numerical & data formats
 * [xarray](http://xarray.pydata.org/en/stable/) -> N-D labeled arrays and datasets. Read [Handling multi-temporal satellite images with Xarray](https://medium.com/@bonnefond.virginie/handling-multi-temporal-satellite-images-with-xarray-30d142d3391). Checkout [xarray_leaflet](https://github.com/davidbrochart/xarray_leaflet) for tiled map plotting
 * [xarray-spatial](https://github.com/makepath/xarray-spatial) -> Fast, Accurate Python library for Raster Operations. Implements algorithms using Numba and Dask, free of GDAL
 * [Geowombat](https://geowombat.readthedocs.io/) -> geo-utilities applied to air- and space-borne imagery, uses Rasterio, Xarray and Dask for I/O and distributed computing with named coordinates
 * [NumpyTiles](https://github.com/planetlabs/numpytiles-spec) -> a specification for providing multiband full-bit depth raster data in the browser
 * [Zarr](https://zarr.readthedocs.io/en/stable/) -> Zarr is a format for the storage of chunked, compressed, N-dimensional arrays. Zarr depends on NumPy
 
+## Python image handling and manipulation
+* [Pillow is the Python Imaging Library](https://pillow.readthedocs.io/en/stable/) -> this will be your go-to package for image manipulation in python
+* [opencv-python](https://github.com/opencv/opencv-python) is pre-built CPU-only OpenCV packages for Python
+* [kornia](https://github.com/kornia/kornia) is a differentiable computer vision library for PyTorch, like openCV but on the GPU. Perform image transformations, epipolar geometry, depth estimation, and low-level image processing such as filtering and edge detection that operate directly on tensors.
+* [tifffile](https://github.com/cgohlke/tifffile) -> Read and write TIFF files
+* [xtiff](https://github.com/BodenmillerGroup/xtiff) -> A small Python 3 library for writing multi-channel TIFF stacks
+* [geotiff](https://github.com/Open-Source-Agriculture/geotiff) -> A noGDAL tool for reading and writing geotiff files
+* [image_slicer](https://github.com/samdobson/image_slicer) -> Split images into tiles. Join the tiles back together.
+* [tiler](https://github.com/nuno-faria/tiler) -> split images into tiles and merge tiles into a large image
+
 ## Python general utilities
-* [gcsts for google cloud storage sile-system](https://github.com/dask/gcsfs) -> Pythonic file-system interface for Google Cloud Storage
 * [satpy](https://github.com/pytroll/satpy) - a python library for reading and manipulating meteorological remote sensing data and writing it to various image and data file formats
-* [geemap](https://github.com/giswqs/geemap): A Python package for interactive mapping with Google Earth Engine, ipyleaflet, and ipywidgets. See the [Landsat timelapse example](https://github.com/giswqs/geemap/blob/master/examples/notebooks/27_timelapse_app.ipynb)
 * [WaterDetect](https://github.com/cordmaur/WaterDetect) -> an end-to-end algorithm to generate open water cover mask, specially conceived for L2A Sentinel 2 imagery. It can also be used for Landsat 8 images and for other multispectral clustering/segmentation tasks.
 * [DeepHyperX](https://github.com/eecn/Hyperspectral-Classification) -> A Python/pytorch tool to perform deep learning experiments on various hyperspectral datasets.
 * [landsat_ingestor](https://github.com/landsat-pds/landsat_ingestor) -> Scripts and other artifacts for landsat data ingestion into Amazon public hosting
@@ -573,16 +568,9 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [folium](https://python-visualization.github.io/folium/) -> a python wrapper to the excellent [leaflet.js](https://leafletjs.com/) which makes it easy to visualize data that’s been manipulated in Python on an interactive leaflet map. Also checkout the [streamlit-folium](https://github.com/randyzwitch/streamlit-folium) component for adding folium maps to your streamlit apps
 * [GEOS](https://geos.readthedocs.io/en/latest/index.html) -> Google Earth Overlay Server (GEOS) is a python-based server for creating Google Earth overlays of tiled maps. Your can also display maps in the web browser, measure distances and print maps as high-quality PDF’s.
 * [GeoDjango](https://docs.djangoproject.com/en/3.1/ref/contrib/gis/) intends to be a world-class geographic Web framework. Its goal is to make it as easy as possible to build GIS Web applications and harness the power of spatially enabled data. [Some features of GDAL are supported.](https://docs.djangoproject.com/en/3.1/ref/contrib/gis/gdal/)
-* [tifffile](https://github.com/cgohlke/tifffile) -> Read and write TIFF files
-* [xtiff](https://github.com/BodenmillerGroup/xtiff) -> A small Python 3 library for writing multi-channel TIFF stacks
-* [dask-geopandas](https://github.com/jsignell/dask-geopandas) -> Parallel GeoPandas with Dask
-* [geotiff](https://github.com/Open-Source-Agriculture/geotiff) -> A noGDAL tool for reading and writing geotiff files
 * [rasterstats](https://pythonhosted.org/rasterstats/) -> summarize geospatial raster datasets based on vector geometries
 * [turfpy](https://turfpy.readthedocs.io/en/latest/index.html) -> a Python library for performing geospatial data analysis which reimplements turf.js
 * [GatorSense Hyperspectral Image Analysis Toolkit](https://github.com/GatorSense/hsi_toolkit_py) -> This repo contains algorithms for Anomaly Detectors, Classifiers, Dimensionality Reduction, Endmember Extraction, Signature Detectors, Spectral Indices
-* [kornia](https://github.com/kornia/kornia) is a differentiable computer vision library for PyTorch. Perform image transformations, epipolar geometry, depth estimation, and low-level image processing such as filtering and edge detection that operate directly on tensors.
-* [image_slicer](https://github.com/samdobson/image_slicer) -> Split images into tiles. Join the tiles back together.
-* [tiler](https://github.com/nuno-faria/tiler) -> split images into tiles and merge tiles into a large image
 
 ## Python graphing and visualisation
 * [hvplot](https://hvplot.holoviz.org/) -> A high-level plotting API for the PyData ecosystem built on HoloViews. Allows overlaying data on map tiles, see [Exploring USGS Terrain Data in COG format using hvPlot](https://discourse.holoviz.org/t/exploring-usgs-terrain-data-in-cog-format-using-hvplot/1727)
@@ -590,6 +578,12 @@ A conceptually simple and scalable approach to serving up deep learning model in
 * [napari](https://napari.org) -> napari is a fast, interactive, multi-dimensional image viewer for Python. It’s designed for browsing, annotating, and analyzing large multi-dimensional images. By integrating closely with the Python ecosystem, napari can be easily coupled to leading machine learning and image analysis tools. [Example viewing Landsat-8 imagery](https://napari.org/tutorials/gallery#geospatial-data). Note that to view a 3GB COG I had to install the [napari-tifffile-reader](https://github.com/GenevieveBuckley/napari-tifffile-reader) plugin.
 * [pixel-adjust](https://github.com/cisaacstern/pixel-adjust) -> Interactively select and adjust specific pixels or regions within a single-band raster. Built with rasterio, matplotlib, and panel.
 * [Plotly Dash](https://plotly.com/dash/) can be used for making interactive dashboards
+
+## Python cluster computing with Dask
+* [Dask](https://docs.dask.org/en/latest/) works with your favorite PyData libraries to provide performance at scale for the tools you love -> checkout [Read and manipulate tiled GeoTIFF datasets](https://examples.dask.org/applications/satellite-imagery-geotiff.html#) and [accelerating-science-dask](https://coiled.io/blog/accelerating-science-dask-gentemann/)
+* [Coiled](https://coiled.io) is a managed Dask service.
+* [Dask with PyTorch for large scale image analysis](https://blog.dask.org/2021/03/29/apply-pretrained-pytorch-model)
+* [dask-geopandas](https://github.com/jsignell/dask-geopandas) -> Parallel GeoPandas with Dask
 
 ## Tools for image annotation
 If you are performing object detection you will need to annotate images with bounding boxes. Check that your annotation tool of choice supports large image (likely geotiff) files, as not all will. Note that GeoJSON is widely used by remote sensing researchers but this annotation format is not commonly supported in general computer vision frameworks, and in practice you may have to convert the annotation format to use the data with your chosen framework. There are both closed and open source tools for creating and converting annotation formats.
