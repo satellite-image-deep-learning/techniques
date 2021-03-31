@@ -30,8 +30,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [AWS datasets](https://registry.opendata.aws/)
 
 # Datasets
-* **Warning** satellite image files can be LARGE, even a small data set may comprise 50 GB of imagery.
-* [Various datasets listed here](https://www.maptiler.com/gallery/satellite/) and at [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
+**Warning** satellite image files can be LARGE, even a small data set may comprise 50 GB of imagery
 
 ## WorldView
 * A commercial satellite owned by [DigitalGlobe](https://www.digitalglobe.com/)
@@ -95,7 +94,6 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * [FastAI Multi-label image classification](https://towardsdatascience.com/fastai-multi-label-image-classification-8034be646e95)
 * [Multi-Label Classification of Satellite Photos of the Amazon Rainforest](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-satellite-photos-of-the-amazon-rainforest/)
 
-
 ### Kaggle - DSTL - segmentation challenge
 * https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection
 * Rating - medium, many good examples (see the Discussion as well as kernels), but as this competition was run a couple of years ago many examples use python 2
@@ -103,7 +101,6 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * 10 Labelled classes include - **Buildings, Road, Trees, Crops, Waterway, Vehicles**
 * [Interview with 1st place winner who used segmentation networks](http://blog.kaggle.com/2017/04/26/dstl-satellite-imagery-competition-1st-place-winners-interview-kyle-lee/) - 40+ models, each tweaked for particular target (e.g. roads, trees)
 * [Deepsense 4th place solution](https://deepsense.ai/deep-learning-for-satellite-imagery-via-image-segmentation/)
-* My analysis [here](https://github.com/robmarkcole/Useful-python/tree/master/Kaggle/dstl-satellite-imagery-feature-detection)
 
 ### Kaggle - Airbus Ship Detection Challenge
 * https://www.kaggle.com/c/airbus-ship-detection/overview
@@ -134,55 +131,43 @@ In this challenge, you will build a model to classify cloud organization pattern
 * https://www.kaggle.com/rhammell/ships-in-satellite-imagery -> Classify ships in San Franciso Bay using Planet satellite imagery
 * https://www.kaggle.com/rhammell/planesnet -> Detect aircraft in Planet satellite image chips
 
-## Alternative datasets
-There are a variety of datasets suitable for land classification problems.
-
-### Tensorflow datasets
+## Tensorflow datasets
 * There are a number of remote sensing datasets
 * [resisc45](https://www.tensorflow.org/datasets/catalog/resisc45) - RESISC45 dataset is a publicly available benchmark for Remote Sensing Image Scene Classification (RESISC), created by Northwestern Polytechnical University (NWPU). This dataset contains 31,500 images, covering 45 scene classes with 700 images in each class.
 * [eurosat](https://www.tensorflow.org/datasets/catalog/eurosat) - EuroSAT dataset is based on Sentinel-2 satellite images covering 13 spectral bands and consisting of 10 classes with 27000 labeled and geo-referenced samples.
 * [bigearthnet](https://www.tensorflow.org/datasets/catalog/bigearthnet) - The BigEarthNet is a new large-scale Sentinel-2 benchmark archive, consisting of 590,326 Sentinel-2 image patches. The image patch size on the ground is 1.2 x 1.2 km with variable image size depending on the channel resolution. This is a multi-label dataset with 43 imbalanced labels.
 
-### UCMerced
+## UC Merced
 * http://weegee.vision.ucmerced.edu/datasets/landuse.html
 * Available as a Tensorflow dataset -> https://www.tensorflow.org/datasets/catalog/uc_merced
 * This is a 21 class land use image dataset meant for research purposes.
 * There are 100 RGB TIFF images for each class
 * Each image measures 256x256 pixels with a pixel resolution of 1 foot
-* Image classification of UCMerced using [Keras](https://examples.pyviz.org/landuse_classification/Image_Classification.html#landuse-classification-gallery-image-classification) or alternatively [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial-data-applications-multi-label-classification-2b0a1838fcf3)
+* Image classification of UC Merced using [Keras](https://examples.pyviz.org/landuse_classification/Image_Classification.html#landuse-classification-gallery-image-classification) or alternatively [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial-data-applications-multi-label-classification-2b0a1838fcf3)
 
-### AWS datasets
+## AWS datasets
 * [Earth on AWS](https://aws.amazon.com/earth/) is the AWS equivalent of Google Earth Engine
 * Currently 27 satellite datasets on the [Registry of Open Data on AWS](https://registry.opendata.aws)
 
-### Microsoft
+## Microsoft
 * [USBuildingFootprints](https://github.com/Microsoft/USBuildingFootprints) -> computer generated building footprints in all 50 US states, GeoJSON format, generated using semantic segmentation
 * Checkout Microsofts [Planetary Computer](https://innovation.microsoft.com/en-us/planetary-computer) project
 
-### Quilt
-* Several people have uploaded datasets to [Quilt](https://open.quiltdata.com/search?q=satellite)
-
-### Google Earth Engine
+## Google Earth Engine
 * https://developers.google.com/earth-engine/
 * Various imagery and climate datasets, including Landsat & Sentinel imagery
-* [Python API](https://developers.google.com/earth-engine/python_install) but  all compute happens on Googles servers
-* [Google Earth Engine Community on Github](https://github.com/gee-community)
-* [awesome-google-earth-engine](https://github.com/gee-community/awesome-google-earth-engine) - Curated list of Google Earth Engine resources
-* [ee-tensorflow-notebooks](https://github.com/gee-community/ee-tensorflow-notebooks) - Repository to place example notebooks for Deep Learning applications with TensorFlow and Earth Engine.
-* [geemap](https://github.com/giswqs/geemap) -> a python package for interactive mapping with Google Earth Engine, ipyleaflet, and ipywidgets.
-* [eemont](https://github.com/davemlz/eemont) -> extends Google Earth Engine with pre-processing and processing tools for the most used satellite platforms.
-* [EEwPython](https://github.com/csaybar/EEwPython) -> A series of Jupyter (colab) notebook to learn Google Earth Engine with Python
+* [awesome-google-earth-engine](https://github.com/gee-community/awesome-google-earth-engine) -> curated list of Google Earth Engine resources
 
-### Weather Datasets
+## Weather Datasets
 * UK met-odffice -> https://www.metoffice.gov.uk/datapoint
 * NASA (make request and emailed when ready) -> https://search.earthdata.nasa.gov
 * NOAA (requires BigQuery) -> https://www.kaggle.com/noaa/goes16/home
 * Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 
-### Time series datasets
+## Time series datasets
 * [BreizhCrops](https://github.com/dl4sits/BreizhCrops) -> A Time Series Dataset for Crop Type Mapping
 
-### UAV & Drone datasets
+## UAV & Drone datasets
 * Many on https://www.visualdata.io
 * [AU-AIR dataset](https://bozcani.github.io/auairdataset) -> a multi-modal UAV dataset for object detection.
 * [ERA](https://lcmou.github.io/ERA_Dataset/) ->  A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos.
@@ -196,7 +181,7 @@ There are a variety of datasets suitable for land classification problems.
 * [BIRDSAI: A Dataset for Detection and Tracking in Aerial Thermal Infrared Videos](https://ieeexplore.ieee.org/document/9093284) -> TIR videos of humans and animals with several challenging scenarios like scale variations, background clutter due to thermal reflections, large camera rotations, and motion blur
 * [ERA: A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos](https://lcmou.github.io/ERA_Dataset/)
 
-### Synthetic data
+## Synthetic data
 * [The Synthinel-1 dataset: a collection of high resolution synthetic overhead imagery for building segmentation](https://arxiv.org/ftp/arxiv/papers/2001/2001.05130.pdf)
 * [RarePlanes](https://www.cosmiqworks.org/RarePlanes/) ->  incorporates both real and synthetically generated satellite imagery including aircraft.
 * Checkout Microsoft [AirSim](https://microsoft.github.io/AirSim/), which is a simulator for drones, cars and more, built on Unreal Engine
@@ -269,7 +254,6 @@ Whilst classification will assign a label to a whole image, semantic segmentatio
 * [Pixel level segmentation on Azure](https://github.com/Azure/pixel_level_land_classification)
 * [DigitalGlobe article](http://gbdxstories.digitalglobe.com/boats/) - they use a combination classical techniques (masks, erodes) to reduce the search space (identifying water via [NDWI](https://en.wikipedia.org/wiki/Normalized_difference_water_index) which requires SWIR) then apply a binary DL classifier on candidate regions of interest. They deploy the final algo [as a task](https://github.com/platformstories/boat-detector) on their GBDX platform. They propose that in the future an R-CNN may be suitable for the whole process.
 
-
 ## Change detection
 Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
 * Using PCA (python 2, requires updating) -> https://appliedmachinelearning.blog/2017/11/25/unsupervised-changed-detection-in-multi-temporal-satellite-images-using-pca-k-means-python-code/
@@ -340,7 +324,7 @@ The goal is to predict economic activity from satellite imagery rather than cond
 * [Crop Yield Prediction Using Deep Neural Networks and LSTM](https://omdena.com/blog/deep-learning-yield-prediction/) and [Building a Crop Yield Prediction App in Senegal Using Satellite Imagery and Jupyter](https://omdena.com/blog/yield-prediction/)
 * [Advanced Deep Learning Techniques for Predicting Maize Crop Yield using Sentinel-2 Satellite Imagery](https://zionayomide.medium.com/advanced-deep-learning-techniques-for-predicting-maize-crop-yield-using-sentinel-2-satellite-1b63ac8b0789)
 
-## Super resolution
+## Super-resolution
 Super-resolution imaging is a class of techniques that enhance the resolution of an imaging system. Very hot topic of research.
 * https://medium.com/the-downlinq/super-resolution-on-satellite-imagery-using-deep-learning-part-1-ec5c5cd3cd2 -> Nov 2016 blog post by CosmiQ Works with a nice introduction to the topic. Proposes and demonstrates a new architecture with perturbation layers with practical guidance on the methodology and [code](https://github.com/CosmiQ/super-resolution). [Three part series](https://medium.com/the-downlinq/super-resolution-on-satellite-imagery-using-deep-learning-part-3-2e2f61eee1d3)
 * [Super Resolution for Satellite Imagery - srcnn repo](https://github.com/WarrenGreen/srcnn)
@@ -415,9 +399,8 @@ Measure surface contours.
 * [A Comparison of Spatial Functions: PostGIS, Athena, PrestoDB, BigQuery vs RedShift](https://ual.sg/post/2020/07/03/a-comparison-of-spatial-functions-postgis-athena-prestodb-bigquery-vs-redshift/)
 
 ## Cloud Optimised GeoTiff (COG)
+A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file with an internal organization that enables more efficient workflows on the cloud. In particular they support HTTP range requests, enabling downloading of specific tiles rather than the full file. COGs work normally in GIS software such as QGIS, but are larger than regular GeoTIFFs
 * https://www.cogeo.org/
-* TLDR: A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file, aimed at being hosted on a HTTP file server (or Cloud object storage like S3), with an internal organization that enables more efficient workflows on the cloud. In particular they support HTTP range requests, enabling downloading of specific tiles rather than the full file. COGs work normally in GIS software such as QGIS.
-* [Intro presentation from Saheel Ahmed](https://github.com/saheelBreezo/Cloud-Optimised-Geotiff/blob/master/Talk/Cloud_Optimized_GeoTIFF_Blue_Sky_Analytics.pdf)
 * [cog-best-practices](https://github.com/pangeo-data/cog-best-practices)
 * [rio-cogeo](https://cogeotiff.github.io/rio-cogeo/) -> Cloud Optimized GeoTIFF (COG) creation and validation plugin for Rasterio.
 * [aiocogeo](https://github.com/geospatial-jeff/aiocogeo) -> Asynchronous cogeotiff reader (python asyncio)
@@ -427,15 +410,12 @@ Measure surface contours.
 * [Exploring USGS Terrain Data in COG format using hvPlot](https://discourse.holoviz.org/t/exploring-usgs-terrain-data-in-cog-format-using-hvplot/1727) -> local COG from public AWS bucket, open with rioxarray, visualise with [hvplot](https://hvplot.holoviz.org/). See [the Jupyter notebook](https://nbviewer.jupyter.org/gist/rsignell-usgs/9657896371bb4f38437505146555264c)
 * [aws-lambda-docker-rasterio](https://github.com/addresscloud/aws-lambda-docker-rasterio) -> AWS Lambda Container Image with Python Rasterio for querying Cloud Optimised GeoTiffs. See [this presentation](https://blog.addresscloud.com/rasters-revealed-2021/)
 * [cogbeam](https://github.com/GoogleCloudPlatform/cogbeam) -> a python based Apache Beam pipeline, optimized for Google Cloud Dataflow, which aims to expedite the conversion of traditional GeoTIFFs into COGs
-* [Convert GOES-R data to Cloud Optimized Geotiffs](https://github.com/zflamig/goes-to-cog) -> an AWS Lambda for converting GOES-16 & GOES-17 L2 ABI Data to Cloud Optimized Geotiff using GDAL.
 
 ## STAC - SpatioTemporal Asset Catalog specification
 The STAC specification provides a common metadata specification, API, and catalog format to describe geospatial assets, so they can more easily indexed and discovered. The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface. A good place to start is to view the [Planet Disaster Data catalogue](https://planet.stac.cloud/) which has the [catalogue source on Github](https://github.com/cholmes/pdd-stac) and uses the [stac-browser](https://github.com/radiantearth/stac-browser)
 * Spec at https://github.com/radiantearth/stac-spec
 * [SpatioTemporal Asset Catalog API specification](https://github.com/radiantearth/stac-api-spec) -> an API to make geospatial assets openly searchable and crawlable
 * [stacindex](https://stacindex.org/) -> STAC Catalogs, Collections, APIs, Software and Tools
-* Talk at https://docs.google.com/presentation/d/1O6W0lMeXyUtPLl-k30WPJIyH1ecqrcWk29Np3bi6rl0/edit#slide=id.p
-* Chat https://gitter.im/SpatioTemporal-Asset-Catalog/Lobby
 * Several useful repos on https://github.com/sat-utils
 * [Intake-STAC](https://github.com/intake/intake-stac) -> Intake-STAC provides an opinionated way for users to load Assets from STAC catalogs into the scientific Python ecosystem. It uses the intake-xarray plugin and supports several file formats including GeoTIFF, netCDF, GRIB, and OpenDAP.
 * [sat-utils/sat-search](https://github.com/sat-utils/sat-search) -> Sat-search is a Python 3 library and a command line tool for discovering and downloading publicly available satellite imagery using STAC compliant API
@@ -443,14 +423,12 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [stacframes](https://github.com/azavea/stacframes) -> A Python library for working with STAC Catalogs via Pandas DataFrames
 * [sat-api-pg](https://github.com/developmentseed/sat-api-pg) -> A Postgres backed STAC API
 * [stactools](https://github.com/stac-utils/stactools) -> Command line utility and Python library for STAC
-* [pystac](https://github.com/stac-utils/pystac) -> Python library for working with any SpatioTemporal Asset Catalog (STAC)
+* [pystac](https://github.com/stac-utils/pystac) -> Python library for working with any STAC Catalog
 * [STAC Examples for Nightlights data](https://github.com/developmentseed/nightlights_stac_examples) -> minimal example STAC implementation for the [Light Every Night](https://registry.opendata.aws/wb-light-every-night/) dataset of all VIIRS DNB and DMSP-OLS nighttime satellite data
-* [stac-fields](https://github.com/stac-utils/stac-fields) -> A minimal STAC library that contains a list of STAC fields with some metadata (title, unit, prefix) and helper functions
 * [stackstac](https://github.com/gjoseph92/stackstac) -> Turn a STAC catalog into a dask-based xarray
 
 # State of the art
 What are companies doing?
-* Overall trend to using cloud (i.e. AWS, Google or Azure) storage buckets for hosting imagery
 * A [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks and [even storage](https://blog.addresscloud.com/serverless-postgis/), whilst providing a Jupyter notebook approach for custom analysis. Checkout [process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api)
 * Traditional data formats aren't designed for processing, so new standards are developing such as COGS
 * Google provide training on how to use Apache Spark on Google Cloud Dataproc to distribute a computationally intensive (satellite) image processing task onto a cluster of machines -> https://google.qwiklabs.com/focuses/5834?parent=catalog
@@ -553,30 +531,27 @@ Once you have a trained model and wish to expose it to internal services or exte
 * [geotiff](https://github.com/Open-Source-Agriculture/geotiff) -> A noGDAL tool for reading and writing geotiff files
 * [image_slicer](https://github.com/samdobson/image_slicer) -> Split images into tiles. Join the tiles back together.
 * [tiler](https://github.com/nuno-faria/tiler) -> split images into tiles and merge tiles into a large image
+* [felicette](https://github.com/plant99/felicette) -> Satellite imagery for dummies. Generate JPEG earth imagery from coordinates/location name with publicly available satellite data.
 
 ## Python general utilities
-* [satpy](https://github.com/pytroll/satpy) - a python library for reading and manipulating meteorological remote sensing data and writing it to various image and data file formats
-* [WaterDetect](https://github.com/cordmaur/WaterDetect) -> an end-to-end algorithm to generate open water cover mask, specially conceived for L2A Sentinel 2 imagery. It can also be used for Landsat 8 images and for other multispectral clustering/segmentation tasks.
-* [DeepHyperX](https://github.com/eecn/Hyperspectral-Classification) -> A Python/pytorch tool to perform deep learning experiments on various hyperspectral datasets.
-* [landsat_ingestor](https://github.com/landsat-pds/landsat_ingestor) -> Scripts and other artifacts for landsat data ingestion into Amazon public hosting
 * [PyShp](https://github.com/GeospatialPython/pyshp) -> The Python Shapefile Library (PyShp) reads and writes ESRI Shapefiles in pure Python
 * [s2p](https://github.com/cmla/s2p) -> a Python library and command line tool that implements a stereo pipeline which produces elevation models from images taken by high resolution optical satellites such as Pléiades, WorldView, QuickBird, Spot or Ikonos
-* [TorchSat](https://github.com/sshuair/torchsat) is an open-source deep learning framework for satellite imagery analysis based on PyTorch.
-* [torchvision-enhance](https://github.com/sshuair/torchvision-enhance) -> Enhance PyTorch vision for semantic segmentation, multi-channel images and TIF file,...
-* [felicette](https://github.com/plant99/felicette) -> Satellite imagery for dummies. Generate JPEG earth imagery from coordinates/location name with publicly available satellite data.
 * [EarthPy](https://github.com/earthlab/earthpy) -> A set of helper functions to make working with spatial data in open source tools easier. read[Exploratory Data Analysis (EDA) on Satellite Imagery Using EarthPy](https://towardsdatascience.com/exploratory-data-analysis-eda-on-satellite-imagery-using-earthpy-c0e186fe4293)
-* [detectree](https://github.com/martibosch/detectree) -> Tree detection from aerial imagery
-* [pylandstats](https://github.com/martibosch/pylandstats) -> compute landscape metrics
-* [ipyearth](https://github.com/davidbrochart/ipyearth) -> An IPython Widget for Earth Maps
-* [arosics](https://danschef.git-pages.gfz-potsdam.de/arosics/doc/about.html) -> Perform automatic subpixel co-registration of two satellite image datasets based on an image matching approach
 * [pygeometa](https://geopython.github.io/pygeometa/) -> provides a lightweight and Pythonic approach for users to easily create geospatial metadata in standards-based formats using simple configuration files
 * [pesto](https://airbusdefenceandspace.github.io/pesto/) -> PESTO is designed to ease the process of packaging a Python algorithm as a processing web service into a docker image. It contains shell tools to generate all the boiler plate to build an OpenAPI processing web service compliant with the Geoprocessing-API. By [Airbus Defence And Space](https://github.com/AirbusDefenceAndSpace)
-* [folium](https://python-visualization.github.io/folium/) -> a python wrapper to the excellent [leaflet.js](https://leafletjs.com/) which makes it easy to visualize data that’s been manipulated in Python on an interactive leaflet map. Also checkout the [streamlit-folium](https://github.com/randyzwitch/streamlit-folium) component for adding folium maps to your streamlit apps
 * [GEOS](https://geos.readthedocs.io/en/latest/index.html) -> Google Earth Overlay Server (GEOS) is a python-based server for creating Google Earth overlays of tiled maps. Your can also display maps in the web browser, measure distances and print maps as high-quality PDF’s.
 * [GeoDjango](https://docs.djangoproject.com/en/3.1/ref/contrib/gis/) intends to be a world-class geographic Web framework. Its goal is to make it as easy as possible to build GIS Web applications and harness the power of spatially enabled data. [Some features of GDAL are supported.](https://docs.djangoproject.com/en/3.1/ref/contrib/gis/gdal/)
 * [rasterstats](https://pythonhosted.org/rasterstats/) -> summarize geospatial raster datasets based on vector geometries
 * [turfpy](https://turfpy.readthedocs.io/en/latest/index.html) -> a Python library for performing geospatial data analysis which reimplements turf.js
-* [GatorSense Hyperspectral Image Analysis Toolkit](https://github.com/GatorSense/hsi_toolkit_py) -> This repo contains algorithms for Anomaly Detectors, Classifiers, Dimensionality Reduction, Endmember Extraction, Signature Detectors, Spectral Indices
+
+## Python deep learning toolsets
+* [TorchSat](https://github.com/sshuair/torchsat) is an open-source deep learning framework for satellite imagery analysis based on PyTorch.
+* [torchvision-enhance](https://github.com/sshuair/torchvision-enhance) -> Enhance PyTorch vision for semantic segmentation, multi-channel images and TIF file
+* [DeepHyperX](https://github.com/eecn/Hyperspectral-Classification) -> A Python/pytorch tool to perform deep learning experiments on various hyperspectral datasets.
+
+## Python data discover and ingestion
+* [landsat_ingestor](https://github.com/landsat-pds/landsat_ingestor) -> Scripts and other artifacts for landsat data ingestion into Amazon public hosting
+* [satpy](https://github.com/pytroll/satpy) - a python library for reading and manipulating meteorological remote sensing data and writing it to various image and data file formats
 
 ## Python graphing and visualisation
 * [hvplot](https://hvplot.holoviz.org/) -> A high-level plotting API for the PyData ecosystem built on HoloViews. Allows overlaying data on map tiles, see [Exploring USGS Terrain Data in COG format using hvPlot](https://discourse.holoviz.org/t/exploring-usgs-terrain-data-in-cog-format-using-hvplot/1727)
@@ -584,12 +559,21 @@ Once you have a trained model and wish to expose it to internal services or exte
 * [napari](https://napari.org) -> napari is a fast, interactive, multi-dimensional image viewer for Python. It’s designed for browsing, annotating, and analyzing large multi-dimensional images. By integrating closely with the Python ecosystem, napari can be easily coupled to leading machine learning and image analysis tools. [Example viewing Landsat-8 imagery](https://napari.org/tutorials/gallery#geospatial-data). Note that to view a 3GB COG I had to install the [napari-tifffile-reader](https://github.com/GenevieveBuckley/napari-tifffile-reader) plugin.
 * [pixel-adjust](https://github.com/cisaacstern/pixel-adjust) -> Interactively select and adjust specific pixels or regions within a single-band raster. Built with rasterio, matplotlib, and panel.
 * [Plotly Dash](https://plotly.com/dash/) can be used for making interactive dashboards
+* [folium](https://python-visualization.github.io/folium/) -> a python wrapper to the excellent [leaflet.js](https://leafletjs.com/) which makes it easy to visualize data that’s been manipulated in Python on an interactive leaflet map. Also checkout the [streamlit-folium](https://github.com/randyzwitch/streamlit-folium) component for adding folium maps to your streamlit apps
+* [ipyearth](https://github.com/davidbrochart/ipyearth) -> An IPython Widget for Earth Maps
 
 ## Python cluster computing with Dask
 * [Dask](https://docs.dask.org/en/latest/) works with your favorite PyData libraries to provide performance at scale for the tools you love -> checkout [Read and manipulate tiled GeoTIFF datasets](https://examples.dask.org/applications/satellite-imagery-geotiff.html#) and [accelerating-science-dask](https://coiled.io/blog/accelerating-science-dask-gentemann/)
 * [Coiled](https://coiled.io) is a managed Dask service.
 * [Dask with PyTorch for large scale image analysis](https://blog.dask.org/2021/03/29/apply-pretrained-pytorch-model)
 * [dask-geopandas](https://github.com/jsignell/dask-geopandas) -> Parallel GeoPandas with Dask
+
+## Algorithms in python
+* [WaterDetect](https://github.com/cordmaur/WaterDetect) -> an end-to-end algorithm to generate open water cover mask, specially conceived for L2A Sentinel 2 imagery. It can also be used for Landsat 8 images and for other multispectral clustering/segmentation tasks.
+* [GatorSense Hyperspectral Image Analysis Toolkit](https://github.com/GatorSense/hsi_toolkit_py) -> This repo contains algorithms for Anomaly Detectors, Classifiers, Dimensionality Reduction, Endmember Extraction, Signature Detectors, Spectral Indices
+* [arosics](https://danschef.git-pages.gfz-potsdam.de/arosics/doc/about.html) -> Perform automatic subpixel co-registration of two satellite image datasets based on an image matching approach
+* [detectree](https://github.com/martibosch/detectree) -> Tree detection from aerial imagery
+* [pylandstats](https://github.com/martibosch/pylandstats) -> compute landscape metrics
 
 ## Tools for image annotation
 If you are performing object detection you will need to annotate images with bounding boxes. Check that your annotation tool of choice supports large image (likely geotiff) files, as not all will. Note that GeoJSON is widely used by remote sensing researchers but this annotation format is not commonly supported in general computer vision frameworks, and in practice you may have to convert the annotation format to use the data with your chosen framework. There are both closed and open source tools for creating and converting annotation formats.
