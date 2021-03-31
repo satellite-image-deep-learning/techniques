@@ -153,10 +153,10 @@ In this challenge, you will build a model to classify cloud organization pattern
 * [USBuildingFootprints](https://github.com/Microsoft/USBuildingFootprints) -> computer generated building footprints in all 50 US states, GeoJSON format, generated using semantic segmentation
 * Checkout Microsofts [Planetary Computer](https://innovation.microsoft.com/en-us/planetary-computer) project
 
-## Google Earth Engine
+## Google Earth Engine (GEE)
 * https://developers.google.com/earth-engine/
 * Various imagery and climate datasets, including Landsat & Sentinel imagery
-* [awesome-google-earth-engine](https://github.com/gee-community/awesome-google-earth-engine) -> curated list of Google Earth Engine resources
+* Since there is a whole community around GEE I will not reproduce it here but point to [awesome-google-earth-engine](https://github.com/gee-community/awesome-google-earth-engine)
 
 ## Weather Datasets
 * UK met-odffice -> https://www.metoffice.gov.uk/datapoint
@@ -187,29 +187,32 @@ In this challenge, you will build a model to classify cloud organization pattern
 * Checkout Microsoft [AirSim](https://microsoft.github.io/AirSim/), which is a simulator for drones, cars and more, built on Unreal Engine
 
 # Interesting deep learning projects
+### TorchSat
+* [TorchSat](https://github.com/sshuair/torchsat) is an open-source deep learning framework for satellite imagery analysis based on PyTorch
+
 ### Raster Vision by Azavea
 * https://www.azavea.com/projects/raster-vision/
 * An open source Python framework for building computer vision models on aerial, satellite, and other large imagery sets.
-* Accessible through the [Raster Foundry](https://www.rasterfoundry.com/)
+* Accessible through the [Raster Foundry](https://rasterfoundry.azavea.com/)
 * [Example use cases on open data](https://github.com/azavea/raster-vision-examples)
 
-### RoboSat
+### DeepNetsForEO (no activity since 2019)
+* https://github.com/nshaud/DeepNetsForEO
+* Uses SegNET for working on remote sensing images using deep learning.
+
+### Skynet-data (no activity since 2018)
+* https://github.com/developmentseed/skynet-data
+* Data pipeline for machine learning with OpenStreetMap
+
+### RoboSat (no longer maintained)
 * https://github.com/mapbox/robosat
 * Semantic segmentation on aerial and satellite imagery. Extracts features such as: buildings, parking lots, roads, water, clouds
 * [robosat-jupyter-notebook](https://github.com/Element84/robosat-jupyter-notebook) -> walks through all of the steps in an excellent blog post on the Robosat feature extraction and machine learning pipeline.
 * Note there is/was fork of Robosat, originally named RoboSat.pink, and subsequently neat-EO.pink although this appears to be dead/archived
 
-### DeepOSM
+### DeepOSM (no activity since 2017)
 * https://github.com/trailbehind/DeepOSM
 * Train a deep learning net with OpenStreetMap features and satellite imagery.
-
-### DeepNetsForEO - segmentation
-* https://github.com/nshaud/DeepNetsForEO
-* Uses SegNET for working on remote sensing images using deep learning.
-
-### Skynet-data
-* https://github.com/developmentseed/skynet-data
-* Data pipeline for machine learning with OpenStreetMap
 
 # Techniques
 This section explores the different techniques (DL, ML & classical) people are applying to common problems in satellite imagery analysis. Classification problems are the most simply addressed via DL, object detection is harder, and cloud detection harder still (niche interest). Note that almost all aerial imagery data on the internet is in RGB format, and techniques designed for working with this 3 band imagery may fail or need significant adaptation to work with multiband data (e.g. 13-band Sentinel 2).
@@ -545,7 +548,6 @@ Once you have a trained model and wish to expose it to internal services or exte
 * [felicette](https://github.com/plant99/felicette) -> Satellite imagery for dummies. Generate JPEG earth imagery from coordinates/location name with publicly available satellite data.
 
 ## Python deep learning toolsets
-* [TorchSat](https://github.com/sshuair/torchsat) is an open-source deep learning framework for satellite imagery analysis based on PyTorch.
 * [torchvision-enhance](https://github.com/sshuair/torchvision-enhance) -> Enhance PyTorch vision for semantic segmentation, multi-channel images and TIF file
 * [DeepHyperX](https://github.com/eecn/Hyperspectral-Classification) -> A Python/pytorch tool to perform deep learning experiments on various hyperspectral datasets.
 
