@@ -496,7 +496,6 @@ A conceptually simple approach to serving up deep learning model inference code 
 * [Batch](https://aws.amazon.com/batch/) is suitable for longer running tasks, deploy as docker containers, typically hosting a long running python script
 * [Amazon S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/) allows you to add your own code (via a lambda) to S3 GET requests to modify and process data as it is returned to an application. Example use cases include dynamically resizing an image or georeferencing an image in a requested coordinate system.
 * [TerrAvion Uses AWS to Help Farmers Improve Crop Yields Through High-Resolution Aerial Images](https://aws.amazon.com/solutions/case-studies/terravion/) presents a classic S3/EC2/lambda solution, with long term data storage on S3 glacier
-* [Fireball International Shortens Wildfire Detection to 3 Minutes Using AWS](https://aws.amazon.com/solutions/case-studies/fireball-international-case-study/]) presents an event driven solution to store and process over 2.5 million images and over 30GB of satellite data per day. S3 for storage, SNS for events, and SES for email alerts. ML models are trained and deployed on EKS
 
 ### chip-n-scale-queue-arranger by developmentseed
 * https://github.com/developmentseed/chip-n-scale-queue-arranger
@@ -516,7 +515,6 @@ A conceptually simple approach to serving up deep learning model inference code 
 * [Land Cover Mapping web app from Microsoft](https://github.com/microsoft/landcover)
 * [Solaris](https://github.com/CosmiQ/solaris) -> An open source ML pipeline for overhead imagery by [CosmiQ Works](https://www.cosmiqworks.org/), similar to Rastervision but with some unique very vool features
 * [openSAR](https://github.com/EarthBigData/openSAR) -> Synthetic Aperture Radar (SAR) Tools and Documents from Earth Big Data LLC (http://earthbigdata.com/)
-* [terrascope viewer](https://terrascope.be/en) for browsing Sentinel imagery on a map
 * [qhub](https://qhub.dev) -> QHub enables teams to build and maintain a cost effective and scalable compute/data science platform in the cloud.
 * [imagej](https://imagej.net) -> a very versatile image viewer and processing program
 * [Geo Data Viewer](https://github.com/RandomFractals/geo-data-viewer) extension for VSCode which enables opening and viewing various geo data formats with nice visualisations
@@ -578,7 +576,7 @@ A conceptually simple approach to serving up deep learning model inference code 
 ## Python graphing and visualisation
 * [hvplot](https://hvplot.holoviz.org/) -> A high-level plotting API for the PyData ecosystem built on HoloViews. Allows overlaying data on map tiles, see [Exploring USGS Terrain Data in COG format using hvPlot](https://discourse.holoviz.org/t/exploring-usgs-terrain-data-in-cog-format-using-hvplot/1727)
 * [Pyviz](https://examples.pyviz.org/) examples include several interesting geospatial visualisations
-* [napari](https://napari.org) -> napari is a fast, interactive, multi-dimensional image viewer for Python. It’s designed for browsing, annotating, and analyzing large multi-dimensional images. By integrating closely with the Python ecosystem, napari can be easily coupled to leading machine learning and image analysis tools. [Example viewing Landsat-8 imagery](https://napari.org/tutorials/gallery#geospatial-data). Note that to view a 3GB COG I had to install the [napari-tifffile-reader](https://github.com/GenevieveBuckley/napari-tifffile-reader) plugin.
+* [napari](https://napari.org) -> napari is a fast, interactive, multi-dimensional image viewer for Python. It’s designed for browsing, annotating, and analyzing large multi-dimensional images. By integrating closely with the Python ecosystem, napari can be easily coupled to leading machine learning and image analysis tools. Note that to view a 3GB COG I had to install the [napari-tifffile-reader](https://github.com/GenevieveBuckley/napari-tifffile-reader) plugin.
 * [pixel-adjust](https://github.com/cisaacstern/pixel-adjust) -> Interactively select and adjust specific pixels or regions within a single-band raster. Built with rasterio, matplotlib, and panel.
 * [Plotly Dash](https://plotly.com/dash/) can be used for making interactive dashboards
 * [folium](https://python-visualization.github.io/folium/) -> a python wrapper to the excellent [leaflet.js](https://leafletjs.com/) which makes it easy to visualize data that’s been manipulated in Python on an interactive leaflet map. Also checkout the [streamlit-folium](https://github.com/randyzwitch/streamlit-folium) component for adding folium maps to your streamlit apps
