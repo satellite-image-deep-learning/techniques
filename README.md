@@ -220,7 +220,7 @@ In this challenge, you will build a model to classify cloud organization pattern
 * Train a deep learning net with OpenStreetMap features and satellite imagery.
 
 # Techniques
-This section explores the different deep and machine learning techniques people are applying to common problems in satellite imagery analysis. Classification problems are the most simply addressed via DL, object detection is harder, and cloud detection harder still (niche interest). Note that almost all aerial imagery data on the internet is in RGB format, and techniques designed for working with this 3 band imagery may fail or need significant adaptation to work with multiband data (e.g. 13-band Sentinel 2).
+This section explores the different deep and machine learning techniques people are applying to common problems in satellite imagery analysis. Classification problems are the most simply addressed via DL, object detection is harder, and cloud detection harder still (niche interest). Note that almost all imagery data on the internet is in RGB format, and common techniques designed for working with this 3 band imagery may fail or need significant adaptation to work with multiband data (e.g. 13-band Sentinel 2).
 
 ## Land classification - RGB data
 Assign a label to an image, e.g. this is an image of a forest. With RGB imagery 'off the shelf' neural net architectures can be applied
