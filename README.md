@@ -161,7 +161,8 @@ In this challenge, you will build a model to classify cloud organization pattern
 ## Google Earth Engine (GEE)
 * https://developers.google.com/earth-engine/
 * Various imagery and climate datasets, including Landsat & Sentinel imagery
-* Since there is a whole community around GEE I will not reproduce it here but point to [awesome-google-earth-engine](https://github.com/gee-community/awesome-google-earth-engine)
+* Since there is a whole community around GEE I will not reproduce it here but point to [awesome-google-earth-engine](https://github.com/gee-community/awesome-google-earth-engine) and list very select references relevant to deep learning
+* [How to Use Google Earth Engine and Python API to Export Images to Roboflow](https://blog.roboflow.com/how-to-use-google-earth-engine-with-roboflow/) -> to acquire training data
 
 ## Weather Datasets
 * UK met-odffice -> https://www.metoffice.gov.uk/datapoint
@@ -264,6 +265,7 @@ Whilst classification will assign a label to a whole image, semantic segmentatio
 * [WildFireDetection](https://github.com/yueureka/WildFireDetection) -> Using U-Net Model to Detect Wildfire from Satellite Imagery, with streamlit UI
 * [Pixel level segmentation on Azure](https://github.com/Azure/pixel_level_land_classification)
 * [DigitalGlobe article](http://gbdxstories.digitalglobe.com/boats/) - they use a combination classical techniques (masks, erodes) to reduce the search space (identifying water via [NDWI](https://en.wikipedia.org/wiki/Normalized_difference_water_index) which requires SWIR) then apply a binary DL classifier on candidate regions of interest. They deploy the final algo [as a task](https://github.com/platformstories/boat-detector) on their GBDX platform. They propose that in the future an R-CNN may be suitable for the whole process.
+* [Сrор field boundary detection: approaches overview and main challenges](https://soilmate.medium.com/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-overview-and-main-challenges-53736725cb06)
 
 ## Change detection
 Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
@@ -361,6 +363,7 @@ I group these together since I most often see denoising in the context of SAR im
 * [Implementing Transfer Learning from RGB to Multi-channel Imagery](https://towardsdatascience.com/implementing-transfer-learning-from-rgb-to-multi-channel-imagery-f87924679166) -> takes a resnet50 model pre-trained on an input of 224x224 pixels with 3 channels (RGB) and updates it for a new input of 480x400 pixles and 15 channels (12 new + RGB) using keras
 * [How to implement augmentations for Multispectral Satellite Images Segmentation using Fastai-v2 and Albumentations](https://towardsdatascience.com/how-to-implement-augmentations-for-multispectral-satellite-images-segmentation-using-fastai-v2-and-ea3965736d1)
 * [Principal Component Analysis: In-depth understanding through image visualization](https://towardsdatascience.com/principal-component-analysis-in-depth-understanding-through-image-visualization-892922f77d9f) applied to Landsat TM images, [with repo](https://github.com/Skumarr53/Principal-Component-Analysis-testing-on-Image-data)
+* [Leveraging Geolocation Data for Machine Learning: Essential Techniques](https://towardsdatascience.com/leveraging-geolocation-data-for-machine-learning-essential-techniques-192ce3a969bc) -> A Gentle Guide to Feature Engineering and Visualization with Geospatial data, in Plain English
 
 # Miscellaneous (generlly) non ML Techniques
 ## Pansharpening
@@ -464,6 +467,7 @@ What are companies doing?
 * [eurodatacube.com](https://eurodatacube.com) -> data & platform for EO analytics in Jupyter env, paid
 * [Unfolded Studio](https://studio.unfolded.ai/) -> next generation geospatial analytics and visualization platform building on open source geospatial technologies including kepler.gl, deck.gl and H3
 * [up42](https://up42.com/) is a developer platform and marketplace, offering all the building blocks for powerful, scalable geospatial products
+* [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/) -> direct Google Earth Engine competitor in the making?
 
 # Free online computing resources
 Generally a GPU is required for DL, and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter development environments [on the fast.ai site](https://course19.fast.ai). I personally use Colab with data hosted on Google Drive
@@ -482,7 +486,7 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 # Production
 For an overview on this topic checkout [Practical-Deep-Learning-on-the-Cloud](https://github.com/PacktPublishing/-Practical-Deep-Learning-on-the-Cloud).
 
-### RestAPI on dedicated server
+### Rest API on dedicated server
 A conceptually simple approach to serving up deep learning model inference code is to wrap it in a rest API. That can be implemented in python (flask or FastAPI), and hosted on a dedicated server e.g. EC2 instance
 * Basic API: https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html with code [here](https://github.com/jrosebr1/simple-keras-rest-api)
 * Advanced API with request queuing: https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
