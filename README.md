@@ -433,6 +433,7 @@ A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file with an internal organ
 * [aws-lambda-docker-rasterio](https://github.com/addresscloud/aws-lambda-docker-rasterio) -> AWS Lambda Container Image with Python Rasterio for querying Cloud Optimised GeoTiffs. See [this presentation](https://blog.addresscloud.com/rasters-revealed-2021/)
 * [cogbeam](https://github.com/GoogleCloudPlatform/cogbeam) -> a python based Apache Beam pipeline, optimized for Google Cloud Dataflow, which aims to expedite the conversion of traditional GeoTIFFs into COGs
 * [cogserver](https://github.com/rouault/cogserver) -> Expose a GDAL file as a HTTP accessible on-the-fly COG
+* [Displaying a gridded dataset on a web-based map - Step by step guide for displaying large GeoTIFFs, using Holoviews, Bokeh, and Datashader](https://towardsdatascience.com/displaying-a-gridded-dataset-on-a-web-based-map-ad6bbe90247f)
 
 ## STAC - SpatioTemporal Asset Catalog specification
 The STAC specification provides a common metadata specification, API, and catalog format to describe geospatial assets, so they can more easily indexed and discovered. The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface. A good place to start is to view the [Planet Disaster Data catalogue](https://planet.stac.cloud/) which has the [catalogue source on Github](https://github.com/cholmes/pdd-stac) and uses the [stac-browser](https://github.com/radiantearth/stac-browser)
@@ -485,7 +486,7 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 * Advantage that many datasets are already available
 
 # Production
-For an overview on this topic checkout [Practical-Deep-Learning-on-the-Cloud](https://github.com/PacktPublishing/-Practical-Deep-Learning-on-the-Cloud).
+For an overview on serving deepl learning models checkout [Practical-Deep-Learning-on-the-Cloud](https://github.com/PacktPublishing/-Practical-Deep-Learning-on-the-Cloud).
 
 ### Rest API on dedicated server
 A conceptually simple approach to serving up deep learning model inference code is to wrap it in a rest API. That can be implemented in python (flask or FastAPI), and hosted on a dedicated server e.g. EC2 instance
@@ -496,13 +497,13 @@ A conceptually simple approach to serving up deep learning model inference code 
 * [Tensorflow](https://www.tensorflow.org/tfx/guide/serving) and [pytorch](https://github.com/pytorch/serve) specific serving
 
 ### AWS
+* Host your data on [S3](https://aws.amazon.com/s3/) and metadata in a relational db such as [postgres](https://aws.amazon.com/rds/postgresql/)
+* For batch processing use [Batch](https://aws.amazon.com/batch/) to run python scripts. Break out units of processing into [Lambda](https://aws.amazon.com/lambda/) functions. Note that lambda may not be a particularly quick solution for deep learning applications, since you do not have the option to batch inference on a GPU. There is also a hard runtime limit of 15 minutes, and creating a container with all the required dependencies can be a challenge. To get started read [Using container images to run PyTorch models in AWS Lambda](https://aws.amazon.com/blogs/machine-learning/using-container-images-to-run-pytorch-models-in-aws-lambda/)
+* Use [Step functions](https://aws.amazon.com/step-functions/) to orchestrate data pipelines on batch and lambda
 * [Sagemaker](https://aws.amazon.com/sagemaker/) is a hosted Jupyter environment for training and deployment of ML models.
 * [Deep learning AMIs](https://aws.amazon.com/machine-learning/amis/) are EC2 instances with deep learning frameworks preinstalled. They do require more setup from the user than Sagemaker but in return allow access to the underlying hardware, which makes debugging issues more straightforward. There is a [good guide to setting up your AMI instance on the Keras blog](https://blog.keras.io/running-jupyter-notebooks-on-gpu-on-aws-a-starter-guide.html)
 * [Rekognition](https://aws.amazon.com/rekognition/custom-labels-features/) custom labels is a 'no code' annotation, training and inferencing service. Read [Training models using Satellite (Sentinel-2) imagery on Amazon Rekognition Custom Labels](https://ryfeus.medium.com/training-models-using-satellite-imagery-on-amazon-rekognition-custom-labels-dd44ac6a3812). For a comparison with Azure and Google alternatives [read this article](https://blog.roboflow.com/automl-vs-rekognition-vs-custom-vision/)
-* [Lambda](https://aws.amazon.com/lambda/) functions are stateless functions which can be run at scale. Note that lambda may not be a particularly quick solution for deep learning applications, since you do not have the option to batch inference on a GPU. There is also a hard runtime limit of 15 minutes, and creating a container with all the required dependencies can be a challenge. To get started read [Using container images to run PyTorch models in AWS Lambda](https://aws.amazon.com/blogs/machine-learning/using-container-images-to-run-pytorch-models-in-aws-lambda/)
-* [Batch](https://aws.amazon.com/batch/) is suitable for longer running tasks, deploy as docker containers, typically hosting a long running python script
-* [Amazon S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/) allows you to add your own code (via a lambda) to S3 GET requests to modify and process data as it is returned to an application. Example use cases include dynamically resizing an image or georeferencing an image in a requested coordinate system.
-* [TerrAvion Uses AWS to Help Farmers Improve Crop Yields Through High-Resolution Aerial Images](https://aws.amazon.com/solutions/case-studies/terravion/) presents a classic S3/EC2/lambda solution, with long term data storage on S3 glacier
+* When developing you will definitely want to use [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) and probably [aws-data-wrangler](https://github.com/awslabs/aws-data-wrangler)
 
 ### chip-n-scale-queue-arranger by developmentseed
 * https://github.com/developmentseed/chip-n-scale-queue-arranger
@@ -613,7 +614,7 @@ If you are performing object detection you will need to annotate images with bou
 * AWS supports image annotation via the [Rekognition Custom Labels console](https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/gs-console.html)
 * [Roboflow](https://roboflow.com) can be used to convert between annotation formats
 * Other annotation tools include [supervise.ly](https://supervise.ly) (web UI), [rectlabel](https://rectlabel.com) (OSX desktop app) and [VoTT](https://github.com/Microsoft/VoTT)
-* [Label Studio](https://github.com/heartexlabs/label-studio) is a multi-type data labeling and annotation tool with standardized output format
+* [Label Studio](https://github.com/heartexlabs/label-studio) is a multi-type data labeling and annotation tool with standardized output format, webpage at [labelstud.io](https://labelstud.io/)
 * [Deeplabel](https://github.com/jveitchmichaelis/deeplabel) is a cross-platform tool for annotating images with labelled bounding boxes. Deeplabel also supports running inference using state-of-the-art object detection models like Faster-RCNN and YOLOv4. With support out-of-the-box for CUDA, you can quickly label an entire dataset using an existing model.
 * [Alturos.ImageAnnotation](https://github.com/AlturosDestinations/Alturos.ImageAnnotation) is a collaborative tool for labeling image data on S3 for yolo
 * [rectlabel](https://rectlabel.com/) is a desktop app for MacOS to label images for bounding box object detection and segmentation
