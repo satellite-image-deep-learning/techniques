@@ -164,6 +164,10 @@ In this challenge, you will build a model to classify cloud organization pattern
 * Since there is a whole community around GEE I will not reproduce it here but point to [awesome-google-earth-engine](https://github.com/gee-community/awesome-google-earth-engine) and list very select references relevant to deep learning
 * [How to Use Google Earth Engine and Python API to Export Images to Roboflow](https://blog.roboflow.com/how-to-use-google-earth-engine-with-roboflow/) -> to acquire training data
 
+## Radiant Earth
+* https://www.radiant.earth/
+* Datasets and also models on https://mlhub.earth/
+
 ## Weather Datasets
 * UK met-odffice -> https://www.metoffice.gov.uk/datapoint
 * NASA (make request and emailed when ready) -> https://search.earthdata.nasa.gov
@@ -504,6 +508,7 @@ A conceptually simple approach to serving up deep learning model inference code 
 * [Deep learning AMIs](https://aws.amazon.com/machine-learning/amis/) are EC2 instances with deep learning frameworks preinstalled. They do require more setup from the user than Sagemaker but in return allow access to the underlying hardware, which makes debugging issues more straightforward. There is a [good guide to setting up your AMI instance on the Keras blog](https://blog.keras.io/running-jupyter-notebooks-on-gpu-on-aws-a-starter-guide.html)
 * [Rekognition](https://aws.amazon.com/rekognition/custom-labels-features/) custom labels is a 'no code' annotation, training and inferencing service. Read [Training models using Satellite (Sentinel-2) imagery on Amazon Rekognition Custom Labels](https://ryfeus.medium.com/training-models-using-satellite-imagery-on-amazon-rekognition-custom-labels-dd44ac6a3812). For a comparison with Azure and Google alternatives [read this article](https://blog.roboflow.com/automl-vs-rekognition-vs-custom-vision/)
 * When developing you will definitely want to use [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) and probably [aws-data-wrangler](https://github.com/awslabs/aws-data-wrangler)
+* For managing infrastructure using python checkout [AWS CDK](https://aws.amazon.com/cdk/). Noteworth alternative is [Terraform](https://www.terraform.io/)
 
 ### chip-n-scale-queue-arranger by developmentseed
 * https://github.com/developmentseed/chip-n-scale-queue-arranger
@@ -572,10 +577,12 @@ A conceptually simple approach to serving up deep learning model inference code 
 * [image_slicer](https://github.com/samdobson/image_slicer) -> Split images into tiles. Join the tiles back together.
 * [tiler](https://github.com/nuno-faria/tiler) -> split images into tiles and merge tiles into a large image
 * [felicette](https://github.com/plant99/felicette) -> Satellite imagery for dummies. Generate JPEG earth imagery from coordinates/location name with publicly available satellite data.
+* [imagehash](https://github.com/JohannesBuchner/imagehash) -> Image hashes tell whether two images look nearly identical.
 
 ## Python deep learning toolsets
 * [torchvision-enhance](https://github.com/sshuair/torchvision-enhance) -> Enhance PyTorch vision for semantic segmentation, multi-channel images and TIF file
 * [DeepHyperX](https://github.com/eecn/Hyperspectral-Classification) -> A Python/pytorch tool to perform deep learning experiments on various hyperspectral datasets.
+* [image-super-resolution](https://github.com/idealo/image-super-resolution) -> Super-scale your images and run experiments with Residual Dense and Adversarial Networks.
 
 ## Python data discover and ingestion
 * [landsat_ingestor](https://github.com/landsat-pds/landsat_ingestor) -> Scripts and other artifacts for landsat data ingestion into Amazon public hosting
