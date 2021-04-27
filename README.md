@@ -163,6 +163,8 @@ In this challenge, you will build a model to classify cloud organization pattern
 * Various imagery and climate datasets, including Landsat & Sentinel imagery
 * Since there is a whole community around GEE I will not reproduce it here but point to [awesome-google-earth-engine](https://github.com/gee-community/awesome-google-earth-engine) and list very select references relevant to deep learning
 * [How to Use Google Earth Engine and Python API to Export Images to Roboflow](https://blog.roboflow.com/how-to-use-google-earth-engine-with-roboflow/) -> to acquire training data
+* [Reduce Satellite Image Resolution with Google Earth Engine](https://towardsdatascience.com/reduce-satellite-image-resolution-with-google-earth-engine-95a129ef488) -> a crucial step before applying machine learning to satellite imagery
+* [ee-fastapi](https://github.com/csaybar/ee-fastapi) is a simple FastAPI web application for performing flood detection using Google Earth Engine in the backend.
 
 ## Radiant Earth
 * https://www.radiant.earth/
@@ -273,6 +275,7 @@ Whilst classification will assign a label to a whole image, semantic segmentatio
 
 ## Change detection
 Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
+* [awesome-remote-sensing-change-detection](https://github.com/wenhwu/awesome-remote-sensing-change-detection)
 * Using PCA (python 2, requires updating) -> https://appliedmachinelearning.blog/2017/11/25/unsupervised-changed-detection-in-multi-temporal-satellite-images-using-pca-k-means-python-code/
 * Using CNN -> https://github.com/vbhavank/Unstructured-change-detection-using-CNN
 * [Siamese neural network to detect changes in aerial images](https://github.com/vbhavank/Siamese-neural-network-for-change-detection)
@@ -508,7 +511,7 @@ A conceptually simple approach to serving up deep learning model inference code 
 * [Deep learning AMIs](https://aws.amazon.com/machine-learning/amis/) are EC2 instances with deep learning frameworks preinstalled. They do require more setup from the user than Sagemaker but in return allow access to the underlying hardware, which makes debugging issues more straightforward. There is a [good guide to setting up your AMI instance on the Keras blog](https://blog.keras.io/running-jupyter-notebooks-on-gpu-on-aws-a-starter-guide.html)
 * [Rekognition](https://aws.amazon.com/rekognition/custom-labels-features/) custom labels is a 'no code' annotation, training and inferencing service. Read [Training models using Satellite (Sentinel-2) imagery on Amazon Rekognition Custom Labels](https://ryfeus.medium.com/training-models-using-satellite-imagery-on-amazon-rekognition-custom-labels-dd44ac6a3812). For a comparison with Azure and Google alternatives [read this article](https://blog.roboflow.com/automl-vs-rekognition-vs-custom-vision/)
 * When developing you will definitely want to use [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) and probably [aws-data-wrangler](https://github.com/awslabs/aws-data-wrangler)
-* For managing infrastructure using python checkout [AWS CDK](https://aws.amazon.com/cdk/). Noteworth alternative is [Terraform](https://www.terraform.io/)
+* For managing infrastructure use [Terraform](https://www.terraform.io/). Alternatively if you wish to use TypeScript, JavaScript, Python, Java, or C# checkout [AWS CDK](https://aws.amazon.com/cdk/), although I found relatively few examples to get going using python
 
 ### chip-n-scale-queue-arranger by developmentseed
 * https://github.com/developmentseed/chip-n-scale-queue-arranger
