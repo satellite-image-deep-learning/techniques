@@ -80,9 +80,17 @@ This document lists resources for performing deep learning (DL) on satellite ima
 ## Planet
 * [Planet’s high-resolution, analysis-ready mosaics of the world’s tropics](https://www.planet.com/nicfi/), supported through Norway’s International Climate & Forests Initiative. [BBC coverage](https://www.bbc.co.uk/news/science-environment-54651453)
 
-### DEM (digital elevation maps)
-* Shuttle Radar Topography Mission: [data - open access](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-shuttle-radar-topography-mission-srtm-1-arc?qt-science_center_objects=0#qt-science_center_objects)
-* Copernicus Digital Elevation Model (DEM) on S3, represents the surface of the Earth including buildings, infrastructure and vegetation. Data is provided as Cloud Optimized GeoTIFFs. [link](https://registry.opendata.aws/copernicus-dem/)
+## UC Merced
+* Land use classification dataset with 21 classes and 100 RGB TIFF images for each class
+* Each image measures 256x256 pixels with a pixel resolution of 1 foot
+* http://weegee.vision.ucmerced.edu/datasets/landuse.html
+* Available as a Tensorflow dataset -> https://www.tensorflow.org/datasets/catalog/uc_merced
+* Also [available as a multi-label dataset](https://towardsdatascience.com/multi-label-land-cover-classification-with-deep-learning-d39ce2944a3d)
+
+## PatternNet
+* Land use classification dataset with 38 classes and 800 RGB JPG images for each class
+* https://sites.google.com/view/zhouwx/dataset?authuser=0
+* Publication: [PatternNet: A Benchmark Dataset for Performance Evaluation of Remote Sensing Image Retrieval](https://arxiv.org/abs/1706.03424)
 
 ## Kaggle
 Kaggle hosts over 60 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
@@ -139,18 +147,6 @@ In this challenge, you will build a model to classify cloud organization pattern
 * [eurosat](https://www.tensorflow.org/datasets/catalog/eurosat) - EuroSAT dataset is based on Sentinel-2 satellite images covering 13 spectral bands and consisting of 10 classes with 27000 labeled and geo-referenced samples.
 * [bigearthnet](https://www.tensorflow.org/datasets/catalog/bigearthnet) - The BigEarthNet is a new large-scale Sentinel-2 benchmark archive, consisting of 590,326 Sentinel-2 image patches. The image patch size on the ground is 1.2 x 1.2 km with variable image size depending on the channel resolution. This is a multi-label dataset with 43 imbalanced labels.
 
-## UC Merced
-* Land use classification dataset with 21 classes and 100 RGB TIFF images for each class
-* Each image measures 256x256 pixels with a pixel resolution of 1 foot
-* http://weegee.vision.ucmerced.edu/datasets/landuse.html
-* Available as a Tensorflow dataset -> https://www.tensorflow.org/datasets/catalog/uc_merced
-* Also [available as a multi-label dataset](https://towardsdatascience.com/multi-label-land-cover-classification-with-deep-learning-d39ce2944a3d)
-
-## PatternNet
-* Land use classification dataset with 38 classes and 800 RGB JPG images for each class
-* https://sites.google.com/view/zhouwx/dataset?authuser=0
-* Publication: [PatternNet: A Benchmark Dataset for Performance Evaluation of Remote Sensing Image Retrieval](https://arxiv.org/abs/1706.03424)
-
 ## AWS datasets
 * [Earth on AWS](https://aws.amazon.com/earth/) is the AWS equivalent of Google Earth Engine
 * Currently 27 satellite datasets on the [Registry of Open Data on AWS](https://registry.opendata.aws)
@@ -171,6 +167,14 @@ In this challenge, you will build a model to classify cloud organization pattern
 ## Radiant Earth
 * https://www.radiant.earth/
 * Datasets and also models on https://mlhub.earth/
+
+## FAIR1M ‘world’s largest satellite image database’
+* [Database of 15,000 high-definition images with 1 million labelled ‘scenes’ will be open to the international community in June 2021](https://amp-scmp-com.cdn.ampproject.org/c/s/amp.scmp.com/news/china/science/article/3131819/china-makes-worlds-largest-satellite-image-database-train-ai)
+* [FAIR1M: A Benchmark Dataset for Fine-grained Object Recognition in High-Resolution Remote Sensing Imagery](https://arxiv.org/abs/2103.05569)
+
+### DEM (digital elevation maps)
+* Shuttle Radar Topography Mission: [data - open access](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-shuttle-radar-topography-mission-srtm-1-arc?qt-science_center_objects=0#qt-science_center_objects)
+* Copernicus Digital Elevation Model (DEM) on S3, represents the surface of the Earth including buildings, infrastructure and vegetation. Data is provided as Cloud Optimized GeoTIFFs. [link](https://registry.opendata.aws/copernicus-dem/)
 
 ## Weather Datasets
 * UK met-odffice -> https://www.metoffice.gov.uk/datapoint
