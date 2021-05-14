@@ -80,12 +80,13 @@ This document lists resources for performing deep learning (DL) on satellite ima
 ## Planet
 * [Planet’s high-resolution, analysis-ready mosaics of the world’s tropics](https://www.planet.com/nicfi/), supported through Norway’s International Climate & Forests Initiative. [BBC coverage](https://www.bbc.co.uk/news/science-environment-54651453)
 
-## UC Merced
+## Merced
 * Land use classification dataset with 21 classes and 100 RGB TIFF images for each class
 * Each image measures 256x256 pixels with a pixel resolution of 1 foot
 * http://weegee.vision.ucmerced.edu/datasets/landuse.html
 * Available as a Tensorflow dataset -> https://www.tensorflow.org/datasets/catalog/uc_merced
 * Also [available as a multi-label dataset](https://towardsdatascience.com/multi-label-land-cover-classification-with-deep-learning-d39ce2944a3d)
+* Read [Vision Transformers for Remote Sensing Image Classification](https://www.mdpi.com/2072-4292/13/3/516/htm) where a Vision Transformer classifier achieves 98.49% classification accuracy on Merced
 
 ## PatternNet
 * Land use classification dataset with 38 classes and 800 RGB JPG images for each class
@@ -256,6 +257,7 @@ Assign a label to an image, e.g. this is an image of a forest. With RGB imagery 
 * [Ground Truth Labeling of Satellite Imagery using K-Means Clustering with Python](https://towardsdatascience.com/ground-truth-labeling-of-satellite-imagery-using-k-means-clustering-with-python-b4ab02e1314f)
 * [Deep Learning for Land Cover Classification of Satellite Imagery Using Python](https://towardsdatascience.com/deep-learning-for-land-cover-classification-of-satellite-imagery-using-python-e7ca9f7bfa0a)
 * [Multi-label Land Cover Classification with Deep Learning](https://towardsdatascience.com/multi-label-land-cover-classification-with-deep-learning-d39ce2944a3d) using the redesigned Multi-label UC Merced dataset with 17 land cover classes
+* [Vision Transformers Use Case: Satellite Image Classification without CNNs](https://joaootavionf007.medium.com/vision-transformers-use-case-satellite-image-classification-without-cnns-2c4dbeb06f87)
 
 ## Land classification - Hyperspectral data
 Custom neural net architectures are required for this high dimensional imagery
