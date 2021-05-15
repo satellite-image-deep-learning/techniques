@@ -94,7 +94,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * Publication: [PatternNet: A Benchmark Dataset for Performance Evaluation of Remote Sensing Image Retrieval](https://arxiv.org/abs/1706.03424)
 
 ## Kaggle
-Kaggle hosts over 60 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
+Kaggle hosts over > 100 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
 The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 
 ### Kaggle - Amazon from space - classification challenge
@@ -144,14 +144,13 @@ In this challenge, you will build a model to classify cloud organization pattern
 * https://www.kaggle.com/datamunge/overheadmnist -> A Benchmark Satellite Dataset as Drop-In Replacement for MNIST
 
 ## Tensorflow datasets
-* There are a number of remote sensing datasets
 * [resisc45](https://www.tensorflow.org/datasets/catalog/resisc45) - RESISC45 dataset is a publicly available benchmark for Remote Sensing Image Scene Classification (RESISC), created by Northwestern Polytechnical University (NWPU). This dataset contains 31,500 images, covering 45 scene classes with 700 images in each class.
 * [eurosat](https://www.tensorflow.org/datasets/catalog/eurosat) - EuroSAT dataset is based on Sentinel-2 satellite images covering 13 spectral bands and consisting of 10 classes with 27000 labeled and geo-referenced samples.
 * [bigearthnet](https://www.tensorflow.org/datasets/catalog/bigearthnet) - The BigEarthNet is a new large-scale Sentinel-2 benchmark archive, consisting of 590,326 Sentinel-2 image patches. The image patch size on the ground is 1.2 x 1.2 km with variable image size depending on the channel resolution. This is a multi-label dataset with 43 imbalanced labels.
 
 ## AWS datasets
 * [Earth on AWS](https://aws.amazon.com/earth/) is the AWS equivalent of Google Earth Engine
-* Currently 27 satellite datasets on the [Registry of Open Data on AWS](https://registry.opendata.aws)
+* Currently 36 satellite datasets on the [Registry of Open Data on AWS](https://registry.opendata.aws)
 
 ## Microsoft
 * [USBuildingFootprints](https://github.com/Microsoft/USBuildingFootprints) -> computer generated building footprints in all 50 US states, GeoJSON format, generated using semantic segmentation
@@ -179,7 +178,7 @@ In this challenge, you will build a model to classify cloud organization pattern
 * Copernicus Digital Elevation Model (DEM) on S3, represents the surface of the Earth including buildings, infrastructure and vegetation. Data is provided as Cloud Optimized GeoTIFFs. [link](https://registry.opendata.aws/copernicus-dem/)
 
 ## Weather Datasets
-* UK met-odffice -> https://www.metoffice.gov.uk/datapoint
+* UK metoffice -> https://www.metoffice.gov.uk/datapoint
 * NASA (make request and emailed when ready) -> https://search.earthdata.nasa.gov
 * NOAA (requires BigQuery) -> https://www.kaggle.com/noaa/goes16/home
 * Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
@@ -216,6 +215,10 @@ In this challenge, you will build a model to classify cloud organization pattern
 * Accessible through the [Raster Foundry](https://rasterfoundry.azavea.com/)
 * [Example use cases on open data](https://github.com/azavea/raster-vision-examples)
 
+### spaceml.org
+* http://spaceml.org/
+* A Machine Learning toolbox and developer community building the next generation AI applications for space science and exploration.
+
 ### DeepNetsForEO (no activity since 2019)
 * https://github.com/nshaud/DeepNetsForEO
 * Uses SegNET for working on remote sensing images using deep learning.
@@ -237,8 +240,8 @@ In this challenge, you will build a model to classify cloud organization pattern
 # Techniques
 This section explores the different deep and machine learning techniques people are applying to common problems in satellite imagery analysis. Classification problems are the most simply addressed via DL, object detection is harder, and cloud detection harder still (niche interest). Note that almost all imagery data on the internet is in RGB format, and common techniques designed for working with this 3 band imagery may fail or need significant adaptation to work with multiband data (e.g. 13-band Sentinel 2).
 
-## Land classification - RGB data
-Assign a label to an image, e.g. this is an image of a forest. With RGB imagery 'off the shelf' neural net architectures can be applied
+## Land classification
+Assign a label to an image, e.g. this is an image of a forest
 * Land classification using a [simple sklearn cluster algorithm](https://github.com/acgeospatial/Satellite_Imagery_Python/blob/master/Clustering_KMeans-Sentinel2.ipynb) or [deep learning](https://towardsdatascience.com/land-use-land-cover-classification-with-deep-learning-9a5041095ddb).
 * [Land Use Classification using Convolutional Neural Network in Keras](https://github.com/tavgreen/landuse_classification)
 * [Sea-Land segmentation using DL](https://arxiv.org/pdf/1709.00201.pdf)
@@ -258,9 +261,6 @@ Assign a label to an image, e.g. this is an image of a forest. With RGB imagery 
 * [Deep Learning for Land Cover Classification of Satellite Imagery Using Python](https://towardsdatascience.com/deep-learning-for-land-cover-classification-of-satellite-imagery-using-python-e7ca9f7bfa0a)
 * [Multi-label Land Cover Classification with Deep Learning](https://towardsdatascience.com/multi-label-land-cover-classification-with-deep-learning-d39ce2944a3d) using the redesigned Multi-label UC Merced dataset with 17 land cover classes
 * [Vision Transformers Use Case: Satellite Image Classification without CNNs](https://joaootavionf007.medium.com/vision-transformers-use-case-satellite-image-classification-without-cnns-2c4dbeb06f87)
-
-## Land classification - Hyperspectral data
-Custom neural net architectures are required for this high dimensional imagery
 * [hyperspectral_deeplearning_review](https://github.com/mhaut/hyperspectral_deeplearning_review) -> Code of December 2019 paper ["Deep Learning Classifiers for Hyperspectral Imaging: A Review"](https://www.sciencedirect.com/science/article/pii/S0924271619302187)
 * [Deep Learning-Based Classification of Hyperspectral Data](https://github.com/hantek/deeplearn_hsi)
 * [AutoEncoders for Land Cover Classification of Hyperspectral Images](https://towardsdatascience.com/autoencoders-for-land-cover-classification-of-hyperspectral-images-part-1-c3c847ebc69b) -> An autoencoder nerual net is used to reduce 103 band data to 60 features (dimensionality reduction), keras
@@ -283,21 +283,6 @@ Whilst classification will assign a label to a whole image, semantic segmentatio
 * [Сrор field boundary detection: approaches overview and main challenges](https://soilmate.medium.com/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-overview-and-main-challenges-53736725cb06)
 * [A Practical Method for High-Resolution Burned Area Monitoring Using Sentinel-2 and VIIRS](https://www.mdpi.com/2072-4292/13/9/1608) with [code](https://github.com/mnpinto/FireHR)
 * [instance-segmentation-maskrcnn](https://github.com/saraivaufc/instance-segmentation-maskrcnn) -> Instance segmentation of center pivot irrigation system in Brazil using Landsat images and Convolutional Neural Network
-
-## Change detection
-Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
-* [awesome-remote-sensing-change-detection](https://github.com/wenhwu/awesome-remote-sensing-change-detection)
-* Using PCA (python 2, requires updating) -> https://appliedmachinelearning.blog/2017/11/25/unsupervised-changed-detection-in-multi-temporal-satellite-images-using-pca-k-means-python-code/
-* Using CNN -> https://github.com/vbhavank/Unstructured-change-detection-using-CNN
-* [Siamese neural network to detect changes in aerial images](https://github.com/vbhavank/Siamese-neural-network-for-change-detection)
-* https://www.spaceknow.com/
-* [LANDSAT Time Series Analysis for Multi-temporal Land Cover Classification using Random Forest](https://github.com/agr-ayush/Landsat-Time-Series-Analysis-for-Multi-Temporal-Land-Cover-Classification)
-* [Change Detection in 3D: Generating Digital Elevation Models from Dove Imagery](https://www.planet.com/pulse/publications/change-detection-in-3d-generating-digital-elevation-models-from-dove-imagery/)
-* [Change Detection in Hyperspectral Images Using Recurrent 3D Fully Convolutional Networks](https://www.mdpi.com/2072-4292/10/11/1827)
-* [QGIS 2 plugin for applying change detection algorithms on high resolution satellite imagery](https://github.com/dymaxionlabs/massive-change-detection)
-* [Change-Detection-Review](https://github.com/MinZHANG-WHU/Change-Detection-Review) -> A review of change detection methods, including codes and open data sets for deep learning.
-* [Flood Detection and Monitoring using Satellite Imagery with Python](https://towardsdatascience.com/flood-detection-and-monitoring-using-satellite-imagery-with-python-5cd32157206c)
-* [LamboiseNet](https://github.com/hbaudhuin/LamboiseNet) -> Master thesis about change detection in satellite imagery using Deep Learning
 
 ## Object detection
 A good introduction to the challenge of performing object detection on aerial imagery is given in [this paper](https://arxiv.org/abs/1902.06042v2). In summary, images are large and objects may comprise only a few pixels, easily confused with random features in background. An example task is detecting boats on the ocean, which should be simpler than land based detection owing to the relatively blank background in images, but is still challenging.
@@ -341,6 +326,21 @@ A good introduction to the challenge of performing object detection on aerial im
 * [This article](https://www.mdpi.com/2072-4292/8/8/666) compares a number of ML algorithms, random forests, stochastic gradient descent, support vector machines, Bayesian method.
 * [Segmentation of Clouds in Satellite Images Using Deep Learning](https://medium.com/swlh/segmentation-of-clouds-in-satellite-images-using-deep-learning-a9f56e0aa83d) -> a U-Net is employed to interpret and extract the information embedded in the satellite images in a multi-channel fashion, and finally output a pixel-wise mask indicating the existence of cloud.
 * [Cloud Detection in Satellite Imagery](https://www.azavea.com/blog/2021/02/08/cloud-detection-in-satellite-imagery/) compares FPN and CheapLab architectures on Sentinel-2 L1C and L2A imagery
+
+## Change detection
+Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
+* [awesome-remote-sensing-change-detection](https://github.com/wenhwu/awesome-remote-sensing-change-detection)
+* Using PCA (python 2, requires updating) -> https://appliedmachinelearning.blog/2017/11/25/unsupervised-changed-detection-in-multi-temporal-satellite-images-using-pca-k-means-python-code/
+* Using CNN -> https://github.com/vbhavank/Unstructured-change-detection-using-CNN
+* [Siamese neural network to detect changes in aerial images](https://github.com/vbhavank/Siamese-neural-network-for-change-detection)
+* https://www.spaceknow.com/
+* [LANDSAT Time Series Analysis for Multi-temporal Land Cover Classification using Random Forest](https://github.com/agr-ayush/Landsat-Time-Series-Analysis-for-Multi-Temporal-Land-Cover-Classification)
+* [Change Detection in 3D: Generating Digital Elevation Models from Dove Imagery](https://www.planet.com/pulse/publications/change-detection-in-3d-generating-digital-elevation-models-from-dove-imagery/)
+* [Change Detection in Hyperspectral Images Using Recurrent 3D Fully Convolutional Networks](https://www.mdpi.com/2072-4292/10/11/1827)
+* [QGIS 2 plugin for applying change detection algorithms on high resolution satellite imagery](https://github.com/dymaxionlabs/massive-change-detection)
+* [Change-Detection-Review](https://github.com/MinZHANG-WHU/Change-Detection-Review) -> A review of change detection methods, including codes and open data sets for deep learning.
+* [Flood Detection and Monitoring using Satellite Imagery with Python](https://towardsdatascience.com/flood-detection-and-monitoring-using-satellite-imagery-with-python-5cd32157206c)
+* [LamboiseNet](https://github.com/hbaudhuin/LamboiseNet) -> Master thesis about change detection in satellite imagery using Deep Learning
 
 ## Wealth and economic activity measurement
 The goal is to predict economic activity from satellite imagery rather than conducting labour intensive ground surveys
@@ -455,7 +455,7 @@ Measure surface contours.
 * [A Comparison of Spatial Functions: PostGIS, Athena, PrestoDB, BigQuery vs RedShift](https://ual.sg/post/2020/07/03/a-comparison-of-spatial-functions-postgis-athena-prestodb-bigquery-vs-redshift/)
 
 ## Cloud Optimised GeoTiff (COG)
-A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file with an internal organization that enables more efficient workflows on the cloud. In particular they support HTTP range requests, enabling downloading of specific tiles rather than the full file. COGs work normally in GIS software such as QGIS, but are larger than regular GeoTIFFs
+A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF that supports HTTP range requests, enabling downloading of specific tiles rather than the full file. COG generally work normally in GIS software such as QGIS, but are larger than regular GeoTIFFs
 * https://www.cogeo.org/
 * [cog-best-practices](https://github.com/pangeo-data/cog-best-practices)
 * [rio-cogeo](https://cogeotiff.github.io/rio-cogeo/) -> Cloud Optimized GeoTIFF (COG) creation and validation plugin for Rasterio.
@@ -470,7 +470,8 @@ A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF file with an internal organ
 * [Displaying a gridded dataset on a web-based map - Step by step guide for displaying large GeoTIFFs, using Holoviews, Bokeh, and Datashader](https://towardsdatascience.com/displaying-a-gridded-dataset-on-a-web-based-map-ad6bbe90247f)
 
 ## STAC - SpatioTemporal Asset Catalog specification
-The STAC specification provides a common metadata specification, API, and catalog format to describe geospatial assets, so they can more easily indexed and discovered. The aim is that the catalogue is crawlable so it can be indexed by a search engine and make imagery discoverable, without requiring yet another API interface. A good place to start is to view the [Planet Disaster Data catalogue](https://planet.stac.cloud/) which has the [catalogue source on Github](https://github.com/cholmes/pdd-stac) and uses the [stac-browser](https://github.com/radiantearth/stac-browser)
+The STAC specification provides a common metadata specification, API, and catalog format to describe geospatial assets, so they can more easily indexed and discovered.
+* A good place to start is to view the [Planet Disaster Data catalogue](https://planet.stac.cloud/) which has the [catalogue source on Github](https://github.com/cholmes/pdd-stac) and uses the [stac-browser](https://github.com/radiantearth/stac-browser)
 * Spec at https://github.com/radiantearth/stac-spec
 * [Getting Started with STAC APIs](https://www.azavea.com/blog/2021/04/05/getting-started-with-stac-apis/) intro article
 * [SpatioTemporal Asset Catalog API specification](https://github.com/radiantearth/stac-api-spec) -> an API to make geospatial assets openly searchable and crawlable
@@ -507,7 +508,7 @@ What are companies doing?
 * [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/) -> direct Google Earth Engine competitor in the making?
 
 # Free online computing resources
-Generally a GPU is required for DL, and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter development environments [on the fast.ai site](https://course19.fast.ai). I personally use Colab with data hosted on Google Drive
+Generally a GPU is required for DL, and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter development environments [on the fast.ai site](https://course19.fast.ai). I personally use Colab Pro with data hosted on Google Drive
 
 ### Google Colab
 * Collaboratory [notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time. Note that the GPU may be shared with other users, so if you aren't getting good performance try reloading.
@@ -716,6 +717,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
 * [Kaggle Intro to Satellite imagery Analysis group](https://www.kaggle.com/getting-started/131455)
+* [Omdena](https://omdena.com/) brings together small teams of engineers to work on AI projects
 
 # Jobs
 * [Pangeo discourse](https://discourse.pangeo.io/c/news/jobs) lists multiple jobs, global
