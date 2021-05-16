@@ -389,6 +389,7 @@ I group these together since I most often see denoising in the context of SAR im
 * [Labeled SAR imagery dataset of ten geophysical phenomena from Sentinel-1 wave mode](https://www.seanoe.org/data/00456/56796/) consists of more than 37,000 SAR vignettes divided into ten defined geophysical categories
 
 ## Unsupervised learning
+Also referred to as self-supervised learning, [Yann LeCun in 2016](https://braindump.jethro.dev/posts/lecun_cake_analogy/) described un/self-supervised as the 'bulk of the cake': *If we think of our brain as a cake, then the cake base is unsupervised learning. The machine predicts any part of its input for any observed part (e.g. future frames in videos), all without the use of labelled data. Supervised learning forms the icing on the cake, and reinforcement learning is the cherry on top.*
 * [Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://github.com/ElementAI/seasonal-contrast) -> Seasonal Contrast (SeCo) is an effective pipeline to leverage unlabeled data for in-domain pre-training of remote sensing representations. Models trained with SeCo achieve better performance than their ImageNet pre-trained counterparts and state-of-the-art self-supervised learning methods on multiple downstream tasks. [paper](https://arxiv.org/abs/2103.16607)
 
 ## ML best practice & general techniques
