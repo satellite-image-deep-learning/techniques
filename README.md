@@ -238,7 +238,7 @@ In this challenge, you will build a model to classify cloud organization pattern
 * Train a deep learning net with OpenStreetMap features and satellite imagery.
 
 # Techniques
-This section explores the different deep and machine learning techniques people are applying to common problems in satellite imagery analysis. Note that almost all imagery data on the internet is in RGB format, and common techniques designed for working with this 3 band imagery may fail or need significant adaptation to work with multiband data (e.g. 13-band Sentinel 2). Also the vast majority of the literature uses supervised learning with the requirement for large volumes of annotated data, which is a bottleneck to development and deployment. We are just starting to see unsupervised approached applied to remote sensing data.
+This section explores the different deep and machine learning techniques people are applying to common problems in satellite imagery analysis. Note that almost all imagery data on the internet is in RGB format, and common techniques designed for working with this 3 band imagery may fail or need significant adaptation to work with multiband data (e.g. 13-band Sentinel 2). Also the vast majority of the literature uses supervised learning with the requirement for large volumes of annotated data, which is a bottleneck to development and deployment. We are just starting to see self-supervised approaches applied to remote sensing data.
 
 ## Land classification
 Assign a label to an image, e.g. this is an image of a forest
@@ -388,8 +388,8 @@ I group these together since I most often see denoising in the context of SAR im
 * [Synthetic Aperture Radar (SAR) Analysis With Clarifai](https://www.clarifai.com/blog/synthetic-aperture-radar-sar-analysis-with-clarifai)
 * [Labeled SAR imagery dataset of ten geophysical phenomena from Sentinel-1 wave mode](https://www.seanoe.org/data/00456/56796/) consists of more than 37,000 SAR vignettes divided into ten defined geophysical categories
 
-## Unsupervised learning
-Also referred to as self-supervised learning, [Yann LeCun in 2016](https://braindump.jethro.dev/posts/lecun_cake_analogy/) described un/self-supervised as the 'bulk of the cake': *If we think of our brain as a cake, then the cake base is unsupervised learning. The machine predicts any part of its input for any observed part (e.g. future frames in videos), all without the use of labelled data. Supervised learning forms the icing on the cake, and reinforcement learning is the cherry on top.*
+## Self-supervised learning
+ [Yann LeCun](https://braindump.jethro.dev/posts/lecun_cake_analogy/) has described self-supervised learning as the 'bulk of the cake': *If we think of our brain as a cake, then the cake base is unsupervised learning. The machine predicts any part of its input for any observed part (e.g. future frames in videos), all without the use of labelled data. Supervised learning forms the icing on the cake, and reinforcement learning is the cherry on top.*
 * [Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://github.com/ElementAI/seasonal-contrast) -> Seasonal Contrast (SeCo) is an effective pipeline to leverage unlabeled data for in-domain pre-training of remote sensing representations. Models trained with SeCo achieve better performance than their ImageNet pre-trained counterparts and state-of-the-art self-supervised learning methods on multiple downstream tasks. [paper](https://arxiv.org/abs/2103.16607)
 
 ## ML best practice & general techniques
