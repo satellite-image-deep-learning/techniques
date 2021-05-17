@@ -268,7 +268,7 @@ Assign a label to an image, e.g. this is an image of a forest
 * [hyperspectral-autoencoders](https://github.com/lloydwindrim/hyperspectral-autoencoders) -> Tools for training and using unsupervised autoencoders and supervised deep learning classifiers for hyperspectral data, built on tensorflow. Autoencoders are unsupervised neural networks that are useful for a range of applications such as unsupervised feature learning and dimensionality reduction.
 * [Applying Deep Learning on Satellite Imagery Classification](https://medium.com/analytics-vidhya/applying-deep-learning-on-satellite-imagery-951faa0cbb31) -> using EuroSAT dataset of RGB and multi spectral covering 13 spectral bands, [with repo](https://github.com/raoofnaushad/Land-Cover-Classification-using-Sentinel-2-Dataset)
 * [Land Cover Classification of Satellite Imagery using Convolutional Neural Networks](https://towardsdatascience.com/land-cover-classification-of-satellite-imagery-using-convolutional-neural-networks-91b5bb7fe808) using Keras and a dataset captured over Salinas Valley, California
-* [Detecting deforestation from satellite images](https://towardsdatascience.com/detecting-deforestation-from-satellite-images-7aa6dfbd9f61) -> using FastAI and ResNet50
+* [Detecting deforestation from satellite images](https://towardsdatascience.com/detecting-deforestation-from-satellite-images-7aa6dfbd9f61) -> using FastAI and ResNet50, with repo [fsdl_deforestation_detection](https://github.com/karthikraja95/fsdl_deforestation_detection)
 
 ## Semantic segmentation
 Whilst classification will assign a label to a whole image, semantic segmentation will assign a label to each **pixel**
