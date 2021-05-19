@@ -371,6 +371,7 @@ Super-resolution imaging is a class of techniques that enhance the resolution of
 * [Super-resolution of Multispectral Satellite Images Using Convolutional Neural Networks](https://up42.com/blog/tech/super-resolution-of-multispectral-satellite-images-using-convolutional) with [paper](https://arxiv.org/abs/2002.00580)
 * [Small-Object Detection in Remote Sensing Images with End-to-End Edge-Enhanced GAN and Object Detector Network](https://paperswithcode.com/paper/small-object-detection-in-remote-sensing) -> enhanced super-resolution GAN (ESRGAN)
 * [pytorch-enhance](https://github.com/isaaccorley/pytorch-enhance) -> Library of Image Super-Resolution Models, Datasets, and Metrics for Benchmarking or Pretrained Use
+* [Multi-temporal Super-Resolution on Sentinel-2 Imagery](https://medium.com/sentinel-hub/multi-temporal-super-resolution-on-sentinel-2-imagery-6089c2b39ebc) using HighRes-Net, [repo](https://github.com/sentinel-hub/multi-temporal-super-resolution)
 
 ## Image-to-image translation using GANS
 Generative Adversarial Networks, or GANS, can be used to translate images, e.g. from SAR to RGB.
@@ -495,8 +496,9 @@ The STAC specification provides a common metadata specification, API, and catalo
 
 # State of the art
 What are companies doing?
-* A [serverless pipeline](https://github.com/aws-samples/amazon-rekognition-video-analyzer) appears to be where companies are headed for routine compute tasks. Checkout [process Satellite data using AWS Lambda functions](https://github.com/RemotePixel/remotepixel-api). Just beware of runtime limits and [cold starts](https://mikhail.io/serverless/coldstarts/aws/)
-* Traditional data formats aren't designed for processing, so new standards are developing such as COGS
+* Data is stored in an infintely scalable platform such as S3
+* A combination of batch processing on clusters and [serverless functions](https://github.com/aws-samples/amazon-rekognition-video-analyzer) are common for routine compute tasks.
+* Traditional data formats aren't designed for processing on a server (the cliud), so new standards are developing such as COGS and STAC
 * Google provide training on how to use Apache Spark on Google Cloud Dataproc to distribute a computationally intensive (satellite) image processing task onto a cluster of machines -> https://google.qwiklabs.com/focuses/5834?parent=catalog
 * Read about [Planet on Google](https://cloud.google.com/customers/planet) and also how [Airbus use Google](https://cloud.google.com/customers/airbus) as the backend for their [OneAtlas](https://oneatlas.airbus.com/) data portal
 
@@ -539,11 +541,12 @@ A conceptually simple approach to serving up deep learning model inference code 
 * [Tensorflow](https://www.tensorflow.org/tfx/guide/serving) and [pytorch](https://github.com/pytorch/serve) specific serving
 
 ### AWS
-* Host your data on [S3](https://aws.amazon.com/s3/) and metadata in a relational db such as [postgres](https://aws.amazon.com/rds/postgresql/)
-* For batch processing use [Batch](https://aws.amazon.com/batch/). GPU instances are available for [batch deep learning](https://aws.amazon.com/blogs/compute/deep-learning-on-aws-batch/) inferencing.
-* Units of processing can be performed using [Lambda](https://aws.amazon.com/lambda/) functions. Note that lambda may not be a particularly quick solution for deep learning applications, since you do not have the option to batch inference on a GPU. There is also a hard runtime limit of 15 minutes, and creating a container with all the required dependencies can be a challenge. To get started read [Using container images to run PyTorch models in AWS Lambda](https://aws.amazon.com/blogs/machine-learning/using-container-images-to-run-pytorch-models-in-aws-lambda/)
+* Host your data on [S3](https://aws.amazon.com/s3/) and metadata in a db such as [postgres](https://aws.amazon.com/rds/postgresql/)
+* For batch processing use [Batch](https://aws.amazon.com/batch/). GPU instances are available for [batch deep learning](https://aws.amazon.com/blogs/compute/deep-learning-on-aws-batch/) inferencing. See how Rastervision implement this [here](https://docs.rastervision.io/en/0.13/cloudformation.html)
+* If processing can be performed in 15 minutes or less, serverless [Lambda](https://aws.amazon.com/lambda/) functions are an attractive option owing to their ability to scale. Note that lambda may not be a particularly quick solution for deep learning applications, since you do not have the option to batch inference on a GPU. Creating a docker container with all the required dependencies can be a challenge. To get started read [Using container images to run PyTorch models in AWS Lambda](https://aws.amazon.com/blogs/machine-learning/using-container-images-to-run-pytorch-models-in-aws-lambda/)
+* Specifically created for deep learning inferencing is [AWS Inferentia](https://aws.amazon.com/machine-learning/inferentia/)
 * Use [Step functions](https://aws.amazon.com/step-functions/) to orchestrate data pipelines on batch and lambda. If this is too limited or you want to write pipelines in python (rather than json used by step functions) checkout [Prefect](https://www.prefect.io/)
-* [Sagemaker](https://aws.amazon.com/sagemaker/) is a hosted Jupyter environment for training and deployment of ML models.
+* [Sagemaker](https://aws.amazon.com/sagemaker/) includes a hosted Jupyter environment for training of ML models. There are also tools for deployment of models, using docker.
 * [Deep learning AMIs](https://aws.amazon.com/machine-learning/amis/) are EC2 instances with deep learning frameworks preinstalled. They do require more setup from the user than Sagemaker but in return allow access to the underlying hardware, which makes debugging issues more straightforward. There is a [good guide to setting up your AMI instance on the Keras blog](https://blog.keras.io/running-jupyter-notebooks-on-gpu-on-aws-a-starter-guide.html)
 * [Rekognition](https://aws.amazon.com/rekognition/custom-labels-features/) custom labels is a 'no code' annotation, training and inferencing service. Read [Training models using Satellite (Sentinel-2) imagery on Amazon Rekognition Custom Labels](https://ryfeus.medium.com/training-models-using-satellite-imagery-on-amazon-rekognition-custom-labels-dd44ac6a3812). For a comparison with Azure and Google alternatives [read this article](https://blog.roboflow.com/automl-vs-rekognition-vs-custom-vision/)
 * When developing you will definitely want to use [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) and probably [aws-data-wrangler](https://github.com/awslabs/aws-data-wrangler)
@@ -627,6 +630,7 @@ A conceptually simple approach to serving up deep learning model inference code 
 * [fake-geo-images](https://github.com/up42/fake-geo-images) -> A module to programmatically create geotiff images which can be used for unit tests
 * [sahi](https://github.com/obss/sahi) -> A vision library for performing sliced inference on large images/small objects
 * [imagededup](https://github.com/idealo/imagededup) -> Finding duplicate images made easy! Uses perceptual hashing
+* [rmstripes](https://github.com/DHI-GRAS/rmstripes) -> Remove stripes from images with a combined wavelet/FFT approach
 
 ## Python deep learning toolsets
 * [torchvision-enhance](https://github.com/sshuair/torchvision-enhance) -> Enhance PyTorch vision for semantic segmentation, multi-channel images and TIF file
@@ -664,6 +668,7 @@ A conceptually simple approach to serving up deep learning model inference code 
 * [arosics](https://danschef.git-pages.gfz-potsdam.de/arosics/doc/about.html) -> Perform automatic subpixel co-registration of two satellite image datasets based on an image matching approach
 * [detectree](https://github.com/martibosch/detectree) -> Tree detection from aerial imagery
 * [pylandstats](https://github.com/martibosch/pylandstats) -> compute landscape metrics
+* [dg-calibration](https://github.com/DHI-GRAS/dg-calibration) -> Coefficients and functions for calibrating DigitalGlobe imagery
 
 ## Tools for image annotation
 If you are performing object detection you will need to annotate images with bounding boxes. Check that your annotation tool of choice supports large image (likely geotiff) files, as not all will. Note that GeoJSON is widely used by remote sensing researchers but this annotation format is not commonly supported in general computer vision frameworks, and in practice you may have to convert the annotation format to use the data with your chosen framework. There are both closed and open source tools for creating and converting annotation formats.
@@ -705,6 +710,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Azavea](https://github.com/azavea) -> lots of interesting repos around STAC
 * [Development Seed](https://github.com/developmentseed)
 * [Descartes Labs](https://github.com/descarteslabs)
+* [DHI GRAS](https://github.com/DHI-GRAS)
 * [Digital Globe](https://github.com/DigitalGlobe)
 * [Mapbox](https://github.com/mapbox) -> thanks for Rasterio!
 * [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
