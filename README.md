@@ -539,7 +539,7 @@ A conceptually simple approach to serving up deep learning model inference code 
 * Basic API: https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html with code [here](https://github.com/jrosebr1/simple-keras-rest-api)
 * Advanced API with request queuing: https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
 
-### Framework specific serving options
+### Framework specific model serving options
 * [Tensorflow](https://www.tensorflow.org/tfx/guide/serving) and [pytorch](https://github.com/pytorch/serve) specific serving
 
 ### AWS
@@ -556,6 +556,12 @@ A conceptually simple approach to serving up deep learning model inference code 
 * [AWS Ground Station now supports data delivery to Amazon S3](https://aws.amazon.com/about-aws/whats-new/2021/04/aws-ground-station-now-supports-data-delivery-to-amazon-s3/)
 * [Redshift](https://aws.amazon.com/redshift/) is a fast, scalable data warehouse that can extend queries to S3. Redshift is based on PostgreSQL but [has some differences](https://docs.aws.amazon.com/redshift/latest/dg/c_redshift-and-postgres-sql.html). Redshift supports geospatial data.
 * [AWS App Runner](https://aws.amazon.com/blogs/containers/introducing-aws-app-runner/) enables quick deployment of containers as apps
+
+## Google cloud
+* For storage use [Cloud Storage](https://cloud.google.com/storage) (AWS S3 equivalent)
+* For data warehousing use [BigQuery](https://cloud.google.com/bigquery) (AWS Redshift equivalent)
+* For model training use [Vertex](https://cloud.google.com/vertex-ai) (AWS Sagemaker equivalent)
+* For containerised apps use [Cloud Run](https://cloud.google.com/run) (AWS App Runner equivalent but can scale to zero)
 
 ### chip-n-scale-queue-arranger by developmentseed
 * https://github.com/developmentseed/chip-n-scale-queue-arranger
