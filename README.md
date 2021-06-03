@@ -739,7 +739,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Development Seed](https://github.com/developmentseed)
 * [Descartes Labs](https://github.com/descarteslabs)
 * [DHI GRAS](https://github.com/DHI-GRAS)
-* [Digital Globe](https://github.com/DigitalGlobe)
+* [ElementAI](https://github.com/ElementAI)
 * [Mapbox](https://github.com/mapbox) -> thanks for Rasterio!
 * [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
 * [up42](https://github.com/up42) -> Airbus spinout providing 'The easiest way to build geospatial solutions'
