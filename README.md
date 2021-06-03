@@ -770,10 +770,10 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Omdena](https://omdena.com/) brings together small teams of engineers to work on AI projects
 
 # Jobs
-* Signup for the [geospatial-jobs-newsletter](https://geospatial.substack.com/p/welcome-to-geospatial-jobs-newsletter)
-* [Pangeo discourse](https://discourse.pangeo.io/c/news/jobs) lists multiple jobs, global
-* [Planet](https://boards.greenhouse.io/planetlabs)
+Signup for the [geospatial-jobs-newsletter](https://geospatial.substack.com/p/welcome-to-geospatial-jobs-newsletter) and [Pangeo discourse](https://discourse.pangeo.io/c/news/jobs) lists multiple jobs, global. List of companies job portals below:
 * [Capella Space](https://apply.workable.com/capellaspace/)
+* [Planet](https://boards.greenhouse.io/planetlabs)
+* [Sparkgeo](https://sparkgeo.com/jobs/)
 
 # Neural nets in space
 Processing on satellite allows less data to be downlinked. E.g. super-resolution image might take 4-8 images to generate, then a single image is downlinked.
