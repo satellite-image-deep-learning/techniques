@@ -731,6 +731,7 @@ If you are performing object detection you will need to annotate images with bou
 * [Jake Shermeyer](https://github.com/jshermeyer) many interesting repos
 * [Mort Canty](https://github.com/mortcanty) is an expert in change detection
 * [Nicholas Murray](https://www.murrayensis.org/) is an Australia-based scientist with a focus on delivering the science necessary to inform large scale environmental management and conservation
+* [Oscar Mañas](https://oscmansan.github.io/) is advancing the state of the art in SSL
 * [Qiusheng Wu](https://github.com/giswqs) is an Assistant Professor in the Department of Geography at the University of Tennessee, checkout his [YouTube channel](https://www.youtube.com/c/QiushengWu)
 * [Robin Wilson](https://github.com/robintw) is a former academic who is very active in the satellite imagery space
 
