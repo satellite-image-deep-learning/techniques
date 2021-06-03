@@ -182,9 +182,10 @@ In this challenge, you will build a model to classify cloud organization pattern
 * NOAA (requires BigQuery) -> https://www.kaggle.com/noaa/goes16/home
 * Time series weather data for several US cities -> https://www.kaggle.com/selfishgene/historical-hourly-weather-data
 
-## Time series datasets
+## Time series & change detection datasets
 * [BreizhCrops](https://github.com/dl4sits/BreizhCrops) -> A Time Series Dataset for Crop Type Mapping
 * The SeCo dataset contains image patches from Sentinel-2 tiles captured at different timestamps at each geographical location. [Download SeCo here](https://github.com/ElementAI/seasonal-contrast)
+* [Onera Satellite Change Detection Dataset](https://ieee-dataport.org/open-access/oscd-onera-satellite-change-detection) comprises 24 pairs of multispectral images taken from the Sentinel-2 satellites between 2015 and 2018
 
 ## UAV & Drone datasets
 * Many on https://www.visualdata.io
@@ -349,6 +350,8 @@ Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, c
 * [Change-Detection-Review](https://github.com/MinZHANG-WHU/Change-Detection-Review) -> A review of change detection methods, including codes and open data sets for deep learning.
 * [Flood Detection and Monitoring using Satellite Imagery with Python](https://towardsdatascience.com/flood-detection-and-monitoring-using-satellite-imagery-with-python-5cd32157206c)
 * [LamboiseNet](https://github.com/hbaudhuin/LamboiseNet) -> Master thesis about change detection in satellite imagery using Deep Learning
+* [fully_convolutional_change_detection](https://github.com/rcdaudt/fully_convolutional_change_detection) -> Fully convolutional network architectures for change detection using remote sensing images
+* [patch_based_change_detection](https://github.com/rcdaudt/patch_based_change_detection) -> Patch based network architectures for change detection using remote sensing images
 
 ## Wealth and economic activity measurement
 The goal is to predict economic activity from satellite imagery rather than conducting labour intensive ground surveys
@@ -733,6 +736,7 @@ If you are performing object detection you will need to annotate images with bou
 * [Nicholas Murray](https://www.murrayensis.org/) is an Australia-based scientist with a focus on delivering the science necessary to inform large scale environmental management and conservation
 * [Oscar Mañas](https://oscmansan.github.io/) is advancing the state of the art in SSL
 * [Qiusheng Wu](https://github.com/giswqs) is an Assistant Professor in the Department of Geography at the University of Tennessee, checkout his [YouTube channel](https://www.youtube.com/c/QiushengWu)
+* [Rodrigo Caye Daudt](https://rcdaudt.github.io/oscd/) is doing great work on change detection
 * [Robin Wilson](https://github.com/robintw) is a former academic who is very active in the satellite imagery space
 
 # Companies on Github
