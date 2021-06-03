@@ -184,6 +184,7 @@ In this challenge, you will build a model to classify cloud organization pattern
 
 ## Time series datasets
 * [BreizhCrops](https://github.com/dl4sits/BreizhCrops) -> A Time Series Dataset for Crop Type Mapping
+* The SeCo dataset contains image patches from Sentinel-2 tiles captured at different timestamps at each geographical location. [Download SeCo here](https://github.com/ElementAI/seasonal-contrast)
 
 ## UAV & Drone datasets
 * Many on https://www.visualdata.io
@@ -397,8 +398,8 @@ I group these together since I most often see denoising in the context of SAR im
 * [Synthetic Aperture Radar (SAR) Analysis With Clarifai](https://www.clarifai.com/blog/synthetic-aperture-radar-sar-analysis-with-clarifai)
 * [Labeled SAR imagery dataset of ten geophysical phenomena from Sentinel-1 wave mode](https://www.seanoe.org/data/00456/56796/) consists of more than 37,000 SAR vignettes divided into ten defined geophysical categories
 
-## Self-supervised learning
- [Yann LeCun](https://braindump.jethro.dev/posts/lecun_cake_analogy/) has described self-supervised learning as the 'bulk of the cake': *If we think of our brain as a cake, then the cake base is un(or self)-supervised learning. The machine predicts any part of its input for any observed part (e.g. future frames in videos), all without the use of labelled data. Supervised learning forms the icing on the cake, and reinforcement learning is the cherry on top.*
+## Self-supervised learning (SSL)
+ [Yann LeCun](https://braindump.jethro.dev/posts/lecun_cake_analogy/) has described self-supervised learning as the 'base of the cake': *If we think of our brain as a cake, then the cake base is (self)-supervised learning. The machine predicts any part of its input for any observed part (e.g. future frames in videos), all without the use of labelled data. Supervised learning forms the icing on the cake, and reinforcement learning is the cherry on top.* SSL is gaining popularity on tasks for which it is difficult to obtain labels, but unlabeled samples are plentiful (ref below).
 * [Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://devblog.pytorchlightning.ai/seasonal-contrast-transferable-visual-representations-for-remote-sensing-73a17863ed07) -> Seasonal Contrast (SeCo) is an effective pipeline to leverage unlabeled data for in-domain pre-training of remote sensing representations. Models trained with SeCo achieve better performance than their ImageNet pre-trained counterparts and state-of-the-art self-supervised learning methods on multiple downstream tasks. [paper](https://arxiv.org/abs/2103.16607) and [repo](https://github.com/ElementAI/seasonal-contrast)
 
 ## ML best practice & general techniques
