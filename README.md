@@ -505,11 +505,11 @@ The STAC specification provides a common metadata specification, API, and catalo
 
 # State of the art
 What are companies doing?
-* Data is stored in an infintely scalable platform such as S3
-* A combination of batch processing on clusters and [serverless functions](https://github.com/aws-samples/amazon-rekognition-video-analyzer) are common for routine compute tasks.
-* Traditional data formats aren't designed for processing on a server (the cliud), so new standards are developing such as COGS and STAC
-* Google provide training on how to use Apache Spark on Google Cloud Dataproc to distribute a computationally intensive (satellite) image processing task onto a cluster of machines -> https://google.qwiklabs.com/focuses/5834?parent=catalog
-* Read about [Planet on Google](https://cloud.google.com/customers/planet) and also how [Airbus use Google](https://cloud.google.com/customers/airbus) as the backend for their [OneAtlas](https://oneatlas.airbus.com/) data portal
+* Compute and data storage are moving to the cloud, with event driven architectures for minimal latency
+* A combination of batch processing on clusters and serverless functions are common for routine compute tasks
+* Custom hardware is being developed for rapid training and inferencing with deep learning models
+* Traditional data formats aren't designed for processing on the cloud, so new standards are evolving such as COGS and STAC
+* Read about how [Planet](https://cloud.google.com/customers/planet) and [Airbus ](https://cloud.google.com/customers/airbus) use Google Cloud as their backend
 
 # Online platforms for Geo analysis
 * [This article discusses some of the available platforms](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2)
