@@ -384,6 +384,7 @@ Super-resolution attempts to enhance the resolution of an imaging system, and ca
 * [Multi-temporal Super-Resolution on Sentinel-2 Imagery](https://medium.com/sentinel-hub/multi-temporal-super-resolution-on-sentinel-2-imagery-6089c2b39ebc) using HighRes-Net, [repo](https://github.com/sentinel-hub/multi-temporal-super-resolution)
 * [image-super-resolution](https://github.com/idealo/image-super-resolution) -> Super-scale your images and run experiments with Residual Dense and Adversarial Networks.
 * [SSPSR-Pytorch](https://github.com/junjun-jiang/SSPSR) -> A spatial-spectral prior deep network for single hyperspectral image super-resolution
+* [Sentinel-2 Super-Resolution: High Resolution For All (Bands)](https://up42.com/blog/tech/sentinel-2-superresolution)
 
 ## Image-to-image translation using GANS
 Generative Adversarial Networks, or GANS, can be used to translate images, e.g. from SAR to RGB.
@@ -539,7 +540,7 @@ Generally a GPU is required for DL, and this section lists a couple of free Jupy
 * Also a pro tier for $10 a month -> https://colab.research.google.com/signup
 * Tensorflow, pytorch & fast.ai available but you may need to update them
 * [Colab Alive](https://chrome.google.com/webstore/detail/colab-alive/eookkckfbbgnhdgcbfbicoahejkdoele?hl=en) is a chrome extension that keeps Colab notebooks alive.
-* [colab-ssh](https://github.com/WassimBenzarti/colab-ssh) -> Connect to Google Colab using SSH
+* [colab-ssh](https://github.com/WassimBenzarti/colab-ssh) -> lets you ssh to a colab instance like it’s an EC2 machine and install packages that require full linux functionality
 
 ### Kaggle - also Google!
 * Free to use
@@ -614,6 +615,7 @@ If you are happy to live exclusively in the Tensorflow or Pytorch ecosystem, the
 * [Grafana](https://grafana.com/) can be used to make interactive dashboards, checkout [this example showing Point data](https://blog.timescale.com/blog/grafana-variables-101/). Note there is an [AWS managed service for Grafana](https://aws.amazon.com/grafana/)
 * [litestream](https://litestream.io/) -> Continuously stream SQLite changes to S3-compatible storage
 * [ImageFusion)](https://github.com/JohMast/ImageFusion) -> Temporal fusion of raster image time-Series
+* [nvtop](https://github.com/Syllo/nvtop) -> NVIDIA GPUs htop like monitoring tool
   
 ## GDAL & Rasterio
 * So improtant this pair gets their own section. GDAL is THE command line tool for reading and writing raster and vector geospatial data formats. If you are using python you will probably want to use Rasterio which provides a pythonic wrapper for GDAL
@@ -753,6 +755,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Descartes Labs](https://github.com/descarteslabs)
 * [DHI GRAS](https://github.com/DHI-GRAS)
 * [ElementAI](https://github.com/ElementAI)
+* [Hummingbird Technologies Ltd](https://github.com/HummingbirdTechGroup) -> sustainability and optimised food production
 * [Mapbox](https://github.com/mapbox) -> thanks for Rasterio!
 * [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
 * [Sparkgeo](https://github.com/sparkgeo)
