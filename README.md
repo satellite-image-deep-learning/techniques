@@ -568,7 +568,7 @@ What are companies doing?
 * Custom hardware is being developed for rapid training and inferencing with deep learning models
 * Traditional data formats aren't designed for processing on the cloud, so new standards are evolving such as COGS and STAC
 * Read about how [Planet](https://cloud.google.com/customers/planet) and [Airbus](https://cloud.google.com/customers/airbus) use Google Cloud as their backend
-* Gogle Earth Engine and Microsoft Planetary Computer are democratising access to huge compute platforms
+* Google Earth Engine and Microsoft Planetary Computer are democratising access to huge compute platforms
 
 # Online platforms for Geo analysis
 * [This article discusses some of the available platforms](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2)
