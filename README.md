@@ -66,7 +66,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [Landsat 8 imagery on AWS](https://registry.opendata.aws/landsat-8/), with many tutorials and tools listed
 * https://github.com/kylebarron/landsat-mosaic-latest -> Auto-updating cloudless Landsat 8 mosaic from AWS SNS notifications
 * [Visualise landsat imagery using Datashader](https://examples.pyviz.org/landsat/landsat.html#landsat-gallery-landsat)
-* [Landsat-mosaic-tiler](https://github.com/kylebarron/landsat-mosaic-tiler) -> The repo host all the code for [landsatlive.live](https://landsatlive.live) website and APIs.
+* [Landsat-mosaic-tiler](https://github.com/kylebarron/landsat-mosaic-tiler) -> This repo hosts all the code for landsatlive.live website and APIs.
 
 ## Spacenet
 * Spacenet is an online hub for data, challenges, algorithms, and tools.
@@ -259,8 +259,6 @@ Assign a label to an image, e.g. this is an image of a forest. More complex case
 * [Multi-Label Classification of Satellite Photos of the Amazon Rainforest](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-satellite-photos-of-the-amazon-rainforest/) -> uses the Planet dataset & TF 2 & Keras
 * [UrbanLandUse](https://github.com/wri/UrbanLandUse) -> This repository contains a comprehensive set of instructions for creating and applying ML models that characterize land use / land cover (LULC) in urban areas.
 * [Land cover classification of Sundarbans satellite imagery using K-Nearest Neighbor(K-NNC), Support Vector Machine (SVM), and Gradient Boosting classification algorithms with Python](https://towardsdatascience.com/land-cover-classification-in-satellite-imagery-using-python-ae39dbf2929)
-* [Ground Truth Labeling of Satellite Imagery using K-Means Clustering with Python](https://towardsdatascience.com/ground-truth-labeling-of-satellite-imagery-using-k-means-clustering-with-python-b4ab02e1314f)
-* [Deep Learning for Land Cover Classification of Satellite Imagery Using Python](https://towardsdatascience.com/deep-learning-for-land-cover-classification-of-satellite-imagery-using-python-e7ca9f7bfa0a)
 * [Multi-label Land Cover Classification with Deep Learning](https://towardsdatascience.com/multi-label-land-cover-classification-with-deep-learning-d39ce2944a3d) using the redesigned Multi-label UC Merced dataset with 17 land cover classes
 * [Vision Transformers Use Case: Satellite Image Classification without CNNs](https://joaootavionf007.medium.com/vision-transformers-use-case-satellite-image-classification-without-cnns-2c4dbeb06f87)
 * [hyperspectral_deeplearning_review](https://github.com/mhaut/hyperspectral_deeplearning_review) -> Code of December 2019 paper ["Deep Learning Classifiers for Hyperspectral Imaging: A Review"](https://www.sciencedirect.com/science/article/pii/S0924271619302187)
@@ -361,7 +359,6 @@ Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, c
 * [Change Detection in Hyperspectral Images Using Recurrent 3D Fully Convolutional Networks](https://www.mdpi.com/2072-4292/10/11/1827)
 * [QGIS 2 plugin for applying change detection algorithms on high resolution satellite imagery](https://github.com/dymaxionlabs/massive-change-detection)
 * [Change-Detection-Review](https://github.com/MinZHANG-WHU/Change-Detection-Review) -> A review of change detection methods, including codes and open data sets for deep learning.
-* [Flood Detection and Monitoring using Satellite Imagery with Python](https://towardsdatascience.com/flood-detection-and-monitoring-using-satellite-imagery-with-python-5cd32157206c)
 * [LamboiseNet](https://github.com/hbaudhuin/LamboiseNet) -> Master thesis about change detection in satellite imagery using Deep Learning
 * [fully_convolutional_change_detection](https://github.com/rcdaudt/fully_convolutional_change_detection) -> Fully convolutional network architectures for change detection using remote sensing images
 * [patch_based_change_detection](https://github.com/rcdaudt/patch_based_change_detection) -> Patch based network architectures for change detection using remote sensing images
@@ -577,7 +574,6 @@ What are companies doing?
 * [Descartes Labs](https://www.descarteslabs.com/) -> access to EO imagery from a variety of providers via python API
 * DigitalGlobe have a cloud hosted Jupyter notebook platform called [GBDX](https://gbdxdocs.digitalglobe.com/docs/about-the-gbdx-platform). Cloud hosting means they can guarantee the infrastructure supports their algorithms, and they appear to be close/closer to deploying DL.
 * Planet have a [Jupyter notebook platform](https://developers.planet.com/) which can be deployed locally.
-* [jupyteo.com](https://www.jupyteo.com) -> hosted Jupyter environment with many features for working with EO data
 * [eurodatacube.com](https://eurodatacube.com) -> data & platform for EO analytics in Jupyter env, paid
 * [Unfolded Studio](https://studio.unfolded.ai/) -> next generation geospatial analytics and visualization platform building on open source geospatial technologies including kepler.gl, deck.gl and H3. Processing is down browser side enabling excellent performance. [Rasters support added April 2021](https://www.unfolded.ai/blog/2021-04-28-raster-layer/)
 * [up42](https://up42.com/) is a developer platform and marketplace, offering all the building blocks for powerful, scalable geospatial products
