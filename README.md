@@ -339,7 +339,7 @@ Put a box around individual objects in an image. A good introduction to the chal
 
 ## Oil spill detection
 * [MCAN-OilSpillDetection](https://github.com/liyongqingupc/MCAN-OilSpillDetection) -> Oil Spill Detection with A Multiscale Conditional Adversarial Network under Small Data Training, with [paper](https://www.mdpi.com/2072-4292/13/12/2378)
-* [test bad link](https://www.mdpi.com/2072-4292/13/12/23789864926)
+* [test bad link](https://www.mdpibitbeir.com/2072-4292/13/12/23789864926)
 
 ## Cloud detection & removal
 * From [this article on sentinelhub](https://medium.com/sentinel-hub/improving-cloud-detection-with-machine-learning-c09dc5d7cf13) there are three popular classical algorithms that detects thresholds in multiple bands in order to identify clouds. In the same article they propose using semantic segmentation combined with a CNN for a cloud classifier (excellent review paper [here](https://arxiv.org/pdf/1704.06857.pdf)), but state that this requires too much compute resources.
