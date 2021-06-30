@@ -30,6 +30,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [Long list of satellite missions with example imagery](https://www.satimagingcorp.com/satellite-sensors/)
 * [AWS datasets](https://registry.opendata.aws/)
 * [paperswithcode](https://paperswithcode.com/area/computer-vision) aggregates SoTA Computer Vision techniques
+* [Deep learning in remote sensing applications: A meta-analysis and review](https://www.iges.or.jp/en/publication_documents/pub/peer/en/6898/Ma+et+al+2019.pdf)
 
 # Datasets
 **Warning** satellite image files can be LARGE, even a small data set may comprise 50 GB of imagery
@@ -142,6 +143,7 @@ In this challenge, you will build a model to classify cloud organization pattern
 * https://www.kaggle.com/rhammell/ships-in-satellite-imagery -> Classify ships in San Franciso Bay using Planet satellite imagery
 * https://www.kaggle.com/rhammell/planesnet -> Detect aircraft in Planet satellite image chips
 * https://www.kaggle.com/datamunge/overheadmnist -> A Benchmark Satellite Dataset as Drop-In Replacement for MNIST
+* https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset -> Land Cover Classification Dataset from DeepGlobe Challenge
 
 ## Tensorflow datasets
 * [resisc45](https://www.tensorflow.org/datasets/catalog/resisc45) - RESISC45 dataset is a publicly available benchmark for Remote Sensing Image Scene Classification (RESISC), created by Northwestern Polytechnical University (NWPU). This dataset contains 31,500 images, covering 45 scene classes with 700 images in each class.
@@ -258,7 +260,7 @@ Assign a label to an image, e.g. this is an image of a forest. More complex case
 * [Codebase for land cover classification with U-Net](https://github.com/jaeeolma/lulc_ml)
 * [Multi-Label Classification of Satellite Photos of the Amazon Rainforest](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-satellite-photos-of-the-amazon-rainforest/) -> uses the Planet dataset & TF 2 & Keras
 * [UrbanLandUse](https://github.com/wri/UrbanLandUse) -> This repository contains a comprehensive set of instructions for creating and applying ML models that characterize land use / land cover (LULC) in urban areas.
-* [Land cover classification of Sundarbans satellite imagery using K-Nearest Neighbor(K-NNC), Support Vector Machine (SVM), and Gradient Boosting classification algorithms with Python](https://towardsdatascience.com/land-cover-classification-in-satellite-imagery-using-python-ae39dbf2929)
+* [Land cover classification of Sundarbans satellite imagery using K-Nearest Neighbor(K-NNC), Support Vector Machine (SVM), and Gradient Boosting classification algorithms with Python](https://towardsdatascience.com/land-cover-classification-in-satellite-imagery-using-python-ae39dbf2929) with [repo](https://github.com/syamkakarla98/Satellite_Imagery_Analysis)
 * [Multi-label Land Cover Classification with Deep Learning](https://towardsdatascience.com/multi-label-land-cover-classification-with-deep-learning-d39ce2944a3d) using the redesigned Multi-label UC Merced dataset with 17 land cover classes
 * [Vision Transformers Use Case: Satellite Image Classification without CNNs](https://joaootavionf007.medium.com/vision-transformers-use-case-satellite-image-classification-without-cnns-2c4dbeb06f87)
 * [hyperspectral_deeplearning_review](https://github.com/mhaut/hyperspectral_deeplearning_review) -> Code of December 2019 paper ["Deep Learning Classifiers for Hyperspectral Imaging: A Review"](https://www.sciencedirect.com/science/article/pii/S0924271619302187)
@@ -296,6 +298,7 @@ Whilst classification will assign a label to a whole image, segmentation will as
 * [Road detection using segmentation models and albumentations libraries on Keras](https://towardsdatascience.com/road-detection-using-segmentation-models-and-albumentations-libraries-on-keras-d5434eaf73a8)
 * [Shadow-Detection-Algorithm-for-Aerial-and-Satellite-Images](https://github.com/ThomasWangWeiHong/Shadow-Detection-Algorithm-for-Aerial-and-Satellite-Images) -> shadow detection and correction algorithm
 * [Winning Solutions from SpaceNet Road Detection and Routing Challenge](https://github.com/SpaceNetChallenge/RoadDetector)
+* [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net
 
 ## Object detection
 Put a box around individual objects in an image. A good introduction to the challenge of performing object detection on aerial imagery is given in [this paper](https://arxiv.org/abs/1902.06042v2). In summary, images are large and objects may comprise only a few pixels, easily confused with random features in background. An example task is detecting boats on the ocean, which should be simpler than land based detection owing to the relatively blank background in images, but is still challenging. Note that very small objects are often addressed using segmentation.
@@ -323,6 +326,7 @@ Put a box around individual objects in an image. A good introduction to the chal
 * [automated-building-detection](https://github.com/rodekruis/automated-building-detection) -> Input: very-high-resolution (<= 0.5 m/pixel) RGB satellite images. Output: buildings in vector format (geojson), to be used in digital map products. Built on top of robosat and robosat.pink.
 * [project_sunroof_india](https://github.com/AKASH2907/project_sunroof_india) -> Analyzed Google Satellite images to generate a report on individual house rooftop's solar power potential
 * [JointNet-A-Common-Neural-Network-for-Road-and-Building-Extraction](https://github.com/ThomasWangWeiHong/JointNet-A-Common-Neural-Network-for-Road-and-Building-Extraction)
+* [polycnn](https://github.com/Lydorn/polycnn) -> End-to-End Learning of Polygons for Remote Sensing Image Classification
 
 #### Object detection - boats, planes & vehicles
 * [Detecting Ships in Satellite Imagery](https://medium.com/dataseries/detecting-ships-in-satellite-imagery-7f0ca04e7964) using the Planet dataset and Keras
@@ -466,12 +470,13 @@ Image fusion of low res multispectral with high res pan band.
 ## Image registration
 Image registration is the process of transforming different sets of data into one coordinate system. Typical use is overlapping images taken at different times or with different cameras.
 * [Wikipedia article on registration](https://en.wikipedia.org/wiki/Image_registration) -> register for change detection or [image stitching](https://mono.software/2018/03/14/Image-stitching/)
-* Traditional approach -> define control points, employ RANSAC algorithm
 * [Phase correlation](https://en.wikipedia.org/wiki/Phase_correlation) is used to estimate the XY translation between two images with sub-pixel accuracy. Can be used for accurate registration of low resolution imagery onto high resolution imagery, or to register a [sub-image on a full image](https://www.mathworks.com/help/images/registering-an-image-using-normalized-cross-correlation.html) -> Unlike many spatial-domain algorithms, the phase correlation method is resilient to noise, occlusions, and other defects.
 * [cnn-registration](https://github.com/yzhq97/cnn-registration) -> A image registration method using convolutional neural network features written in Python2, Tensorflow 1.5
 * [Detecting Ground Control Points via Convolutional Neural Network for Stereo Matching](https://arxiv.org/abs/1605.02289) -> code?
-* [Image Registration: From SIFT to Deep Learning](https://www.sicara.ai/blog/2019-07-16-image-registration-deep-learning) -> good overview article
+* [Image Registration: From SIFT to Deep Learning](https://www.sicara.ai/blog/2019-07-16-image-registration-deep-learning) -> background reading on has the state of the art has evolved from OpenCV to Neural Networks
 * [ImageCoregistration](https://github.com/ily-R/ImageCoregistration) -> Image registration with openCV using sift and RANSAC
+* [mapalignment](https://github.com/Lydorn/mapalignment) -> Aligning and Updating Cadaster Maps with Remote Sensing Images
+* [CVPR21-Deep-Lucas-Kanade-Homography](https://github.com/placeforyiming/CVPR21-Deep-Lucas-Kanade-Homography) -> deep learning pipeline to accurately align challenging multimodality images. The method is based on traditional Lucas-Kanade algorithm with feature maps extracted by deep neural networks.
 
 ## Terrain mapping, Lidar & DEMs
 Measure surface contours.
@@ -730,6 +735,7 @@ If you are happy to live exclusively in the Tensorflow or Pytorch ecosystem, the
 * [activeloopai Hub](https://github.com/activeloopai/hub) -> The fastest way to store, access & manage datasets with version-control for PyTorch/TensorFlow. Works locally or on any cloud. Scalable data pipelines.
 * [sewar](https://github.com/andrewekhalel/sewar) -> All image quality metrics you need in one package
 * [fiftyone](https://github.com/voxel51/fiftyone) -> open-source tool for building high-quality datasets and computer vision models. Visualise complex labels, evaluating models, exploring scenarios of interest, identifying failure modes, finding annotation mistakes, and much more!
+* [GeoTagged_ImageChip](https://github.com/Hejarshahabi/GeoTagged_ImageChip) -> A simple script to create geo tagged image chips from high resolution RS iamges for training deep learning models such as Unet.
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
