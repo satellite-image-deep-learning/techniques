@@ -266,7 +266,7 @@ Assign a label to an image, e.g. this is an image of a forest. More complex case
 * [Vision Transformers Use Case: Satellite Image Classification without CNNs](https://joaootavionf007.medium.com/vision-transformers-use-case-satellite-image-classification-without-cnns-2c4dbeb06f87)
 * [hyperspectral_deeplearning_review](https://github.com/mhaut/hyperspectral_deeplearning_review) -> Code of December 2019 paper ["Deep Learning Classifiers for Hyperspectral Imaging: A Review"](https://www.sciencedirect.com/science/article/pii/S0924271619302187)
 * [Deep Learning-Based Classification of Hyperspectral Data](https://github.com/hantek/deeplearn_hsi)
-* [AutoEncoders for Land Cover Classification of Hyperspectral Images](https://towardsdatascience.com/autoencoders-for-land-cover-classification-of-hyperspectral-images-part-1-c3c847ebc69b) -> An autoencoder nerual net is used to reduce 103 band data to 60 features (dimensionality reduction), keras
+* [AutoEncoders for Land Cover Classification of Hyperspectral Images](https://towardsdatascience.com/autoencoders-for-land-cover-classification-of-hyperspectral-images-part-1-c3c847ebc69b) -> An autoencoder nerual net is used to reduce 103 band data to 60 features (dimensionality reduction), keras. Also read [part 2](https://syamkakarla.medium.com/auto-encoders-for-land-cover-classification-in-hyperspectral-images-part-2-f8978d443d6d) which implements K-NNC, SVM and Gradient Boosting
 * [Tree species classification from from airborne LiDAR and hyperspectral data using 3D convolutional neural networks](https://github.com/jaeeolma/tree-detection-evo#individual-tree-detection-and-matching-field-data-to-detected-tree-crowns)
 * [Applying Deep Learning on Satellite Imagery Classification](https://medium.com/analytics-vidhya/applying-deep-learning-on-satellite-imagery-951faa0cbb31) -> using EuroSAT dataset of RGB and multi spectral covering 13 spectral bands, [with repo](https://github.com/raoofnaushad/Land-Cover-Classification-using-Sentinel-2-Dataset)
 * [Land Cover Classification of Satellite Imagery using Convolutional Neural Networks](https://towardsdatascience.com/land-cover-classification-of-satellite-imagery-using-convolutional-neural-networks-91b5bb7fe808) using Keras and a dataset captured over Salinas Valley, California
@@ -574,8 +574,9 @@ A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF that supports HTTP range re
 
 ## STAC - SpatioTemporal Asset Catalog specification
 The STAC specification provides a common metadata specification, API, and catalog format to describe geospatial assets, so they can more easily indexed and discovered.
-* A good place to start is to view the [Planet Disaster Data catalogue](https://planet.stac.cloud/) which has the [catalogue source on Github](https://github.com/cholmes/pdd-stac) and uses the [stac-browser](https://github.com/radiantearth/stac-browser)
 * Spec at https://github.com/radiantearth/stac-spec
+* [STAC 1.0.0: The State of the STAC Software Ecosystem](https://medium.com/radiant-earth-insights/stac-1-0-0-software-ecosystem-updates-da4e800a4973)
+* [Planet Disaster Data catalogue](https://planet.stac.cloud/) has the [catalogue source on Github](https://github.com/cholmes/pdd-stac) and uses the [stac-browser](https://github.com/radiantearth/stac-browser)
 * [Getting Started with STAC APIs](https://www.azavea.com/blog/2021/04/05/getting-started-with-stac-apis/) intro article
 * [SpatioTemporal Asset Catalog API specification](https://github.com/radiantearth/stac-api-spec) -> an API to make geospatial assets openly searchable and crawlable
 * [stacindex](https://stacindex.org/) -> STAC Catalogs, Collections, APIs, Software and Tools
@@ -874,6 +875,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [ICEYE](https://github.com/iceye-ltd)
 * [Mapbox](https://github.com/mapbox) -> thanks for Rasterio!
 * [Maxar-Analytics](https://github.com/maxar-analytics)
+* [Near Space Labs](https://github.com/nearspacelabs)
 * [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
 * [SatelliteVu](https://github.com/SatelliteVu) -> currently it's all private!
 * [Sparkgeo](https://github.com/sparkgeo)
