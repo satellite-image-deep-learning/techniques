@@ -137,6 +137,10 @@ In this challenge, you will build a model to classify cloud organization pattern
 * https://www.kaggle.com/c/understanding_cloud_organization/
 * [3rd place solution on Github by naivelamb](https://github.com/naivelamb/kaggle-cloud-organization)
 
+### Kaggle - Airbus oil storage detection dataset
+* https://www.kaggle.com/airbusgeo/airbus-oil-storage-detection-dataset
+* [Oil-Storage Tank Instance Segmentation with Mask R-CNN](https://github.com/georgiosouzounis/instance-segmentation-mask-rcnn/blob/main/mask_rcnn_oiltanks_gpu.ipynb)
+
 ### Kaggle - miscellaneous
 * https://www.kaggle.com/reubencpereira/spatial-data-repo -> Satellite + loan data
 * https://www.kaggle.com/towardsentropy/oil-storage-tanks -> Image data of industrial tanks with bounding box annotations, estimate tank fill % from shadows
@@ -280,7 +284,7 @@ Assign a label to an image, e.g. this is an image of a forest. More complex case
 * [Keras-for-computer-vision](https://github.com/MaxLenormand/Keras-for-computer-vision) -> examples of both binary and multi-class classification
 
 ## Segmentation
-Whilst classification will assign a label to a whole image, segmentation will assign a label to each **pixel**. Typical use case is extracting the outline of buildings or roads.
+Whilst classification will assign a label to a whole image, segmentation will assign a label to each **pixel**. Segmentation is typically grouped into semantic or instance segmentation. In semantic segmentation objects of the same class are assigned the same label, whilst in instance segmentation each object is assigned a unique label. Mask R-CNN is typically used for instance segmentation.
 * [Instance segmentation with keras - links to satellite examples](https://github.com/matterport/Mask_RCNN)
 * [Semantic Segmentation on Aerial Images using fastai](https://medium.com/swlh/semantic-segmentation-on-aerial-images-using-fastai-a2696e4db127)
 * https://github.com/Paulymorphous/Road-Segmentation
@@ -303,6 +307,7 @@ Whilst classification will assign a label to a whole image, segmentation will as
 * [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net
 * [U-RISC](https://github.com/LiheYoung/U-RISC) -> 2nd place solution to the Ultra-high Resolution EM Images Segmentation Challenge
 * [kenya-crop-mask](https://github.com/nasaharvest/kenya-crop-mask) -> Annual and in-season crop mapping in Kenya - a multi-headed pixel wise classifier to classify pixels as containing crop or not, and a multi-spectral satellite image forecaster which forecasts a 12 month timeseries given a partial input
+* [Oil tank instance segmentation with Mask R-CNN](https://github.com/georgiosouzounis/instance-segmentation-mask-rcnn)
 
 ## Object detection
 Put a box around individual objects in an image. A good introduction to the challenge of performing object detection on aerial imagery is given in [this paper](https://arxiv.org/abs/1902.06042v2). In summary, images are large and objects may comprise only a few pixels, easily confused with random features in background. An example task is detecting boats on the ocean, which should be simpler than land based detection owing to the relatively blank background in images, but is still challenging. Note that very small objects are often addressed using segmentation.
@@ -385,6 +390,7 @@ Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, c
 * [ml4floods](https://github.com/spaceml-org/ml4floods) -> An ecosystem of data, models and code pipelines to tackle flooding with ML
 * [CDLab](https://github.com/Bobholamovic/CDLab) -> Yet another repository for developing and benchmarking deep learning-based change detection methods.
 * [Siam-NestedUNet)](https://github.com/likyoo/Siam-NestedUNet) -> The pytorch implementation for "SNUNet-CD: A Densely Connected Siamese Network for Change Detection of VHR Images"
+* [SUNet-change_detection](https://github.com/ShaoRuizhe/SUNet-change_detection) -> Implementation of paper SUNet: Change Detection for Heterogeneous Remote Sensing Images from Satellite and UAV Using a Dual-Channel Fully Convolution Network
 
 ## Wealth and economic activity measurement
 The goal is to predict economic activity from satellite imagery rather than conducting labour intensive ground surveys
@@ -413,7 +419,7 @@ Super-resolution attempts to enhance the resolution of an imaging system, and ca
 * [super-resolution-using-gan](https://github.com/saraivaufc/super-resolution-using-gan) -> Super-Resolution of Sentinel-2 Using Generative Adversarial Networks
 * [Super-resolution of Multispectral Satellite Images Using Convolutional Neural Networks](https://up42.com/blog/tech/super-resolution-of-multispectral-satellite-images-using-convolutional) with [paper](https://arxiv.org/abs/2002.00580)
 * [Small-Object Detection in Remote Sensing Images with End-to-End Edge-Enhanced GAN and Object Detector Network](https://paperswithcode.com/paper/small-object-detection-in-remote-sensing) -> enhanced super-resolution GAN (ESRGAN)
-* [pytorch-enhance](https://github.com/isaaccorley/pytorch-enhance) -> Library of Image Super-Resolution Models, Datasets, and Metrics for Benchmarking or Pretrained Use
+* [pytorch-enhance](https://github.com/isaaccorley/pytorch-enhance) -> Library of Image Super-Resolution Models, Datasets, and Metrics for Benchmarking or Pretrained Use. Also [checkout this implementation in Jax](https://github.com/isaaccorley/jax-enhance)
 * [Multi-temporal Super-Resolution on Sentinel-2 Imagery](https://medium.com/sentinel-hub/multi-temporal-super-resolution-on-sentinel-2-imagery-6089c2b39ebc) using HighRes-Net, [repo](https://github.com/sentinel-hub/multi-temporal-super-resolution)
 * [image-super-resolution](https://github.com/idealo/image-super-resolution) -> Super-scale your images and run experiments with Residual Dense and Adversarial Networks.
 * [SSPSR-Pytorch](https://github.com/junjun-jiang/SSPSR) -> A spatial-spectral prior deep network for single hyperspectral image super-resolution
@@ -594,13 +600,13 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [ml-aoi](https://github.com/stac-extensions/ml-aoi) -> An Item and Collection extension to provide labeled training data for machine learning models
 
 # State of the art
-What are companies doing?
 * Compute and data storage are moving to the cloud
 * A combination of batch processing on clusters and serverless functions are common for routine compute tasks
 * Custom hardware is being developed for rapid training and inferencing with deep learning models
 * Traditional data formats aren't designed for processing on the cloud, so new standards are evolving such as COGS and STAC
 * Read about how [Planet](https://cloud.google.com/customers/planet) and [Airbus](https://cloud.google.com/customers/airbus) use Google Cloud as their backend
 * Google Earth Engine and Microsoft Planetary Computer are democratising access to huge compute platforms
+* Whilst the combo of python and keras/pytorch are currently preeminent, new python libraries such as [Jax](https://github.com/google/jax) and alternative languages such as [Julia](https://julialang.org/) are showing serious promise
 
 # Online platforms for Geo analysis
 * [This article discusses some of the available platforms](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2)
@@ -781,6 +787,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [eodag](https://github.com/CS-SI/eodag) -> Earth Observation Data Access Gateway
 * [pylandsat](https://github.com/yannforget/pylandsat) -> Search, download, and preprocess Landsat imagery
 * [sentinelsat](https://github.com/sentinelsat/sentinelsat) -> Search and download Copernicus Sentinel satellite images
+* [landsatxplore](https://github.com/yannforget/landsatxplore) -> Search and download Landsat scenes from EarthExplorer
 
 ## Graphing and visualisation
 * [hvplot](https://hvplot.holoviz.org/) -> A high-level plotting API for the PyData ecosystem built on HoloViews. Allows overlaying data on map tiles, see [Exploring USGS Terrain Data in COG format using hvPlot](https://discourse.holoviz.org/t/exploring-usgs-terrain-data-in-cog-format-using-hvplot/1727)
@@ -798,6 +805,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 ## Streamlit
 [Streamlit](https://streamlit.io/) is an awesome python framework for creating apps with python. Additionally they will host the apps free of charge. Here I list resources which are EO related. Note that a component is an addon which extends Streamlits basic functionality. If you like Streamlit also checkout [gradio](https://www.gradio.app/)
 * [cogviewer](https://github.com/mykolakozyr/cogviewer) -> Simple Cloud Optimized GeoTIFF viewer
+* [cogvalidator](https://github.com/mykolakozyr/cogvalidator) -> Simple Cloud Optimized GeoTIFF validator
 * [streamlit-image-juxtapose](https://github.com/robmarkcole/streamlit-image-juxtapose) -> A simple Streamlit component to compare images in Streamlit apps
 * [streamlit-folium](https://github.com/randyzwitch/streamlit-folium) -> Streamlit Component for rendering Folium maps
 * [streamlit-keplergl](https://github.com/chrieke/streamlit-keplergl) -> Streamlit component for rendering kepler.gl maps
@@ -856,6 +864,7 @@ If you are performing object detection you will need to annotate images with bou
 * [Gonzalo Mateo García](https://github.com/gonzmg88) is working on clouds and Water segmentation with CNNs
 * [Jake Shermeyer](https://github.com/jshermeyer) many interesting repos
 * [Mort Canty](https://github.com/mortcanty) is an expert in change detection
+* [Mykola Kozyr](https://github.com/mykolakozyr) is working on streamlit apps
 * [Nicholas Murray](https://www.murrayensis.org/) is an Australia-based scientist with a focus on delivering the science necessary to inform large scale environmental management and conservation
 * [Oscar Mañas](https://oscmansan.github.io/) is advancing the state of the art in SSL
 * [Qiusheng Wu](https://github.com/giswqs) is an Assistant Professor in the Department of Geography at the University of Tennessee, checkout his [YouTube channel](https://www.youtube.com/c/QiushengWu)
