@@ -113,6 +113,7 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * 10 Labelled classes include - **Buildings, Road, Trees, Crops, Waterway, Vehicles**
 * [Interview with 1st place winner who used segmentation networks](http://blog.kaggle.com/2017/04/26/dstl-satellite-imagery-competition-1st-place-winners-interview-kyle-lee/) - 40+ models, each tweaked for particular target (e.g. roads, trees)
 * [Deepsense 4th place solution](https://deepsense.ai/deep-learning-for-satellite-imagery-via-image-segmentation/)
+* [Entry by lopuhin](https://github.com/lopuhin/kaggle-dstl) using UNet with batch-normalization
 
 ### Kaggle - Airbus Ship Detection Challenge
 * https://www.kaggle.com/c/airbus-ship-detection/overview
@@ -282,6 +283,7 @@ Assign a label to an image, e.g. this is an image of a forest. More complex case
 * [Slums mapping from pretrained CNN network on VHR and MR imagery](https://github.com/deepankverma/slums_detection)
 * [Comparing urban environments using satellite imagery and convolutional neural networks](https://github.com/adrianalbert/urban-environments) -> includes interesting study of the features extracted for each image. Accompanying [paper](https://www.researchgate.net/publication/315882788_Using_convolutional_networks_and_satellite_imagery_to_identify_patterns_in_urban_environments_at_a_large_scale)
 * [Keras-for-computer-vision](https://github.com/MaxLenormand/Keras-for-computer-vision) -> examples of both binary and multi-class classification
+* [SpectralNET](https://github.com/tanmay-ty/SpectralNET) -> a 2D wavelet CNN for Hyperspectral Image Classification
 
 ## Segmentation
 Whilst classification will assign a label to a whole image, segmentation will assign a label to each **pixel**. Segmentation is typically grouped into semantic or instance segmentation. In semantic segmentation objects of the same class are assigned the same label, whilst in instance segmentation each object is assigned a unique label. Mask R-CNN is typically used for instance segmentation.
@@ -503,6 +505,7 @@ Image registration is the process of transforming different sets of data into on
 * [eolearn](https://eo-learn.readthedocs.io/en/latest/_modules/eolearn/coregistration/coregistration.html) implements phase correlation, feature matching and [ECC](https://learnopencv.com/image-alignment-ecc-in-opencv-c-python/)
 * RStoolbox supports [Image to Image Co-Registration based on Mutual Information](https://bleutner.github.io/RStoolbox/rstbx-docu/coregisterImages.html)
 * Orfeo toolbox supports [registration using SIFT or SURF keypoints](orfeo-toolbox.org/CookBook/recipes/residual_registration.html?utm_source=pocket_mylist#extract-homologous-points-from-images)
+* [Reprojecting the Perseverance landing footage onto satellite imagery](https://matthewearl.github.io/2021/03/06/mars2020-reproject/)
 
 ## Terrain mapping, Lidar & DEMs
 Measure surface contours.
@@ -745,6 +748,7 @@ If you are happy to live exclusively in the Tensorflow or Pytorch ecosystem, the
 * [rsgislib](https://github.com/remotesensinginfo/rsgislib) -> Remote Sensing and GIS Software Library; python module tools for processing spatial data.
 * [eo-learn](https://eo-learn.readthedocs.io/en/latest/index.html) is a collection of open source Python packages that have been developed to seamlessly access and process spatio-temporal image sequences acquired by any satellite fleet in a timely and automatic manner
 * [RStoolbox: Tools for Remote Sensing Data Analysis in R](https://bleutner.github.io/RStoolbox/)
+* [nd](https://github.com/jnhansen/nd) -> Framework for the analysis of n-dimensional, multivariate Earth Observation data, built on xarray
 
 ## Low level numerical & data formats
 * [xarray](http://xarray.pydata.org/en/stable/) -> N-D labeled arrays and datasets. Read [Handling multi-temporal satellite images with Xarray](https://medium.com/@bonnefond.virginie/handling-multi-temporal-satellite-images-with-xarray-30d142d3391). Checkout [xarray_leaflet](https://github.com/davidbrochart/xarray_leaflet) for tiled map plotting
