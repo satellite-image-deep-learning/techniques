@@ -508,7 +508,7 @@ Image registration is the process of transforming different sets of data into on
 * [arosics](https://danschef.git-pages.gfz-potsdam.de/arosics/doc/about.html) -> Perform automatic subpixel co-registration of two satellite image datasets using phase-correlation, XY translations only.
 * [eolearn](https://eo-learn.readthedocs.io/en/latest/_modules/eolearn/coregistration/coregistration.html) implements phase correlation, feature matching and [ECC](https://learnopencv.com/image-alignment-ecc-in-opencv-c-python/)
 * RStoolbox supports [Image to Image Co-Registration based on Mutual Information](https://bleutner.github.io/RStoolbox/rstbx-docu/coregisterImages.html)
-* Orfeo toolbox supports [registration using SIFT or SURF keypoints](orfeo-toolbox.org/CookBook/recipes/residual_registration.html?utm_source=pocket_mylist#extract-homologous-points-from-images)
+* Orfeo toolbox supports [registration using SIFT or SURF keypoints](orfeo-toolbox.org/CookBook/recipes/residual_registration.html)
 * [Reprojecting the Perseverance landing footage onto satellite imagery](https://matthewearl.github.io/2021/03/06/mars2020-reproject/)
 
 ## Terrain mapping, Lidar & DEMs
