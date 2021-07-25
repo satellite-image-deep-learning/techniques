@@ -224,6 +224,10 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 ### TorchSat
 * [TorchSat](https://github.com/sshuair/torchsat) is an open-source deep learning framework for satellite imagery analysis based on PyTorch
 
+### torchrs - PyTorch Remote Sensing
+* [torchrs](https://github.com/isaaccorley/torchrs)
+* PyTorch implementation of popular datasets and models in remote sensing tasks (Change Detection, Image Super Resolution, Land Cover Classification/Segmentation, Image-to-Image Translation, etc.) for various Optical (Sentinel-2, Landsat, etc.) and Synthetic Aperture Radar (SAR) (Sentinel-1) sensors.
+
 ### Raster Vision by Azavea
 * https://www.azavea.com/projects/raster-vision/
 * An open source Python framework for building computer vision models on aerial, satellite, and other large imagery sets.
@@ -469,6 +473,7 @@ Translate images e.g. from SAR to RGB.
 * [DeblurGANv2](https://github.com/VITA-Group/DeblurGANv2) -> Deblurring (Orders-of-Magnitude) Faster and Better
 * [image-quality-assessment](https://github.com/idealo/image-quality-assessment) -> CNN to predict the aesthetic and technical quality of images
 * [Convolutional autoencoder for image denoising](https://keras.io/examples/vision/autoencoder/) -> keras guide
+* [piq](https://github.com/photosynthesis-team/piq) -> a collection of measures and metrics for image quality assessment
 
 ## Dimensionality Reduction
 * [LEt-SNE](https://github.com/meghshukla/LEt-SNE) -> Dimensionality Reduction and visualization technique that compensates for the curse of dimensionality
@@ -887,6 +892,7 @@ If you are performing object detection you will need to annotate images with bou
 * [Daniel Moraite](https://daniel-moraite.medium.com/) is publishing some excellent articles
 * [Even Rouault](https://github.com/rouault) maintains several of the most critical tools in this domain such as GDAL, please consider [sponsoring him](https://github.com/sponsors/rouault)
 * [Gonzalo Mateo García](https://github.com/gonzmg88) is working on clouds and Water segmentation with CNNs
+* [Isaac Corley](https://github.com/isaaccorley) is working on super-resolution and torchrs
 * [Jake Shermeyer](https://github.com/jshermeyer) many interesting repos
 * [Mort Canty](https://github.com/mortcanty) is an expert in change detection
 * [Mykola Kozyr](https://github.com/mykolakozyr) is working on streamlit apps
