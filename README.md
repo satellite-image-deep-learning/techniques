@@ -221,22 +221,22 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Combining Synthetic Data with Real Data to Improve Detection Results in Satellite Imagery](https://one-view.ai/combining-synthetic-data-with-real-data-to-improve-detection-results-in-satellite-imagery-case-study/)
 
 # Interesting deep learning projects
-### TorchSat
-* [TorchSat](https://github.com/sshuair/torchsat) is an open-source deep learning framework for satellite imagery analysis based on PyTorch
-
-### torchrs - PyTorch Remote Sensing
-* [torchrs](https://github.com/isaaccorley/torchrs)
-* PyTorch implementation of popular datasets and models in remote sensing tasks (Change Detection, Image Super Resolution, Land Cover Classification/Segmentation, Image-to-Image Translation, etc.) for various Optical (Sentinel-2, Landsat, etc.) and Synthetic Aperture Radar (SAR) (Sentinel-1) sensors.
-
 ### Raster Vision by Azavea
 * https://www.azavea.com/projects/raster-vision/
 * An open source Python framework for building computer vision models on aerial, satellite, and other large imagery sets.
 * Accessible through the [Raster Foundry](https://rasterfoundry.azavea.com/)
 * [Example use cases on open data](https://github.com/azavea/raster-vision-examples)
 
+### torchrs - PyTorch Remote Sensing
+* [torchrs](https://github.com/isaaccorley/torchrs)
+* PyTorch implementation of popular datasets and models in remote sensing tasks (Change Detection, Image Super Resolution, Land Cover Classification/Segmentation, Image-to-Image Translation, etc.) for various Optical (Sentinel-2, Landsat, etc.) and Synthetic Aperture Radar (SAR) (Sentinel-1) sensors
+
 ### spaceml.org
 * http://spaceml.org/
 * A Machine Learning toolbox and developer community building the next generation AI applications for space science and exploration.
+
+### TorchSat (no activity since June 2020)
+* [TorchSat](https://github.com/sshuair/torchsat) is an open-source deep learning framework for satellite imagery analysis based on PyTorch
 
 ### DeepNetsForEO (no activity since 2019)
 * https://github.com/nshaud/DeepNetsForEO
