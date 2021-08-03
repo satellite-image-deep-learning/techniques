@@ -328,6 +328,7 @@ Whilst classification will assign a label to a whole image, segmentation will as
 * [FarSeg](https://github.com/Z-Zheng/FarSeg) -> Foreground-Aware Relation Network for Geospatial Object Segmentation in High Spatial Resolution Remote Sensing Imagery
 * [Satellite Image Segmentation: a Workflow with U-Net](https://medium.com/vooban-ai/satellite-image-segmentation-a-workflow-with-u-net-7ff992b2a56e)
 * [Using a U-Net for image segmentation, blending predicted patches smoothly is a must to please the human eye.](https://github.com/Vooban/Smoothly-Blend-Image-Patches)
+* [SpaceNetUnet](https://github.com/boggis30/SpaceNetUnet) ->  Baseline model is Unet like, applied to SpaceNet Vegas data
 
 ## Object detection
 Put a box around individual objects in an image. A good introduction to the challenge of performing object detection on aerial imagery is given in [this paper](https://arxiv.org/abs/1902.06042v2). In summary, images are large and objects may comprise only a few pixels, easily confused with random features in background. An example task is detecting boats on the ocean, which should be simpler than land based detection owing to the relatively blank background in images, but is still challenging. Note that very small objects are often addressed using segmentation.
