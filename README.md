@@ -295,6 +295,7 @@ Assign a label to an image, e.g. this is an image of a forest. More complex case
 * [unsupervised-land-cover-classification](https://towardsdatascience.com/unsupervised-land-cover-classification-with-python-8e3734dc3c6d) using kmeans
 * [Landcover classification using K-NNC and K-means](https://www.linkedin.com/pulse/landcover-classification-using-k-nnc-k-means-zaw-thu-htet-toby-/)
 * [FreeNet](https://github.com/Z-Zheng/FreeNet) -> FPGA: Fast Patch-Free Global Learning Framework for Fully End-to-End Hyperspectral Image Classification
+* [Dynamic Time Warping for Satellite Image Time Series Classification](https://medium.com/soilwatch/dynamic-time-warping-for-satellite-image-time-series-classification-872d9e54b8d)
 
 ## Segmentation
 Whilst classification will assign a label to a whole image, segmentation will assign a label to each **pixel**. Segmentation is typically grouped into semantic or instance segmentation. In semantic segmentation objects of the same class are assigned the same label, whilst in instance segmentation each object is assigned a unique label. Mask R-CNN is typically used for instance segmentation.
