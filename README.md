@@ -61,7 +61,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 ## Landsat
 * Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program) and read [the official webpage](https://www.usgs.gov/core-science-systems/nli/landsat)
 * 8 bands, 15 to 60 meters, 185km swath, the temporal resolution is 16 days
-* DECEMBER 2020: USGS publishes Landsat Collection 2 Dataset with 'significant geometric and radiometric improvements'. COG and STAC data format. [Announcement](https://www.usgs.gov/news/usgs-releases-most-advanced-landsat-archive-date) and [website](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-collection-2-level-1-data?qt-science_support_page_related_con=1#qt-science_support_page_related_con). Beware data on Google and AWS (below) may be in different formats.
+* DECEMBER 2020 [Announcement](https://www.usgs.gov/news/usgs-releases-most-advanced-landsat-archive-date): USGS publishes Landsat Collection 2 Dataset with 'significant geometric and radiometric improvements'. COG and STAC data format.
 * [Landsat 4, 5, 7, and 8 imagery on Google](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with Landsat 8 imagery in COG format analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb)
 * [Landsat 8 imagery on AWS](https://registry.opendata.aws/landsat-8/), with many tutorials and tools listed
 * https://github.com/kylebarron/landsat-mosaic-latest -> Auto-updating cloudless Landsat 8 mosaic from AWS SNS notifications
