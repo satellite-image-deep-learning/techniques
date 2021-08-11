@@ -300,6 +300,7 @@ Assign a label to an image, e.g. this is an image of a forest. More complex case
 * [Landcover classification using K-NNC and K-means](https://www.linkedin.com/pulse/landcover-classification-using-k-nnc-k-means-zaw-thu-htet-toby-/)
 * [FreeNet](https://github.com/Z-Zheng/FreeNet) -> FPGA: Fast Patch-Free Global Learning Framework for Fully End-to-End Hyperspectral Image Classification
 * [Dynamic Time Warping for Satellite Image Time Series Classification](https://medium.com/soilwatch/dynamic-time-warping-for-satellite-image-time-series-classification-872d9e54b8d) with [implementation](https://github.com/wouellette/ee-dynamic-time-warping) in Google Earth Engine
+* [IEEE_TGRS_GCN](https://github.com/danfenghong/IEEE_TGRS_GCN) -> Graph Convolutional Networks for Hyperspectral Image Classification
 
 ## Segmentation
 Whilst classification will assign a label to a whole image, segmentation will assign a label to each **pixel**. Segmentation is typically grouped into semantic or instance segmentation. In semantic segmentation objects of the same class are assigned the same label, whilst in instance segmentation each object is assigned a unique label. Mask R-CNN is typically used for instance segmentation.
@@ -424,6 +425,7 @@ Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, c
 * [temporalCNN](https://github.com/charlotte-pel/temporalCNN) -> Temporal Convolutional Neural Network for the Classification of Satellite Image Time Series
 * [Self-supervised Change Detection in Multi-view Remote Sensing Images](https://github.com/cyx669521/self-supervised_change_detetction)
 * [MFPNet](https://github.com/wzjialang/MFPNet) -> Remote Sensing Change Detection Based on Multidirectional Adaptive Feature Fusion and Perceptual Similarity
+* [pytorch-psetae](https://github.com/VSainteuf/pytorch-psetae) -> PyTorch implementation of the model presented in Satellite Image Time Series Classification with Pixel-Set Encoders and Temporal Self-Attention
 
 ## Wealth and economic activity measurement
 The goal is to predict economic activity from satellite imagery rather than conducting labour intensive ground surveys
@@ -569,11 +571,18 @@ Measure surface contours.
 * [Thermal imaging with satellites](https://chrieke.medium.com/thermal-imaging-with-satellites-34f381856dd1) blog post by Christoph Rieke
 
 # ML best practice
+This section includes tips and ideas I have picked up from other practitioners including [ai-fast-track](https://github.com/ai-fast-track), [FraPochetti](https://github.com/FraPochetti) & the IceVision community
 * Almost all imagery data on the internet is in RGB format, and common techniques designed for working with this 3 band imagery may fail or need significant adaptation to work with multiband data (e.g. 13-band Sentinel 2)
 * In general, classification and object detection models are created using transfer learning, where the majority of the weights are not updated in training but have been pre computed using standard vision datasets such as ImageNet
-* [Fully Convolutional Image Classification on Arbitrary Sized Image](https://learnopencv.com/fully-convolutional-image-classification-on-arbitrary-sized-image/) -> TLDR replace the fully-connected layer with a convolution-layer
+* Since satellite images are typically very large, it is common to tile them before processing. Alternatively checkout [Fully Convolutional Image Classification on Arbitrary Sized Image](https://learnopencv.com/fully-convolutional-image-classification-on-arbitrary-sized-image/) -> TLDR replace the fully-connected layer with a convolution-layer
+* Where you have small sample sizes, e.g. for a small object class which may be under represented in your training dataset, use image augmentation
+* In general, larger models will outperform smaller models, particularly on challenging tasks such as detecting small objetcs
+* If model performance in unsatisfactory, try to increase your dataset size before switching to another model architecture
+* In training, whenever possible increase the batch size, as small batch sizes produce poor normalization statistics
 * The vast majority of the literature uses supervised learning with the requirement for large volumes of annotated data, which is a bottleneck to development and deployment. We are just starting to see self-supervised approaches applied to remote sensing data
 * [4-ways-to-improve-class-imbalance](https://towardsdatascience.com/4-ways-to-improve-class-imbalance-for-image-data-9adec8f390f1) discusses the pros and cons of several rebalancing techniques, applied to an aerial dataset. Reason to read: models can reach an accuracy ceiling where majority classes are easily predicted but minority classes poorly predicted. Overall model accuracy may not improve until steps are taken to account for class imbalance.
+* For general guidance on dataset size see [this issue](https://github.com/ultralytics/yolov5/issues/3306)
+* Read [A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/) by Andrej Karpathy
 * [Seven steps towards a satellite imagery dataset](https://omdena.com/blog/satellite-imagery-dataset/)
 * [Implementing Transfer Learning from RGB to Multi-channel Imagery](https://towardsdatascience.com/implementing-transfer-learning-from-rgb-to-multi-channel-imagery-f87924679166) -> takes a resnet50 model pre-trained on an input of 224x224 pixels with 3 channels (RGB) and updates it for a new input of 480x400 pixels and 15 channels (12 new + RGB) using keras
 * [How to implement augmentations for Multispectral Satellite Images Segmentation using Fastai-v2 and Albumentations](https://towardsdatascience.com/how-to-implement-augmentations-for-multispectral-satellite-images-segmentation-using-fastai-v2-and-ea3965736d1)
