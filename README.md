@@ -34,10 +34,14 @@ This document lists resources for performing deep learning (DL) on satellite ima
 # Datasets
 **Warning** satellite image files can be LARGE, even a small data set may comprise 50 GB of imagery
 
-## WorldView
-* A commercial satellite owned by [DigitalGlobe](https://www.digitalglobe.com/)
-* https://en.wikipedia.org/wiki/WorldView-3
-* 0.3m PAN, 1.24 MS, 3.7m SWIR. Off-Nadir (stereo) available
+## Maxar
+* Satellites owned by [Maxar](https://www.maxar.com/) (formerly DigitalGlobe)
+  * https://en.wikipedia.org/wiki/GeoEye-1
+  * https://en.wikipedia.org/wiki/WorldView-2
+  * https://en.wikipedia.org/wiki/WorldView-3
+  * https://en.wikipedia.org/wiki/WorldView-4
+* [Open Data images for humanitarian response](https://www.maxar.com/open-data)
+* Maxar ARD (COG plus data masks, with STAC) [sample data in S3](https://ard.maxar.com/docs/sdk/examples/outputs/)
 * [Dataset on AWS](https://spacenet.ai/datasets/) -> see [this getting started notebook](https://medium.com/the-downlinq/getting-started-with-spacenet-data-827fd2ec9f53) and this notebook on the [off-Nadir dataset](https://medium.com/the-downlinq/introducing-the-spacenet-off-nadir-imagery-and-buildings-dataset-e4a3c1cb4ce3)
 * [cloud_optimized_geotif here](http://menthe.ovh.hw.ipol.im/IARPA_data/cloud_optimized_geotif/) used in the 3D modelling notebook [here](https://gfacciol.github.io/IS18/).
 * [WorldView cloud optimized geotiffs](http://menthe.ovh.hw.ipol.im/IARPA_data/cloud_optimized_geotif/) used in the 3D modelling notebook [here](https://gfacciol.github.io/IS18/).
