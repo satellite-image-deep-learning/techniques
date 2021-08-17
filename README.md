@@ -280,8 +280,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [Comparing urban environments using satellite imagery and convolutional neural networks](https://github.com/adrianalbert/urban-environments) -> includes interesting study of the image embedding features extracted for each image on the Urban Atlas dataset. Accompanying [paper](https://www.researchgate.net/publication/315882788_Using_convolutional_networks_and_satellite_imagery_to_identify_patterns_in_urban_environments_at_a_large_scale)
 
 ## Segmentation
-Segmentation will assign a class label to each **pixel** in an image. Segmentation is typically grouped into semantic or instance segmentation. In semantic segmentation objects of the same class are assigned the same label, whilst in instance segmentation each object is assigned a unique label. Note that many articles which refer to 'hyperspectral land classification' are actually describing semantic segmentation.
-* [A Beginner’s Guide to Segmentation in Satellite Images](https://medium.com/gsi-technology/a-beginners-guide-to-segmentation-in-satellite-images-9c00d2028d52)
+Segmentation will assign a class label to each **pixel** in an image. Segmentation is typically grouped into semantic or instance segmentation. In semantic segmentation objects of the same class are assigned the same label, whilst in instance segmentation each object is assigned a unique label. Read this [geginner’s guide to segmentation](https://medium.com/gsi-technology/a-beginners-guide-to-segmentation-in-satellite-images-9c00d2028d52). **Note** that many articles which refer to 'hyperspectral land classification' are actually describing semantic segmentation. 
 
 ### Semantic segmentation
 Almost always performed using U-Net
@@ -301,11 +300,9 @@ Almost always performed using U-Net
 * [Winning Solutions from SpaceNet Road Detection and Routing Challenge](https://github.com/SpaceNetChallenge/RoadDetector)
 * [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net
 * [kenya-crop-mask](https://github.com/nasaharvest/kenya-crop-mask) -> Annual and in-season crop mapping in Kenya - LSTM classifier to classify pixels as containing crop or not, and a multi-spectral forecaster that provides a 12 month time series given a partial input. Dataset downloaded from GEE and pytorch lightning used for training
-* [FactSeg](https://github.com/Junjue-Wang/FactSeg) -> Foreground Activation Driven Small Object Semantic Segmentation in Large-Scale Remote Sensing Imagery (TGRS)
-* [Pix2Pix-for-Semantic-Segmentation-of-Satellite-Images](https://github.com/A2Amir/Pix2Pix-for-Semantic-Segmentation-of-Satellite-Images) -> using Pix2Pix network to segment the building footprint from Satellite Images
-* [EarthMapper](https://github.com/rmkemker/EarthMapper) -> Pipeline for the Semantic Segmentation of Remote Sensing Imagery
+* [FactSeg](https://github.com/Junjue-Wang/FactSeg) -> Foreground Activation Driven Small Object Semantic Segmentation in Large-Scale Remote Sensing Imagery (TGRS), also see [FarSeg](https://github.com/Z-Zheng/FarSeg), implementations of research paper
+* [Pix2Pix-for-Semantic-Segmentation-of-Satellite-Images](https://github.com/A2Amir/Pix2Pix-for-Semantic-Segmentation-of-Satellite-Images) -> using Pix2Pix GAN network to segment the building footprint from Satellite Images, uses tensorflow
 * [Semi-Supervised Classification and Segmentation on High Resolution Aerial Images - Solving the FloodNet problem](https://sahilkhose.medium.com/paper-presentation-e9bd0f3fb0bf)
-* [FarSeg](https://github.com/Z-Zheng/FarSeg) -> Foreground-Aware Relation Network for Geospatial Object Segmentation in High Spatial Resolution Remote Sensing Imagery
 * [Satellite Image Segmentation: a Workflow with U-Net](https://medium.com/vooban-ai/satellite-image-segmentation-a-workflow-with-u-net-7ff992b2a56e)
 * [Using a U-Net for image segmentation, blending predicted patches smoothly is a must to please the human eye.](https://github.com/Vooban/Smoothly-Blend-Image-Patches)
 * [SpaceNetUnet](https://github.com/boggis30/SpaceNetUnet) ->  Baseline model is Unet like, applied to SpaceNet Vegas data
@@ -321,6 +318,7 @@ Almost always performed using U-Net
 * [FreeNet](https://github.com/Z-Zheng/FreeNet) -> FPGA: Fast Patch-Free Global Learning Framework for Fully End-to-End Hyperspectral Image Classification
 
 ### Instance segmentation
+For detection of very small objects this may be the best approach
 * [Instance segmentation of center pivot irrigation system in Brazil](https://github.com/saraivaufc/instance-segmentation-maskrcnn) using free Landsat images, mask R-CNN & Keras
 * [Oil tank instance segmentation with Mask R-CNN](https://github.com/georgiosouzounis/instance-segmentation-mask-rcnn) with [accompanying article](https://medium.com/@georgios.ouzounis/oil-storage-tank-instance-segmentation-with-mask-r-cnn-77c94433045f) using Keras & Airbus Oil Storage Detection Dataset on Kagg;e
 
