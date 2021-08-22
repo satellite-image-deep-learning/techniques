@@ -20,3 +20,4 @@ bin-release/
 
 .ipynb_checkpoints
 .DS_Store
+.vscode/settings.json
