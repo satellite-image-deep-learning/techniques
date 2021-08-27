@@ -324,6 +324,8 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery more class
 * [Mapping Africa’s Buildings with Satellite Imagery: Google AI blog post](https://ai.googleblog.com/2021/07/mapping-africas-buildings-with.html)
 * [DeepSolar: A Machine Learning Framework to Efficiently Construct a Solar Deployment Database in the United States](https://www.cell.com/joule/fulltext/S2542-4351(18)30570-1) -> with [website](http://web.stanford.edu/group/deepsolar/home) and [dataset on kaggle](https://www.kaggle.com/tunguz/deep-solar-dataset), actually used a CNN for classification and segmentation is obtained by applying a threshold to the activation map
 * [Find sports fields using Mask R-CNN and overlay on open-street-map](https://github.com/jremillard/images-to-osm)
+* [Houston_flooding](https://github.com/Lichtphyz/Houston_flooding) -> labeling each pixel as either flooded or not using data from Hurricane Harvey. Dataset consisted of pre and post flood images, and a ground truth floodwater mask was created using unsupervised clustering (with DBScan) of image pixels with human cluster verification/adjustment.
+* [dubai-satellite-imagery-segmentation](https://github.com/ayushdabra/dubai-satellite-imagery-segmentation) -> due to the small dataset, image augmentation was used
 
 ### Instance segmentation
 For detection of very small objects this may a good approach, but can struggle seperating individual objects that are closely spaced.
@@ -331,7 +333,7 @@ For detection of very small objects this may a good approach, but can struggle s
 * [Oil tank instance segmentation with Mask R-CNN](https://github.com/georgiosouzounis/instance-segmentation-mask-rcnn) with [accompanying article](https://medium.com/@georgios.ouzounis/oil-storage-tank-instance-segmentation-with-mask-r-cnn-77c94433045f) using Keras & Airbus Oil Storage Detection Dataset on Kaggle
 
 ## Object detection
-Put a box around individual objects in an image. A good introduction to the challenge of performing object detection on aerial imagery is given in [this paper](https://arxiv.org/abs/1902.06042v2). In summary, images are large and objects may comprise only a few pixels, easily confused with random features in background. In general object detecion performs well on large objects, and gets increasingly difficult as the objects get smaller & more densely packed.
+Put a box around individual objects in an image. A good introduction to the challenge of performing object detection on aerial imagery is given in [this paper](https://arxiv.org/abs/1902.06042v2). In summary, images are large and objects may comprise only a few pixels, easily confused with random features in background. In general object detecion performs well on large objects, and gets increasingly difficult as the objects get smaller & more densely packed. Model accuracy falls off rapidly as resolution degrades, so it is common for object detection to use very high resolution imagery, e.g. 30cm RGB.
 * [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
 * [Tackling the Small Object Problem in Object Detection](https://blog.roboflow.com/tackling-the-small-object-problem-in-object-detection)
 * [Satellite Imagery Multiscale Rapid Detection with Windowed Networks (SIMRDWN)](https://github.com/avanetten/simrdwn) -> combines some of the leading object detection algorithms into a unified framework designed to detect objects both large and small in overhead imagery. Train models and test on arbitrary image sizes with YOLO (versions 2 and 3), Faster R-CNN, SSD, or R-FCN.
@@ -426,7 +428,7 @@ The goal is to predict economic activity from satellite imagery rather than cond
 * https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb
 * [Measuring the Impacts of Poverty Alleviation Programs with Satellite Imagery and Deep Learning](https://github.com/luna983/beyond-nightlight)
 * [Traffic density estimation as a regression problem](https://omdena.com/blog/ai-road-safety/)
-* [Crop Yield Prediction Using Deep Neural Networks and LSTM](https://omdena.com/blog/deep-learning-yield-prediction/) and [Building a Crop Yield Prediction App in Senegal Using Satellite Imagery and Jupyter](https://omdena.com/blog/yield-prediction/)
+* [Crop Yield Prediction Using Deep Neural Networks and LSTM](https://omdena.com/blog/deep-learning-yield-prediction/) and [Building a Crop Yield Prediction App in Senegal Using Satellite Imagery and Jupyter Voila](https://omdena.com/blog/yield-prediction/)
 * [Advanced Deep Learning Techniques for Predicting Maize Crop Yield using Sentinel-2 Satellite Imagery](https://zionayomide.medium.com/advanced-deep-learning-techniques-for-predicting-maize-crop-yield-using-sentinel-2-satellite-1b63ac8b0789)
 * [Building a Spatial Model to Classify Global Urbanity Levels](https://towardsdatascience.com/building-a-spatial-model-to-classify-global-urbanity-levels-e2fb9da7252) -> estimage global urbanity levels from population data, nightime lights and road networks
 
@@ -655,6 +657,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [stac-fastapi](https://github.com/stac-utils/stac-fastapi) -> STAC API implementation with FastAPI
 * [ml-aoi](https://github.com/stac-extensions/ml-aoi) -> An Item and Collection extension to provide labeled training data for machine learning models
 * [Using STAC to catalog machine learning training data](https://medium.com/radiant-earth-insights/discoverable-and-reusable-ml-workflows-for-earth-observation-part-1-e198507b5eaa)
+* [eoAPI](https://github.com/developmentseed/eoAPI) -> Earth Observation API with STAC + dynamic Raster/Vector Tiler
 
 # State of the art
 * Compute and data storage are moving to the cloud
@@ -868,6 +871,8 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [xmovie](https://github.com/jbusecke/xmovie) -> A simple way of creating movies from xarray objects
 * [acquisition-time](https://github.com/charlotte-pel/acquisition-time) -> Drawing (Satellite) acquisition dates in a timeline
 * [splot](https://github.com/pysal/splot) -> Lightweight plotting for geospatial analysis in PySAL
+* [prettymaps](https://github.com/marceloprates/prettymaps) -> A small set of Python functions to draw pretty maps from OpenStreetMap data
+* [Tools to Design or Visualize Architecture of Neural Network](https://github.com/ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network)
 
 ## Streamlit
 [Streamlit](https://streamlit.io/) is an awesome python framework for creating apps with python. Additionally they will host the apps free of charge. Here I list resources which are EO related. Note that a component is an addon which extends Streamlits basic functionality. If you like Streamlit also checkout [gradio](https://www.gradio.app/)
@@ -962,6 +967,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Near Space Labs](https://github.com/nearspacelabs)
 * [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
 * [SatelliteVu](https://github.com/SatelliteVu) -> currently it's all private!
+* [SpaceKnow](https://github.com/SpaceKnow)
 * [Sparkgeo](https://github.com/sparkgeo)
 * [up42](https://github.com/up42) -> Airbus spinout providing 'The easiest way to build geospatial solutions'
 
