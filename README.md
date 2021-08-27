@@ -894,7 +894,6 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [Wild fire detection app](https://github.com/yueureka/WildFireDetection)
 
 ## Cluster computing with Dask
-* Get started by reading [Democratizing Satellite Imagery Analysis with Dask](https://coiled.io/blog/democratizing-satellite-imagery-analysis-with-dask/)
 * [Dask](https://docs.dask.org/en/latest/) works with your favorite PyData libraries to provide performance at scale for the tools you love -> checkout [Read and manipulate tiled GeoTIFF datasets](https://examples.dask.org/applications/satellite-imagery-geotiff.html#) and [accelerating-science-dask](https://coiled.io/blog/accelerating-science-dask-gentemann/)
 * [Coiled](https://coiled.io) is a managed Dask service.
 * [Dask with PyTorch for large scale image analysis](https://blog.dask.org/2021/03/29/apply-pretrained-pytorch-model)
