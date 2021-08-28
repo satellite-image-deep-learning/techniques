@@ -98,6 +98,8 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery more class
 * [Find sports fields using Mask R-CNN and overlay on open-street-map](https://github.com/jremillard/images-to-osm)
 * [Houston_flooding](https://github.com/Lichtphyz/Houston_flooding) -> labeling each pixel as either flooded or not using data from Hurricane Harvey. Dataset consisted of pre and post flood images, and a ground truth floodwater mask was created using unsupervised clustering (with DBScan) of image pixels with human cluster verification/adjustment.
 * [dubai-satellite-imagery-segmentation](https://github.com/ayushdabra/dubai-satellite-imagery-segmentation) -> due to the small dataset, image augmentation was used
+* [nz_convnet](https://github.com/weiji14/nz_convnet) -> A U-net based ConvNet for New Zealand imagery to classify building outlines
+* [HED-UNet](https://github.com/khdlr/HED-UNet) -> a model for simultaneous semantic segmentation and edge detection, examples provided are glacier fronts and building footprints using the Inria Aerial Image Labeling dataset
 
 ### Instance segmentation
 For detection of very small objects this may a good approach, but can struggle seperating individual objects that are closely spaced.
@@ -934,6 +936,7 @@ If you are performing object detection you will need to annotate images with bou
 * [dash_doodler](https://github.com/dbuscombe-usgs/dash_doodler) -> A web application built with plotly/dash for image segmentation with minimal supervision
 * [Create your own annotation tool using Bokeh Holoviews](https://examples.pyviz.org/ml_annotators/ml_annotators.html#ml-annotators-gallery-ml-annotators)
 * [Satellite imagery label tool](https://github.com/calebrob6/labeling-tool) -> provides an easy way to collect a random sample of labels over a given scene of satellite imagery
+* [geolabel-maker](https://github.com/makinacorpus/geolabel-maker) -> combine satellite or aerial imagery with vector spatial data to create your own ground-truth dataset in the COCO format for deep-learning models
 
 # Movers and shakers on Github
 * [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
@@ -970,6 +973,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Maxar-Analytics](https://github.com/maxar-analytics)
 * [Near Space Labs](https://github.com/nearspacelabs)
 * [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
+* [Preligens](https://github.com/earthcube-lab) -> formerly Earthcube Lab
 * [SatelliteVu](https://github.com/SatelliteVu) -> currently it's all private!
 * [SpaceKnow](https://github.com/SpaceKnow)
 * [Sparkgeo](https://github.com/sparkgeo)
