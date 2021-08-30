@@ -13,6 +13,8 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [Cloud providers](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-providers)
 * [Production](https://github.com/robmarkcole/satellite-image-deep-learning#production)
 * [Image formats, data management and catalogues](https://github.com/robmarkcole/satellite-image-deep-learning#image-formats-data-management-and-catalogues)
+* [Image annotation](https://github.com/robmarkcole/satellite-image-deep-learning#image-annotation)
+* [Useful paid software](https://github.com/robmarkcole/satellite-image-deep-learning#useful-paid-software)
 * [Useful open source software](https://github.com/robmarkcole/satellite-image-deep-learning#useful-open-source-software)
 * [Movers and shakers on Github](https://github.com/robmarkcole/satellite-image-deep-learning#movers-and-shakers-on-github)
 * [Companies on Github](https://github.com/robmarkcole/satellite-image-deep-learning#companies-on-github)
@@ -577,43 +579,43 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Synthinel](https://github.com/timqqt/Synthinel) -> synthetic overhead imagery with full pixel-wise building labels, created using ESRI CityEngine
 
 # Interesting deep learning projects
-### Raster Vision by Azavea
+## Raster Vision by Azavea
 * https://www.azavea.com/projects/raster-vision/
 * An open source Python framework for building computer vision models on aerial, satellite, and other large imagery sets.
 * Accessible through the [Raster Foundry](https://rasterfoundry.azavea.com/)
 * [Example use cases on open data](https://github.com/azavea/raster-vision-examples)
 
-### torchrs - PyTorch Remote Sensing
+## torchrs - PyTorch Remote Sensing
 * [torchrs](https://github.com/isaaccorley/torchrs)
 * PyTorch implementation of popular datasets and models in remote sensing tasks (Change Detection, Image Super Resolution, Land Cover Classification/Segmentation, Image-to-Image Translation, etc.) for various Optical (Sentinel-2, Landsat, etc.) and Synthetic Aperture Radar (SAR) (Sentinel-1) sensors
 
-### chip-n-scale-queue-arranger by developmentseed
+## chip-n-scale-queue-arranger by developmentseed
 * https://github.com/developmentseed/chip-n-scale-queue-arranger
 * an orchestration pipeline for running machine learning inference at scale
 * [Supports fastai models](https://github.com/developmentseed/fastai-serving)
 
-### spaceml.org
+## spaceml.org
 * http://spaceml.org/
 * A Machine Learning toolbox and developer community building the next generation AI applications for space science and exploration.
 
-### TorchSat (no activity since June 2020)
+## TorchSat (no activity since June 2020)
 * [TorchSat](https://github.com/sshuair/torchsat) is an open-source deep learning framework for satellite imagery analysis based on PyTorch
 
-### DeepNetsForEO (no activity since 2019)
+## DeepNetsForEO (no activity since 2019)
 * https://github.com/nshaud/DeepNetsForEO
 * Uses SegNET for working on remote sensing images using deep learning.
 
-### Skynet-data (no activity since 2018)
+## Skynet-data (no activity since 2018)
 * https://github.com/developmentseed/skynet-data
 * Data pipeline for machine learning with OpenStreetMap
 
-### RoboSat (no longer maintained)
+## RoboSat (no longer maintained)
 * https://github.com/mapbox/robosat
 * Semantic segmentation on aerial and satellite imagery. Extracts features such as: buildings, parking lots, roads, water, clouds
 * [robosat-jupyter-notebook](https://github.com/Element84/robosat-jupyter-notebook) -> walks through all of the steps in an excellent blog post on the Robosat feature extraction and machine learning pipeline.
 * Note there is/was fork of Robosat, originally named RoboSat.pink, and subsequently neat-EO.pink although this appears to be dead/archived
 
-### DeepOSM (no activity since 2017)
+## DeepOSM (no activity since 2017)
 * https://github.com/trailbehind/DeepOSM
 * Train a deep learning net with OpenStreetMap features and satellite imagery.
 
@@ -641,14 +643,14 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 # Free online computing resources
 A GPU is required for training deep learning models (but not necessarily for inferencing), and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter development environments [on the fastai site](https://course19.fast.ai). I personally use Colab Pro with data hosted on Google Drive, or Sagemaker if I have very long running training jobs.
 
-### Google Colab
+## Google Colab
 * Collaboratory [notebooks](https://colab.research.google.com) with GPU as a backend for free for 12 hours at a time. Note that the GPU may be shared with other users, so if you aren't getting good performance try reloading.
 * Also a pro tier for $10 a month -> https://colab.research.google.com/signup
 * Tensorflow, pytorch & fastai available but you may need to update them
 * [Colab Alive](https://chrome.google.com/webstore/detail/colab-alive/eookkckfbbgnhdgcbfbicoahejkdoele?hl=en) is a chrome extension that keeps Colab notebooks alive.
 * [colab-ssh](https://github.com/WassimBenzarti/colab-ssh) -> lets you ssh to a colab instance like it’s an EC2 machine and install packages that require full linux functionality
 
-### Kaggle - also Google!
+## Kaggle - also Google!
 * Free to use
 * GPU Kernels - may run for 1 hour
 * Tensorflow, pytorch & fastai available but you may need to update them
@@ -683,17 +685,17 @@ An overview of the most relevant services provided by the main cloud providers. 
 # Production
 This section discusses how to get a trained deep learning model into production. For an overview on serving deep learning models checkout [Practical-Deep-Learning-on-the-Cloud](https://github.com/PacktPublishing/-Practical-Deep-Learning-on-the-Cloud). There are many options if you are happy to dedicate a server, although you will want a GPU for batch processing. For serverless consider AWS lambda.
 
-### Rest API on dedicated server
+## Rest API on dedicated server
 A conceptually simple approach to serving up deep learning model inference code is to wrap it in a rest API. The API can be implemented in python (flask or FastAPI), and hosted on a dedicated server e.g. EC2 instance. Note that making this a scalable solution will require significant experience.
 * Basic API: https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html with code [here](https://github.com/jrosebr1/simple-keras-rest-api)
 * Advanced API with request queuing: https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
 
-### Framework specific model serving options
+## Framework specific model serving options
 If you are happy to live exclusively in the Tensorflow or Pytorch ecosystem, these are good options
 * [Tensorflow serving](https://www.tensorflow.org/tfx/guide/serving) is limited to Tensorflow models
 * [Pytorch serve](https://github.com/pytorch/serve) is easy to use, limited to Pytorch models, can be deployed via AWS Sagemaker
 
-### NVIDIA Triton server
+## NVIDIA Triton server
 * The [Triton Inference Server](https://github.com/triton-inference-server/server) provides an optimized cloud and edge inferencing solution
 * Supports TensorFlow, ONNX, PyTorch TorchScript and OpenVINO model formats. Both TensorFlow 1.x and TensorFlow 2.x are supported.
 * Read [CAPE Analytics Uses Computer Vision to Put Geospatial Data and Risk Information in Hands of Property Insurance Companies](https://blogs.nvidia.com/blog/2021/05/21/cape-analytics-computer-vision/)
@@ -753,6 +755,46 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [ml-aoi](https://github.com/stac-extensions/ml-aoi) -> An Item and Collection extension to provide labeled training data for machine learning models
 * [Using STAC to catalog machine learning training data](https://medium.com/radiant-earth-insights/discoverable-and-reusable-ml-workflows-for-earth-observation-part-1-e198507b5eaa)
 * [eoAPI](https://github.com/developmentseed/eoAPI) -> Earth Observation API with STAC + dynamic Raster/Vector Tiler
+
+# Image annotation
+For supervised machine learning, you will require annotated images. For example if you are performing object detection you will need to annotate images with bounding boxes. Check that your annotation tool of choice supports large image (likely geotiff) files, as not all will. Note that GeoJSON is widely used by remote sensing researchers but this annotation format is not commonly supported in general computer vision frameworks, and in practice you may have to convert the annotation format to use the data with your chosen framework. There are both closed and open source tools for creating and converting annotation formats. Some of these tools are simply for performing annotation, whilst others add features such as dataset management and versioning.
+
+## Open source & desktop annotation tools
+Start with labelImg or labelme if you are annotating solo, or CVAT if you are in a team.
+* If you are considering building an in house annotation platform [read this article](https://medium.com/earthcube-stories/ai-products-and-remote-sensing-yes-it-is-hard-and-yes-you-need-a-good-infra-4b5d6cf822f1). Used PostGis database, GeoJson format and GIS standard in a stateless architecture.
+* [labelImg](https://github.com/tzutalin/labelImg) is the classic desktop tool, limited to bounding boxes for object detection. Also checkout [roLabelImg](https://github.com/cgvict/roLabelImg) which supports ROTATED rectangle regions, as often occurs in aerial imagery.
+* [Labelme](https://github.com/wkentaro/labelme) is a simple dektop app for polygonal annotation, but note it outputs annotations in a custom LabelMe JSON format which you will need to convert. Read [Labelme Image Annotation for Geotiffs](https://medium.com/@wvsharber/labelme-image-annotation-for-geotiffs-b460ba83804f)
+* [CVAT](https://github.com/openvinotoolkit/cvat) suports object detection, segmentation and classification via a local web app. There is an [open issue](https://github.com/openvinotoolkit/cvat/issues/531) to support large TIFF files. [This article on Roboflow](https://blog.roboflow.com/cvat/) gives a good intro to CVAT.
+* [Create your own annotation tool using Bokeh Holoviews](https://examples.pyviz.org/ml_annotators/ml_annotators.html#ml-annotators-gallery-ml-annotators)
+* [geolabel-maker](https://github.com/makinacorpus/geolabel-maker) -> combine satellite or aerial imagery with vector spatial data to create your own ground-truth dataset in the COCO format for deep-learning models
+* [VoTT](https://github.com/Microsoft/VoTT) -> an electron app for building end to end Object Detection Models from Images and Videos, by Microsoft
+* [Label Studio](https://github.com/heartexlabs/label-studio) is a multi-type data labeling and annotation tool with standardized output format, webpage at [labelstud.io](https://labelstud.io/)
+* [Deeplabel](https://github.com/jveitchmichaelis/deeplabel) is a cross-platform tool for annotating images with labelled bounding boxes. Deeplabel also supports running inference using state-of-the-art object detection models like Faster-RCNN and YOLOv4. With support out-of-the-box for CUDA, you can quickly label an entire dataset using an existing model.
+* [Alturos.ImageAnnotation](https://github.com/AlturosDestinations/Alturos.ImageAnnotation) is a collaborative tool for labeling image data on S3 for yolo
+* [rectlabel](https://rectlabel.com/) is a desktop app for MacOS to label images for bounding box object detection and segmentation, free and paid versions
+* [pigeonXT](https://github.com/dennisbakhuis/pigeonXT) can be used to create custom image classification annotators within Jupyter notebooks
+* [ipyannotations](https://github.com/janfreyberg/ipyannotations) -> Image annotations in python using jupyter notebooks
+* [diffgram](https://github.com/diffgram/diffgram) supports cloud backends, also [available as hosted service](https://diffgram.com/)
+* [Label-Detect](https://github.com/Jakaria08/Label-Detect) -> is a graphical image annotation tool and using this tool a user can also train and test large satellite images, fork of the popular labelImg tool
+* [Swipe-Labeler](https://github.com/spaceml-org/Swipe-Labeler) -> Swipe Labeler is a Graphical User Interface based tool that allows rapid labeling of image data
+* SuperAnnotate can be run [locally](https://github.com/opencv-ai/superannotate) or used via a [cloud service](https://superannotate.com/)
+* [dash_doodler](https://github.com/dbuscombe-usgs/dash_doodler) -> A web application built with plotly/dash for image segmentation with minimal supervision
+
+## Enterprise grade annotation platforms
+Generally more fully featured than open source tools, often adding model assisted labelling & integration with providers of annotation as a service (outsourced annotation). There are many companies competing in this space, so I just list a few I have experience with.
+* [GroundWork](https://groundwork.azavea.com/) is designed for annotating and labeling geospatial data like satellite imagery, from Azavea
+* [Roboflow](https://roboflow.com) can be used to convert between annotation formats & manage datasets, as well as train and deploy custom models. Free tier quite useful
+* [supervise.ly](https://supervise.ly) is one of the more fully featured platforms, decent free tier
+* AWS supports image annotation via the [Rekognition Custom Labels console](https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/gs-console.html)
+* The [labelbox.com](https://labelbox.com/) free tier is quite generous
+
+## Annotation formats
+Note there are many annotation formats, although PASCAL VOC and coco-json are the most commonly used.
+* PASCAL VOC format: XML files in the format used by ImageNet
+* coco-json format: JSON in the format used by the 2015 COCO dataset
+* YOLO Darknet TXT format: contains one text file per image, used by YOLO
+* Tensorflow TFRecord: a proprietary binary file format used by the Tensorflow Object Detection API
+* Many more formats listed [here](https://roboflow.com/formats)
 
 # Useful paid software
 Many of these companies & products predate the open source software boom, and offer functionality which can be found in open source alternatives. However it is important to consider the licensing and support aspects before adopting an open source stack.
@@ -918,46 +960,6 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [python-fmask](https://github.com/ubarsc/python-fmask) -> Implementation in Python of the cloud and shadow algorithms known collectively as Fmask
 * [pyshepseg](https://github.com/ubarsc/pyshepseg) -> Python implementation of image segmentation algorithm of Shepherd et al (2019) Operational Large-Scale Segmentation of Imagery Based on Iterative Elimination.
 * [Shadow-Detection-Algorithm-for-Aerial-and-Satellite-Images](https://github.com/ThomasWangWeiHong/Shadow-Detection-Algorithm-for-Aerial-and-Satellite-Images) -> shadow detection and correction algorithm
-
-## Image annotation
-If you are performing object detection you will need to annotate images with bounding boxes. Check that your annotation tool of choice supports large image (likely geotiff) files, as not all will. Note that GeoJSON is widely used by remote sensing researchers but this annotation format is not commonly supported in general computer vision frameworks, and in practice you may have to convert the annotation format to use the data with your chosen framework. There are both closed and open source tools for creating and converting annotation formats. Some of these tools are simply for performing annotation, whilst others add features such as dataset management and versioning.
-
-### Open source & desktop annotation tools
-Start with labelImg or labelme if you are annotating solo, or CVAT if you are in a team.
-* If you are considering building an in house annotation platform [read this article](https://medium.com/earthcube-stories/ai-products-and-remote-sensing-yes-it-is-hard-and-yes-you-need-a-good-infra-4b5d6cf822f1). Used PostGis database, GeoJson format and GIS standard in a stateless architecture.
-* [labelImg](https://github.com/tzutalin/labelImg) is the classic desktop tool, limited to bounding boxes for object detection. Also checkout [roLabelImg](https://github.com/cgvict/roLabelImg) which supports ROTATED rectangle regions, as often occurs in aerial imagery.
-* [Labelme](https://github.com/wkentaro/labelme) is a simple dektop app for polygonal annotation, but note it outputs annotations in a custom LabelMe JSON format which you will need to convert. Read [Labelme Image Annotation for Geotiffs](https://medium.com/@wvsharber/labelme-image-annotation-for-geotiffs-b460ba83804f)
-* [CVAT](https://github.com/openvinotoolkit/cvat) suports object detection, segmentation and classification via a local web app. There is an [open issue](https://github.com/openvinotoolkit/cvat/issues/531) to support large TIFF files. [This article on Roboflow](https://blog.roboflow.com/cvat/) gives a good intro to CVAT.
-* [Create your own annotation tool using Bokeh Holoviews](https://examples.pyviz.org/ml_annotators/ml_annotators.html#ml-annotators-gallery-ml-annotators)
-* [geolabel-maker](https://github.com/makinacorpus/geolabel-maker) -> combine satellite or aerial imagery with vector spatial data to create your own ground-truth dataset in the COCO format for deep-learning models
-* [VoTT](https://github.com/Microsoft/VoTT) -> an electron app for building end to end Object Detection Models from Images and Videos, by Microsoft
-* [Label Studio](https://github.com/heartexlabs/label-studio) is a multi-type data labeling and annotation tool with standardized output format, webpage at [labelstud.io](https://labelstud.io/)
-* [Deeplabel](https://github.com/jveitchmichaelis/deeplabel) is a cross-platform tool for annotating images with labelled bounding boxes. Deeplabel also supports running inference using state-of-the-art object detection models like Faster-RCNN and YOLOv4. With support out-of-the-box for CUDA, you can quickly label an entire dataset using an existing model.
-* [Alturos.ImageAnnotation](https://github.com/AlturosDestinations/Alturos.ImageAnnotation) is a collaborative tool for labeling image data on S3 for yolo
-* [rectlabel](https://rectlabel.com/) is a desktop app for MacOS to label images for bounding box object detection and segmentation, free and paid versions
-* [pigeonXT](https://github.com/dennisbakhuis/pigeonXT) can be used to create custom image classification annotators within Jupyter notebooks
-* [ipyannotations](https://github.com/janfreyberg/ipyannotations) -> Image annotations in python using jupyter notebooks
-* [diffgram](https://github.com/diffgram/diffgram) supports cloud backends, also [available as hosted service](https://diffgram.com/)
-* [Label-Detect](https://github.com/Jakaria08/Label-Detect) -> is a graphical image annotation tool and using this tool a user can also train and test large satellite images, fork of the popular labelImg tool
-* [Swipe-Labeler](https://github.com/spaceml-org/Swipe-Labeler) -> Swipe Labeler is a Graphical User Interface based tool that allows rapid labeling of image data
-* SuperAnnotate can be run [locally](https://github.com/opencv-ai/superannotate) or used via a [cloud service](https://superannotate.com/)
-* [dash_doodler](https://github.com/dbuscombe-usgs/dash_doodler) -> A web application built with plotly/dash for image segmentation with minimal supervision
-
-### Enterprise grade annotation platforms
-Generally more fully featured than open source tools, often adding model assisted labelling & integration with providers of annotation as a service (outsourced annotation). There are many companies competing in this space, so I just list a few I have experience with.
-* [GroundWork](https://groundwork.azavea.com/) is designed for annotating and labeling geospatial data like satellite imagery, from Azavea
-* [Roboflow](https://roboflow.com) can be used to convert between annotation formats & manage datasets, as well as train and deploy custom models. Free tier quite useful
-* [supervise.ly](https://supervise.ly) is one of the more fully featured platforms, decent free tier
-* AWS supports image annotation via the [Rekognition Custom Labels console](https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/gs-console.html)
-* The [labelbox.com](https://labelbox.com/) free tier is quite generous
-
-### Annotation formats
-Note there are many annotation formats, although PASCAL VOC and coco-json are the most commonly used.
-* PASCAL VOC format: XML files in the format used by ImageNet
-* coco-json format: JSON in the format used by the 2015 COCO dataset
-* YOLO Darknet TXT format: contains one text file per image, used by YOLO
-* Tensorflow TFRecord: a proprietary binary file format used by the Tensorflow Object Detection API
-* Many more formats listed [here](https://roboflow.com/formats)
 
 # Movers and shakers on Github
 * [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
