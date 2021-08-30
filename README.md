@@ -894,7 +894,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [albumentations](https://github.com/albumentations-team/albumentations) -> Fast image augmentation library and an easy-to-use wrapper around other libraries
 * [FoHIS](https://github.com/noahzn/FoHIS) -> Towards Simulating Foggy and Hazy Images and Evaluating their Authenticity
 
-## Model specificaiton and versioning
+## Model specification and versioning
 * [geo-ml-model-catalog](https://github.com/radiantearth/geo-ml-model-catalog) -> provides a common metadata definition for ML models that operate on geospatial data
 * [dvc](https://dvc.org/) -> not specific to EO ML models, dvc is a git extension to keep track of changes in data, source code, and ML models together
 
