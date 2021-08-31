@@ -415,7 +415,7 @@ This section includes tips and ideas I have picked up from other practitioners i
 * [Xarray backend to Copernicus Sentinel-1 satellite data products](https://github.com/bopen/xarray-sentinel)
 
 ## Landsat
-* Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program) and read [the official webpage](https://www.usgs.gov/core-science-systems/nli/landsat)
+* Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
 * 8 bands, 15 to 60 meters, 185km swath, the temporal resolution is 16 days
 * [Landsat 4, 5, 7, and 8 imagery on Google](https://cloud.google.com/storage/docs/public-datasets/landsat), see [the GCP bucket here](https://console.cloud.google.com/storage/browser/gcp-public-data-landsat/), with Landsat 8 imagery in COG format analysed in [this notebook](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb)
 * [Landsat 8 imagery on AWS](https://registry.opendata.aws/landsat-8/), with many tutorials and tools listed
@@ -553,7 +553,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * Download at [gaofen-challenge.com](http://gaofen-challenge.com/)
 
 ### DEM (digital elevation maps)
-* Shuttle Radar Topography Mission: [data - open access](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-shuttle-radar-topography-mission-srtm-1-arc?qt-science_center_objects=0#qt-science_center_objects)
+* Shuttle Radar Topography Mission, search online at usgs.gov
 * Copernicus Digital Elevation Model (DEM) on S3, represents the surface of the Earth including buildings, infrastructure and vegetation. Data is provided as Cloud Optimized GeoTIFFs. [link](https://registry.opendata.aws/copernicus-dem/)
 
 ## Weather Datasets
