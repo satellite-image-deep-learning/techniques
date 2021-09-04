@@ -2,7 +2,6 @@
 This document lists resources for performing deep learning (DL) on satellite imagery. To a lesser extent classical Machine learning (ML, e.g. random forests) are also discussed, as are classical image processing techniques. Note there is a huge volume of academic literature published on these topics, and this repo does not seek to index them all but rather list approachable resources with published code that will benefit both the research *and* developer communities.
 
 # Table of contents
-* [Top links](https://github.com/robmarkcole/satellite-image-deep-learning#top-links)
 * [Techniques](https://github.com/robmarkcole/satellite-image-deep-learning#techniques)
 * [ML best practice](https://github.com/robmarkcole/satellite-image-deep-learning#ml-best-practice)
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
@@ -24,18 +23,8 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [Neural nets in space](https://github.com/robmarkcole/satellite-image-deep-learning#neural-nets-in-space)
 * [About the author](https://github.com/robmarkcole/satellite-image-deep-learning#about-the-author)
 
-# Top links
-* [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
-* [awesome-earthobservation-code](https://github.com/acgeospatial/awesome-earthobservation-code)
-* [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel)
-* [geospatial-machine-learning](https://github.com/deepVector/geospatial-machine-learning)
-* [Long list of satellite missions with example imagery](https://www.satimagingcorp.com/satellite-sensors/)
-* [paperswithcode](https://paperswithcode.com/area/computer-vision) aggregates SoTA Computer Vision techniques
-* [Deep learning in remote sensing applications: A meta-analysis and review](https://www.iges.or.jp/en/publication_documents/pub/peer/en/6898/Ma+et+al+2019.pdf)
-* [Object Detection and Image Segmentation with Deep Learning on Earth Observation Data: A Review](https://www.mdpi.com/2072-4292/12/10/1667)
-
 # Techniques
-This section explores the different deep and machine learning techniques people are applying to common problems in satellite imagery analysis.
+This section explores the different deep and machine learning techniques people are applying to common problems in satellite imagery analysis. Good background reading is [Deep learning in remote sensing applications: A meta-analysis and review](https://www.iges.or.jp/en/publication_documents/pub/peer/en/6898/Ma+et+al+2019.pdf)
 
 ## Classification
 The classic cats vs dogs image classification task, which in the remote sensing domain is used to assign a label to an image, e.g. this is an image of a forest. The more complex case is applying multiple labels to an image. This approach of image level classification is not to be confused with pixel-level classification which is called semantic segmentation. In general, aerial images cover large geographical areas that include multiple classes of land, so treating this is as a classification problem is less common than using semantic segmentation.
@@ -129,6 +118,7 @@ In instance segmentation, each individual 'instance' of a segmented area is give
 
 ## Object detection
 Several different techniques can be used to count the number of objects in an image. The returned data can be an object count (regression), a bounding box around individual objects in an image (typically using Yolo or Faster R-CNN architectures), or return a pixel mask for each object (instance segmentation). A good introduction to the challenge of performing object detection on aerial imagery is given in [this paper](https://arxiv.org/abs/1902.06042v2). In summary, images are large and objects may comprise only a few pixels, easily confused with random features in background. In general object detecion performs well on large objects, and gets increasingly difficult as the objects get smaller & more densely packed. Model accuracy falls off rapidly as image resolution degrades, so it is common for object detection to use very high resolution imagery, e.g. 30cm RGB. For very small objects it may be appropriate to treat counting as a regression problem, or even try instance segmentation.
+* [Object Detection and Image Segmentation with Deep Learning on Earth Observation Data: A Review](https://www.mdpi.com/2072-4292/12/10/1667)
 * [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
 * [Tackling the Small Object Problem in Object Detection](https://blog.roboflow.com/tackling-the-small-object-problem-in-object-detection)
 * [Satellite Imagery Multiscale Rapid Detection with Windowed Networks (SIMRDWN)](https://github.com/avanetten/simrdwn) -> combines some of the leading object detection algorithms into a unified framework designed to detect objects both large and small in overhead imagery. Train models and test on arbitrary image sizes with YOLO (versions 2 and 3), Faster R-CNN, SSD, or R-FCN.
@@ -424,6 +414,8 @@ This section includes tips and ideas I have picked up from other practitioners i
 * [How to use deep learning on satellite imagery — Playing with the loss function](https://medium.com/earthcube-stories/techsecret-how-to-use-deep-learning-on-satellite-imagery-episode-1-playing-with-the-loss-8fc05c90a63a)
 
 # Datasets
+This section contains a short list of datasets relevant to deep learning, particularly those which come up regularly in the literature. For a more comprehensive list of datasets checkout [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets) and review the [long list of satellite missions with example imagery](https://www.satimagingcorp.com/satellite-sensors/)
+
 **Warning** satellite image files can be LARGE, even a small data set may comprise 50 GB of imagery
 
 ## Sentinel
@@ -852,6 +844,7 @@ Many of these companies & products predate the open source software boom, and of
 
 # Useful open source software
 [A note on licensing](https://www.gislounge.com/businesses-using-open-source-gis/): The two general types of licenses for open source are copyleft and permissive. Copyleft requires that subsequent derived software products also carry the license forward, e.g. the GNU Public License (GNU GPLv3). For permissive, options to modify and use the code as one please are more open, e.g. MIT & Apache 2. Checkout [choosealicense.com/](https://choosealicense.com/)
+* [awesome-earthobservation-code](https://github.com/acgeospatial/awesome-earthobservation-code) -> lists many useful tools and resources
 * [QGIS](https://qgis.org/en/site/)- Create, edit, visualise, analyse and publish geospatial information. [Python scripting](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/intro.html#scripting-in-the-python-console) and [plugins](https://plugins.qgis.org/plugins/). Open source alternative to ArcGIS.
 * [Orfeo toolbox](https://www.orfeo-toolbox.org/) - remote sensing toolbox with python API (just a wrapper to the C code). Do activites such as [pansharpening](https://www.orfeo-toolbox.org/CookBook/Applications/app_Pansharpening.html), ortho-rectification, image registration, image segmentation & classification. Not much documentation.
 * [QUICK TERRAIN READER - view DEMS, Windows](http://appliedimagery.com/download/)
