@@ -16,7 +16,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [Useful paid software](https://github.com/robmarkcole/satellite-image-deep-learning#useful-paid-software)
 * [Useful open source software](https://github.com/robmarkcole/satellite-image-deep-learning#useful-open-source-software)
 * [Movers and shakers on Github](https://github.com/robmarkcole/satellite-image-deep-learning#movers-and-shakers-on-github)
-* [Companies on Github](https://github.com/robmarkcole/satellite-image-deep-learning#companies-on-github)
+* [Companies & organisations on Github](https://github.com/robmarkcole/satellite-image-deep-learning#companies--organisations-on-github)
 * [Courses](https://github.com/robmarkcole/satellite-image-deep-learning#courses)
 * [Online communities](https://github.com/robmarkcole/satellite-image-deep-learning#online-communities)
 * [Jobs](https://github.com/robmarkcole/satellite-image-deep-learning#jobs)
