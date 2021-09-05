@@ -302,11 +302,11 @@ The terms self-supervised, unsupervised & contrastive learning are often used in
 * [Self-Supervised Learning of Remote Sensing Scene Representations Using Contrastive Multiview Coding](https://arxiv.org/abs/2104.07070) -> arxiv paper and [code](https://github.com/vladan-stojnic/CMC-RSSR)
 
 ## Active learning
-Supervised deep learning techniques typically require a huge number of labelled examples for form a training dataset. However labelling at scale take significant time, expertise and resources. Active learning techniques aim to address this bottleneck by selecting the most useful images to label from a large pool of unlabelled examples, thus reducing the time to generate training datasets. These processes may be referred to as [Human-in-the-Loop Machine Learning](https://medium.com/pytorch/https-medium-com-robert-munro-active-learning-with-pytorch-2f3ee8ebec)
+Supervised deep learning techniques typically require a huge number of labelled examples for form a training dataset. However labelling at scale take significant time, expertise and resources. Active learning techniques aim to reduce the total amount of annotation that needs to be performed by selecting the most useful images to label from a large pool of unlabelled examples, thus reducing the time to generate training datasets. These processes may be referred to as [Human-in-the-Loop Machine Learning](https://medium.com/pytorch/https-medium-com-robert-munro-active-learning-with-pytorch-2f3ee8ebec)
 * [Active learning for object detection in high-resolution satellite images](https://arxiv.org/abs/2101.02480) -> arxiv paper
 * [AIDE V2 - Tools for detecting wildlife in aerial images using active learning](https://github.com/microsoft/aerial_wildlife_detection)
 * [AstronomicAL](https://github.com/grant-m-s/AstronomicAL) -> An interactive dashboard for visualisation, integration and classification of data using Active Learning
-* Read about [active learning on the lightly platformn](https://docs.lightly.ai/getting_started/active_learning.html)
+* Read about [active learning on the lightly platform](https://docs.lightly.ai/getting_started/active_learning.html) and [in label-studio](https://labelstud.io/guide/ml.html#Active-Learning)
 
 ## Mixed data learning
 These techniques combine multiple data types, e.g. imagery and text data.
