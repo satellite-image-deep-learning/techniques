@@ -842,6 +842,7 @@ For supervised machine learning, you will require annotated images. For example 
 * [Swipe-Labeler](https://github.com/spaceml-org/Swipe-Labeler) -> Swipe Labeler is a Graphical User Interface based tool that allows rapid labeling of image data
 * SuperAnnotate can be run [locally](https://github.com/opencv-ai/superannotate) or used via a [cloud service](https://superannotate.com/)
 * [dash_doodler](https://github.com/dbuscombe-usgs/dash_doodler) -> A web application built with plotly/dash for image segmentation with minimal supervision
+* [remo](https://remo.ai) -> A webapp and Python library that lets you explore and control your Image datasets
 
 ## Enterprise grade annotation platforms
 Generally more fully featured than open source tools, often adding model assisted labelling & integration with providers of annotation as a service (outsourced annotation). There are many companies competing in this space, so I just list a few I have experience with.
