@@ -702,6 +702,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [up42](https://up42.com/) is a developer platform and marketplace, offering all the building blocks for powerful, scalable geospatial products
 * [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/) -> direct Google Earth Engine competitor in the making?
 * [eofactory.ai](https://eofactory.ai/) -> supports multi public and private data sources that can be used to analyse and extract information
+* [mapflow.ai](https://mapflow.ai/) -> imagery analysis platform with its instant access to the major satellite imagery providers, models for extract building footprints etc & [QGIS plugin](https://www.gislounge.com/run-ai-mapping-in-qgis-over-high-resolution-satellite-imagery/)
 
 # Free online computing resources
 A GPU is required for training deep learning models (but not necessarily for inferencing), and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter development environments [on the fastai site](https://course19.fast.ai). I personally use Colab Pro with data hosted on Google Drive, or Sagemaker if I have very long running training jobs.
@@ -872,7 +873,6 @@ Many of these companies & products predate the open source software boom, and of
 # Useful open source software
 [A note on licensing](https://www.gislounge.com/businesses-using-open-source-gis/): The two general types of licenses for open source are copyleft and permissive. Copyleft requires that subsequent derived software products also carry the license forward, e.g. the GNU Public License (GNU GPLv3). For permissive, options to modify and use the code as one please are more open, e.g. MIT & Apache 2. Checkout [choosealicense.com/](https://choosealicense.com/)
 * [awesome-earthobservation-code](https://github.com/acgeospatial/awesome-earthobservation-code) -> lists many useful tools and resources
-* [QGIS](https://qgis.org/en/site/)- Create, edit, visualise, analyse and publish geospatial information. [Python scripting](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/intro.html#scripting-in-the-python-console) and [plugins](https://plugins.qgis.org/plugins/). Open source alternative to ArcGIS.
 * [Orfeo toolbox](https://www.orfeo-toolbox.org/) - remote sensing toolbox with python API (just a wrapper to the C code). Do activites such as [pansharpening](https://www.orfeo-toolbox.org/CookBook/Applications/app_Pansharpening.html), ortho-rectification, image registration, image segmentation & classification. Not much documentation.
 * [QUICK TERRAIN READER - view DEMS, Windows](http://appliedimagery.com/download/)
 * [dl-satellite-docker](https://github.com/sshuair/dl-satellite-docker) -> docker files for geospatial analysis, including tensorflow, pytorch, gdal, xgboost...
@@ -890,6 +890,15 @@ Many of these companies & products predate the open source software boom, and of
 * [litestream](https://litestream.io/) -> Continuously stream SQLite changes to S3-compatible storage
 * [ImageFusion)](https://github.com/JohMast/ImageFusion) -> Temporal fusion of raster image time-Series
 * [nvtop](https://github.com/Syllo/nvtop) -> NVIDIA GPUs htop like monitoring tool
+
+## QGIS
+* [QGIS](https://qgis.org/en/site/)
+* Create, edit, visualise, analyse and publish geospatial information. Open source alternative to ArcGIS.
+* [Python scripting](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/intro.html#scripting-in-the-python-console)
+* [Plugins](https://plugins.qgis.org/plugins/) extend the functionality of QGIS - note these are essentially python scripts
+* Create your own plugins using the [QGIS Plugin Builder](http://g-sherman.github.io/Qgis-Plugin-Builder/)
+* [DeepLearningTools plugin](https://plugins.qgis.org/plugins/DeepLearningTools/) -> aid training Deep Learning Models
+* [Mapflow.ai plugin](https://www.gislounge.com/run-ai-mapping-in-qgis-over-high-resolution-satellite-imagery/) -> various models to extract building footprints etc from Maxar imagery
   
 ## GDAL & Rasterio
 * So improtant this pair gets their own section. GDAL is THE command line tool for reading and writing raster and vector geospatial data formats. If you are using python you will probably want to use Rasterio which provides a pythonic wrapper for GDAL
@@ -1065,6 +1074,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [ElementAI](https://github.com/ElementAI)
 * [Element 84](https://github.com/element84)
 * [Esri](https://github.com/Esri)
+* [Geoalert](https://github.com/Geoalert) -> checkout their [Medium articles](https://medium.com/geoalert-platform-urban-monitoring)
 * [GIC-AIT](https://github.com/gicait) -> Aisan Institute of Technology
 * [Hummingbird Technologies Ltd](https://github.com/HummingbirdTechGroup) -> sustainability and optimised food production
 * [ICEYE](https://github.com/iceye-ltd)
