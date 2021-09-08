@@ -684,12 +684,13 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 # State of the art
 * Compute and data storage are moving to the cloud
 * A combination of batch processing on clusters and serverless functions are common for routine compute tasks
-* Custom hardware is being developed for rapid training and inferencing with deep learning models
-* Supervised ML methods typically require large datasets of annotated images, but approaches such as self-supervised and active learning are offering alternatives pathways
+* No-code platforms and auto-ml are making ML techniques more accessible than ever
+* Custom hardware is being developed for rapid training and inferencing with deep learning models, both in the datacenter and at the edge
+* Supervised ML methods typically require large annotated datasets, but approaches such as self-supervised and active learning are offering alternatives pathways
 * Traditional data formats aren't designed for processing on the cloud, so new standards are evolving such as COGS and STAC
 * Read about how [Planet](https://cloud.google.com/customers/planet) and [Airbus](https://cloud.google.com/customers/airbus) use Google Cloud as their backend
 * Google Earth Engine and Microsoft Planetary Computer are democratising access to huge compute platforms
-* Whilst the combo of python and keras/pytorch are currently preeminent, new python libraries such as [Jax](https://github.com/google/jax) and alternative languages such as [Julia](https://julialang.org/) are showing serious promise
+* Whilst the combo of python and keras/tensorflow/pytorch are currently preeminent, new python libraries such as [Jax](https://github.com/google/jax) and alternative languages such as [Julia](https://julialang.org/) are showing serious promise
 
 # Online platforms for performing analytics
 * [This article discusses some of the available platforms](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2)
@@ -838,7 +839,6 @@ For supervised machine learning, you will require annotated images. For example 
 * [rectlabel](https://rectlabel.com/) is a desktop app for MacOS to annotate images for bounding box object detection and segmentation, paid and free (rectlabel-lite) versions
 * [pigeonXT](https://github.com/dennisbakhuis/pigeonXT) can be used to create custom image classification annotators within Jupyter notebooks
 * [ipyannotations](https://github.com/janfreyberg/ipyannotations) -> Image annotations in python using jupyter notebooks
-* [diffgram](https://github.com/diffgram/diffgram) supports cloud backends, also [available as hosted service](https://diffgram.com/)
 * [Label-Detect](https://github.com/Jakaria08/Label-Detect) -> is a graphical image annotation tool and using this tool a user can also train and test large satellite images, fork of the popular labelImg tool
 * [Swipe-Labeler](https://github.com/spaceml-org/Swipe-Labeler) -> Swipe Labeler is a Graphical User Interface based tool that allows rapid labeling of image data
 * SuperAnnotate can be run [locally](https://github.com/opencv-ai/superannotate) or used via a [cloud service](https://superannotate.com/)
@@ -852,6 +852,7 @@ Generally more fully featured than open source tools, often adding model assiste
 * [supervise.ly](https://supervise.ly) is one of the more fully featured platforms, decent free tier
 * AWS supports image annotation via the [Rekognition Custom Labels console](https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/gs-console.html)
 * The [labelbox.com](https://labelbox.com/) free tier is quite generous
+* [diffgram](https://github.com/diffgram/diffgram) describes itself as a complete training data platform for machine learning delivered as a single application. Open source or  [available as hosted service](https://diffgram.com/), supports [streaming data to pytorch & tensorflow](https://medium.com/diffgram/stream-training-data-to-your-models-with-diffgram-f0f25f6688c5)
 
 ## Annotation formats
 Note there are many annotation formats, although PASCAL VOC and coco-json are the most commonly used.
