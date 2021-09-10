@@ -90,6 +90,7 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery more class
 * [Detecting road and road types jupyter notebook](https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb)
 * [How to extract building footprints from satellite images using deep learning](https://azure.microsoft.com/en-gb/blog/how-to-extract-building-footprints-from-satellite-images-using-deep-learning/)
 * [Vec2Instance](https://github.com/lakmalnd/Vec2Instance) -> applied to the SpaceNet challenge AOI 2 (Vegas) building footprint dataset, tensorflow v1.12
+* [EarthquakeDamageDetection](https://github.com/JaneKravchenko/EarthquakeDamageDetection) -> Buildings segmentation from satellite imagery and damage classification for each build, using Keras
 
 ### Semantic segmentation - vegitation & crop boundaries
 * [Сrор field boundary detection: approaches overview and main challenges](https://soilmate.medium.com/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-overview-and-main-challenges-53736725cb06) - review article, no code
@@ -157,6 +158,7 @@ Several different techniques can be used to count the number of objects in an im
 #### Object detection - planes & aircraft
 * [yoltv4](https://github.com/avanetten/yoltv4) includes examples on the [RarePlanes dataset](https://registry.opendata.aws/rareplanes/)
 * [aircraft-detection](https://github.com/hakeemtfrank/aircraft-detection) -> experiments to test the performance of a Gaussian process (GP) classifier with various kernels on the UC Merced land use land cover (LULC) dataset
+* The [Rareplanes guide](https://www.cosmiqworks.org/rareplanes-public-user-guide/) recommends annotating airplanes in a diamond style, which has several advantages (easily reproducible, convertible to a bounding box etc) and allows extracting the aircraft length and wingspan
 
 #### Object detection - animals
 * [cownter_strike](https://github.com/IssamLaradji/cownter_strike) -> counting cows, located with point-annotations, two models: CSRNet (a density-based method) & LCFCN (a detection-based method)
@@ -630,7 +632,8 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 
 ## Synthetic data
 * [The Synthinel-1 dataset: a collection of high resolution synthetic overhead imagery for building segmentation](https://arxiv.org/ftp/arxiv/papers/2001/2001.05130.pdf)
-* [RarePlanes](https://www.cosmiqworks.org/RarePlanes/) ->  incorporates both real and synthetically generated satellite imagery including aircraft.
+* [RarePlanes](https://www.cosmiqworks.org/RarePlanes/) ->  incorporates both real and synthetically generated satellite imagery including aircraft. Read the [arxiv paper](https://arxiv.org/abs/2006.02963) and checkout [the repo](https://github.com/aireveries/RarePlanes). Note the dataset is available through the AWS Open-Data Program for free download
+* Read [this article from NVIDIA](https://developer.nvidia.com/blog/preparing-models-for-object-detection-with-real-and-synthetic-data-and-tao-toolkit/) which discusses fine tuning a model pre-trained on synthetic data (Rareplanes) with 10% real data, then pruning the model to reduce its size, before quantizing the model to improve inference speed
 * Checkout Microsoft [AirSim](https://microsoft.github.io/AirSim/), which is a simulator for drones, cars and more, built on Unreal Engine
 * [Combining Synthetic Data with Real Data to Improve Detection Results in Satellite Imagery](https://one-view.ai/combining-synthetic-data-with-real-data-to-improve-detection-results-in-satellite-imagery-case-study/)
 * [Synthinel](https://github.com/timqqt/Synthinel) -> synthetic overhead imagery with full pixel-wise building labels, created using ESRI CityEngine
@@ -750,6 +753,9 @@ An overview of the most relevant services provided by the main cloud providers. 
 
 # Deploying models to production
 This section discusses how to get a trained machine learning & specifically deep learning model into production. For an overview on serving deep learning models checkout [Practical-Deep-Learning-on-the-Cloud](https://github.com/PacktPublishing/-Practical-Deep-Learning-on-the-Cloud). There are many options if you are happy to dedicate a server, although you may want a GPU for batch processing. For serverless consider AWS lambda.
+
+## Model optimisation for deployment
+The general approaches are outlined in [this article from NVIDIA](https://developer.nvidia.com/blog/preparing-models-for-object-detection-with-real-and-synthetic-data-and-tao-toolkit/) which discusses fine tuning a model pre-trained on synthetic data (Rareplanes) with 10% real data, then pruning the model to reduce its size, before quantizing the model to improve inference speed. Training notebook [here](https://github.com/aireveries/rareplanes-tlt)
 
 ## Rest API on dedicated server
 A common approach to serving up deep learning model inference code is to wrap it in a rest API. The API can be implemented in python (flask or FastAPI), and hosted on a dedicated server e.g. EC2 instance. Note that making this a scalable solution will require significant experience.
@@ -1068,6 +1074,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 
 # Companies & organisations on Github
 For a full list of companies, on and off Github, checkout [awesome-geospatial-companies](https://github.com/chrieke/awesome-geospatial-companies). The following lists companies with interesting Github profiles.
+* [AI. Reverie](https://github.com/aireveries) -> synthetic data
 * [Airbus Defence And Space](https://github.com/AirbusDefenceAndSpace)
 * [Azavea](https://github.com/azavea) -> lots of interesting repos around STAC
 * [Development Seed](https://github.com/developmentseed)
