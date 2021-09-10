@@ -686,14 +686,13 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * Train a deep learning net with OpenStreetMap features and satellite imagery.
 
 # State of the art
-* Compute and data storage are moving to the cloud
-* A combination of batch processing on clusters and serverless functions are common for routine compute tasks
+* Compute and data storage are moving to the cloud. Read how [Planet](https://cloud.google.com/customers/planet) and [Airbus](https://cloud.google.com/customers/airbus) use the cloud
+* Google Earth Engine and Microsoft Planetary Computer are democratising access to massive compute platforms
 * No-code platforms and auto-ml are making ML techniques more accessible than ever
 * Custom hardware is being developed for rapid training and inferencing with deep learning models, both in the datacenter and at the edge
 * Supervised ML methods typically require large annotated datasets, but approaches such as self-supervised and active learning are offering alternatives pathways
 * Traditional data formats aren't designed for processing on the cloud, so new standards are evolving such as COGS and STAC
-* Read about how [Planet](https://cloud.google.com/customers/planet) and [Airbus](https://cloud.google.com/customers/airbus) use Google Cloud as their backend
-* Google Earth Engine and Microsoft Planetary Computer are democratising access to huge compute platforms
+* Computer vision traditionally delivered high performance image processing on a CPU by using compiled languages like C++, as used by OpenCV for example. The advent of GPUs are changing the paradigm, with alternatives optimised for GPU being created, such as [Kornia](https://kornia.github.io/)
 * Whilst the combo of python and keras/tensorflow/pytorch are currently preeminent, new python libraries such as [Jax](https://github.com/google/jax) and alternative languages such as [Julia](https://julialang.org/) are showing serious promise
 
 # Online platforms for performing analytics
