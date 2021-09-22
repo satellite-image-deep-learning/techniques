@@ -4,6 +4,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 # Table of contents
 * [Techniques](https://github.com/robmarkcole/satellite-image-deep-learning#techniques)
 * [ML best practice](https://github.com/robmarkcole/satellite-image-deep-learning#ml-best-practice)
+* [ML metrics](https://github.com/robmarkcole/satellite-image-deep-learning#ml-metrics)
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
 * [Interesting deep learning projects](https://github.com/robmarkcole/satellite-image-deep-learning#interesting-deep-learning-projects)
 * [State of the art](https://github.com/robmarkcole/satellite-image-deep-learning#state-of-the-art)
@@ -23,7 +24,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [About the author](https://github.com/robmarkcole/satellite-image-deep-learning#about-the-author)
 
 # Techniques
-This section explores the different deep and machine learning techniques people are applying to common problems in satellite imagery analysis. Good background reading is [Deep learning in remote sensing applications: A meta-analysis and review](https://www.iges.or.jp/en/publication_documents/pub/peer/en/6898/Ma+et+al+2019.pdf)
+This section explores the different deep and machine learning (ML) techniques applied to common problems in satellite imagery analysis. Good background reading is [Deep learning in remote sensing applications: A meta-analysis and review](https://www.iges.or.jp/en/publication_documents/pub/peer/en/6898/Ma+et+al+2019.pdf)
 
 ## Classification
 The classic cats vs dogs image classification task, which in the remote sensing domain is used to assign a label to an image, e.g. this is an image of a forest. The more complex case is applying multiple labels to an image. This approach of image level classification is not to be confused with pixel-level classification which is called semantic segmentation. In general, aerial images cover large geographical areas that include multiple classes of land, so treating this is as a classification problem is less common than using semantic segmentation.
@@ -493,6 +494,16 @@ This section includes tips and ideas I have picked up from other practitioners i
 * [Boosting object detection performance through ensembling on satellite imagery](https://medium.com/earthcube-stories/boosting-object-detection-performance-through-ensembling-on-satellite-imagery-949e891dfb28)
 * [How to use deep learning on satellite imagery — Playing with the loss function](https://medium.com/earthcube-stories/techsecret-how-to-use-deep-learning-on-satellite-imagery-episode-1-playing-with-the-loss-8fc05c90a63a)
 * [On the importance of proper data handling](https://medium.com/picterra/on-the-importance-of-proper-data-handling-part-1-b78e4bfd9a7c)
+
+# ML metrics
+A number of metrics are common to all model types, whilst others are specific to particular classes of model, e.g. `mAP@0.5` to object detection.
+* `Precision` is the accuracy of the predictions, calculated as `precision = TP/(TP+FP)` or "what % of predictions are correct?"
+* `Recall` is the **true positive rate** (TPR), calculated as `recall = TP/(TP+FN)` or "what % of true positives does the model capture?"
+* The `F1 score` (also called the F score or the F measure) is the harmonic mean of precision and recall, calculated as `F1 = 2*((precision * recall)/(precision + recall))`. It conveys the balance between the precision and the recall. [Ref](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
+* The **false positive rate** (FPR), calculated as `FPR = FP/(FP+TN)` is often plotted against recall/TPR in an [ROC curve](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc) which shows how the TPR/FPR tradeoff varies with classification threshold. Lowering the classification threshold returns more true positives, but also more false positives
+* mAP, IoU, precision and recall are all explained well [here](https://github.com/AlexeyAB/darknet#how-to-train-tiny-yolo-to-detect-your-custom-objects) and [here](https://github.com/jshaffer94247/Counting-Fish#Model-Metrics)
+* `mAP@0.5`: the mean Average Precision, or correctness of each label taking into account all labels. `@0.5` sets a threshold for how much of the predicted bounding box overlaps the original annotation, i.e. "50% overlap"
+* The `COCOMetric`, specifically the `AP at IoU=.50:.05:.95 (primary challenge metric)`, from [here](https://cocodataset.org/#detection-eval), is typically referred to as the "mean average precision" (mAP)
 
 # Datasets
 This section contains a short list of datasets relevant to deep learning, particularly those which come up regularly in the literature. For a more comprehensive list of datasets checkout [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets) and review the [long list of satellite missions with example imagery](https://www.satimagingcorp.com/satellite-sensors/)
