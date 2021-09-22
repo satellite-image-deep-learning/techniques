@@ -362,7 +362,7 @@ Supervised deep learning techniques typically require a huge number of labelled 
 
 ## Mixed data learning
 These techniques combine multiple data types, e.g. imagery and text data.
-* [Building a mixed-data neural network in Keras to predict accident locations](https://heartbeat.fritz.ai/building-a-mixed-data-neural-network-in-keras-to-predict-accident-locations-d51a63b738cf) -> Combining satellite imagery and structured data to predict the location of traffic accidents with a neural network of neural networks
+* [Predicting the locations of traffic accidents with satellite imagery and convolutional neural networks](https://towardsdatascience.com/teaching-a-neural-network-to-see-roads-74bff240c3e5) -> Combining satellite imagery and structured data to predict the location of traffic accidents with a neural network of neural networks, with [repo](https://github.com/L-Lewis/Predicting-traffic-accidents-CNN)
 * [Multi-Input Deep Neural Networks with PyTorch-Lightning - Combine Image and Tabular Data](https://rosenfelder.ai/multi-input-neural-network-pytorch/) -> excellent intro article using pytorch, not actually applied to satellite data but to real estate data
 * [Joint Learning from Earth Observation and OpenStreetMap Data to Get Faster Better Semantic Maps](https://arxiv.org/abs/1705.06057) -> fusion based architectures and coarse-to-fine segmentation to include the OpenStreetMap layer into multispectral-based deep fully convolutional networks, arxiv paper
 
@@ -1065,7 +1065,7 @@ Many of these companies & products predate the open source software boom, and of
 * [rmstripes](https://github.com/DHI-GRAS/rmstripes) -> Remove stripes from images with a combined wavelet/FFT approach
 * [activeloopai Hub](https://github.com/activeloopai/hub) -> The fastest way to store, access & manage datasets with version-control for PyTorch/TensorFlow. Works locally or on any cloud. Scalable data pipelines.
 * [sewar](https://github.com/andrewekhalel/sewar) -> All image quality metrics you need in one package
-* [fiftyone](https://github.com/voxel51/fiftyone) -> open-source tool for building high-quality datasets and computer vision models. Visualise complex labels, evaluating models, exploring scenarios of interest, identifying failure modes, finding annotation mistakes, and much more!
+* [fiftyone](https://github.com/voxel51/fiftyone) -> open-source tool for building high quality datasets and computer vision models. Visualise labels, evaluate model predictions, explore scenarios of interest, identify failure modes, find annotation mistakes, and much more!
 * [GeoTagged_ImageChip](https://github.com/Hejarshahabi/GeoTagged_ImageChip) -> A simple script to create geo tagged image chips from high resolution RS iamges for training deep learning models such as Unet.
 * [Label Maker](https://github.com/developmentseed/label-maker) -> downloads OpenStreetMap QA Tile information and satellite imagery tiles and saves them as an `.npz` file for use in machine learning training.
 * [Satellite imagery label tool](https://github.com/calebrob6/labeling-tool) -> provides an easy way to collect a random sample of labels over a given scene of satellite imagery
@@ -1187,6 +1187,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [AI. Reverie](https://github.com/aireveries) -> synthetic data
 * [Airbus Defence And Space](https://github.com/AirbusDefenceAndSpace)
 * [Azavea](https://github.com/azavea) -> lots of interesting repos around STAC
+* [Citymapper](https://github.com/citymapper)
 * [Defense Innovation Unit (DIU)](https://github.com/DIUx-xView) -> run the xView challenges
 * [Development Seed](https://github.com/developmentseed)
 * [Descartes Labs](https://github.com/descarteslabs)
