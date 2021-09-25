@@ -441,6 +441,7 @@ Measure surface contours.
 * [Object_Classification_in_Thermal_Images](https://www.researchgate.net/publication/328400392_Object_Classification_in_Thermal_Images_using_Convolutional_Neural_Networks_for_Search_and_Rescue_Missions_with_Unmanned_Aerial_Systems) -> classification accuracy was improved by adding the object size as a feature directly within the CNN
 * [Thermal imaging with satellites](https://chrieke.medium.com/thermal-imaging-with-satellites-34f381856dd1) blog post by Christoph Rieke
 * [Object Detection on Thermal Images](https://medium.com/@joehoeller/object-detection-on-thermal-images-f9526237686a) -> using YOLO-v3 and applied to a terrestrial dataset from FLIR, the article offers some usful insights into the model training, with [repo](https://github.com/salinaaaaaa/Object-Detection-on-Thermal-Images)
+* [Fire alerts service by Descartes Labs](https://www.businessinsider.com/how-descartes-labs-leveraging-artificial-intelligence-fight-wildfires-2019-12)
 
 ## SAR
 * [Removing speckle noise from Sentinel-1 SAR using a CNN](https://medium.com/upstream/denoising-sentinel-1-radar-images-5f764faffb3e)
@@ -618,6 +619,11 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * 4000 80x80 RGB images labeled with either a "ship" or "no-ship" classification, 3 meter pixel size
 * [shipsnet-detector](https://github.com/rhammell/shipsnet-detector) -> Detect container ships in Planet imagery using machine learning
 
+## Kaggle - Ships in Google Earth
+* https://www.kaggle.com/tomluther/ships-in-google-earth
+* 794 jpegs showing various sized ships in satellite imagery, annotations in Pascal VOC format for object detection models
+* [kaggle-ships-in-Google-Earth-yolov5](https://github.com/robmarkcole/kaggle-ships-in-Google-Earth-yolov5)
+
 ### Kaggle - Planesnet classification dataset
 * https://www.kaggle.com/rhammell/planesnet -> Detect aircraft in Planet satellite image chips
 * 20x20 RGB images, the "plane" class includes 8000 images and the "no-plane" class includes 24000 images
@@ -646,6 +652,11 @@ In this challenge, you will build a model to classify cloud organization pattern
 * https://www.kaggle.com/c/understanding_cloud_organization/
 * [3rd place solution on Github by naivelamb](https://github.com/naivelamb/kaggle-cloud-organization)
 
+## Kaggle - Airbus Aircraft Detection Dataset
+* https://www.kaggle.com/airbusgeo/airbus-aircrafts-sample-dataset
+* One hundred civilian airports and over 3000 annotated commercial aircrafts
+* [detecting-aircrafts-on-airbus-pleiades-imagery-with-yolov5](https://medium.com/artificialis/detecting-aircrafts-on-airbus-pleiades-imagery-with-yolov5-5f3d464b75ad)
+
 ### Kaggle - Airbus oil storage detection dataset
 * https://www.kaggle.com/airbusgeo/airbus-oil-storage-detection-dataset
 * [Oil-Storage Tank Instance Segmentation with Mask R-CNN](https://github.com/georgiosouzounis/instance-segmentation-mask-rcnn/blob/main/mask_rcnn_oiltanks_gpu.ipynb) with [accompanying article](https://medium.com/@georgios.ouzounis/oil-storage-tank-instance-segmentation-with-mask-r-cnn-77c94433045f)
@@ -667,7 +678,6 @@ In this challenge, you will build a model to classify cloud organization pattern
 * https://www.kaggle.com/towardsentropy/oil-storage-tanks -> Image data of industrial tanks with bounding box annotations, estimate tank fill % from shadows
 * https://www.kaggle.com/datamunge/overheadmnist -> A Benchmark Satellite Dataset as Drop-In Replacement for MNIST
 * https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset -> Land Cover Classification Dataset from DeepGlobe Challenge
-* https://www.kaggle.com/airbusgeo/airbus-aircrafts-sample-dataset -> Aircraft Detection Dataset from Airbus High Resolution Satellite Imagery
 * https://www.kaggle.com/airbusgeo/airbus-wind-turbines-patches -> Airbus SPOT satellites images over wind turbines for classification
 * https://www.kaggle.com/aceofspades914/cgi-planes-in-satellite-imagery-w-bboxes -> CGI planes object detection dataset
 * https://www.kaggle.com/atilol/aerialimageryforroofsegmentation -> Aerial Imagery for Roof Segmentation
