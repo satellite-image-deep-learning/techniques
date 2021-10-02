@@ -466,6 +466,7 @@ Processing on board a satellite allows less data to be downlinked. e.g. super-re
 * [How AI and machine learning can support spacecraft docking](https://towardsdatascience.com/deep-learning-in-space-964566f09dcd) with [repo](https://github.com/nevers/space-dl) uwing Yolov3
 * [exo-space](https://www.exo-space.com/) -> startup with plans to release an AI hardware addon for satellites
 * [Sony’s Spresense microcontroller board is going to space](https://developer.sony.com/posts/the-spresense-microcontroller-board-launched-in-space/) -> article implies vision applications
+* [Ororatech Early Detection of Wildfires From Space](https://blogs.nvidia.com/blog/2021/09/30/ororatech-wildfires-from-space/) -> OroraTech is launching its own AI nanosatellites with the NVIDIA Jetson Xavier NX system onboard
 
 # ML best practice
 This section includes tips and ideas I have picked up from other practitioners including [ai-fast-track](https://github.com/ai-fast-track), [FraPochetti](https://github.com/FraPochetti) & the IceVision community
@@ -951,6 +952,8 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [ml-aoi](https://github.com/stac-extensions/ml-aoi) -> An Item and Collection extension to provide labeled training data for machine learning models
 * [Using STAC to catalog machine learning training data](https://medium.com/radiant-earth-insights/discoverable-and-reusable-ml-workflows-for-earth-observation-part-1-e198507b5eaa)
 * [eoAPI](https://github.com/developmentseed/eoAPI) -> Earth Observation API with STAC + dynamic Raster/Vector Tiler
+* [stac-nb](https://github.com/darrenwiens/stac-nb) -> STAC in Jupyter Notebooks
+* [xstac](https://github.com/TomAugspurger/xstac) -> Generate STAC Collections from xarray datasets
 
 # Image annotation
 For supervised machine learning, you will require annotated images. For example if you are performing object detection you will need to annotate images with bounding boxes. Check that your annotation tool of choice supports large image (likely geotiff) files, as not all will. Note that GeoJSON is widely used by remote sensing researchers but this annotation format is not commonly supported in general computer vision frameworks, and in practice you may have to convert the annotation format to use the data with your chosen framework. There are both closed and open source tools for creating and converting annotation formats. Some of these tools are simply for performing annotation, whilst others add features such as dataset management and versioning. Note that self-supervised and active learning approaches might circumvent the need to perform a large scale annotation exercise.
@@ -1232,6 +1235,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [ml6team](https://github.com/ml6team)
 * [NASA](https://github.com/nasa)
 * [Near Space Labs](https://github.com/nearspacelabs)
+* [OroraTech](https://github.com/OroraTech)
 * [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
 * [Preligens](https://github.com/earthcube-lab) -> formerly Earthcube Lab
 * [SatelliteVu](https://github.com/SatelliteVu) -> currently it's all private!
