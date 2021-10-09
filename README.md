@@ -8,7 +8,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
 * [State of the art engineering](https://github.com/robmarkcole/satellite-image-deep-learning#state-of-the-art-engineering)
 * [Online platforms for analytics](https://github.com/robmarkcole/satellite-image-deep-learning#online-platforms-for-analytics)
-* [Free online computing resources](https://github.com/robmarkcole/satellite-image-deep-learning#free-online-computing-resources)
+* [Free online compute](https://github.com/robmarkcole/satellite-image-deep-learning#free-online-compute)
 * [Cloud providers](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-providers)
 * [Deploying models](https://github.com/robmarkcole/satellite-image-deep-learning#deploying-models)
 * [Image formats, data management and catalogues](https://github.com/robmarkcole/satellite-image-deep-learning#image-formats-data-management-and-catalogues)
