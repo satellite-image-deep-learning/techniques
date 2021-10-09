@@ -7,7 +7,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [ML metrics](https://github.com/robmarkcole/satellite-image-deep-learning#ml-metrics)
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
 * [Interesting deep learning projects](https://github.com/robmarkcole/satellite-image-deep-learning#interesting-deep-learning-projects)
-* [State of the art](https://github.com/robmarkcole/satellite-image-deep-learning#state-of-the-art)
+* [State of the art engineering](https://github.com/robmarkcole/satellite-image-deep-learning#state-of-the-art-engineering)
 * [Online platforms for performing analytics](https://github.com/robmarkcole/satellite-image-deep-learning#online-platforms-for-performing-analytics)
 * [Free online computing resources](https://github.com/robmarkcole/satellite-image-deep-learning#free-online-computing-resources)
 * [Cloud providers](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-providers)
@@ -824,7 +824,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * https://github.com/trailbehind/DeepOSM
 * Train a deep learning net with OpenStreetMap features and satellite imagery
 
-# State of the art
+# State of the art engineering
 * Compute and data storage are moving to the cloud. Read how [Planet](https://cloud.google.com/customers/planet) and [Airbus](https://cloud.google.com/customers/airbus) use the cloud
 * Google Earth Engine and Microsoft Planetary Computer are democratising access to massive compute platforms
 * No-code platforms and auto-ml are making ML techniques more accessible than ever
