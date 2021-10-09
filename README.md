@@ -7,7 +7,7 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [ML metrics](https://github.com/robmarkcole/satellite-image-deep-learning#ml-metrics)
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
 * [State of the art engineering](https://github.com/robmarkcole/satellite-image-deep-learning#state-of-the-art-engineering)
-* [Online platforms for performing analytics](https://github.com/robmarkcole/satellite-image-deep-learning#online-platforms-for-performing-analytics)
+* [Online platforms for analytics](https://github.com/robmarkcole/satellite-image-deep-learning#online-platforms-for-analytics)
 * [Free online computing resources](https://github.com/robmarkcole/satellite-image-deep-learning#free-online-computing-resources)
 * [Cloud providers](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-providers)
 * [Deploying models to production](https://github.com/robmarkcole/satellite-image-deep-learning#deploying-models-to-production)
@@ -791,7 +791,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * Computer vision traditionally delivered high performance image processing on a CPU by using compiled languages like C++, as used by OpenCV for example. The advent of GPUs are changing the paradigm, with alternatives optimised for GPU being created, such as [Kornia](https://kornia.github.io/)
 * Whilst the combo of python and keras/tensorflow/pytorch are currently preeminent, new python libraries such as [Jax](https://github.com/google/jax) and alternative languages such as [Julia](https://julialang.org/) are showing serious promise
 
-# Online platforms for performing analytics
+# Online platforms for analytics
 * [This article discusses some of the available platforms](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2)
 * [Pangeo](http://pangeo.io/index.html) -> There is no single software package called “pangeo”; rather, the Pangeo project serves as a coordination point between scientists, software, and computing infrastructure. Includes open source resources for parallel processing using Dask and Xarray. Pangeo recently announced their 2.0 goals: pivoting away from directly operating cloud-based JupyterHubs, and towards eductaion and research
 * [Airbus Sandbox](https://sandbox.intelligence-airbusds.com/web/) -> will provide access to imagery
