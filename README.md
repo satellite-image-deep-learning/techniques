@@ -70,6 +70,7 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery more class
 * [dubai-satellite-imagery-segmentation](https://github.com/ayushdabra/dubai-satellite-imagery-segmentation) -> due to the small dataset, image augmentation was used
 * [U-Net for Semantic Segmentation on Unbalanced Aerial Imagery](https://towardsdatascience.com/u-net-for-semantic-segmentation-on-unbalanced-aerial-imagery-3474fa1d3e56) -> using the Dubai dataset
 * [CDL-Segmentation](https://github.com/asimniazi63/CDL-Segmentation) -> code for the paper: "Deep Learning Based Land Cover and Crop Type Classification: A Comparative Study", comparing UNet, SegNet & DeepLabv3+
+* [floatingobjects](https://github.com/ESA-PhiLab/floatingobjects) -> code for the paper: TOWARDS DETECTING FLOATING OBJECTS ON A GLOBAL SCALE WITHLEARNED SPATIAL FEATURES USING SENTINEL 2. Uses U-Net & pytorch
 
 ### Semantic segmentation - buildings, rooftops & solar panels
 * [Semantic Segmentation on Aerial Images using fastai](https://medium.com/swlh/semantic-segmentation-on-aerial-images-using-fastai-a2696e4db127) uses U-Net on the Inria Aerial Image Labeling Dataset of urban settlements in Europe and the United States, and is labelled as a building and not building classes (no repo)
@@ -805,18 +806,14 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 
 ## spaceml.org
 * http://spaceml.org/
-* A Machine Learning toolbox and developer community building the next generation AI applications for space science and exploration.
+* A Machine Learning toolbox and developer community building the next generation AI applications for space science and exploration
 
 ## TorchSat (no activity since June 2020)
 * [TorchSat](https://github.com/sshuair/torchsat) is an open-source deep learning framework for satellite imagery analysis based on PyTorch
 
 ## DeepNetsForEO (no activity since 2019)
 * https://github.com/nshaud/DeepNetsForEO
-* Uses SegNET for working on remote sensing images using deep learning.
-
-## Skynet-data (no activity since 2018)
-* https://github.com/developmentseed/skynet-data
-* Data pipeline for machine learning with OpenStreetMap
+* Uses SegNET for working on remote sensing images using deep learning
 
 ## RoboSat (no longer maintained)
 * https://github.com/mapbox/robosat
@@ -826,7 +823,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 
 ## DeepOSM (no activity since 2017)
 * https://github.com/trailbehind/DeepOSM
-* Train a deep learning net with OpenStreetMap features and satellite imagery.
+* Train a deep learning net with OpenStreetMap features and satellite imagery
 
 # State of the art
 * Compute and data storage are moving to the cloud. Read how [Planet](https://cloud.google.com/customers/planet) and [Airbus](https://cloud.google.com/customers/airbus) use the cloud
@@ -873,11 +870,11 @@ An overview of the most relevant services provided by AWS and Google. Also consi
 ## AWS
 * Host your data on [S3](https://aws.amazon.com/s3/) and metadata in a db such as [postgres](https://aws.amazon.com/rds/postgresql/)
 * For batch processing use [Batch](https://aws.amazon.com/batch/). GPU instances are available for [batch deep learning](https://aws.amazon.com/blogs/compute/deep-learning-on-aws-batch/) inferencing. See how Rastervision implement this [here](https://docs.rastervision.io/en/0.13/cloudformation.html)
-* If processing can be performed in 15 minutes or less, serverless [Lambda](https://aws.amazon.com/lambda/) functions are an attractive option owing to their ability to scale. Note that lambda may not be a particularly quick solution for deep learning applications, since you do not have the option to batch inference on a GPU. Creating a docker container with all the required dependencies can be a challenge. To get started read [Using container images to run PyTorch models in AWS Lambda](https://aws.amazon.com/blogs/machine-learning/using-container-images-to-run-pytorch-models-in-aws-lambda/) and for an image classification example [checkout this repo](https://github.com/aws-samples/aws-lambda-docker-serverless-inference). Also read [Processing satellite imagery with serverless architecture](https://aws.amazon.com/blogs/compute/processing-satellite-imagery-with-serverless-architecture/) which discusses queuing & lambda
-* Use [Glue](https://aws.amazon.com/glue) for data preprocessing
-* To orchestrate basic data pipelines [Step functions](https://aws.amazon.com/step-functions/). Use the [AWS Step Functions Workflow Studio](https://aws.amazon.com/blogs/aws/new-aws-step-functions-workflow-studio-a-low-code-visual-tool-for-building-state-machines/) to get started. Read [Orchestrating and Monitoring Complex, Long-running Workflows Using AWS Step Functions](https://aws.amazon.com/blogs/architecture/field-notes-orchestrating-and-monitoring-complex-long-running-workflows-using-aws-step-functions/). Note that step functions are defined in JSON
+* If processing can be performed in 15 minutes or less, serverless [Lambda](https://aws.amazon.com/lambda/) functions are an attractive option owing to their ability to scale. Note that lambda may not be a particularly quick solution for deep learning applications, since you do not have the option to batch inference on a GPU. Creating a docker container with all the required dependencies can be a challenge. To get started read [Using container images to run PyTorch models in AWS Lambda](https://aws.amazon.com/blogs/machine-learning/using-container-images-to-run-pytorch-models-in-aws-lambda/) and for an image classification example [checkout this repo](https://github.com/aws-samples/aws-lambda-docker-serverless-inference). Also read [Processing satellite imagery with serverless architecture](https://aws.amazon.com/blogs/compute/processing-satellite-imagery-with-serverless-architecture/) which discusses queuing & lambda. For managing a serverless infrastructure composed of multiple lambda functions use [AWS SAM](https://docs.aws.amazon.com/serverless-application-model/index.html)
+* Use [Glue](https://aws.amazon.com/glue) for data preprocessing - or use Sagemaker
+* To orchestrate basic data pipelines use [Step functions](https://aws.amazon.com/step-functions/). Use the [AWS Step Functions Workflow Studio](https://aws.amazon.com/blogs/aws/new-aws-step-functions-workflow-studio-a-low-code-visual-tool-for-building-state-machines/) to get started. Read [Orchestrating and Monitoring Complex, Long-running Workflows Using AWS Step Functions](https://aws.amazon.com/blogs/architecture/field-notes-orchestrating-and-monitoring-complex-long-running-workflows-using-aws-step-functions/). Note that step functions are defined in JSON
 * If step functions are too limited or you want to write pipelines in python and use Directed Acyclic Graphs (DAGs) for workflow management, checkout hosted [AWS managed Airflow](https://aws.amazon.com/managed-workflows-for-apache-airflow/). Read [Orchestrate XGBoost ML Pipelines with Amazon Managed Workflows for Apache Airflow](https://aws.amazon.com/blogs/machine-learning/orchestrate-xgboost-ml-pipelines-with-amazon-managed-workflows-for-apache-airflow/) and checkout [amazon-mwaa-examples](https://github.com/aws-samples/amazon-mwaa-examples)
-* [Sagemaker](https://aws.amazon.com/sagemaker/) includes a hosted Jupyter environment for training of ML models. There are also tools for deployment of models, using docker.
+* [Sagemaker](https://aws.amazon.com/sagemaker/) is a whole ecosystem of ML tools that includes a hosted Jupyter environment for training of ML models. There are also tools for deployment of models using docker.
 * [Deep learning AMIs](https://aws.amazon.com/machine-learning/amis/) are EC2 instances with deep learning frameworks preinstalled. They do require more setup from the user than Sagemaker but in return allow access to the underlying hardware, which makes debugging issues more straightforward. There is a [good guide to setting up your AMI instance on the Keras blog](https://blog.keras.io/running-jupyter-notebooks-on-gpu-on-aws-a-starter-guide.html)
 * Specifically created for deep learning inferencing is [AWS Inferentia](https://aws.amazon.com/machine-learning/inferentia/)
 * [Rekognition](https://aws.amazon.com/rekognition/custom-labels-features/) custom labels is a 'no code' annotation, training and inferencing service. Read [Training models using Satellite (Sentinel-2) imagery on Amazon Rekognition Custom Labels](https://ryfeus.medium.com/training-models-using-satellite-imagery-on-amazon-rekognition-custom-labels-dd44ac6a3812). For a comparison with Azure and Google alternatives [read this article](https://blog.roboflow.com/automl-vs-rekognition-vs-custom-vision/)
@@ -886,6 +883,8 @@ An overview of the most relevant services provided by AWS and Google. Also consi
 * [AWS Ground Station now supports data delivery to Amazon S3](https://aws.amazon.com/about-aws/whats-new/2021/04/aws-ground-station-now-supports-data-delivery-to-amazon-s3/)
 * [Redshift](https://aws.amazon.com/redshift/) is a fast, scalable data warehouse that can extend queries to S3. Redshift is based on PostgreSQL but [has some differences](https://docs.aws.amazon.com/redshift/latest/dg/c_redshift-and-postgres-sql.html). Redshift supports geospatial data.
 * [AWS App Runner](https://aws.amazon.com/blogs/containers/introducing-aws-app-runner/) enables quick deployment of containers as apps
+* [AWS Athena](https://aws.amazon.com/athena/) allows running SQL queries against CSV files stored on S3. Serverless so pay only for the queries you run
+* If you are using pytorch checkout [the S3 plugin for pytorch](https://aws.amazon.com/blogs/machine-learning/announcing-the-amazon-s3-plugin-for-pytorch/) which provides streaming data access
 
 ## Google cloud
 * For storage use [Cloud Storage](https://cloud.google.com/storage) (AWS S3 equivalent)
@@ -1002,6 +1001,7 @@ For supervised machine learning, you will require annotated images. For example 
 * [labelbox.com](https://labelbox.com/) -> free tier is quite generous
 * [diffgram](https://github.com/diffgram/diffgram) describes itself as a complete training data platform for machine learning delivered as a single application. Open source or  [available as hosted service](https://diffgram.com/), supports [streaming data to pytorch & tensorflow](https://medium.com/diffgram/stream-training-data-to-your-models-with-diffgram-f0f25f6688c5)
 * [hasty.ai](https://hasty.ai/) -> supports model assisted annotation & inferencing
+* [iris](https://github.com/ESA-PhiLab/iris) -> Tool for manual image segmentation and classification of satellite imagery
 
 ## Annotation formats
 Note there are many annotation formats, although PASCAL VOC and coco-json are the most commonly used.
@@ -1111,7 +1111,7 @@ Many of these companies & products predate the open source software boom, and of
 * [sewar](https://github.com/andrewekhalel/sewar) -> All image quality metrics you need in one package
 * [fiftyone](https://github.com/voxel51/fiftyone) -> open-source tool for building high quality datasets and computer vision models. Visualise labels, evaluate model predictions, explore scenarios of interest, identify failure modes, find annotation mistakes, and much more!
 * [GeoTagged_ImageChip](https://github.com/Hejarshahabi/GeoTagged_ImageChip) -> A simple script to create geo tagged image chips from high resolution RS iamges for training deep learning models such as Unet.
-* [Label Maker](https://github.com/developmentseed/label-maker) -> downloads OpenStreetMap QA Tile information and satellite imagery tiles and saves them as an `.npz` file for use in machine learning training.
+* [Label Maker](https://github.com/developmentseed/label-maker) -> downloads OpenStreetMap QA Tile information and satellite imagery tiles and saves them as an `.npz` file for use in machine learning training. This should be used instead of the deprecated [skynet-data](https://github.com/developmentseed/skynet-data)
 * [Satellite imagery label tool](https://github.com/calebrob6/labeling-tool) -> provides an easy way to collect a random sample of labels over a given scene of satellite imagery
 * [DeepSatData](https://github.com/michaeltrs/DeepSatData) -> Automatically create machine learning datasets from satellite images
 * [image-reconstructor-patches](https://github.com/marijavella/image-reconstructor-patches) -> Reconstruct Image from Patches with a Variable Stride
@@ -1121,6 +1121,8 @@ Many of these companies & products predate the open source software boom, and of
 * [img2dataset](https://github.com/rom1504/img2dataset) -> Easily turn large sets of image urls to an image dataset. Can download, resize and package 100M urls in 20h on one machine
 * [satproc](https://github.com/dymaxionlabs/satproc) -> Python library and CLI tools for processing geospatial imagery for ML
 * [Sliding Window](https://github.com/adamrehn/slidingwindow) ->  break large images into a series of smaller chunks
+* [color_range_filter](https://github.com/developmentseed/color_range_filter) -> a script that allows us to find range of colors in images using openCV, and then convert them into geo vectors
+* [eo4ai](https://github.com/ESA-PhiLab/eo4ai) -> easy-to-use tools for preprocessing datasets for image segmentation tasks in Earth Observation
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
@@ -1143,6 +1145,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [Lightly](https://docs.lightly.ai/index.html) is a computer vision framework for training deep learning models using self-supervised learning
 * [Icevision](https://airctic.com/) offers a curated collection of hundreds of high-quality pre-trained models within an easy to use framework
 * [pytorch_eo](https://github.com/earthpulse/pytorch_eo) -> aims to make Deep Learning for Earth Observation data easy and accessible to real-world cases and research alike
+* [NGVEO](https://github.com/ESA-PhiLab/NGVEO) -> applying convolutional neural networks (CNN) to Earth Observation (EO) data from Sentinel 1 and 2 using python and PyTorch
 
 ## Data discovery and ingestion
 * [landsat_ingestor](https://github.com/landsat-pds/landsat_ingestor) -> Scripts and other artifacts for landsat data ingestion into Amazon public hosting
@@ -1152,6 +1155,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [pylandsat](https://github.com/yannforget/pylandsat) -> Search, download, and preprocess Landsat imagery
 * [sentinelsat](https://github.com/sentinelsat/sentinelsat) -> Search and download Copernicus Sentinel satellite images
 * [landsatxplore](https://github.com/yannforget/landsatxplore) -> Search and download Landsat scenes from EarthExplorer
+* [OpenSarToolkit](https://github.com/ESA-PhiLab/OpenSarToolkit) -> High-level functionality for the inventory, download and pre-processing of Sentinel-1 data in the python language
 
 ## Graphing and visualisation
 * [hvplot](https://hvplot.holoviz.org/) -> A high-level plotting API for the PyData ecosystem built on HoloViews. Allows overlaying data on map tiles, see [Exploring USGS Terrain Data in COG format using hvPlot](https://discourse.holoviz.org/t/exploring-usgs-terrain-data-in-cog-format-using-hvplot/1727)
@@ -1185,6 +1189,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [streamlit-keplergl](https://github.com/chrieke/streamlit-keplergl) -> Streamlit component for rendering kepler.gl maps
 * [streamlit-light-leaflet](https://github.com/andfanilo/streamlit-light-leaflet) -> Streamlit quick & dirty Leaflet component that sends back coordinates on map click
 * [leafmap-streamlit](https://github.com/giswqs/leafmap-streamlit) -> various examples showing how to use streamlit to: create a 3D map using Kepler.gl, create a heat map, display a GeoJSON file on a map, and add a colorbar or change the basemap on a map
+* [geemap-apps](https://github.com/giswqs/geemap-apps) -> build a multi-page Earth Engine App using streamlit and geemap
 * [BirdsPyView](https://github.com/rjtavares/BirdsPyView) -> convert images to top-down view and get coordinates of objects
 * [Build a useful web application in Python: Geolocating Photos](https://medium.com/spatial-data-science/build-a-useful-web-application-in-python-geolocating-photos-186122de1968) -> Step by Step tutorial using Streamlit, Exif, and Pandas
 * [Wild fire detection app](https://github.com/yueureka/WildFireDetection)
@@ -1243,6 +1248,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [DHI GRAS](https://github.com/DHI-GRAS)
 * [ElementAI](https://github.com/ElementAI)
 * [Element 84](https://github.com/element84)
+* [ESA-PhiLab](https://github.com/ESA-PhiLab)
 * [Esri](https://github.com/Esri)
 * [Geoalert](https://github.com/Geoalert) -> checkout their [Medium articles](https://medium.com/geoalert-platform-urban-monitoring)
 * [GIC-AIT](https://github.com/gicait) -> Aisan Institute of Technology
