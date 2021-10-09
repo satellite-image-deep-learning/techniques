@@ -6,7 +6,6 @@ This document lists resources for performing deep learning (DL) on satellite ima
 * [ML best practice](https://github.com/robmarkcole/satellite-image-deep-learning#ml-best-practice)
 * [ML metrics](https://github.com/robmarkcole/satellite-image-deep-learning#ml-metrics)
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
-* [Interesting deep learning projects](https://github.com/robmarkcole/satellite-image-deep-learning#interesting-deep-learning-projects)
 * [State of the art engineering](https://github.com/robmarkcole/satellite-image-deep-learning#state-of-the-art-engineering)
 * [Online platforms for performing analytics](https://github.com/robmarkcole/satellite-image-deep-learning#online-platforms-for-performing-analytics)
 * [Free online computing resources](https://github.com/robmarkcole/satellite-image-deep-learning#free-online-computing-resources)
@@ -782,48 +781,6 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [BlenderGIS](https://github.com/domlysz/BlenderGIS) could be used for synthetic data generation
 * [bifrost.ai](https://www.bifrost.ai/) -> simulated data service with geospatial output data formats
 
-# Interesting deep learning projects
-## Raster Vision by Azavea
-* https://www.azavea.com/projects/raster-vision/
-* An open source Python framework for building computer vision models on aerial, satellite, and other large imagery sets.
-* Accessible through the [Raster Foundry](https://rasterfoundry.azavea.com/)
-* [Example use cases on open data](https://github.com/azavea/raster-vision-examples)
-
-## torchrs - PyTorch Remote Sensing
-* [torchrs](https://github.com/isaaccorley/torchrs)
-* PyTorch implementation of popular datasets and models in remote sensing tasks (Change Detection, Image Super Resolution, Land Cover Classification/Segmentation, Image-to-Image Translation, etc.) for various Optical (Sentinel-2, Landsat, etc.) and Synthetic Aperture Radar (SAR) (Sentinel-1) sensors
-
-## Microsoft torchgeo
-* [torchgeo repo](https://github.com/microsoft/torchgeo) and [docs](https://torchgeo.readthedocs.io/en/latest/)
-* The torchgeo package consists of popular datasets, model architectures, and common image transformations for geospatial data.
-* Presumably this will align usage with the Microsoft Planetary computer.?
-
-## chip-n-scale-queue-arranger by developmentseed
-* https://github.com/developmentseed/chip-n-scale-queue-arranger
-* an orchestration pipeline for running machine learning inference at scale
-* [Supports fastai models](https://github.com/developmentseed/fastai-serving)
-
-## spaceml.org
-* http://spaceml.org/
-* A Machine Learning toolbox and developer community building the next generation AI applications for space science and exploration
-
-## TorchSat (no activity since June 2020)
-* [TorchSat](https://github.com/sshuair/torchsat) is an open-source deep learning framework for satellite imagery analysis based on PyTorch
-
-## DeepNetsForEO (no activity since 2019)
-* https://github.com/nshaud/DeepNetsForEO
-* Uses SegNET for working on remote sensing images using deep learning
-
-## RoboSat (no longer maintained)
-* https://github.com/mapbox/robosat
-* Semantic segmentation on aerial and satellite imagery. Extracts features such as: buildings, parking lots, roads, water, clouds
-* [robosat-jupyter-notebook](https://github.com/Element84/robosat-jupyter-notebook) -> walks through all of the steps in an excellent blog post on the Robosat feature extraction and machine learning pipeline.
-* Note there is/was fork of Robosat, originally named RoboSat.pink, and subsequently neat-EO.pink although this appears to be dead/archived
-
-## DeepOSM (no activity since 2017)
-* https://github.com/trailbehind/DeepOSM
-* Train a deep learning net with OpenStreetMap features and satellite imagery
-
 # State of the art engineering
 * Compute and data storage are moving to the cloud. Read how [Planet](https://cloud.google.com/customers/planet) and [Airbus](https://cloud.google.com/customers/airbus) use the cloud
 * Google Earth Engine and Microsoft Planetary Computer are democratising access to massive compute platforms
@@ -1140,15 +1097,22 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [dvc](https://dvc.org/) -> not specific to EO ML models, dvc is a git extension to keep track of changes in data, source code, and ML models together
 * [hummingbird](https://github.com/microsoft/hummingbird) ->  a library for compiling trained traditional ML models into tensor computations, e.g. scikit learn model to pytorch for fast inference on a GPU
 
-## Deep learning packages & frameworks
-* [rastervision](https://docs.rastervision.io/)
-* [torchvision-enhance](https://github.com/sshuair/torchvision-enhance) -> Enhance PyTorch vision for semantic segmentation, multi-channel images and TIF file
+## Deep learning packages, frameworks & projects
+* [rastervision](https://docs.rastervision.io/) -> An open source Python framework for building computer vision models on aerial, satellite, and other large imagery sets
+* [torchrs](https://github.com/isaaccorley/torchrs) -> PyTorch implementation of popular datasets and models in remote sensing tasksenhance) -> Enhance PyTorch vision for semantic segmentation, multi-channel images and TIF file
+[torchgeo](https://github.com/microsoft/torchgeo) -> popular datasets, model architectures
 * [DeepHyperX](https://github.com/eecn/Hyperspectral-Classification) -> A Python/pytorch tool to perform deep learning experiments on various hyperspectral datasets
 * [DELTA](https://github.com/nasa/delta) -> Deep Earth Learning, Tools, and Analysis, by NASA is a framework for deep learning on satellite imagery, based on Tensorflow & using MLflow for tracking experiments
 * [Lightly](https://docs.lightly.ai/index.html) is a computer vision framework for training deep learning models using self-supervised learning
 * [Icevision](https://airctic.com/) offers a curated collection of hundreds of high-quality pre-trained models within an easy to use framework
 * [pytorch_eo](https://github.com/earthpulse/pytorch_eo) -> aims to make Deep Learning for Earth Observation data easy and accessible to real-world cases and research alike
 * [NGVEO](https://github.com/ESA-PhiLab/NGVEO) -> applying convolutional neural networks (CNN) to Earth Observation (EO) data from Sentinel 1 and 2 using python and PyTorch
+* [chip-n-scale-queue-arranger by developmentseed](https://github.com/developmentseed/chip-n-scale-queue-arranger) -> an orchestration pipeline for running machine learning inference at scale. [Supports fastai models](https://github.com/developmentseed/fastai-serving)
+* http://spaceml.org/ -> A Machine Learning toolbox and developer community building the next generation AI applications for space science and exploration
+* [TorchSat](https://github.com/sshuair/torchsat) is an open-source deep learning framework for satellite imagery analysis based on PyTorch (no activity since June 2020)
+* [DeepNetsForEO](https://github.com/nshaud/DeepNetsForEO) -> Uses SegNET for working on remote sensing images using deep learning (no activity since 2019)
+* [RoboSat](https://github.com/mapbox/robosat) -> semantic segmentation on aerial and satellite imagery. Extracts features such as: buildings, parking lots, roads, water, clouds (no longer maintained)
+* [DeepOSM](https://github.com/trailbehind/DeepOSM) -> Train a deep learning net with OpenStreetMap features and satellite imagery (no activity since 2017)
 
 ## Data discovery and ingestion
 * [landsat_ingestor](https://github.com/landsat-pds/landsat_ingestor) -> Scripts and other artifacts for landsat data ingestion into Amazon public hosting
