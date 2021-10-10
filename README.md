@@ -42,6 +42,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [RSI-CB](https://github.com/lehaifeng/RSI-CB) -> A Large Scale Remote Sensing Image Classification Benchmark via Crowdsource Data
 * [NAIP_PoolDetection](https://github.com/annaptasznik/NAIP_PoolDetection) -> modelled as an object recognition problem, a CNN is used to identify images as being swimming pools or something else - specifically a street, rooftop, or lawn
 * [Land Use and Land Cover Classification using a ResNet Deep Learning Architecture](https://www.luigiselmi.eu/eo/lulc-classification-deeplearning.html) -> uses fastai and the EuroSAT dataset
+* [Vision Transformers Use Case: Satellite Image Classification without CNNs](https://medium.com/nerd-for-tech/vision-transformers-use-case-satellite-image-classification-without-cnns-2c4dbeb06f87)
 
 ## Segmentation
 Segmentation will assign a class label to each **pixel** in an image. Segmentation is typically grouped into semantic or instance segmentation. In semantic segmentation objects of the same class are assigned the same label, whilst in instance segmentation each object is assigned a unique label. Read this [beginner’s guide to segmentation](https://medium.com/gsi-technology/a-beginners-guide-to-segmentation-in-satellite-images-9c00d2028d52). Single class models are often trained for road or building segmentation, with multi class for land use/crop type classification. Image annotation can take long than for classification/object detection since every pixel must be annotated. **Note** that many articles which refer to 'hyperspectral land classification' are actually describing semantic segmentation.
@@ -232,6 +233,7 @@ Generally treated as a semantic segmentation problem.
 * [Landsat-8 to Proba-V Transfer Learning and Domain Adaptation for Cloud detection](https://github.com/IPL-UV/pvl8dagans)
 * [Multitemporal Cloud Masking in Google Earth Engine](https://github.com/IPL-UV/ee_ipl_uv)
 * [s2cloudmask](https://github.com/daleroberts/s2cloudmask) -> Sentinel-2 Cloud and Shadow Detection using Machine Learning
+* [sentinel2-cloud-detector](https://github.com/sentinel-hub/sentinel2-cloud-detector) -> Sentinel Hub Cloud Detector for Sentinel-2 images in Python
 
 ## Change detection & time-series
 Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
@@ -345,8 +347,8 @@ This is a class of techniques which attempt to make predictions for classes with
 * [FSODM](https://github.com/lixiang-ucas/FSODM) -> Official Code for paper "Few-shot Object Detection on Remote Sensing Images" on [arxiv](https://arxiv.org/abs/2006.07826)
 * [Few-Shot Classification of Aerial Scene Images via Meta-Learning](https://www.mdpi.com/2072-4292/13/1/108/htm) -> 2020 publication, a classification model that can quickly adapt to unseen categories using only a few labeled samples
 
-## Self-supervised, unsupervised & contrastive learning
-The terms self-supervised, unsupervised & contrastive learning are often used interchangably in the literature, and describe techniques using unlabelled data which is then clustered. In general, the more classical techniques such as k-means classification or PCA are referred to as unsupervised, whilst newer techniques using CNN feature extraction or autoencoders are referred to as self-supervised. [Yann LeCun](https://braindump.jethro.dev/posts/lecun_cake_analogy/) has described self-supervised/unsupervised learning as the 'base of the cake': *If we think of our brain as a cake, then the cake base is unsupervised learning. The machine predicts any part of its input for any observed part, all without the use of labelled data. Supervised learning forms the icing on the cake, and reinforcement learning is the cherry on top.*
+## Self/semi/un-supervised & contrastive learning
+The terms self-supervised, semi-supervised, un-supervised, contrastive learning & SSL describe techniques using un-labelled data. In general, the more classical techniques such as k-means classification or PCA are referred to as unsupervised, whilst newer techniques using CNN feature extraction or autoencoders are referred to as self-supervised. [Yann LeCun](https://braindump.jethro.dev/posts/lecun_cake_analogy/) has described self-supervised/unsupervised learning as the 'base of the cake': *If we think of our brain as a cake, then the cake base is unsupervised learning. The machine predicts any part of its input for any observed part, all without the use of labelled data. Supervised learning forms the icing on the cake, and reinforcement learning is the cherry on top.*
 * [Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://devblog.pytorchlightning.ai/seasonal-contrast-transferable-visual-representations-for-remote-sensing-73a17863ed07) -> Seasonal Contrast (SeCo) is an effective pipeline to leverage unlabeled data for in-domain pre-training of remote sensing representations. Models trained with SeCo achieve better performance than their ImageNet pre-trained counterparts and state-of-the-art self-supervised learning methods on multiple downstream tasks. [paper](https://arxiv.org/abs/2103.16607) and [repo](https://github.com/ElementAI/seasonal-contrast)
 * [Train SimSiam on Satellite Images](https://docs.lightly.ai/tutorials/package/tutorial_simsiam_esa.html) using [Lightly](https://docs.lightly.ai/index.html) to generate embeddings that can be used for data exploration and understanding
 * [Unsupervised Learning for Land Cover Classification in Satellite Imagery](https://omdena.com/blog/land-cover-classification/)
@@ -361,6 +363,7 @@ The terms self-supervised, unsupervised & contrastive learning are often used in
 * [Self-Supervised-Learner by spaceml-org](https://github.com/spaceml-org/Self-Supervised-Learner) -> train a classifier with fewer labeled examples needed using self-supervised learning, example applied to UC Merced land use dataset
 * [Tensorflow similarity](https://github.com/tensorflow/similarity) -> offers state-of-the-art algorithms for metric learning and all the necessary components to research, train, evaluate, and serve similarity-based models
 * [deepsentinel](https://github.com/Lkruitwagen/deepsentinel) -> a sentinel-1 and -2 self-supervised sensor fusion model for general purpose semantic embedding
+* [Semi-supervised learning in satellite image classification](https://medium.com/sentinel-hub/semi-supervised-learning-in-satellite-image-classification-e0874a76fc61) -> experimenting with MixMatch and the EuroSAT data set
 
 ## Active learning
 Supervised deep learning techniques typically require a huge number of labelled examples for form a training dataset. However labelling at scale take significant time, expertise and resources. Active learning techniques aim to reduce the total amount of annotation that needs to be performed by selecting the most useful images to label from a large pool of unlabelled examples, thus reducing the time to generate training datasets. These processes may be referred to as [Human-in-the-Loop Machine Learning](https://medium.com/pytorch/https-medium-com-robert-munro-active-learning-with-pytorch-2f3ee8ebec)
@@ -534,7 +537,8 @@ This section contains a short list of datasets relevant to deep learning, partic
 * 13 bands, Spatial resolution of 10 m, 20 m and 60 m, 290 km swath, the temporal resolution is 5 days
 * [awesome-sentinel](https://github.com/Fernerkundung/awesome-sentinel) - a curated list of awesome tools, tutorials and APIs related to data from the Copernicus Sentinel Satellites.
 * [Sentinel-2 Cloud-Optimized GeoTIFFs](https://registry.opendata.aws/sentinel-2-l2a-cogs/) and [Sentinel-2 L2A 120m Mosaic](https://registry.opendata.aws/sentinel-s2-l2a-mosaic-120/)
-* [Open access data on GCP](https://console.cloud.google.com/storage/browser/gcp-public-data-sentinel-2?prefix=tiles%2F31%2FT%2FCJ%2F) and paid access via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py).
+* [Open access data on GCP](https://console.cloud.google.com/storage/browser/gcp-public-data-sentinel-2?prefix=tiles%2F31%2FT%2FCJ%2F) 
+* Paid access to Sentinel & Landsat data via [sentinel-hub](https://www.sentinel-hub.com/) and [python-api](https://github.com/sentinel-hub/sentinelhub-py)
 * [Example loading sentinel data in a notebook](https://github.com/binder-examples/getting-data/blob/master/Sentinel2.ipynb)
 * [so2sat on Tensorflow datasets](https://www.tensorflow.org/datasets/catalog/so2sat) - So2Sat LCZ42 is a dataset consisting of co-registered synthetic aperture radar and multispectral optical image patches acquired by the Sentinel-1 and Sentinel-2 remote sensing satellites, and the corresponding local climate zones (LCZ) label. The dataset is distributed over 42 cities across different continents and cultural regions of the world.
 * [bigearthnet](https://www.tensorflow.org/datasets/catalog/bigearthnet) - The BigEarthNet is a new large-scale Sentinel-2 benchmark archive, consisting of 590,326 Sentinel-2 image patches. The image patch size on the ground is 1.2 x 1.2 km with variable image size depending on the channel resolution. This is a multi-label dataset with 43 imbalanced labels.
@@ -849,17 +853,18 @@ An overview of the most relevant services provided by AWS and Google. Also consi
 * For containerised apps use [Cloud Run](https://cloud.google.com/run) (AWS App Runner equivalent but can scale to zero)
 
 # Deploying models
-This section discusses how to get a trained machine learning & specifically deep learning model into production. For an overview on serving deep learning models checkout [Practical-Deep-Learning-on-the-Cloud](https://github.com/PacktPublishing/-Practical-Deep-Learning-on-the-Cloud). There are many options if you are happy to dedicate a server, although you may want a GPU for batch processing. For serverless consider AWS lambda.
+This section discusses how to get a trained machine learning & specifically deep learning model into production. For an overview on serving deep learning models checkout [Practical-Deep-Learning-on-the-Cloud](https://github.com/PacktPublishing/-Practical-Deep-Learning-on-the-Cloud). There are many options if you are happy to dedicate a server, although you may want a GPU for batch processing. For serverless use AWS lambda.
 
 ## Rest API on dedicated server
 A common approach to serving up deep learning model inference code is to wrap it in a rest API. The API can be implemented in python (flask or FastAPI), and hosted on a dedicated server e.g. EC2 instance. Note that making this a scalable solution will require significant experience.
 * Basic API: https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html with code [here](https://github.com/jrosebr1/simple-keras-rest-api)
 * Advanced API with request queuing: https://www.pyimagesearch.com/2018/01/29/scalable-keras-deep-learning-rest-api/
 
-## Framework specific model serving options
-If you are happy to live exclusively in the Tensorflow or Pytorch ecosystem, these are good options
+## Framework/provider specific model serving options
+If you are happy to live with some lock-in, these are good options:
 * [Tensorflow serving](https://www.tensorflow.org/tfx/guide/serving) is limited to Tensorflow models
 * [Pytorch serve](https://github.com/pytorch/serve) is easy to use, limited to Pytorch models, can be deployed via AWS Sagemaker
+* [sagemaker-inference-toolkit](https://github.com/aws/sagemaker-inference-toolkit) -> Serve machine learning models within a Docker container using AWS SageMaker
 
 ## NVIDIA Triton server
 * The [Triton Inference Server](https://github.com/triton-inference-server/server) provides an optimized cloud and edge inferencing solution
@@ -874,7 +879,6 @@ The general approaches are outlined in [this article from NVIDIA](https://develo
 * [GeoServer](http://geoserver.org/) -> an open source server for sharing geospatial data
 * Open Data Cube - serve up cubes of data https://www.opendatacube.org/
 * https://terria.io/ for pretty catalogues
-* [Sentinel-hub eo-browser](https://apps.sentinel-hub.com/eo-browser/)
 * Large datasets may come in HDF5 format, can view with -> https://www.hdfgroup.org/downloads/hdfview/
 * Climate data is often in netcdf format, which can be opened using xarray
 * The xarray docs list a number of ways that data [can be stored and loaded](http://xarray.pydata.org/en/latest/io.html#).
@@ -1231,6 +1235,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
 * [Preligens](https://github.com/earthcube-lab) -> formerly Earthcube Lab
 * [SatelliteVu](https://github.com/SatelliteVu) -> currently it's all private!
+* [Sinergise](https://github.com/sentinel-hub) -> maintaining Sentinel-hub
 * [SpaceKnow](https://github.com/SpaceKnow)
 * [Sparkgeo](https://github.com/sparkgeo)
 * [up42](https://github.com/up42) -> Airbus spinout providing 'The easiest way to build geospatial solutions'
