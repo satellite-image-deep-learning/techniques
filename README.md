@@ -1097,9 +1097,10 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [Kornia](https://kornia.readthedocs.io/en/latest/augmentation.html) provides augmentation on the GPU
 * [toolbox by ming71](https://github.com/ming71/toolbox) -> various cv tools, such as label tools, data augmentation, label conversion, etc.
 
-## Model specification, versioning & compilation
+## Model tracking, versioning, specification & compilation
+* [dvc](https://dvc.org/) -> a git extension to keep track of changes in data, source code, and ML models together
+* [Weights and Biases](https://wandb.ai/) -> keep track of your ML projects. Log hyperparameters and output metrics from your runs, then visualize and compare results and quickly share findings with your colleagues
 * [geo-ml-model-catalog](https://github.com/radiantearth/geo-ml-model-catalog) -> provides a common metadata definition for ML models that operate on geospatial data
-* [dvc](https://dvc.org/) -> not specific to EO ML models, dvc is a git extension to keep track of changes in data, source code, and ML models together
 * [hummingbird](https://github.com/microsoft/hummingbird) ->  a library for compiling trained traditional ML models into tensor computations, e.g. scikit learn model to pytorch for fast inference on a GPU
 
 ## Deep learning packages, frameworks & projects
@@ -1166,6 +1167,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [Build a useful web application in Python: Geolocating Photos](https://medium.com/spatial-data-science/build-a-useful-web-application-in-python-geolocating-photos-186122de1968) -> Step by Step tutorial using Streamlit, Exif, and Pandas
 * [Wild fire detection app](https://github.com/yueureka/WildFireDetection)
 * [Image-Similarity-Search](https://github.com/spaceml-org/Image-Similarity-Search) -> an app that helps perform super fast image retrieval on PyTorch models for better embedding space interpretability
+* [dvc-streamlit-example](https://github.com/sicara/dvc-streamlit-example) -> how dvc and streamlit can help track model performance during R&D exploration
 
 ## Cluster computing with Dask
 * [Dask](https://docs.dask.org/en/latest/) works with your favorite PyData libraries to provide performance at scale for the tools you love -> checkout [Read and manipulate tiled GeoTIFF datasets](https://examples.dask.org/applications/satellite-imagery-geotiff.html#)
