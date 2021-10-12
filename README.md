@@ -965,6 +965,7 @@ For supervised machine learning, you will require annotated images. For example 
 * [labelbox.com](https://labelbox.com/) -> free tier is quite generous
 * [diffgram](https://github.com/diffgram/diffgram) describes itself as a complete training data platform for machine learning delivered as a single application. Open source or  [available as hosted service](https://diffgram.com/), supports [streaming data to pytorch & tensorflow](https://medium.com/diffgram/stream-training-data-to-your-models-with-diffgram-f0f25f6688c5)
 * [hasty.ai](https://hasty.ai/) -> supports model assisted annotation & inferencing
+* TensorFlow Object Detection API provides a [handy utility](https://github.com/tensorflow/models/blob/6a55ecdea7afda51f9dc42dc17104bd6444395d9/research/object_detection/utils/colab_utils.py#L384) for object annotation within Google Colab notebooks. See usage [here](https://github.com/yasserius/tf2-object-detection-api#label-images-in-colab)
 
 ## EO specific annotation tools
 Also check the section **Image handling, manipulation & dataset creation**
