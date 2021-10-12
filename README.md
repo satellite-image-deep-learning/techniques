@@ -43,6 +43,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [NAIP_PoolDetection](https://github.com/annaptasznik/NAIP_PoolDetection) -> modelled as an object recognition problem, a CNN is used to identify images as being swimming pools or something else - specifically a street, rooftop, or lawn
 * [Land Use and Land Cover Classification using a ResNet Deep Learning Architecture](https://www.luigiselmi.eu/eo/lulc-classification-deeplearning.html) -> uses fastai and the EuroSAT dataset
 * [Vision Transformers Use Case: Satellite Image Classification without CNNs](https://medium.com/nerd-for-tech/vision-transformers-use-case-satellite-image-classification-without-cnns-2c4dbeb06f87)
+* [WaterNet](https://github.com/treigerm/WaterNet) -> a CNN that identifies water in satellite images
 
 ## Segmentation
 Segmentation will assign a class label to each **pixel** in an image. Segmentation is typically grouped into semantic or instance segmentation. In semantic segmentation objects of the same class are assigned the same label, whilst in instance segmentation each object is assigned a unique label. Read this [beginner’s guide to segmentation](https://medium.com/gsi-technology/a-beginners-guide-to-segmentation-in-satellite-images-9c00d2028d52). Single class models are often trained for road or building segmentation, with multi class for land use/crop type classification. Image annotation can take long than for classification/object detection since every pixel must be annotated. **Note** that many articles which refer to 'hyperspectral land classification' are actually describing semantic segmentation.
@@ -94,6 +95,8 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery more class
 * [Semantic-segmentation repo by fuweifu-vtoo](https://github.com/fuweifu-vtoo/Semantic-segmentation) -> uses pytorch and the [Massachusetts Buildings & Roads Datasets](https://www.cs.toronto.edu/~vmnih/data/)
 * [Mask_RCNN-for-Caravans](https://github.com/OrdnanceSurvey/Mask_RCNN-for-Caravans) -> detect caravan footprints from OS imagery
 * [remote-sensing-solar-pv](https://github.com/Lkruitwagen/remote-sensing-solar-pv) -> A repository for sharing progress on the automated detection of solar PV arrays in sentinel-2 remote sensing imagery
+* [Extracting buildings and roads from AWS Open Data using Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/extracting-buildings-and-roads-from-aws-open-data-using-amazon-sagemaker/) -> uses merged RGB (SpaceNet) and LiDAR (USGS 3DEP) datasets with Unet to reproduce the winning algorithm from SpaceNet challenge 4 by XD_XD. With [repo](https://github.com/aws-samples/aws-open-data-satellite-lidar-tutorial)
+* [TF-SegNet](https://github.com/mathildor/TF-SegNet) -> AirNet is a segmentation network based on SegNet, but with some modifications
 
 ### Semantic segmentation - roads
 * [Semantic segmentation of roads and highways using Sentinel-2 imagery (10m) super-resolved using the SENX4 model up to x4 the initial spatial resolution (2.5m)](https://tracasa.es/innovative-stories/sen2roadlasviastambiensevendesdesentinel-2/) (results, no repo)
@@ -121,6 +124,7 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery more class
 * [ml4floods](https://github.com/spaceml-org/ml4floods) -> An ecosystem of data, models and code pipelines to tackle flooding with ML
 * [A comprehensive guide to getting started with the ETCI Flood Detection competition](https://medium.com/cloud-to-street/jumpstart-your-machine-learning-satellite-competition-submission-2443b40d0a5a) -> using Sentinel1 SAR & pytorch
 * [Map Floodwater of SAR Imagery with SageMaker](https://github.com/JayThibs/map-floodwater-sar-imagery-on-sagemaker) -> applied to Sentinel-1 dataset
+* [1st place solution for STAC Overflow: Map Floodwater from Radar Imagery hosted by Microsoft AI for Earth](https://github.com/sweetlhare/STAC-Overflow) -> combines Unet with Catboostclassifier, taking their maxima, not the average
 
 ### Semantic segmentation - fire & burn areas
 * [Wild Fire Detection](https://github.com/yueureka/WildFireDetection) using U-Net trained on Databricks & Keras, semantic segmentation
@@ -151,6 +155,7 @@ Several different techniques can be used to count the number of objects in an im
 * [How to detect small objects in (very) large images](https://blog.ml6.eu/how-to-detect-small-objects-in-very-large-images-70234bab0f98) -> A practical guide to using Slicing-Aided Hyper Inference (SAHI) for performing inference on the DOTAv1.0 object detection dataset using the mmdetection framework
 * [Object detection on Satellite Imagery using RetinaNet](https://medium.com/@ije_good/object-detection-on-satellite-imagery-using-retinanet-part-1-training-e589975afbd5) -> using the Kaggle Swimming Pool and Car Detection dataset
 * [Object Detection Satellite Imagery Multi-vehicles Dataset (SIMD)](https://github.com/asimniazi63/Object-Detection-on-Satellite-Images) -> RetinaNet,Yolov3 and Faster RCNN for multi object detection on satellite images dataset
+* [SNIPER/AutoFocus](https://github.com/mahyarnajibi/SNIPER) -> an efficient multi-scale object detection training/inference algorithm
 
 #### Object detection enhanced by super resolution
 * [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
@@ -268,6 +273,7 @@ Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, c
 * [planet-movement](https://github.com/rhammell/planet-movement) -> Find and process Planet image pairs to highlight object movement
 * [UNet-based-Unsupervised-Change-Detection](https://github.com/annabosman/UNet-based-Unsupervised-Change-Detection) -> A convolutional neural network (CNN) and semantic segmentation is implemented to detect the changes between the images, as well as classify the changes into the correct semantic class, with [arxiv paper](https://arxiv.org/abs/1812.05815)
 * [temporal-cluster-matching](https://github.com/microsoft/temporal-cluster-matching) -> detecting change in structure footprints from time series of remotely sensed imagery
+* [autoRIFT](https://github.com/nasa-jpl/autoRIFT) ->  fast and intelligent algorithm for finding the pixel displacement between two images
 
 ## Wealth and economic activity
 The goal is to predict economic activity from satellite imagery rather than conducting labour intensive ground surveys
@@ -977,11 +983,19 @@ Note there are many annotation formats, although PASCAL VOC and coco-json are th
 
 # Paid software
 Many of these companies & products predate the open source software boom, and offer functionality which can be found in open source alternatives. However it is important to consider the licensing and support aspects before adopting an open source stack.
-* [ArcGIS](https://www.arcgis.com/index.html) -> mapping and analytics software, with both local and cloud hosted options. Checkout [Geospatial deep learning with arcgis.learn](https://developers.arcgis.com/python/guide/geospatial-deep-learning/). It [appears](https://www.esri.com/arcgis-blog/products/api-python/imagery/sar-to-rgb-translation-using-cyclegan/) ArcGIS are using fastai for their deep learning backend. [ArcGIS Jupyter Notebooks](https://www.esri.com/arcgis-blog/products/arcgis-enterprise/analytics/introducing-arcgis-notebooks/) in ArcGIS Enterprise are built to run big data analysis, deep learning models, and dynamic visualization tools.
 * [ENVI](https://www.l3harrisgeospatial.com/Software-Technology/ENVI) -> image processing and analysis
 * [ERDAS IMAGINE](https://www.hexagongeospatial.com/products/power-portfolio/erdas-imagine) -> remote sensing, photogrammetry, LiDAR analysis, basic vector analysis, and radar processing into a single product
 * [Spacemetric Keystone](http://spacemetric.com/) -> transform unprocessed sensor data into quality geospatial imagery ready for analysis
 * [microimages TNTgis](https://www.microimages.com/) -> advanced GIS, image processing, and geospatial analysis at an affordable price
+
+## ArcGIS
+Arguably the most significant paid software for working with maps and geographic information
+* [ArcGIS](https://www.arcgis.com/index.html) -> mapping and analytics software, with both local and cloud hosted options. 
+* [Geospatial deep learning with arcgis.learn](https://developers.arcgis.com/python/guide/geospatial-deep-learning/) -> the docs
+* [Integrating Deep Learning with GIS](https://medium.com/geoai/integrating-deep-learning-with-gis-70e7c5aa9dfe) is a 2019 article by Rohit Singh which introduces the deep learning capabilities in ArcGIS
+* [deep-learning-frameworks](https://github.com/Esri/deep-learning-frameworks) -> lists frameworks supported by the ArcGIS backend
+* [sar-to-rgb-translation-using-cyclegan](https://www.esri.com/arcgis-blog/products/api-python/imagery/sar-to-rgb-translation-using-cyclegan/) using fastai
+* [ArcGIS Jupyter Notebooks](https://www.esri.com/arcgis-blog/products/arcgis-enterprise/analytics/introducing-arcgis-notebooks/) are built to run big data analysis, deep learning models, and dynamic visualization tools.
 
 # Open source software
 [A note on licensing](https://www.gislounge.com/businesses-using-open-source-gis/): The two general types of licenses for open source are copyleft and permissive. Copyleft requires that subsequent derived software products also carry the license forward, e.g. the GNU Public License (GNU GPLv3). For permissive, options to modify and use the code as one please are more open, e.g. MIT & Apache 2. Checkout [choosealicense.com/](https://choosealicense.com/)
@@ -1046,6 +1060,7 @@ Many of these companies & products predate the open source software boom, and of
 * [nd](https://github.com/jnhansen/nd) -> Framework for the analysis of n-dimensional, multivariate Earth Observation data, built on xarray
 * [reverse-geocoder](https://github.com/thampiman/reverse-geocoder) -> a fast, offline reverse geocoder in Python
 * [MuseoToolBox](https://github.com/nkarasiak/MuseoToolBox) -> a python library to simplify the use of raster/vector, especially for machine learning and remote sensing
+* [py6s](https://py6s.readthedocs.io/en/latest/) -> an interface to the Second Simulation of the Satellite Signal in the Solar Spectrum (6S) atmospheric Radiative Transfer Model
 
 ## Low level numerical & data formats
 * [xarray](http://xarray.pydata.org/en/stable/) -> N-D labeled arrays and datasets. Read [Handling multi-temporal satellite images with Xarray](https://medium.com/@bonnefond.virginie/handling-multi-temporal-satellite-images-with-xarray-30d142d3391). Checkout [xarray_leaflet](https://github.com/davidbrochart/xarray_leaflet) for tiled map plotting
@@ -1088,6 +1103,7 @@ Many of these companies & products predate the open source software boom, and of
 * [color_range_filter](https://github.com/developmentseed/color_range_filter) -> a script that allows us to find range of colors in images using openCV, and then convert them into geo vectors
 * [eo4ai](https://github.com/ESA-PhiLab/eo4ai) -> easy-to-use tools for preprocessing datasets for image segmentation tasks in Earth Observation
 * [Train-Test-Validation-Dataset-Generation](https://github.com/salarghaffarian/Train-Test-Validation-Dataset-Generation) ->  app to crop images and create small patches of a large image e.g. Satellite/Aerial Images, which will then be used for training and testing Deep Learning models specifically semantic segmentation models
+* [rasterix](https://github.com/mogasw/rasterix) -> a cross-platform utility built around the GDAL library and the Qt framework designed to process geospatial raster data
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
@@ -1188,6 +1204,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [Shadow-Detection-Algorithm-for-Aerial-and-Satellite-Images](https://github.com/ThomasWangWeiHong/Shadow-Detection-Algorithm-for-Aerial-and-Satellite-Images) -> shadow detection and correction algorithm
 * [faiss](https://github.com/facebookresearch/faiss) -> A library for efficient similarity search and clustering of dense vectors, e.g. image embeddings
 * [awesome-spectral-indices](https://github.com/davemlz/awesome-spectral-indices) -> A ready-to-use curated list of Spectral Indices for Remote Sensing applications
+* [urban-footprinter](https://github.com/martibosch/urban-footprinter) -> A convolution-based approach to detect urban extents from raster datasets
 
 # Movers and shakers on Github
 * [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
@@ -1208,6 +1225,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [Qiusheng Wu](https://github.com/giswqs) is an Assistant Professor in the Department of Geography at the University of Tennessee, checkout his [YouTube channel](https://www.youtube.com/c/QiushengWu)
 * [Rodrigo Caye Daudt](https://rcdaudt.github.io/oscd/) is doing great work on change detection
 * [Robin Wilson](https://github.com/robintw) is a former academic who is very active in the satellite imagery space
+* [Rohit Singh](https://github.com/rohitgeo) is Director of Esri R&D Center and has some great [Medium articles](https://medium.com/@rohitgeo)
 
 # Companies & organisations on Github
 For a full list of companies, on and off Github, checkout [awesome-geospatial-companies](https://github.com/chrieke/awesome-geospatial-companies). The following lists companies with interesting Github profiles.
@@ -1254,6 +1272,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Geospatial_Python_CourseV1](https://github.com/acgeospatial/Geospatial_Python_CourseV1) -> a collection of blog posts turned into a course format
 * [Satellite Machine Learning Training](http://devseed.com/sat-ml-training/) -> lessons on how to apply Machine Learning analysis to satellite data
 * [DL-for-satellite-image-analysis](https://github.com/gicait/DL-for-satellite-image-analysis) -> short and minimalistic examples covering fundamentals of Deep Learning for Satellite Image Analysis using Jupyter notebooks, created by [lakmalnd](https://github.com/lakmalnd)
+* [ESRI MOOC: Spatial Data Science: The New Frontier in Analytics](https://www.esri.com/training/catalog/5d76dcf7e9ccda09bef61294/spatial-data-science:-the-new-frontier-in-analytics/#!) -> Online OCT 27 - DEC 8, 2021
 
 # Books
 * [Image Analysis, Classification and Change Detection in Remote Sensing With Algorithms for Python, Fourth Edition, By Morton John Canty](https://www.routledge.com/Image-Analysis-Classification-and-Change-Detection-in-Remote-Sensing-With/Canty/p/book/9781138613225) -> code [here](https://github.com/mortcanty/CRC4Docker)
