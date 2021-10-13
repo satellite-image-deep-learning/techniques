@@ -389,7 +389,7 @@ These techniques combine multiple data types, e.g. imagery and text data.
 Image fusion of low res multispectral with high res pan band.
 * Several algorithms described [in the ArcGIS docs](http://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/fundamentals-of-panchromatic-sharpening.htm), with the simplest being taking the mean of the pan and RGB pixel value.
 * Does not require DL, classical algos suffice, [see this notebook](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/panchromatic_sharpening.ipynb) and [this kaggle kernel](https://www.kaggle.com/resolut/panchromatic-sharpening)
-* https://github.com/mapbox/rio-pansharpen
+* [rio-pansharpen](https://github.com/mapbox/rio-pansharpen) -> pansharpening Landsat scenes
 * [PSGAN](https://github.com/liuqingjie/PSGAN) -> A Generative Adversarial Network for Remote Sensing Image Pan-sharpening, [arxiv paper](https://arxiv.org/abs/1805.03371)
 * [Pansharpening-by-Convolutional-Neural-Network](https://github.com/ThomasWangWeiHong/Pansharpening-by-Convolutional-Neural-Network)
 * [PBR_filter](https://github.com/dbuscombe-usgs/PBR_filter) -> {P}ansharpening by {B}ackground {R}emoval algorithm for sharpening RGB images
@@ -411,6 +411,7 @@ Image fusion of low res multispectral with high res pan band.
 * [image-quality-assessment](https://github.com/idealo/image-quality-assessment) -> CNN to predict the aesthetic and technical quality of images
 * [Convolutional autoencoder for image denoising](https://keras.io/examples/vision/autoencoder/) -> keras guide
 * [piq](https://github.com/photosynthesis-team/piq) -> a collection of measures and metrics for image quality assessment
+* [FFA-Net](https://github.com/zhilin007/FFA-Net) -> Feature Fusion Attention Network for Single Image Dehazing
 
 ## Image registration
 Image registration is the process of transforming different sets of data into one coordinate system. Typical use is overlapping images taken at different times or with different cameras.
@@ -1063,6 +1064,8 @@ Arguably the most significant paid software for working with maps and geographic
 * [reverse-geocoder](https://github.com/thampiman/reverse-geocoder) -> a fast, offline reverse geocoder in Python
 * [MuseoToolBox](https://github.com/nkarasiak/MuseoToolBox) -> a python library to simplify the use of raster/vector, especially for machine learning and remote sensing
 * [py6s](https://py6s.readthedocs.io/en/latest/) -> an interface to the Second Simulation of the Satellite Signal in the Solar Spectrum (6S) atmospheric Radiative Transfer Model
+* [timvt](https://github.com/developmentseed/timvt) -> PostGIS based Vector Tile server built on top of the modern and fast FastAPI framework
+* [titiler](https://github.com/developmentseed/titiler) -> A dynamic Web Map tile server using FastAPI
 
 ## Low level numerical & data formats
 * [xarray](http://xarray.pydata.org/en/stable/) -> N-D labeled arrays and datasets. Read [Handling multi-temporal satellite images with Xarray](https://medium.com/@bonnefond.virginie/handling-multi-temporal-satellite-images-with-xarray-30d142d3391). Checkout [xarray_leaflet](https://github.com/davidbrochart/xarray_leaflet) for tiled map plotting
@@ -1147,6 +1150,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [sentinelsat](https://github.com/sentinelsat/sentinelsat) -> Search and download Copernicus Sentinel satellite images
 * [landsatxplore](https://github.com/yannforget/landsatxplore) -> Search and download Landsat scenes from EarthExplorer
 * [OpenSarToolkit](https://github.com/ESA-PhiLab/OpenSarToolkit) -> High-level functionality for the inventory, download and pre-processing of Sentinel-1 data in the python language
+* [osmnx](https://github.com/gboeing/osmnx) -> Retrieve, model, analyze, and visualize data from OpenStreetMap
 
 ## Graphing and visualisation
 * [hvplot](https://hvplot.holoviz.org/) -> A high-level plotting API for the PyData ecosystem built on HoloViews. Allows overlaying data on map tiles, see [Exploring USGS Terrain Data in COG format using hvPlot](https://discourse.holoviz.org/t/exploring-usgs-terrain-data-in-cog-format-using-hvplot/1727)
@@ -1169,6 +1173,8 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [Interactive-TSNE](https://github.com/spaceml-org/Interactive-TSNE) -> a tool that provides a way to visually view a PyTorch model's feature representation for better embedding space interpretability
 * [fastgradio](https://github.com/aliabd/fastgradio) -> Build fast gradio demos of fastai learners
 * [pysheds](https://github.com/mdbartos/pysheds) -> Simple and fast watershed delineation in python
+* [mapboxgl-jupyter](https://github.com/mapbox/mapboxgl-jupyter) -> Use Mapbox GL JS to visualize data in a Python Jupyter notebook
+* [cartoframes](https://github.com/CartoDB/cartoframes) -> integrate CARTO maps, analysis, and data services into data science workflows
 
 ## Streamlit
 [Streamlit](https://streamlit.io/) is an awesome python framework for creating apps with python. Additionally they will host the apps free of charge. Here I list resources which are EO related. Note that a component is an addon which extends Streamlits basic functionality. If you like Streamlit also checkout [gradio](https://www.gradio.app/)
@@ -1234,6 +1240,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [AI. Reverie](https://github.com/aireveries) -> synthetic data
 * [Airbus Defence And Space](https://github.com/AirbusDefenceAndSpace)
 * [Azavea](https://github.com/azavea) -> lots of interesting repos around STAC
+* [CARTO](https://github.com/CartoDB) -> "The leading platform for Location Intelligence and Spatial Data Science"
 * [Citymapper](https://github.com/citymapper)
 * [Defense Innovation Unit (DIU)](https://github.com/DIUx-xView) -> run the xView challenges
 * [Development Seed](https://github.com/developmentseed)
@@ -1253,6 +1260,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [ml6team](https://github.com/ml6team)
 * [NASA](https://github.com/nasa)
 * [Near Space Labs](https://github.com/nearspacelabs)
+* [Ordnance Survey](https://github.com/OrdnanceSurvey)
 * [OroraTech](https://github.com/OroraTech)
 * [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
 * [Preligens](https://github.com/earthcube-lab) -> formerly Earthcube Lab
