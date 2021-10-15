@@ -828,7 +828,7 @@ A GPU is required for training deep learning models (but not necessarily for inf
 
 ## Others
 * [Paperspace gradient](https://gradient.run/notebooks) -> free tier includes GPU usage
-* [Deepnote](https://deepnote.com/) -> many features for collaboration, no GPU options currently
+* [Deepnote](https://deepnote.com/) -> many features for collaboration, GPU use is paid
 
 # State of the art engineering
 * Compute and data storage are moving to the cloud. Read how [Planet](https://cloud.google.com/customers/planet) and [Airbus](https://cloud.google.com/customers/airbus) use the cloud
