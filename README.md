@@ -647,7 +647,7 @@ This section contains a short list of datasets relevant to deep learning, partic
 * Dataset release as part of the [mapping-challenge](https://www.aicrowd.com/challenges/mapping-challenge)
 * 300x300 pixel RGB images with annotations in COCO format
 * Imagery appears to be global but with significant fraction from North America
-* Winning solution published by neptune.ai [here](https://github.com/neptune-ai/open-solution-mapping-challenge), achieved precision 0.943 and recall 0.954 using Unet with Resnet. Also [read this blog post](Mapping Challenge winning solution)
+* Winning solution published by neptune.ai [here](https://github.com/neptune-ai/open-solution-mapping-challenge), achieved precision 0.943 and recall 0.954 using Unet with Resnet.
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
