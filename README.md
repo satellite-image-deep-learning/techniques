@@ -638,6 +638,17 @@ This section contains a short list of datasets relevant to deep learning, partic
 * AIRS dataset covers almost the full area of Christchurch, the largest city in the South Island of New Zealand.
 * [Also on Kaggle](https://www.kaggle.com/atilol/aerialimageryforroofsegmentation/version/1)
 
+## Inria building/not building segmentation dataset
+* https://project.inria.fr/aerialimagelabeling/contest/
+* RGB GeoTIFF at spatial resolution of 0.3 m
+* Data covering Austin, Chicago, Kitsap County, Western & Easter Tyrol, Innsbruck, San Francisco & Vienna
+
+## AICrowd building segmentation dataset
+* Dataset release as part of the [mapping-challenge](https://www.aicrowd.com/challenges/mapping-challenge)
+* 300x300 pixel RGB images with annotations in COCO format
+* Imagery appears to be global but with significant fraction from North America
+* Winning solution published by neptune.ai [here](https://github.com/neptune-ai/open-solution-mapping-challenge), achieved precision 0.943 and recall 0.954 using Unet with Resnet. Also [read this blog post](Mapping Challenge winning solution)
+
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
 The [kaggle blog](http://blog.kaggle.com) is an interesting read.
@@ -745,13 +756,13 @@ In this challenge, you will build a model to classify cloud organization pattern
 * https://www.kaggle.com/atilol/aerialimageryforroofsegmentation -> Aerial Imagery for Roof Segmentation
 * https://www.kaggle.com/andrewmvd/ship-detection -> 621 images of boats and ships
 
-## Spacenet
-* Spacenet is an online hub for data, challenges, algorithms, and tools.
-* [spacenet.ai website](https://spacenet.ai/) covering the series of SpaceNet challenges, lots of useful resources (blog, video and papers)
-* [Getting Started with SpaceNet](https://medium.com/@sumit.arora/getting-started-with-aws-spacenet-and-spacenet-dataset-visualization-basics-7ddd2e5809a2)
-* [Package of utilities](https://github.com/SpaceNetChallenge/utilities) to assist working with the SpaceNet dataset.
+## SpaceNet
+* [spacenet.ai](https://spacenet.ai/) is an online hub for data, challenges, algorithms, and tools. Note that [CosmiQ Ended its Leadership of SpaceNet](https://medium.com/the-downlinq/closing-time-cosmiq-works-is-closing-down-and-ending-its-leadership-of-spacenet-a53ba239745b), handing over the reigns to Maxar
+* SpaceNet ran a series consisting of seven challenges with datasets and utilities provided. Challenges covered (1&2) building segmentation, (3) road segmentation, (4) off-nadir buildings, (5) road network extraction, (6)multi-senor mapping, (7) multi-temporal urban change
+* Building datasets covered a number of cities including: Rio, Paris, Vegas, Shanghai, Khartoum, Atlana, Moscow, Mumbai & Rotterdam
 * [The SpaceNet 7 Multi-Temporal Urban Development Challenge: Dataset Release](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5)
 * SpaceNet - WorldView-3 [article here](https://spark-in.me/post/spacenet-three-challenge), and [semantic segmentation using Raster Vision](https://docs.rastervision.io/en/0.8/quickstart.html)
+* [spacenet-three-topcoder](https://github.com/snakers4/spacenet-three-topcoder) solution
 
 ## Tensorflow datasets
 * [resisc45](https://www.tensorflow.org/datasets/catalog/resisc45) - RESISC45 dataset is a publicly available benchmark for Remote Sensing Image Scene Classification (RESISC), created by Northwestern Polytechnical University (NWPU). This dataset contains 31,500 images, covering 45 scene classes with 700 images in each class.
@@ -763,7 +774,7 @@ In this challenge, you will build a model to classify cloud organization pattern
 * Currently 36 satellite datasets on the [Registry of Open Data on AWS](https://registry.opendata.aws)
 
 ## Microsoft
-* [USBuildingFootprints](https://github.com/Microsoft/USBuildingFootprints) -> computer generated building footprints in all 50 US states, GeoJSON format, generated using semantic segmentation
+* [US Building Footprints](https://github.com/Microsoft/USBuildingFootprints) -> building footprints in all 50 US states, GeoJSON format, generated using semantic segmentation. Also [Australia](https://github.com/microsoft/AustraliaBuildingFootprints), [Canadian](https://github.com/Microsoft/CanadianBuildingFootprints) and [Uganda-Tanzania](https://github.com/microsoft/Uganda-Tanzania-Building-Footprints) are available
 * [Microsoft Planetary Computer](https://innovation.microsoft.com/en-us/planetary-computer) is a Dask-Gateway enabled JupyterHub deployment focused on supporting scalable geospatial analysis, [source repo](https://github.com/microsoft/planetary-computer-hub)
 * [Ai for Earth program](https://www.microsoft.com/en-us/ai/ai-for-earth)
 
@@ -1330,6 +1341,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 # Books
 * [Image Analysis, Classification and Change Detection in Remote Sensing With Algorithms for Python, Fourth Edition, By Morton John Canty](https://www.routledge.com/Image-Analysis-Classification-and-Change-Detection-in-Remote-Sensing-With/Canty/p/book/9781138613225) -> code [here](https://github.com/mortcanty/CRC4Docker)
 * I highly recommend [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python-second-edition) by François Chollet
+* [Practical Deep Learning for Cloud, Mobile & Edge](https://github.com/PracticalDL/Practical-Deep-Learning-Book)
 
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
