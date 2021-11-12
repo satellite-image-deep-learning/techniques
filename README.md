@@ -476,6 +476,7 @@ Measure surface contours.
 * [Reconstructing 3D buildings from aerial LiDAR with Mask R-CNN](https://medium.com/geoai/reconstructing-3d-buildings-from-aerial-lidar-with-ai-details-6a81cb3079c0)
 * [ResDepth](https://github.com/stuckerc/ResDepth) -> A Deep Prior For 3D Reconstruction From High-resolution Satellite Images
 * [overhead-geopose-challenge](https://www.drivendata.org/competitions/78/overhead-geopose-challenge/) -> competition to build computer vision algorithms that can effectively model the height and pose of ground objects for monocular satellite images taken from oblique angles. Blog post [MEET THE WINNERS OF THE OVERHEAD GEOPOSE CHALLENGE](https://www.drivendata.co/blog/overhead-geopose-challenge-winners/)
+* [cars](https://github.com/CNES/cars) -> a dedicated and open source 3D tool to produce Digital Surface Models from satellite imaging by photogrammetry. This Multiview stereo pipeline is intended for massive DSM production with a robust and performant design
 
 ## Thermal Infrared
 * [The World Needs (a lot) More Thermal Infrared Data from Space](https://towardsdatascience.com/the-world-needs-a-lot-more-thermal-infrared-data-from-space-dbbba389be8a)
@@ -1177,6 +1178,7 @@ Arguably the most significant paid software for working with maps and geographic
 * [rasterix](https://github.com/mogasw/rasterix) -> a cross-platform utility built around the GDAL library and the Qt framework designed to process geospatial raster data
 * [jimutmap](https://github.com/Jimut123/jimutmap) -> get enormous amount of high resolution satellite images from apple / google maps quickly through multi-threading
 * [Export thumbnails from Earth Engine](https://gorelick.medium.com/fast-er-downloads-a2abd512aa26)
+* [datumaro](https://github.com/openvinotoolkit/datumaro) -> Dataset Management Framework, a Python library and a CLI tool to build, analyze and manage Computer Vision datasets
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
@@ -1311,6 +1313,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 For a full list of companies, on and off Github, checkout [awesome-geospatial-companies](https://github.com/chrieke/awesome-geospatial-companies). The following lists companies with interesting Github profiles.
 * [AI. Reverie](https://github.com/aireveries) -> synthetic data
 * [Airbus Defence And Space](https://github.com/AirbusDefenceAndSpace)
+* [Applied-GeoSolutions](https://github.com/Applied-GeoSolutions)
 * [Azavea](https://github.com/azavea) -> lots of interesting repos around STAC
 * [CARTO](https://github.com/CartoDB) -> "The leading platform for Location Intelligence and Spatial Data Science"
 * [Citymapper](https://github.com/citymapper)
@@ -1327,6 +1330,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [GIC-AIT](https://github.com/gicait) -> Aisan Institute of Technology
 * [Hummingbird Technologies Ltd](https://github.com/HummingbirdTechGroup) -> sustainability and optimised food production
 * [ICEYE](https://github.com/iceye-ltd)
+* [indigo-ag](https://github.com/indigo-ag)
 * [Mapbox](https://github.com/mapbox) -> thanks for Rasterio!
 * [Maxar-Analytics](https://github.com/maxar-analytics)
 * [ml6team](https://github.com/ml6team)
@@ -1338,6 +1342,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Preligens](https://github.com/earthcube-lab) -> formerly Earthcube Lab
 * [SatelliteVu](https://github.com/SatelliteVu) -> currently it's all private!
 * [Sinergise](https://github.com/sentinel-hub) -> maintaining Sentinel-hub
+* [SkyTruth](https://github.com/SkyTruth)
 * [SpaceKnow](https://github.com/SpaceKnow)
 * [Sparkgeo](https://github.com/sparkgeo)
 * [up42](https://github.com/up42) -> Airbus spinout providing 'The easiest way to build geospatial solutions'
