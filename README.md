@@ -259,6 +259,7 @@ Generally treated as a semantic segmentation problem.
 * [s2cloudmask](https://github.com/daleroberts/s2cloudmask) -> Sentinel-2 Cloud and Shadow Detection using Machine Learning
 * [sentinel2-cloud-detector](https://github.com/sentinel-hub/sentinel2-cloud-detector) -> Sentinel Hub Cloud Detector for Sentinel-2 images in Python
 * [dsen2-cr](https://github.com/ameraner/dsen2-cr) -> cloud removal in Sentinel-2 imagery using a deep residual neural network and SAR-optical data fusion, contains the model code, written in Python/Keras, as well as links to pre-trained checkpoints and the SEN12MS-CR dataset
+* [pyatsa](https://github.com/agroimpacts/pyatsa) -> Python package implementing the Automated Time-Series Analysis method for masking clouds in satellite imagery developed by Zhu and Helmer 2018
 
 ## Change detection & time-series
 Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
@@ -401,6 +402,7 @@ The terms self-supervised, semi-supervised, un-supervised, contrastive learning 
 * [deepsentinel](https://github.com/Lkruitwagen/deepsentinel) -> a sentinel-1 and -2 self-supervised sensor fusion model for general purpose semantic embedding
 * [Semi-supervised learning in satellite image classification](https://medium.com/sentinel-hub/semi-supervised-learning-in-satellite-image-classification-e0874a76fc61) -> experimenting with MixMatch and the EuroSAT data set
 * [contrastive_SSL_ship_detection](https://github.com/alina2204/contrastive_SSL_ship_detection) -> Contrastive self supervised learning for ship detection in Sentinel 2 images
+* [Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection) with [arxiv paper](https://arxiv.org/abs/2107.08369)
 
 ## Active learning
 Supervised deep learning techniques typically require a huge number of labelled examples for form a training dataset. However labelling at scale take significant time, expertise and resources. Active learning techniques aim to reduce the total amount of annotation that needs to be performed by selecting the most useful images to label from a large pool of unlabelled examples, thus reducing the time to generate training datasets. These processes may be referred to as [Human-in-the-Loop Machine Learning](https://medium.com/pytorch/https-medium-com-robert-munro-active-learning-with-pytorch-2f3ee8ebec)
@@ -409,6 +411,7 @@ Supervised deep learning techniques typically require a huge number of labelled 
 * [AstronomicAL](https://github.com/grant-m-s/AstronomicAL) -> An interactive dashboard for visualisation, integration and classification of data using Active Learning
 * Read about [active learning on the lightly platform](https://docs.lightly.ai/getting_started/active_learning.html) and [in label-studio](https://labelstud.io/guide/ml.html#Active-Learning)
 * [Active-Labeler by spaceml-org](https://github.com/spaceml-org/Active-Labeler) -> a CLI Tool that facilitates labeling datasets with just a SINGLE line of code
+* [Labelling platform for Mapping Africa active learning project](https://github.com/agroimpacts/labeller)
 
 ## Mixed data learning
 These techniques combine multiple data types, e.g. imagery and text data.
@@ -892,6 +895,10 @@ A GPU is required for training deep learning models (but not necessarily for inf
 * Tensorflow, pytorch & fastai available but you may need to update them
 * Advantage that many datasets are already available
 
+## AWS SageMaker Studio Lab
+* [SageMaker Studio Lab](https://studiolab.sagemaker.aws/) is a recent release which competes with Google colab being free to use with no credit card or AWS account required
+* [Github profile](https://github.com/topics/amazon-sagemaker-lab)
+
 ## Others
 * [Paperspace gradient](https://gradient.run/notebooks) -> free tier includes GPU usage
 * [Deepnote](https://deepnote.com/) -> many features for collaboration, GPU use is paid
@@ -916,7 +923,7 @@ An overview of the most relevant services provided by AWS and Google. Also consi
 * Use [Glue](https://aws.amazon.com/glue) for data preprocessing - or use Sagemaker
 * To orchestrate basic data pipelines use [Step functions](https://aws.amazon.com/step-functions/). Use the [AWS Step Functions Workflow Studio](https://aws.amazon.com/blogs/aws/new-aws-step-functions-workflow-studio-a-low-code-visual-tool-for-building-state-machines/) to get started. Read [Orchestrating and Monitoring Complex, Long-running Workflows Using AWS Step Functions](https://aws.amazon.com/blogs/architecture/field-notes-orchestrating-and-monitoring-complex-long-running-workflows-using-aws-step-functions/). Note that step functions are defined in JSON
 * If step functions are too limited or you want to write pipelines in python and use Directed Acyclic Graphs (DAGs) for workflow management, checkout hosted [AWS managed Airflow](https://aws.amazon.com/managed-workflows-for-apache-airflow/). Read [Orchestrate XGBoost ML Pipelines with Amazon Managed Workflows for Apache Airflow](https://aws.amazon.com/blogs/machine-learning/orchestrate-xgboost-ml-pipelines-with-amazon-managed-workflows-for-apache-airflow/) and checkout [amazon-mwaa-examples](https://github.com/aws-samples/amazon-mwaa-examples)
-* [Sagemaker](https://aws.amazon.com/sagemaker/) is a whole ecosystem of ML tools that includes a hosted Jupyter environment for training of ML models. There are also tools for deployment of models using docker.
+* [Sagemaker](https://aws.amazon.com/sagemaker/) is a whole ecosystem of ML tools that includes a hosted Jupyter environment for training of ML models. There are also tools for deployment of models using docker. [SageMaker Studio Lab](https://studiolab.sagemaker.aws/) is a recent release which competes with Google colab being free to use with no credit card or AWS account required
 * [Deep learning AMIs](https://aws.amazon.com/machine-learning/amis/) are EC2 instances with deep learning frameworks preinstalled. They do require more setup from the user than Sagemaker but in return allow access to the underlying hardware, which makes debugging issues more straightforward. There is a [good guide to setting up your AMI instance on the Keras blog](https://blog.keras.io/running-jupyter-notebooks-on-gpu-on-aws-a-starter-guide.html)
 * Specifically created for deep learning inferencing is [AWS Inferentia](https://aws.amazon.com/machine-learning/inferentia/)
 * [Rekognition](https://aws.amazon.com/rekognition/custom-labels-features/) custom labels is a 'no code' annotation, training and inferencing service. Read [Training models using Satellite (Sentinel-2) imagery on Amazon Rekognition Custom Labels](https://ryfeus.medium.com/training-models-using-satellite-imagery-on-amazon-rekognition-custom-labels-dd44ac6a3812). For a comparison with Azure and Google alternatives [read this article](https://blog.roboflow.com/automl-vs-rekognition-vs-custom-vision/)
@@ -1201,6 +1208,7 @@ So improtant this pair gets their own section. GDAL is THE command line tool for
 * [patchify](https://github.com/dovahcrow/patchify.py) -> A library that helps you split image into small, overlappable patches, and merge patches into original image
 * [ohsome2label](https://github.com/GIScience/ohsome2label) -> Historical OpenStreetMap (OSM) Objects to Machine Learning Training Samples
 * [Label Maker](https://github.com/developmentseed/label-maker) -> downloads OpenStreetMap QA Tile information and satellite imagery tiles and saves them as an `.npz` file for use in machine learning training. This should be used instead of the deprecated [skynet-data](https://github.com/developmentseed/skynet-data)
+* [sentinelPot](https://github.com/LLeiSong/sentinelPot) -> a python package to preprocess sentinel-1&2 imagery
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
@@ -1331,7 +1339,8 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [Christoph Rieke](https://github.com/chrieke) maintains a very popular imagery repo and has published his thesis on segmentation
 * [Daniel J Dufour](https://github.com/DanielJDufour) builds [geotiff.io](https://geotiff.io/) and more
 * [Daniel Moraite](https://daniel-moraite.medium.com/) is publishing some excellent articles
-* [Even Rouault](https://github.com/rouault) maintains several of the most critical tools in this domain such as GDAL, please consider [sponsoring him](https://github.com/sponsors/rouault)
+* [Even Rouault](https://github.com/rouault) maintains several of the most critical tools in this domain such as GDAL
+* [Fatih Cagatay Akyon](https://github.com/fcakyon) aka fcakyon is maintaining sahi and many other useful projects
 * [Gonzalo Mateo García](https://github.com/gonzmg88) is working on clouds and Water segmentation with CNNs
 * [Isaac Corley](https://github.com/isaaccorley) is working on super-resolution and torchrs
 * [Jake Shermeyer](https://github.com/jshermeyer) many interesting repos
@@ -1348,6 +1357,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 For a full list of companies, on and off Github, checkout [awesome-geospatial-companies](https://github.com/chrieke/awesome-geospatial-companies). The following lists companies with interesting Github profiles.
 * [AI. Reverie](https://github.com/aireveries) -> synthetic data
 * [Airbus Defence And Space](https://github.com/AirbusDefenceAndSpace)
+* [Agricultural Impacts Research Group](https://github.com/agroimpacts)
 * [Applied-GeoSolutions](https://github.com/Applied-GeoSolutions)
 * [Azavea](https://github.com/azavea) -> lots of interesting repos around STAC
 * [CARTO](https://github.com/CartoDB) -> "The leading platform for Location Intelligence and Spatial Data Science"
