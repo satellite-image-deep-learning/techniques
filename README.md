@@ -215,6 +215,7 @@ Several different techniques can be used to count the number of objects in an im
 * [Ship Detection in Satellite Images using Mask R-CNN](https://spell.ml/blog/ship-detection-in-satellite-images-using-mask-r-cnn-XyMA4xEAACUAb9G1) blog post by spell.ml
 * [Mask R-CNN for Ship Detection & Segmentation](https://medium.com/@gabogarza/mask-r-cnn-for-ship-detection-segmentation-a1108b5a083) blog post with [repo](https://github.com/gabrielgarza/Mask_RCNN)
 * [contrastive_SSL_ship_detection](https://github.com/alina2204/contrastive_SSL_ship_detection) -> Contrastive self supervised learning for ship detection in Sentinel 2 images
+* [Boat detection with multi-region-growing method in satellite images](https://medium.com/@ipmach/boat-detection-with-multi-region-growing-method-in-satellite-images-3339a6c29a8c)
 
 #### Object detection - vehicles & trains
 * [Truck Detection with Sentinel-2 during COVID-19 crisis](https://github.com/hfisser/Truck_Detection_Sentinel2_COVID19) -> moving objects in Sentinel-2 data causes a specific reflectance relationship in the RGB, which looks like a rainbow, and serves as a marker for trucks. Improve accuracy by only analysing roads. Not using object detection but relevant
@@ -322,6 +323,7 @@ Super-resolution attempts to enhance the resolution of an imaging system, and ca
 * [Super-Resolution (python) Utilities for managing large satellite images](https://github.com/jshermeyer/SR_Utils)
 * [pytorch-enhance](https://github.com/isaaccorley/pytorch-enhance) -> Library of Image Super-Resolution Models, Datasets, and Metrics for Benchmarking or Pretrained Use. Also [checkout this implementation in Jax](https://github.com/isaaccorley/jax-enhance)
 * [Super Resolution in OpenCV](https://learnopencv.com/super-resolution-in-opencv/)
+* [AI-based Super resolution and change detection to enforce Sentinel-2 systematic usage](https://medium.com/@sistema_gmbh/ai-based-super-resolution-and-change-detection-to-enforce-sentinel-2-systematic-usage-65aa37d0365) -> Worldview-2 images (2m) were used to create a reference dataset and increase the spatial resolution of the Copernicus sensor from 10m to 5m
 
 ### Single image super resolution (SISR)
 * [Super Resolution for Satellite Imagery - srcnn repo](https://github.com/WarrenGreen/srcnn)
@@ -886,6 +888,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [eofactory.ai](https://eofactory.ai/) -> supports multi public and private data sources that can be used to analyse and extract information
 * [mapflow.ai](https://mapflow.ai/) -> imagery analysis platform with its instant access to the major satellite imagery providers, models for extract building footprints etc & [QGIS plugin](https://www.gislounge.com/run-ai-mapping-in-qgis-over-high-resolution-satellite-imagery/)
 * [openeo](https://openeo.cloud/) by ESA data platform
+* [Adam platform](https://adamplatform.eu/) -> the Advanced geospatial Data Management platform (ADAM) is a tool to access a large variety and volume of global environmental data
 
 # Free online compute
 A GPU is required for training deep learning models (but not necessarily for inferencing), and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter development environments [on the fastai site](https://course19.fast.ai). I personally use Colab Pro with data hosted on Google Drive, or Sagemaker if I have very long running training jobs.
