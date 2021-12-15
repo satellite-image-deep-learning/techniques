@@ -1071,16 +1071,16 @@ For supervised machine learning, you will require annotated images. For example 
 * [Roboflow](https://roboflow.com) can be used to convert between annotation formats & manage datasets, as well as train and deploy custom models. Free tier quite useful
 * [supervise.ly](https://supervise.ly) is one of the more fully featured platforms, decent free tier
 * AWS supports image annotation via the Rekognition Custom Labels console
-* [labelbox.com](https://labelbox.com/) -> free tier is quite generous
 * [diffgram](https://github.com/diffgram/diffgram) describes itself as a complete training data platform for machine learning delivered as a single application. Open source or  [available as hosted service](https://diffgram.com/), supports [streaming data to pytorch & tensorflow](https://medium.com/diffgram/stream-training-data-to-your-models-with-diffgram-f0f25f6688c5)
 * [hasty.ai](https://hasty.ai/) -> supports model assisted annotation & inferencing
 * TensorFlow Object Detection API provides a [handy utility](https://github.com/tensorflow/models/blob/6a55ecdea7afda51f9dc42dc17104bd6444395d9/research/object_detection/utils/colab_utils.py#L384) for object annotation within Google Colab notebooks. See usage [here](https://github.com/yasserius/tf2-object-detection-api#label-images-in-colab)
 * [coco-annotator](https://github.com/jsbroks/coco-annotator)
 * [pylabel](https://github.com/pylabel-project/pylabel) -> Python library for computer vision labeling tasks. The core functionality is to translate bounding box annotations between different formats-for example, from coco to yolo. PyLabel also includes an image labeling tool that runs in a Jupyter notebook that can annotate images manually or perform automatic labeling using a pre-trained model
 
-## EO specific annotation tools
+## Annotation tools with GEO features
 Also check the section **Image handling, manipulation & dataset creation**
 * [GroundWork](https://groundwork.azavea.com/) is designed for annotating and labeling geospatial data like satellite imagery, from Azavea
+* [labelbox.com](https://labelbox.com/) -> free tier is quite generous, [supports annotating Geotiffs](https://docs.labelbox.com/docs/tiled-imagery-editor) & returning annotations with geospatial coordinates. Watch [this webcast](https://www.arturo.ai/webcastbuilding-ai-products-from-the-ground-up/)
 * [iris](https://github.com/ESA-PhiLab/iris) -> Tool for manual image segmentation and classification of satellite imagery
 * If you are considering building an in house annotation platform [read this article](https://medium.com/earthcube-stories/ai-products-and-remote-sensing-yes-it-is-hard-and-yes-you-need-a-good-infra-4b5d6cf822f1). Used PostGis database, GeoJson format and GIS standard in a stateless architecture
 
@@ -1260,6 +1260,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [DeepOSM](https://github.com/trailbehind/DeepOSM) -> Train a deep learning net with OpenStreetMap features and satellite imagery (no activity since 2017)
 * [mapwith.ai](https://mapwith.ai/) -> AI assisted mapping of roads with OpenStreetMap. Part of [Open-Mapping-At-Facebook](https://github.com/facebookmicrosites/Open-Mapping-At-Facebook)
 * [sahi](https://github.com/obss/sahi) -> A vision library for performing sliced inference on large images/small objects
+* [terragpu](https://github.com/nasa-cisto-ai/terragpu) -> Python library to process and classify remote sensing imagery by means of GPUs and AI/ML
 
 ## Data discovery and ingestion
 * [landsat_ingestor](https://github.com/landsat-pds/landsat_ingestor) -> Scripts and other artifacts for landsat data ingestion into Amazon public hosting
@@ -1445,6 +1446,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Image Analysis, Classification and Change Detection in Remote Sensing With Algorithms for Python, Fourth Edition, By Morton John Canty](https://www.routledge.com/Image-Analysis-Classification-and-Change-Detection-in-Remote-Sensing-With/Canty/p/book/9781138613225) -> code [here](https://github.com/mortcanty/CRC4Docker)
 * I highly recommend [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python-second-edition) by François Chollet
 * [Practical Deep Learning for Cloud, Mobile & Edge](https://github.com/PracticalDL/Practical-Deep-Learning-Book)
+* [d2l.ai](https://www.d2l.ai/) -> Interactive deep learning book with code, math, and discussions
 
 # Podcasts
 * [The Scene From Above Podcast](https://scenefromabove.podbean.com/)
