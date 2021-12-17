@@ -80,6 +80,7 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery more class
 * [CDL-Segmentation](https://github.com/asimniazi63/CDL-Segmentation) -> code for the paper: "Deep Learning Based Land Cover and Crop Type Classification: A Comparative Study", comparing UNet, SegNet & DeepLabv3+
 * [floatingobjects](https://github.com/ESA-PhiLab/floatingobjects) -> code for the paper: TOWARDS DETECTING FLOATING OBJECTS ON A GLOBAL SCALE WITHLEARNED SPATIAL FEATURES USING SENTINEL 2. Uses U-Net & pytorch
 * [LoveDA](https://github.com/Junjue-Wang/LoveDA) -> code for the paper "A Remote Sensing Land-Cover Dataset for Domain Adaptive Semantic Segmentation"
+* [Satellite Imagery Semantic Segmentation with CNN](https://joshting.medium.com/satellite-imagery-segmentation-with-convolutional-neural-networks-f9254de3b907) -> 7 different segmentation classes, DeepGlobe Land Cover Classification Challenge dataset, with [repo](https://github.com/justjoshtings/satellite_image_segmentation)
 
 ### Semantic segmentation - buildings, rooftops & solar panels
 * [Semantic Segmentation on Aerial Images using fastai](https://medium.com/swlh/semantic-segmentation-on-aerial-images-using-fastai-a2696e4db127) uses U-Net on the Inria Aerial Image Labeling Dataset of urban settlements in Europe and the United States, and is labelled as a building and not building classes (no repo)
@@ -298,7 +299,7 @@ Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, c
 * [planet-movement](https://github.com/rhammell/planet-movement) -> Find and process Planet image pairs to highlight object movement
 * [UNet-based-Unsupervised-Change-Detection](https://github.com/annabosman/UNet-based-Unsupervised-Change-Detection) -> A convolutional neural network (CNN) and semantic segmentation is implemented to detect the changes between the images, as well as classify the changes into the correct semantic class, with [arxiv paper](https://arxiv.org/abs/1812.05815)
 * [temporal-cluster-matching](https://github.com/microsoft/temporal-cluster-matching) -> detecting change in structure footprints from time series of remotely sensed imagery
-* [autoRIFT](https://github.com/nasa-jpl/autoRIFT) ->  fast and intelligent algorithm for finding the pixel displacement between two images
+* [autoRIFT](https://github.com/nasa-jpl/autoRIFT) -> fast and intelligent algorithm for finding the pixel displacement between two images
 * [esa-superresolution-forecasting](https://github.com/PiSchool/esa-superresolution-forecasting) -> Forecasting air pollution using ESA Sentinel-5p data, and an encoder-decoder convolutional LSTM neural network architecture, implemented in Pytorch
 * [Radiant-Earth-Spot-the-Crop-Challenge](https://github.com/DariusTheGeek/Radiant-Earth-Spot-the-Crop-Challenge) -> The main objective of this challenge was to use time-series of Sentinel-2 multi-spectral data to classify crops in the Western Cape of South Africa. The challenge was to build a machine learning model to predict crop type classes for the test dataset.
 
@@ -511,6 +512,7 @@ Measure surface contours.
 * [overhead-geopose-challenge](https://www.drivendata.org/competitions/78/overhead-geopose-challenge/) -> competition to build computer vision algorithms that can effectively model the height and pose of ground objects for monocular satellite images taken from oblique angles. Blog post [MEET THE WINNERS OF THE OVERHEAD GEOPOSE CHALLENGE](https://www.drivendata.co/blog/overhead-geopose-challenge-winners/)
 * [cars](https://github.com/CNES/cars) -> a dedicated and open source 3D tool to produce Digital Surface Models from satellite imaging by photogrammetry. This Multiview stereo pipeline is intended for massive DSM production with a robust and performant design
 * [ImageToDEM](https://github.com/Panagiotou/ImageToDEM) -> Generating Elevation Surface from a Single RGB Remotely Sensed Image Using a U-Net for generator and a PatchGAN for the discriminator
+* [IMELE](https://github.com/speed8928/IMELE) -> Building Height Estimation from Single-View Aerial Imagery
 
 ## Thermal Infrared
 * [The World Needs (a lot) More Thermal Infrared Data from Space](https://towardsdatascience.com/the-world-needs-a-lot-more-thermal-infrared-data-from-space-dbbba389be8a)
@@ -544,7 +546,7 @@ Processing on board a satellite allows less data to be downlinked. e.g. super-re
 * [WorldFloods](https://watchers.news/2021/07/11/worldfloods-ai-pioneered-at-oxford-for-global-flood-mapping-launches-into-space/) will pioneer the detection of global flood events from space, launched on June 30, 2021. [This paper](https://arxiv.org/pdf/1910.03019.pdf) describes the model which is run on Intel Movidius Myriad2 hardware capable of processing a 12 MP image in less than a minute
 * [How AI and machine learning can support spacecraft docking](https://towardsdatascience.com/deep-learning-in-space-964566f09dcd) with [repo](https://github.com/nevers/space-dl) uwing Yolov3
 * [exo-space](https://www.exo-space.com/) -> startup with plans to release an AI hardware addon for satellites
-* [Sony’s Spresense microcontroller board is going to space](https://developer.sony.com/posts/the-spresense-microcontroller-board-launched-in-space/) -> article implies vision applications
+* [Sony’s Spresense microcontroller board is going to space](https://developer.sony.com/posts/the-spresense-microcontroller-board-launched-in-space/) -> vision applications include cloud detection, [more details here](https://www.hackster.io/dhruvsheth_/to-space-and-beyond-with-edgeimpulse-and-sony-s-spresense-d87a70)
 * [Ororatech Early Detection of Wildfires From Space](https://blogs.nvidia.com/blog/2021/09/30/ororatech-wildfires-from-space/) -> OroraTech is launching its own AI nanosatellites with the NVIDIA Jetson Xavier NX system onboard
 
 # ML best practice
@@ -788,11 +790,14 @@ In this challenge, you will build a model to classify cloud organization pattern
 * https://www.kaggle.com/c/statoil-iceberg-classifier-challenge/data
 * [Deep Learning for Iceberg detection in Satellite Images](https://towardsdatascience.com/deep-learning-for-iceberg-detection-in-satellite-images-c667acf4bad0)
 
+## Kaggle - Land Cover Classification Dataset from DeepGlobe Challenge - segmentation
+* https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset
+* [Satellite Imagery Semantic Segmentation with CNN](https://joshting.medium.com/satellite-imagery-segmentation-with-convolutional-neural-networks-f9254de3b907) -> 7 different segmentation classes, DeepGlobe Land Cover Classification Challenge dataset, with [repo](https://github.com/justjoshtings/satellite_image_segmentation)
+
 ### Kaggle - miscellaneous
 * https://www.kaggle.com/reubencpereira/spatial-data-repo -> Satellite + loan data
 * https://www.kaggle.com/towardsentropy/oil-storage-tanks -> Image data of industrial tanks with bounding box annotations, estimate tank fill % from shadows
 * https://www.kaggle.com/datamunge/overheadmnist -> A Benchmark Satellite Dataset as Drop-In Replacement for MNIST
-* https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset -> Land Cover Classification Dataset from DeepGlobe Challenge
 * https://www.kaggle.com/airbusgeo/airbus-wind-turbines-patches -> Airbus SPOT satellites images over wind turbines for classification
 * https://www.kaggle.com/aceofspades914/cgi-planes-in-satellite-imagery-w-bboxes -> CGI planes object detection dataset
 * https://www.kaggle.com/atilol/aerialimageryforroofsegmentation -> Aerial Imagery for Roof Segmentation
@@ -979,6 +984,12 @@ If you are happy to live with some lock-in, these are good options:
 * Read [CAPE Analytics Uses Computer Vision to Put Geospatial Data and Risk Information in Hands of Property Insurance Companies](https://blogs.nvidia.com/blog/2021/05/21/cape-analytics-computer-vision/)
 * Available on the [AWS Marketplace](https://aws.amazon.com/marketplace/pp/B08NHXW4MN)
 
+## Using lambda functions - i.e. serverless
+Using lambda functions allows inference without having to configure or manage the underlying infrastructure
+* On AWS either use regular lambdas from AWS or [SageMaker Serverless Inference](https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints.html)
+* [Object detection inference with AWS Lambda and IceVision (PyTorch)](https://laurenzstrothmann.com/object-detection-inference-aws-lambda-icevision) with [repo](https://github.com/2649/laurenzstrothmann)
+* [Example deployment behind an API Gateway Proxy](https://github.com/philschmid/cdk-samples/tree/master/sagemaker-serverless-huggingface-endpoint)
+
 ## Models in the browser
 The model is run in the browser itself on live images, ensuring processing is always with the latest model available and removing the requirement for dedicated server side inferencing
 * [Classifying satellite imagery - Made with TensorFlow.js YoutTube video](https://www.youtube.com/watch?v=9zqjgeqc-ew)
@@ -1130,6 +1141,7 @@ Arguably the most significant paid software for working with maps and geographic
 * [litestream](https://litestream.io/) -> Continuously stream SQLite changes to S3-compatible storage
 * [ImageFusion)](https://github.com/JohMast/ImageFusion) -> Temporal fusion of raster image time-Series
 * [nvtop](https://github.com/Syllo/nvtop) -> NVIDIA GPUs htop like monitoring tool
+* [rgis](https://github.com/frewsxcv/rgis) -> Geospatial data viewer written in Rust
 
 ## QGIS
 A popular open source alternative to ArcGIS, desktop appication written in python and extended with plugins
@@ -1354,6 +1366,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [ocean_color](https://github.com/marrs-lab/ocean_color) -> Tools and algorithms for drone and satellite based ocean color science
 * [poliastro](https://github.com/poliastro/poliastro) -> pure Python library for interactive Astrodynamics and Orbital Mechanics, with a focus on ease of use, speed, and quick visualization
 * [acolite](https://github.com/acolite/acolite) -> generic atmospheric correction module
+* [pmapper](https://github.com/nasa-jpl/pmapper) -> a super-resolution and deconvolution toolkit for python. PMAP stands for Poisson Maximum A-Posteriori, a highly flexible and adaptable algorithm for these problems
 
 ## Julia language
 [Julia](https://julialang.org/) looks and feels a lot like Python, but can be much faster. Julia can call Python, C, and Fortran libraries and is capabale of C/Fortran speeds. Julia can be used in the familiar Jupyterlab notebook environment
@@ -1363,6 +1376,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [GDAL.jl](https://github.com/JuliaGeo/GDAL.jl) -> Thin Julia wrapper for GDAL
 * [GeoInterface.jl](https://github.com/JuliaGeo/GeoInterface.jl) -> A Julia Protocol for Geospatial Data
 * [JuliaImages: image processing and machine vision for Julia](https://juliaimages.org/stable/)
+* [Julia_Geospatial](https://github.com/acgeospatial/Julia_Geospatial) -> Examples for a blog series on Geospatial Julia using ArchGDAL
 * [MLJ.jl](https://github.com/alan-turing-institute/MLJ.jl) -> A Julia machine learning framework
 * [RemoteS.jl](https://github.com/GenericMappingTools/RemoteS.jl) -> Remote sensing data processing
 * [SatelliteToolbox.jl](https://github.com/JuliaSpace/SatelliteToolbox.jl) -> This package contains several functions to build simulations related with satellites
@@ -1419,6 +1433,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Maxar-Analytics](https://github.com/maxar-analytics)
 * [ml6team](https://github.com/ml6team)
 * [NASA](https://github.com/nasa)
+* [NASA-JPL](https://github.com/nasa-jpl) -> THE Jet Propulsion Laboratory
 * [Near Space Labs](https://github.com/nearspacelabs)
 * [Ordnance Survey](https://github.com/OrdnanceSurvey)
 * [OroraTech](https://github.com/OroraTech)
@@ -1444,6 +1459,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Satellite Machine Learning Training](http://devseed.com/sat-ml-training/) -> lessons on how to apply Machine Learning analysis to satellite data
 * [DL-for-satellite-image-analysis](https://github.com/gicait/DL-for-satellite-image-analysis) -> short and minimalistic examples covering fundamentals of Deep Learning for Satellite Image Analysis using Jupyter notebooks, created by [lakmalnd](https://github.com/lakmalnd)
 * [ESRI MOOC: Spatial Data Science: The New Frontier in Analytics](https://www.esri.com/training/catalog/5d76dcf7e9ccda09bef61294/spatial-data-science:-the-new-frontier-in-analytics/#!) -> Online OCT 27 - DEC 8, 2021
+* [Machine Learning on Earth Observation: ML4EO Bootcamp](https://online.atingi.org/course/view.php?id=1107%27)
 
 # Books
 * [Image Analysis, Classification and Change Detection in Remote Sensing With Algorithms for Python, Fourth Edition, By Morton John Canty](https://www.routledge.com/Image-Analysis-Classification-and-Change-Detection-in-Remote-Sensing-With/Canty/p/book/9781138613225) -> code [here](https://github.com/mortcanty/CRC4Docker)
@@ -1453,6 +1469,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 
 # Podcasts
 * [The Scene From Above Podcast](https://scenefromabove.podbean.com/)
+* [The Mapscaping podcast](https://mapscaping.com/blogs/the-mapscaping-podcast)
 
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
