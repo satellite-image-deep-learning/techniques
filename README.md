@@ -876,7 +876,6 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [AU-AIR dataset](https://bozcani.github.io/auairdataset) -> a multi-modal UAV dataset for object detection.
 * [ERA](https://lcmou.github.io/ERA_Dataset/) ->  A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos.
 * [Aerial Maritime Drone Dataset](https://public.roboflow.ai/object-detection/aerial-maritime)
-* [Stanford Drone Dataset](http://cvgl.stanford.edu/projects/uav_data/)
 * [RetinaNet for pedestrian detection](https://towardsdatascience.com/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6)
 * [Aerial Maritime Drone Dataset](https://public.roboflow.com/object-detection/aerial-maritime/1)
 * [EmergencyNet](https://github.com/ckyrkou/EmergencyNet) -> identify fire and other emergencies from a drone
