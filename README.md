@@ -50,6 +50,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [satellite-crosswalk-classification](https://github.com/rodrigoberriel/satellite-crosswalk-classification)
 * [Understanding the Amazon Rainforest with Multi-Label Classification + VGG-19, Inceptionv3, AlexNet & Transfer Learning](https://towardsdatascience.com/understanding-the-amazon-rainforest-with-multi-label-classification-vgg-19-inceptionv3-5084544fb655)
 * [Implementation of the 3D-CNN model for land cover classification](https://medium.com/geekculture/remote-sensing-deep-learning-for-land-cover-classification-of-satellite-imagery-using-python-6a7b4c4f570f) -> uses the Sundarbans dataset, with [repo](https://github.com/syamkakarla98/Satellite_Imagery_Analysis). Also read [Land cover classification of Sundarbans satellite imagery using K-Nearest Neighbor(K-NNC), Support Vector Machine (SVM), and Gradient Boosting classification algorithms](https://towardsdatascience.com/land-cover-classification-in-satellite-imagery-using-python-ae39dbf2929) which is by the same author and shares the repo
+* [SSTN](https://github.com/zilongzhong/SSTN) -> PyTorch Implementation of SSTNs for hyperspectral image classifications from the IEEE T-GRS paper "Spectral-Spatial Transformer Network for Hyperspectral Image Classification: A FAS Framework." Demonstrates a novel spectral-spatial transformer network (SSTN), which consists of spatial attention and spectral association modules, to overcome the constraints of convolution kernels
 
 ## Segmentation
 Segmentation will assign a class label to each **pixel** in an image. Segmentation is typically grouped into semantic or instance segmentation. In semantic segmentation objects of the same class are assigned the same label, whilst in instance segmentation each object is assigned a unique label. Read this [beginner’s guide to segmentation](https://medium.com/gsi-technology/a-beginners-guide-to-segmentation-in-satellite-images-9c00d2028d52). Single class models are often trained for road or building segmentation, with multi class for land use/crop type classification. Image annotation can take long than for classification/object detection since every pixel must be annotated. **Note** that many articles which refer to 'hyperspectral land classification' are actually describing semantic segmentation.
@@ -875,7 +876,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * Many on https://www.visualdata.io
 * [AU-AIR dataset](https://bozcani.github.io/auairdataset) -> a multi-modal UAV dataset for object detection.
 * [ERA](https://lcmou.github.io/ERA_Dataset/) ->  A Dataset and Deep Learning Benchmark for Event Recognition in Aerial Videos.
-* [Aerial Maritime Drone Dataset](https://public.roboflow.ai/object-detection/aerial-maritime)
+* [Aerial Maritime Drone Dataset](https://public.roboflow.ai/object-detection/aerial-maritime) 
 * [RetinaNet for pedestrian detection](https://towardsdatascience.com/pedestrian-detection-in-aerial-images-using-retinanet-9053e8a72c6)
 * [Aerial Maritime Drone Dataset](https://public.roboflow.com/object-detection/aerial-maritime/1)
 * [EmergencyNet](https://github.com/ckyrkou/EmergencyNet) -> identify fire and other emergencies from a drone
@@ -1409,6 +1410,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [Gonzalo Mateo García](https://github.com/gonzmg88) is working on clouds and Water segmentation with CNNs
 * [Isaac Corley](https://github.com/isaaccorley) is working on super-resolution and torchrs
 * [Jake Shermeyer](https://github.com/jshermeyer) many interesting repos
+* [Maxime Lenormand](https://github.com/maximelenormand) authors the Minds Behind Maps podcast
 * [Mort Canty](https://github.com/mortcanty) is an expert in change detection
 * [Mykola Kozyr](https://github.com/mykolakozyr) is working on streamlit apps
 * [Nicholas Murray](https://www.murrayensis.org/) is an Australia-based scientist with a focus on delivering the science necessary to inform large scale environmental management and conservation
@@ -1481,8 +1483,9 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [d2l.ai](https://www.d2l.ai/) -> Interactive deep learning book with code, math, and discussions
 
 # Podcasts
-* [The Scene From Above Podcast](https://scenefromabove.podbean.com/)
-* [The Mapscaping podcast](https://mapscaping.com/blogs/the-mapscaping-podcast)
+* [Scene From Above Podcast](https://scenefromabove.podbean.com/)
+* [Mapscaping podcast](https://mapscaping.com/blogs/the-mapscaping-podcast)
+* [Minds Behind Maps](https://minds-behind-maps.simplecast.com/)
 
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
