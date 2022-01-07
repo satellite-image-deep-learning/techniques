@@ -1,6 +1,7 @@
 {
     "aliveStatusCodes": [
         200,
+        403,
         429
     ]
 }
