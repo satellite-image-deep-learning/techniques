@@ -820,6 +820,13 @@ A Data Set to Predict Wildfire Spreading from Remote-Sensing Data
 * https://www.kaggle.com/fantineh/next-day-wildfire-spread
 * https://arxiv.org/abs/2112.02447
 
+## Kaggle - xView2 challenge - assessing building damage after a natural disaster
+The xView2 Challenge focuses on automating the process of assessing building damage after a natural disaster
+* https://www.kaggle.com/tunguz/xview2-challenge-dataset-train-and-test
+* https://xview2.org/
+* [GitHub for the challenge](https://github.com/DIUx-xView)
+* [A look at IBM's approach](https://www.ibm.com/cloud/blog/the-xview2-ai-challenge) -> used a single U-Net model
+
 ### Kaggle - miscellaneous
 * https://www.kaggle.com/reubencpereira/spatial-data-repo -> Satellite + loan data
 * https://www.kaggle.com/towardsentropy/oil-storage-tanks -> Image data of industrial tanks with bounding box annotations, estimate tank fill % from shadows
