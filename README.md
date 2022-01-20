@@ -157,6 +157,11 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery more class
 * [glacier_mapping](https://github.com/krisrs1128/glacier_mapping) -> Mapping glaciers in the Hindu Kush Himalaya, Landsat 7 images, Shapefile labels of the glaciers, Unet with dropout
 * [glacier-detect-ML](https://github.com/mikeskaug/glacier-detect-ML) -> a simple logistic regression model to identify a glacier in Landsat satellite imagery
 
+### Semantic segmentation - electrical substations
+* [Aarsh2001/ML_Challenge_NRSC](https://github.com/Aarsh2001/ML_Challenge_NRSC) -> 3rd place entry for IEEE-ICETCI 2021 Virtual Competition on Machine learning based feature extraction of Electrical Substations from Satellite data
+* [Electrical-Substation-detection-by-fine-tunning-Segnet-Architecture](https://github.com/dksharp108/Electrical-Substation-detection-by-fine-tunning-Segnet-Architecture) -> 9th place entry for IEEE-ICETCI 2021 Virtual Competition
+* [electrical_substation_detection](https://github.com/thisishardik/electrical_substation_detection) -> entry for IEEE-ICETCI 2021 Virtual Competition using using UNet, Albumentations for image augmentation, and OpenCV for computer vision tasks. Includes data download link
+
 ### Instance segmentation
 In instance segmentation, each individual 'instance' of a segmented area is given a unique lable. For detection of very small objects this may a good approach, but it can struggle seperating individual objects that are closely spaced.
 * [Mask_RCNN](https://github.com/matterport/Mask_RCNN) generates bounding boxes and segmentation masks for each instance of an object in the image. It is very commonly used for instance segmentation & object detection
@@ -986,6 +991,7 @@ An overview of the most relevant services provided by AWS, Google and Microsoft.
 * [AWS App Runner](https://aws.amazon.com/blogs/containers/introducing-aws-app-runner/) enables quick deployment of containers as apps
 * [AWS Athena](https://aws.amazon.com/athena/) allows running SQL queries against CSV files stored on S3. Serverless so pay only for the queries you run
 * If you are using pytorch checkout [the S3 plugin for pytorch](https://aws.amazon.com/blogs/machine-learning/announcing-the-amazon-s3-plugin-for-pytorch/) which provides streaming data access
+* [aws-gdal-robot](https://github.com/mblackgeo/aws-gdal-robot) -> A proof of concept implementation of running GDAL based jobs using AWS S3/Lambda/Batch
 
 ## Google cloud
 * For storage use [Cloud Storage](https://cloud.google.com/storage) (AWS S3 equivalent)
@@ -1202,6 +1208,7 @@ So improtant this pair gets their own section. GDAL is THE command line tool for
 * [Loam: A Client-Side GDAL Wrapper for Javascript](https://github.com/azavea/loam)
 * [Short list of useful GDAL commands](https://github.com/MaxLenormand/Data-Science-for-Remote-Sensing) while working in data science for remote sensing
 * [gdal-segment](https://github.com/cbalint13/gdal-segment) -> implements various segmentation algorithms over raster images
+* [aws-gdal-robot](https://github.com/mblackgeo/aws-gdal-robot) -> A proof of concept implementation of running GDAL based jobs using AWS S3/Lambda/Batch
 
 ## General utilities
 * [PyShp](https://github.com/GeospatialPython/pyshp) -> The Python Shapefile Library (PyShp) reads and writes ESRI Shapefiles in pure Python
@@ -1276,6 +1283,7 @@ So improtant this pair gets their own section. GDAL is THE command line tool for
 * [sentinelPot](https://github.com/LLeiSong/sentinelPot) -> a python package to preprocess sentinel-1&2 imagery
 * [ImageAnalysis](https://github.com/UASLab/ImageAnalysis) -> Aerial imagery analysis, processing, and presentation scripts.
 * [rebox](https://github.com/tensorturtle/rebox) -> Easily convert between bounding box annotation formats
+* [rastertodataframe](https://github.com/mblackgeo/rastertodataframe) -> Convert any GDAL compatible raster to a Pandas DataFrame
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
@@ -1359,6 +1367,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [flask-vector-tiles](https://github.com/mblackgeo/flask-vector-tiles) -> A simple Flask/leaflet based webapp for rendering vector tiles from PostGIS
 * [Embedding Projector in Wandb](https://docs.wandb.ai/ref/app/features/panels/weave/embedding-projector) -> allows users to plot multi-dimensional embeddings on a 2D plane using common dimension reduction algorithms like PCA, UMAP, and t-SNE
 * [flask-geocoding-webapp](https://github.com/mblackgeo/flask-geocoding-webapp) -> A quick example Flask application for geocoding and rendering a webmap using Folium/Leaflet
+* [PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet) -> Latex code for making neural networks diagrams
 
 ## Streamlit
 [Streamlit](https://streamlit.io/) is an awesome python framework for creating apps with python. Additionally they will host the apps free of charge. Here I list resources which are EO related. Note that a component is an addon which extends Streamlits basic functionality
@@ -1435,6 +1444,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [Gonzalo Mateo García](https://github.com/gonzmg88) is working on clouds and Water segmentation with CNNs
 * [Isaac Corley](https://github.com/isaaccorley) is working on super-resolution and torchrs
 * [Jake Shermeyer](https://github.com/jshermeyer) many interesting repos
+* [Martin Black](https://github.com/mblackgeo) is tech lead at Sparkgeo in the UK
 * [Maxime Lenormand](https://github.com/maximelenormand) authors the Minds Behind Maps podcast
 * [Mike Skaug](https://github.com/mikeskaug) is a Data scientist at Aurora Insight
 * [Mort Canty](https://github.com/mortcanty) is an expert in change detection
