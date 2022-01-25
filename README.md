@@ -116,6 +116,8 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery more class
 * [SpaceNetExploration](https://github.com/yangsiyu007/SpaceNetExploration) -> A sample project demonstrating how to extract building footprints from satellite images using a semantic segmentation model. Data from the SpaceNet Challenge
 * [Rooftop-Instance-Segmentation](https://github.com/MasterSkepticista/Rooftop-Instance-Segmentation) -> VGG-16, Instance Segmentation, uses the Airs dataset
 * [Panel-Segmentation](https://github.com/NREL/Panel-Segmentation) -> Determine the presence of a solar array in the satellite image (boolean True/False), using a VGG16 classification model
+* [solar-farms-mapping](https://github.com/microsoft/solar-farms-mapping) -> An Artificial Intelligence Dataset for Solar Energy Locations in India
+* [poultry-cafos](https://github.com/microsoft/poultry-cafos) -> This repo contains code for detecting poultry barns from high-resolution aerial imagery and an accompanying dataset of predicted barns over the United States
 
 ### Semantic segmentation - roads
 * [Semantic segmentation of roads and highways using Sentinel-2 imagery (10m) super-resolved using the SENX4 model up to x4 the initial spatial resolution (2.5m)](https://tracasa.es/innovative-stories/sen2roadlasviastambiensevendesdesentinel-2/) (results, no repo)
@@ -862,7 +864,7 @@ The xView2 Challenge focuses on automating the process of assessing building dam
 * Currently 36 satellite datasets on the [Registry of Open Data on AWS](https://registry.opendata.aws)
 
 ## Microsoft
-* [US Building Footprints](https://github.com/Microsoft/USBuildingFootprints) -> building footprints in all 50 US states, GeoJSON format, generated using semantic segmentation. Also [Australia](https://github.com/microsoft/AustraliaBuildingFootprints), [Canadian](https://github.com/Microsoft/CanadianBuildingFootprints) and [Uganda-Tanzania](https://github.com/microsoft/Uganda-Tanzania-Building-Footprints) are available. Checkout [RasterizingBuildingFootprints](https://github.com/mehdiheris/RasterizingBuildingFootprints) to convert vector shapefiles to raster layers
+* [US Building Footprints](https://github.com/Microsoft/USBuildingFootprints) -> building footprints in all 50 US states, GeoJSON format, generated using semantic segmentation. Also [Australia](https://github.com/microsoft/AustraliaBuildingFootprints), [Canadian](https://github.com/Microsoft/CanadianBuildingFootprints), [Uganda-Tanzania](https://github.com/microsoft/Uganda-Tanzania-Building-Footprints) and [Kenya-Nigeria](https://github.com/microsoft/KenyaNigeriaBuildingFootprints) are available. Checkout [RasterizingBuildingFootprints](https://github.com/mehdiheris/RasterizingBuildingFootprints) to convert vector shapefiles to raster layers
 * [Microsoft Planetary Computer](https://innovation.microsoft.com/en-us/planetary-computer) is a Dask-Gateway enabled JupyterHub deployment focused on supporting scalable geospatial analysis, [source repo](https://github.com/microsoft/planetary-computer-hub)
 * [Ai for Earth program](https://www.microsoft.com/en-us/ai/ai-for-earth)
 * [landcover-orinoquia](https://github.com/microsoft/landcover-orinoquia) -> Land cover mapping of the Orinoquía region in Colombia, in collaboration with Wildlife Conservation Society Colombia. An #AIforEarth project
@@ -1002,6 +1004,7 @@ An overview of the most relevant services provided by AWS, Google and Microsoft.
 
 ## Microsoft Azure
 * [Azure Orbital](https://azure.microsoft.com/en-us/services/orbital/) -> Satellite ground station and scheduling services for fast downlinking of data
+* [ShipDetection](https://github.com/microsoft/ShipDetection) -> use the Azure Custom Vision service to train an object detection model that can detect and locate ships in a satellite image
 
 # Deploying models
 This section discusses how to get a trained machine learning & specifically deep learning model into production. For an overview on serving deep learning models checkout [Practical-Deep-Learning-on-the-Cloud](https://github.com/PacktPublishing/-Practical-Deep-Learning-on-the-Cloud). There are many options if you are happy to dedicate a server, although you may want a GPU for batch processing. For serverless use AWS lambda.
@@ -1370,6 +1373,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [Embedding Projector in Wandb](https://docs.wandb.ai/ref/app/features/panels/weave/embedding-projector) -> allows users to plot multi-dimensional embeddings on a 2D plane using common dimension reduction algorithms like PCA, UMAP, and t-SNE
 * [flask-geocoding-webapp](https://github.com/mblackgeo/flask-geocoding-webapp) -> A quick example Flask application for geocoding and rendering a webmap using Folium/Leaflet
 * [PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet) -> Latex code for making neural networks diagrams
+* [Damage Assessment Visualizer](https://github.com/microsoft/Nonprofits/tree/master/Damage%20Assessment%20Visualizer) -> leverages satellite imagery from a disaster region to visualize conditions of building and structures before and after a disaster
 
 ## Streamlit
 [Streamlit](https://streamlit.io/) is an awesome python framework for creating apps with python. Additionally they will host the apps free of charge. Here I list resources which are EO related. Note that a component is an addon which extends Streamlits basic functionality
@@ -1482,6 +1486,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Hummingbird Technologies Ltd](https://github.com/HummingbirdTechGroup) -> sustainability and optimised food production
 * [ICEYE](https://github.com/iceye-ltd)
 * [indigo-ag](https://github.com/indigo-ag)
+* [L3Harris Geospatial Solutions (HGSI)](https://github.com/hgsolutions)
 * [Mapbox](https://github.com/mapbox) -> thanks for Rasterio!
 * [Maxar-Analytics](https://github.com/maxar-analytics)
 * [ml6team](https://github.com/ml6team)
@@ -1522,6 +1527,8 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * I highly recommend [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python-second-edition) by François Chollet
 * [Practical Deep Learning for Cloud, Mobile & Edge](https://github.com/PracticalDL/Practical-Deep-Learning-Book)
 * [d2l.ai](https://www.d2l.ai/) -> Interactive deep learning book with code, math, and discussions
+* [interpretable-ml-book](https://github.com/christophM/interpretable-ml-book)
+* [pyGIS](https://github.com/mmann1123/pyGIS) -> an online textbook covering all the core geospatial functionality available in Python
 
 # Podcasts
 * [Scene From Above Podcast](https://scenefromabove.podbean.com/)
