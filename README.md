@@ -566,6 +566,7 @@ Measure surface contours.
 * [Mapping and monitoring of infrastructure in desert regions with Sentinel-1](https://github.com/ESA-PhiLab/infrastructure)
 * [xView3](https://iuu.xview.us/) is a competition to detect dark vessels using computer vision and global SAR satellite imagery. [The-First-Place-Solution](https://github.com/BloodAxe/xView3-The-First-Place-Solution) and [second place solution](https://github.com/selimsef/xview3_solution). [sar_vessel_detect](https://github.com/allenai/sar_vessel_detect)
 * [Winners of the STAC Overflow: Map Floodwater from Radar Imagery competition](https://github.com/drivendataorg/stac-overflow)
+* [deSpeckNet-TF-GEE](https://github.com/adugnag/deSpeckNet-TF-GEE) -> implementation of the paper 'deSpeckNet: Generalizing Deep Learning Based SAR Image Despeckling'
 
 ## Neural nets in space
 Processing on board a satellite allows less data to be downlinked. e.g. super-resolution image might take 8 images to generate, then a single image is downlinked. Other applications include cloud detection and collision avoidance.
@@ -830,6 +831,11 @@ In this challenge, you will build a model to classify cloud organization pattern
 A Data Set to Predict Wildfire Spreading from Remote-Sensing Data
 * https://www.kaggle.com/fantineh/next-day-wildfire-spread
 * https://arxiv.org/abs/2112.02447
+
+## Kaggle - Satellite Next Day Wildfire Spread
+Inspired by the above dataset, using different data sources
+* https://www.kaggle.com/satellitevu/satellite-next-day-wildfire-spread
+* https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon
 
 ## Kaggle - xView2 challenge - assessing building damage after a natural disaster
 The xView2 Challenge focuses on automating the process of assessing building damage after a natural disaster
@@ -1106,6 +1112,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [stac-nb](https://github.com/darrenwiens/stac-nb) -> STAC in Jupyter Notebooks
 * [xstac](https://github.com/TomAugspurger/xstac) -> Generate STAC Collections from xarray datasets
 * [qgis-stac-plugin](https://github.com/stac-utils/qgis-stac-plugin) -> QGIS plugin for reading STAC APIs
+* [cirrus-geo](https://github.com/cirrus-geo/cirrus-geo) -> a STAC-based processing pipeline
 
 # Image annotation
 For supervised machine learning, you will require annotated images. For example if you are performing object detection you will need to annotate images with bounding boxes. Check that your annotation tool of choice supports large image (likely geotiff) files, as not all will. Note that GeoJSON is widely used by remote sensing researchers but this annotation format is not commonly supported in general computer vision frameworks, and in practice you may have to convert the annotation format to use the data with your chosen framework. There are both closed and open source tools for creating and converting annotation formats. Some of these tools are simply for performing annotation, whilst others add features such as dataset management and versioning. Note that self-supervised and active learning approaches might circumvent the need to perform a large scale annotation exercise.
@@ -1395,6 +1402,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [leafmap-streamlit](https://github.com/giswqs/leafmap-streamlit) -> various examples showing how to use streamlit to: create a 3D map using Kepler.gl, create a heat map, display a GeoJSON file on a map, and add a colorbar or change the basemap on a map
 * [geemap-apps](https://github.com/giswqs/geemap-apps) -> build a multi-page Earth Engine App using streamlit and geemap
 * [streamlit-geospatial](https://github.com/giswqs/streamlit-geospatial) -> A multi-page streamlit app for geospatial
+* [geospatial-apps](https://github.com/giswqs/geospatial-apps) -> A collection of streamlit web apps for geospatial applications
 * [BirdsPyView](https://github.com/rjtavares/BirdsPyView) -> convert images to top-down view and get coordinates of objects
 * [Build a useful web application in Python: Geolocating Photos](https://medium.com/spatial-data-science/build-a-useful-web-application-in-python-geolocating-photos-186122de1968) -> Step by Step tutorial using Streamlit, Exif, and Pandas
 * [Wild fire detection app](https://github.com/yueureka/WildFireDetection)
@@ -1506,7 +1514,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [OroraTech](https://github.com/OroraTech)
 * [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
 * [Preligens](https://github.com/earthcube-lab) -> formerly Earthcube Lab
-* [SatelliteVu](https://github.com/SatelliteVu) -> currently it's all private!
+* [SatelliteVu](https://github.com/SatelliteVu) -> thermal imagery from space!
 * [Sinergise](https://github.com/sentinel-hub) -> maintaining Sentinel-hub
 * [SkyTruth](https://github.com/SkyTruth)
 * [SpaceKnow](https://github.com/SpaceKnow)
