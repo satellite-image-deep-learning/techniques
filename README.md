@@ -402,6 +402,7 @@ Translate images e.g. from SAR to RGB.
 * [Building-A-Nets](https://github.com/lixiang-ucas/Building-A-Nets) -> robust building extraction from high-resolution remote sensing images with adversarial networks
 * [GANmapper](https://github.com/ualsg/GANmapper) -> a building footprint generator using Generative Adversarial Networks
 * [CSA-CDGAN](https://github.com/wangle53/CSA-CDGAN) -> CSA-CDGAN: Channel Self-Attention Based Generative Adversarial Network for Change Detection of Remote Sensing Images
+* [DSGAN](https://github.com/lzhengchun/DSGAN) -> a conditinal GAN for dynamic precipitation downscaling
 
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
 * [Autoencoders & their Application in Remote Sensing](https://towardsdatascience.com/autoencoders-their-application-in-remote-sensing-95f6e2bc88f) -> intro article and example use case applied to SAR data for land classification
@@ -887,7 +888,6 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * Various imagery and climate datasets, including Landsat & Sentinel imagery
 * [awesome-google-earth-engine](https://github.com/gee-community/awesome-google-earth-engine) & [awesome-earth-engine-apps](https://github.com/philippgaertner/awesome-earth-engine-apps)
 * [How to Use Google Earth Engine and Python API to Export Images to Roboflow](https://blog.roboflow.com/how-to-use-google-earth-engine-with-roboflow/) -> to acquire training data
-* [Reduce Satellite Image Resolution with Google Earth Engine](https://towardsdatascience.com/reduce-satellite-image-resolution-with-google-earth-engine-95a129ef488) -> a crucial step before applying machine learning to satellite imagery
 * [ee-fastapi](https://github.com/csaybar/ee-fastapi) is a simple FastAPI web application for performing flood detection using Google Earth Engine in the backend.
 * [How to Download High-Resolution Satellite Data for Anywhere on Earth](https://towardsdatascience.com/how-to-download-high-resolution-satellite-data-for-anywhere-on-earth-5e6dddee2803)
 
