@@ -1122,6 +1122,7 @@ For supervised machine learning, you will require annotated images. For example 
 
 ## General purpose annotation tools
 * [awesome-data-labeling](https://github.com/heartexlabs/awesome-data-labeling) -> long list of annotation tools
+* For a user friendly cloud hosted annotation and training solution checkout [Roboflow](https://roboflow.com/robincole). In addition to annotation the platform makes it easy to convert between annotation formats & manage datasets, as well as train and deploy custom models to private API endpoints
 * [labelImg](https://github.com/tzutalin/labelImg) is the classic desktop tool, limited to bounding boxes for object detection. Also checkout [roLabelImg](https://github.com/cgvict/roLabelImg) which supports ROTATED rectangle regions, as often occurs in aerial imagery.
 * [Labelme](https://github.com/wkentaro/labelme) is a simple dektop app for polygonal annotation, but note it outputs annotations in a custom LabelMe JSON format which you will need to convert. Read [Labelme Image Annotation for Geotiffs](https://medium.com/@wvsharber/labelme-image-annotation-for-geotiffs-b460ba83804f)
 * [Label Studio](https://labelstud.io/) is a multi-type data labeling and annotation tool with standardized output format, syncing to buckets, and supports importing pre-annotations (create with a model). Checkout [label-studio-converter](https://github.com/heartexlabs/label-studio-converter) for converting Label Studio annotations into common dataset formats
@@ -1138,7 +1139,6 @@ For supervised machine learning, you will require annotated images. For example 
 * SuperAnnotate can be run [locally](https://github.com/opencv-ai/superannotate) or used via a [cloud service](https://superannotate.com/)
 * [dash_doodler](https://github.com/dbuscombe-usgs/dash_doodler) -> A web application built with plotly/dash for image segmentation with minimal supervision
 * [remo](https://remo.ai) -> A webapp and Python library that lets you explore and control your image datasets
-* [Roboflow](https://roboflow.com) can be used to convert between annotation formats & manage datasets, as well as train and deploy custom models. Free tier quite useful
 * [supervise.ly](https://supervise.ly) is one of the more fully featured platforms, decent free tier
 * AWS supports image annotation via the Rekognition Custom Labels console
 * [diffgram](https://github.com/diffgram/diffgram) describes itself as a complete training data platform for machine learning delivered as a single application, supports [streaming data to pytorch & tensorflow](https://medium.com/diffgram/stream-training-data-to-your-models-with-diffgram-f0f25f6688c5)
