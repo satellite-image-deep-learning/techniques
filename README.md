@@ -1082,7 +1082,7 @@ Once your model is deployed you will want to monitor for data errors, broken pip
 * [Unfolded Studio](https://studio.unfolded.ai/) -> visualization platform building on open source geospatial technologies including kepler.gl, deck.gl and H3. Processing is performed browser side enabling very responsive visualisations.
 * [DroneDB](https://github.com/DroneDB/DroneDB) -> can index and extract useful information from the EXIF/XMP tags of aerial images to display things like image footprint, flight path and image GPS location
 * [embeddinghub](https://github.com/featureform/embeddinghub) -> A vector database for machine learning embeddings
-* [Resonant GeoData](https://github.com/ResonantGeoData/RD-OpenGeo) -> a Django application well suited for catalogging and searching annotated geospatial imagery, shapefiles, and full motion video datasets
+* [Resonant GeoData](https://github.com/ResonantGeoData/ResonantGeoData/) -> a Django application well suited for catalogging and searching annotated geospatial imagery, shapefiles, and full motion video datasets
 
 ## Cloud Optimised GeoTiff (COG)
 A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF that supports HTTP range requests, enabling downloading of specific tiles rather than the full file. COG generally work normally in GIS software such as QGIS, but are larger than regular GeoTIFFs
@@ -1429,6 +1429,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [SARveillance](https://github.com/MJCruickshank/SARveillance) -> Sentinel-1 SAR time series analysis for OSINT use
 * [streamlit-template](https://github.com/giswqs/streamlit-template) -> A streamlit app template for geospatial applications
 * [streamlit-labelstudio](https://github.com/deneland/streamlit-labelstudio) -> A Streamlit component that provides an annotation interface using the LabelStudio Frontend
+* [streamlit-img-label](https://github.com/lit26/streamlit-img-label) -> a graphical image annotation tool using streamlit. Annotations are saved as XML files in PASCAL VOC format
 
 ## Cluster computing with Dask
 * [Dask](https://docs.dask.org/en/latest/) works with your favorite PyData libraries to provide performance at scale for the tools you love -> checkout [Read and manipulate tiled GeoTIFF datasets](https://examples.dask.org/applications/satellite-imagery-geotiff.html#)
