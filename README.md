@@ -301,6 +301,7 @@ Generally treated as a semantic segmentation problem.
 * [sentinel2-cloud-detector](https://github.com/sentinel-hub/sentinel2-cloud-detector) -> Sentinel Hub Cloud Detector for Sentinel-2 images in Python
 * [dsen2-cr](https://github.com/ameraner/dsen2-cr) -> cloud removal in Sentinel-2 imagery using a deep residual neural network and SAR-optical data fusion, contains the model code, written in Python/Keras, as well as links to pre-trained checkpoints and the SEN12MS-CR dataset
 * [pyatsa](https://github.com/agroimpacts/pyatsa) -> Python package implementing the Automated Time-Series Analysis method for masking clouds in satellite imagery developed by Zhu and Helmer 2018
+* [decloud](https://github.com/CNES/decloud) -> Decloud enables the training of various deep nets to remove clouds in optical image, using e.g. Sentinel 1 & 2
 
 ## Change detection & time-series
 Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
@@ -1262,6 +1263,7 @@ A popular open source alternative to ArcGIS, desktop appication written in pytho
 * [qgis-stac-plugin](https://github.com/stac-utils/qgis-stac-plugin) -> QGIS plugin for reading STAC APIs
 * [buildseg](https://github.com/deepbands/buildseg) -> a building extraction plugin of QGIS based on ONNX
 * [deep-learning-datasets-maker](https://github.com/deepbands/deep-learning-datasets-maker) -> a QGIS plugin to make datasets creation easier for raster and vector data
+* [Modzy-QGIS-Plugin](https://github.com/modzy/Modzy-QGIS-Plugin) -> demos Vehicle Detection model
 
 ## GDAL & Rasterio
 So improtant this pair gets their own section. GDAL is THE command line tool for reading and writing raster and vector geospatial data formats. If you are using python you will probably want to use Rasterio which provides a pythonic wrapper for GDAL
@@ -1612,6 +1614,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [d2l.ai](https://www.d2l.ai/) -> Interactive deep learning book with code, math, and discussions
 * [interpretable-ml-book](https://github.com/christophM/interpretable-ml-book)
 * [pyGIS](https://github.com/mmann1123/pyGIS) -> an online textbook covering all the core geospatial functionality available in Python
+* [Deep Learning Interviews book](https://github.com/BoltzmannEntropy/interviews.ai)
 
 # Podcasts
 * [Scene From Above Podcast](https://scenefromabove.podbean.com/)
