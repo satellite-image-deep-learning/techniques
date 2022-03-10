@@ -1279,6 +1279,7 @@ A popular open source alternative to ArcGIS, desktop appication written in pytho
 * [buildseg](https://github.com/deepbands/buildseg) -> a building extraction plugin of QGIS based on ONNX
 * [deep-learning-datasets-maker](https://github.com/deepbands/deep-learning-datasets-maker) -> a QGIS plugin to make datasets creation easier for raster and vector data
 * [Modzy-QGIS-Plugin](https://github.com/modzy/Modzy-QGIS-Plugin) -> demos Vehicle Detection model
+* [kart](https://plugins.qgis.org/plugins/kart/) -> provides modern, open source, distributed version-control for geospatial and tabular datasets
 
 ## GDAL & Rasterio
 So improtant this pair gets their own section. GDAL is THE command line tool for reading and writing raster and vector geospatial data formats. If you are using python you will probably want to use Rasterio which provides a pythonic wrapper for GDAL
@@ -1325,6 +1326,7 @@ So improtant this pair gets their own section. GDAL is THE command line tool for
 * [buzzard](https://github.com/earthcube-lab/buzzard) -> Advanced raster and geometry manipulations
 * [sentinel1denoised](https://github.com/nansencenter/sentinel1denoised) -> Thermal noise subtraction, scalloping correction, angular correction
 * [RStoolbox](https://github.com/bleutner/RStoolbox) -> Remote Sensing Data Analysis in R
+* [kart](https://github.com/koordinates/kart) -> Distributed version-control for geospatial and tabular data
 
 ## Low level numerical & data formats
 * [xarray](http://xarray.pydata.org/en/stable/) -> N-D labeled arrays and datasets. Read [Handling multi-temporal satellite images with Xarray](https://medium.com/@bonnefond.virginie/handling-multi-temporal-satellite-images-with-xarray-30d142d3391). Checkout [xarray_leaflet](https://github.com/davidbrochart/xarray_leaflet) for tiled map plotting
