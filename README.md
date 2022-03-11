@@ -312,6 +312,7 @@ Generally treated as a semantic segmentation problem.
 * [decloud](https://github.com/CNES/decloud) -> Decloud enables the training of various deep nets to remove clouds in optical image, using e.g. Sentinel 1 & 2
 * [cloudless](https://github.com/BradNeuberg/cloudless) -> Deep learning pipeline for orbital satellite data for detecting clouds
 * [Deep-Gapfill](https://github.com/remicres/Deep-Gapfill) -> Official implementation of Optical image gap filling using deep convolutional autoencoder from optical and radar images
+* [satellite-cloud-removal-dip](https://github.com/cidcom/satellite-cloud-removal-dip) -> Satellite cloud removal with Deep Image Prior, with [paper](https://www.mdpi.com/2072-4292/14/6/1342)
 
 ## Change detection & time-series
 Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
@@ -1335,6 +1336,7 @@ So improtant this pair gets their own section. GDAL is THE command line tool for
 * [Geowombat](https://geowombat.readthedocs.io/) -> geo-utilities applied to air- and space-borne imagery, uses Rasterio, Xarray and Dask for I/O and distributed computing with named coordinates
 * [NumpyTiles](https://github.com/planetlabs/numpytiles-spec) -> a specification for providing multiband full-bit depth raster data in the browser
 * [Zarr](https://zarr.readthedocs.io/en/stable/) -> Zarr is a format for the storage of chunked, compressed, N-dimensional arrays. Zarr depends on NumPy
+* [geoparquet](https://github.com/opengeospatial/geoparquet) -> Specification for storing geospatial vector data (point, line, polygon) in Parquet
 
 ## Image processing, handling, manipulation & dataset creation
 * [Pillow is the Python Imaging Library](https://pillow.readthedocs.io/en/stable/) -> this will be your go-to package for image manipulation in python
