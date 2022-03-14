@@ -1252,6 +1252,8 @@ Arguably the most significant paid software for working with maps and geographic
 * [Land Cover Mapping web app from Microsoft](https://github.com/microsoft/landcover)
 * [Solaris](https://github.com/CosmiQ/solaris) -> An open source ML pipeline for overhead imagery by [CosmiQ Works](https://www.cosmiqworks.org/), similar to Rastervision but with some unique very vool features
 * [openSAR](https://github.com/EarthBigData/openSAR) -> Synthetic Aperture Radar (SAR) Tools and Documents from Earth Big Data LLC (http://earthbigdata.com/)
+* [YMIR](https://github.com/industryessentials/ymir) -> YMIR provides a Rapid Data-centric Development Platform
+for Vision Applications. Read the paper [here](https://arxiv.org/abs/2111.10046).
 * [qhub](https://qhub.dev) -> QHub enables teams to build and maintain a cost effective and scalable compute/data science platform in the cloud.
 * [imagej](https://imagej.net) -> a very versatile image viewer and processing program
 * [Geo Data Viewer](https://github.com/RandomFractals/geo-data-viewer) extension for VSCode which enables opening and viewing various geo data formats with nice visualisations
