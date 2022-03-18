@@ -53,6 +53,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [SSTN](https://github.com/zilongzhong/SSTN) -> PyTorch Implementation of SSTNs for hyperspectral image classifications from the IEEE T-GRS paper "Spectral-Spatial Transformer Network for Hyperspectral Image Classification: A FAS Framework." Demonstrates a novel spectral-spatial transformer network (SSTN), which consists of spatial attention and spectral association modules, to overcome the constraints of convolution kernels
 * [SatellitePollutionCNN](https://github.com/arnavbansal1/SatellitePollutionCNN) -> A novel algorithm to predict air pollution levels with state-of-art accuracy using deep learning and GoogleMaps satellite images
 * [PropertyClassification](https://github.com/Sardhendu/PropertyClassification) -> Classifying the type of property given Real Estate, satellite and Street view Images
+* [remote-sense-quickstart](https://github.com/CarryHJR/remote-sense-quickstart)
 
 ## Segmentation
 Segmentation will assign a class label to each **pixel** in an image. Segmentation is typically grouped into semantic, instance or panoptic segmentation. In semantic segmentation objects of the same class are assigned the same label, whilst in instance segmentation each object is assigned a unique label. Panoptic segmentation combines instance and semantic predictions. Read this [beginner’s guide to segmentation](https://medium.com/gsi-technology/a-beginners-guide-to-segmentation-in-satellite-images-9c00d2028d52). Single class models are often trained for road or building segmentation, with multi class for land use/crop type classification. Image annotation can take long than for classification/object detection since every pixel must be annotated. **Note** that many articles which refer to 'hyperspectral land classification' are actually describing semantic segmentation.
@@ -88,6 +89,8 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery more class
 * [LoveDA](https://github.com/Junjue-Wang/LoveDA) -> code for the paper "A Remote Sensing Land-Cover Dataset for Domain Adaptive Semantic Segmentation"
 * [Satellite Imagery Semantic Segmentation with CNN](https://joshting.medium.com/satellite-imagery-segmentation-with-convolutional-neural-networks-f9254de3b907) -> 7 different segmentation classes, DeepGlobe Land Cover Classification Challenge dataset, with [repo](https://github.com/justjoshtings/satellite_image_segmentation)
 * [Aerial Semantic Segmentation using U-Net Deep Learning Model](https://medium.com/@rehman.aimal/aerial-semantic-segmentation-using-u-net-deep-learning-model-3356a53c915f) medium article, with [repo](https://github.com/aimalrehman92/Multiclass-Semantic-Segmentation-with-U-NET)
+* [UNet-Satellite-Image-Segmentation](https://github.com/YudeWang/UNet-Satellite-Image-Segmentation) -> A Tensorflow implentation of light UNet semantic segmentation framework
+* [Remote-sensing-image-semantic-segmentation](https://github.com/TachibanaYoshino/Remote-sensing-image-semantic-segmentation) -> The project uses Unet-based improved networks to study Remote sensing image semantic segmentation, which is based on keras
 
 ### Semantic segmentation - buildings, rooftops & solar panels
 * [Semantic Segmentation on Aerial Images using fastai](https://medium.com/swlh/semantic-segmentation-on-aerial-images-using-fastai-a2696e4db127) uses U-Net on the Inria Aerial Image Labeling Dataset of urban settlements in Europe and the United States, and is labelled as a building and not building classes (no repo)
@@ -315,6 +318,7 @@ Generally treated as a semantic segmentation problem.
 * [cloudless](https://github.com/BradNeuberg/cloudless) -> Deep learning pipeline for orbital satellite data for detecting clouds
 * [Deep-Gapfill](https://github.com/remicres/Deep-Gapfill) -> Official implementation of Optical image gap filling using deep convolutional autoencoder from optical and radar images
 * [satellite-cloud-removal-dip](https://github.com/cidcom/satellite-cloud-removal-dip) -> Satellite cloud removal with Deep Image Prior, with [paper](https://www.mdpi.com/2072-4292/14/6/1342)
+* [cloudFCN](https://github.com/aliFrancis/cloudFCN) -> Python 3 package for Fully Convolutional Network development, specifically for cloud masking
 
 ## Change detection & time-series
 Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, clouds change often too..!
@@ -600,6 +604,7 @@ Measure surface contours.
 * [planet_tools](https://github.com/disbr007/planet_tools) -> Selection of imagery from Planet API for creation of stereo elevation models
 * [SatelliteNeRF](https://github.com/Kai-46/SatelliteNeRF) -> PyTorch-based Neural Radiance Fields adapted to satellite domain
 * [SatelliteSfM](https://github.com/Kai-46/SatelliteSfM) -> A library for solving the satellite structure from motion problem
+* [SatelliteSurfaceReconstruction](https://github.com/SBCV/SatelliteSurfaceReconstruction) -> 3D Surface Reconstruction From Multi-Date Satellite Images, ISPRS, 2021
 
 ## Thermal Infrared
 * [The World Needs (a lot) More Thermal Infrared Data from Space](https://towardsdatascience.com/the-world-needs-a-lot-more-thermal-infrared-data-from-space-dbbba389be8a)
@@ -1196,6 +1201,7 @@ Also check the section **Image handling, manipulation & dataset creation**
 * [iris](https://github.com/ESA-PhiLab/iris) -> Tool for manual image segmentation and classification of satellite imagery
 * If you are considering building an in house annotation platform [read this article](https://medium.com/earthcube-stories/ai-products-and-remote-sensing-yes-it-is-hard-and-yes-you-need-a-good-infra-4b5d6cf822f1). Used PostGis database, GeoJson format and GIS standard in a stateless architecture
 * [satellite-imagery-labeling-tool](https://github.com/microsoft/satellite-imagery-labeling-tool) -> from Microsoft, this is a lightweight web-interface for creating and sharing vector annotations over satellite/aerial imagery scenes
+* [RSLabel](https://github.com/yonglinZ/RSLabel) -> remote sensing (RS) image annotation tool for deep learning
 
 ## General purpose annotation tools
 * [awesome-data-labeling](https://github.com/heartexlabs/awesome-data-labeling) -> long list of annotation tools
@@ -1395,6 +1401,7 @@ So improtant this pair gets their own section. GDAL is THE command line tool for
 * [yeoda](https://github.com/TUW-GEO/yeoda) -> provides lower and higher-level data cube classes to work with well-defined and structured earth observation data
 * [MapTilesDownloader](https://github.com/AliFlux/MapTilesDownloader) -> A super easy to use map tiles downloader built using Python
 * [tiles-to-tiff](https://github.com/jimutt/tiles-to-tiff) -> Python script for converting XYZ raster tiles for slippy maps to a georeferenced TIFF image
+* [telluric](https://github.com/satellogic/telluric) -> a Python library to manage vector and raster geospatial data in an interactive and easy way
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
