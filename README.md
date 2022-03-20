@@ -429,7 +429,6 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 ## Image-to-image translation
 Translate images e.g. from SAR to RGB.
 * [How to Develop a Pix2Pix GAN for Image-to-Image Translation](https://machinelearningmastery.com/how-to-develop-a-pix2pix-gan-for-image-to-image-translation/) -> how to develop a Pix2Pix model for translating satellite photographs to Google map images. A good intro to GANS
-* [SAR to RGB Translation using CycleGAN](https://www.esri.com/arcgis-blog/products/api-python/imagery/sar-to-rgb-translation-using-cyclegan/) -> uses a CycleGAN model in the ArcGIS API for Python
 * [A growing problem of ‘deepfake geography’: How AI falsifies satellite images](https://www.washington.edu/news/2021/04/21/a-growing-problem-of-deepfake-geography-how-ai-falsifies-satellite-images/)
 * [Kaggle Pix2Pix Maps](https://www.kaggle.com/alincijov/pix2pix-maps) -> dataset for pix2pix to take a google map satellite photo and build a street map
 * [guided-deep-decoder](https://github.com/tuezato/guided-deep-decoder) -> With guided deep decoder, you can solve different image pair fusion problems, allowing super-resolution, pansharpening or denoising
@@ -1246,15 +1245,6 @@ Many of these companies & products predate the open source software boom, and of
 * [socet-gxp](https://www.geospatialexploitationproducts.com/content/socet-gxp/) -> Advanced geospatial exploitation and customized product creation combined into one comprehensive solution
 * [video-inform](https://www.video-inform.com/) -> image and video analysis
 
-## ArcGIS
-Arguably the most significant paid software for working with maps and geographic information
-* [ArcGIS](https://www.arcgis.com/index.html) -> mapping and analytics software, with both local and cloud hosted options. 
-* [Geospatial deep learning with arcgis.learn](https://developers.arcgis.com/python/guide/geospatial-deep-learning/) -> the docs
-* [Integrating Deep Learning with GIS](https://medium.com/geoai/integrating-deep-learning-with-gis-70e7c5aa9dfe) is a 2019 article by Rohit Singh which introduces the deep learning capabilities in ArcGIS
-* [deep-learning-frameworks](https://github.com/Esri/deep-learning-frameworks) -> lists frameworks supported by the ArcGIS backend
-* [sar-to-rgb-translation-using-cyclegan](https://www.esri.com/arcgis-blog/products/api-python/imagery/sar-to-rgb-translation-using-cyclegan/) using fastai
-* [ArcGIS Jupyter Notebooks](https://www.esri.com/arcgis-blog/products/arcgis-enterprise/analytics/introducing-arcgis-notebooks/) are built to run big data analysis, deep learning models, and dynamic visualization tools.
-
 # Open source software
 [A note on licensing](https://www.gislounge.com/businesses-using-open-source-gis/): The two general types of licenses for open source are copyleft and permissive. Copyleft requires that subsequent derived software products also carry the license forward, e.g. the GNU Public License (GNU GPLv3). For permissive, options to modify and use the code as one please are more open, e.g. MIT & Apache 2. Checkout [choosealicense.com/](https://choosealicense.com/)
 * [awesome-earthobservation-code](https://github.com/acgeospatial/awesome-earthobservation-code) -> lists many useful tools and resources
@@ -1649,7 +1639,6 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Geospatial_Python_CourseV1](https://github.com/acgeospatial/Geospatial_Python_CourseV1) -> a collection of blog posts turned into a course format
 * [Satellite Machine Learning Training](http://devseed.com/sat-ml-training/) -> lessons on how to apply Machine Learning analysis to satellite data
 * [DL-for-satellite-image-analysis](https://github.com/gicait/DL-for-satellite-image-analysis) -> short and minimalistic examples covering fundamentals of Deep Learning for Satellite Image Analysis using Jupyter notebooks, created by [lakmalnd](https://github.com/lakmalnd)
-* [ESRI MOOC: Spatial Data Science: The New Frontier in Analytics](https://www.esri.com/training/catalog/5d76dcf7e9ccda09bef61294/spatial-data-science:-the-new-frontier-in-analytics/#!) -> Online OCT 27 - DEC 8, 2021
 * [Machine Learning on Earth Observation: ML4EO Bootcamp](https://online.atingi.org/course/view.php?id=1107%27)
 * [Artificial Intelligence (AI) for Earth Monitoring](https://www.futurelearn.com/courses/artificial-intelligence-for-earth-monitoring)
 * [Deep Learning DIY](https://dataflowr.github.io/website/)
