@@ -1579,7 +1579,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [Qiusheng Wu](https://github.com/giswqs) is an Assistant Professor in the Department of Geography at the University of Tennessee, checkout his [YouTube channel](https://www.youtube.com/c/QiushengWu)
 * [Rodrigo Caye Daudt](https://rcdaudt.github.io/oscd/) is doing great work on change detection
 * [Robin Wilson](https://github.com/robintw) is a former academic who is very active in the satellite imagery space
-* [Rohit Singh](https://github.com/rohitgeo) is Director of Esri R&D Center and has some great [Medium articles](https://medium.com/@rohitgeo)
+* [Rohit Singh](https://github.com/rohitgeo) has some great [Medium articles](https://medium.com/@rohitgeo)
 
 # Companies & organisations on Github
 For a full list of companies, on and off Github, checkout [awesome-geospatial-companies](https://github.com/chrieke/awesome-geospatial-companies). The following lists companies with interesting Github profiles.
@@ -1598,7 +1598,6 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [ElementAI](https://github.com/ElementAI)
 * [Element 84](https://github.com/element84)
 * [ESA-PhiLab](https://github.com/ESA-PhiLab)
-* [Esri](https://github.com/Esri)
 * [Geoalert](https://github.com/Geoalert) -> checkout their [Medium articles](https://medium.com/geoalert-platform-urban-monitoring)
 * [Global Environmental Remote Sensing Laboratory](https://github.com/GERSL)
 * [GIC-AIT](https://github.com/gicait) -> Aisan Institute of Technology
