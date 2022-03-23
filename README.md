@@ -130,6 +130,7 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery more class
 * [Large-scale-solar-plant-monitoring](https://github.com/osmarluiz/Large-scale-solar-plant-monitoring) -> code for the paper "Remote Sensing for Monitoring of Photovoltaic Power Plants in Brazil Using Deep Semantic Segmentation"
 * [solar-panels-detection](https://github.com/dbaofd/solar-panels-detection) -> using SegNet, Fast SCNN & ResNet
 * [Remote-sensing-building-extraction-to-3D-model-using-Paddle-and-Grasshopper](https://github.com/Youssef-Harby/Remote-sensing-building-extraction-to-3D-model-using-Paddle-and-Grasshopper)
+* [segmentation-enhanced-resunet](https://github.com/tranleanh/segmentation-enhanced-resunet) -> Urban building extraction in Daejeon region using Modified Residual U-Net (Modified ResUnet) and applying post-processing
 
 ### Semantic segmentation - roads
 * [Semantic segmentation of roads and highways using Sentinel-2 imagery (10m) super-resolved using the SENX4 model up to x4 the initial spatial resolution (2.5m)](https://tracasa.es/innovative-stories/sen2roadlasviastambiensevendesdesentinel-2/) (results, no repo)
@@ -140,6 +141,8 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery more class
 * [Detecting road and road types jupyter notebook](https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb)
 * [awesome-deep-map](https://github.com/antran89/awesome-deep-map) -> A curated list of resources dedicated to deep learning / computer vision algorithms for mapping. The mapping problems include road network inference, building footprint extraction, etc.
 * [RoadTracer: Automatic Extraction of Road Networks from Aerial Images](https://github.com/mitroadmaps/roadtracer) -> uses an iterative search process guided by a CNN-based decision function to derive the road network graph directly from the output of the CNN
+* [road_detection_mtl](https://github.com/ntelo007/road_detection_mtl) -> Road Detection using a multi-task Learning technique to improve the performance of the road detection task by incorporating prior knowledge constraints, uses the SpaceNet Roads Dataset
+* [road_connectivity](https://github.com/anilbatra2185/road_connectivity) -> Improved Road Connectivity by Joint Learning of Orientation and Segmentation (CVPR2019)
 
 ### Semantic segmentation - vegitation & crop boundaries
 * [Сrор field boundary detection: approaches overview and main challenges](https://soilmate.medium.com/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-overview-and-main-challenges-53736725cb06) - review article, no code
@@ -155,8 +158,9 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery more class
 * [DeepTreeAttention](https://github.com/weecology/DeepTreeAttention) -> Implementation of Hang et al. 2020 "Hyperspectral Image Classification with Attention Aided CNNs" for tree species prediction
 * [Crop-Classification](https://github.com/bhavesh907/Crop-Classification) -> crop classification using multi temporal satellite images
 * [ParcelDelineation](https://github.com/sustainlab-group/ParcelDelineation) -> using a French polygons dataset and unet in keras
+* [crop-mask](https://github.com/nasaharvest/crop-mask) -> End-to-end workflow for generating high resolution cropland maps, uses GEE & LSTM model
 
-### Semantic segmentation - water & floods
+### Semantic segmentation - water, coastlines & floods
 * [UNSOAT used fastai to train a Unet to perform semantic segmentation on satellite imageries to detect water](https://forums.fast.ai/t/unosat-used-fastai-ai-for-their-floodai-model-discussion-on-how-to-move-forward/78468) - [paper](https://www.mdpi.com/2072-4292/12/16/2532) + [notebook](https://github.com/UNITAR-UNOSAT/UNOSAT-AI-Based-Rapid-Mapping-Service/blob/master/Fastai%20training.ipynb), accuracy 0.97, precision 0.91, recall 0.92
 * [Semi-Supervised Classification and Segmentation on High Resolution Aerial Images - Solving the FloodNet problem](https://sahilkhose.medium.com/paper-presentation-e9bd0f3fb0bf)
 * [Flood Detection and Analysis using UNET with Resnet-34 as the back bone](https://github.com/orion29/Satellite-Image-Segmentation-for-Flood-Damage-Analysis) uses fastai
@@ -166,6 +170,7 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery more class
 * [Map Floodwater of SAR Imagery with SageMaker](https://github.com/JayThibs/map-floodwater-sar-imagery-on-sagemaker) -> applied to Sentinel-1 dataset
 * [1st place solution for STAC Overflow: Map Floodwater from Radar Imagery hosted by Microsoft AI for Earth](https://github.com/sweetlhare/STAC-Overflow) -> combines Unet with Catboostclassifier, taking their maxima, not the average
 * [hydra-floods](https://github.com/Servir-Mekong/hydra-floods) -> an open source Python application for downloading, processing, and delivering surface water maps derived from remote sensing data
+* [CoastSat](https://github.com/kvos/CoastSat) -> tool for mapping coastlines which has an extension [CoastSeg](https://github.com/dbuscombe-usgs/CoastSeg) using  segmentation models
 
 ### Semantic segmentation - fire, smoke & burn areas
 * [Wild Fire Detection](https://github.com/yueureka/WildFireDetection) using U-Net trained on Databricks & Keras, semantic segmentation
@@ -360,6 +365,7 @@ Monitor water levels, coast lines, size of urban areas, wildfire damage. Note, c
 * [SRCDNet](https://github.com/liumency/SRCDNet) -> The pytorch implementation for "Super-resolution-based Change Detection Network with Stacked Attention Module for Images with Different Resolutions ". SRCDNet is designed to learn and predict change maps from bi-temporal images with different resolutions
 * [lightweight-temporal-attention-pytorch](https://github.com/VSainteuf/lightweight-temporal-attention-pytorch) -> A PyTorch implementation of the Light Temporal Attention Encoder (L-TAE) for satellite image time series. classification
 * [Crop-Classification](https://github.com/bhavesh907/Crop-Classification) -> crop classification using multi temporal satellite images
+* [Land-Cover-Analysis](https://github.com/Kalit31/Land-Cover-Analysis) -> Land Cover Change Detection using Satellite Image Segmentation
 
 ## Wealth and economic activity
 The goal is to predict economic activity from satellite imagery rather than conducting labour intensive ground surveys
@@ -384,6 +390,7 @@ The goal is to predict economic activity from satellite imagery rather than cond
 * [DisaVu](https://github.com/SrzStephen/DisaVu) -> combines building & damage detection and provides an app for viewing predictions
 * [Soteria](https://github.com/Soteria-ai/Soteria) -> uses machine learning with satellite imagery to map natural disaster impacts for faster emergency response
 * [DisasterHack](https://github.com/MarjorieRWillner/DisasterHack) -> Wildfire Mitigation: Computer Vision Identification of Hazard Fuels Using Landsat
+* [forestcasting](https://github.com/ivanzvonkov/forestcasting) -> Forest fire prediction powered by analytics
 
 ## Super-resolution
 Super-resolution attempts to enhance the resolution of an imaging system, and can be applied as a pre-processing step to improve the detection of small objects. For an introduction to this topic [read this excellent article](https://bleedai.com/super-resolution-going-from-3x-to-8x-resolution-in-opencv/). Note that super resolution techniques are generally grouped into single image super resolution (SISR) **or** a multi image super resolution (MISR) which is typically applied to video frames.
@@ -1045,7 +1052,8 @@ A GPU is required for training deep learning models (but not necessarily for inf
 
 # State of the art engineering
 * Compute and data storage are moving to the cloud. Read how [Planet](https://cloud.google.com/customers/planet) and [Airbus](https://cloud.google.com/customers/airbus) use the cloud
-* Google Earth Engine and Microsoft Planetary Computer are democratising access to massive compute platforms
+* Google Earth Engine and Microsoft Planetary Computer are democratising access to 'planetary scale' compute platforms
+* Google Colab and others are prodiving free acces to GPU compute to enable training deep learning models
 * No-code platforms and auto-ml are making ML techniques more accessible than ever
 * Custom hardware is being developed for rapid training and inferencing with deep learning models, both in the datacenter and at the edge
 * Supervised ML methods typically require large annotated datasets, but approaches such as self-supervised and active learning are offering alternatives pathways
@@ -1391,6 +1399,10 @@ So improtant this pair gets their own section. GDAL is THE command line tool for
 * [tiles-to-tiff](https://github.com/jimutt/tiles-to-tiff) -> Python script for converting XYZ raster tiles for slippy maps to a georeferenced TIFF image
 * [telluric](https://github.com/satellogic/telluric) -> a Python library to manage vector and raster geospatial data in an interactive and easy way
 * [Sniffer](https://github.com/2320sharon/Sniffer) -> A python application for sorting through geospatial imagery
+* [pyjeo](https://github.com/ec-jrc/jeolib-pyjeo) -> a library for image processing for geospatial data implemented in JRC Ispra, with [paper](https://www.mdpi.com/2220-9964/8/10/461)
+* [rpc_cropper](https://github.com/carlodef/rpc_cropper) -> A small standalone tool to crop satellite images and their RPC
+* [vpv](https://github.com/kidanger/vpv) -> Image viewer designed for image processing experts
+* [arop](https://github.com/george-silva/arop) -> Automated Registration and Orthorectification Package
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
@@ -1537,6 +1549,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [acolite](https://github.com/acolite/acolite) -> generic atmospheric correction module
 * [pmapper](https://github.com/nasa-jpl/pmapper) -> a super-resolution and deconvolution toolkit for python. PMAP stands for Poisson Maximum A-Posteriori, a highly flexible and adaptable algorithm for these problems
 * [pylandtemp](https://github.com/pylandtemp/pylandtemp) -> Algorithms for computing global land surface temperature and emissivity from NASA's Landsat satellite images with Python
+* [sarsen](https://github.com/bopen/sarsen) -> Algorithms and utilities for Synthetic Aperture Radar (SAR) sensors
 
 ## Julia language
 [Julia](https://julialang.org/) looks and feels a lot like Python, but can be much faster. Julia can call Python, C, and Fortran libraries and is capabale of C/Fortran speeds. Julia can be used in the familiar Jupyterlab notebook environment
