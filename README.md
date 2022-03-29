@@ -1309,6 +1309,15 @@ Many of these companies & products predate the open source software boom, and of
 * [socet-gxp](https://www.geospatialexploitationproducts.com/content/socet-gxp/) -> Advanced geospatial exploitation and customized product creation combined into one comprehensive solution
 * [video-inform](https://www.video-inform.com/) -> image and video analysis
 
+## ArcGIS
+Arguably the most significant paid software for working with maps and geographic information
+* [ArcGIS](https://www.arcgis.com/index.html) -> mapping and analytics software, with both local and cloud hosted options. 
+* [Geospatial deep learning with arcgis.learn](https://developers.arcgis.com/python/guide/geospatial-deep-learning/) -> the docs
+* [Integrating Deep Learning with GIS](https://medium.com/geoai/integrating-deep-learning-with-gis-70e7c5aa9dfe) is a 2019 article by Rohit Singh which introduces the deep learning capabilities in ArcGIS
+* [deep-learning-frameworks](https://github.com/Esri/deep-learning-frameworks) -> lists frameworks supported by the ArcGIS backend
+* [sar-to-rgb-translation-using-cyclegan](https://www.esri.com/arcgis-blog/products/api-python/imagery/sar-to-rgb-translation-using-cyclegan/) using fastai
+* [ArcGIS Jupyter Notebooks](https://www.esri.com/arcgis-blog/products/arcgis-enterprise/analytics/introducing-arcgis-notebooks/) are built to run big data analysis, deep learning models, and dynamic visualization tools.
+
 # Open source software
 [A note on licensing](https://www.gislounge.com/businesses-using-open-source-gis/): The two general types of licenses for open source are copyleft and permissive. Copyleft requires that subsequent derived software products also carry the license forward, e.g. the GNU Public License (GNU GPLv3). For permissive, options to modify and use the code as one please are more open, e.g. MIT & Apache 2. Checkout [choosealicense.com/](https://choosealicense.com/)
 * [awesome-earthobservation-code](https://github.com/acgeospatial/awesome-earthobservation-code) -> lists many useful tools and resources
