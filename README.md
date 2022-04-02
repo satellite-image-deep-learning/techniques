@@ -187,6 +187,8 @@ Almost always performed using U-Net. For multi/hyper-spectral imagery, classical
 * [1st place solution for STAC Overflow: Map Floodwater from Radar Imagery hosted by Microsoft AI for Earth](https://github.com/sweetlhare/STAC-Overflow) -> combines Unet with Catboostclassifier, taking their maxima, not the average
 * [hydra-floods](https://github.com/Servir-Mekong/hydra-floods) -> an open source Python application for downloading, processing, and delivering surface water maps derived from remote sensing data
 * [CoastSat](https://github.com/kvos/CoastSat) -> tool for mapping coastlines which has an extension [CoastSeg](https://github.com/dbuscombe-usgs/CoastSeg) using  segmentation models
+* [Satellite_Flood_Segmentation_of_Harvey](https://github.com/morgan-tam/Satellite_Flood_Segmentation_of_Harvey) -> explores both deep learning and traditional kmeans
+* [Flood Event Detection Utilizing Satellite Images](https://github.com/KonstantinosF/Flood-Detection---Satellite-Images)
 
 ### Semantic segmentation - fire, smoke & burn areas
 * [Wild Fire Detection](https://github.com/yueureka/WildFireDetection) using U-Net trained on Databricks & Keras, semantic segmentation
@@ -362,6 +364,7 @@ Generally treated as a semantic segmentation problem.
 * [HOW TO USE DEEP LEARNING, PYTORCH LIGHTNING, AND THE PLANETARY COMPUTER TO PREDICT CLOUD COVER IN SATELLITE IMAGERY](https://www.drivendata.co/blog/cloud-cover-benchmark/)
 * [cloud-cover-winners](https://github.com/drivendataorg/cloud-cover-winners) -> Code from the winning submissions for the On Cloud N: Cloud Cover Detection Challenge
 * [On-Cloud-N: Cloud Cover Detection Challenge - 19th Place Solution](https://github.com/max-schaefer-dev/on-cloud-n-19th-place-solution)
+* [ukis-csmask](https://github.com/dlr-eoc/ukis-csmask) -> package to masks clouds in Sentinel-2, Landsat-8, Landsat-7 and Landsat-5 images
 
 ## Change detection & time-series
 Monitor water levels, coast lines, size of urban areas, wildfire damage, crop changes. Note, clouds change often too..!
@@ -416,6 +419,7 @@ Monitor water levels, coast lines, size of urban areas, wildfire damage, crop ch
 * [CropMappingInterpretation](https://github.com/Lab-IDEAS/CropMappingInterpretation) -> An interpretation pipeline towards understanding multi-temporal deep learning approaches for crop mapping
 * [DSFANet](https://github.com/rulixiang/DSFANet) -> Unsupervised Deep Slow Feature Analysis for Change Detection in Multi-Temporal Remote Sensing Images
 * [siamese-change-detection](https://github.com/mvkolos/siamese-change-detection) -> Targeted synthesis of multi-temporal remote sensing images for change detection using siamese neural networks
+* [Bi-SRNet](https://github.com/ggsDing/Bi-SRNet) -> Pytorch codes of 'Bi-Temporal Semantic Reasoning for the Semantic Change Detection in HR Remote Sensing Images
 
 ## Wealth and economic activity
 The goal is to predict economic activity from satellite imagery rather than conducting labour intensive ground surveys
@@ -717,6 +721,7 @@ Measure surface contours.
 * [deSpeckNet-TF-GEE](https://github.com/adugnag/deSpeckNet-TF-GEE) -> implementation of the paper 'deSpeckNet: Generalizing Deep Learning Based SAR Image Despeckling'
 * [cnn_sar_image_classification](https://github.com/diogosens/cnn_sar_image_classification) -> CNN for classifying SAR images of the Amazon Rainforest
 * [s1_icetype_cnn](https://github.com/nansencenter/s1_icetype_cnn) -> Retrieve sea ice type from Sentinel-1 SAR with CNN
+* [SARSeg](https://github.com/ggsDing/SARSeg) -> pytorch code for the paper 'MP-ResNet: Multi-path Residual Network for the Semantic segmentation of PolSAR Images'
 
 ## Neural nets in space
 Processing on board a satellite allows less data to be downlinked. e.g. super-resolution image might take 8 images to generate, then a single image is downlinked. Other applications include cloud detection and collision avoidance.
@@ -1007,6 +1012,7 @@ The xView2 Challenge focuses on automating the process of assessing building dam
 * https://xview2.org/
 * [GitHub for the challenge](https://github.com/DIUx-xView)
 * [A look at IBM's approach](https://www.ibm.com/cloud/blog/the-xview2-ai-challenge) -> used a single U-Net model
+* [Simple Building detection example](https://github.com/iamtekson/Deep-learning-for-satellite-imagery)
 
 ### Kaggle - miscellaneous
 * https://www.kaggle.com/reubencpereira/spatial-data-repo -> Satellite + loan data
@@ -1529,6 +1535,7 @@ So improtant this pair gets their own section. GDAL is THE command line tool for
 * [Pascal VOC BBox Viewer](https://github.com/zchrissirhcz/imageset-viewer)
 * [Sentinel-2 satellite tiles images downloader from Copernicus](https://github.com/flaviostutz/sentinelloader) -> Minimizes data download and combines multiple tiles to return a single area of interest
 * [COCO-Assistant](https://github.com/ashnair1/COCO-Assistant) -> Helper for dealing with MS-COCO annotations; Merge datasets, Remove specfiic category from dataset, Generate annotations statistics - distribution of object areas and category distribution
+* [RGISTools](https://github.com/spatialstatisticsupna/RGISTools) -> Tools for Downloading, Customizing, and Processing Time Series of Satellite Images from Landsat, MODIS, and Sentinel
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
@@ -1624,6 +1631,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [jupyter-bbox-widget](https://github.com/gereleth/jupyter-bbox-widget) -> A Jupyter widget for annotating images with bounding boxes
 * [EOmaps](https://github.com/raphaelquast/EOmaps) -> A library to create interactive maps of geographical datasets
 * [H3-Pandas](https://github.com/DahnJ/H3-Pandas) -> Integrates H3 with GeoPandas and Pandas
+* [django-large-image](https://github.com/ResonantGeoData/django-large-image) -> Django endpoints for working with large images for tile serving
 
 ## Streamlit
 [Streamlit](https://streamlit.io/) is an awesome python framework for creating apps with python. Additionally they will host the apps free of charge. Here I list resources which are EO related. Note that a component is an addon which extends Streamlits basic functionality
@@ -1648,6 +1656,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [streamlit-labelstudio](https://github.com/deneland/streamlit-labelstudio) -> A Streamlit component that provides an annotation interface using the LabelStudio Frontend
 * [streamlit-img-label](https://github.com/lit26/streamlit-img-label) -> a graphical image annotation tool using streamlit. Annotations are saved as XML files in PASCAL VOC format
 * [Streamlit-Authenticator](https://github.com/mkhorasani/Streamlit-Authenticator) -> A secure authentication module to validate user credentials in a Streamlit application
+* [prettymapp](https://github.com/chrieke/prettymapp) -> Create beautiful maps from OpenStreetMap data in a webapp 
 
 ## Parallel procesing with Dask
 Dask provides advanced parallelism and distributed out-of-core computation with a `dask.dataframe` module designed to scale pandas.
