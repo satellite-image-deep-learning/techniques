@@ -52,7 +52,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [SSTN](https://github.com/zilongzhong/SSTN) -> PyTorch Implementation of SSTNs for hyperspectral image classifications from the IEEE T-GRS paper "Spectral-Spatial Transformer Network for Hyperspectral Image Classification: A FAS Framework." Demonstrates a novel spectral-spatial transformer network (SSTN), which consists of spatial attention and spectral association modules, to overcome the constraints of convolution kernels
 * [SatellitePollutionCNN](https://github.com/arnavbansal1/SatellitePollutionCNN) -> A novel algorithm to predict air pollution levels with state-of-art accuracy using deep learning and GoogleMaps satellite images
 * [PropertyClassification](https://github.com/Sardhendu/PropertyClassification) -> Classifying the type of property given Real Estate, satellite and Street view Images
-* [remote-sense-quickstart](https://github.com/CarryHJR/remote-sense-quickstart)
+* [remote-sense-quickstart](https://github.com/CarryHJR/remote-sense-quickstart) -> classification on a number of datasets, including with attention visualization
 * [Satellite image classification using multiple machine learning algorithms](https://github.com/tanmay-delhikar/satellite-image-analysis-ml)
 * [satsense](https://github.com/DynaSlum/satsense) -> a Python library for land use/cover classification using classical features including HoG & NDVI
 * [PyTorch_UCMerced_LandUse](https://github.com/GeneralLi95/PyTorch_UCMerced_LandUse) -> simple pytorch implementation fine tuned on ResNet and basic augmentations
@@ -225,8 +225,8 @@ In instance segmentation, each individual 'instance' of a segmented area is give
 ### Panoptic segmentation
 * [Things and stuff or how remote sensing could benefit from panoptic segmentation](https://softwaremill.com/things-and-stuff-or-how-remote-sensing-could-benefit-from-panoptic-segmentation/)
 * [Panoptic Segmentation Meets Remote Sensing (paper)](https://www.mdpi.com/2072-4292/14/4/965)
-* [pastis-benchmark)](https://github.com/VSainteuf/pastis-benchmark)
-* [Panoptic-Generator)](https://github.com/abilius-app/Panoptic-Generator) -> This module converts GIS data into panoptic segmentation tiles
+* [pastis-benchmark](https://github.com/VSainteuf/pastis-benchmark)
+* [Panoptic-Generator](https://github.com/abilius-app/Panoptic-Generator) -> This module converts GIS data into panoptic segmentation tiles
 * [BSB-Aerial-Dataset](https://github.com/osmarluiz/BSB-Aerial-Dataset) -> an example on how to use Detectron2's Panoptic-FPN in the BSB Aerial Dataset
 * [utae-paps](https://github.com/VSainteuf/utae-paps) -> PyTorch implementation of U-TAE and PaPs for satellite image time series panoptic segmentation
 
@@ -255,6 +255,7 @@ Several different techniques can be used to count the number of objects in an im
 * [MCCNet](https://github.com/MathLee/MCCNet) -> Multi-Content Complementation Network for Salient Object Detection in Optical Remote Sensing Images
 * [CorrNet](https://github.com/MathLee/CorrNet) -> Lightweight Salient Object Detection in Optical Remote Sensing Images via Feature Correlation
 * [Reading list for deep learning based Salient Object Detection in Optical Remote Sensing Images](https://github.com/MathLee/ORSI-SOD_Summary)
+* [Object Tracking in Satellite Videos Based on a Multi-Frame Optical Flow Tracker](https://arxiv.org/abs/1804.09323) arxiv paper
 
 #### Object detection enhanced by super resolution
 * [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
@@ -262,7 +263,8 @@ Several different techniques can be used to count the number of objects in an im
 * [Mid-Low Resolution Remote Sensing Ship Detection Using Super-Resolved Feature Representation](https://www.preprints.org/manuscript/202108.0337/v1)
 
 #### Object detection with rotated bounding boxes
-For datasets checkout DOTA & HRSC2016
+* OBB: orinted bounding boxes are polygons representing rotated rectangles
+* For datasets checkout [DOTA](https://github.com/robmarkcole/satellite-image-deep-learning#dota-object-detection-dataset) & [HRSC2016](https://github.com/robmarkcole/satellite-image-deep-learning#hrsc2016-ship-object-detection-dataset)
 * [mmrotate](https://github.com/open-mmlab/mmrotate) -> Rotated Object Detection Benchmark, with pretrained models and function for inferencing on very large images
 * [OBBDetection](https://github.com/jbwang1997/OBBDetection) -> an oriented object detection library, which is based on MMdetection
 * [rotate-yolov3](https://github.com/ming71/rotate-yolov3) -> Rotation object detection implemented with yolov3. Also see [yolov3-polygon](https://github.com/ming71/yolov3-polygon)
@@ -657,14 +659,8 @@ Image registration is the process of transforming different sets of data into on
 * [UDALN_GRSL](https://github.com/JiaxinLiCAS/UDALN_GRSL) -> Deep Unsupervised Blind Hyperspectral and Multispectral Data Fusion
 * [MU-Net](https://github.com/yeyuanxin110/MU-Net) -> A multiscale unsupervised network for remote sensing image registration
 * [MS_HLMO_registration](https://github.com/MrPingQi/MS_HLMO_registration) -> Multi-scale Histogram of Local Main Orientation for Remote Sensing Image Registration, with [paper](https://arxiv.org/abs/2204.00260)
-
-## Multi-sensor/multi-modal fusion
-Overlaps with image registration, above
 * [CropTypeMapping](https://github.com/ellaampy/CropTypeMapping) -> Crop type mapping from optical and radar (Sentinel-1&2) time series using attention-based deep learning
 * [Multimodal-Remote-Sensing-Toolkit](https://github.com/likyoo/Multimodal-Remote-Sensing-Toolkit) -> uses Hyperspectral and LiDAR Data
-
-## Object tracking
-* [Object Tracking in Satellite Videos Based on a Multi-Frame Optical Flow Tracker](https://arxiv.org/abs/1804.09323) arxiv paper
 
 ## Terrain mapping, Lidar & DEMs
 Measure surface contours.
@@ -1168,13 +1164,14 @@ A GPU is required for training deep learning models (but not necessarily for inf
 * [Deepnote](https://deepnote.com/) -> many features for collaboration, GPU use is paid
 
 # State of the art engineering
-* Compute and data storage are moving to the cloud. Read how [Planet](https://cloud.google.com/customers/planet) and [Airbus](https://cloud.google.com/customers/airbus) use the cloud
-* Google Earth Engine and Microsoft Planetary Computer are democratising access to 'planetary scale' compute platforms
+* Compute and data storage are on the cloud. Read how [Planet](https://cloud.google.com/customers/planet) and [Airbus](https://cloud.google.com/customers/airbus) use the cloud
+* Traditional data formats aren't designed for processing on the cloud, so new standards are evolving such as [COG](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-optimised-geotiff-cog) and [STAC](https://github.com/robmarkcole/satellite-image-deep-learning#spatiotemporal-asset-catalog-specification-stac)
+* Google Earth Engine and Microsoft Planetary Computer are democratising access to 'planetary scale' compute
 * Google Colab and others are prodiving free acces to GPU compute to enable training deep learning models
 * No-code platforms and auto-ml are making ML techniques more accessible than ever
+* Serverless compute (e.g. AWS Lambda) mean that managing servers may become a thing of the past
 * Custom hardware is being developed for rapid training and inferencing with deep learning models, both in the datacenter and at the edge
-* Supervised ML methods typically require large annotated datasets, but approaches such as self-supervised and active learning are offering alternatives pathways
-* Traditional data formats aren't designed for processing on the cloud, so new standards are evolving such as COGS and STAC
+* Supervised ML methods typically require large annotated datasets, but approaches such as self-supervised and active learning require less or even no annotation
 * Computer vision traditionally delivered high performance image processing on a CPU by using compiled languages like C++, as used by OpenCV for example. The advent of GPUs are changing the paradigm, with alternatives optimised for GPU being created, such as [Kornia](https://kornia.github.io/)
 * Whilst the combo of python and keras/tensorflow/pytorch are currently preeminent, new python libraries such as [Jax](https://github.com/google/jax) and alternative languages such as [Julia](https://julialang.org/) are showing serious promise
 
