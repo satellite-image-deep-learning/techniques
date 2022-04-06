@@ -652,7 +652,7 @@ Image registration is the process of transforming different sets of data into on
 * [Reprojecting the Perseverance landing footage onto satellite imagery](https://matthewearl.github.io/2021/03/06/mars2020-reproject/)
 * Kornia provides [image registration by gradient decent](https://kornia-tutorials.readthedocs.io/en/latest/image_registration.html)
 * [LoFTR](https://github.com/zju3dv/LoFTR) -> Detector-Free Local Feature Matching with Transformers. Good performance matching satellite image pairs, tryout the web demo on your data
-* [Multi-Scale-Unsupervised-Framework-MSUF](https://github.com/yeyuanxin110/Multi-Scale-Unsupervised-Framework-MSUF) -> This is an implementation of the paper: 'A Multi-Scale Framework with Unsupervised Learning for Remote Sensing Image Registration'
+* [Multi-Scale-Unsupervised-Framework-MSUF](https://github.com/yeyuanxin110/MU-Net) -> This is an implementation of the paper: 'A Multi-Scale Framework with Unsupervised Learning for Remote Sensing Image Registration'
 * [image-to-db-registration](https://gitlab.orfeo-toolbox.org/remote_modules/image-to-db-registration) -> This remote module implements an algorithm for automated vector Database registration onto an Image. Implemented in the orfeo-toolbox
 * [UDALN_GRSL](https://github.com/JiaxinLiCAS/UDALN_GRSL) -> Deep Unsupervised Blind Hyperspectral and Multispectral Data Fusion
 * [MU-Net](https://github.com/yeyuanxin110/MU-Net) -> A multiscale unsupervised network for remote sensing image registration
