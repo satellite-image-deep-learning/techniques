@@ -591,6 +591,7 @@ Supervised deep learning techniques typically require a huge number of annotated
 * [Active-Labeler by spaceml-org](https://github.com/spaceml-org/Active-Labeler) -> a CLI Tool that facilitates labeling datasets with just a SINGLE line of code
 * [Labelling platform for Mapping Africa active learning project](https://github.com/agroimpacts/labeller)
 * [ChangeDetectionProject](https://github.com/previtus/ChangeDetectionProject) -> Trying out Active Learning in with deep CNNs for Change detection on remote sensing data
+* [ALS4GAN](https://github.com/immuno121/ALS4GAN) -> Active Learning for Improved Semi Supervised Semantic Segmentation in Satellite Images, with [paper](https://arxiv.org/abs/2110.07782)
 
 ## Mixed data learning
 These techniques combine multiple data types, e.g. imagery and text data.
