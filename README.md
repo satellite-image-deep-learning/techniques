@@ -994,11 +994,11 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * WorldView 3 - 45 satellite images covering 1km x 1km in both 3 (i.e. RGB) and 16-band (400nm - SWIR) images
 * 10 Labelled classes include - **Buildings, Road, Trees, Crops, Waterway, Vehicles**
 * [Interview with 1st place winner who used segmentation networks](http://blog.kaggle.com/2017/04/26/dstl-satellite-imagery-competition-1st-place-winners-interview-kyle-lee/) - 40+ models, each tweaked for particular target (e.g. roads, trees)
+* [ZF_UNET_224_Pretrained_Model 2nd place solution](https://github.com/ZFTurbo/ZF_UNET_224_Pretrained_Model) ->
+* [3rd place soluton](https://github.com/osin-vladimir/kaggle-satellite-imagery-feature-detection) -> which explored pansharpening & calculating reflectance indices, with [arxiv paper](https://arxiv.org/abs/1706.06169) 
 * [Deepsense 4th place solution](https://deepsense.ai/deep-learning-for-satellite-imagery-via-image-segmentation/)
 * [Entry by lopuhin](https://github.com/lopuhin/kaggle-dstl) using UNet with batch-normalization
-* [ZF_UNET_224_Pretrained_Model](https://github.com/ZFTurbo/ZF_UNET_224_Pretrained_Model) -> 2nd place solution
 * [Multi-class semantic segmentation of satellite images using U-Net](https://github.com/rogerxujiang/dstl_unet) using DSTL dataset, tensorflow 1 & python 2.7. Accompanying [article](https://towardsdatascience.com/dstl-satellite-imagery-contest-on-kaggle-2f3ef7b8ac40)
-* [Soluton which explored pansharpening & calculating reflectance indices](https://github.com/osin-vladimir/kaggle-satellite-imagery-feature-detection) with [arxiv paper](https://arxiv.org/abs/1706.06169) 
 
 ### Kaggle - Airbus ship detection Challenge
 * https://www.kaggle.com/c/airbus-ship-detection/overview
