@@ -997,6 +997,8 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * [Deepsense 4th place solution](https://deepsense.ai/deep-learning-for-satellite-imagery-via-image-segmentation/)
 * [Entry by lopuhin](https://github.com/lopuhin/kaggle-dstl) using UNet with batch-normalization
 * [ZF_UNET_224_Pretrained_Model](https://github.com/ZFTurbo/ZF_UNET_224_Pretrained_Model) -> 2nd place solution
+* [Multi-class semantic segmentation of satellite images using U-Net](https://github.com/rogerxujiang/dstl_unet) using DSTL dataset, tensorflow 1 & python 2.7. Accompanying [article](https://towardsdatascience.com/dstl-satellite-imagery-contest-on-kaggle-2f3ef7b8ac40)
+* [Soluton which explored pansharpening & calculating reflectance indices](https://github.com/osin-vladimir/kaggle-satellite-imagery-feature-detection) with [arxiv paper](https://arxiv.org/abs/1706.06169) 
 
 ### Kaggle - Airbus ship detection Challenge
 * https://www.kaggle.com/c/airbus-ship-detection/overview
