@@ -514,6 +514,7 @@ The goal is to predict economic activity from satellite imagery rather than cond
 * [Estimating telecoms demand in areas of poor data availability](https://github.com/edwardoughton/taddle) -> with papers on [arxiv](https://arxiv.org/abs/2006.07311) and [Science Direct](https://www.sciencedirect.com/science/article/abs/pii/S0736585321000617)
 * [satimage](https://github.com/mani-shailesh/satimage) -> Code and models for the manuscript "Predicting Poverty and Developmental Statistics from Satellite Images using Multi-task Deep Learning". Predict the main material of a roof, source of lighting and source of drinking water for properties, from satellite imagery
 * [africa_poverty](https://github.com/sustainlab-group/africa_poverty) -> Using publicly available satellite imagery and deep learning to understand economic well-being in Africa
+* [Predicting-Poverty](https://github.com/jmather625/predicting-poverty-replication) -> Combining satellite imagery and machine learning to predict poverty, in PyTorch
 
 ## Crop yield
 * [Crop yield Prediction with Deep Learning](https://github.com/JiaxuanYou/crop_yield_prediction) -> code for the paper Deep Gaussian Process for Crop Yield Prediction Based on Remote Sensing Data
@@ -1154,6 +1155,11 @@ The xView2 Challenge focuses on automating the process of assessing building dam
 ## Kaggle - Spacenet 7 Multi-Temporal Urban Change Detection
 * https://www.kaggle.com/datasets/amerii/spacenet-7-multitemporal-urban-development
 * [SatFootprint](https://github.com/PriyanK7n/SatFootprint) -> building segmentation on the Spacenet 7 dataset
+
+## Kaggle - Satellite Images to predict poverty in Africa
+* https://www.kaggle.com/datasets/sandeshbhat/satellite-images-to-predict-povertyafrica
+* Uses satellite imagery and nightlights data to predict poverty levels at a local level
+* [Predicting-Poverty](https://github.com/jmather625/predicting-poverty-replication) -> Combining satellite imagery and machine learning to predict poverty, in PyTorch
 
 ### Kaggle - miscellaneous
 * https://www.kaggle.com/reubencpereira/spatial-data-repo -> Satellite + loan data
