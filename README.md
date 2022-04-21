@@ -271,6 +271,7 @@ In instance segmentation, each individual 'instance' of a segmented area is give
 * [Mask_RCNN-for-Caravans](https://github.com/OrdnanceSurvey/Mask_RCNN-for-Caravans) -> detect caravan footprints from OS imagery
 * [parking_bays_detectron2](https://github.com/spiyer99/parking_bays_detectron2) -> Detecting parking bays with satellite imagery. Used Detectron2 and synthetic data with Unreal, superior performance to using Mask RCNN
 * [Locate buildings with a dark roof that feed heat island phenomenon using Mask RCNN](https://towardsdatascience.com/my-rooftop-project-a-satellite-imagery-computer-vision-example-e45a296129a0) -> with [repo](https://github.com/vintel38/RoofTop-Project), used INRIA dataset & labelme for annotation
+* [Circle_Finder](https://github.com/zinsmatt/Circle_Finder) -> Circular Shapes Detection in Satellite Imagery, 2nd place solution to the Circle Finder Challenge
 
 ### Panoptic segmentation
 * [Things and stuff or how remote sensing could benefit from panoptic segmentation](https://softwaremill.com/things-and-stuff-or-how-remote-sensing-could-benefit-from-panoptic-segmentation/)
@@ -416,7 +417,8 @@ Oil is stored in tanks at many points between extraction and sale, and the volum
 * [ognet](https://stanfordmlgroup.github.io/projects/ognet/) -> a Global Oil and Gas Infrastructure Database using Deep Learning on Remotely Sensed Imagery
 
 ## Cloud detection & removal
-Generally treated as a semantic segmentation problem.
+Generally treated as a semantic segmentation problem or custom features created using band math
+* See section [Kaggle - Understanding Clouds from Satellite Images](https://github.com/robmarkcole/satellite-image-deep-learning#kaggle---understanding-clouds-from-satellite-images)
 * From [this article on sentinelhub](https://medium.com/sentinel-hub/improving-cloud-detection-with-machine-learning-c09dc5d7cf13) there are three popular classical algorithms that detects thresholds in multiple bands in order to identify clouds. In the same article they propose using semantic segmentation combined with a CNN for a cloud classifier (excellent review paper [here](https://arxiv.org/pdf/1704.06857.pdf)), but state that this requires too much compute resources.
 * [This article](https://www.mdpi.com/2072-4292/8/8/666) compares a number of ML algorithms, random forests, stochastic gradient descent, support vector machines, Bayesian method.
 * [Segmentation of Clouds in Satellite Images Using Deep Learning](https://medium.com/swlh/segmentation-of-clouds-in-satellite-images-using-deep-learning-a9f56e0aa83d) -> semantic segmentation using a Unet on the Kaggle [38-cloud](https://www.kaggle.com/sorour/38cloud-cloud-segmentation-in-satellite-images) Landsat dataset
@@ -517,6 +519,7 @@ The goal is to predict economic activity from satellite imagery rather than cond
 * [satimage](https://github.com/mani-shailesh/satimage) -> Code and models for the manuscript "Predicting Poverty and Developmental Statistics from Satellite Images using Multi-task Deep Learning". Predict the main material of a roof, source of lighting and source of drinking water for properties, from satellite imagery
 * [africa_poverty](https://github.com/sustainlab-group/africa_poverty) -> Using publicly available satellite imagery and deep learning to understand economic well-being in Africa
 * [Predicting-Poverty](https://github.com/jmather625/predicting-poverty-replication) -> Combining satellite imagery and machine learning to predict poverty, in PyTorch
+* [income-prediction](https://github.com/tnarayanan/income-prediction) -> Predicting average yearly income based on satellite imagery using CNNs, uses pytorch
 
 ## Crop yield
 * [Crop yield Prediction with Deep Learning](https://github.com/JiaxuanYou/crop_yield_prediction) -> code for the paper Deep Gaussian Process for Crop Yield Prediction Based on Remote Sensing Data
@@ -1110,6 +1113,7 @@ In this challenge, you will build a model to classify cloud organization pattern
 * https://www.kaggle.com/c/understanding_cloud_organization/
 * [3rd place solution on Github by naivelamb](https://github.com/naivelamb/kaggle-cloud-organization)
 * [15th place solution on Github by Soongja](https://github.com/Soongja/kaggle-clouds)
+* [161st place solution on Github by michal-nahlik](https://github.com/michal-nahlik/kaggle-clouds-2019)
 
 ## Kaggle - Airbus Aircraft Detection Dataset
 * https://www.kaggle.com/airbusgeo/airbus-aircrafts-sample-dataset
