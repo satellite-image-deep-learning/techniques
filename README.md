@@ -93,6 +93,7 @@ For multi/hyper-spectral imagery, classical techniques may be used (e.g. k-means
 * [Collection of different Unet Variant](https://github.com/ashishpatel26/satellite-Image-Semantic-Segmentation-Unet-Tensorflow-keras) -> demonstrates VggUnet, ResUnet, DenseUnet, Unet. AttUnet, MobileNetUnet, NestedUNet, R2AttUNet, R2UNet, SEUnet, scSEUnet, Unet_Xception_ResNetBlock, in keras
 * [Efficient-Transformer](https://github.com/zyxu1996/Efficient-Transformer) -> an efficient transformer to achieve light-weight segmentation with improved edge segmentation by applying explicit and implicit edge enhancement methods, achieves state-of-the-art performance on Potsdam and Vaihingen datasets. [Paper](https://www.mdpi.com/2072-4292/13/18/3585)
 * [HRCNet-High-Resolution-Context-Extraction-Network](https://github.com/zyxu1996/HRCNet-High-Resolution-Context-Extraction-Network) -> code to paper: High-Resolution Context Extraction Network for Semantic Segmentation of Remote Sensing Images
+* [Semantic segmentation of SAR images using a self supervised technique](https://github.com/cattale93/pytorch_self_supervised_learning)
 
 ### Semantic segmentation - multiclass classification
 * [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net
@@ -173,6 +174,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 * [road_extraction_remote_sensing](https://github.com/jiankang1991/road_extraction_remote_sensing) -> pytorch implementation, CVPR2018 DeepGlobe Challenge submission
 * [RoadDetections dataset by Microsoft](https://github.com/microsoft/RoadDetections)
 * [CoANet](https://github.com/mj129/CoANet) -> Connectivity Attention Network for Road Extraction From Satellite Imagery. The CoA module incorporates graphical information to ensure the connectivity of roads are better preserved. With [paper](https://ieeexplore.ieee.org/document/9563125)
+* [ML_EPFL_Project_2](https://github.com/LucasBrazCappelo/ML_EPFL_Project_2) -> U-Net in Pytorch to perform semantic segmentation of roads on satellite images
 
 ### Semantic segmentation - vegitation & crop boundaries
 * [Сrор field boundary detection: approaches overview and main challenges](https://soilmate.medium.com/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-overview-and-main-challenges-53736725cb06) - review article, no code
@@ -217,6 +219,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 * [AI Geospatial Wildfire Risk Prediction](https://towardsdatascience.com/ai-geospatial-wildfire-risk-prediction-8c6b1d415eb4) -> A predictive model using geospatial raster data to asses wildfire hazard potential over the contiguous United States using Unet
 * [IndustrialSmokePlumeDetection](https://github.com/HSG-AIML/IndustrialSmokePlumeDetection) -> using Sentinel-2 & a modified ResNet-50
 * [burned-area-detection](https://github.com/dymaxionlabs/burned-area-detection) -> uses Sentinel-2
+* [rescue](https://github.com/dbdmg/rescue) -> code of the paper: Attention to fires: multi-channel deep-learning models forwildfire severity prediction
 
 ### Semantic segmentation - glaciers
 * [HED-UNet](https://github.com/khdlr/HED-UNet) -> a model for simultaneous semantic segmentation and edge detection, examples provided are glacier fronts and building footprints using the Inria Aerial Image Labeling dataset
@@ -533,6 +536,7 @@ The goal is to predict economic activity from satellite imagery rather than cond
 * [Machine Learning-based Damage Assessment for Disaster Relief on Google AI blog](https://ai.googleblog.com/2020/06/machine-learning-based-damage.html) -> uses object detection to locate buildings, then a classifier to determine if a building is damaged. Challenge of generalising due to small dataset
 * [RaVAEn](https://github.com/spaceml-org/RaVAEn) -> RaVAEn is a lightweight, unsupervised approach for change detection in satellite data based on Variational Auto-Encoders (VAEs) with the specific purpose of on-board deployment
 * [hurricane_damage](https://github.com/allankapoor/hurricane_damage) -> Post-hurricane structure damage assessment based on aerial imagery with CNN
+* [rescue](https://github.com/dbdmg/rescue) -> code of the paper: Attention to fires: multi-channel deep-learning models forwildfire severity prediction
 
 ## Super-resolution
 Super-resolution attempts to enhance the resolution of an imaging system, and can be applied as a pre-processing step to improve the detection of small objects. For an introduction to this topic [read this excellent article](https://bleedai.com/super-resolution-going-from-3x-to-8x-resolution-in-opencv/). Note that super resolution techniques are generally grouped into single image super resolution (SISR) **or** a multi image super resolution (MISR) which is typically applied to video frames.
@@ -671,6 +675,7 @@ The terms self-supervised, weakly/semi-supervised, unsupervised, contrastive lea
 * [wan](https://github.com/engrjavediqbal/wan) -> Weakly-Supervised Domain Adaptation for Built-up Region Segmentation in Aerial and Satellite Imagery, with [arxiv paper](https://arxiv.org/abs/2007.02277)
 * [weak-segmentation](https://github.com/LendelTheGreat/weak-segmentation) -> Weakly supervised semantic segmentation for aerial images in pytorch
 * [TNNLS_2022_X-GPN](https://github.com/B-Xi/TNNLS_2022_X-GPN) -> Code for paper: Semisupervised Cross-scale Graph Prototypical Network for Hyperspectral Image Classification
+* [Semantic segmentation of SAR images using a self supervised technique](https://github.com/cattale93/pytorch_self_supervised_learning)
 
 ## Active learning
 Supervised deep learning techniques typically require a huge number of annotated/labelled examples to provide a training dataset. However labelling at scale take significant time, expertise and resources. Active learning techniques aim to reduce the total amount of annotation that needs to be performed by selecting the most useful images to label from a large pool of unlabelled examples, thus reducing the time to generate training datasets. These processes may be referred to as [Human-in-the-Loop Machine Learning](https://medium.com/pytorch/https-medium-com-robert-munro-active-learning-with-pytorch-2f3ee8ebec)
@@ -823,6 +828,7 @@ Measure surface contours.
 * [anomaly-detection-in-SAR-imagery](https://github.com/iamyadavabhishek/anomaly-detection-in-SAR-imagery) -> identify an unknown ship in docks using keras &  retinanet
 * [sar_transformer](https://github.com/malshaV/sar_transformer) -> Transformer based SAR image despeckling, trained with synthetic imagery, with [paper](https://arxiv.org/abs/2201.09355)
 * [SSDD ship detection dataset](https://github.com/TianwenZhang0825/Official-SSDD)
+* [Semantic segmentation of SAR images using a self supervised technique](https://github.com/cattale93/pytorch_self_supervised_learning)
 
 ## Neural nets in space
 Processing on board a satellite allows less data to be downlinked. e.g. super-resolution image might take 8 images to generate, then a single image is downlinked. Other applications include cloud detection and collision avoidance.
@@ -1100,6 +1106,7 @@ Not satellite but airborne imagery. Each sample image is 28x28 pixels and consis
 In this challenge, you will build a model to classify cloud organization patterns from satellite images.
 * https://www.kaggle.com/c/understanding_cloud_organization/
 * [3rd place solution on Github by naivelamb](https://github.com/naivelamb/kaggle-cloud-organization)
+* [15th place solution on Github by Soongja](https://github.com/Soongja/kaggle-clouds)
 
 ## Kaggle - Airbus Aircraft Detection Dataset
 * https://www.kaggle.com/airbusgeo/airbus-aircrafts-sample-dataset
