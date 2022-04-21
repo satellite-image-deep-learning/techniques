@@ -94,9 +94,10 @@ For multi/hyper-spectral imagery, classical techniques may be used (e.g. k-means
 * [Efficient-Transformer](https://github.com/zyxu1996/Efficient-Transformer) -> an efficient transformer to achieve light-weight segmentation with improved edge segmentation by applying explicit and implicit edge enhancement methods, achieves state-of-the-art performance on Potsdam and Vaihingen datasets. [Paper](https://www.mdpi.com/2072-4292/13/18/3585)
 * [HRCNet-High-Resolution-Context-Extraction-Network](https://github.com/zyxu1996/HRCNet-High-Resolution-Context-Extraction-Network) -> code to paper: High-Resolution Context Extraction Network for Semantic Segmentation of Remote Sensing Images
 * [Semantic segmentation of SAR images using a self supervised technique](https://github.com/cattale93/pytorch_self_supervised_learning)
+* [satellite-segmentation-pytorch](https://github.com/obravo7/satellite-segmentation-pytorch) -> explores a variety of augmentations
 
 ### Semantic segmentation - multiclass classification
-* [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net
+* [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net, uses DeepGlobe Land Cover Segmentation dataset, with [code](https://github.com/TarunKumar1995-glitch/land_cover_classification_unet)
 * [Multi-class semantic segmentation of satellite images using U-Net](https://github.com/rogerxujiang/dstl_unet) using DSTL dataset, tensorflow 1 & python 2.7. Accompanying [article](https://towardsdatascience.com/dstl-satellite-imagery-contest-on-kaggle-2f3ef7b8ac40)
 * [Codebase for multi class land cover classification with U-Net](https://github.com/jaeeolma/lulc_ml) accompanying a masters thesis, uses Keras
 * [dubai-satellite-imagery-segmentation](https://github.com/ayushdabra/dubai-satellite-imagery-segmentation) -> due to the small dataset, image augmentation was used
@@ -116,6 +117,7 @@ For multi/hyper-spectral imagery, classical techniques may be used (e.g. k-means
 * [HybridSN](https://github.com/gokriznastic/HybridSN) -> A keras based implementation of Hybrid-Spectral-Net as in IEEE GRSL paper "HybridSN: Exploring 3D-2D CNN Feature Hierarchy for Hyperspectral Image Classification"
 * [TNNLS_2022_X-GPN](https://github.com/B-Xi/TNNLS_2022_X-GPN) -> Code for paper: Semisupervised Cross-scale Graph Prototypical Network for Hyperspectral Image Classification
 * [Semantic-segmentation-with-PyTorch-Satellite-Imagery](https://github.com/JenAlchimowicz/Semantic-segmentation-with-PyTorch-Satellite-Imagery) -> predict 25 classes on RGB imagery taken to assess the damage after Hurricane Harvey
+* [Semantic Segmentation With Sentinel-2 Imagery](https://github.com/pavlo-seimskyi/semantic-segmentation-satellite-imagery) -> uses LandCoverNet dataset and fast.ai
 
 ### Semantic segmentation - buildings & rooftops
 * [Semantic Segmentation on Aerial Images using fastai](https://medium.com/swlh/semantic-segmentation-on-aerial-images-using-fastai-a2696e4db127) uses U-Net on the Inria Aerial Image Labeling Dataset of urban settlements in Europe and the United States, and is labelled as a building and not building classes (no repo)
@@ -158,6 +160,7 @@ For multi/hyper-spectral imagery, classical techniques may be used (e.g. k-means
 * [SatFootprint](https://github.com/PriyanK7n/SatFootprint) -> building segmentation on the Spacenet 7 dataset
 * [Building-Detection](https://github.com/EL-BID/Building-Detection) -> code for running a Raster Vision experiment to train a model to detect buildings from satellite imagery in three cities in Latin America
 * [Multi-building-tracker](https://github.com/sebasmos/Multi-building-tracker) -> code for paper: Multi-target building tracker for satellite images using deep learning
+* [Boundary Enhancement Semantic Segmentation for Building Extraction](https://github.com/hin1115/BEmodule-Satellite-Building-Segmentation)
 
 ### Semantic segmentation - roads
 Extracting roads is challenging due to the occlusions caused by other objects and the complex traffic environment
@@ -1114,7 +1117,9 @@ In this challenge, you will build a model to classify cloud organization pattern
 * https://www.kaggle.com/c/understanding_cloud_organization/
 * [3rd place solution on Github by naivelamb](https://github.com/naivelamb/kaggle-cloud-organization)
 * [15th place solution on Github by Soongja](https://github.com/Soongja/kaggle-clouds)
+* [69th place solution on Github by yukkyo](https://github.com/yukkyo/Kaggle-Understanding-Clouds-69th-solution)
 * [161st place solution on Github by michal-nahlik](https://github.com/michal-nahlik/kaggle-clouds-2019)
+* [Solution by yurayli](https://github.com/yurayli/satellite-cloud-segmentation)
 
 ## Kaggle - Airbus Aircraft Detection Dataset
 * https://www.kaggle.com/airbusgeo/airbus-aircrafts-sample-dataset
@@ -1140,6 +1145,8 @@ In this challenge, you will build a model to classify cloud organization pattern
 ## Kaggle - Land Cover Classification Dataset from DeepGlobe Challenge - segmentation
 * https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset
 * [Satellite Imagery Semantic Segmentation with CNN](https://joshting.medium.com/satellite-imagery-segmentation-with-convolutional-neural-networks-f9254de3b907) -> 7 different segmentation classes, DeepGlobe Land Cover Classification Challenge dataset, with [repo](https://github.com/justjoshtings/satellite_image_segmentation)
+* [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net, uses DeepGlobe Land Cover Segmentation dataset, with [code](https://github.com/TarunKumar1995-glitch/land_cover_classification_unet)
+* [DeepGlobe Land Cover Classification Challenge solution](https://github.com/GeneralLi95/deepglobe_land_cover_classification_with_deeplabv3plus)
 
 ## Kaggle - Next Day Wildfire Spread
 A Data Set to Predict Wildfire Spreading from Remote-Sensing Data
