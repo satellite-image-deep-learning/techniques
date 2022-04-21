@@ -115,6 +115,7 @@ For multi/hyper-spectral imagery, classical techniques may be used (e.g. k-means
 * [Fusing multiple segmentation models based on different datasets into a single edge-deployable model](https://github.com/markusmeingast/Satellite-Classifier) -> roof, car & road segmentation
 * [HybridSN](https://github.com/gokriznastic/HybridSN) -> A keras based implementation of Hybrid-Spectral-Net as in IEEE GRSL paper "HybridSN: Exploring 3D-2D CNN Feature Hierarchy for Hyperspectral Image Classification"
 * [TNNLS_2022_X-GPN](https://github.com/B-Xi/TNNLS_2022_X-GPN) -> Code for paper: Semisupervised Cross-scale Graph Prototypical Network for Hyperspectral Image Classification
+* [Semantic-segmentation-with-PyTorch-Satellite-Imagery](https://github.com/JenAlchimowicz/Semantic-segmentation-with-PyTorch-Satellite-Imagery) -> predict 25 classes on RGB imagery taken to assess the damage after Hurricane Harvey
 
 ### Semantic segmentation - buildings & rooftops
 * [Semantic Segmentation on Aerial Images using fastai](https://medium.com/swlh/semantic-segmentation-on-aerial-images-using-fastai-a2696e4db127) uses U-Net on the Inria Aerial Image Labeling Dataset of urban settlements in Europe and the United States, and is labelled as a building and not building classes (no repo)
