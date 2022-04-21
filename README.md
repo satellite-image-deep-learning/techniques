@@ -90,6 +90,7 @@ For multi/hyper-spectral imagery, classical techniques may be used (e.g. k-means
 * [DCA](https://github.com/Luffy03/DCA) -> Code for TGRS 2022 paper "Deep Covariance Alignment for Domain Adaptive Remote Sensing Image Segmentation"
 * [weakly_supervised](https://github.com/LobellLab/weakly_supervised) -> code for the paper Weakly Supervised Deep Learning for Segmentation of Remote Sensing Imagery. Demonstrates that segmentation can be performed using small datasets comprised of pixel or image labels
 * [Collection of different Unet Variant](https://github.com/ashishpatel26/satellite-Image-Semantic-Segmentation-Unet-Tensorflow-keras) -> demonstrates VggUnet, ResUnet, DenseUnet, Unet. AttUnet, MobileNetUnet, NestedUNet, R2AttUNet, R2UNet, SEUnet, scSEUnet, Unet_Xception_ResNetBlock, in keras
+* [Efficient-Transformer](https://github.com/zyxu1996/Efficient-Transformer) -> an efficient transformer to achieve light-weight segmentation with improved edge segmentation by applying explicit and implicit edge enhancement methods, achieves state-of-the-art performance on Potsdam and Vaihingen datasets. [Paper](https://www.mdpi.com/2072-4292/13/18/3585)
 
 ### Semantic segmentation - multiclass classification
 * [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net
@@ -303,6 +304,7 @@ Several different techniques can be used to count the number of objects in an im
 * [Object Detection On Aerial Imagery Using RetinaNet](https://towardsdatascience.com/object-detection-on-aerial-imagery-using-retinanet-626130ba2203) -> ESRI Data Science Challenge 2019 3rd place solution
 * [Clustered-Object-Detection-in-Aerial-Image](https://github.com/fyangneil/Clustered-Object-Detection-in-Aerial-Image)
 * [yolov5s_for_satellite_imagery](https://github.com/KevinMuyaoGuo/yolov5s_for_satellite_imagery) -> yolov5s applied to the DOTA dataset
+* [RetinaNet-PyTorch](https://github.com/HsLOL/RetinaNet-PyTorch) -> RetinaNet implementation on remote sensing ship dataset (SSDD)
 
 #### Object detection enhanced by super resolution
 * [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
@@ -331,6 +333,7 @@ Several different techniques can be used to count the number of objects in an im
 * [yolov5_obb](https://github.com/hukaixuan19970627/yolov5_obb) -> yolov5 + Oriented Object Detection
 * [OHDet_Tensorflow](https://github.com/SJTU-Thinklab-Det/OHDet_Tensorflow) -> can be applied to rotation detection and object heading detection
 * [Seodore](https://github.com/nijkah/Seodore) -> framework maintaining recent updates of mmdetection
+* [Rotation-RetinaNet-PyTorch](https://github.com/HsLOL/Rotation-RetinaNet-PyTorch) -> oriented detector Rotation-RetinaNet implementation on Optical and SAR ship dataset
 
 #### Object detection - buildings, rooftops & solar panels
 * [Machine Learning For Rooftop Detection and Solar Panel Installment](https://omdena.com/blog/machine-learning-rooftops/) discusses tiling large images and generating annotations from OSM data. Features of the roofs were calculated using a combination of contour detection and classification. [Follow up article using semantic segmentation](https://omdena.com/blog/rooftops-classification/)
@@ -815,6 +818,7 @@ Measure surface contours.
 * [SAR_CD_MS_CapsNet](https://github.com/summitgao/SAR_CD_MS_CapsNet) -> Code for the paper "Change Detection in SAR Images Based on Multiscale Capsule Network" IEEE GRSL 2021
 * [anomaly-detection-in-SAR-imagery](https://github.com/iamyadavabhishek/anomaly-detection-in-SAR-imagery) -> identify an unknown ship in docks using keras &  retinanet
 * [sar_transformer](https://github.com/malshaV/sar_transformer) -> Transformer based SAR image despeckling, trained with synthetic imagery, with [paper](https://arxiv.org/abs/2201.09355)
+* [SSDD ship detection dataset](https://github.com/TianwenZhang0825/Official-SSDD)
 
 ## Neural nets in space
 Processing on board a satellite allows less data to be downlinked. e.g. super-resolution image might take 8 images to generate, then a single image is downlinked. Other applications include cloud detection and collision avoidance.
@@ -960,9 +964,14 @@ This section contains a short list of datasets relevant to deep learning, partic
 * [Arxiv paper](https://arxiv.org/abs/1711.10398)
 * [Pretrained models in mmrotate](https://github.com/open-mmlab/mmrotate)
 
-## HRSC2016 ship object detection dataset
+## HRSC RGB ship object detection dataset
 * https://www.kaggle.com/datasets/guofeng/hrsc2016
 * [Pretrained models in mmrotate](https://github.com/open-mmlab/mmrotate)
+* [Rotation-RetinaNet-PyTorch](https://github.com/HsLOL/Rotation-RetinaNet-PyTorch)
+
+## SAR Ship Detection Dataset (SSDD)
+* https://github.com/TianwenZhang0825/Official-SSDD
+* [Rotation-RetinaNet-PyTorch](https://github.com/HsLOL/Rotation-RetinaNet-PyTorch)
 
 ## xView object detection dataset
 * http://xviewdataset.org/
@@ -1313,6 +1322,7 @@ An overview of the most relevant services provided by AWS, Google and Microsoft.
 * [AWS App Runner](https://aws.amazon.com/blogs/containers/introducing-aws-app-runner/) enables quick deployment of containers as apps
 * [AWS Athena](https://aws.amazon.com/athena/) allows running SQL queries against CSV files stored on S3. Serverless so pay only for the queries you run
 * If you are using pytorch checkout [the S3 plugin for pytorch](https://aws.amazon.com/blogs/machine-learning/announcing-the-amazon-s3-plugin-for-pytorch/) which provides streaming data access
+* [Amazon AppStream 2.0](https://aws.amazon.com/appstream2/) is a service to securely share desktop apps over the internet, see this post on [sharing access to ArcGIS Pro](https://www.esri.com/arcgis-blog/products/arcgis-pro/administration/arcgis-pro-streamed-from-the-cloud-yes/)
 * [aws-gdal-robot](https://github.com/mblackgeo/aws-gdal-robot) -> A proof of concept implementation of running GDAL based jobs using AWS S3/Lambda/Batch
 
 ## Google cloud
