@@ -181,6 +181,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 * [RoadDetections dataset by Microsoft](https://github.com/microsoft/RoadDetections)
 * [CoANet](https://github.com/mj129/CoANet) -> Connectivity Attention Network for Road Extraction From Satellite Imagery. The CoA module incorporates graphical information to ensure the connectivity of roads are better preserved. With [paper](https://ieeexplore.ieee.org/document/9563125)
 * [ML_EPFL_Project_2](https://github.com/LucasBrazCappelo/ML_EPFL_Project_2) -> U-Net in Pytorch to perform semantic segmentation of roads on satellite images
+* [Satellite Imagery Road Segmentation](https://medium.com/@nithishmailme/satellite-imagery-road-segmentation-ad2964dc3812) -> intro articule on Medium using the kaggle [Massachusetts Roads Dataset](https://www.kaggle.com/datasets/balraj98/massachusetts-roads-dataset)
 
 ### Semantic segmentation - vegitation & crop boundaries
 * [Сrор field boundary detection: approaches overview and main challenges](https://soilmate.medium.com/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-overview-and-main-challenges-53736725cb06) - review article, no code
@@ -1196,6 +1197,7 @@ The xView2 Challenge focuses on automating the process of assessing building dam
 * https://www.kaggle.com/cici118/swimming-pool-detection-algarves-landscape
 * https://www.kaggle.com/datasets/donkroco/solar-panel-module -> object detection for solar panels
 * https://www.kaggle.com/competitions/noaa-fisheries-steller-sea-lion-population-count -> count sea lions from aerial images
+* https://www.kaggle.com/datasets/balraj98/massachusetts-roads-dataset -> road segmentation
 
 ## SpaceNet
 * [spacenet.ai](https://spacenet.ai/) is an online hub for data, challenges, algorithms, and tools. Note that [CosmiQ Ended its Leadership of SpaceNet](https://medium.com/the-downlinq/closing-time-cosmiq-works-is-closing-down-and-ending-its-leadership-of-spacenet-a53ba239745b), handing over the reigns to Maxar
@@ -1747,6 +1749,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [mapwith.ai](https://mapwith.ai/) -> AI assisted mapping of roads with OpenStreetMap. Part of [Open-Mapping-At-Facebook](https://github.com/facebookmicrosites/Open-Mapping-At-Facebook)
 * [sahi](https://github.com/obss/sahi) -> A vision library for performing sliced inference on large images/small objects. Read the [arxiv paper](https://arxiv.org/abs/2202.06934) and article [A practical guide to using Slicing-Aided Hyper Inference for analyzing satellite images](https://blog.ml6.eu/how-to-detect-small-objects-in-very-large-images-70234bab0f98)
 * [terragpu](https://github.com/nasa-cisto-ai/terragpu) -> Python library to process and classify remote sensing imagery by means of GPUs and AI/ML
+* [EOTorchLoader](https://github.com/ndavid/EOTorchLoader) -> Pytorch dataloader and pytorch lightning datamodule for Earth Observation imagery
 
 ## Data discovery and ingestion
 * [landsat_ingestor](https://github.com/landsat-pds/landsat_ingestor) -> Scripts and other artifacts for landsat data ingestion into Amazon public hosting
@@ -1976,6 +1979,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [OroraTech](https://github.com/OroraTech)
 * [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
 * [Preligens](https://github.com/earthcube-lab) -> formerly Earthcube Lab
+* [pyronear](https://github.com/pyronear) -> Preserving forests from wildfires one commit at a time
 * [SatelliteVu](https://github.com/SatelliteVu) -> thermal imagery from space!
 * [Sinergise](https://github.com/sentinel-hub) -> maintaining Sentinel-hub
 * [SkyTruth](https://github.com/SkyTruth)
