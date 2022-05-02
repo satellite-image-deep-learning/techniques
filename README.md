@@ -771,8 +771,11 @@ These techniques combine multiple data types, e.g. imagery and text data.
 * [pyimagesearch article on mixed-data](https://www.pyimagesearch.com/2019/02/04/keras-multiple-inputs-and-mixed-data/)
 * [pytorch-widedeep](https://github.com/jrzaurin/pytorch-widedeep) -> A flexible package for multimodal-deep-learning to combine tabular data with text and images using Wide and Deep models in Pytorch
 
-## Image Captioning
+## Image Captioning 
 * [remote-sensing-image-caption](https://github.com/TalentBoy2333/remote-sensing-image-caption) -> image classification and image caption by PyTorch
+
+## Image Retrieval
+* [GaLR](https://github.com/xiaoyuan1996/GaLR) -> code for 2022 paper: Remote Sensing Cross-Modal Text-Image Retrieval Based on Global and Local Information
 
 ## NVDI - vegetation index
 * Simple band math `ndvi = np.true_divide((ir - r), (ir + r))` but challenging due to the size of the imagery.
