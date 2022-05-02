@@ -771,10 +771,8 @@ These techniques combine multiple data types, e.g. imagery and text data.
 * [pyimagesearch article on mixed-data](https://www.pyimagesearch.com/2019/02/04/keras-multiple-inputs-and-mixed-data/)
 * [pytorch-widedeep](https://github.com/jrzaurin/pytorch-widedeep) -> A flexible package for multimodal-deep-learning to combine tabular data with text and images using Wide and Deep models in Pytorch
 
-## Image Captioning 
+## Image Captioning & Retrieval
 * [remote-sensing-image-caption](https://github.com/TalentBoy2333/remote-sensing-image-caption) -> image classification and image caption by PyTorch
-
-## Image Retrieval
 * [GaLR](https://github.com/xiaoyuan1996/GaLR) -> code for 2022 paper: Remote Sensing Cross-Modal Text-Image Retrieval Based on Global and Local Information
 
 ## NVDI - vegetation index
@@ -1582,7 +1580,7 @@ Also check the section **Image handling, manipulation & dataset creation**
 ## Cloud hosted & paid annotation tools & services
 Several open source tools are also available on the cloud, including CVAT, label-studio & Diffgram. In general cloud solutions will provide a lot of infrastructure and storage for you, as well as integration with outsourced annotators.
 * [GroundWork](https://groundwork.azavea.com/) is designed for annotating and labeling geospatial data like satellite imagery, from Azavea
-* [labelbox.com](https://labelbox.com/) -> free tier is quite generous, [supports annotating Geotiffs](https://docs.labelbox.com/docs/tiled-imagery-editor) & returning annotations with geospatial coordinates. Watch [this webcast](https://www.arturo.ai/webcastbuilding-ai-products-from-the-ground-up/)
+* [labelbox.com](https://labelbox.com/) -> free tier is quite generous, supports annotating Geotiffs & returning annotations with geospatial coordinates. Watch [this webcast](https://www.arturo.ai/webcastbuilding-ai-products-from-the-ground-up/)
 * [Roboflow](https://roboflow.com/robincole) -> in addition to annotation this platform makes it easy to convert between annotation formats & manage datasets, as well as train and deploy custom models to private API endpoints. Read [How to Train Computer Vision Models on Aerial Imagery](https://blog.roboflow.com/how-to-use-roboflow-with-aerial-imagery/)
 * [supervise.ly](https://supervise.ly) is one of the more fully featured platforms, decent free tier
 * AWS supports image annotation via the Rekognition Custom Labels console
@@ -1998,8 +1996,7 @@ Flask is often used to serve up a simple web app based on templated HTML files
 * [Rohit Singh](https://github.com/rohitgeo) has some great [Medium articles](https://medium.com/@rohitgeo)
 
 # Companies & organisations on Github
-For a full list of companies, on and off Github, checkout [awesome-geospatial-companies](https://github.com/chrieke/awesome-geospatial-companies). The following lists companies with interesting Github profiles.
-* [AI. Reverie](https://github.com/aireveries) -> synthetic data
+For a full list of companies, on and off Github, checkout [awesome-geospatial-companies](https://github.com/chrieke/awesome-geospatial-companies). The following lists companies with interesting Github profiles
 * [Airbus Defence And Space](https://github.com/AirbusDefenceAndSpace)
 * [Agricultural Impacts Research Group](https://github.com/agroimpacts)
 * [Applied-GeoSolutions](https://github.com/Applied-GeoSolutions)
