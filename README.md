@@ -8,6 +8,8 @@ This document lists resources for performing deep learning on satellite imagery.
   * [Object detection](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection)
   * [Cloud detection & removal](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-detection--removal)
   * [Change detection & time-series](https://github.com/robmarkcole/satellite-image-deep-learning#change-detection--time-series)
+* [ML best practice](https://github.com/robmarkcole/satellite-image-deep-learning#ml-best-practice)
+* [Metrics](https://github.com/robmarkcole/satellite-image-deep-learning#metrics)
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
 * [Free online compute](https://github.com/robmarkcole/satellite-image-deep-learning#free-online-compute)
 * [Cloud providers](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-providers)
@@ -967,7 +969,7 @@ This section includes tips and ideas I have picked up from other practitioners i
 * [Transfer Learning on Greyscale Images: How to Fine-Tune Pretrained Models on Black-and-White Datasets](https://towardsdatascience.com/transfer-learning-on-greyscale-images-how-to-fine-tune-pretrained-models-on-black-and-white-9a5150755c7a)
 * [How to create a DataBlock for Multispectral Satellite Image Segmentation with the Fastai](https://towardsdatascience.com/how-to-create-a-datablock-for-multispectral-satellite-image-segmentation-with-the-fastai-v2-bc5e82f4eb5)
 
-# ML metrics
+# Metrics
 A number of metrics are common to all model types (but can have slightly different meanings in contexts such as object detection), whilst other metrics are very specific to particular classes of model. The correct choice of metric is particularly critical for imbalanced dataset problems, e.g. object detection
 * TP = true positive, FP = false positive, TN = true negative, FN = false negative
 * `Precision` is the % of correct positive predictions, calculated as `precision = TP/(TP+FP)`
