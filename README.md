@@ -1,14 +1,20 @@
 # Introduction
-This document lists resources for performing deep learning (DL) on satellite imagery. To a lesser extent classical Machine learning (ML, e.g. random forests) are also discussed, as are classical image processing techniques. Note there is a huge volume of academic literature published on these topics, and this repo does not seek to index them all but rather list approachable resources with published code that will benefit both the research *and* developer communities.
+This document lists resources for performing deep learning on satellite imagery. To a lesser extent classical Machine learning (e.g. random forests) are also discussed, as are classical image processing techniques. Note there is a huge volume of academic literature published on these topics, and this repository does not seek to index them all but rather list approachable resources with published code that will benefit both the research *and* developer communities.
 
 # Table of contents
 * [Techniques](https://github.com/robmarkcole/satellite-image-deep-learning#techniques)
+  * [Classification](https://github.com/robmarkcole/satellite-image-deep-learning#Classification)
+  * [Segmentation](https://github.com/robmarkcole/satellite-image-deep-learning#Segmentation)
+  * [Object detection](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection)
+  * [Cloud detection & removal](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-detection--removal)
+  * [Change detection & time-series](https://github.com/robmarkcole/satellite-image-deep-learning#change-detection--time-series)
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
 * [Free online compute](https://github.com/robmarkcole/satellite-image-deep-learning#free-online-compute)
 * [Cloud providers](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-providers)
 * [Deploying models](https://github.com/robmarkcole/satellite-image-deep-learning#deploying-models)
 * [Image annotation](https://github.com/robmarkcole/satellite-image-deep-learning#image-annotation)
 * [Open source software](https://github.com/robmarkcole/satellite-image-deep-learning#open-source-software)
+* [Deep learning packages, frameworks & projects](https://github.com/robmarkcole/satellite-image-deep-learning#deep-learning-packages-frameworks--projects)
 * [Movers and shakers on Github](https://github.com/robmarkcole/satellite-image-deep-learning#movers-and-shakers-on-github)
 * [Companies & organisations on Github](https://github.com/robmarkcole/satellite-image-deep-learning#companies--organisations-on-github)
 * [About the author](https://github.com/robmarkcole/satellite-image-deep-learning#about-the-author)
@@ -1727,7 +1733,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [toolbox by ming71](https://github.com/ming71/toolbox) -> various cv tools, such as label tools, data augmentation, label conversion, etc.
 * [AstroAugmentations](https://github.com/mb010/AstroAugmentations) -> augmentations designed around astronomical instruments
 
-# Image formats, data management and catalogues
+## Image formats, data management and catalogues
 * [GeoServer](http://geoserver.org/) -> an open source server for sharing geospatial data
 * Open Data Cube - serve up cubes of data https://www.opendatacube.org/
 * https://terria.io/ for pretty catalogues
