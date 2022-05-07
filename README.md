@@ -19,6 +19,8 @@ This document lists resources for performing deep learning on satellite imagery.
     * [Instance segmentation](https://github.com/robmarkcole/satellite-image-deep-learning#instance-segmentation)
     * [Panoptic segmentation](https://github.com/robmarkcole/satellite-image-deep-learning#panoptic-segmentation)
   * [Object detection](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection)
+    * [Object detection with rotated bounding boxes](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection-with-rotated-bounding-boxes)
+    * [Object detection enhanced by super resolution](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection-enhanced-by-super-resolution)
   * [Cloud detection & removal](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-detection--removal)
   * [Change detection & time-series](https://github.com/robmarkcole/satellite-image-deep-learning#change-detection--time-series)
   * [Wealth and economic activity](https://github.com/robmarkcole/satellite-image-deep-learning#wealth-and-economic-activity)
