@@ -8,16 +8,42 @@ This document lists resources for performing deep learning on satellite imagery.
   * [Object detection](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection)
   * [Cloud detection & removal](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-detection--removal)
   * [Change detection & time-series](https://github.com/robmarkcole/satellite-image-deep-learning#change-detection--time-series)
+  * [Wealth and economic activity](https://github.com/robmarkcole/satellite-image-deep-learning#wealth-and-economic-activity)
+  * [Crop yield](https://github.com/robmarkcole/satellite-image-deep-learning#crop-yield)
+  * [Disaster response](https://github.com/robmarkcole/satellite-image-deep-learning#disaster-response)
+  * [ML best practice](https://github.com/robmarkcole/satellite-image-deep-learning#ml-best-practice)
+  * [Super-resolution](https://github.com/robmarkcole/satellite-image-deep-learning#super-resolution)
+  * [Pansharpening](https://github.com/robmarkcole/satellite-image-deep-learning#pansharpening)
+  * [Image-to-image translation](https://github.com/robmarkcole/satellite-image-deep-learning#image-to-image-translation)
+  * [GANS](https://github.com/robmarkcole/satellite-image-deep-learning#gans)
+  * [Adversarial ML](https://github.com/robmarkcole/satellite-image-deep-learning#adversarial-ml)
+  * [Autoencoders, dimensionality reduction, image embeddings & similarity search](https://github.com/robmarkcole/satellite-image-deep-learning#autoencoders-dimensionality-reduction-image-embeddings--similarity-search)
+  * [Image retreival](https://github.com/robmarkcole/satellite-image-deep-learning#image-retreival)
+  * [Image Captioning](https://github.com/robmarkcole/satellite-image-deep-learning#image-captioning)
+  * [Few/one/zero/low shot learning](https://github.com/robmarkcole/satellite-image-deep-learning#fewonezerolow-shot-learning)
+  * [Self-supervised, weakly/semi-supervised, unsupervised & contrastive learning](https://github.com/robmarkcole/satellite-image-deep-learning#self-supervised-weaklysemi-supervised-unsupervised--contrastive-learning)
+  * [Active learning](https://github.com/robmarkcole/satellite-image-deep-learning#active-learning)
+  * [Mixed data learning](https://github.com/robmarkcole/satellite-image-deep-learning#mixed-data-learning)
+  * [Image registration & data fusion](https://github.com/robmarkcole/satellite-image-deep-learning#image-registration--data-fusion)
+  * [Terrain mapping, Lidar & DEMs](https://github.com/robmarkcole/satellite-image-deep-learning#terrain-mapping-lidar--dems)
+  * [Thermal Infrared](https://github.com/robmarkcole/satellite-image-deep-learning#thermal-infrared)
+  * [SAR](https://github.com/robmarkcole/satellite-image-deep-learning#sar)
+* [Neural nets in space](https://github.com/robmarkcole/satellite-image-deep-learning#neural-nets-in-space)
 * [ML best practice](https://github.com/robmarkcole/satellite-image-deep-learning#ml-best-practice)
 * [Metrics](https://github.com/robmarkcole/satellite-image-deep-learning#metrics)
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
+* [Online platforms for analytics](https://github.com/robmarkcole/satellite-image-deep-learning#online-platforms-for-analytics)
 * [Free online compute](https://github.com/robmarkcole/satellite-image-deep-learning#free-online-compute)
+* [State of the art engineering](https://github.com/robmarkcole/satellite-image-deep-learning#state-of-the-art-engineering)
 * [Cloud providers](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-providers)
 * [Deploying models](https://github.com/robmarkcole/satellite-image-deep-learning#deploying-models)
 * [Image annotation](https://github.com/robmarkcole/satellite-image-deep-learning#image-annotation)
 * [Open source software](https://github.com/robmarkcole/satellite-image-deep-learning#open-source-software)
 * [Image dataset creation](https://github.com/robmarkcole/satellite-image-deep-learning#image-dataset-creation)
 * [Deep learning packages, frameworks & projects](https://github.com/robmarkcole/satellite-image-deep-learning#deep-learning-packages-frameworks--projects)
+* [Movers and shakers on Github](https://github.com/robmarkcole/satellite-image-deep-learning#movers-and-shakers-on-github)
+* [Companies & organisations on Github](https://github.com/robmarkcole/satellite-image-deep-learning#companies--organisations-on-github)
+* [About the author](https://github.com/robmarkcole/satellite-image-deep-learning#about-the-author)
 
 # Techniques
 This section explores the different deep and machine learning (ML) techniques applied to common problems in satellite imagery analysis. Good background reading is [Deep learning in remote sensing applications: A meta-analysis and review](https://www.iges.or.jp/en/publication_documents/pub/peer/en/6898/Ma+et+al+2019.pdf)
@@ -795,25 +821,6 @@ These techniques combine multiple data types, e.g. imagery and text data.
 * [pyimagesearch article on mixed-data](https://www.pyimagesearch.com/2019/02/04/keras-multiple-inputs-and-mixed-data/)
 * [pytorch-widedeep](https://github.com/jrzaurin/pytorch-widedeep) -> A flexible package for multimodal-deep-learning to combine tabular data with text and images using Wide and Deep models in Pytorch
 
-## NVDI - vegetation index
-* Simple band math `ndvi = np.true_divide((ir - r), (ir + r))` but challenging due to the size of the imagery.
-* [Example notebook local](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/ndvi_calculation.ipynb)
-* [Landsat data in cloud optimised (COG) format analysed for NVDI](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) with [medium article here](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2).
-* [Identifying Buildings in Satellite Images with Machine Learning and Quilt](https://github.com/jyamaoka/LandUse) -> NDVI & edge detection via gaussian blur as features, fed to TPOT for training with labels from OpenStreetMap, modelled as a two class problem, “Buildings” and “Nature”
-* [Seeing Through the Clouds - Predicting Vegetation Indices Using SAR](https://medium.com/descarteslabs-team/seeing-through-the-clouds-34a24f84b599)
-* [A walkthrough on calculating NDWI water index for flooded areas](https://towardsdatascience.com/how-to-compute-satellite-image-statistics-and-use-it-in-pandas-81864a489144) -> Derive zonal statistics from Sentinel 2 images using Rasterio and Geopandas
-
-## General image quality
-* Convolutional autoencoder network can be employed to image denoising, [read about this on the Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
-* [jitter-compensation](https://github.com/caiya55/jitter-compensation) -> Remote Sensing Image Jitter Detection and Compensation Using CNN
-* [DeblurGANv2](https://github.com/VITA-Group/DeblurGANv2) -> Deblurring (Orders-of-Magnitude) Faster and Better
-* [image-quality-assessment](https://github.com/idealo/image-quality-assessment) -> CNN to predict the aesthetic and technical quality of images
-* [Convolutional autoencoder for image denoising](https://keras.io/examples/vision/autoencoder/) -> keras guide
-* [piq](https://github.com/photosynthesis-team/piq) -> a collection of measures and metrics for image quality assessment
-* [FFA-Net](https://github.com/zhilin007/FFA-Net) -> Feature Fusion Attention Network for Single Image Dehazing
-* [DeepCalib](https://github.com/alexvbogdan/DeepCalib) -> A Deep Learning Approach for Automatic Intrinsic Calibration of Wide Field-of-View Cameras
-* [PerceptualSimilarity](https://github.com/richzhang/PerceptualSimilarity) -> LPIPS is a perceptual metric which aims to overcome the limitations of traditional metrics such as PSNR & SSIM, to better represent the features the human eye picks up on
-
 ## Image registration & data fusion
 Image registration is the process of transforming different sets of data into one coordinate system. Typical use is overlapping images taken at different times or with different cameras. Where the resolution of input images differs, techniques such as super resolution may be used to standardise the resolution of images to be fused.
 * [Wikipedia article on registration](https://en.wikipedia.org/wiki/Image_registration) -> register for change detection or [image stitching](https://mono.software/2018/03/14/Image-stitching/)
@@ -915,6 +922,25 @@ Measure surface contours.
 * [sar_transformer](https://github.com/malshaV/sar_transformer) -> Transformer based SAR image despeckling, trained with synthetic imagery, with [paper](https://arxiv.org/abs/2201.09355)
 * [SSDD ship detection dataset](https://github.com/TianwenZhang0825/Official-SSDD)
 * [Semantic segmentation of SAR images using a self supervised technique](https://github.com/cattale93/pytorch_self_supervised_learning)
+
+## NVDI - vegetation index
+* Simple band math `ndvi = np.true_divide((ir - r), (ir + r))` but challenging due to the size of the imagery.
+* [Example notebook local](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/ndvi_calculation.ipynb)
+* [Landsat data in cloud optimised (COG) format analysed for NVDI](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) with [medium article here](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2).
+* [Identifying Buildings in Satellite Images with Machine Learning and Quilt](https://github.com/jyamaoka/LandUse) -> NDVI & edge detection via gaussian blur as features, fed to TPOT for training with labels from OpenStreetMap, modelled as a two class problem, “Buildings” and “Nature”
+* [Seeing Through the Clouds - Predicting Vegetation Indices Using SAR](https://medium.com/descarteslabs-team/seeing-through-the-clouds-34a24f84b599)
+* [A walkthrough on calculating NDWI water index for flooded areas](https://towardsdatascience.com/how-to-compute-satellite-image-statistics-and-use-it-in-pandas-81864a489144) -> Derive zonal statistics from Sentinel 2 images using Rasterio and Geopandas
+
+## General image quality
+* Convolutional autoencoder network can be employed to image denoising, [read about this on the Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
+* [jitter-compensation](https://github.com/caiya55/jitter-compensation) -> Remote Sensing Image Jitter Detection and Compensation Using CNN
+* [DeblurGANv2](https://github.com/VITA-Group/DeblurGANv2) -> Deblurring (Orders-of-Magnitude) Faster and Better
+* [image-quality-assessment](https://github.com/idealo/image-quality-assessment) -> CNN to predict the aesthetic and technical quality of images
+* [Convolutional autoencoder for image denoising](https://keras.io/examples/vision/autoencoder/) -> keras guide
+* [piq](https://github.com/photosynthesis-team/piq) -> a collection of measures and metrics for image quality assessment
+* [FFA-Net](https://github.com/zhilin007/FFA-Net) -> Feature Fusion Attention Network for Single Image Dehazing
+* [DeepCalib](https://github.com/alexvbogdan/DeepCalib) -> A Deep Learning Approach for Automatic Intrinsic Calibration of Wide Field-of-View Cameras
+* [PerceptualSimilarity](https://github.com/richzhang/PerceptualSimilarity) -> LPIPS is a perceptual metric which aims to overcome the limitations of traditional metrics such as PSNR & SSIM, to better represent the features the human eye picks up on
 
 ## Neural nets in space
 Processing on board a satellite allows less data to be downlinked. e.g. super-resolution image might take 8 images to generate, then a single image is downlinked. Other applications include cloud detection and collision avoidance.
