@@ -1049,6 +1049,11 @@ This section contains a short list of datasets relevant to deep learning, partic
 * a new large-scale benchmark dataset containing million instances for RS scene classification
 * 51 scene categories organized by the hierarchical category
 * [Pretrained models](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing)
+* Also see [AID](https://captain-whu.github.io/AID/), [AID-Multilabel-Dataset](https://github.com/Hua-YS/AID-Multilabel-Dataset) & [DFC15-multilabel-dataset](https://github.com/Hua-YS/DFC15-Multilabel-Dataset)
+
+## Multiscene
+* https://multiscene.github.io/ & https://github.com/Hua-YS/Multi-Scene-Recognition
+* MultiScene dataset aims at two tasks: Developing algorithms for multi-scene recognition & Network learning with noisy labels
 
 ## FAIR1M object detection dataset
 * [FAIR1M: A Benchmark Dataset for Fine-grained Object Recognition in High-Resolution Remote Sensing Imagery](https://arxiv.org/abs/2103.05569)
