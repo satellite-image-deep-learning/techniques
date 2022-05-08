@@ -275,6 +275,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 * [Flood Event Detection Utilizing Satellite Images](https://github.com/KonstantinosF/Flood-Detection---Satellite-Images)
 * [ETCI-2021-Competition-on-Flood-Detection](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection) -> Experiments on Flood Segmentation on Sentinel-1 SAR Imagery with Cyclical Pseudo Labeling and Noisy Student Training, with [arxiv paper](https://arxiv.org/abs/2107.08369)
 * [FDSI](https://github.com/keillernogueira/FDSI) -> Flood Detection in Satellite Images - 2017 Multimedia Satellite Task
+* [deepwatermap](https://github.com/isikdogan/deepwatermap) -> a deep model that segments water on multispectral images
+* [rivamap](https://github.com/isikdogan/rivamap) -> an automated river analysis and mapping engine
 
 ### Segmentation - fire, smoke & burn areas
 * [Wild Fire Detection](https://github.com/yueureka/WildFireDetection) using U-Net trained on Databricks & Keras, semantic segmentation
@@ -451,7 +453,7 @@ Several different techniques can be used to count the number of objects in an im
 * [Ship-Detection](https://github.com/gouravbarkle/Ship-Detection) -> CNN approach for ship detection in the ocean using a satellite image
 
 #### Object detection - cars, vehicles & trains
-* [Truck Detection with Sentinel-2 during COVID-19 crisis](https://github.com/hfisser/Truck_Detection_Sentinel2_COVID19) -> moving objects in Sentinel-2 data causes a specific reflectance relationship in the RGB, which looks like a rainbow, and serves as a marker for trucks. Improve accuracy by only analysing roads. Not using object detection but relevant
+* [Truck Detection with Sentinel-2 during COVID-19 crisis](https://github.com/hfisser/Truck_Detection_Sentinel2_COVID19) -> moving objects in Sentinel-2 data causes a specific reflectance relationship in the RGB, which looks like a rainbow, and serves as a marker for trucks. Improve accuracy by only analysing roads. Not using object detection but relevant. Also see [S2TD](https://github.com/hfisser/S2TD)
 * [cowc_car_counting](https://github.com/motokimura/cowc_car_counting) -> car counting on the [Cars Overhead With Context (COWC) dataset](https://gdo152.llnl.gov/cowc/). Not sctictly object detection but a CNN to predict the car count in a tile
 * [CarCounting](https://github.com/JacksonPeoples/CarCounting) -> using Yolov3 & COWC dataset
 * [Traffic density estimation as a regression problem instead of object detection](https://omdena.com/blog/ai-road-safety/) -> inspired by [this paper](https://ieeexplore.ieee.org/document/8916990)
@@ -534,6 +536,7 @@ Generally treated as a semantic segmentation problem or custom features created 
 * [38Cloud-Medium](https://github.com/cordmaur/38Cloud-Medium) -> Walk-through using u-net to detect clouds in satellite images with fast.ai
 * [cloud_detection_using_satellite_data](https://github.com/ZhouPeng-NIMST/cloud_detection_using_satellite_data) -> performed on Sentinel 2 data
 * [Luojia1-Cloud-Detection](https://github.com/dedztbh/Luojia1-Cloud-Detection) -> Luojia-1 Satellite Visible Band Nighttime Imagery Cloud Detection
+* [SEN12MS-CR-TS](https://github.com/PatrickTUM/SEN12MS-CR-TS) -> code for 2022 paper: A Remote Sensing Data Set for Multi-modal Multi-temporal Cloud Removal
 
 ## Change detection & time-series
 Monitor water levels, coast lines, size of urban areas, wildfire damage, crop changes. Note, clouds change often too..!
@@ -603,6 +606,7 @@ Monitor water levels, coast lines, size of urban areas, wildfire damage, crop ch
 * [DS_UNet](https://github.com/SebastianHafner/DS_UNet) -> code for 2021 paper: Sentinel-1 and Sentinel-2 Data Fusion for Urban Change Detection using a Dual Stream U-Net, uses Onera Satellite Change Detection dataset
 * [SiameseSSL](https://github.com/SebastianHafner/SiameseSSL) -> code for 2022 [paper](https://arxiv.org/abs/2204.12202): Urban change detection with a Dual-Task Siamese network and semi-supervised learning. Uses SpaceNet 7 dataset
 * [CD-SOTA-methods](https://github.com/wgcban/CD-SOTA-methods) -> Remote sensing change detection: State-of-the-art methods and available datasets
+* [multimodalCD_ISPRS21](https://github.com/PatrickTUM/multimodalCD_ISPRS21) -> code for 2021 paper: Fusing Multi-modal Data for Supervised Change Detection
 
 ## Wealth and economic activity
 The goal is to predict economic activity from satellite imagery rather than conducting labour intensive ground surveys
@@ -2159,6 +2163,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Deep Learning DIY](https://dataflowr.github.io/website/)
 * [UvA Deep Learning Tutorials](https://uvadlc-notebooks.readthedocs.io/en/latest/index.html)
 * [Practical Data Science Specialization](https://www.coursera.org/specializations/practical-data-science) -> AWS specific, develop and scale your data science projects into the cloud using Amazon SageMaker
+* [Disaster Risk Monitoring Using Satellite Imagery by NVIDIA](https://courses.nvidia.com/courses/course-v1:DLI+S-ES-01+V1/)
 
 # Books
 * I highly recommend [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python-second-edition) by François Chollet
@@ -2169,6 +2174,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [pyGIS](https://github.com/mmann1123/pyGIS) -> an online textbook covering all the core geospatial functionality available in Python
 * [Deep Learning Interviews book](https://github.com/BoltzmannEntropy/interviews.ai)
 * [Geographic Data Science with Python](https://geographicdata.science/book/intro.html) -> data science applied to geographic problems and data
+* [eBook: Introduction to Datascience with Julia](https://datascience-book.gitlab.io/)
 
 # Podcasts
 * [Scene From Above Podcast](https://scenefromabove.podbean.com/)
