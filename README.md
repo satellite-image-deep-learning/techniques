@@ -42,7 +42,7 @@ This document lists resources for performing deep learning on satellite imagery.
   * [Adversarial ML](https://github.com/robmarkcole/satellite-image-deep-learning#adversarial-ml)
   * [Autoencoders, dimensionality reduction, image embeddings & similarity search](https://github.com/robmarkcole/satellite-image-deep-learning#autoencoders-dimensionality-reduction-image-embeddings--similarity-search)
   * [Image retreival](https://github.com/robmarkcole/satellite-image-deep-learning#image-retreival)
-  * [Image Captioning](https://github.com/robmarkcole/satellite-image-deep-learning#image-captioning)
+  * [Image Captioning & Visual Question Answering](https://github.com/robmarkcole/satellite-image-deep-learning#image-captioning--visual-question-answering)
   * [Few/one/zero/low shot learning](https://github.com/robmarkcole/satellite-image-deep-learning#fewonezerolow-shot-learning)
   * [Self-supervised, weakly/semi-supervised, unsupervised & contrastive learning](https://github.com/robmarkcole/satellite-image-deep-learning#self-supervised-weaklysemi-supervised-unsupervised--contrastive-learning)
   * [Active learning](https://github.com/robmarkcole/satellite-image-deep-learning#active-learning)
