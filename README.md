@@ -1228,6 +1228,7 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * [Understanding the Amazon Rainforest with Multi-Label Classification + VGG-19, Inceptionv3, AlexNet & Transfer Learning](https://towardsdatascience.com/understanding-the-amazon-rainforest-with-multi-label-classification-vgg-19-inceptionv3-5084544fb655)
 * [amazon-classifier](https://github.com/mikeskaug/amazon-classifier) -> compares random forest with CNN
 * [multilabel-classification](https://github.com/muneeb706/multilabel-classification) -> compares various CNN architecutres
+* [Planet-Amazon-Kaggle](https://github.com/Skumarr53/Planet-Amazon-Kaggle) -> uses fast.ai
 
 ### Kaggle - DSTL segmentation challenge
 * https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection
