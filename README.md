@@ -299,6 +299,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 * [deepwatermap](https://github.com/isikdogan/deepwatermap) -> a deep model that segments water on multispectral images
 * [rivamap](https://github.com/isikdogan/rivamap) -> an automated river analysis and mapping engine
 * [deep-water](https://github.com/maxbeber/deep-water) -> track changes in water level
+* [WatNet](https://github.com/xinluo2018/WatNet) -> A deep ConvNet for surface water mapping based on Sentinel-2 image, uses the [Earth Surface Water Dataset](https://zenodo.org/record/5205674#.YoMjyZPMK3I)
 
 ### Segmentation - fire, smoke & burn areas
 * [Wild Fire Detection](https://github.com/yueureka/WildFireDetection) using U-Net trained on Databricks & Keras, semantic segmentation
@@ -680,6 +681,7 @@ The goal is to predict economic activity from satellite imagery rather than cond
 * [PredictYield](https://github.com/dberm312/PredictYield) -> using data scraped from Google Earth Engine, this predicts the yield of Corn, Soybean, and Wheat in the USA with Keras
 
 ## Disaster response
+Also checkout the sections on change detection and water/fire segmentation
 * [DisaVu](https://github.com/SrzStephen/DisaVu) -> combines building & damage detection and provides an app for viewing predictions
 * [Soteria](https://github.com/Soteria-ai/Soteria) -> uses machine learning with satellite imagery to map natural disaster impacts for faster emergency response
 * [DisasterHack](https://github.com/MarjorieRWillner/DisasterHack) -> Wildfire Mitigation: Computer Vision Identification of Hazard Fuels Using Landsat
@@ -693,6 +695,7 @@ The goal is to predict economic activity from satellite imagery rather than cond
 * [Detection of destruction in satellite imagery](https://github.com/usmanali414/Destruction-Detection-in-Satellite-Imagery)
 * [BDD-Net](https://github.com/jinyuan30/Recognize-damaged-buildings) -> code for 2020 paper: A General Protocol for Mapping Buildings Damaged by a Wide Range of Disasters Based on Satellite Imagery
 * [Automatic_Disaster_Detection](https://github.com/yoji-kuretake-like/Automatic_Disaster_Detection) -> detect the affected area by natural disasters by using the way of semantic segmentation and change detection method
+* [Flooding Damage Detection from Post-Hurricane Satellite Imagery Based on Convolutional Neural Networks](https://github.com/weining20000/Flooding-Damage-Detection-from-Post-Hurricane-Satellite-Imagery-Based-on-CNN)
 
 ## Weather phenomena
 * [EddyData](https://github.com/zmokokokok/EddyData) -> code for paper: A Deep Framework for Eddy Detection and Tracking from Satellite Sea Surface Height Data
@@ -795,7 +798,7 @@ Translate images e.g. from SAR to RGB.
 * [STGAN](https://github.com/ermongroup/STGAN) -> PyTorch Implementation of STGAN for Cloud Removal in Satellite Images, with [paper](https://arxiv.org/abs/1912.06838)
 
 ## Adversarial ML
-Efforts to detect falsified images
+Efforts to detect falsified images & deepfakes. Also checkout [Synthetic data](https://github.com/robmarkcole/satellite-image-deep-learning#synthetic-data)
 * [UAE-RS](https://github.com/YonghaoXu/UAE-RS) -> dataset that provides black-box adversarial samples in the remote sensing field
 
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
@@ -936,6 +939,7 @@ Image registration is the process of transforming different sets of data into on
 * [comingdowntoearth](https://github.com/aysim/comingdowntoearth) -> code for 2021 paper: Implementation of 'Coming Down to Earth: Satellite-to-Street View Synthesis for Geo-Localization'
 * [Matching between acoustic and satellite images](https://github.com/giovgiac/neptune)
 * [MapRepair](https://github.com/zorzi-s/MapRepair) -> Deep Cadastre Maps Alignment and Temporal Inconsistencies Fix in Satellite Images
+* [Compressive-Sensing-and-Deep-Learning-Framework](https://github.com/rahulgite94/Compressive-Sensing-and-Deep-Learning-Framework) ->  Compressive Sensing is used as an initial guess to combine data from multiple sources, with LSTM used to refine the result
 
 ## Terrain mapping, Lidar, DEMs & NeRF
 Measure surface contours. NeRF stands for Neural Radiance Fields and is the term used in deep learning communities to describe a model that generates views of complex 3D scenes based on a partial set of 2D images
@@ -1375,6 +1379,7 @@ In this challenge, you will build a model to classify cloud organization pattern
 * [Deep Learning for Iceberg detection in Satellite Images](https://towardsdatascience.com/deep-learning-for-iceberg-detection-in-satellite-images-c667acf4bad0)
 * [radar-image-recognition](https://github.com/siarez/radar-image-recognition)
 * [Iceberg-Classification-Using-Deep-Learning](https://github.com/mankadronit/Iceberg-Classification-Using-Deep-Learning)
+* [Deep-Learning-Project](https://github.com/singh-shakti94/Deep-Learning-Project)
 
 ### Kaggle - Land Cover Classification Dataset from DeepGlobe Challenge - segmentation
 * https://www.kaggle.com/balraj98/deepglobe-land-cover-classification-dataset
