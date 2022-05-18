@@ -17,5 +17,5 @@ jobs:
       with:
         use-quiet-mode: 'no'
         use-verbose-mode: 'yes'
-        config-file: './config.json'
+        config-file: 'config.json'
         file-path: './README.md'
