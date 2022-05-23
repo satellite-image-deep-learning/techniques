@@ -49,6 +49,7 @@ This document lists resources for performing deep learning on satellite imagery.
   * [Mixed data learning](https://github.com/robmarkcole/satellite-image-deep-learning#mixed-data-learning)
   * [Image registration & data fusion](https://github.com/robmarkcole/satellite-image-deep-learning#image-registration--data-fusion)
   * [Terrain mapping, Lidar, DEMs & NeRF](https://github.com/robmarkcole/satellite-image-deep-learning#terrain-mapping-lidar-dems--nerf)
+  * [Federated learning](https://github.com/robmarkcole/satellite-image-deep-learning#federated-learning)
   * [Thermal Infrared](https://github.com/robmarkcole/satellite-image-deep-learning#thermal-infrared)
   * [SAR](https://github.com/robmarkcole/satellite-image-deep-learning#sar)
 * [Neural nets in space](https://github.com/robmarkcole/satellite-image-deep-learning#neural-nets-in-space)
