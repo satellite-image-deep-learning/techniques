@@ -365,6 +365,8 @@ When the object count, but not its shape is required, U-net can be used to treat
 * [cownter_strike](https://github.com/IssamLaradji/cownter_strike) -> counting cows, located with point-annotations, two models: CSRNet (a density-based method) & LCFCN (a detection-based method)
 * [DO-U-Net](https://github.com/ToyahJade/DO-U-Net) -> an effective approach for when the size of an object needs to be known, as well as the number of objects in the image, initially created to segment and count Internally Displaced People (IDP) camps in Afghanistan
 * [Cassava Crop Counting](https://medium.com/@wongsirikuln/cassava-standing-crop-counting-869cca486ce3)
+* [Counting from Sky](https://github.com/gaoguangshuai/Counting-from-Sky-A-Large-scale-Dataset-for-Remote-Sensing-Object-Counting-and-A-Benchmark-Method) -> A Large-scale Dataset for Remote Sensing Object Counting and A Benchmark Method
+* [PSGCNet](https://github.com/gaoguangshuai/PSGCNet) -> code for 2022 [paper](https://arxiv.org/abs/2012.03597): PSGCNet: A Pyramidal Scale and Global Context Guided Network for Dense Object Counting in Remote Sensing Images
 
 ### Instance segmentation
 In instance segmentation, each individual 'instance' of a segmented area is given a unique lable. For detection of very small objects this may a good approach, but it can struggle seperating individual objects that are closely spaced.
@@ -1285,6 +1287,10 @@ This section contains a short list of datasets relevant to deep learning, partic
 ## AI-TOD - tiny object detection
 * https://github.com/jwwangchn/AI-TOD
 * The mean size of objects in AI-TOD is about 12.8 pixels, which is much smaller than other datasets
+
+## Counting from Sky
+* A Large-scale Dataset for Remote Sensing Object Counting and A Benchmark Method
+* https://github.com/gaoguangshuai/Counting-from-Sky-A-Large-scale-Dataset-for-Remote-Sensing-Object-Counting-and-A-Benchmark-Method
 
 ## AIRS (Aerial Imagery for Roof Segmentation)
 * https://www.airs-dataset.com
