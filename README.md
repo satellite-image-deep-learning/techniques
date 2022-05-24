@@ -473,7 +473,7 @@ Several different techniques can be used to count the number of objects in an im
 * [ML_ObjectDetection_CAFO](https://github.com/Qberto/ML_ObjectDetection_CAFO) -> Detect Concentrated Animal Feeding Operations (CAFO) in Satellite Imagery
 
 #### Object detection - ships & boats
-Also see the [kaggle competition run by Airbus](https://github.com/robmarkcole/satellite-image-deep-learning#kaggle---airbus-ship-detection-challenge)
+* Also see the [kaggle competition run by Airbus](https://github.com/robmarkcole/satellite-image-deep-learning#kaggle---airbus-ship-detection-challenge)
 * [How hard is it for an AI to detect ships on satellite images?](https://medium.com/earthcube-stories/how-hard-it-is-for-an-ai-to-detect-ships-on-satellite-images-7265e34aadf0)
 * [Object Detection in Satellite Imagery, a Low Overhead Approach](https://medium.com/the-downlinq/object-detection-in-satellite-imagery-a-low-overhead-approach-part-i-cbd96154a1b7)
 * [Detecting Ships in Satellite Imagery](https://medium.com/dataseries/detecting-ships-in-satellite-imagery-7f0ca04e7964) using the Planet dataset and Keras
@@ -700,6 +700,7 @@ The goal is to predict economic activity from satellite imagery rather than cond
 * [Mapping Poverty in Bangladesh with Satellite Images and Deep Learning](https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images) -> combines health data with OpenStreetMaps Data & night and daytime satellite imagery
 * [Population Estimation from Satellite Imagery](https://github.com/ManuelSerranoR/Population-Estimation-from-Satellite-Imagery-using-Deep-Learning)
 * [Deep_Learning_Satellite_Imd](https://github.com/surendran-berkeley/Deep_Learning_Satellite_Imd) -> code for "Project Bhoomi" - Using Deep Learning on Satellite Imagery to predict population and economic indicators
+* [satellite_led_liverpool](https://github.com/darribas/satellite_led_liverpool) -> code for 2017 paper: Remote Sensing-Based Measurement of Living Environment Deprivation - Improving Classical Approaches with Machine Learning
 
 ## Crop yield
 * [Crop yield Prediction with Deep Learning](https://github.com/JiaxuanYou/crop_yield_prediction) -> code for the paper Deep Gaussian Process for Crop Yield Prediction Based on Remote Sensing Data
@@ -1498,6 +1499,10 @@ The xView2 Challenge focuses on automating the process of assessing building dam
 ## Kaggle - NOAA Fisheries Steller Sea Lion Population Count
 * https://www.kaggle.com/competitions/noaa-fisheries-steller-sea-lion-population-count -> count sea lions from aerial images
 * [Sealion-counting](https://github.com/babyformula/Sealion-counting)
+
+## Kaggle - Arctic Sea Ice Image Masking
+* https://www.kaggle.com/datasets/alexandersylvester/arctic-sea-ice-image-masking
+* [sea_ice_remote_sensing](https://github.com/sum1lim/sea_ice_remote_sensing)
 
 ### Kaggle - miscellaneous
 * https://www.kaggle.com/reubencpereira/spatial-data-repo -> Satellite + loan data
