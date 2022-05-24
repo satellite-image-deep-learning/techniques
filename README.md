@@ -378,6 +378,7 @@ In instance segmentation, each individual 'instance' of a segmented area is give
 * [Lawn_maskRCNN](https://github.com/matthewnaples/Lawn_maskRCNN) -> Detecting lawns from satellite images of properties in the Cedar Rapids area using Mask-R-CNN
 * [CropMask_RCNN](https://github.com/ecohydro/CropMask_RCNN) -> Segmenting center pivot agriculture to monitor crop water use in drylands with Mask R-CNN and Landsat satellite imagery
 * [Mask RCNN for Spacenet Off Nadir Building Detection](https://github.com/ashnair1/Mask-RCNN-for-Off-Nadir-Building-Detection)
+* [CATNet](https://github.com/yeliudev/CATNet) -> code for 2021 [paper](https://arxiv.org/abs/2111.11057): Learning to Aggregate Multi-Scale Context for Instance Segmentation in Remote Sensing Images
 
 ### Panoptic segmentation
 * [Things and stuff or how remote sensing could benefit from panoptic segmentation](https://softwaremill.com/things-and-stuff-or-how-remote-sensing-could-benefit-from-panoptic-segmentation/)
@@ -589,6 +590,7 @@ Generally treated as a semantic segmentation problem or custom features created 
 * [ES-CCGAN](https://github.com/AnnaCUG/ES-CCGAN) -> This is a dehazed method for remote sensing image, which based on CycleGAN
 * [Cloud_Classification_DL](https://github.com/nishp763/Cloud_Classification_DL) -> Classifying cloud organization patterns from satellite images using Deep Learning techniques (Mask R-CNN)
 * [CNN-based-Cloud-Detection-Methods](https://github.com/LK-Peng/CNN-based-Cloud-Detection-Methods) -> Understanding the Role of Receptive Field of Convolutional Neural Network for Cloud Detection in Landsat 8 OLI Imagery
+* [cloud-removal-deploy](https://github.com/XavierJiezou/cloud-removal-deploy) -> flask app for cloud removal
 
 ## Change detection & time-series
 Monitor water levels, coast lines, size of urban areas, wildfire damage, crop changes. Change detection is often treated as an unsupervised problem. Note, clouds & shadows change often too..!
@@ -830,6 +832,7 @@ Translate images e.g. from SAR to RGB.
 ## Adversarial ML
 Efforts to detect falsified images & deepfakes. Also checkout [Synthetic data](https://github.com/robmarkcole/satellite-image-deep-learning#synthetic-data)
 * [UAE-RS](https://github.com/YonghaoXu/UAE-RS) -> dataset that provides black-box adversarial samples in the remote sensing field
+* [PSGAN](https://github.com/xuxiangsun/PSGAN) -> code for paper: Perturbation Seeking Generative Adversarial Networks: A Defense Framework for Remote Sensing Image Scene Classification
 
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
 * [Autoencoders & their Application in Remote Sensing](https://towardsdatascience.com/autoencoders-their-application-in-remote-sensing-95f6e2bc88f) -> intro article and example use case applied to SAR data for land classification
@@ -1939,6 +1942,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [Kornia](https://kornia.readthedocs.io/en/latest/augmentation.html) provides augmentation on the GPU
 * [toolbox by ming71](https://github.com/ming71/toolbox) -> various cv tools, such as label tools, data augmentation, label conversion, etc.
 * [AstroAugmentations](https://github.com/mb010/AstroAugmentations) -> augmentations designed around astronomical instruments
+* [Chessmix](https://github.com/matheusbarrosp/chessmix) -> data augmentation method for remote sensing semantic segmentation
 
 ## Image formats, data management and catalogues
 * [GeoServer](http://geoserver.org/) -> an open source server for sharing geospatial data
@@ -2025,6 +2029,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [bokeh-tiler](https://github.com/avanetten/bokeh-tiler) -> Tile large geospatial images for use in Bokeh. Read [Serving up SpaceNet Imagery for Bokeh](https://medium.com/geodesic/serving-up-spacenet-imagery-for-bokeh-e85b8fffe05)
 * [torchshow](https://github.com/xwying/torchshow) -> Visualize PyTorch tensor in one-line of code
 * [pixels](https://github.com/jwasilgeo/pixels) -> Mapping and charting pixels from remote sensing Earth observation data with JavaScript
+* [MulimgViewer](https://github.com/nachifur/MulimgViewer) -> a multi-image viewer that can open multiple images in one interface
 
 ## Algorithms
 * [WaterDetect](https://github.com/cordmaur/WaterDetect) -> an end-to-end algorithm to generate open water cover mask, specially conceived for L2A Sentinel 2 imagery. It can also be used for Landsat 8 images and for other multispectral clustering/segmentation tasks.
@@ -2181,6 +2186,7 @@ Flask is often used to serve up a simple web app based on templated HTML files
 * [Crash Severity Prediction](https://github.com/SoySauceNZ/web-app) -> using CAS Open Data and Maxar Satellite Imagery, React app
 * [wildfire-detection-from-satellite-images-ml](https://github.com/shrey24/wildfire-detection-from-satellite-images-ml) -> simple flask app for classification
 * [SlumMappingViaRemoteSensingImagery](https://github.com/hamna-moieez/SlumMappingViaRemoteSensingImagery) -> learning slum segmentation and localization using satellite imagery and visualising on a flask app
+* [cloud-removal-deploy](https://github.com/XavierJiezou/cloud-removal-deploy) -> flask app for cloud removal
 
 ## Streamlit
 [Streamlit](https://streamlit.io/) is an awesome python framework for creating apps with python. Additionally they will host the apps free of charge. Here I list resources which are EO related. Note that a component is an addon which extends Streamlits basic functionality
@@ -2321,6 +2327,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Disaster Risk Monitoring Using Satellite Imagery by NVIDIA](https://courses.nvidia.com/courses/course-v1:DLI+S-ES-01+V1/)
 * [Course materials for: Geospatial Data Science](https://github.com/mszell/geospatialdatascience)
 * [Stanford CS231n: Deep Learning for Computer Vision](http://vision.stanford.edu/teaching/cs231n/)
+* [Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) -> by Microsoft
 
 # Books
 * I highly recommend [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python-second-edition) by François Chollet
