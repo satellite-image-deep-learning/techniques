@@ -8,7 +8,7 @@ This document lists resources for performing deep learning on satellite imagery.
     * [Multiclass](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---multiclass)
     * [Buildings & rooftops](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---buildings--rooftops)
     * [Roads](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---roads)
-    * [Vegitation & crop boundaries](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---vegitation--crop-boundaries)
+    * [Vegitation, crops & crop boundaries](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---vegitation-crops--crop-boundaries)
     * [Water, coastlines & floods](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---water-coastlines--floods)
     * [Fire, smoke & burn areas](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---fire-smoke--burn-areas)
     * [Landslides](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---landslides)
