@@ -22,6 +22,7 @@ This document lists resources for performing deep learning on satellite imagery.
   * [Object detection](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection)
     * [Object detection with rotated bounding boxes](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection-with-rotated-bounding-boxes)
     * [Object detection enhanced by super resolution](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection-enhanced-by-super-resolution)
+    * [Salient object detection](https://github.com/robmarkcole/satellite-image-deep-learning#salient-object-detection)
     * [Buildings, rooftops & solar panels](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection---buildings-rooftops--solar-panels)
     * [Ships & boats](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection---ships--boats)
     * [Cars, vehicles & trains](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection---cars-vehicles--trains)
@@ -442,7 +443,6 @@ Several different techniques can be used to count the number of objects in an im
 * [Google-earth-Object-Recognition](https://github.com/InnovAIco/Google-earth-Object-Recognition) -> Code for training and evaluating on Dior Dataset (Google Earth Images) using RetinaNet and YOLOV5
 * [AI-TOD](https://github.com/jwwangchn/AI-TOD) -> a dataset for tiny object detection in aerial images. The mean size of objects in AI-TOD is about 12.8 pixels, which is much smaller than other datasets
 * [HIECTOR: Hierarchical object detector at scale](https://medium.com/sentinel-hub/hiector-hierarchical-object-detector-at-scale-5a61753b51a3) -> HIECTOR facilitates multiple satellite data collections of increasingly detailed spatial resolution for a cost-efficient and accurate object detection over large areas
-* [EMFINet](https://github.com/Kunye-Shen/EMFINet) -> code for 2021 paper: Edge-Aware Multiscale Feature Integration Network for Salient Object Detection in Optical Remote Sensing Images
 
 #### Object detection with rotated bounding boxes
 * OBB: orinted bounding boxes are polygons representing rotated rectangles
@@ -487,6 +487,7 @@ Detecting the most noticeable or important object in a scene
 * [Reading list for deep learning based Salient Object Detection in Optical Remote Sensing Images](https://github.com/MathLee/ORSI-SOD_Summary)
 * [EORSSD-dataset](https://github.com/rmcong/EORSSD-dataset) -> Extended Optical Remote Sensing Saliency Detection (EORSSD) Dataset
 * [DAFNet_TIP20](https://github.com/rmcong/DAFNet_TIP20) -> code for 2020 [paper](https://arxiv.org/abs/2011.13144): Dense Attention Fluid Network for Salient Object Detection in Optical Remote Sensing Images
+* [EMFINet](https://github.com/Kunye-Shen/EMFINet) -> code for 2021 paper: Edge-Aware Multiscale Feature Integration Network for Salient Object Detection in Optical Remote Sensing Images
 
 #### Object detection - buildings, rooftops & solar panels
 * [Machine Learning For Rooftop Detection and Solar Panel Installment](https://omdena.com/blog/machine-learning-rooftops/) discusses tiling large images and generating annotations from OSM data. Features of the roofs were calculated using a combination of contour detection and classification. [Follow up article using semantic segmentation](https://omdena.com/blog/rooftops-classification/)
