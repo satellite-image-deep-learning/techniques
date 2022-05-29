@@ -51,7 +51,7 @@ This document lists resources for performing deep learning on satellite imagery.
   * [Active learning](https://github.com/robmarkcole/satellite-image-deep-learning#active-learning)
   * [Mixed data learning](https://github.com/robmarkcole/satellite-image-deep-learning#mixed-data-learning)
   * [Image registration & data fusion](https://github.com/robmarkcole/satellite-image-deep-learning#image-registration--data-fusion)
-  * [Terrain mapping, Lidar, DEMs & NeRF](https://github.com/robmarkcole/satellite-image-deep-learning#terrain-mapping-lidar-dems--nerf)
+  * [Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF](https://github.com/robmarkcole/satellite-image-deep-learning#terrain-mapping-disparity-estimation-lidar-dems--nerf)
   * [Federated learning](https://github.com/robmarkcole/satellite-image-deep-learning#federated-learning)
   * [Thermal Infrared](https://github.com/robmarkcole/satellite-image-deep-learning#thermal-infrared)
   * [SAR](https://github.com/robmarkcole/satellite-image-deep-learning#sar)
@@ -1110,6 +1110,7 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 * [satnerf](https://centreborelli.github.io/satnerf/) -> Learning Multi-View Satellite Photogrammetry With Transient Objects and Shadow Modeling Using RPC Cameras
 * [SatMVS](https://github.com/WHU-GPCV/SatMVS) -> code for 2021 paper: Rational Polynomial Camera Model Warping for Deep Learning Based Satellite Multi-View Stereo Matching
 * [ImpliCity](https://github.com/prs-eth/ImpliCity) -> reconstructs digital surface models (DSMs) from raw photogrammetric 3D point clouds and ortho-images with the help of an implicit neural 3D scene representation
+* [WHU-Stereo](https://github.com/Sheng029/WHU-Stereo) -> a large-scale dataset for stereo matching of high-resolution satellite imagery & several deep learning methods for stereo matching. Methods include StereoNet, Pyramid Stereo Matching Network & HMSM-Net
 
 ## Federated learning
 Federated learning is a process for training models in a distributed fashion without sharing of data
