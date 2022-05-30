@@ -150,6 +150,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [Remote-Sensing-Image-Classification-via-Improved-Cross-Entropy-Loss-and-Transfer-Learning-Strategy](https://github.com/AliBahri94/Remote-Sensing-Image-Classification-via-Improved-Cross-Entropy-Loss-and-Transfer-Learning-Strategy) -> code for 2019 [paper](https://ieeexplore.ieee.org/abstract/document/8844264): Remote Sensing Image Classification via Improved Cross-Entropy Loss and Transfer Learning Strategy Based on Deep Convolutional Neural Networks
 * [DenseNet40-for-HRRSISC](https://github.com/BiQiWHU/DenseNet40-for-HRRSISC) -> DenseNet40 for remote sensing image scene classification, uses UC Merced Dataset
 * [SKAL](https://github.com/hw2hwei/SKAL) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9298485): Looking Closer at the Scene: Multiscale Representation Learning for Remote Sensing Image Scene Classification
+* [potsdam-tensorflow-practice](https://github.com/medicinely/potsdam-tensorflow-practice) -> image classification of Potsdam dataset using tensorflow
 
 ## Segmentation
  Segmentation will assign a class label to each **pixel** in an image. Segmentation is typically grouped into semantic, instance or panoptic segmentation. In semantic segmentation objects of the same class are assigned the same label, whilst in instance segmentation each object is assigned a unique label. Panoptic segmentation combines instance and semantic predictions. Read this [beginner’s guide to segmentation](https://medium.com/gsi-technology/a-beginners-guide-to-segmentation-in-satellite-images-9c00d2028d52). Single class models are often trained for road or building segmentation, with multi class for land use/crop type classification. Image annotation can take longer than for object detection since every pixel must be annotated. **Note** that many articles which refer to 'hyperspectral land classification' are actually describing semantic segmentation. Note that cloud detection can be addressed with semantic segmentation and has its own section [Cloud detection & removal](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-detection--removal)
@@ -185,6 +186,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [SNDF](https://github.com/mi18/SNDF) -> code for 2020 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271619302606): Superpixel-enhanced deep neural forest for remote sensing image semantic segmentation
 * [Satellite-Image-Classification](https://github.com/yxian29/Satellite-Image-Classification) -> using random forest or support vector machines (SVM) and sklearn
 * [Methane-detection-from-hyperspectral-imagery](https://github.com/satish1901/Methane-detection-from-hyperspectral-imagery) -> code for 2020 [paper](https://ieeexplore.ieee.org/document/9093600): Deep Remote Sensing Methods for Methane Detection in Overhead Hyperspectral Imagery
+* [dynamic-rs-segmentation](https://github.com/keillernogueira/dynamic-rs-segmentation) -> code for 2019 [paper](https://arxiv.org/abs/1804.04020): Dynamic Multi-Context Segmentation of Remote Sensing Images based on Convolutional Networks
 
 ### Segmentation - Multiclass
 * [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net, uses DeepGlobe Land Cover Segmentation dataset, with [code](https://github.com/TarunKumar1995-glitch/land_cover_classification_unet)
@@ -212,6 +214,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [LULCMapping-WV3images-CORINE-DLMethods](https://github.com/esertel/LULCMapping-WV3images-CORINE-DLMethods) -> Land Use and Land Cover Mapping Using Deep Learning Based Segmentation Approaches and VHR Worldview-3 Images
 * [singleSceneSemSegTgrs2022](https://github.com/sudipansaha/singleSceneSemSegTgrs2022) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9773162): Unsupervised Single-Scene Semantic Segmentation for Earth Observation
 * [A-Fast-and-Compact-3-D-CNN-for-HSIC](https://github.com/mahmad00/A-Fast-and-Compact-3-D-CNN-for-HSIC) -> code for 2020 [paper](https://ieeexplore.ieee.org/document/9307220): A Fast and Compact 3-D CNN for Hyperspectral Image Classification
+* [HSNRS](https://github.com/Walkerlikesfish/HSNRS) -> code for 2017 [paper](https://www.mdpi.com/2072-4292/9/6/522): Hourglass-ShapeNetwork Based Semantic Segmentation for High Resolution Aerial Imagery
 
 ### Segmentation - Buildings & rooftops
 * [Semantic Segmentation on Aerial Images using fastai](https://medium.com/swlh/semantic-segmentation-on-aerial-images-using-fastai-a2696e4db127) uses U-Net on the Inria Aerial Image Labeling Dataset of urban settlements in Europe and the United States, and is labelled as a building and not building classes (no repo)
@@ -319,6 +322,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 * [UNet-RemoteSensing](https://github.com/aryanVijaywargia/UNet-RemoteSensing) -> uses 7 bands of Landsat and keras
 * [Landuse_DL](https://github.com/yghlc/Landuse_DL) -> delineate landforms due to the thawing of ice-rich permafrost
 * [canopy](https://github.com/jonathanventura/canopy) -> code for 2019 [paper](https://www.mdpi.com/2072-4292/11/19/2326): A Convolutional Neural Network Classifier Identifies Tree Species in Mixed-Conifer Forest from Hyperspectral Imagery
+* [RandomForest-Classification](https://github.com/florianbeyer/RandomForest-Classification) -> script is for random forest classification of remote sensing multi-band images, used in 2019 [paper](https://www.tandfonline.com/doi/abs/10.1080/01431161.2019.1580825): Multisensor data to derive peatland vegetation communities using a fixed-wing unmanned aerial vehicle
 
 ### Segmentation - water, coastlines & floods
 * [UNSOAT used fastai to train a Unet to perform semantic segmentation on satellite imageries to detect water](https://forums.fast.ai/t/unosat-used-fastai-ai-for-their-floodai-model-discussion-on-how-to-move-forward/78468) - [paper](https://www.mdpi.com/2072-4292/12/16/2532) + [notebook](https://github.com/UNITAR-UNOSAT/UNOSAT-AI-Based-Rapid-Mapping-Service/blob/master/Fastai%20training.ipynb), accuracy 0.97, precision 0.91, recall 0.92
@@ -486,6 +490,7 @@ Several different techniques can be used to count the number of objects in an im
 * [ShipDetection](https://github.com/lilinhao/ShipDetection) -> Ship Detection in HR Optical Remote Sensing Images via Rotated Bounding Box, based on Faster R-CNN and ORN, uses caffe
 * [SLRDet](https://github.com/LUCKMOONLIGHT/SLRDet) -> project based on mmdetection to reimplement RRPN and use the model Faster R-CNN OBB
 * [AxisLearning](https://github.com/RSIA-LIESMARS-WHU/AxisLearning) -> code for 2020 [paper](https://www.mdpi.com/2072-4292/12/6/908): Axis Learning for Orientated Objects Detection in Aerial Images
+* [Detection_and_Recognition_in_Remote_Sensing_Image](https://github.com/whywhs/Detection_and_Recognition_in_Remote_Sensing_Image) -> This work uses PaNet to realize Detection and Recognition in Remote Sensing Image by MXNet
 
 #### Object detection enhanced by super resolution
 * [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
@@ -736,6 +741,7 @@ More general than change detection, time series observations can be used for app
 * [spaceweather](https://github.com/sarttiso/spaceweather) -> predicting geomagnetic storms from satellite measurements of the solar wind and solar corona, uses LSTMs
 * [Forest_wildfire_spreading_convLSTM](https://github.com/bessammehenni/Forest_wildfire_spreading_convLSTM) -> Modeling of the spreading of forest wildfire using a neural network with ConvLSTM cells. Prediction 3-days forward
 * [ConvTimeLSTM](https://github.com/jdiaz4302/ConvTimeLSTM) -> Extension of ConvLSTM and Time-LSTM for irregularly spaced images, appropriate for Remote Sensing
+* [dl-time-series](https://github.com/NexGenMap/dl-time-series) -> Deep Learning algorithms applied to characterization of Remote Sensing time-series
 
 ## Crop yield
 * [Crop yield Prediction with Deep Learning](https://github.com/JiaxuanYou/crop_yield_prediction) -> code for the paper Deep Gaussian Process for Crop Yield Prediction Based on Remote Sensing Data
@@ -839,6 +845,7 @@ Super-resolution attempts to enhance the resolution of an imaging system, and ca
 * [MIP](https://github.com/jiaming-wang/MIP) -> code for 2021 [paper](https://arxiv.org/abs/2105.03579): Unsupervised Remote Sensing Super-Resolution via Migration Image Prior
 * [Optical-RemoteSensing-Image-Resolution](https://github.com/wenjiaXu/Optical-RemoteSensing-Image-Resolution) -> code for 2018 [paper](https://www.mdpi.com/2072-4292/10/12/1893): Deep Memory Connected Neural Network for Optical Remote Sensing Image Restoration. Two applications: Gaussian image denoising and single image super-resolution
 * [HSENet](https://github.com/Shaosifan/HSENet) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9400474): Hybrid-Scale Self-Similarity Exploitation for Remote Sensing Image Super-Resolution
+* [SR_RemoteSensing](https://github.com/Jing25/SR_RemoteSensing) -> Super-Resolution deep learning models for remote sensing data based on [BasicSR](https://github.com/XPixelGroup/BasicSR)
 
 ### Multi image super-resolution (MISR)
 Note that nearly all the MISR publications resulted from the [PROBA-V Super Resolution competition](https://kelvins.esa.int/proba-v-super-resolution/)
@@ -908,6 +915,7 @@ GANS are famously used for generating synthetic data, see the section [Synthetic
 * [ds-gan-spatiotemporal-evaluation](https://github.com/Cervest/ds-gan-spatiotemporal-evaluation) -> evaluating use of deep generative models in remote sensing applications
 * [pub-ffi-gan](https://github.com/awweide/pub-ffi-gan) -> code for 2018 [paper](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2501934): Applying generative adversarial networks for anomaly detection in hyperspectral remote sensing imagery
 * [GAN-based method to generate high-resolution remote sensing for data augmentation and image classification](https://github.com/weihancug/GAN-based-HRRS-Sample-Generation-for-Image-Classification)
+* [Remote-Sensing-Image-Generation](https://github.com/aashishrai3799/Remote-Sensing-Image-Generation) -> Generate RS Images using Generative Adversarial Networks (GAN)
 
 ## Adversarial ML
 Efforts to detect falsified images & deepfakes. Also checkout [Synthetic data](https://github.com/robmarkcole/satellite-image-deep-learning#synthetic-data)
@@ -1191,6 +1199,7 @@ Federated learning is a process for training models in a distributed fashion wit
 * [A walkthrough on calculating NDWI water index for flooded areas](https://towardsdatascience.com/how-to-compute-satellite-image-statistics-and-use-it-in-pandas-81864a489144) -> Derive zonal statistics from Sentinel 2 images using Rasterio and Geopandas
 * [NDVI-Net](https://github.com/HaoZhang1018/NDVI-Net) -> code for 2020 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271620302185): NDVI-Net: A fusion network for generating high-resolution normalized difference vegetation index in remote sensing
 * [Awesome-Vegetation-Index](https://github.com/px39n/Awesome-Vegetation-Index)
+* [Remote-Sensing-Indices-Derivation-Tool](https://github.com/rander38/Remote-Sensing-Indices-Derivation-Tool) -> Calculate spectral remote sensing indices from satellite imagery
 
 ## General image quality
 * Convolutional autoencoder network can be employed to image denoising, [read about this on the Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
@@ -2116,6 +2125,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [terragpu](https://github.com/nasa-cisto-ai/terragpu) -> Python library to process and classify remote sensing imagery by means of GPUs and AI/ML
 * [EOTorchLoader](https://github.com/ndavid/EOTorchLoader) -> Pytorch dataloader and pytorch lightning datamodule for Earth Observation imagery
 * [satellighte](https://github.com/canturan10/satellighte) -> an image classification library that consist state-of-the-art deep learning methods, using PyTorch Lightning
+* [aeronetlib](https://github.com/Geoalert/aeronetlib) -> Python library to work with geospatial raster and vector data for deep learning
 
 ## Model tracking, versioning, specification & compilation
 * [dvc](https://dvc.org/) -> a git extension to keep track of changes in data, source code, and ML models together
@@ -2193,6 +2203,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [coastline-extraction](https://github.com/Ricardo-C-Oliveira/coastline-extraction) -> Methods to identify and extract coastline from remote sensed data
 * [Near real-time shadow detection and removal in remote sensing imagery application](https://github.com/BIT-zhwang/remote-sensing-image-shadow-detection-and-removal)
 * [image-registration](https://github.com/satish1901/image-registration) -> using Point Feature Detection, Normalized DLT, RANSAC & Image Warping
+* [pyTSEB](https://github.com/hectornieto/pyTSEB) -> A python Two Source Energy Balance model for estimation of evapotranspiration with remote sensing data
 
 ## GDAL & Rasterio
 So improtant this pair gets their own section. GDAL is THE command line tool for reading and writing raster and vector geospatial data formats. If you are using python you will probably want to use Rasterio which provides a pythonic wrapper for GDAL
