@@ -191,6 +191,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [Methane-detection-from-hyperspectral-imagery](https://github.com/satish1901/Methane-detection-from-hyperspectral-imagery) -> code for 2020 [paper](https://ieeexplore.ieee.org/document/9093600): Deep Remote Sensing Methods for Methane Detection in Overhead Hyperspectral Imagery
 * [dynamic-rs-segmentation](https://github.com/keillernogueira/dynamic-rs-segmentation) -> code for 2019 [paper](https://arxiv.org/abs/1804.04020): Dynamic Multi-Context Segmentation of Remote Sensing Images based on Convolutional Networks
 * [Remote-sensing-image-semantic-segmentation-tf2](https://github.com/TachibanaYoshino/Remote-sensing-image-semantic-segmentation-tf2) -> remote sensing image semantic segmentation repository based on tf.keras includes backbone networks such as resnet, densenet, mobilenet, and segmentation networks such as deeplabv3+, pspnet, panet, and refinenet
+* [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) -> Segmentation models with pretrained backbones, has been used in multiple winning solutions to remote sensing competitions
 
 ### Segmentation - Multiclass
 * [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net, uses DeepGlobe Land Cover Segmentation dataset, with [code](https://github.com/TarunKumar1995-glitch/land_cover_classification_unet)
@@ -275,12 +276,13 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [Models for Remote Sensing](https://github.com/bohaohuang/mrs) -> long list of unets etc applied to building detection
 * [boundary_loss_for_remote_sensing](https://github.com/yiskw713/boundary_loss_for_remote_sensing) -> code for 2019 paper: Boundary Loss for Remote Sensing Imagery
 Semantic Segmentation
+* [Open Cities AI Challenge](https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/) -> Segmenting Buildings for Disaster Resilience. Winning solutions [on Github](https://github.com/drivendataorg/open-cities-ai-challenge/)
 
 ### Segmentation - Roads
 Extracting roads is challenging due to the occlusions caused by other objects and the complex traffic environment
 * [Semantic segmentation of roads and highways using Sentinel-2 imagery (10m) super-resolved using the SENX4 model up to x4 the initial spatial resolution (2.5m)](https://tracasa.es/innovative-stories/sen2roadlasviastambiensevendesdesentinel-2/) (results, no repo)
 * [Semantic Segmentation of roads](https://vihan-tyagi.medium.com/semantic-segmentation-of-satellite-images-based-on-deep-learning-algorithms-ea5ec408ac53) using  U-net Keras, OSM data, project summary article by student, no code
-* [Road detection using semantic segmentation and albumentations for data augmention](https://towardsdatascience.com/road-detection-using-segmentation-models-and-albumentations-libraries-on-keras-d5434eaf73a8) using the Massachusetts Roads Dataset, U-net & Keras
+* [Road detection using semantic segmentation and albumentations for data augmention](https://towardsdatascience.com/road-detection-using-segmentation-models-and-albumentations-libraries-on-keras-d5434eaf73a8) using the Massachusetts Roads Dataset, U-net & Keras. With [code](https://github.com/Diyago/ML-DL-scripts/tree/master/DEEP%20LEARNING/segmentation/Segmentation%20pipeline)
 * [Winning Solutions from SpaceNet Road Detection and Routing Challenge](https://github.com/SpaceNetChallenge/RoadDetector)
 * [RoadVecNet](https://github.com/gismodelling/RoadVecNet) -> Road-Network-Segmentation-and-Vectorization in keras with dataset and [paper](https://www.tandfonline.com/doi/abs/10.1080/15481603.2021.1972713?journalCode=tgrs20&)
 * [Detecting road and road types jupyter notebook](https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb)
@@ -305,6 +307,10 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 * [cresi](https://github.com/avanetten/cresi) -> Road network extraction from satellite imagery, with speed and travel time estimates
 * [road-extraction-d-linknet](https://github.com/NekoApocalypse/road-extraction-d-linknet) -> code for 2018 [paper](https://ieeexplore.ieee.org/document/8575492): D-LinkNet: LinkNet with Pretrained Encoder and Dilated Convolution for High Resolution Satellite Imagery Road Extraction
 * [Sat2Graph](https://github.com/songtaohe/Sat2Graph) -> code for 2020 paper: Road Graph Extraction through Graph-Tensor Encoding
+* [Image-Segmentation)](https://github.com/mschulz/Image-Segmentation) -> using Massachusetts Road dataset and fast.ai
+* [RoadTracer-M](https://github.com/astro-ck/RoadTracer-M) -> code for 2019 [paper](https://ieeexplore.ieee.org/abstract/document/8898565): Road Network Extraction from Satellite Images Using CNN Based Segmentation and Tracing
+* [ScRoadExtractor](https://github.com/weiyao1996/ScRoadExtractor) -> code for 2020 [paper](https://arxiv.org/abs/2010.13106): Scribble-based Weakly Supervised Deep Learning for Road Surface Extraction from Remote Sensing Images
+* [RoadDA](https://github.com/LANMNG/RoadDA) -> code for 2021 [paper](https://arxiv.org/abs/2108.12611): Stagewise Unsupervised Domain Adaptation with Adversarial Self-Training for Road Segmentation of Remote Sensing Images
 
 ### Segmentation - Vegetation, crops & crop boundaries
 * [Сrор field boundary detection: approaches overview and main challenges](https://soilmate.medium.com/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-overview-and-main-challenges-53736725cb06) - review article, no code
@@ -946,6 +952,7 @@ GANS are famously used for generating synthetic data, see the section [Synthetic
 * [pub-ffi-gan](https://github.com/awweide/pub-ffi-gan) -> code for 2018 [paper](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2501934): Applying generative adversarial networks for anomaly detection in hyperspectral remote sensing imagery
 * [GAN-based method to generate high-resolution remote sensing for data augmentation and image classification](https://github.com/weihancug/GAN-based-HRRS-Sample-Generation-for-Image-Classification)
 * [Remote-Sensing-Image-Generation](https://github.com/aashishrai3799/Remote-Sensing-Image-Generation) -> Generate RS Images using Generative Adversarial Networks (GAN)
+* [RoadDA](https://github.com/LANMNG/RoadDA) -> code for 2021 [paper](https://arxiv.org/abs/2108.12611): Stagewise Unsupervised Domain Adaptation with Adversarial Self-Training for Road Segmentation of Remote Sensing Images
 
 ## Adversarial ML
 Efforts to detect falsified images & deepfakes. Also checkout [Synthetic data](https://github.com/robmarkcole/satellite-image-deep-learning#synthetic-data)
@@ -1078,6 +1085,7 @@ These techniques use a partially annotated dataset
 * [MSMatch](https://github.com/gomezzz/MSMatch) -> Semi-Supervised Multispectral Scene Classification with Few Labels. Includes code to work with both the RGB and the multispectral (MS) versions of EuroSAT dataset and the UC Merced Land Use (UCM) dataset. [Paper](https://arxiv.org/abs/2103.10368)
 * [Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection) with [arxiv paper](https://arxiv.org/abs/2107.08369)
 * [Semi-supervised learning in satellite image classification](https://medium.com/sentinel-hub/semi-supervised-learning-in-satellite-image-classification-e0874a76fc61) -> experimenting with MixMatch and the EuroSAT data set
+* [ScRoadExtractor](https://github.com/weiyao1996/ScRoadExtractor) -> code for 2020 [paper](https://arxiv.org/abs/2010.13106): Scribble-based Weakly Supervised Deep Learning for Road Surface Extraction from Remote Sensing Images
 
 ## Active learning
 Supervised deep learning techniques typically require a huge number of annotated/labelled examples to provide a training dataset. However labelling at scale take significant time, expertise and resources. Active learning techniques aim to reduce the total amount of annotation that needs to be performed by selecting the most useful images to label from a large pool of unlabelled images, thus reducing the time to generate useful training datasets. These processes may be referred to as [Human-in-the-Loop Machine Learning](https://medium.com/pytorch/https-medium-com-robert-munro-active-learning-with-pytorch-2f3ee8ebec)
@@ -1575,6 +1583,16 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * [U-Net for Semantic Segmentation on Unbalanced Aerial Imagery](https://towardsdatascience.com/u-net-for-semantic-segmentation-on-unbalanced-aerial-imagery-3474fa1d3e56) -> using the Dubai dataset
 * [Multiclass-semantic-segmentation-in-satallite-images](https://github.com/tahirjhan/Multiclass-semantic-segmentation-in-satallite-images) -> uses keras
 
+### Kaggle - Massachusetts Roads & Buildings Datasets - segmentation
+* https://www.kaggle.com/datasets/balraj98/massachusetts-roads-dataset
+* https://www.kaggle.com/datasets/balraj98/massachusetts-buildings-dataset
+* [Road and Building Semantic Segmentation in Satellite Imagery](https://github.com/Paulymorphous/Road-Segmentation) uses U-Net on the Massachusetts Roads Dataset & keras
+* [Semantic-segmentation repo by fuweifu-vtoo](https://github.com/fuweifu-vtoo/Semantic-segmentation) -> uses pytorch and the [Massachusetts Buildings & Roads Datasets](https://www.cs.toronto.edu/~vmnih/data/)
+* [ssai-cnn](https://github.com/mitmul/ssai-cnn) -> This is an implementation of Volodymyr Mnih's dissertation methods on his Massachusetts road & building dataset
+* [building-footprint-segmentation](https://github.com/fuzailpalnak/building-footprint-segmentation) -> pip installable library to train building footprint segmentation on satellite and aerial imagery, applied to Massachusetts Buildings Dataset and Inria Aerial Image Labeling Dataset
+* [Road detection using semantic segmentation and albumentations for data augmention](https://towardsdatascience.com/road-detection-using-segmentation-models-and-albumentations-libraries-on-keras-d5434eaf73a8) using the Massachusetts Roads Dataset, U-net & Keras
+* [Image-Segmentation)](https://github.com/mschulz/Image-Segmentation) -> using Massachusetts Road dataset and fast.ai
+
 ### Kaggle - Deepsat classification challenge
 Not satellite but airborne imagery. Each sample image is 28x28 pixels and consists of 4 bands - red, green, blue and near infrared. The training and test labels are one-hot encoded 1x6 vectors. Each image patch is size normalized to 28x28 pixels. Data in `.mat` Matlab format. JPEG?
 * [Sat4](https://www.kaggle.com/crawford/deepsat-sat4) 500,000 image patches covering four broad land cover classes - **barren land, trees, grassland and a class that consists of all land cover classes other than the above three**
@@ -1599,6 +1617,8 @@ In this challenge, you will build a model to classify cloud organization pattern
 * [161st place solution on Github by michal-nahlik](https://github.com/michal-nahlik/kaggle-clouds-2019)
 * [Solution by yurayli](https://github.com/yurayli/satellite-cloud-segmentation)
 * [Solution by HazelMartindale](https://github.com/HazelMartindale/kaggle_understanding_clouds_learning_project) uses 3 versions of U-net architecture
+* [Solution by khornlund](https://github.com/khornlund/understanding-cloud-organization)
+* [Solution by Diyago](https://github.com/Diyago/Understanding-Clouds-from-Satellite-Images)
 
 ### Kaggle - Airbus Aircraft Detection Dataset
 * https://www.kaggle.com/airbusgeo/airbus-aircrafts-sample-dataset
@@ -1678,7 +1698,6 @@ The xView2 Challenge focuses on automating the process of assessing building dam
 * https://www.kaggle.com/sergiishchus/maxar-satellite-data -> Example Maxar data at 15 cm resolution
 * https://www.kaggle.com/cici118/swimming-pool-detection-algarves-landscape
 * https://www.kaggle.com/datasets/donkroco/solar-panel-module -> object detection for solar panels
-* https://www.kaggle.com/datasets/balraj98/massachusetts-roads-dataset -> road segmentation
 
 ## SpaceNet
 * [spacenet.ai](https://spacenet.ai/) is an online hub for data, challenges, algorithms, and tools. Note that [CosmiQ Ended its Leadership of SpaceNet](https://medium.com/the-downlinq/closing-time-cosmiq-works-is-closing-down-and-ending-its-leadership-of-spacenet-a53ba239745b), handing over the reigns to Maxar
@@ -2499,6 +2518,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [National Geospatial-Intelligence Agency USA](https://github.com/ngageoint)
 * [Near Space Labs](https://github.com/nearspacelabs)
 * [OpenGeoScales](https://github.com/OpenGeoScales)
+* [Open Geospatial Consortium](https://github.com/opengeospatial) -> the [OGC](https://www.ogc.org/)
 * [Ordnance Survey](https://github.com/OrdnanceSurvey)
 * [OroraTech](https://github.com/OroraTech)
 * [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
