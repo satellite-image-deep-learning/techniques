@@ -50,10 +50,10 @@ This document lists resources for performing deep learning on satellite imagery.
   * [Few/one/zero/low shot learning](https://github.com/robmarkcole/satellite-image-deep-learning#fewonezerolow-shot-learning)
   * [Self-supervised, weakly/semi-supervised, unsupervised & contrastive learning](https://github.com/robmarkcole/satellite-image-deep-learning#self-supervised-weaklysemi-supervised-unsupervised--contrastive-learning)
   * [Active learning](https://github.com/robmarkcole/satellite-image-deep-learning#active-learning)
+  * [Federated learning](https://github.com/robmarkcole/satellite-image-deep-learning#federated-learning)
   * [Image registration](https://github.com/robmarkcole/satellite-image-deep-learning#image-registration)
   * [Data fusion](https://github.com/robmarkcole/satellite-image-deep-learning#data-fusion)
   * [Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF](https://github.com/robmarkcole/satellite-image-deep-learning#terrain-mapping-disparity-estimation-lidar-dems--nerf)
-  * [Federated learning](https://github.com/robmarkcole/satellite-image-deep-learning#federated-learning)
   * [Thermal Infrared](https://github.com/robmarkcole/satellite-image-deep-learning#thermal-infrared)
   * [SAR](https://github.com/robmarkcole/satellite-image-deep-learning#sar)
   * [NVDI - vegetation index](https://github.com/robmarkcole/satellite-image-deep-learning#nvdi---vegetation-index)
@@ -1087,6 +1087,10 @@ Supervised deep learning techniques typically require a huge number of annotated
 * [ALS4GAN](https://github.com/immuno121/ALS4GAN) -> Active Learning for Improved Semi Supervised Semantic Segmentation in Satellite Images, with [paper](https://arxiv.org/abs/2110.07782)
 * [Active-Learning-for-Remote-Sensing-Image-Retrieval](https://github.com/flateon/Active-Learning-for-Remote-Sensing-Image-Retrieval) -> unofficial implementation of paper: A Novel Active Learning Method in Relevance Feedback for Content-Based Remote Sensing Image Retrieval
 
+## Federated learning
+Federated learning is a process for training models in a distributed fashion without sharing of data
+* [Federated-Learning-for-Remote-Sensing](https://github.com/anandcu3/Federated-Learning-for-Remote-Sensing) ->  implementation of three Federated Learning models
+
 ## Image registration
 Image registration is the process of registering one or more images onto another (typically well georeferenced) image. Traditionally this is performed manually by identifying control points (tie-points) in the images, for example using QGIS. This section lists approaches which mostly aim to automate this manual process. There is some overlap with the data fusion section but the distinction I make is that image registration is performed as a prerequisite to downstream processes which will use the registered data as an input.
 * [Wikipedia article on registration](https://en.wikipedia.org/wiki/Image_registration) -> register for change detection or [image stitching](https://mono.software/2018/03/14/Image-stitching/)
@@ -1181,10 +1185,6 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 * [SatMVS](https://github.com/WHU-GPCV/SatMVS) -> code for 2021 paper: Rational Polynomial Camera Model Warping for Deep Learning Based Satellite Multi-View Stereo Matching
 * [ImpliCity](https://github.com/prs-eth/ImpliCity) -> reconstructs digital surface models (DSMs) from raw photogrammetric 3D point clouds and ortho-images with the help of an implicit neural 3D scene representation
 * [WHU-Stereo](https://github.com/Sheng029/WHU-Stereo) -> a large-scale dataset for stereo matching of high-resolution satellite imagery & several deep learning methods for stereo matching. Methods include StereoNet, Pyramid Stereo Matching Network & HMSM-Net
-
-## Federated learning
-Federated learning is a process for training models in a distributed fashion without sharing of data
-* [Federated-Learning-for-Remote-Sensing](https://github.com/anandcu3/Federated-Learning-for-Remote-Sensing) ->  implementation of three Federated Learning models
 
 ## Thermal Infrared
 * [The World Needs (a lot) More Thermal Infrared Data from Space](https://towardsdatascience.com/the-world-needs-a-lot-more-thermal-infrared-data-from-space-dbbba389be8a)
