@@ -46,10 +46,10 @@ This document lists resources for performing deep learning on satellite imagery.
   * [Autoencoders, dimensionality reduction, image embeddings & similarity search](https://github.com/robmarkcole/satellite-image-deep-learning#autoencoders-dimensionality-reduction-image-embeddings--similarity-search)
   * [Image retreival](https://github.com/robmarkcole/satellite-image-deep-learning#image-retreival)
   * [Image Captioning & Visual Question Answering](https://github.com/robmarkcole/satellite-image-deep-learning#image-captioning--visual-question-answering)
+  * [Mixed data learning](https://github.com/robmarkcole/satellite-image-deep-learning#mixed-data-learning)
   * [Few/one/zero/low shot learning](https://github.com/robmarkcole/satellite-image-deep-learning#fewonezerolow-shot-learning)
   * [Self-supervised, weakly/semi-supervised, unsupervised & contrastive learning](https://github.com/robmarkcole/satellite-image-deep-learning#self-supervised-weaklysemi-supervised-unsupervised--contrastive-learning)
   * [Active learning](https://github.com/robmarkcole/satellite-image-deep-learning#active-learning)
-  * [Mixed data learning](https://github.com/robmarkcole/satellite-image-deep-learning#mixed-data-learning)
   * [Image registration & data fusion](https://github.com/robmarkcole/satellite-image-deep-learning#image-registration--data-fusion)
   * [Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF](https://github.com/robmarkcole/satellite-image-deep-learning#terrain-mapping-disparity-estimation-lidar-dems--nerf)
   * [Federated learning](https://github.com/robmarkcole/satellite-image-deep-learning#federated-learning)
@@ -1007,6 +1007,17 @@ Efforts to detect falsified images & deepfakes. Also checkout [Synthetic data](h
 * [MLAT](https://github.com/Chen-Yang-Liu/MLAT) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9709791): Remote-Sensing Image Captioning Based on Multilayer Aggregated Transformer
 * [WordSent](https://github.com/hw2hwei/WordSent) -> code for 2020 [paper](https://ieeexplore.ieee.org/document/9308980): Word–Sentence Framework for Remote Sensing Image Captioning
 
+## Mixed data learning
+These techniques combine multiple data types, e.g. imagery and text data.
+* [Predicting the locations of traffic accidents with satellite imagery and convolutional neural networks](https://towardsdatascience.com/teaching-a-neural-network-to-see-roads-74bff240c3e5) -> Combining satellite imagery and structured data to predict the location of traffic accidents with a neural network of neural networks, with [repo](https://github.com/L-Lewis/Predicting-traffic-accidents-CNN)
+* [Multi-Input Deep Neural Networks with PyTorch-Lightning - Combine Image and Tabular Data](https://rosenfelder.ai/multi-input-neural-network-pytorch/) -> excellent intro article using pytorch, not actually applied to satellite data but to real estate data, with [repo](https://github.com/MarkusRosen/pytorch_multi_input_example)
+* [Joint Learning from Earth Observation and OpenStreetMap Data to Get Faster Better Semantic Maps](https://arxiv.org/abs/1705.06057) -> fusion based architectures and coarse-to-fine segmentation to include the OpenStreetMap layer into multispectral-based deep fully convolutional networks, arxiv paper
+* [Inferring High-Resolution Traffic Accident Risk Maps Based on Satellite Imagery and GPS Trajectories](https://openaccess.thecvf.com/content/ICCV2021/html/He_Inferring_High-Resolution_Traffic_Accident_Risk_Maps_Based_on_Satellite_Imagery_ICCV_2021_paper.html) -> input satellite imagery, GPS trajectories, road maps and the history of accidents to generate high-resolution (5 meters) accident risk maps
+* [Composing Decision Forest and Neural Network models](https://www.tensorflow.org/decision_forests/tutorials/model_composition_colab) tensorflow documentation
+* [pyimagesearch article on mixed-data](https://www.pyimagesearch.com/2019/02/04/keras-multiple-inputs-and-mixed-data/)
+* [pytorch-widedeep](https://github.com/jrzaurin/pytorch-widedeep) -> A flexible package for multimodal-deep-learning to combine tabular data with text and images using Wide and Deep models in Pytorch
+* [accidentRiskMap](https://github.com/songtaohe/accidentRiskMap) -> Inferring high-resolution traffic accident risk maps based on satellite imagery and GPS trajectories
+
 ## Few/one/zero/low shot learning
 This is a class of techniques which attempt to make predictions for classes with few, one or even zero examples provided during training. In zero shot learning (ZSL) the model is assisted by the provision of auxiliary information which typically consists of descriptions/semantic attributes/word embeddings for both the seen and unseen classes at train time ([ref](https://learnopencv.com/zero-shot-learning-an-introduction/)). These approaches are particularly relevant to remote sensing, where there may be many examples of common classes, but few or even zero examples for other classes of interest.
 * [Unseen Land Cover Classification from High-Resolution Orthophotos Using Integration of Zero-Shot Learning and Convolutional Neural Networks](https://www.mdpi.com/2072-4292/12/10/1676)
@@ -1075,19 +1086,8 @@ Supervised deep learning techniques typically require a huge number of annotated
 * [ALS4GAN](https://github.com/immuno121/ALS4GAN) -> Active Learning for Improved Semi Supervised Semantic Segmentation in Satellite Images, with [paper](https://arxiv.org/abs/2110.07782)
 * [Active-Learning-for-Remote-Sensing-Image-Retrieval](https://github.com/flateon/Active-Learning-for-Remote-Sensing-Image-Retrieval) -> unofficial implementation of paper: A Novel Active Learning Method in Relevance Feedback for Content-Based Remote Sensing Image Retrieval
 
-## Mixed data learning
-These techniques combine multiple data types, e.g. imagery and text data.
-* [Predicting the locations of traffic accidents with satellite imagery and convolutional neural networks](https://towardsdatascience.com/teaching-a-neural-network-to-see-roads-74bff240c3e5) -> Combining satellite imagery and structured data to predict the location of traffic accidents with a neural network of neural networks, with [repo](https://github.com/L-Lewis/Predicting-traffic-accidents-CNN)
-* [Multi-Input Deep Neural Networks with PyTorch-Lightning - Combine Image and Tabular Data](https://rosenfelder.ai/multi-input-neural-network-pytorch/) -> excellent intro article using pytorch, not actually applied to satellite data but to real estate data, with [repo](https://github.com/MarkusRosen/pytorch_multi_input_example)
-* [Joint Learning from Earth Observation and OpenStreetMap Data to Get Faster Better Semantic Maps](https://arxiv.org/abs/1705.06057) -> fusion based architectures and coarse-to-fine segmentation to include the OpenStreetMap layer into multispectral-based deep fully convolutional networks, arxiv paper
-* [Inferring High-Resolution Traffic Accident Risk Maps Based on Satellite Imagery and GPS Trajectories](https://openaccess.thecvf.com/content/ICCV2021/html/He_Inferring_High-Resolution_Traffic_Accident_Risk_Maps_Based_on_Satellite_Imagery_ICCV_2021_paper.html) -> input satellite imagery, GPS trajectories, road maps and the history of accidents to generate high-resolution (5 meters) accident risk maps
-* [Composing Decision Forest and Neural Network models](https://www.tensorflow.org/decision_forests/tutorials/model_composition_colab) tensorflow documentation
-* [pyimagesearch article on mixed-data](https://www.pyimagesearch.com/2019/02/04/keras-multiple-inputs-and-mixed-data/)
-* [pytorch-widedeep](https://github.com/jrzaurin/pytorch-widedeep) -> A flexible package for multimodal-deep-learning to combine tabular data with text and images using Wide and Deep models in Pytorch
-* [accidentRiskMap](https://github.com/songtaohe/accidentRiskMap) -> Inferring high-resolution traffic accident risk maps based on satellite imagery and GPS trajectories
-
-## Image registration & data fusion
-Image registration & data fusion are the process of transforming different sets of data into one coordinate system. Image registration is the traditional term for this technique as applied to pairs of images, whilst data fusion is a more contemporary and general term which can apply to fusing imagery with non imagery data, such as IOT sensor data
+## Image registration
+Image registration is the process of registering one or more images onto another (typically well georeferenced) image. Traditionally this is performed manually by identifying control points (tie-points) in the images, for example using QGIS. This section lists approaches which mostly aim to automate this manual process. There is some overlap with the data fusion section but the distinction I make is that image registration is performed as a prerequisite to downstream processes which will use the registered data as an input.
 * [Wikipedia article on registration](https://en.wikipedia.org/wiki/Image_registration) -> register for change detection or [image stitching](https://mono.software/2018/03/14/Image-stitching/)
 * [Phase correlation](https://en.wikipedia.org/wiki/Phase_correlation) is used to estimate the XY translation between two images with sub-pixel accuracy. Can be used for accurate registration of low resolution imagery onto high resolution imagery, or to register a [sub-image on a full image](https://www.mathworks.com/help/images/registering-an-image-using-normalized-cross-correlation.html) -> Unlike many spatial-domain algorithms, the phase correlation method is resilient to noise, occlusions, and other defects. With [additional pre-processing](https://scikit-image.org/docs/dev/auto_examples/registration/plot_register_rotation.html) image rotation and scale changes can also be calculated.
 * [ImageRegistration](https://github.com/jandremarais/ImageRegistration) -> Interview assignment for multimodal image registration using SIFT
@@ -1105,38 +1105,41 @@ Image registration & data fusion are the process of transforming different sets 
 * Kornia provides [image registration by gradient decent](https://kornia-tutorials.readthedocs.io/en/latest/image_registration.html)
 * [LoFTR](https://github.com/zju3dv/LoFTR) -> Detector-Free Local Feature Matching with Transformers. Good performance matching satellite image pairs, tryout the web demo on your data
 * [image-to-db-registration](https://gitlab.orfeo-toolbox.org/remote_modules/image-to-db-registration) -> This remote module implements an algorithm for automated vector Database registration onto an Image. Implemented in the orfeo-toolbox
-* [UDALN_GRSL](https://github.com/JiaxinLiCAS/UDALN_GRSL) -> Deep Unsupervised Blind Hyperspectral and Multispectral Data Fusion
 * [MS_HLMO_registration](https://github.com/MrPingQi/MS_HLMO_registration) -> Multi-scale Histogram of Local Main Orientation for Remote Sensing Image Registration, with [paper](https://arxiv.org/abs/2204.00260)
+* [cnn-matching](https://github.com/lan-cz/cnn-matching) -> code and datadset for paper: Deep learning algorithm for feature matching of cross modality remote sensing images
+* [Imatch-P](https://github.com/geoyee/Imatch-P) -> A demo using SuperGlue and SuperPoint to do the image matching task based PaddlePaddle
+* [NBR-Net](https://github.com/xuyingxiao/NBR-Net) -> A Non-rigid Bi-directional Registration Network for Multi-temporal Remote Sensing Images
+* [MU-Net](https://github.com/yeyuanxin110/MU-Net) -> code for paper: A Multi-Scale Framework with Unsupervised Learning for Remote Sensing Image Registration
+* [unsupervisedDeepHomographyRAL2018](https://github.com/tynguyen/unsupervisedDeepHomographyRAL2018) -> Unsupervised Deep Homography applied to aerial data
+* [registration_cnn_ntg](https://github.com/zhangliukun/registration_cnn_ntg) -> code for paper: A Multispectral Image Registration Method Based on Unsupervised Learning
+* [remote-sensing-images-registration-dataset](https://github.com/liliangzhi110/remote-sensing-images-registration-dataset) -> at 0.23m, 3.75m & 30m resolution
+* [semantic-template-matching](https://github.com/liliangzhi110/semantictemplatematching) -> code for 2021 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271621002446): A deep learning semantic template matching framework for remote sensing image registration
+* [GMN-Generative-Matching-Network](https://github.com/ei1994/GMN-Generative-Matching-Network) -> code for 2018 paper: Deep Generative Matching Network for Optical and SAR Image Registration
+
+## Data fusion
+Data fusion covers techniques which integrate multiple datasources, for example fusing SAR & optical to make predictions about crop type. It can also cover fusion with non imagery data such as IOT sensor data
+* [Awesome-Data-Fusion-for-Remote-Sensing](https://github.com/px39n/Awesome-Data-Fusion-for-Remote-Sensing)
+* [UDALN_GRSL](https://github.com/JiaxinLiCAS/UDALN_GRSL) -> Deep Unsupervised Blind Hyperspectral and Multispectral Data Fusion
 * [CropTypeMapping](https://github.com/ellaampy/CropTypeMapping) -> Crop type mapping from optical and radar (Sentinel-1&2) time series using attention-based deep learning
 * [Multimodal-Remote-Sensing-Toolkit](https://github.com/likyoo/Multimodal-Remote-Sensing-Toolkit) -> uses Hyperspectral and LiDAR Data
 * [Aerial-Template-Matching](https://github.com/m-hamza-mughal/Aerial-Template-Matching) -> development of an algorithm for template Matching on aerial imagery applied to UAV dataset
-* [cnn-matching](https://github.com/lan-cz/cnn-matching) -> code and datadset for paper: Deep learning algorithm for feature matching of cross modality remote sensing images
 * [DS_UNet](https://github.com/SebastianHafner/DS_UNet) -> code for 2021 paper: Sentinel-1 and Sentinel-2 Data Fusion for Urban Change Detection using a Dual Stream U-Net, uses Onera Satellite Change Detection dataset
 * [DDA_UrbanExtraction](https://github.com/SebastianHafner/DDA_UrbanExtraction) -> Unsupervised Domain Adaptation for Global Urban Extraction using Sentinel-1 and Sentinel-2 Data
-* [Imatch-P](https://github.com/geoyee/Imatch-P) -> A demo using SuperGlue and SuperPoint to do the image matching task based PaddlePaddle
 * [swinstfm](https://github.com/LouisChen0104/swinstfm) -> code for paper: Remote Sensing Spatiotemporal Fusion using Swin Transformer
-* [NBR-Net](https://github.com/xuyingxiao/NBR-Net) -> A Non-rigid Bi-directional Registration Network for Multi-temporal Remote Sensing Images
 * [LoveCS](https://github.com/Junjue-Wang/LoveCS) -> code for 2022 [paper](https://www.researchgate.net/publication/360484883_Cross-sensor_domain_adaptation_for_high_spatial_resolution_urban_land-cover_mapping_From_airborne_to_spaceborne_imagery): Cross-sensor domain adaptation for high-spatial resolution urban land-cover mapping: from airborne to spaceborne imagery
 * [comingdowntoearth](https://github.com/aysim/comingdowntoearth) -> code for 2021 paper: Implementation of 'Coming Down to Earth: Satellite-to-Street View Synthesis for Geo-Localization'
 * [Matching between acoustic and satellite images](https://github.com/giovgiac/neptune)
 * [MapRepair](https://github.com/zorzi-s/MapRepair) -> Deep Cadastre Maps Alignment and Temporal Inconsistencies Fix in Satellite Images
 * [Compressive-Sensing-and-Deep-Learning-Framework](https://github.com/rahulgite94/Compressive-Sensing-and-Deep-Learning-Framework) ->  Compressive Sensing is used as an initial guess to combine data from multiple sources, with LSTM used to refine the result
-* [MU-Net](https://github.com/yeyuanxin110/MU-Net) -> code for paper: A Multi-Scale Framework with Unsupervised Learning for Remote Sensing Image Registration
-* [unsupervisedDeepHomographyRAL2018](https://github.com/tynguyen/unsupervisedDeepHomographyRAL2018) -> Unsupervised Deep Homography applied to aerial data
 * [DeepSim](https://github.com/wangxiaodiu/DeepSim) -> code for paper: DeepSIM: GPS Spoofing Detection on UAVs using Satellite Imagery Matching
 * [MHF-net](https://github.com/XieQi2015/MHF-net) -> code for 2019 [paper](https://ieeexplore.ieee.org/document/8953470): Multispectral and Hyperspectral Image Fusion by MS/HS Fusion Net
-* [registration_cnn_ntg](https://github.com/zhangliukun/registration_cnn_ntg) -> code for paper: A Multispectral Image Registration Method Based on Unsupervised Learning
 * [Remote_Sensing_Image_Fusion](https://github.com/huangshanshan33/Remote_Sensing_Image_Fusion) -> code for 2021 [paper](https://www.researchgate.net/publication/352580177_Semi-Supervised_Remote_Sensing_Image_Fusion_Using_Multi-Scale_Conditional_Generative_Adversarial_network_with_Siamese_Structure): Semi-Supervised Remote Sensing Image Fusion Using Multi-Scale Conditional Generative Adversarial network with Siamese Structure
 * [CNNs for Multi-Source Remote Sensing Data Fusion](https://github.com/yyyyangyi/CNNs-for-Multi-Source-Remote-Sensing-Data-Fusion) -> code for 2021 [paper](https://arxiv.org/abs/2109.06094): Single-stream CNN with Learnable Architecture for Multi-source Remote Sensing Data
 * [Deep Generative Reflectance Fusion](https://github.com/Cervest/ds-generative-reflectance-fusion) -> Achieving Landsat-like reflectance at any date by fusing Landsat and MODIS surface reflectance with deep generative models
 * [IEEE_TGRS_MDL-RS](https://github.com/danfenghong/IEEE_TGRS_MDL-RS) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9174822): More Diverse Means Better: Multimodal Deep Learning Meets Remote-Sensing Imagery Classification
-* [remote-sensing-images-registration-dataset](https://github.com/liliangzhi110/remote-sensing-images-registration-dataset) -> at 0.23m, 3.75m & 30m resolution
 * [SSRNET](https://github.com/hw2hwei/SSRNET) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9186332): SSR-NET: Spatial-Spectral Reconstruction Network for Hyperspectral and Multispectral Image Fusion
-* [Awesome-Data-Fusion-for-Remote-Sensing](https://github.com/px39n/Awesome-Data-Fusion-for-Remote-Sensing)
-* [semantic-template-matching](https://github.com/liliangzhi110/semantictemplatematching) -> code for 2021 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271621002446): A deep learning semantic template matching framework for remote sensing image registration
 * [cross-view-image-matching](https://github.com/kregmi/cross-view-image-matching) -> code for 2019 paper: Bridging the Domain Gap for Ground-to-Aerial Image Matching
 * [CoF-MSMG-PCNN](https://github.com/WeiTan1992/CoF-MSMG-PCNN) -> code for 2020 paper: Remote Sensing Image Fusion via Boundary Measured Dual-Channel PCNN in Multi-Scale Morphological Gradient Domain
-* [GMN-Generative-Matching-Network](https://github.com/ei1994/GMN-Generative-Matching-Network) -> code for 2018 paper: Deep Generative Matching Network for Optical and SAR Image Registration
 * [robust_matching_network_on_remote_sensing_imagery_pytorch](https://github.com/mrk1992/robust_matching_network_on_remote_sensing_imagery_pytorch) -> code for 2019 paper: A Robust Matching Network for Gradually Estimating Geometric Transformation on Remote Sensing Imagery
 
 ## Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF
