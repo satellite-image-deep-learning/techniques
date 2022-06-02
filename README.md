@@ -49,7 +49,7 @@ This document lists resources for performing deep learning on satellite imagery.
   * [Mixed data learning](https://github.com/robmarkcole/satellite-image-deep-learning#mixed-data-learning)
   * [Few/one/zero/low shot learning](https://github.com/robmarkcole/satellite-image-deep-learning#fewonezerolow-shot-learning)
   * [Self/un-supervised & contrastive learning](https://github.com/robmarkcole/satellite-image-deep-learning#selfun-supervised--contrastive-learning)
-  * [Weakly/semi-supervised](https://github.com/robmarkcole/satellite-image-deep-learning#weaklysemi-supervised)
+  * [Weakly/semi-supervised learning](https://github.com/robmarkcole/satellite-image-deep-learning#weaklysemi-supervised-learning)
   * [Active learning](https://github.com/robmarkcole/satellite-image-deep-learning#active-learning)
   * [Federated learning](https://github.com/robmarkcole/satellite-image-deep-learning#federated-learning)
   * [Image registration](https://github.com/robmarkcole/satellite-image-deep-learning#image-registration)
@@ -1061,7 +1061,7 @@ These techniques use unlabelled datasets. [Yann LeCun](https://braindump.jethro.
 * [SSLRemoteSensing](https://github.com/flyakon/SSLRemoteSensing) -> code for 2021 [paper](https://ieeexplore.ieee.org/abstract/document/9460820): Semantic Segmentation of Remote Sensing Images With Self-Supervised Multitask Representation Learning
 * [CBT](https://github.com/VMarsocci/CBT) code for 2022 [paper](https://arxiv.org/abs/2205.11319): Continual Barlow Twins: continual self-supervised learning for remote sensing semantic segmentation
 
-## Weakly/semi-supervised
+## Weakly/semi-supervised learning
 These techniques use a partially annotated dataset
 * [MARE](https://github.com/VMarsocci/MARE) -> self-supervised Multi-Attention REsu-net for semantic segmentation in remote sensing
 * [SSGF-for-HRRS-scene-classification](https://github.com/weihancug/SSGF-for-HRRS-scene-classification) -> code for 2018 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271617303428): A semi-supervised generative framework with deep learning features for high-resolution remote sensing image scene classification
