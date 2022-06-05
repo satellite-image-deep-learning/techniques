@@ -195,6 +195,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [dynamic-rs-segmentation](https://github.com/keillernogueira/dynamic-rs-segmentation) -> code for 2019 [paper](https://arxiv.org/abs/1804.04020): Dynamic Multi-Context Segmentation of Remote Sensing Images based on Convolutional Networks
 * [Remote-sensing-image-semantic-segmentation-tf2](https://github.com/TachibanaYoshino/Remote-sensing-image-semantic-segmentation-tf2) -> remote sensing image semantic segmentation repository based on tf.keras includes backbone networks such as resnet, densenet, mobilenet, and segmentation networks such as deeplabv3+, pspnet, panet, and refinenet
 * [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) -> Segmentation models with pretrained backbones, has been used in multiple winning solutions to remote sensing competitions
+* [SO-DNN](https://github.com/PanXinZebra/SO-DNN) -> code for 2021 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271621002525): Simplified object-based deep neural network for very high resolution remote sensing image classification
 
 ### Segmentation - Multiclass
 * [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net, uses DeepGlobe Land Cover Segmentation dataset, with [code](https://github.com/TarunKumar1995-glitch/land_cover_classification_unet)
@@ -280,6 +281,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [boundary_loss_for_remote_sensing](https://github.com/yiskw713/boundary_loss_for_remote_sensing) -> code for 2019 paper: Boundary Loss for Remote Sensing Imagery
 Semantic Segmentation
 * [Open Cities AI Challenge](https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/) -> Segmenting Buildings for Disaster Resilience. Winning solutions [on Github](https://github.com/drivendataorg/open-cities-ai-challenge/)
+* [MAPNet](https://github.com/lehaifeng/MAPNet) -> code for 2020 [paper](https://arxiv.org/abs/1910.12060): Multi Attending Path Neural Network for Building Footprint Extraction from Remote Sensed Imagery
 
 ### Segmentation - Roads
 Extracting roads is challenging due to the occlusions caused by other objects and the complex traffic environment
@@ -489,6 +491,9 @@ Several different techniques can be used to count the number of objects in an im
 * [dior_detect](https://github.com/hm-better/dior_detect) -> benchmarks for object detection on DIOR dataset
 * [Panchromatic to Multispectral: Object Detection Performance as a Function of Imaging Bands](https://medium.com/the-downlinq/panchromatic-to-multispectral-object-detection-performance-as-a-function-of-imaging-bands-51ecaaa3dc56) -> Medium article, concludes that more bands are not always beneficial, but likely varies by use case
 * [OPLD-Pytorch](https://github.com/yf19970118/OPLD-Pytorch) -> code for 2020 [paper](https://ieeexplore.ieee.org/document/9252176): Learning Point-Guided Localization for Detection in Remote Sensing Images
+* [F3Net](https://github.com/yxhnjust/F3Net) -> code for 2020 [paper](https://www.mdpi.com/2072-4292/12/24/4027): Feature Fusion and Filtration Network for Object Detection in Optical Remote Sensing Images
+* [GLNet](https://github.com/Zhu1Teng/GLNet) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9386208): Global to Local: Clip-LSTM-Based Object Detection From Remote Sensing Images
+* [SRAF-Net](https://github.com/Complicateddd/SRAF-Net) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9598916): A Scene-Relevant Anchor-Free Object Detection Network in Remote Sensing Images
 
 #### Object detection with rotated bounding boxes
 * OBB: orinted bounding boxes are polygons representing rotated rectangles
@@ -536,9 +541,12 @@ Detecting the most noticeable or important object in a scene
 * [MCCNet](https://github.com/MathLee/MCCNet) -> Multi-Content Complementation Network for Salient Object Detection in Optical Remote Sensing Images
 * [CorrNet](https://github.com/MathLee/CorrNet) -> Lightweight Salient Object Detection in Optical Remote Sensing Images via Feature Correlation
 * [Reading list for deep learning based Salient Object Detection in Optical Remote Sensing Images](https://github.com/MathLee/ORSI-SOD_Summary)
+* [ORSSD-dataset](https://github.com/rmcong/ORSSD-dataset) -> salient object detection dataset
 * [EORSSD-dataset](https://github.com/rmcong/EORSSD-dataset) -> Extended Optical Remote Sensing Saliency Detection (EORSSD) Dataset
 * [DAFNet_TIP20](https://github.com/rmcong/DAFNet_TIP20) -> code for 2020 [paper](https://arxiv.org/abs/2011.13144): Dense Attention Fluid Network for Salient Object Detection in Optical Remote Sensing Images
 * [EMFINet](https://github.com/Kunye-Shen/EMFINet) -> code for 2021 paper: Edge-Aware Multiscale Feature Integration Network for Salient Object Detection in Optical Remote Sensing Images
+* [ERPNet](https://github.com/zxforchid/ERPNet) -> code for 2022 paper: Edge-guided Recurrent Positioning Network for Salient Object Detection in Optical Remote Sensing Images
+* [FSMINet](https://github.com/zxforchid/FSMINet) -> code for 2022 paper: Fully Squeezed Multi-Scale Inference Network for Fast and Accurate Saliency Detection in Optical Remote Sensing Images
 
 #### Object detection - buildings, rooftops & solar panels
 * [Machine Learning For Rooftop Detection and Solar Panel Installment](https://omdena.com/blog/machine-learning-rooftops/) discusses tiling large images and generating annotations from OSM data. Features of the roofs were calculated using a combination of contour detection and classification. [Follow up article using semantic segmentation](https://omdena.com/blog/rooftops-classification/)
@@ -551,6 +559,7 @@ Detecting the most noticeable or important object in a scene
 * [Solar Panel Detection](https://medium.com/analytics-vidhya/solar-panel-detection-from-aerial-view-or-satellite-images-648c22c260ba) -> using Faster R-CNN
 * [DeepSolaris](https://github.com/thinkpractice/DeepSolaris) -> a EuroStat project to detect solar panels in aerial images, further material [here](https://github.com/FHNW-IVGI/workshop_geopython2019/tree/master/Ex.02_SolarPanels)
 * [ML_ObjectDetection_CAFO](https://github.com/Qberto/ML_ObjectDetection_CAFO) -> Detect Concentrated Animal Feeding Operations (CAFO) in Satellite Imagery
+* [Multi-level-Building-Detection-Framework](https://github.com/luoxiaoliaolan/Multi-level-Building-Detection-Framework) -> code for 2018 [paper](https://ieeexplore.ieee.org/document/8458225): Multilevel Building Detection Framework in Remote Sensing Images Based on Convolutional Neural Networks
 
 #### Object detection - ships & boats
 * Also see the [kaggle competition run by Airbus](https://github.com/robmarkcole/satellite-image-deep-learning#kaggle---airbus-ship-detection-challenge)
@@ -1184,6 +1193,7 @@ Data fusion covers techniques which integrate multiple datasources, for example 
 * [robust_matching_network_on_remote_sensing_imagery_pytorch](https://github.com/mrk1992/robust_matching_network_on_remote_sensing_imagery_pytorch) -> code for 2019 paper: A Robust Matching Network for Gradually Estimating Geometric Transformation on Remote Sensing Imagery
 * [edcstfn](https://github.com/theonegis/edcstfn) -> code for 2019 [paper](https://www.mdpi.com/2072-4292/11/24/2898): An Enhanced Deep Convolutional Model for Spatiotemporal Image Fusion
 * [ganstfm](https://github.com/theonegis/ganstfm) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9336033): A Flexible Reference-Insensitive Spatiotemporal Fusion Model for Remote Sensing Images Using Conditional Generative Adversarial Network
+* [CMAFF](https://github.com/DocF/CMAFF) -> code for 2021 [paper](https://arxiv.org/abs/2112.02991): Cross-Modality Attentive Feature Fusion for Object Detection in Multispectral Remote Sensing Imagery
 
 ## Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF
 Measure surface contours & locate 3D points in space from 2D images. NeRF stands for Neural Radiance Fields and is the term used in deep learning communities to describe a model that generates views of complex 3D scenes based on a partial set of 2D images
@@ -1233,6 +1243,7 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 * [Object Detection on Thermal Images](https://medium.com/@joehoeller/object-detection-on-thermal-images-f9526237686a) -> using YOLO-v3 and applied to a terrestrial dataset from FLIR, the article offers some usful insights into the model training
 * [Fire alerts service by Descartes Labs](https://www.businessinsider.com/how-descartes-labs-leveraging-artificial-intelligence-fight-wildfires-2019-12)
 * [Background Invariant Classification on Infrared Imagery by Data Efficient Training and Reducing Bias in CNNs](https://arxiv.org/abs/2201.09144)
+* [CMAFF](https://github.com/DocF/CMAFF) -> code for 2021 [paper](https://arxiv.org/abs/2112.02991): Cross-Modality Attentive Feature Fusion for Object Detection in Multispectral Remote Sensing Imagery
 
 ## SAR
 * [awesome-sar](https://github.com/RadarCODE/awesome-sar) -> A curated list of awesome Synthetic Aperture Radar (SAR) software, libraries, and resources
@@ -1439,6 +1450,7 @@ This section contains a short list of datasets relevant to deep learning, partic
 * "DIOR" is a large-scale benchmark dataset for object detection in optical remote sensing images, which consists of 23,463 images and 192,518 object instances annotated with horizontal bounding boxes
 * [ors-detection](https://github.com/Vlad15lav/ors-detection) -> Object Detection on the DIOR dataset using YOLOv3
 * [dior_detect](https://github.com/hm-better/dior_detect) -> benchmarks for object detection on DIOR dataset
+* [Tools](https://github.com/CrazyStoneonRoad/Tools) -> for dealing with the DIOR
 
 ## Multiscene
 * https://multiscene.github.io/ & https://github.com/Hua-YS/Multi-Scene-Recognition
@@ -1454,6 +1466,7 @@ This section contains a short list of datasets relevant to deep learning, partic
 * [DOTA_devkit](https://github.com/CAPTAIN-WHU/DOTA_devkit) for loading dataset
 * [Arxiv paper](https://arxiv.org/abs/1711.10398)
 * [Pretrained models in mmrotate](https://github.com/open-mmlab/mmrotate)
+* [DOTA2VOCtools](https://github.com/Complicateddd/DOTA2VOCtools) -> dataset split and transform to voc format
 
 ## HRSC RGB ship object detection dataset
 * https://www.kaggle.com/datasets/guofeng/hrsc2016
@@ -1527,6 +1540,8 @@ This section contains a short list of datasets relevant to deep learning, partic
 * [HRSID](https://github.com/chaozhong2010/HRSID) -> high resolution sar images dataset for ship detection, semantic segmentation, and instance segmentation tasks
 * [MAR20](https://gcheng-nwpu.github.io/) -> Military Aircraft Recognition dataset
 * [RSSCN7](https://github.com/palewithout/RSSCN7) -> Dataset of the article “Deep Learning Based Feature Selection for Remote Sensing Scene Classification”
+* [Sewage-Treatment-Plant-Dataset](https://github.com/peijinwang/Sewage-Treatment-Plant-Dataset) -> object detection
+* [TGRS-HRRSD-Dataset](https://github.com/CrazyStoneonRoad/TGRS-HRRSD-Dataset) -> High Resolution Remote Sensing Detection (HRRSD)
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
