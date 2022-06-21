@@ -207,6 +207,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [SANet](https://github.com/mrluin/SANet-PyTorch) -> code for 2019 [paper](https://arxiv.org/abs/1907.03089): Scale-Aware Network for Semantic Segmentation of High-Resolution Aerial Images
 * [aerial-segmentation](https://github.com/alpemek/aerial-segmentation) -> code for 2017 [paper](https://arxiv.org/abs/1707.06879): Learning Aerial Image Segmentation from Online Maps
 * [IterativeSegmentation](https://github.com/gaudetcj/IterativeSegmentation) -> code for 2016 [paper](https://arxiv.org/abs/1608.03440): Recurrent Neural Networks to Correct Satellite Image Classification Maps
+* [land-cover](https://github.com/lucashu1/land-cover) -> code for 2021 paper: Model Generalization in Deep Learning Applications for Land Cover Mapping. In Fragile Earth
 
 ### Segmentation - Multiclass
 * [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net, uses DeepGlobe Land Cover Segmentation dataset, with [code](https://github.com/TarunKumar1995-glitch/land_cover_classification_unet)
@@ -1618,6 +1619,12 @@ This section contains a short list of datasets relevant to deep learning, partic
 * https://justchenhao.github.io/LEVIR/
 * [FCCDN_pytorch](https://github.com/chenpan0615/FCCDN_pytorch) -> pytorch implemention of FCCDN for change detection task
 * [RSICC](https://github.com/Chen-Yang-Liu/RSICC) -> the Remote Sensing Image Change Captioning dataset uses LEVIR-CD imagery
+
+## SEN12MS
+* A Curated Dataset of Georeferenced Multi-Spectral Sentinel-1/2 Imagery for Deep Learning and Data Fusion
+* https://arxiv.org/abs/1906.07789
+* [SEN12MS toolbox](https://github.com/schmitt-muc/SEN12MS)
+* Many referenced uses on [paperswithcode.com](https://paperswithcode.com/dataset/sen12ms)
 
 ## Other datasets
 * [land-use-land-cover-datasets](https://github.com/r-wenger/land-use-land-cover-datasets)
