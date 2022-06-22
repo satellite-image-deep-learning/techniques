@@ -18,8 +18,8 @@ This document lists resources for performing deep learning on satellite imagery.
     * [Electrical substations](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---electrical-substations)
     * [Instance segmentation](https://github.com/robmarkcole/satellite-image-deep-learning#instance-segmentation)
     * [Panoptic segmentation](https://github.com/robmarkcole/satellite-image-deep-learning#panoptic-segmentation)
-    * [Object counting](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---object-counting)
   * [Object detection](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection)
+    * [Object counting](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---object-counting)
     * [Object detection with rotated bounding boxes](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection-with-rotated-bounding-boxes)
     * [Object detection enhanced by super resolution](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection-enhanced-by-super-resolution)
     * [Salient object detection](https://github.com/robmarkcole/satellite-image-deep-learning#salient-object-detection)
@@ -512,7 +512,7 @@ Several different techniques can be used to count the number of objects in an im
 * [SHAPObjectDetection](https://github.com/hiroki-kawauchi/SHAPObjectDetection) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/9/1970): SHAP-Based Interpretable Object Detection Method for Satellite Imagery
 * [NWD](https://github.com/jwwangchn/NWD) -> code for 2021 [paper](https://arxiv.org/abs/2110.13389): A Normalized Gaussian Wasserstein Distance for Tiny Object Detection. Uses AI-TOD dataset
 
-### Object counting
+#### Object counting
 When the object count, but not its shape is required, U-net can be used to treat this as an image-to-image translation problem.
 * [centroid-unet](https://github.com/gicait/centroid-unet) -> Centroid-UNet is deep neural network model to detect centroids from satellite images, with [paper](https://arxiv.org/abs/2112.06530)
 * [count-sea-lion](https://github.com/sbanerj2/count-sea-lion) -> uses keras & Count-ception network
