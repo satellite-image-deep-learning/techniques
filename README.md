@@ -5,7 +5,7 @@ This document lists resources for performing deep learning on satellite imagery.
 * [Techniques](https://github.com/robmarkcole/satellite-image-deep-learning#techniques)
   * [Classification](https://github.com/robmarkcole/satellite-image-deep-learning#Classification)
   * [Segmentation](https://github.com/robmarkcole/satellite-image-deep-learning#Segmentation)
-    * [Multiclass land cover](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---multiclass-land-cover)
+    * [Land use & land cover](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---land-use--land-cover)
     * [Vegetation, crops & crop boundaries](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---vegetation-crops--crop-boundaries)
     * [Water, coastlines & floods](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---water-coastlines--floods)
     * [Fire, smoke & burn areas](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---fire-smoke--burn-areas)
@@ -208,7 +208,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [aerial-segmentation](https://github.com/alpemek/aerial-segmentation) -> code for 2017 [paper](https://arxiv.org/abs/1707.06879): Learning Aerial Image Segmentation from Online Maps
 * [IterativeSegmentation](https://github.com/gaudetcj/IterativeSegmentation) -> code for 2016 [paper](https://arxiv.org/abs/1608.03440): Recurrent Neural Networks to Correct Satellite Image Classification Maps
 
-### Segmentation - land use & land cover
+### Segmentation - Land use & land cover
 * [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net, uses DeepGlobe Land Cover Segmentation dataset, with [code](https://github.com/TarunKumar1995-glitch/land_cover_classification_unet)
 * [Multi-class semantic segmentation of satellite images using U-Net](https://github.com/rogerxujiang/dstl_unet) using DSTL dataset, tensorflow 1 & python 2.7. Accompanying [article](https://towardsdatascience.com/dstl-satellite-imagery-contest-on-kaggle-2f3ef7b8ac40)
 * [Codebase for multi class land cover classification with U-Net](https://github.com/jaeeolma/lulc_ml) accompanying a masters thesis, uses Keras
