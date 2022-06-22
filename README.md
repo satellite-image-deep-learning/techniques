@@ -2785,7 +2785,6 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Practical Data Science Specialization](https://www.coursera.org/specializations/practical-data-science) -> AWS specific, develop and scale your data science projects into the cloud using Amazon SageMaker
 * [Disaster Risk Monitoring Using Satellite Imagery by NVIDIA](https://courses.nvidia.com/courses/course-v1:DLI+S-ES-01+V1/)
 * [Course materials for: Geospatial Data Science](https://github.com/mszell/geospatialdatascience)
-* [Stanford CS231n: Deep Learning for Computer Vision](http://vision.stanford.edu/teaching/cs231n/)
 * [Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) -> by Microsoft
 * [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) -> by Microsoft
 * [Remote Sensing Tutorials](https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/tutorial-fundamentals-remote-sensing/9309) -> by the Canada Centre for Mapping and Earth Observation
