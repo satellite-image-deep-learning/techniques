@@ -2423,6 +2423,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [satellighte](https://github.com/canturan10/satellighte) -> an image classification library that consist state-of-the-art deep learning methods, using PyTorch Lightning
 * [aeronetlib](https://github.com/Geoalert/aeronetlib) -> Python library to work with geospatial raster and vector data for deep learning
 * [rsi-semantic-segmentation](https://github.com/xdu-jjgs/rsi-semantic-segmentation) -> A unified PyTorch framework for semantic segmentation from remote sensing imagery
+* [AiTLAS](https://github.com/biasvariancelabs/aitlas) -> implements state-of-the-art AI methods for exploratory and predictive analysis of satellite images.
 
 ## Model tracking, versioning, specification & compilation
 * [dvc](https://dvc.org/) -> a git extension to keep track of changes in data, source code, and ML models together
@@ -2522,6 +2523,7 @@ So improtant this pair gets their own section. GDAL is THE command line tool for
 * [gdal-segment](https://github.com/cbalint13/gdal-segment) -> implements various segmentation algorithms over raster images
 * [aws-gdal-robot](https://github.com/mblackgeo/aws-gdal-robot) -> A proof of concept implementation of running GDAL based jobs using AWS S3/Lambda/Batch
 * [gdal2tiles](https://github.com/tehamalab/gdal2tiles) -> A python library for generating map tiles based on gdal2tiles.py from GDAL project
+* [gdal3.js](https://github.com/bugra9/gdal3.js) -> Convert raster and vector geospatial data to various formats and coordinate systems entirely in the browser
 
 ## Cloud Optimised GeoTiff (COG)
 A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF that supports HTTP range requests, enabling downloading of specific tiles rather than the full file. COG generally work normally in GIS software such as QGIS, but are larger than regular GeoTIFFs
