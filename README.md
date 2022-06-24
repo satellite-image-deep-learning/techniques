@@ -68,6 +68,9 @@ This document lists resources for performing deep learning on satellite imagery.
 * [Free online compute](https://github.com/robmarkcole/satellite-image-deep-learning#free-online-compute)
 * [State of the art engineering](https://github.com/robmarkcole/satellite-image-deep-learning#state-of-the-art-engineering)
 * [Cloud providers](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-providers)
+  * [AWS](https://github.com/robmarkcole/satellite-image-deep-learning#aws)
+  * [Google Cloud](https://github.com/robmarkcole/satellite-image-deep-learning#google-cloud)
+  * [Microsoft Azure](https://github.com/robmarkcole/satellite-image-deep-learning#microsoft-azure)
 * [Deploying models](https://github.com/robmarkcole/satellite-image-deep-learning#deploying-models)
 * [Image annotation](https://github.com/robmarkcole/satellite-image-deep-learning#image-annotation)
 * [Open source software](https://github.com/robmarkcole/satellite-image-deep-learning#open-source-software)
@@ -87,6 +90,7 @@ This document lists resources for performing deep learning on satellite imagery.
   * [SpatioTemporal Asset Catalog specification (STAC)](https://github.com/robmarkcole/satellite-image-deep-learning#spatiotemporal-asset-catalog-specification-stac)
   * [OpenStreetMap](https://github.com/robmarkcole/satellite-image-deep-learning#openstreetmap)
   * [QGIS](https://github.com/robmarkcole/satellite-image-deep-learning#qgis)
+  * [Jupyter](https://github.com/robmarkcole/satellite-image-deep-learning#jupyter)
   * [Streamlit](https://github.com/robmarkcole/satellite-image-deep-learning#streamlit)
   * [Julia language](https://github.com/robmarkcole/satellite-image-deep-learning#julia-language)
 * [Movers and shakers on Github](https://github.com/robmarkcole/satellite-image-deep-learning#movers-and-shakers-on-github)
@@ -2087,7 +2091,7 @@ An overview of the most relevant services provided by AWS, Google and Microsoft.
 * [sagemaker-defect-detection](https://github.com/awslabs/sagemaker-defect-detection) -> demonstrates object detection training and deployment
 * [How do you process space data and imagery in low earth orbit?](https://www.aboutamazon.com/news/aws/how-do-you-process-space-data-and-imagery-in-low-earth-orbit) -> Snowcone is a standalone computer that can run AWS services at the edge, and has been demonstraed on the ISS (International space station)
 
-## Google cloud
+## Google Cloud
 * For storage use [Cloud Storage](https://cloud.google.com/storage) (AWS S3 equivalent)
 * For data warehousing use [BigQuery](https://cloud.google.com/bigquery) (AWS Redshift equivalent). Visualize massive spatial datasets directly in BigQuery using [CARTO](https://carto.com/bigquery-tiler/)
 * For model training use [Vertex](https://cloud.google.com/vertex-ai) (AWS Sagemaker equivalent)
