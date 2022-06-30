@@ -68,6 +68,9 @@ This document lists resources for performing deep learning on satellite imagery.
   * [Maxar](https://github.com/robmarkcole/satellite-image-deep-learning#maxar)
   * [Planet](https://github.com/robmarkcole/satellite-image-deep-learning#planet)
   * [EuroSAT](https://github.com/robmarkcole/satellite-image-deep-learning#eurosat)
+  * [UAV & Drone datasets](https://github.com/robmarkcole/satellite-image-deep-learning#uav--drone-datasets)
+  * [Other datasets](https://github.com/robmarkcole/satellite-image-deep-learning#other-datasets)
+  * [Kaggle](https://github.com/robmarkcole/satellite-image-deep-learning#kaggle)
 * [Synthetic data](https://github.com/robmarkcole/satellite-image-deep-learning#synthetic-data)
 * [Online platforms for analytics](https://github.com/robmarkcole/satellite-image-deep-learning#online-platforms-for-analytics)
 * [Free online compute](https://github.com/robmarkcole/satellite-image-deep-learning#free-online-compute)
@@ -1527,7 +1530,7 @@ This section contains a short list of datasets relevant to deep learning, partic
 * [Analyzing Sentinel-2 satellite data in Python with Keras](https://github.com/jensleitloff/CNN-Sentinel)
 * [Xarray backend to Copernicus Sentinel-1 satellite data products](https://github.com/bopen/xarray-sentinel)
 * [SEN2VENµS](https://zenodo.org/record/6514159#.YoRxM5PMK3I) -> a dataset for the training of Sentinel-2 super-resolution algorithms
-* [SEN12MS](https://github.com/zhu-xlab/SEN12MS) -> A Curated Dataset of Georeferenced Multi-spectral Sentinel-1/2 Imagery for Deep Learning and Data Fusion
+* [SEN12MS](https://github.com/zhu-xlab/SEN12MS) -> A Curated Dataset of Georeferenced Multi-spectral Sentinel-1/2 Imagery for Deep Learning and Data Fusion. Checkout [SEN12MS toolbox](https://github.com/schmitt-muc/SEN12MS) and many referenced uses on [paperswithcode.com](https://paperswithcode.com/dataset/sen12ms)
 * [Sen4AgriNet](https://github.com/Orion-AI-Lab/S4A) -> A Sentinel-2 multi-year, multi-country benchmark dataset for crop classification and segmentation with deep learning, with [website](https://www.sen4agrinet.space.noa.gr/)
 
 ## Landsat
@@ -1673,12 +1676,6 @@ This section contains a short list of datasets relevant to deep learning, partic
 * https://justchenhao.github.io/LEVIR/
 * [FCCDN_pytorch](https://github.com/chenpan0615/FCCDN_pytorch) -> pytorch implemention of FCCDN for change detection task
 * [RSICC](https://github.com/Chen-Yang-Liu/RSICC) -> the Remote Sensing Image Change Captioning dataset uses LEVIR-CD imagery
-
-## SEN12MS
-* A Curated Dataset of Georeferenced Multi-Spectral Sentinel-1/2 Imagery for Deep Learning and Data Fusion
-* https://arxiv.org/abs/1906.07789
-* [SEN12MS toolbox](https://github.com/schmitt-muc/SEN12MS)
-* Many referenced uses on [paperswithcode.com](https://paperswithcode.com/dataset/sen12ms)
 
 ## ISPRS
 * https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx
