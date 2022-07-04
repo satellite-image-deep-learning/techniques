@@ -4,6 +4,7 @@ This document lists resources for performing deep learning on satellite imagery.
 <!-- markdown-link-check-disable -->
 [![Linkedin: robmarkcole](https://img.shields.io/badge/-Robin%20Cole-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robmarkcole/)](https://www.linkedin.com/in/robmarkcole/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/robmarkcole?label=Follow)](https://twitter.com/robmarkcole)
+[![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-red)](https://scholar.google.com/citations?user=oHe5ozwAAAAJ&hl=en)
 <!-- markdown-link-check-enable -->
 
 # Table of contents
