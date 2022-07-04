@@ -1,3 +1,8 @@
+<!-- markdown-link-check-disable -->
+[![Linkedin: robmarkcole](https://img.shields.io/badge/-Robin%20Cole-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robmarkcole/)](https://www.linkedin.com/in/robmarkcole/)
+[![Twitter Follow](https://img.shields.io/twitter/follow/robmarkcole?label=Follow)](https://twitter.com/robmarkcole)
+<!-- markdown-link-check-enable -->
+
 # Introduction
 This document lists resources for performing deep learning on satellite imagery. To a lesser extent classical Machine learning (e.g. random forests) are also discussed, as are classical image processing techniques. Note there is a huge volume of academic literature published on these topics, and this repository does not seek to index them all but rather list approachable resources with published code that will benefit both the research *and* developer communities.
 
@@ -2936,8 +2941,3 @@ Signup for the [geospatial-jobs-newsletter](https://geospatial.substack.com/p/we
 
 # About the author
 My background is in optical physics, and I hold a PhD from [NanoPhotonics group at Cambridge](https://www.np.phy.cam.ac.uk/) on the topic of surface plasmons. Since academia I have held a variety of roles in industry, including as a researcher at the former Sharp Labs Europe, and later as an engineer of optical systems at [Surrey Satellites](https://www.sstl.co.uk/) (SSTL). It was whilst at SSTL that I started this repository as a personal resource. Over time I have gravitated towards data science and deep learning with python, and I now work as a senior data scientist at [Satellite Vu](https://www.satellitevu.com/). Please feel free to connect with me on Twitter & LinkedIn, and do let me know if this repository is useful to your work as this is a great motivator!
-
-<!-- markdown-link-check-disable -->
-[![Linkedin: robmarkcole](https://img.shields.io/badge/-Robin%20Cole-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robmarkcole/)](https://www.linkedin.com/in/robmarkcole/)
-[![Twitter Follow](https://img.shields.io/twitter/follow/robmarkcole?label=Follow)](https://twitter.com/robmarkcole)
-<!-- markdown-link-check-enable -->
