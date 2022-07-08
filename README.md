@@ -1110,7 +1110,7 @@ GANS are famously used for generating synthetic data, see the section [Synthetic
 * [Satellite-Image-Forgery-Detection-and-Localization](https://github.com/tailongnguyen/Satellite-Image-Forgery-Detection-and-Localization)
 * [STGAN](https://github.com/ermongroup/STGAN) -> PyTorch Implementation of STGAN for Cloud Removal in Satellite Images, with [paper](https://arxiv.org/abs/1912.06838)
 * [ds-gan-spatiotemporal-evaluation](https://github.com/Cervest/ds-gan-spatiotemporal-evaluation) -> evaluating use of deep generative models in remote sensing applications
-* [pub-ffi-gan](https://github.com/awweide/pub-ffi-gan) -> code for 2018 [paper](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2501934): Applying generative adversarial networks for anomaly detection in hyperspectral remote sensing imagery
+* [pub-ffi-gan](https://github.com/awweide/pub-ffi-gan) -> code for 2018 paper: Applying generative adversarial networks for anomaly detection in hyperspectral remote sensing imagery
 * [GAN-based method to generate high-resolution remote sensing for data augmentation and image classification](https://github.com/weihancug/GAN-based-HRRS-Sample-Generation-for-Image-Classification)
 * [Remote-Sensing-Image-Generation](https://github.com/aashishrai3799/Remote-Sensing-Image-Generation) -> Generate RS Images using Generative Adversarial Networks (GAN)
 * [RoadDA](https://github.com/LANMNG/RoadDA) -> code for 2021 [paper](https://arxiv.org/abs/2108.12611): Stagewise Unsupervised Domain Adaptation with Adversarial Self-Training for Road Segmentation of Remote Sensing Images
@@ -1623,7 +1623,7 @@ This section contains a short list of datasets relevant to deep learning, partic
 
 ## FAIR1M object detection dataset
 * [FAIR1M: A Benchmark Dataset for Fine-grained Object Recognition in High-Resolution Remote Sensing Imagery](https://arxiv.org/abs/2103.05569)
-* Download at [gaofen-challenge.com](http://gaofen-challenge.com/)
+* Download at gaofen-challenge.com
 * [2020Gaofen](https://github.com/AICyberTeam/2020Gaofen) -> 2020 Gaofen Challenge data, baselines, and metrics
 
 ## DOTA object detection dataset
