@@ -1540,9 +1540,13 @@ A number of metrics are common to all model types (but can have slightly differe
 * For more comprehensive definitions checkout [Object-Detection-Metrics](https://github.com/rafaelpadilla/Object-Detection-Metrics)
 
 # Datasets
-This section contains a short list of datasets relevant to deep learning, particularly those which come up regularly in the literature. For a more comprehensive list of datasets checkout the [Earth Observation Database](https://eod-grss-ieee.com/), [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets), [Awesome_Satellite_Benchmark_Datasets](https://github.com/Seyed-Ali-Ahmadi/Awesome_Satellite_Benchmark_Datasets) and review the [long list of satellite missions with example imagery](https://www.satimagingcorp.com/satellite-sensors/). If you want datasets ready to train in deep learning frameworks checkout the [datasets in torchgeo](https://torchgeo.readthedocs.io/en/latest/api/datasets.html)
+This section contains a short list of datasets relevant to deep learning, particularly those which come up regularly in the literature. **Warning** satellite image files can be LARGE, and even a small datasets may comprise 50GB+ of imagery
 
-**Warning** satellite image files can be LARGE, even a small data set may comprise 50 GB of imagery
+## Lists of datasets
+* [Earth Observation Database](https://eod-grss-ieee.com/)
+* [awesome-satellite-imagery-datasets](https://github.com/chrieke/awesome-satellite-imagery-datasets)
+* [Awesome_Satellite_Benchmark_Datasets](https://github.com/Seyed-Ali-Ahmadi/Awesome_Satellite_Benchmark_Datasets)
+* [Callisto-Dataset-Collection](https://github.com/Agri-Hub/Callisto-Dataset-Collection)
 
 ## Sentinel
 * As part of the [EU Copernicus program](https://en.wikipedia.org/wiki/Copernicus_Programme), multiple Sentinel satellites are capturing imagery -> see [wikipedia](https://en.wikipedia.org/wiki/Copernicus_Programme#Sentinel_missions).
@@ -2949,6 +2953,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Mapscaping podcast](https://mapscaping.com/blogs/the-mapscaping-podcast)
 * [Minds Behind Maps](https://minds-behind-maps.simplecast.com/)
 * [Terrawatch Space](https://anchor.fm/terrawatch-space)
+* [Geomob](https://thegeomob.com/)
 
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
