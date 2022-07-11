@@ -69,6 +69,7 @@ This page lists resources for performing deep learning on satellite imagery. To 
 * [ML best practice](https://github.com/robmarkcole/satellite-image-deep-learning#ml-best-practice)
 * [Metrics](https://github.com/robmarkcole/satellite-image-deep-learning#metrics)
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
+  * [Lists of datasets](https://github.com/robmarkcole/satellite-image-deep-learning#lists-of-datasets)
   * [Sentinel](https://github.com/robmarkcole/satellite-image-deep-learning#sentinel)
   * [Landsat](https://github.com/robmarkcole/satellite-image-deep-learning#landsat)
   * [Maxar](https://github.com/robmarkcole/satellite-image-deep-learning#maxar)
