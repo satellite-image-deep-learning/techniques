@@ -113,6 +113,7 @@ This page lists resources for performing deep learning on satellite imagery. To 
 * [Courses](https://github.com/robmarkcole/satellite-image-deep-learning#courses)
 * [Books](https://github.com/robmarkcole/satellite-image-deep-learning#books)
 * [Podcasts](https://github.com/robmarkcole/satellite-image-deep-learning#podcasts)
+* [Newsletters](https://github.com/robmarkcole/satellite-image-deep-learning#newsletters)
 * [Online communities](https://github.com/robmarkcole/satellite-image-deep-learning#online-communities)
 * [Jobs](https://github.com/robmarkcole/satellite-image-deep-learning#jobs)
 
@@ -2394,6 +2395,7 @@ Scripts and command line applications
 * [pyroSAR](https://github.com/johntruckenbrodt/pyroSAR) -> framework for large-scale SAR satellite data processing
 * [S1_NRB](https://github.com/SAR-ARD/S1_NRB) -> A prototype processor for the Sentinel-1 Normalised Radar Backscatter product
 * [AGBench](https://github.com/gyrrei/AGBench) -> a Python library that benchmarks satellite-based aboveground biomass or carbon estimate maps
+* [mbtiles-s3-server](https://github.com/uktrade/mbtiles-s3-server) -> Python server to on-the-fly extract and serve vector tiles from an mbtiles file on S3
 
 ## Low level numerical & data formats
 * [xarray](http://xarray.pydata.org/en/stable/) -> N-D labeled arrays and datasets. Read [Handling multi-temporal satellite images with Xarray](https://medium.com/@bonnefond.virginie/handling-multi-temporal-satellite-images-with-xarray-30d142d3391). Checkout [xarray_leaflet](https://github.com/davidbrochart/xarray_leaflet) for tiled map plotting and [sklearn-xarray](https://github.com/phausamann/sklearn-xarray) for metadata-aware machine learning. Publish Xarray Datasets via a REST API uisng [xpublish](https://github.com/xarray-contrib/xpublish)
@@ -2951,6 +2953,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [eBook: Introduction to Datascience with Julia](https://datascience-book.gitlab.io/)
 * [Deep Learning In Production Book](https://github.com/The-AI-Summer/Deep-Learning-In-Production)
 * [Land Use Cover Datasets and Validation Tools](https://link.springer.com/book/10.1007/978-3-030-90998-7)
+* [Intermediate Python](https://book.pythontips.com/en/latest/)
 
 # Podcasts
 * [Scene From Above Podcast](https://scenefromabove.podbean.com/)
@@ -2960,7 +2963,9 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Geomob](https://thegeomob.com/)
 
 # Newsletters
-* [Radiant Earth ml4eo market news](https://www.radiant.earth/category/ml4eo-market-news/)
+* [Radiant Earth ML4EO market news](https://www.radiant.earth/category/ml4eo-market-news/)
+* [A Closer Look with Joe Morrison](https://joemorrison.substack.com/) -> examines the business and technology of mapping
+* [TerraWatch Space by Aravind](https://terrawatch.substack.com/)
 
 # Online communities
 * [fast AI geospatial study group](https://forums.fast.ai/t/geospatial-deep-learning-resources-study-group/31044)
