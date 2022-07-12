@@ -1211,6 +1211,7 @@ This is a class of techniques which attempt to make predictions for classes with
 * [MDL4OW](https://github.com/sjliu68/MDL4OW) -> code for 2020 [paper](https://ieeexplore.ieee.org/document/9186822): Few-Shot Hyperspectral Image Classification With Unknown Classes Using Multitask Deep Learning
 * [P-CNN](https://github.com/Ybowei/P-CNN) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9435769): Prototype-CNN for Few-Shot Object Detection in Remote Sensing Images
 * [CIR-FSD-2022](https://github.com/Li-ZK/CIR-FSD-2022) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/14/3255): Context Information Refinement for Few-Shot Object Detection in Remote Sensing Images
+* [IEEE_TNNLS_Gia-CFSL](https://github.com/YuxiangZhang-BIT/IEEE_TNNLS_Gia-CFSL) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9812472): Graph Information Aggregation Cross-Domain Few-Shot Learning for Hyperspectral Image Classification
 
 ## Self-supervised, unsupervised & contrastive learning
 These techniques use unlabelled datasets. [Yann LeCun](https://braindump.jethro.dev/posts/lecun_cake_analogy/) has described self/unsupervised learning as the 'base of the cake': *If we think of our brain as a cake, then the cake base is unsupervised learning. The machine predicts any part of its input for any observed part, all without the use of labelled data. Supervised learning forms the icing on the cake, and reinforcement learning is the cherry on top.*
@@ -1848,6 +1849,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [AIR-CD](https://github.com/AICyberTeam/AIR-CD) -> a challenging cloud detection data set called AIR-CD, with higher spatial resolution and more representative landcover types
 * [AIR-PolSAR-Seg](https://github.com/AICyberTeam/AIR-PolSAR-Seg) -> a challenging PolSAR terrain segmentation dataset
 * [HRC_WHU](https://github.com/dr-lizhiwei/HRC_WHU) -> High-Resolution Cloud Detection Dataset comprising 150 RGB images and a resolution varying from 0.5 to 15 m in different global regions
+* [AeroRIT](https://github.com/aneesh3108/AeroRIT) -> A New Scene for Hyperspectral Image Analysis
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
