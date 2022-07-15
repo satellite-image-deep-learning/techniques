@@ -2920,7 +2920,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [ml6team](https://github.com/ml6team)
 * [NASA](https://github.com/nasa)
 * [NASA-JPL](https://github.com/nasa-jpl) -> THE Jet Propulsion Laboratory
-* [NASA Harvest Mission](https://github.com/nasaharvest) -> [NASA’s Food Security and Agriculture Program](https://nasaharvest.org/)
+* [NASA Harvest Mission](https://github.com/nasaharvest) -> NASA’s Food Security and Agriculture Program
 * [National Geospatial-Intelligence Agency USA](https://github.com/ngageoint)
 * [Near Space Labs](https://github.com/nearspacelabs)
 * [OpenGeoScales](https://github.com/OpenGeoScales)
