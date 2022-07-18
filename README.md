@@ -185,6 +185,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [remote_sensing_pretrained_models](https://github.com/lsh1994/remote_sensing_pretrained_models) -> as an alternative to fine tuning on models pretrained on ImageNet, here some CNN are pretrained on the RSD46-WHU & AID datasets
 * [CNN_AircraftDetection](https://github.com/UKMIITB/CNN_AircraftDetection) -> CNN for aircraft detection in satellite images using keras
 * [OBIC-GCN](https://github.com/CVEO/OBIC-GCN) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9411513): Object-based Classification Framework of Remote Sensing Images with Graph Convolutional Networks
+* [aitlas-arena](https://github.com/biasvariancelabs/aitlas-arena) -> An open-source benchmark framework for evaluating state-of-the-art deep learning approaches for image classification in Earth Observation (EO)
 
 ## Segmentation
  Segmentation will assign a class label to each **pixel** in an image. Segmentation is typically grouped into semantic, instance or panoptic segmentation. In semantic segmentation objects of the same class are assigned the same label, whilst in instance segmentation each object is assigned a unique label. Panoptic segmentation combines instance and semantic predictions. Read this [beginner’s guide to segmentation](https://medium.com/gsi-technology/a-beginners-guide-to-segmentation-in-satellite-images-9c00d2028d52). Single class models are often trained for road or building segmentation, with multi class for land use/crop type classification. Image annotation can take longer than for object detection since every pixel must be annotated. **Note** that many articles which refer to 'hyperspectral land classification' are actually describing semantic segmentation. Note that cloud detection can be addressed with semantic segmentation and has its own section [Cloud detection & removal](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-detection--removal)
@@ -464,7 +465,7 @@ Semantic Segmentation
 * [BESNet](https://github.com/FlyC235/BESNet) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/7/1638): BES-Net: Boundary Enhancing Semantic Context Network for High-Resolution Image Semantic Segmentation. Applied to Vaihingen and Potsdam datasets
 
 ### Segmentation - Solar panels
-* [DeepSolar](https://github.com/wangzhecheng/DeepSolar) -> A Machine Learning Framework to Efficiently Construct a Solar Deployment Database in the United States. [Dataset on kaggle](https://www.kaggle.com/tunguz/deep-solar-dataset), actually used a CNN for classification and segmentation is obtained by applying a threshold to the activation map. Original code is tf1 but [tf2/kers](https://github.com/aidan-fitz/deepsolar-v2) and a [pytorch implementation](https://github.com/wangzhecheng/deepsolar_pytorch) are available. Also checkout [Visualizations and in-depth analysis .. of the factors that can explain the adoption of solar energy in ..  Virginia](https://github.com/bessammehenni/DeepSolar_adoption_Virginia)
+* [DeepSolar](https://github.com/wangzhecheng/DeepSolar) -> A Machine Learning Framework to Efficiently Construct a Solar Deployment Database in the United States. [Dataset on kaggle](https://www.kaggle.com/tunguz/deep-solar-dataset), actually used a CNN for classification and segmentation is obtained by applying a threshold to the activation map. Original code is tf1 but [tf2/kers](https://github.com/aidan-fitz/deepsolar-v2) and a [pytorch implementation](https://github.com/wangzhecheng/deepsolar_pytorch) are available. Also checkout [Visualizations and in-depth analysis .. of the factors that can explain the adoption of solar energy in ..  Virginia](https://github.com/bessammehenni/DeepSolar_adoption_Virginia) and [DeepSolar tracker: towards unsupervised assessment with open-source data of the accuracy of deep learning-based distributed PV mapping](https://github.com/gabrielkasmi/dsfrance)
 * [hyperion_solar_net](https://github.com/fvergaracontesse/hyperion_solar_net) -> trained classificaton & segmentation models on RGB imagery from Google Maps. Provides app for viewing predictions, and has [arxiv paper](https://arxiv.org/abs/2201.02107) and a [nice webpage](https://groups.ischool.berkeley.edu/HyperionSolarNet/)
 * [3D-PV-Locator](https://github.com/kdmayer/3D-PV-Locator) -> Large-scale detection of rooftop-mounted photovoltaic systems in 3D
 * [PV_Pipeline](https://github.com/kdmayer/PV_Pipeline) -> PyTorch models and pipeline developed for "DeepSolar for Germany"
@@ -484,6 +485,7 @@ Semantic Segmentation
 * [solar-panel-locator](https://github.com/TorrBorr/solar-panel-locator) -> the number of solar panel pixels was only ~0.2% of the total pixels in the dataset, so solar panel data was upsampled to account for the class imbalance
 * [projects-solar-panel-detection](https://github.com/top-on/projects-solar-panel-detection) -> List of project to detect solar panels from aerial/satellite images
 * [Satellite_ComputerVision](https://github.com/mjevans26/Satellite_ComputerVision) -> UNET to detect solar arrays from Sentinel-2 data, using Google Earth Engine and Tensorflow. Also covers parking lot detection
+* [ood_instances_sophia](https://github.com/gabrielkasmi/ood_instances_sophia) -> Material for the poster "The effect of PV array instances and images backgrounds on OOD generalization"
 
 ### Segmentation - Electrical substations
 The repos below resulted from the [ICETCI 2021 competition on Machine Learning based feature extraction of Electrical Substations from Satellite Data using Open Source Tools](https://competitions.codalab.org/competitions/32132)
@@ -2586,6 +2588,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) -> Semantic Segmentation Toolbox with support for many remote sensing datasets including LoveDA
 , Potsdam, Vaihingen & iSAID
 * [ODEON landcover](https://github.com/IGNF/odeon-landcover) -> a set of command-line tools performing semantic segmentation on remote sensing images (aerial and/or satellite) with as many layers as you wish
+* [aitlas-arena](https://github.com/biasvariancelabs/aitlas-arena) -> An open-source benchmark framework for evaluating state-of-the-art deep learning approaches for image classification in Earth Observation (EO)
 
 ## Model tracking, versioning, specification & compilation
 * [dvc](https://dvc.org/) -> a git extension to keep track of changes in data, source code, and ML models together
@@ -2638,6 +2641,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [cnn-explainer](https://github.com/poloclub/cnn-explainer) -> Learning Convolutional Neural Networks with Interactive Visualization
 * [Overlay-GeoTiff-Raster-with-nodata-On-Interactive-Map](https://github.com/royalosyin/Overlay-GeoTiff-Raster-with-nodata-On-Interactive-Map)
 * [shapefile2gif](https://github.com/johannesuhl/shapefile2gif) -> Given a shapefile with time-annotated vector objects (e.g., building footprints + construction year), this script will automatically create an animated GIF illustrating the dynamics for a user-specified period of time
+* [insat3d_imagen](https://github.com/rupeshs/insat3d_imagen) -> Processes INSAT HDF file and generates satellite images
 
 ## Algorithms
 * [WaterDetect](https://github.com/cordmaur/WaterDetect) -> an end-to-end algorithm to generate open water cover mask, specially conceived for L2A Sentinel 2 imagery. It can also be used for Landsat 8 images and for other multispectral clustering/segmentation tasks.
@@ -2879,7 +2883,8 @@ The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computin
 
 # Movers and shakers on Github
 * [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
-* [Andrew Cutts](https://github.com/acgeospatial) cohosts the [Scene From Above podcast](https://scenefromabove.podbean.com) and has many interesting repos
+* [Alastair Graham](https://github.com/ajggeoger) of Scene From Above podcast fame
+* [Andrew Cutts](https://github.com/acgeospatial) of Scene From Above podcast fame
 * [Ankit Kariryaa](https://github.com/ankitkariryaa) published a recent nature paper on tree detection
 * [Chris Holmes](https://github.com/cholmes) is doing great things at Planet
 * [Christoph Rieke](https://github.com/chrieke) maintains a very popular imagery repo and has published his thesis on segmentation
@@ -2975,6 +2980,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) -> by Microsoft
 * [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) -> by Microsoft
 * [Remote Sensing Tutorials](https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/tutorial-fundamentals-remote-sensing/9309) -> by the Canada Centre for Mapping and Earth Observation
+* [RUS Copernicus Training](https://www.youtube.com/channel/UCB01WjameYMvL7-XfI8vRIA)
 
 # Books
 * I highly recommend [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python-second-edition) by François Chollet
