@@ -1693,11 +1693,11 @@ This section contains a short list of datasets relevant to deep learning, partic
 * https://github.com/hust-rslab/SAR-aircraft-data
 * 2966 nonoverlapped 224×224 slices are collected with 7835 aircraft targets
 
-## xView object detection dataset
-* http://xviewdataset.org/
-* One million annotated objects on 30cm imagery
-* [The XView Dataset and Baseline Results](https://medium.com/picterra/the-xview-dataset-and-baseline-results-5ab4a1d0f47f) blog post by Picterra
-* [Databricks tutorial](https://databricks.com/notebooks/1_data_eng_xview_object_detection.html) demonstrating inference of xView images and using SQL to generate meaningful insights
+## xView Challenge Datasets for Humanitarian Assistance and Disaster Response
+* [xView1](http://xviewdataset.org/) - Objects in context for overhead imagery. A fine-grained object detection dataset with 60 object classes along an ontology of 8 class types. Over 1,000,000 objects across over 1,400 km^2 of 0.3m resolution imagery. Paper available on [arXiv](https://arxiv.org/abs/1802.07856).
+* [xView2/xBD](https://xview2.org/) - Finding and assessing damaged buildings on pre- and post-natural disaster imagery. With over 850,000 annotated buildings across over 45,000 km^2 of 0.3m resolution imagery, this dataset provides precise segmentation masks and damage labels on a four-level spectrum. Paper available on [arXiv](https://arxiv.org/abs/1911.09296).
+* [xView3](https://iuu.xview.us/) - Detecting dark vessels engaged in illegal, unreported, and unregulated (IUU) fishing activities on synthetic aperture radar (SAR) imagery. With human and algorithm annotated instances of vessels and fixed infrastructure across 43,200,000 km^2 of Sentinel-1 imagery, this multi-modal dataset enables algorithms to detect and classify dark vessels.
+* All reference code, dataset processing utilities, and winning model codes + weights are available on the (xView GitHub organization page)[https://github.com/DIUx-xView).
 
 ## Vehicle Detection in Aerial Imagery (VEDAI)
 * https://downloads.greyc.fr/vedai/
@@ -2088,14 +2088,6 @@ A Data Set to Predict Wildfire Spreading from Remote-Sensing Data
 Inspired by the above dataset, using different data sources
 * https://www.kaggle.com/satellitevu/satellite-next-day-wildfire-spread
 * https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon
-
-### Kaggle - xView2 challenge - assessing building damage after a natural disaster
-The xView2 Challenge focuses on automating the process of assessing building damage after a natural disaster
-* https://www.kaggle.com/tunguz/xview2-challenge-dataset-train-and-test
-* https://xview2.org/
-* [GitHub for the challenge](https://github.com/DIUx-xView)
-* [A look at IBM's approach](https://www.ibm.com/cloud/blog/the-xview2-ai-challenge) -> used a single U-Net model
-* [Simple Building detection example](https://github.com/iamtekson/Deep-learning-for-satellite-imagery)
 
 ## Kaggle - Spacenet 7 Multi-Temporal Urban Change Detection
 * https://www.kaggle.com/datasets/amerii/spacenet-7-multitemporal-urban-development
