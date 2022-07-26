@@ -1,5 +1,5 @@
 # satellite-image-deep-learning
-This page lists resources for performing deep learning on satellite imagery. To a lesser extent classical Machine learning (e.g. random forests) are also discussed, as are classical image processing techniques. Note there is a huge volume of academic literature published on these topics, and this repository does not seek to index them all but rather list approachable resources with published code that will benefit both the research *and* developer communities. If you find this work useful please give it a star and consider sponsoring it. You can also follow me on the platforms below where I aim to post daily updates on my new discoveries. Thanks!
+This page lists resources for performing deep learning on satellite imagery. To a lesser extent classical Machine learning (e.g. random forests) are also discussed, as are classical image processing techniques. Note there is a huge volume of academic literature published on these topics, and this repository does not seek to index them all but rather list approachable resources with published code that will benefit both the research *and* developer communities. If you find this work useful please give it a star and consider sponsoring it. You can also follow me on Twitter and LinkedIn below where I aim to post frequent updates on my new discoveries. I have also started a blog [here](https://github.com/robmarkcole/blog) and have published a post on the history of this repository called [Dissecting the satellite-image-deep-learning repo](https://robmarkcole.com/markdown/2022/07/24/satellite-image-deep-learning.html) Thanks for reading!
 
 <!-- markdown-link-check-disable -->
 [![Twitter Follow](https://img.shields.io/twitter/follow/robmarkcole?label=Follow)](https://twitter.com/robmarkcole)
@@ -625,6 +625,7 @@ When the object count, but not its shape is required, U-net can be used to treat
 * [AD-Toolbox](https://github.com/liuyanyi/AD-Toolbox) -> Aerial Detection Toolbox based on MMDetection and MMRotate, with support for more datasets
 * [GGHL](https://github.com/Shank2358/GGHL) -> code for 2022 [paper](https://arxiv.org/abs/2109.12848): A General Gaussian Heatmap Label Assignment for Arbitrary-Oriented Object Detection
 * [NPMMR-Det](https://github.com/Shank2358/NPMMR-Det) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9364888): A Novel Nonlocal-Aware Pyramid and Multiscale Multitask Refinement Detector for Object Detection in Remote Sensing Images
+* [AOPG](https://github.com/jbwang1997/AOPG) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9795321): Anchor-Free Oriented Proposal Generator for Object Detection
 
 #### Object detection enhanced by super resolution
 * [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
@@ -637,7 +638,7 @@ When the object count, but not its shape is required, U-net can be used to treat
 Detecting the most noticeable or important object in a scene
 * [ACCoNet](https://github.com/MathLee/ACCoNet) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9756652): Adjacent Context Coordination Network for Salient Object Detection in Optical Remote Sensing Images
 * [MCCNet](https://github.com/MathLee/MCCNet) -> Multi-Content Complementation Network for Salient Object Detection in Optical Remote Sensing Images
-* [CorrNet](https://github.com/MathLee/CorrNet) -> Lightweight Salient Object Detection in Optical Remote Sensing Images via Feature Correlation
+* [CorrNet](https://github.com/MathLee/CorrNet) -> Lightweight Salient Object Detection in Optical Remote Sensing Images via Feature Correlation. With [paper](https://arxiv.org/abs/2201.08049)
 * [Reading list for deep learning based Salient Object Detection in Optical Remote Sensing Images](https://github.com/MathLee/ORSI-SOD_Summary)
 * [ORSSD-dataset](https://github.com/rmcong/ORSSD-dataset) -> salient object detection dataset
 * [EORSSD-dataset](https://github.com/rmcong/EORSSD-dataset) -> Extended Optical Remote Sensing Saliency Detection (EORSSD) Dataset
@@ -1193,7 +1194,7 @@ Efforts to detect falsified images & deepfakes. Also checkout [Synthetic data](h
 
 ## Image retreival
 * [Demo_AHCL_for_TGRS2022](https://github.com/weiweisong415/Demo_AHCL_for_TGRS2022) -> code for 2022 paper: Asymmetric Hash Code Learning (AHCL) for remote sensing image retreival
-* [GaLR](https://github.com/xiaoyuan1996/GaLR) -> code for 2022 paper: Remote Sensing Cross-Modal Text-Image Retrieval Based on Global and Local Information
+* [GaLR](https://github.com/xiaoyuan1996/GaLR) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9745546): Remote Sensing Cross-Modal Text-Image Retrieval Based on Global and Local Information
 * [retrievalSystem](https://github.com/xiaoyuan1996/retrievalSystem) -> cross-modal image retrieval system
 * [AMFMN](https://github.com/xiaoyuan1996/AMFMN) -> code for the 2021 paper: Exploring a Fine-grained Multiscale Method for Cross-modal Remote Sensing Image Retrieval
 * [Active-Learning-for-Remote-Sensing-Image-Retrieval](https://github.com/flateon/Active-Learning-for-Remote-Sensing-Image-Retrieval) -> unofficial implementation of paper: A Novel Active Learning Method in Relevance Feedback for Content-Based Remote Sensing Image Retrieval
