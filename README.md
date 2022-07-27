@@ -3066,3 +3066,6 @@ Signup for the [geospatial-jobs-newsletter](https://geospatial.substack.com/p/we
 * [Planet](https://boards.greenhouse.io/planetlabs)
 * [Satellite Vu](https://www.satellitevu.com/careers)
 * [Sparkgeo](https://sparkgeo.com/jobs/)
+
+----
+- *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
