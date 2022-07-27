@@ -1,5 +1,5 @@
 <p align="center">
-<img src="logo.png">
+<img src="logo.png" width="700">
 </p>
 
 This page lists resources for performing deep learning on satellite imagery. To a lesser extent classical Machine learning (e.g. random forests) are also discussed, as are classical image processing techniques. Note there is a huge volume of academic literature published on these topics, and this repository does not seek to index them all but rather list approachable resources with published code that will benefit both the research *and* developer communities. If you find this work useful please give it a star and consider sponsoring it. You can also follow me on Twitter and LinkedIn below where I aim to post frequent updates on my new discoveries. I have also started a blog [here](https://github.com/robmarkcole/blog) and have published a post on the history of this repository called [Dissecting the satellite-image-deep-learning repo](https://robmarkcole.com/markdown/2022/07/24/satellite-image-deep-learning.html) Thanks for reading!
