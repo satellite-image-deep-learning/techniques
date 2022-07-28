@@ -1374,6 +1374,7 @@ Image registration is the process of registering one or more images onto another
 * [FSRA](https://github.com/Dmmm1997/FSRA) -> code for 2022 [paper](https://arxiv.org/abs/2201.09206): A Transformer-Based Feature Segmentation and Region Alignment Method For UAV-View Geo-Localization
 * [IHN](https://github.com/imdumpl78/IHN) -> code for 2022 [paper](https://arxiv.org/abs/2203.15982): Iterative Deep Homography Estimation
 * [OSMNet](https://github.com/zhanghan9718/OSMNet) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9609993): Explore Better Network Framework for High-Resolution Optical and SAR Image Matching
+* [L2_Siamese](https://github.com/TheKiteFlier/L2_Siamese) -> code for the 2020 [paper](https://ieeexplore.ieee.org/document/9264687): Registration of Multiresolution Remote Sensing Images Based on L2-Siamese Model
 
 ## Data fusion
 Data fusion covers techniques which integrate multiple datasources, for example fusing SAR & optical to make predictions about crop type. It can also cover fusion with non imagery data such as IOT sensor data
@@ -1502,6 +1503,7 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 * [random-wetlands](https://github.com/ekcomputer/random-wetlands) -> Random forest classification for wetland vegetation from synthetic aperture radar dataset
 * [AGSDNet](https://github.com/RTSIR/AGSDNet) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9755131): AGSDNet: Attention and Gradient-Based SAR Denoising Network
 * [LFG-Net](https://github.com/Evarray/LFG-Net) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9815311): LFG-Net: Low-Level Feature Guided Network for Precise Ship Instance Segmentation in SAR Images
+* [sar_sift](https://github.com/yishiliuhuasheng/sar_sift) -> Image registration algorithm
 
 ## NVDI - vegetation index
 * Calculated via band math `ndvi = np.true_divide((ir - r), (ir + r))` but challenging due to the size of the imagery
@@ -1923,6 +1925,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Multi-modality-image-matching](https://github.com/StaRainJ/Multi-modality-image-matching-database-metrics-methods) -> image matching dataset including several remote sensing modalities
 * [RID](https://github.com/TUMFTM/RID) -> Roof Information Dataset for CV-Based Photovoltaic Potential Assessment. With [paper](https://www.mdpi.com/2072-4292/14/10/2299)
 * [APKLOT](https://github.com/langheran/APKLOT) -> A dataset for aerial parking block segmentation
+* [QXS-SAROPT](https://github.com/yaoxu008/QXS-SAROPT) -> Optical and SAR pairing dataset from the [paper](https://arxiv.org/abs/2103.08259): The QXS-SAROPT Dataset for Deep Learning in SAR-Optical Data Fusion 
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
