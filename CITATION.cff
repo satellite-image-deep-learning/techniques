@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you want to reference this repository, please cite it as below."
+preferred-citation:
+  type: generic
+  authors:
+  - family-names: "Cole"
+    given-names: "Robin M."
+  title: "satellite-image-deep-learning"
+  url: "https://github.com/robmarkcole/satellite-image-deep-learning"
