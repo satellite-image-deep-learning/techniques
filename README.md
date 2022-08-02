@@ -1741,7 +1741,7 @@ This section contains a short list of datasets relevant to deep learning, partic
 * All reference code, dataset processing utilities, and winning model codes + weights are available on the (xView GitHub organization page)[https://github.com/DIUx-xView).
 
 ## Vehicle Detection in Aerial Imagery (VEDAI)
-* https://downloads.greyc.fr/vedai/
+* Link in the repo below possibly broken
 * [pytorch-vedai](https://github.com/MichelHalmes/pytorch-vedai) -> object detection on the VEDAI dataset: Vehicle Detection in Aerial Imagery
 
 ## Cars Overhead With Context (COWC)
