@@ -637,6 +637,7 @@ When the object count, but not its shape is required, U-net can be used to treat
 * [GGHL](https://github.com/Shank2358/GGHL) -> code for 2022 [paper](https://arxiv.org/abs/2109.12848): A General Gaussian Heatmap Label Assignment for Arbitrary-Oriented Object Detection
 * [NPMMR-Det](https://github.com/Shank2358/NPMMR-Det) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9364888): A Novel Nonlocal-Aware Pyramid and Multiscale Multitask Refinement Detector for Object Detection in Remote Sensing Images
 * [AOPG](https://github.com/jbwang1997/AOPG) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9795321): Anchor-Free Oriented Proposal Generator for Object Detection
+* [SE2-Det](https://github.com/Virusxxxxxxx/SE2-Det) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/15/3637): Semantic-Edge-Supervised Single-Stage Detector for Oriented Object Detection in Remote Sensing Imagery
 
 #### Object detection enhanced by super resolution
 * [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
@@ -2161,6 +2162,11 @@ Inspired by the above dataset, using different data sources
 * https://www.kaggle.com/datasets/mahmoudreda55/satellite-image-classification
 * [satellite-image-classification-pytorch](https://github.com/dilaraozdemir/satellite-image-classification-pytorch)
 
+## Kaggle - EuroSAT - Sentinel-2 Dataset
+* https://www.kaggle.com/datasets/raoofnaushad/eurosat-sentinel2-dataset
+* RGB Land Cover and Land Use Classification using Sentinel-2 Satellite
+* Used in paper [Image Augmentation for Satellite Images](https://arxiv.org/abs/2207.14580)
+
 ### Kaggle - miscellaneous
 * https://www.kaggle.com/reubencpereira/spatial-data-repo -> Satellite + loan data
 * https://www.kaggle.com/towardsentropy/oil-storage-tanks -> Image data of industrial tanks with bounding box annotations, estimate tank fill % from shadows
@@ -2588,6 +2594,7 @@ Many datasets on kaggle & elsewhere have been created by screen-clipping Google 
 * [google-maps-at-88-mph](https://github.com/doersino/google-maps-at-88-mph) -> Google Maps keeps old satellite imagery around for a while – this tool collects what's available for a user-specified region in the form of a GIF
 * [srtmDownloader](https://github.com/Abdi-Ghasem/srtmDownloader) -> Python library (multi-threaded) for retrieving SRTM elevation map of CGIAR-CSI
 * [ImageDatasetViz](https://github.com/vfdev-5/ImageDatasetViz) -> create a mosaic of images in a dataset for previewing purposes
+* [landsatlinks](https://github.com/ernstste/landsatlinks) -> A simple CLI interface to generate download urls for Landsat Collection 2 Level 1 product bundles
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
@@ -2702,6 +2709,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [shapefile2gif](https://github.com/johannesuhl/shapefile2gif) -> Given a shapefile with time-annotated vector objects (e.g., building footprints + construction year), this script will automatically create an animated GIF illustrating the dynamics for a user-specified period of time
 * [insat3d_imagen](https://github.com/rupeshs/insat3d_imagen) -> Processes INSAT HDF file and generates satellite images
 * [pygieons](https://github.com/pygieons/pygieons) -> A simple package to visualize and keep track of GIS and Earth Observation libraries in Python
+* [regionmask](https://github.com/regionmask/regionmask) -> Create masks of geographical regions for arbitrary longitude and latitude grids
 
 ## Algorithms
 * [WaterDetect](https://github.com/cordmaur/WaterDetect) -> an end-to-end algorithm to generate open water cover mask, specially conceived for L2A Sentinel 2 imagery. It can also be used for Landsat 8 images and for other multispectral clustering/segmentation tasks.
