@@ -504,7 +504,6 @@ Semantic Segmentation
 ### Segmentation - Electrical substations
 The repos below resulted from the [ICETCI 2021 competition on Machine Learning based feature extraction of Electrical Substations from Satellite Data using Open Source Tools](https://competitions.codalab.org/competitions/32132)
 * [Aarsh2001/ML_Challenge_NRSC](https://github.com/Aarsh2001/ML_Challenge_NRSC) -> 3rd place entry
-* [Electrical-Substation-detection-by-fine-tunning-Segnet-Architecture](https://github.com/dksharp108/Electrical-Substation-detection-by-fine-tunning-Segnet-Architecture) -> 9th place entry
 * [electrical_substation_detection](https://github.com/thisishardik/electrical_substation_detection) -> entry using UNet, Albumentations for image augmentation, and OpenCV for computer vision tasks
 
 ### Instance segmentation
@@ -1297,7 +1296,6 @@ These techniques use unlabelled datasets. [Yann LeCun](https://braindump.jethro.
 * [SSLRemoteSensing](https://github.com/flyakon/SSLRemoteSensing) -> code for 2021 [paper](https://ieeexplore.ieee.org/abstract/document/9460820): Semantic Segmentation of Remote Sensing Images With Self-Supervised Multitask Representation Learning
 * [CBT](https://github.com/VMarsocci/CBT) code for 2022 [paper](https://arxiv.org/abs/2205.11319): Continual Barlow Twins: continual self-supervised learning for remote sensing semantic segmentation
 * [Unsupervised Satellite Image Classification based on Partial Adversarial Domain Adaptation](https://github.com/lwpyh/Unsupervised-Satellite-Image-Classfication-based-on-Partial-Domain-Adaptation) -> Code for course project
-* [selfsup_openrep](https://github.com/chagmgang/selfsup_openrep) -> self-supervised learning method framework for domain representation
 * [T2FTS](https://github.com/wdzhao123/T2FTS) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9781379): Teaching Teachers First and Then Student: Hierarchical Distillation to Improve Long-Tailed Object Recognition in Aerial Images
 * [SSLTransformerRS](https://github.com/HSG-AIML/SSLTransformerRS) -> code for 2022 paper: Self-supervised Vision Transformers for Land-cover Segmentation and
 Classification
