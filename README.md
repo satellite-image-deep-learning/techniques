@@ -1997,7 +1997,7 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * [Airbus_SDC_dup](https://github.com/WillieMaddox/Airbus_SDC_dup) -> Project focused on detecting duplicate regions of overlapping satellite imagery. Applied to Airbus ship detection dataset
 * [airbus-ship-detection](https://github.com/jancervenka/airbus-ship-detection) -> CNN with REST API
 * [Ship-Detection-from-Satellite-Images-using-YOLOV4](https://github.com/debasis-dotcom/Ship-Detection-from-Satellite-Images-using-YOLOV4) -> uses Kaggle Airbus Ship Detection dataset
-* [Image Segmentation: Kaggle experience](https://towardsdatascience.com/image-segmentation-kaggle-experience-9a41cb8924f0) -> 
+* [Image Segmentation: Kaggle experience](https://towardsdatascience.com/image-segmentation-kaggle-experience-9a41cb8924f0) -> Medium article by gold medal winner Vlad Shmyhlo
 
 ### Kaggle - Shipsnet classification dataset
 * https://www.kaggle.com/rhammell/ships-in-satellite-imagery -> Classify ships in San Franciso Bay using Planet satellite imagery
@@ -3071,6 +3071,9 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Deep Learning In Production Book](https://github.com/The-AI-Summer/Deep-Learning-In-Production)
 * [Land Use Cover Datasets and Validation Tools](https://link.springer.com/book/10.1007/978-3-030-90998-7)
 * [Intermediate Python](https://book.pythontips.com/en/latest/)
+
+# Bedtime reading
+* [Meditations: A Requiem for Descartes Labs](https://philosophygeek.medium.com/meditations-a-requiem-for-descartes-labs-8b913b5e898)
 
 # Podcasts
 * [Scene From Above Podcast](https://scenefromabove.podbean.com/)
