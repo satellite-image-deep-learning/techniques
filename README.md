@@ -1996,6 +1996,8 @@ The [kaggle blog](http://blog.kaggle.com) is an interesting read.
 * [Airbus_SDC](https://github.com/WillieMaddox/Airbus_SDC)
 * [Airbus_SDC_dup](https://github.com/WillieMaddox/Airbus_SDC_dup) -> Project focused on detecting duplicate regions of overlapping satellite imagery. Applied to Airbus ship detection dataset
 * [airbus-ship-detection](https://github.com/jancervenka/airbus-ship-detection) -> CNN with REST API
+* [Ship-Detection-from-Satellite-Images-using-YOLOV4](https://github.com/debasis-dotcom/Ship-Detection-from-Satellite-Images-using-YOLOV4) -> uses Kaggle Airbus Ship Detection dataset
+* [Image Segmentation: Kaggle experience](https://towardsdatascience.com/image-segmentation-kaggle-experience-9a41cb8924f0) -> 
 
 ### Kaggle - Shipsnet classification dataset
 * https://www.kaggle.com/rhammell/ships-in-satellite-imagery -> Classify ships in San Franciso Bay using Planet satellite imagery
