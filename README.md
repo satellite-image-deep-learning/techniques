@@ -783,6 +783,7 @@ A variety of techniques can be used to count animals, including object detection
 * [Counting-Trees-using-Satellite-Images](https://github.com/A2Amir/Counting-Trees-using-Satellite-Images) -> create an inventory of incoming and outgoing trees for an annual tree inspections, uses keras & semantic segmentation
 * [2020 Nature paper - An unexpectedly large count of trees in the West African Sahara and Sahel](https://www.nature.com/articles/s41586-020-2824-5) -> tree detection framework based on U-Net & tensorflow 2 with code [here](https://github.com/ankitkariryaa/An-unexpectedly-large-count-of-trees-in-the-western-Sahara-and-Sahel/tree/v1.0.0)
 * [TreeDetection](https://github.com/AmirNiaraki/TreeDetection) -> A color-based classifier to detect the trees in google image data along with tree visual localization and crown size calculations via OpenCV
+* [PTDM](https://github.com/hr8yhtzb/PTDM) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/16/3902): Pomelo Tree Detection Method Based on Attention Mechanism and Cross-Layer Feature Fusion
 
 ## Oil storage tank detection & oil spills
 Oil is stored in tanks at many points between extraction and sale, and the volume of oil in storage is an important economic indicator.
@@ -2731,6 +2732,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [insat3d_imagen](https://github.com/rupeshs/insat3d_imagen) -> Processes INSAT HDF file and generates satellite images
 * [pygieons](https://github.com/pygieons/pygieons) -> A simple package to visualize and keep track of GIS and Earth Observation libraries in Python
 * [regionmask](https://github.com/regionmask/regionmask) -> Create masks of geographical regions for arbitrary longitude and latitude grids
+* [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/)
 
 ## Algorithms
 * [WaterDetect](https://github.com/cordmaur/WaterDetect) -> an end-to-end algorithm to generate open water cover mask, specially conceived for L2A Sentinel 2 imagery. It can also be used for Landsat 8 images and for other multispectral clustering/segmentation tasks.
@@ -3073,6 +3075,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Remote Sensing Tutorials](https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/tutorial-fundamentals-remote-sensing/9309) -> by the Canada Centre for Mapping and Earth Observation
 * [RUS Copernicus Training](https://www.youtube.com/channel/UCB01WjameYMvL7-XfI8vRIA)
 * [Practical Deep Learning for Coders](https://course.fast.ai/) -> the popular course by Jeremy Howard using fast.ai
+* [engn3903](https://github.com/nicolasyounes/engn3903) -> Environmental Sensing, Mapping and Modelling
 
 # Books
 * I highly recommend [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python-second-edition) by François Chollet
