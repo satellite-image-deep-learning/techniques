@@ -1322,6 +1322,7 @@ Classification
 * [OTL](https://github.com/qlilx/OTL) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/14/3361): Clustering-Based Representation Learning through Output Translation and Its Application to Remote-Sensing Images
 * [Push-and-Pull-Network](https://github.com/WindVChen/Push-and-Pull-Network) -> code for 2022 paper: Contrastive Learning for Fine-grained Ship Classification in Remote Sensing Images
 * [selfsup_openrep](https://github.com/chagmgang/selfsup_openrep) -> a self-supervised learning method framework for domain representation
+* [vissl_experiments](https://github.com/lewfish/ssl/tree/main/vissl_experiments) -> Self-supervised Learning using Facebook [VISSL](https://github.com/facebookresearch/vissl) on the RESISC-45 satellite imagery classification dataset
 
 ## Weakly & semi-supervised learning
 These techniques use a partially annotated dataset
@@ -2453,6 +2454,7 @@ Tools to visualise annotations & convert between formats. Note that most annotat
 * [voc2coco](https://github.com/yukkyo/voc2coco) -> Convert VOC format XMLs to COCO format json
 * [ObjectDetectionEval](https://github.com/laclouis5/ObjectDetectionEval) -> Parse all kinds of object detection databases (ImageNet, COCO, YOLO, PascalVOC, OpenImage, CVAT, LabelMe, etc.) & save to other formats
 * [LabelMeYoloConverter](https://github.com/ivder/LabelMeYoloConverter) -> Convert LabelMe Annotation Tool JSON format to YOLO text file format
+* [mask-to-polygons](https://github.com/azavea/mask-to-polygons) -> Routines for extracting and working with polygons from semantic segmentation masks
 
 # Open source software
 By software, I here mean desktop type apps. [A note on licensing](https://www.gislounge.com/businesses-using-open-source-gis/): The two general types of licenses for open source are copyleft and permissive. Copyleft requires that subsequent derived software products also carry the license forward, e.g. the GNU Public License (GNU GPLv3). For permissive, options to modify and use the code as one please are more open, e.g. MIT & Apache 2. Checkout [choosealicense.com/](https://choosealicense.com/)
@@ -2987,6 +2989,7 @@ The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computin
 
 # Movers and shakers on Github
 * [Adam Van Etten](https://github.com/avanetten) is doing interesting things in object detection and segmentation
+* [Adeel Hassan](https://github.com/adeelh) is ML engineer at Azavea
 * [Alastair Graham](https://github.com/ajggeoger) of Scene From Above podcast fame
 * [Andrew Cutts](https://github.com/acgeospatial) of Scene From Above podcast fame
 * [Ankit Kariryaa](https://github.com/ankitkariryaa) published a recent nature paper on tree detection
