@@ -864,6 +864,7 @@ Generally treated as a semantic segmentation problem or custom features created 
 * [MEcGANs](https://github.com/andrzejmizera/MEcGANs) -> Cloud Removal from Satellite Imagery using Multispectral Edge-filtered Conditional Generative Adversarial Networks
 * [CloudXNet](https://github.com/shyamfec/CloudXNet) -> code for 2020 [paper](https://www.sciencedirect.com/science/article/abs/pii/S2352938520303803): CloudX-net: A robust encoder-decoder architecture for cloud detection from satellite remote sensing images
 * [refined-unet-lite](https://github.com/92xianshen/refined-unet-lite) -> code for 2022 [paper](https://www.sciencedirect.com/science/article/pii/S1877050922005361): Refined UNet Lite: End-to-End Lightweight Network for Edge-precise Cloud Detection
+* [cloud-buster](https://github.com/azavea/cloud-buster) -> Sentinel-2 L1C and L2A Imagery with Fewer Clouds
 
 ## Change detection
 Generally speaking, change detection methods are applied to a pair of images to generate a mask of change, e.g. of buildings damaged in a disaster. Note, clouds & shadows change often too..!
@@ -954,6 +955,7 @@ Generally speaking, change detection methods are applied to a pair of images to 
 * [open-cd](https://github.com/likyoo/open-cd) -> an open source change detection toolbox based on a series of open source general vision task tools
 * [Tiny_model_4_CD](https://github.com/AndreaCodegoni/Tiny_model_4_CD) -> code for 2022 [paper](https://arxiv.org/abs/2207.13159): TINYCD: A (Not So) Deep Learning Model For Change Detection. Uses LEVIR-CD & WHU-CD datasets
 * [FHD](https://github.com/ZSVOS/FHD) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9837915): Feature Hierarchical Differentiation for Remote Sensing Image Change Detection
+* [Change detection with Raster Vision](https://www.azavea.com/blog/2022/04/18/change-detection-with-raster-vision/) -> blog post with Colab notebook
 
 ## Time series
 More general than change detection, time series observations can be used for applications including improving the accuracy of crop classification, or predicting future patterns & events. Crop yield is very typically application and has its own section below
@@ -994,6 +996,7 @@ More general than change detection, time series observations can be used for app
 * [PredictYield](https://github.com/dberm312/PredictYield) -> using data scraped from Google Earth Engine, this predicts the yield of Corn, Soybean, and Wheat in the USA with Keras
 * [Crop-Yield-Prediction-and-Estimation-using-Time-series-remote-sensing-data](https://github.com/mahimatendulkar/Crop-Yield-Prediction-and-Estimation-using-Time-series-remote-sensing-data.) -> student research
 * [Yield-Prediction-Using-Sentinel-Data](https://github.com/meet-sapu/Crop-Yield-Prediction-Using-Satellite-Imagery)
+* [SPACY](https://github.com/rlee360/PLaTYPI) -> Satellite Prediction of Aggregate Corn Yield
 
 ## Wealth and economic activity
 The goal is to predict economic activity from satellite imagery rather than conducting labour intensive ground surveys
@@ -1041,6 +1044,7 @@ Also checkout the sections on change detection and water/fire/building segmentat
 * [Automatic Damage Annotation on Post-Hurricane Satellite Imagery](https://dds-lab.github.io/disaster-damage-detection/) -> detect damaged buildings using tensorflow object detection API. With repos [here](https://github.com/DDS-Lab/disaster-image-processing) and [here](https://github.com/annieyan/PreprocessSatelliteImagery-ObjectDetection)
 * [Hurricane-Damage-Detection](https://github.com/Ryan-Awad/Hurricane-Damage-Detection) -> Waterloo's Hack the North 2020++ submission. A convolutional neural network model used to detect hurricane damage in RGB satellite images
 * [wildfire_forecasting](https://github.com/Orion-AI-Lab/wildfire_forecasting) -> code for 2021 [paper](https://arxiv.org/abs/2111.02736): Deep Learning Methods for Daily Wildfire Danger Forecasting. Uses ConvLSTM
+* [Satellite Image Analysis with fast.ai for Disaster Recovery](https://appsilon.com/satellite-image-analysis-with-fast-ai-for-disaster-recovery/)
 
 ## Weather phenomena
 * [EddyData](https://github.com/zmokokokok/EddyData) -> code for paper: A Deep Framework for Eddy Detection and Tracking from Satellite Sea Surface Height Data
@@ -1433,6 +1437,7 @@ Data fusion covers techniques which integrate multiple datasources, for example 
 * [SOLC](https://github.com/yisun98/SOLC) -> code for 2022 [paper](https://www.sciencedirect.com/science/article/pii/S0303243421003457): MCANet: A joint semantic segmentation framework of optical and SAR images for land use classification. Uses [WHU-OPT-SAR-dataset](https://github.com/AmberHen/WHU-OPT-SAR-dataset)
 * [MFT](https://github.com/AnkurDeria/MFT) -> code for 2022 [paper](https://arxiv.org/abs/2203.16952): Multimodal Fusion Transformer for Remote Sensing Image Classification
 * [ISPRS_S2FL](https://github.com/danfenghong/ISPRS_S2FL) -> code for 2021 [paper](https://www.sciencedirect.com/science/article/pii/S0924271621001362): Multimodal Remote Sensing Benchmark Datasets for Land Cover Classification with A Shared and Specific Feature Learning Model
+* [HSHT-Satellite-Imagery-Synthesis](https://github.com/yuvalofek/HSHT-Satellite-Imagery-Synthesis) -> code for thesis - Improving Flood Maps by Increasing the Temporal Resolution of Satellites Using Hybrid Sensor Fusion
 
 ## Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF
 Measure surface contours & locate 3D points in space from 2D images. NeRF stands for Neural Radiance Fields and is the term used in deep learning communities to describe a model that generates views of complex 3D scenes based on a partial set of 2D images
@@ -1670,6 +1675,7 @@ This section contains a short list of datasets relevant to deep learning, partic
 * [OMBRIA](https://github.com/geodrak/OMBRIA) -> Sentinel-1 & 2 dataset for adressing the flood mapping problem
 * [Canadian-cropland-dataset](https://github.com/bioinfoUQAM/Canadian-cropland-dataset) -> a novel patch-based dataset compiled using optical satellite images of Canadian agricultural croplands retrieved from Sentinel-2
 * [Sentinel-2 Cloud Cover Segmentation Dataset](https://mlhub.earth/data/ref_cloud_cover_detection_challenge_v1) on Radiant mlhub
+* [The Azavea Cloud Dataset](https://www.azavea.com/blog/2021/08/02/the-azavea-cloud-dataset/) which is used to train this [cloud-model](https://github.com/azavea/cloud-model)
 
 ## Landsat
 * Long running US program -> see [Wikipedia](https://en.wikipedia.org/wiki/Landsat_program)
@@ -1968,6 +1974,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [QXS-SAROPT](https://github.com/yaoxu008/QXS-SAROPT) -> Optical and SAR pairing dataset from the [paper](https://arxiv.org/abs/2103.08259): The QXS-SAROPT Dataset for Deep Learning in SAR-Optical Data Fusion
 * [SAR-ACD](https://github.com/AICyberTeam/SAR-ACD) -> SAR-ACD consists of 4322 aircraft clips with 6 civil aircraft categories and 14 other aircraft categories
 * [SODA](https://shaunyuan22.github.io/SODA/) -> A large-scale Small Object Detection dataset. SODA-A comprises 2510 high-resolution images of aerial scenes, which has 800203 instances annotated with oriented rectangle box annotations over 9 classes.
+* [Data-CSHSI](https://github.com/YuxiangZhang-BIT/Data-CSHSI) -> Open source datasets for Cross-Scene Hyperspectral Image Classification, includes Houston, Pavia & HyRank datasets
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
@@ -2780,6 +2787,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [GOTCHA](https://github.com/jveitchmichaelis/gotcha) -> Command line implementation of the GOTCHA stereo matching algorithm
 * [SREM](https://github.com/oyam/srem) -> A Simplified and Robust Surface Reflectance Estimation Method for Satellite Imagery
 * [kaizen](https://github.com/fuzailpalnak/kaizen) -> A library to map match and help tackle the problem of overlapping/intersecting road and building footprint that arises in the process of map making
+* [CoastSat.PlanetScope](https://github.com/ydoherty/CoastSat.PlanetScope) -> Batch shoreline extraction toolkit for PlanetScope Dove satellite imagery
 
 ## GDAL & Rasterio
 So improtant this pair gets their own section. GDAL is THE command line tool for reading and writing raster and vector geospatial data formats. If you are using python you will probably want to use Rasterio which provides a pythonic wrapper for GDAL
@@ -3107,6 +3115,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 
 # Bedtime reading
 * [Meditations: A Requiem for Descartes Labs](https://philosophygeek.medium.com/meditations-a-requiem-for-descartes-labs-8b913b5e898)
+* [Why We Haven’t Taken on Investment by Robert Cheetham at Azavea](https://www.azavea.com/blog/2022/05/03/why-we-havent-taken-on-investment/)
 
 # Podcasts
 * [Scene From Above Podcast](https://scenefromabove.podbean.com/)
