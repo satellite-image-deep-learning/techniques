@@ -1763,6 +1763,11 @@ This section contains a short list of datasets relevant to deep learning, partic
 * https://github.com/TianwenZhang0825/Official-SSDD
 * [Rotation-RetinaNet-PyTorch](https://github.com/HsLOL/Rotation-RetinaNet-PyTorch)
 
+## LEVIR ship dataset
+* [LEVIR-Ship](https://github.com/WindVChen/LEVIR-Ship)
+* A dataset for tiny ship detection under medium-resolution remote sensing images
+* Hosted on [Nucleus](https://dashboard.scale.com/nucleus/ds_cbsghny30nf00b1x3w7g)
+
 ## SAR Aircraft Detection Dataset 
 * https://github.com/hust-rslab/SAR-aircraft-data
 * 2966 nonoverlapped 224×224 slices are collected with 7835 aircraft targets
@@ -1951,7 +1956,6 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [S2Looking](https://github.com/S2Looking/Dataset) -> A Satellite Side-Looking Dataset for Building Change Detection, [paper](https://arxiv.org/abs/2107.09244)
 * [Zurich Summer Dataset](https://sites.google.com/site/michelevolpiresearch/data/zurich-dataset) -> Semantic segmentation of urban scenes
 * [AISD](https://github.com/RSrscoder/AISD) -> Aerial Imagery dataset for Shadow Detection
-* [LEVIR-Ship](https://github.com/WindVChen/LEVIR-Ship) -> a dataset for tiny ship detection under medium-resolution remote sensing images
 * [Awesome-Remote-Sensing-Relative-Radiometric-Normalization-Datasets](https://github.com/ArminMoghimi/Awesome-Remote-Sensing-Relative-Radiometric-Normalization-Datasets)
 * [SearchAndRescueNet](https://github.com/michaelthoreau/SearchAndRescueNet) -> Satellite Imagery for Search And Rescue Dataset, with example Faster R-CNN model
 * [geonrw](https://ieee-dataport.org/open-access/geonrw) -> orthorectified aerial photographs, LiDAR derived digital elevation models and segmentation maps with 10 classes. With [repo](https://github.com/gbaier/geonrw)
@@ -2489,6 +2493,7 @@ for Vision Applications. Read the paper [here](https://arxiv.org/abs/2111.10046)
 * [nvtop](https://github.com/Syllo/nvtop) -> NVIDIA GPUs htop like monitoring tool
 * [rgis](https://github.com/frewsxcv/rgis) -> Geospatial data viewer written in Rust
 * [aerialbot](https://github.com/doersino/aerialbot) -> A simple yet highly configurable bot that tweets geotagged aerial imagery of a random location in the world
+* [SatDump](https://github.com/altillimity/SatDump) -> A generic satellite data processing software.
 
 ## General utilities
 Scripts and command line applications
@@ -2670,6 +2675,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [embeddinghub](https://github.com/featureform/embeddinghub) -> A vector database for machine learning embeddings
 * [Resonant GeoData](https://github.com/ResonantGeoData/ResonantGeoData/) -> a Django application well suited for catalogging and searching annotated geospatial imagery, shapefiles, and full motion video datasets
 * [fastdup](https://github.com/visualdatabase/fastdup) -> a tool for gaining insights from a large image collection. It can find anomalies, duplicate and near duplicate images
+* [Nucleus](https://dashboard.scale.com/nucleus/) is a platform for image dataset management with advanced features including [autotagging](https://nucleus.scale.com/docs/introduction-to-autotag) and finding [instances with mismatched predictions & annotations](https://nucleus.scale.com/docs/find-inaccurate-predictions)
 
 # Deep learning packages, frameworks & projects
 * [TorchGeo](https://github.com/microsoft/torchgeo) -> a PyTorch domain library providing datasets, samplers, transforms, and pre-trained models specific to geospatial data, supported by Microsoft. Read [Geospatial deep learning with TorchGeo](https://pytorch.org/blog/geospatial-deep-learning-with-torchgeo/)
@@ -2876,6 +2882,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [Computer Vision With OpenStreetMap and SpaceNet — A Comparison](https://medium.com/the-downlinq/computer-vision-with-openstreetmap-and-spacenet-a-comparison-cc70353d0ace)
 * [url-map](https://simonwillison.net/2022/Jun/12/url-map/) -> A tiny web app to create images from OpenStreetMap maps
 * [Label Maker](https://github.com/developmentseed/label-maker) -> a library for creating machine-learning ready data by pairing satellite images with OpenStreetMap (OSM) vector data. [Example usage with dask using Planetary Computer](https://github.com/microsoft/PlanetaryComputerExamples/blob/main/tutorials/label-maker-dask.ipynb)
+* [baremaps](https://github.com/baremaps/baremaps) -> Create custom vector tiles from OpenStreetMap and other data sources with Postgis and Java.
 
 ## QGIS
 A popular open source alternative to ArcGIS, QGIS is a desktop appication written in python and extended with plugins which are essentially python scripts
