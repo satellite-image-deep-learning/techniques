@@ -597,6 +597,7 @@ Several different techniques can be used to count the number of objects in an im
 * [Object-Detection](https://github.com/xiaojs18/Object-Detection) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/16/3969): Multi-Scale Object Detection with the Pixel Attention Mechanism in a Complex Background
 * [mmdet-rfla](https://github.com/Chasel-Tsui/mmdet-rfla) -> code for 2022 [paper](https://arxiv.org/abs/2208.08738): RFLA: Gaussian Receptive based Label Assignment for Tiny Object Detection
 * [Interactive-Multi-Class-Tiny-Object-Detection](https://github.com/ChungYi347/Interactive-Multi-Class-Tiny-Object-Detection) -> code for 2022 [paper](https://arxiv.org/abs/2203.15266): Interactive Multi-Class Tiny-Object Detection
+* [small-object-detection-benchmark](https://github.com/fcakyon/small-object-detection-benchmark) -> code for ICIP 2022 [paper](https://arxiv.org/abs/2202.06934): Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection
 
 #### Object counting
 When the object count, but not its shape is required, U-net can be used to treat this as an image-to-image translation problem.
@@ -2483,6 +2484,7 @@ Tools to visualise annotations & convert between formats. Note that most annotat
 * [ObjectDetectionEval](https://github.com/laclouis5/ObjectDetectionEval) -> Parse all kinds of object detection databases (ImageNet, COCO, YOLO, PascalVOC, OpenImage, CVAT, LabelMe, etc.) & save to other formats
 * [LabelMeYoloConverter](https://github.com/ivder/LabelMeYoloConverter) -> Convert LabelMe Annotation Tool JSON format to YOLO text file format
 * [mask-to-polygons](https://github.com/azavea/mask-to-polygons) -> Routines for extracting and working with polygons from semantic segmentation masks
+* [labelme2coco](https://github.com/fcakyon/labelme2coco) -> Converts LabelMe JSON format into COCO object detection and instance segmentation format.
 
 # Open source software
 By software, I here mean desktop type apps. [A note on licensing](https://www.gislounge.com/businesses-using-open-source-gis/): The two general types of licenses for open source are copyleft and permissive. Copyleft requires that subsequent derived software products also carry the license forward, e.g. the GNU Public License (GNU GPLv3). For permissive, options to modify and use the code as one please are more open, e.g. MIT & Apache 2. Checkout [choosealicense.com/](https://choosealicense.com/)
@@ -2624,6 +2626,7 @@ Since raw images can be very large, it is usually necessary to chip/tile them in
 * [GeoPatch](https://github.com/Hejarshahabi/GeoPatch) -> generating patches from remote sensing data
 * [ImageTilingUtils](https://github.com/vfdev-5/ImageTilingUtils) -> Minimalistic set of image reader agnostic tools to easily iterate over large images
 * [split_raster](https://github.com/cuicaihao/split_raster) -> Creates a tiled output from an input raster dataset. pip installable
+* [SAHI](https://github.com/obss/sahi) -> Utilties for slicing COCO formatted annotations and image files, performing sliced inference using MMDetection, Detectron2, YOLOv5, HuggingFace detectors and calculating AP over image slices.
 
 ## Image dataset creation
 Many datasets on kaggle & elsewhere have been created by screen-clipping Google Maps or browsing web portals. The tools below are to create datasets programatically
@@ -2711,7 +2714,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [RoboSat](https://github.com/mapbox/robosat) -> semantic segmentation on aerial and satellite imagery. Extracts features such as: buildings, parking lots, roads, water, clouds (no longer maintained)
 * [DeepOSM](https://github.com/trailbehind/DeepOSM) -> Train a deep learning net with OpenStreetMap features and satellite imagery (no activity since 2017)
 * [mapwith.ai](https://mapwith.ai/) -> AI assisted mapping of roads with OpenStreetMap. Part of [Open-Mapping-At-Facebook](https://github.com/facebookmicrosites/Open-Mapping-At-Facebook)
-* [sahi](https://github.com/obss/sahi) -> A vision library for performing sliced inference on large images/small objects. Read the [arxiv paper](https://arxiv.org/abs/2202.06934) and article [A practical guide to using Slicing-Aided Hyper Inference for analyzing satellite images](https://blog.ml6.eu/how-to-detect-small-objects-in-very-large-images-70234bab0f98)
+* [SAHI](https://github.com/obss/sahi) -> Python library for slicing image datasets, performing sliced inference with MMDetection, Detectron2, YOLOv5, Torchvision detectors and generating error analysis plots. Read the [arxiv paper](https://arxiv.org/abs/2202.06934) and article [SAHI: A vision library for large-scale object detection & instance segmentation](https://medium.com/codable/sahi-a-vision-library-for-performing-sliced-inference-on-large-images-small-objects-c8b086af3b80)
 * [terragpu](https://github.com/nasa-cisto-ai/terragpu) -> Python library to process and classify remote sensing imagery by means of GPUs and AI/ML
 * [EOTorchLoader](https://github.com/ndavid/EOTorchLoader) -> Pytorch dataloader and pytorch lightning datamodule for Earth Observation imagery
 * [satellighte](https://github.com/canturan10/satellighte) -> an image classification library that consist state-of-the-art deep learning methods, using PyTorch Lightning
@@ -2779,6 +2782,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [pygieons](https://github.com/pygieons/pygieons) -> A simple package to visualize and keep track of GIS and Earth Observation libraries in Python
 * [regionmask](https://github.com/regionmask/regionmask) -> Create masks of geographical regions for arbitrary longitude and latitude grids
 * [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/)
+* [SAHI](https://github.com/obss/sahi) -> Creates [error analysis plots](https://github.com/obss/sahi/issues/356) for your object detector and [interactively visualizes your predictions](https://github.com/obss/sahi/issues/357)
 
 ## Algorithms
 * [WaterDetect](https://github.com/cordmaur/WaterDetect) -> an end-to-end algorithm to generate open water cover mask, specially conceived for L2A Sentinel 2 imagery. It can also be used for Landsat 8 images and for other multispectral clustering/segmentation tasks.
@@ -3032,7 +3036,7 @@ The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computin
 * [Daniel J Dufour](https://github.com/DanielJDufour) builds [geotiff.io](https://geotiff.io/) and more
 * [Daniel Moraite](https://daniel-moraite.medium.com/) is publishing some excellent articles
 * [Even Rouault](https://github.com/rouault) maintains several of the most critical tools in this domain such as GDAL
-* [Fatih Cagatay Akyon](https://github.com/fcakyon) aka fcakyon is maintaining sahi and many other useful projects
+* [Fatih Cagatay Akyon](https://github.com/fcakyon) aka fcakyon is maintaining SAHI and many other useful projects
 * [Gonzalo Mateo García](https://github.com/gonzmg88) is working on clouds and Water segmentation with CNNs
 * [Isaac Corley](https://github.com/isaaccorley) is working on super-resolution and torchrs
 * [Jake Shermeyer](https://github.com/jshermeyer) many interesting repos
@@ -3083,6 +3087,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [NASA Harvest Mission](https://github.com/nasaharvest) -> NASA’s Food Security and Agriculture Program
 * [National Geospatial-Intelligence Agency USA](https://github.com/ngageoint)
 * [Near Space Labs](https://github.com/nearspacelabs)
+* [Open Business Software Solutions](https://github.com/obss)
 * [OpenGeoScales](https://github.com/OpenGeoScales)
 * [Open Geospatial Consortium](https://github.com/opengeospatial) -> the [OGC](https://www.ogc.org/)
 * [Ordnance Survey](https://github.com/OrdnanceSurvey)
