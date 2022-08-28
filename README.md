@@ -518,7 +518,7 @@ Semantic Segmentation
 * [ood_instances_sophia](https://github.com/gabrielkasmi/ood_instances_sophia) -> Material for the poster "The effect of PV array instances and images backgrounds on OOD generalization"
 
 ### Segmentation - Electrical substations
-The repos below resulted from the [ICETCI 2021 competition on Machine Learning based feature extraction of Electrical Substations from Satellite Data using Open Source Tools](https://competitions.codalab.org/competitions/32132)
+The repos below resulted from the ICETCI 2021 competition on Machine Learning based feature extraction of Electrical Substations from Satellite Data using Open Source Tools
 * [Aarsh2001/ML_Challenge_NRSC](https://github.com/Aarsh2001/ML_Challenge_NRSC) -> 3rd place entry
 * [electrical_substation_detection](https://github.com/thisishardik/electrical_substation_detection) -> entry using UNet, Albumentations for image augmentation, and OpenCV for computer vision tasks
 
@@ -2315,7 +2315,7 @@ A GPU is required for training deep learning models (but not necessarily for inf
 * Serverless compute (e.g. AWS Lambda) mean that managing servers may become a thing of the past
 * Custom hardware is being developed for rapid training and inferencing with deep learning models, both in the datacenter and at the edge
 * Supervised ML methods typically require large annotated datasets, but approaches such as self-supervised and active learning require less or even no annotation
-* Computer vision traditionally delivered high performance image processing on a CPU by using compiled languages like C++, as used by OpenCV for example. The advent of GPUs are changing the paradigm, with alternatives optimised for GPU being created, such as [Kornia](https://kornia.github.io/)
+* Computer vision traditionally delivered high performance image processing on a CPU by using compiled languages like C++, as used by OpenCV for example. The advent of GPUs are changing the paradigm, with alternatives optimised for GPU being created, such as [Kornia](https://github.com/kornia/kornia)
 * Whilst the combo of python and keras/tensorflow/pytorch are currently preeminent, new python libraries such as [Jax](https://github.com/google/jax) and alternative languages such as [Julia](https://julialang.org/) are showing serious promise
 
 # Cloud providers
