@@ -1082,6 +1082,7 @@ Super-resolution attempts to enhance the resolution of an imaging system, and ca
 * [OLI2MSI](https://github.com/wjwjww/OLI2MSI) -> dataset for remote sensing imagery super-resolution composed of Landsat8-OLI and Sentinel2-MSI images
 * [MMSR](https://github.com/palmdong/MMSR) -> Learning Mutual Modulation for Self-Supervised Cross-Modal Super-Resolution
 * [HSRnet](https://github.com/liangjiandeng/HSRnet) -> code for the 2021 [paper](https://arxiv.org/abs/2005.14400): Hyperspectral Image Super-resolution via Deep Spatio-spectral Attention Convolutional Neural Networks
+* [RRSGAN](https://github.com/dongrunmin/RRSGAN) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9328132): RRSGAN: Reference-Based Super-Resolution for Remote Sensing Image
 
 ### Single image super-resolution (SISR)
 * [Super Resolution for Satellite Imagery - srcnn repo](https://github.com/WarrenGreen/srcnn)
@@ -3161,6 +3162,7 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Terrawatch Space](https://anchor.fm/terrawatch-space)
 * [Geomob](https://thegeomob.com/)
 * [Project Geospatial](https://podcasts.apple.com/us/podcast/project-geospatial/id1486384184)
+* [Eyes on Earth by USGS](https://www.usgs.gov/centers/eros/eyes-earth)
 * [Zenml episode: Satellite Vision with Robin Cole](https://podcast.zenml.io/satellite-vision-robin-cole)
 
 # Newsletters
