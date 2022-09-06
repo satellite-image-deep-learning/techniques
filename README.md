@@ -875,6 +875,7 @@ Generally treated as a semantic segmentation problem or custom features created 
 * [CloudXNet](https://github.com/shyamfec/CloudXNet) -> code for 2020 [paper](https://www.sciencedirect.com/science/article/abs/pii/S2352938520303803): CloudX-net: A robust encoder-decoder architecture for cloud detection from satellite remote sensing images
 * [refined-unet-lite](https://github.com/92xianshen/refined-unet-lite) -> code for 2022 [paper](https://www.sciencedirect.com/science/article/pii/S1877050922005361): Refined UNet Lite: End-to-End Lightweight Network for Edge-precise Cloud Detection
 * [cloud-buster](https://github.com/azavea/cloud-buster) -> Sentinel-2 L1C and L2A Imagery with Fewer Clouds
+* [SatelliteCloudGenerator](https://github.com/cidcom/SatelliteCloudGenerator) -> A PyTorch-based tool to generate clouds for satellite images
 
 ## Change detection
 Generally speaking, change detection methods are applied to a pair of images to generate a mask of change, e.g. of buildings damaged in a disaster. Note, clouds & shadows change often too..!
@@ -1781,7 +1782,9 @@ This section contains a short list of datasets relevant to deep learning, partic
 ## LEVIR ship dataset
 * [LEVIR-Ship](https://github.com/WindVChen/LEVIR-Ship)
 * A dataset for tiny ship detection under medium-resolution remote sensing images
-* Hosted on [Nucleus](https://dashboard.scale.com/nucleus/ds_cbsghny30nf00b1x3w7g)
+<!-- markdown-link-check-disable -->
+* Hosted on [Nucleus](https://dashboard.scale.com/nucleus/ds_cbsghny30nf00b1x3w7g?utm_source=open_dataset&utm_medium=github&utm_campaign=levir_ships)
+<!-- markdown-link-check-enable -->
 
 ## SAR Aircraft Detection Dataset 
 * https://github.com/hust-rslab/SAR-aircraft-data
@@ -1817,7 +1820,7 @@ This section contains a short list of datasets relevant to deep learning, partic
 * https://www.airs-dataset.com
 * Public dataset for roof segmentation from very-high-resolution aerial imagery (7.5cm)
 * AIRS dataset covers almost the full area of Christchurch, the largest city in the South Island of New Zealand.
-* [Also on Kaggle](https://www.kaggle.com/atilol/aerialimageryforroofsegmentation/version/1)
+* [Also on Kaggle](https://www.kaggle.com/atilol/aerialimageryforroofsegmentation)
 * [Rooftop-Instance-Segmentation](https://github.com/MasterSkepticista/Rooftop-Instance-Segmentation) -> VGG-16, Instance Segmentation, uses the Airs dataset
 
 ## Inria building/not building segmentation dataset
