@@ -51,6 +51,7 @@ This page lists resources for performing deep learning on satellite imagery. To 
   * [Pansharpening](https://github.com/robmarkcole/satellite-image-deep-learning#pansharpening)
   * [Image-to-image translation](https://github.com/robmarkcole/satellite-image-deep-learning#image-to-image-translation)
   * [GANS](https://github.com/robmarkcole/satellite-image-deep-learning#gans)
+  * [Transformers](https://github.com/robmarkcole/satellite-image-deep-learning#transformers)
   * [Adversarial ML](https://github.com/robmarkcole/satellite-image-deep-learning#adversarial-ml)
   * [Autoencoders, dimensionality reduction, image embeddings & similarity search](https://github.com/robmarkcole/satellite-image-deep-learning#autoencoders-dimensionality-reduction-image-embeddings--similarity-search)
   * [Image retreival](https://github.com/robmarkcole/satellite-image-deep-learning#image-retreival)
