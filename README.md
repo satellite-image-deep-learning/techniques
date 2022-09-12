@@ -2,13 +2,9 @@
 <img src="logo.png" width="700">
 </p>
 
-This page lists resources for performing deep learning on satellite imagery. To a lesser extent classical Machine learning (e.g. random forests) are also discussed, as are classical image processing techniques. Note there is a huge volume of academic literature published on these topics, and this repository does not seek to index them all but rather list approachable resources with published code that will benefit both the research *and* developer communities. If you find this work useful please give it a star and consider sponsoring it. You can also follow me on Twitter and LinkedIn where I aim to post frequent updates on my new discoveries, and I have created a dedicated [group on LinkedIn](https://www.linkedin.com/groups/12698393/). I have also started a blog [here](https://robmarkcole.com/) and have published a post on the history of this repository called [Dissecting the satellite-image-deep-learning repo](https://robmarkcole.com/markdown/2022/07/24/satellite-image-deep-learning.html) If you use this work in your research please cite using the citation information on the right. Thanks!
+This repository lists resources on the topic of deep learning applied to satellite and aerial imagery. To a lesser extent classical machine learning techniques are listed, as are topics such as cloud computing and model deployment. You can follow me on [Twitter](https://twitter.com/robmarkcole) and join the dedicated [satellite-image-deep-learning group on LinkedIn](https://www.linkedin.com/groups/12698393/). If this resource is useful to your work please consider sponsoring it with a donation via [Github Sponsors](https://github.com/sponsors/robmarkcole)
 
-<!-- markdown-link-check-disable -->
-[![Twitter Follow](https://img.shields.io/twitter/follow/robmarkcole?label=Follow)](https://twitter.com/robmarkcole)
-[![Linkedin: robmarkcole](https://img.shields.io/badge/-Robin%20Cole-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/robmarkcole/)](https://www.linkedin.com/in/robmarkcole/)
-[![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-red)](https://scholar.google.com/citations?user=oHe5ozwAAAAJ&hl=en)
-<!-- markdown-link-check-enable -->
+**How to use this repository:** if you know exactly what you are looking for (e.g. a dataset name) you can `Control+F` to search for it in the page. Otherwise refer to the table of contents below, and search within the relevant section. Material that is suitable for beginners is tagged with the 🔰 emoji, which can also be searched.
 
 # Table of contents
 * [Techniques](https://github.com/robmarkcole/satellite-image-deep-learning#techniques)
@@ -123,7 +119,7 @@ This page lists resources for performing deep learning on satellite imagery. To 
 * [Jobs](https://github.com/robmarkcole/satellite-image-deep-learning#jobs)
 
 # Techniques
-This section explores the different deep and machine learning (ML) techniques applied to common problems in satellite imagery analysis. Good background reading is [Deep learning in remote sensing applications: A meta-analysis and review](https://www.iges.or.jp/en/publication_documents/pub/peer/en/6898/Ma+et+al+2019.pdf)
+This section explores the different deep and machine learning (ML) techniques applied to common problems in satellite imagery analysis. Good background reading is [Deep learning in remote sensing applications: A meta-analysis and review](https://www.iges.or.jp/en/publication_documents/pub/peer/en/6898/Ma+et+al+2019.pdf) 🔰
 
 ## Classification
 The classic cats vs dogs image classification task, which in the remote sensing domain is used to assign a label to an image, e.g. this is an image of a forest. The more complex case is applying multiple labels to an image. This approach of image level classification is not to be confused with pixel-level classification which is called semantic segmentation. In general, aerial images cover large geographical areas that include multiple classes of land, so treating this is as a classification problem is less common than using semantic segmentation. I recommend to get started with the EuroSAT dataset.
