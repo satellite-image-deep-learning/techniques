@@ -52,6 +52,20 @@ Processing on board a satellite allows less data to be downlinked. e.g. super-re
 * [Kaggle Intro to Satellite imagery Analysis group](https://www.kaggle.com/getting-started/131455)
 * [Omdena](https://omdena.com/) brings together small teams of engineers to work on AI projects
 
+# Books
+* I highly recommend [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python-second-edition) by François Chollet
+* [Image Analysis, Classification and Change Detection in Remote Sensing With Algorithms for Python, Fourth Edition, By Morton John Canty](https://www.routledge.com/Image-Analysis-Classification-and-Change-Detection-in-Remote-Sensing-With/Canty/p/book/9781138613225) -> code [here](https://github.com/mortcanty/CRC4Docker)
+* [Practical Deep Learning for Cloud, Mobile & Edge](https://github.com/PracticalDL/Practical-Deep-Learning-Book)
+* [d2l.ai](https://www.d2l.ai/) -> Interactive deep learning book with code, math, and discussions
+* [interpretable-ml-book](https://github.com/christophM/interpretable-ml-book)
+* [pyGIS](https://github.com/mmann1123/pyGIS) -> an online textbook covering all the core geospatial functionality available in Python
+* [Deep Learning Interviews book](https://github.com/BoltzmannEntropy/interviews.ai)
+* [Geographic Data Science with Python](https://geographicdata.science/book/intro.html) -> data science applied to geographic problems and data
+* [eBook: Introduction to Datascience with Julia](https://datascience-book.gitlab.io/)
+* [Deep Learning In Production Book](https://github.com/The-AI-Summer/Deep-Learning-In-Production)
+* [Land Use Cover Datasets and Validation Tools](https://link.springer.com/book/10.1007/978-3-030-90998-7)
+* [Intermediate Python](https://book.pythontips.com/en/latest/)
+
 # Jobs
 Signup for the [geospatial-jobs-newsletter](https://geospatial.substack.com/p/welcome-to-geospatial-jobs-newsletter) and [Pangeo discourse](https://discourse.pangeo.io/c/news/jobs) lists multiple jobs, global. List of job portals below:
 * [Capella Space](https://apply.workable.com/capellaspace/)
