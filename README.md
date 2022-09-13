@@ -65,14 +65,14 @@ This repository lists resources on the topic of deep learning applied to satelli
   * [SAR](https://github.com/robmarkcole/satellite-image-deep-learning#sar)
   * [NVDI - vegetation index](https://github.com/robmarkcole/satellite-image-deep-learning#nvdi---vegetation-index)
   * [General image quality](https://github.com/robmarkcole/satellite-image-deep-learning#general-image-quality)
+  * [Synthetic data](https://github.com/robmarkcole/satellite-image-deep-learning#synthetic-data)
 * [ML best practice](https://github.com/robmarkcole/satellite-image-deep-learning#ml-best-practice)
 * [Metrics](https://github.com/robmarkcole/satellite-image-deep-learning#metrics)
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
-* [Synthetic data](https://github.com/robmarkcole/satellite-image-deep-learning#synthetic-data)
 * [Free online compute](https://github.com/robmarkcole/satellite-image-deep-learning#free-online-compute)
 * [Deploying models](https://github.com/robmarkcole/satellite-image-deep-learning#deploying-models)
-* [Image annotation](https://github.com/robmarkcole/satellite-image-deep-learning#image-annotation)
-* [Open source software](https://github.com/robmarkcole/satellite-image-deep-learning#open-source-software)
+* [Annotation](https://github.com/robmarkcole/satellite-image-deep-learning#annotation)
+* [Software](https://github.com/robmarkcole/satellite-image-deep-learning#software)
 * [Courses](https://github.com/robmarkcole/satellite-image-deep-learning#courses)
 * [Books](https://github.com/robmarkcole/satellite-image-deep-learning#books)
 
@@ -1477,54 +1477,7 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 * [LEO-GEO-landsurfacetemp](https://github.com/KateDuffy/LEO-GEO-landsurfacetemp) -> Multi-sensor machine learning to retrieve high spatiotemporal resolution land surface temperature
 
 ## SAR
-* [awesome-sar](https://github.com/RadarCODE/awesome-sar) -> A curated list of awesome Synthetic Aperture Radar (SAR) software, libraries, and resources
-* [Removing speckle noise from Sentinel-1 SAR using a CNN](https://medium.com/upstream/denoising-sentinel-1-radar-images-5f764faffb3e)
-* A dataset which is specifically made for deep learning on SAR and optical imagery is the SEN1-2 dataset, which contains corresponding patch pairs of Sentinel 1 (VV) and 2 (RGB) data. It is the largest manually curated dataset of S1 and S2 products, with corresponding labels for land use/land cover mapping, SAR-optical fusion, segmentation and classification tasks. Data: https://mediatum.ub.tum.de/1474000
-* [so2sat on Tensorflow datasets](https://www.tensorflow.org/datasets/catalog/so2sat) -> So2Sat LCZ42 is a dataset consisting of co-registered synthetic aperture radar and multispectral optical image patches acquired by the Sentinel-1 and Sentinel-2 remote sensing satellites, and the corresponding local climate zones (LCZ) label. The dataset is distributed over 42 cities across different continents and cultural regions of the world.
-* [You do not need clean images for SAR despeckling with deep learning](https://towardsdatascience.com/you-do-not-need-clean-images-for-sar-despeckling-with-deep-learning-fe9c44350b69) -> How Speckle2Void learned to stop worrying and love the noise
-* [PySAR - InSAR (Interferometric Synthetic Aperture Radar) timeseries analysis in python](https://github.com/hfattahi/PySAR)
-* [Synthetic Aperture Radar (SAR) Analysis With Clarifai](https://www.clarifai.com/blog/synthetic-aperture-radar-sar-analysis-with-clarifai)
-* [Labeled SAR imagery dataset of ten geophysical phenomena from Sentinel-1 wave mode](https://www.seanoe.org/data/00456/56796/) consists of more than 37,000 SAR vignettes divided into ten defined geophysical categories
-* [Deep Learning and SAR Applications](https://towardsdatascience.com/deep-learning-and-sar-applications-81ba1a319def)
-* [Implementing an Ensemble Convolutional Neural Network on Sentinel-1 Synthetic Aperture Radar data and Sentinel-3 Radiometric data for the detecting of forest fires](https://github.com/aalling93/ECNN-on-SAR-data-and-Radiometry-data)
-* [s1_parking_occupancy](https://github.com/sdrdis/s1_parking_occupancy) -> Source code for PARKING OCCUPANCY ESTIMATION ON SENTINEL-1 IMAGES, ISPRS 2020
-* [Experiments on Flood Segmentation on Sentinel-1 SAR Imagery with Cyclical Pseudo Labeling and Noisy Student Training](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection)
-* [SpaceNet_SAR_Buildings_Solutions](https://github.com/SpaceNetChallenge/SpaceNet_SAR_Buildings_Solutions) -> The winning solutions for the SpaceNet 6 Challenge
-* [Mapping and monitoring of infrastructure in desert regions with Sentinel-1](https://github.com/ESA-PhiLab/infrastructure)
-* [xView3](https://iuu.xview.us/) is a competition to detect dark vessels using computer vision and global SAR satellite imagery. [First place solution](https://github.com/DIUx-xView/xView3_first_place) and [second place solution](https://github.com/DIUx-xView/xView3_second_place). Additional places up to fifth place are available at the [xView GitHub Organization page](https://github.com/DIUx-xView/)
-* [Winners of the STAC Overflow: Map Floodwater from Radar Imagery competition](https://github.com/drivendataorg/stac-overflow)
-* [deSpeckNet-TF-GEE](https://github.com/adugnag/deSpeckNet-TF-GEE) -> implementation of the paper 'deSpeckNet: Generalizing Deep Learning Based SAR Image Despeckling'
-* [cnn_sar_image_classification](https://github.com/diogosens/cnn_sar_image_classification) -> CNN for classifying SAR images of the Amazon Rainforest
-* [s1_icetype_cnn](https://github.com/nansencenter/s1_icetype_cnn) -> Retrieve sea ice type from Sentinel-1 SAR with CNN
-* [SARSeg](https://github.com/ggsDing/SARSeg) -> pytorch code for the paper 'MP-ResNet: Multi-path Residual Network for the Semantic segmentation of PolSAR Images'
-* [TGRS_DisOptNet](https://github.com/jiankang1991/TGRS_DisOptNet) -> Distilling Semantic Knowledge from Optical Images for Weather-independent Building Segmentation
-* [SAR_CD_DDNet](https://github.com/summitgao/SAR_CD_DDNet) -> PyTorch implementation of Change Detection in Synthetic Aperture Radar Images Using a Dual Domain Network
-* [SAR_CD_MS_CapsNet](https://github.com/summitgao/SAR_CD_MS_CapsNet) -> Code for the paper "Change Detection in SAR Images Based on Multiscale Capsule Network" IEEE GRSL 2021
-* [anomaly-detection-in-SAR-imagery](https://github.com/iamyadavabhishek/anomaly-detection-in-SAR-imagery) -> identify an unknown ship in docks using keras &  retinanet
-* [sar_transformer](https://github.com/malshaV/sar_transformer) -> Transformer based SAR image despeckling, trained with synthetic imagery, with [paper](https://arxiv.org/abs/2201.09355)
-* [SSDD ship detection dataset](https://github.com/TianwenZhang0825/Official-SSDD)
-* [Semantic segmentation of SAR images using a self supervised technique](https://github.com/cattale93/pytorch_self_supervised_learning)
-* [Ship Detection on Remote Sensing Synthetic Aperture Radar Data](https://github.com/JasonManesis/Ship-Detection-on-Remote-Sensing-Synthetic-Aperture-Radar-Data) -> based on the architectures of the Faster-RCNN and YOLOv5 networks
-* [Target Recognition in SAR](https://github.com/NateDiR/sar_target_recognition_deep_learning) -> Identify Military Vehicles in Satellite Imagery with TensorFlow, with [article](https://python.plainenglish.io/identifying-military-vehicles-in-satellite-imagery-with-tensorflow-96015634129d)
-* [DSN](https://github.com/Alien9427/DSN) -> code for 2020 paper: Deep SAR-Net: Learning objects from signals
-* [SAR_denoising](https://github.com/MathieuRita/SAR_denoising) -> project on application of FFDNet to SAR images
-* [sarCdUsingDeepTranscoding](https://github.com/sudipansaha/sarCdUsingDeepTranscoding) -> Details of a SAR to optical transcoder training. The generator of the transcoder is subsequently used for transfer learning in a change detection framework
-* [cnninsar](https://github.com/subhayanmukherjee/cnninsar) -> code for 2018 [paper](https://ieeexplore.ieee.org/document/8589920): CNN-Based InSAR Denoising and Coherence Metric
-* [sar](https://github.com/GeomaticsAndRS/sar) -> Despeckling Synthetic Aperture Radar Images using a Deep Residual CNN
-* [GCBANet](https://github.com/TianwenZhang0825/GCBANet) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/9/2165): A Global Context Boundary-Aware Network for SAR Ship Instance Segmentation
-* [SAR_CD_GKSNet](https://github.com/summitgao/SAR_CD_GKSNet) -> code for 2022 [paper](https://arxiv.org/abs/2201.08954): Change Detection from Synthetic Aperture Radar Images via Graph-Based Knowledge Supplement Network
-* [pixel-wise-segmentation-of-sar](https://github.com/flyingshan/pixel-wise-segmentation-of-sar-imagery-using-encoder-decoder-network-and-fully-connected-crf) -> code for 2020 [paper](https://link.springer.com/chapter/10.1007/978-3-030-39431-8_15): Pixel-Wise Segmentation of SAR Imagery Using Encoder-Decoder Network and Fully-Connected CRF
-* [CenterSAR](https://github.com/EdisonLeeeee/CenterSAR) -> CenterNet for SAR ship detection based on Detectron2
-* [SAR_Ship_detection_CFAR](https://github.com/Rc-W024/SAR_Ship_detection_CFAR) -> An improved two-parameter CFAR algorithm based on Rayleigh distribution and Mathematical Morphology for SAR ship detection
-* [sar_snow_melt_timing](https://github.com/egagli/sar_snow_melt_timing) -> notebooks and tools to identify snowmelt timing using timeseries analysis of backscatter of Sentinel-1 C-band SAR
-* [Denoising radar satellite images using deep learning in Python](https://medium.com/@petebch/denoising-radar-satellite-images-using-deep-learning-in-python-946daad31022) -> Medium article on [deepdespeckling](https://github.com/hi-paris/deepdespeckling)
-* [random-wetlands](https://github.com/ekcomputer/random-wetlands) -> Random forest classification for wetland vegetation from synthetic aperture radar dataset
-* [AGSDNet](https://github.com/RTSIR/AGSDNet) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9755131): AGSDNet: Attention and Gradient-Based SAR Denoising Network
-* [LFG-Net](https://github.com/Evarray/LFG-Net) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9815311): LFG-Net: Low-Level Feature Guided Network for Precise Ship Instance Segmentation in SAR Images
-* [sar_sift](https://github.com/yishiliuhuasheng/sar_sift) -> Image registration algorithm
-* [SAR-Despeckling](https://github.com/ImageRestorationToolbox/SAR-Despeckling) -> toolbox
-* [cogsima2022](https://github.com/galatolofederico/cogsima2022) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9830661): Enhancing land subsidence awareness via InSAR data and Deep Transformers
-* [XAI4SAR-PGIL](https://github.com/Alien9427/XAI4SAR-PGIL) -> code for 2021 [paper](https://arxiv.org/abs/2110.14144): Physically Explainable CNN for SAR Image Classification
+See [SAR]
 
 ## NVDI - vegetation index
 * Calculated via band math `ndvi = np.true_divide((ir - r), (ir + r))` but challenging due to the size of the imagery
@@ -1551,6 +1504,29 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 * [Hyperspectral-Deblurring-and-Destriping](https://github.com/ImageRestorationToolbox/Hyperspectral-Deblurring-and-Destriping)
 * [HyDe](https://github.com/Helmholtz-AI-Energy/HyDe) -> Hyperspectral Denoising algorithm toolbox in Python, with [paper](https://arxiv.org/abs/2204.06979)
 * [HLF-DIP](https://github.com/Keiv4n/HLF-DIP) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9813381): Unsupervised Hyperspectral Denoising Based on Deep Image Prior and Least Favorable Distribution
+
+## Synthetic data
+Training data can be hard to acquire, particularly for rare events such as change detection after disasters, or imagery of rare classes of objects. In these situations, generating synthetic training data might be the only option. This has become quite sophisticated, with 3D models being use with open source games engines such as [Unreal](https://www.unrealengine.com/en-US/). 
+* [The Synthinel-1 dataset: a collection of high resolution synthetic overhead imagery for building segmentation](https://arxiv.org/ftp/arxiv/papers/2001/2001.05130.pdf) with [repo](https://github.com/timqqt/Synthinel)
+* [RarePlanes](https://www.cosmiqworks.org/RarePlanes/) ->  incorporates both real and synthetically generated satellite imagery including aircraft. Read the [arxiv paper](https://arxiv.org/abs/2006.02963) and checkout [this repo](https://github.com/jdc08161063/RarePlanes). Note the dataset is available through the AWS Open-Data Program for free download
+* Read [this article from NVIDIA](https://developer.nvidia.com/blog/preparing-models-for-object-detection-with-real-and-synthetic-data-and-tao-toolkit/) which discusses fine tuning a model pre-trained on synthetic data (Rareplanes) with 10% real data, then pruning the model to reduce its size, before quantizing the model to improve inference speed
+* [Combining Synthetic Data with Real Data to Improve Detection Results in Satellite Imagery](https://one-view.ai/combining-synthetic-data-with-real-data-to-improve-detection-results-in-satellite-imagery-case-study/)
+* [BlenderGIS](https://github.com/domlysz/BlenderGIS) could be used for synthetic data generation
+* [bifrost.ai](https://www.bifrost.ai/) -> simulated data service with geospatial output data formats
+* [oktal-se](https://www.oktal-se.fr/deep-learning/) -> software for generating simulated data across a wide range of bands including optical and SAR
+* [The Nuances of Extracting Utility from Synthetic Data](https://www.iqt.org/synthesizing-robustness-yoltv4-results-part-1/) -> We find that strategically augmenting the real dataset is nearly as effective as adding synthetic data in the quest to improve the detection or rare object classes, and that fully extracting the utility of synthetic data is a nuanced process
+* [Synthesizing Robustness](https://www.iqt.org/synthesizing-robustness/) -> explores how to best leverage and enhance synthetic data
+* [rendered.ai](https://rendered.ai/) -> The Platform as a Service for Creating Synthetic Data
+* [synthetic_xview_airplanes](https://github.com/yangxu351/synthetic_xview_airplanes) -> creation of airplanes synthetic dataset using ArcGIS CityEngine
+* [Combining Synthetic Data with Real Data to Improve Detection Results in Satellite Imagery: Case Study](https://one-view.ai/combining-synthetic-data-with-real-data-to-improve-detection-results-in-satellite-imagery-case-study/)
+* [SynImageAnalysis](https://github.com/FlorenceJiang/SynImageAnalysis) -> comparing syn and real sattlelite images in the latent feature space (embeddings)
+* [Import OpenStreetMap data into Unreal Engine 4](https://github.com/ue4plugins/StreetMap)
+* [deepfake-satellite-images](https://github.com/RijulGupta-DM/deepfake-satellite-images) -> dataset that includes over 1M images of synthetic aerial images
+* [synthetic-disaster](https://github.com/JakeForsey/synthetic-disaster) -> Generate synthetic satellite images of natural disasters using deep neural networks
+* [STPLS3D](https://github.com/meidachen/STPLS3D) -> A Large-Scale Synthetic and Real Aerial Photogrammetry 3D Point Cloud Dataset
+* [LESS](https://github.com/jianboqi/lessrt) -> LargE-Scale remote sensing data and image Simulation framework over heterogeneous 3D scenes
+* [Synthesizing Robustness: Dataset Size Requirements and Geographic Insights](https://avanetten.medium.com/synthesizing-robustness-dataset-size-requirements-and-geographic-insights-a687192e8004) -> Medium article, concludes that synthetic data is most beneficial to the rarest object classes and that extracting utility from synthetic data often takes significant effort and creativity
+* [rs_img_synth](https://github.com/gbaier/rs_img_synth) -> code for 2020 [paper](https://arxiv.org/abs/2011.11314): Synthesizing Optical and SAR Imagery From Land Cover Maps and Auxiliary Raster Data
 
 # ML best practice
 This section includes tips and ideas I have picked up from other practitioners including [ai-fast-track](https://github.com/ai-fast-track), [FraPochetti](https://github.com/FraPochetti) & the IceVision community
@@ -1617,29 +1593,6 @@ A number of metrics are common to all model types (but can have slightly differe
 # Datasets
 A long list or remote sensing datasets is at [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning/blob/master/datasets.md)
 
-# Synthetic data
-Training data can be hard to acquire, particularly for rare events such as change detection after disasters, or imagery of rare classes of objects. In these situations, generating synthetic training data might be the only option. This has become quite sophisticated, with 3D models being use with open source games engines such as [Unreal](https://www.unrealengine.com/en-US/). 
-* [The Synthinel-1 dataset: a collection of high resolution synthetic overhead imagery for building segmentation](https://arxiv.org/ftp/arxiv/papers/2001/2001.05130.pdf) with [repo](https://github.com/timqqt/Synthinel)
-* [RarePlanes](https://www.cosmiqworks.org/RarePlanes/) ->  incorporates both real and synthetically generated satellite imagery including aircraft. Read the [arxiv paper](https://arxiv.org/abs/2006.02963) and checkout [this repo](https://github.com/jdc08161063/RarePlanes). Note the dataset is available through the AWS Open-Data Program for free download
-* Read [this article from NVIDIA](https://developer.nvidia.com/blog/preparing-models-for-object-detection-with-real-and-synthetic-data-and-tao-toolkit/) which discusses fine tuning a model pre-trained on synthetic data (Rareplanes) with 10% real data, then pruning the model to reduce its size, before quantizing the model to improve inference speed
-* [Combining Synthetic Data with Real Data to Improve Detection Results in Satellite Imagery](https://one-view.ai/combining-synthetic-data-with-real-data-to-improve-detection-results-in-satellite-imagery-case-study/)
-* [BlenderGIS](https://github.com/domlysz/BlenderGIS) could be used for synthetic data generation
-* [bifrost.ai](https://www.bifrost.ai/) -> simulated data service with geospatial output data formats
-* [oktal-se](https://www.oktal-se.fr/deep-learning/) -> software for generating simulated data across a wide range of bands including optical and SAR
-* [The Nuances of Extracting Utility from Synthetic Data](https://www.iqt.org/synthesizing-robustness-yoltv4-results-part-1/) -> We find that strategically augmenting the real dataset is nearly as effective as adding synthetic data in the quest to improve the detection or rare object classes, and that fully extracting the utility of synthetic data is a nuanced process
-* [Synthesizing Robustness](https://www.iqt.org/synthesizing-robustness/) -> explores how to best leverage and enhance synthetic data
-* [rendered.ai](https://rendered.ai/) -> The Platform as a Service for Creating Synthetic Data
-* [synthetic_xview_airplanes](https://github.com/yangxu351/synthetic_xview_airplanes) -> creation of airplanes synthetic dataset using ArcGIS CityEngine
-* [Combining Synthetic Data with Real Data to Improve Detection Results in Satellite Imagery: Case Study](https://one-view.ai/combining-synthetic-data-with-real-data-to-improve-detection-results-in-satellite-imagery-case-study/)
-* [SynImageAnalysis](https://github.com/FlorenceJiang/SynImageAnalysis) -> comparing syn and real sattlelite images in the latent feature space (embeddings)
-* [Import OpenStreetMap data into Unreal Engine 4](https://github.com/ue4plugins/StreetMap)
-* [deepfake-satellite-images](https://github.com/RijulGupta-DM/deepfake-satellite-images) -> dataset that includes over 1M images of synthetic aerial images
-* [synthetic-disaster](https://github.com/JakeForsey/synthetic-disaster) -> Generate synthetic satellite images of natural disasters using deep neural networks
-* [STPLS3D](https://github.com/meidachen/STPLS3D) -> A Large-Scale Synthetic and Real Aerial Photogrammetry 3D Point Cloud Dataset
-* [LESS](https://github.com/jianboqi/lessrt) -> LargE-Scale remote sensing data and image Simulation framework over heterogeneous 3D scenes
-* [Synthesizing Robustness: Dataset Size Requirements and Geographic Insights](https://avanetten.medium.com/synthesizing-robustness-dataset-size-requirements-and-geographic-insights-a687192e8004) -> Medium article, concludes that synthetic data is most beneficial to the rarest object classes and that extracting utility from synthetic data often takes significant effort and creativity
-* [rs_img_synth](https://github.com/gbaier/rs_img_synth) -> code for 2020 [paper](https://arxiv.org/abs/2011.11314): Synthesizing Optical and SAR Imagery From Land Cover Maps and Auxiliary Raster Data
-
 # Free online compute
 A GPU is required for training deep learning models (but not necessarily for inferencing), and this section lists a couple of free Jupyter environments with GPU available. There is a good overview of online Jupyter development environments [on the fastai site](https://course19.fast.ai). I personally use Colab Pro with data hosted on Google Drive, or Sagemaker if I have very long running training jobs.
 
@@ -1665,85 +1618,13 @@ A GPU is required for training deep learning models (but not necessarily for inf
 * [Deepnote](https://deepnote.com/) -> many features for collaboration, GPU use is paid
 
 # Deploying models
-See [Deployment]
+See [Deployment](https://github.com/robmarkcole/satellite-image-deep-learning/blob/master/deployment.md)
 
-# Image annotation
-For supervised machine learning, you will require annotated images. For example if you are performing object detection you will need to annotate images with bounding boxes. Check that your annotation tool of choice supports large image (likely geotiff) files, as not all will. Note that GeoJSON is widely used by remote sensing researchers but this annotation format is not commonly supported in general computer vision frameworks, and in practice you may have to convert the annotation format to use the data with your chosen framework. There are both closed and open source tools for creating and converting annotation formats. Some of these tools are simply for performing annotation, whilst others add features such as dataset management and versioning. Note that self-supervised and active learning approaches might circumvent the need to perform a large scale annotation exercise. Note that tiffs/geotiffs cannot be displayed by most browsers (Chrome), but CAN render in Safari.
+# Annotation
+See [Annotation]
 
-## Annotation tools with GEO features
-Also check the section **Image handling, manipulation & dataset creation**
-* [GroundWork](https://groundwork.azavea.com/) is designed for annotating and labeling geospatial data like satellite imagery, from Azavea
-* [labelbox.com](https://labelbox.com/) -> free tier is quite generous, supports annotating Geotiffs & returning annotations with geospatial coordinates. Watch [this webcast](https://www.arturo.ai/webcastbuilding-ai-products-from-the-ground-up/)
-* [diffgram](https://github.com/diffgram/diffgram) describes itself as a complete training data platform for machine learning delivered as a single application, supports [streaming data to pytorch & tensorflow](https://medium.com/diffgram/stream-training-data-to-your-models-with-diffgram-f0f25f6688c5). [COGS can be annotated](https://diffgram.readme.io/docs/geospatial-annotation-guide)
-* [iris](https://github.com/ESA-PhiLab/iris) -> Tool for manual image segmentation and classification of satellite imagery
-* If you are considering building an in house annotation platform [read this article](https://medium.com/earthcube-stories/ai-products-and-remote-sensing-yes-it-is-hard-and-yes-you-need-a-good-infra-4b5d6cf822f1). Used PostGis database, GeoJson format and GIS standard in a stateless architecture
-* [satellite-imagery-labeling-tool](https://github.com/microsoft/satellite-imagery-labeling-tool) -> from Microsoft, this is a lightweight web-interface for creating and sharing vector annotations over satellite/aerial imagery scenes
-* [RSLabel](https://github.com/yonglinZ/RSLabel) -> remote sensing (RS) image annotation tool for deep learning
-* [encord](https://encord.com/) -> supports annotatin SAR
-* [Flood-Annotation-Tool](https://github.com/saugatadhikari/Flood-Annotation-Tool) -> Annotation tool to annotate flooded and non-flooded regions on satellite image, uses jupyter notebook
-
-## Open source annotation tools
-* [awesome-data-labeling](https://github.com/heartexlabs/awesome-data-labeling) -> long list of annotation tools
-* [awesome-open-data-annotation](https://github.com/zenml-io/awesome-open-data-annotation) -> another long list of annotation tools
-* [labelImg](https://github.com/tzutalin/labelImg) is the classic desktop tool, limited to bounding boxes for object detection. Also checkout [roLabelImg](https://github.com/cgvict/roLabelImg) which supports ROTATED rectangle regions, as often occurs in aerial imagery. [labelImg_OBB](https://github.com/heshameraqi/labelImg_OBB) is another fork supporting orinted bounding boxes (OBB)
-* [Labelme](https://github.com/wkentaro/labelme) is a very popular & simple dektop app for polygonal annotation suitable for object detection and semantic segmentation. Note it outputs annotations in a custom LabelMe JSON format which you will need to convert, e.g. using [labelme2coco](https://github.com/fcakyon/labelme2coco). Read [Labelme Image Annotation for Geotiffs](https://medium.com/@wvsharber/labelme-image-annotation-for-geotiffs-b460ba83804f)
-* [Label Studio](https://labelstud.io/) is a multi-type data labeling and annotation tool with standardized output format, syncing to buckets, and supports importing pre-annotations (create with a model). Checkout [label-studio-converter](https://github.com/heartexlabs/label-studio-converter) for converting Label Studio annotations into common dataset formats
-* [CVAT](https://github.com/cvat-ai/cvat) suports object detection, segmentation and classification via a local web app. [This article on Roboflow](https://blog.roboflow.com/cvat/) gives a good intro to CVAT. Checkout [CVAT images validator](https://github.com/developmentseed/cvat-images-validator)
-* [VoTT](https://github.com/Microsoft/VoTT) -> an electron app for building end to end Object Detection Models from Images and Videos, by Microsoft
-* Create your own annotation tool using [Bokeh Holoviews](https://examples.pyviz.org/ml_annotators/ml_annotators.html#ml-annotators-gallery-ml-annotators), [tkinter](https://github.com/matpalm/bnn#labelling), or see these dash examples for [object detection](https://github.com/plotly/dash-sample-apps/tree/main/apps/dash-image-annotation) and [segmentation](https://github.com/plotly/dash-sample-apps/tree/main/apps/dash-image-segmentation)
-* [Deeplabel](https://github.com/jveitchmichaelis/deeplabel) is a cross-platform tool for annotating images with labelled bounding boxes. Deeplabel also supports running inference using state-of-the-art object detection models like Faster-RCNN and YOLOv4. With support out-of-the-box for CUDA, you can quickly label an entire dataset using an existing model.
-* [Alturos.ImageAnnotation](https://github.com/AlturosDestinations/Alturos.ImageAnnotation) is a collaborative tool for labeling image data on S3 for yolo
-* [pigeonXT](https://github.com/dennisbakhuis/pigeonXT) -> create custom image classification annotators within Jupyter notebooks
-* [ipyannotations](https://github.com/janfreyberg/ipyannotations) -> Image annotations in python using Jupyter notebooks
-* [Label-Detect](https://github.com/Jakaria08/Label-Detect) -> is a graphical image annotation tool and using this tool a user can also train and test large satellite images, fork of the popular labelImg tool
-* [Swipe-Labeler](https://github.com/spaceml-org/Swipe-Labeler) -> Swipe Labeler is a Graphical User Interface based tool that allows rapid labeling of image data
-* SuperAnnotate can be run [locally](https://github.com/opencv-ai/superannotate) or used via a [cloud service](https://superannotate.com/)
-* [dash_doodler](https://github.com/dbuscombe-usgs/dash_doodler) -> A web application built with plotly/dash for image segmentation with minimal supervision
-* [remo](https://remo.ai) -> A webapp and Python library that lets you explore and control your image datasets
-* TensorFlow Object Detection API provides a [handy utility](https://github.com/tensorflow/models/blob/6a55ecdea7afda51f9dc42dc17104bd6444395d9/research/object_detection/utils/colab_utils.py#L384) for object annotation within Google Colab notebooks. See usage [here](https://github.com/yasserius/tf2-object-detection-api#label-images-in-colab)
-* [coco-annotator](https://github.com/jsbroks/coco-annotator) -> Web-based image segmentation tool for object detection, localization, and keypoints
-* [pylabel](https://github.com/pylabel-project/pylabel) -> Python library for computer vision labeling tasks. The core functionality is to translate bounding box annotations between different formats-for example, from coco to yolo. PyLabel also includes an image labeling tool that runs in a Jupyter notebook that can annotate images manually or perform automatic labeling using a pre-trained model
-* [BMW-Labeltool-Lite](https://github.com/BMW-InnovationLab/BMW-Labeltool-Lite) -> bounding box annotator
-* [django-labeller](https://github.com/Britefury/django-labeller) -> An image labelling tool for creating segmentation data sets, for Django and Flask
-* [scalabel](https://github.com/scalabel/scalabel) -> supports 2D images and 3D point clouds
-* [Detection-Label-Tool](https://github.com/px39n/Detection-Label-Tool) -> Change detection and object annotation, uses PyQt
-* [image_sorter](https://github.com/clcr/image_sorter) -> A quick interface for sorting a folder of images into two other folders
-
-## Cloud hosted & paid annotation tools & services
-Several open source tools are also available on the cloud, including CVAT, label-studio & Diffgram. In general cloud solutions will provide a lot of infrastructure and storage for you, as well as integration with outsourced annotators.
-* [GroundWork](https://groundwork.azavea.com/) is designed for annotating and labeling geospatial data like satellite imagery, from Azavea
-* [labelbox.com](https://labelbox.com/) -> free tier is quite generous, supports annotating Geotiffs & returning annotations with geospatial coordinates. Watch [this webcast](https://www.arturo.ai/webcastbuilding-ai-products-from-the-ground-up/)
-* [Roboflow](https://roboflow.com/robincole) -> in addition to annotation this platform makes it easy to convert between annotation formats & manage datasets, as well as train and deploy custom models to private API endpoints. Read [How to Train Computer Vision Models on Aerial Imagery](https://blog.roboflow.com/how-to-use-roboflow-with-aerial-imagery/)
-* [supervise.ly](https://supervise.ly) is one of the more fully featured platforms, decent free tier
-* AWS supports image annotation via the Rekognition Custom Labels console
-* [rectlabel](https://rectlabel.com/) is a desktop app for MacOS to annotate images for bounding box object detection and segmentation, paid and free (rectlabel-lite) versions
-* [hasty.ai](https://hasty.ai/) -> supports model assisted annotation & inferencing
-
-## Annotation formats
-Note there are many annotation formats, although PASCAL VOC and coco-json are the most commonly used. I recommend using geojson for storing polygons, then converting these to the required format when needed.
-* PASCAL VOC format: XML files in the format used by ImageNet
-* coco-json format: JSON in the format used by the 2015 COCO dataset
-* YOLO Darknet TXT format: contains one text file per image, used by YOLO
-* Tensorflow TFRecord: a proprietary binary file format used by the Tensorflow Object Detection API
-* Many more formats listed [here](https://roboflow.com/formats)
-* OBB: orinted bounding boxes are polygons representing rotated rectangles
-
-## Annotation visualisation & conversion tools
-Tools to visualise annotations & convert between formats. Note that most annotation software will allow you to visualise existing annotations
-* [Dataset-Converters](https://github.com/ISSResearch/Dataset-Converters) -> a conversion toolset between different object detection and instance segmentation annotation formats
-* [FiftyOne](https://github.com/voxel51/fiftyone) -> open-source tool for building high quality datasets and computer vision models. Visualise labels, evaluate model predictions, explore scenarios of interest, identify failure modes, find annotation mistakes, and much more! Read [Nearest Neighbor Embeddings Search with Qdrant and FiftyOne](https://medium.com/voxel51/nearest-neighbor-embeddings-search-with-qdrant-and-fiftyone-adc9aa01b6db)
-* [rebox](https://github.com/tensorturtle/rebox) -> Easily convert between bounding box annotation formats
-* [Pascal VOC BBox Viewer](https://github.com/zchrissirhcz/imageset-viewer)
-* [COCO-Assistant](https://github.com/ashnair1/COCO-Assistant) -> Helper for dealing with MS-COCO annotations; Merge datasets, Remove specfic category from dataset, Generate annotations statistics - distribution of object areas and category distribution
-* [pybboxes](https://github.com/devrimcavusoglu/pybboxes) -> Light weight toolkit for bounding boxes providing conversion between bounding box types and simple computations
-* [voc2coco](https://github.com/yukkyo/voc2coco) -> Convert VOC format XMLs to COCO format json
-* [ObjectDetectionEval](https://github.com/laclouis5/ObjectDetectionEval) -> Parse all kinds of object detection databases (ImageNet, COCO, YOLO, PascalVOC, OpenImage, CVAT, LabelMe, etc.) & save to other formats
-* [LabelMeYoloConverter](https://github.com/ivder/LabelMeYoloConverter) -> Convert LabelMe Annotation Tool JSON format to YOLO text file format
-* [mask-to-polygons](https://github.com/azavea/mask-to-polygons) -> Routines for extracting and working with polygons from semantic segmentation masks
-* [labelme2coco](https://github.com/fcakyon/labelme2coco) -> Converts LabelMe JSON format into COCO object detection and instance segmentation format.
-
-# Open source software
-A long list of open source software is at [Software](https://github.com/robmarkcole/satellite-image-deep-learning/blob/master/software.md)
+# Software
+See [Software](https://github.com/robmarkcole/satellite-image-deep-learning/blob/master/software.md)
 
 # Courses
 * [Introduction to Geospatial Raster and Vector Data with Python](https://carpentries-incubator.github.io/geospatial-python/aio/index.html) -> an intro course on a single page
