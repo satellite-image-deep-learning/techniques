@@ -1533,7 +1533,7 @@ See [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning/blob
 See [Annotation](https://github.com/robmarkcole/satellite-image-deep-learning/blob/master/assets/annotation.md)
 
 # Training models
-See [Training models]
+See [Training models](https://github.com/robmarkcole/satellite-image-deep-learning/blob/master/assets/training.md)
 
 # Deploying models
 See [Deployment](https://github.com/robmarkcole/satellite-image-deep-learning/blob/master/assets/deployment.md)
