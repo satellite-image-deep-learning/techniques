@@ -1477,7 +1477,7 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 * [LEO-GEO-landsurfacetemp](https://github.com/KateDuffy/LEO-GEO-landsurfacetemp) -> Multi-sensor machine learning to retrieve high spatiotemporal resolution land surface temperature
 
 ## SAR
-See [SAR]
+See [SAR](https://github.com/robmarkcole/satellite-image-deep-learning/blob/master/sar.md)
 
 ## NVDI - vegetation index
 * Calculated via band math `ndvi = np.true_divide((ir - r), (ir + r))` but challenging due to the size of the imagery
@@ -1621,7 +1621,7 @@ A GPU is required for training deep learning models (but not necessarily for inf
 See [Deployment](https://github.com/robmarkcole/satellite-image-deep-learning/blob/master/deployment.md)
 
 # Annotation
-See [Annotation]
+See [Annotation](https://github.com/robmarkcole/satellite-image-deep-learning/blob/master/annotation.md)
 
 # Software
 See [Software](https://github.com/robmarkcole/satellite-image-deep-learning/blob/master/software.md)
