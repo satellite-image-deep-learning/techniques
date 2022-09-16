@@ -38,6 +38,7 @@ For supervised machine learning, you will require annotated images. For example 
 * [scalabel](https://github.com/scalabel/scalabel) -> supports 2D images and 3D point clouds
 * [Detection-Label-Tool](https://github.com/px39n/Detection-Label-Tool) -> Change detection and object annotation, uses PyQt
 * [image_sorter](https://github.com/clcr/image_sorter) -> A quick interface for sorting a folder of images into two other folders
+* [bulk](https://github.com/koaning/bulk) -> A Simple Bulk Labelling Tool using embeddings
 
 ## Cloud hosted & paid annotation tools & services
 Several open source tools are also available on the cloud, including CVAT, label-studio & Diffgram. In general cloud solutions will provide a lot of infrastructure and storage for you, as well as integration with outsourced annotators.
