@@ -1176,6 +1176,7 @@ GANS are famously used for generating synthetic data, see the section [Synthetic
 * [Transformer-in-Remote-Sensing](https://github.com/VIROBO-15/Transformer-in-Remote-Sensing) -> code for 2022 [paper](https://arxiv.org/abs/2209.01206): Transformers in Remote Sensing: A Survey
 * [Transformers in remote sensing](https://robmarkcole.com/markdown/2022/08/15/transformers.html) -> blog post by robmarkcole
 * [Remote-Sensing-RVSA](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA) -> code for 2022 [paper](https://arxiv.org/abs/2208.03987): Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model
+* [SatViT](https://github.com/antofuller/SatViT) -> self-supervised training of multispectral optical and SAR vision transformers
 
 ## Adversarial ML
 Efforts to detect falsified images & deepfakes. Also checkout [Synthetic data](https://github.com/robmarkcole/satellite-image-deep-learning#synthetic-data)
