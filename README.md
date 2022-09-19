@@ -63,7 +63,7 @@ This repository lists resources on the topic of deep learning applied to satelli
   * [Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF](https://github.com/robmarkcole/satellite-image-deep-learning#terrain-mapping-disparity-estimation-lidar-dems--nerf)
   * [Thermal Infrared](https://github.com/robmarkcole/satellite-image-deep-learning#thermal-infrared)
   * [SAR](https://github.com/robmarkcole/satellite-image-deep-learning#sar)
-  * [NVDI - vegetation index](https://github.com/robmarkcole/satellite-image-deep-learning#nvdi---vegetation-index)
+  * [NDVI - vegetation index](https://github.com/robmarkcole/satellite-image-deep-learning#ndvi---vegetation-index)
   * [General image quality](https://github.com/robmarkcole/satellite-image-deep-learning#general-image-quality)
   * [Synthetic data](https://github.com/robmarkcole/satellite-image-deep-learning#synthetic-data)
 * [Datasets](https://github.com/robmarkcole/satellite-image-deep-learning#datasets)
@@ -1485,10 +1485,10 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 ## SAR
 See [SAR](https://github.com/robmarkcole/satellite-image-deep-learning/blob/master/assets/sar.md)
 
-## NVDI - vegetation index
+## NDVI - vegetation index
 * Calculated via band math `ndvi = np.true_divide((ir - r), (ir + r))` but challenging due to the size of the imagery
 * [Example notebook local](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/ndvi_calculation.ipynb)
-* [Landsat data in cloud optimised (COG) format analysed for NVDI](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) with [medium article here](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2).
+* [Landsat data in cloud optimised (COG) format analysed for NDVI](https://github.com/pangeo-data/pangeo-example-notebooks/blob/master/landsat8-cog-ndvi.ipynb) with [medium article here](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2).
 * [Identifying Buildings in Satellite Images with Machine Learning and Quilt](https://github.com/jyamaoka/LandUse) -> NDVI & edge detection via gaussian blur as features, fed to TPOT for training with labels from OpenStreetMap, modelled as a two class problem, “Buildings” and “Nature”
 * [Seeing Through the Clouds - Predicting Vegetation Indices Using SAR](https://medium.com/descarteslabs-team/seeing-through-the-clouds-34a24f84b599)
 * [A walkthrough on calculating NDWI water index for flooded areas](https://towardsdatascience.com/how-to-compute-satellite-image-statistics-and-use-it-in-pandas-81864a489144) -> Derive zonal statistics from Sentinel 2 images using Rasterio and Geopandas
