@@ -67,7 +67,7 @@ This repository lists resources on the topic of deep learning applied to satelli
   * [General image quality](https://github.com/robmarkcole/satellite-image-deep-learning#general-image-quality)
   * [Synthetic data](https://github.com/robmarkcole/satellite-image-deep-learning#synthetic-data)
 * [Image dataset creation](https://github.com/robmarkcole/satellite-image-deep-learning#image-dataset-creation)
-* [Image dataset creation](https://github.com/robmarkcole/satellite-image-deep-learning#image-chippingtiling--merging)
+* [Image chipping/tiling & merging](https://github.com/robmarkcole/satellite-image-deep-learning#image-chippingtiling--merging)
 * [Annotation](https://github.com/robmarkcole/satellite-image-deep-learning#annotation)
 * [Training models](https://github.com/robmarkcole/satellite-image-deep-learning#training-models)
 * [Deep learning packages, frameworks & projects](https://github.com/robmarkcole/satellite-image-deep-learning#deep-learning-packages-frameworks--projects)
