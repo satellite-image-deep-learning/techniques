@@ -212,7 +212,7 @@ This section contains a short list of datasets relevant to deep learning, partic
 * Nearly 10,000 km² of free high-resolution satellite imagery of unique locations which ensure stratified representation of all types of land-use across the world: from agriculture to ice caps, from forests to multiple urbanization densities.
 * Each high-resolution image (1.5 m/pixel) comes with multiple temporally-matched low-resolution images from the freely accessible lower-resolution Sentinel-2 satellites (10 m/pixel)
 * Several super-resolution benchmark models trained on it
-* [Quick tour of the WorldStrat Dataset](https://robmarkcole.com/markdown/2022/08/01/worldstrat.html) -> blog post by robmarkcole
+* [Quick tour of the WorldStrat Dataset](https://robmarkcole.com/posts/2022-08-01-worldstrat.html) -> blog post by robmarkcole
 
 ## Tensorflow datasets
 * [resisc45](https://www.tensorflow.org/datasets/catalog/resisc45) -> RESISC45 dataset is a publicly available benchmark for Remote Sensing Image Scene Classification (RESISC), created by Northwestern Polytechnical University (NWPU). This dataset contains 31,500 images, covering 45 scene classes with 700 images in each class.
