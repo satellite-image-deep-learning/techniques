@@ -295,6 +295,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [Busy-parking-lot-dataset---vehicle-detection-in-UAV-video](https://github.com/zhu-xlab/Busy-parking-lot-dataset---vehicle-detection-in-UAV-video)
 * [OpenAerialMap](https://map.openaerialmap.org/) -> a set of tools for searching, sharing, and using openly licensed satellite and unmanned aerial vehicle (UAV) imagery
 * [dd-ml-segmentation-benchmark](https://github.com/dronedeploy/dd-ml-segmentation-benchmark) -> DroneDeploy Machine Learning Segmentation Benchmark
+* [SeaDronesSee](https://github.com/Ben93kie/SeaDronesSee) -> Vision Benchmark for Maritime Search and Rescue
 
 ## Other datasets
 * [land-use-land-cover-datasets](https://github.com/r-wenger/land-use-land-cover-datasets)

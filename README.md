@@ -20,7 +20,7 @@ This repository lists resources on the topic of deep learning applied to satelli
     * [Roads](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---roads)
     * [Buildings & rooftops](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---buildings--rooftops)
     * [Solar panels](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---solar-panels)
-    * [Electrical substations](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---electrical-substations)
+    * [Other manmade](https://github.com/robmarkcole/satellite-image-deep-learning#segmentation---other-manmade)
     * [Instance segmentation](https://github.com/robmarkcole/satellite-image-deep-learning#instance-segmentation)
     * [Panoptic segmentation](https://github.com/robmarkcole/satellite-image-deep-learning#panoptic-segmentation)
   * [Object detection](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection)
@@ -493,10 +493,10 @@ Semantic Segmentation
 * [ood_instances_sophia](https://github.com/gabrielkasmi/ood_instances_sophia) -> Material for the poster "The effect of PV array instances and images backgrounds on OOD generalization"
 * [photovoltaic-detection](https://github.com/riccardocadei/photovoltaic-detection) -> Detecting available rooftop area from satellite images to install photovoltaic panels
 
-### Segmentation - Electrical substations
-The repos below resulted from the ICETCI 2021 competition on Machine Learning based feature extraction of Electrical Substations from Satellite Data using Open Source Tools
-* [Aarsh2001/ML_Challenge_NRSC](https://github.com/Aarsh2001/ML_Challenge_NRSC) -> 3rd place entry
-* [electrical_substation_detection](https://github.com/thisishardik/electrical_substation_detection) -> entry using UNet, Albumentations for image augmentation, and OpenCV for computer vision tasks
+### Segmentation - Other manmade
+* [Aarsh2001/ML_Challenge_NRSC](https://github.com/Aarsh2001/ML_Challenge_NRSC) -> Electrical Substation detection
+* [electrical_substation_detection](https://github.com/thisishardik/electrical_substation_detection) -> using UNet, Albumentations for image augmentation, and OpenCV for computer vision tasks
+* [PLGAN-for-Power-Line-Segmentation](https://github.com/R3ab/PLGAN-for-Power-Line-Segmentation) -> code for 2022 [paper](https://arxiv.org/abs/2204.07243): PLGAN: Generative Adversarial Networks for Power-Line Segmentation in Aerial Images
 
 ### Instance segmentation
 In instance segmentation, each individual 'instance' of a segmented area is given a unique lable. For detection of very small objects this may a good approach, but it can struggle seperating individual objects that are closely spaced.
