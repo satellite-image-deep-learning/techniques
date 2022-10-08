@@ -46,3 +46,4 @@
 * [SAR-Despeckling](https://github.com/ImageRestorationToolbox/SAR-Despeckling) -> toolbox
 * [cogsima2022](https://github.com/galatolofederico/cogsima2022) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9830661): Enhancing land subsidence awareness via InSAR data and Deep Transformers
 * [XAI4SAR-PGIL](https://github.com/Alien9427/XAI4SAR-PGIL) -> code for 2021 [paper](https://arxiv.org/abs/2110.14144): Physically Explainable CNN for SAR Image Classification
+* [MERLIN](https://gitlab.telecom-paris.fr/ring/MERLIN) -> code for 2021 [paper](https://arxiv.org/abs/2110.13148): As if by magic: self-supervised training of deep despeckling networks with MERLIN
