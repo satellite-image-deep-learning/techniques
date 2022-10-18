@@ -472,6 +472,7 @@ Semantic Segmentation
 * [AFM_building](https://github.com/lqycrystal/AFM_building) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9538384): Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation
 * [ramp-code](https://github.com/devglobalpartners/ramp-code) -> repository for the ramp (Replicable AI for MicroPlanning) project
 * [Building-instance-segmentation](https://github.com/yuanqinglie/Building-instance-segmentation-combining-anchor-free-detectors-and-multi-modal-feature-fusion) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/19/4920): Multi-Modal Feature Fusion Network with Adaptive Center Point Detector for Building Instance Extraction
+* [CGSANet](https://github.com/MrChen18/CGSANet) -> code for the 2021 [paper](https://ieeexplore.ieee.org/document/9664368): CGSANet: A Contour-Guided and Local Structure-Aware Encoder–Decoder Network for Accurate Building Extraction From Very High-Resolution Remote Sensing Imagery
 
 ### Segmentation - Solar panels
 * [DeepSolar](https://github.com/wangzhecheng/DeepSolar) -> A Machine Learning Framework to Efficiently Construct a Solar Deployment Database in the United States. [Dataset on kaggle](https://www.kaggle.com/tunguz/deep-solar-dataset), actually used a CNN for classification and segmentation is obtained by applying a threshold to the activation map. Original code is tf1 but [tf2/kers](https://github.com/aidan-fitz/deepsolar-v2) and a [pytorch implementation](https://github.com/wangzhecheng/deepsolar_pytorch) are available. Also checkout [Visualizations and in-depth analysis .. of the factors that can explain the adoption of solar energy in ..  Virginia](https://github.com/bessammehenni/DeepSolar_adoption_Virginia) and [DeepSolar tracker: towards unsupervised assessment with open-source data of the accuracy of deep learning-based distributed PV mapping](https://github.com/gabrielkasmi/dsfrance)
@@ -1823,6 +1824,7 @@ A GPU is required for training deep learning models (but not necessarily for inf
 * [PaddleRS](https://github.com/PaddlePaddle/PaddleRS) -> remote sensing image processing development kit
 * [RocketML Deep Neural Networks](https://github.com/rocketmlhq/rmldnn) -> read [Satellite Image Classification](https://github.com/rocketmlhq/rmldnn/tree/main/tutorials/satellite_image_classification) using rmldnn and Sentinel 2 data
 * [segmentation_gym](https://github.com/Doodleverse/segmentation_gym) -> A neural gym for training deep learning models to carry out geoscientific image segmentation
+* [EarthNets](https://earthnets.nicepage.io/) -> includes a database of 400 baseline models, and tutorial examples of common deep learning tasks on satellite imagery. Accompanied by a [paper](https://arxiv.org/abs/2210.04936): EarthNets: Empowering AI in Earth Observation
 
 # Neural nets in space
 Processing on board a satellite allows less data to be downlinked. e.g. super-resolution image might take 8 images to generate, then a single image is downlinked. Other applications include cloud detection and collision avoidance.
