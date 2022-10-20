@@ -287,6 +287,7 @@ Classification
 * [S4A-Models](https://github.com/Orion-AI-Lab/S4A-Models) -> Various experiments on the Sen4AgriNet dataset
 * [attention-mechanism-unet](https://github.com/davej23/attention-mechanism-unet) -> code for 2022 [paper](https://www.sciencedirect.com/science/article/pii/S0303243422000113): An attention-based U-Net for detecting deforestation within satellite sensor imagery
 * [Cocoa_plantations_detection](https://github.com/antoine-spahr/Cocoa_plantations_detection) -> Detecting cocoa plantation in Ivory Coast using Sentinel-2 remote sensing data using KNN, SVM, Random Forest and MLP
+* [SummerCrop_Deeplearning](https://github.com/AgriRS/SummerCrop_Deeplearning) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/20/5216): A Transferable Learning Classification Model and Carbon Sequestration Estimation of Crops in Farmland Ecosystem
 
 ### Segmentation - Water, coastlines & floods
 * [Flood Detection and Analysis using UNET with Resnet-34 as the back bone](https://github.com/orion29/Satellite-Image-Segmentation-for-Flood-Damage-Analysis) uses fastai 🔰
@@ -863,6 +864,7 @@ There are many algorithms that use band math to detect clouds, but the deep lear
 * [cloud-buster](https://github.com/azavea/cloud-buster) -> Sentinel-2 L1C and L2A Imagery with Fewer Clouds
 * [SatelliteCloudGenerator](https://github.com/cidcom/SatelliteCloudGenerator) -> A PyTorch-based tool to generate clouds for satellite images
 * [SEnSeI](https://github.com/aliFrancis/SEnSeI) -> A python 3 package for developing sensor independent deep learning models for cloud masking in satellite imagery
+* [cloud-detection-venus](https://github.com/pesekon2/cloud-detection-venus) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/20/5210): Using Convolutional Neural Networks for Cloud Detection on VENμS Images over Multiple Land-Cover Types
 
 ## Change detection
 Generally speaking, change detection methods are applied to a pair of images to generate a mask of change, e.g. of buildings damaged in a disaster. Note, clouds & shadows change often too..!
