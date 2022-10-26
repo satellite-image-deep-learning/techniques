@@ -32,7 +32,7 @@ This repository lists resources on the topic of deep learning applied to satelli
     * [Cars, vehicles & trains](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection---cars-vehicles--trains)
     * [Planes & aircraft](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection---planes--aircraft)
     * [Infrastructure & utilities](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection---infrastructure--utilities)
-    * [Oil storage tank detection & oil spills](https://github.com/robmarkcole/satellite-image-deep-learning#oil-storage-tank-detection--oil-spills)
+    * [Oil storage tank detection](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection---oil-storage-tank-detection)
     * [Animals](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection---animals)
   * [Object counting](https://github.com/robmarkcole/satellite-image-deep-learning#object-counting)
   * [Counting trees](https://github.com/robmarkcole/satellite-image-deep-learning#counting-trees)
