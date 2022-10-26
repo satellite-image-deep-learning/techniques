@@ -108,6 +108,12 @@ This section contains a short list of datasets relevant to deep learning, partic
 * [Arxiv paper](https://arxiv.org/abs/1711.10398)
 * [Pretrained models in mmrotate](https://github.com/open-mmlab/mmrotate)
 * [DOTA2VOCtools](https://github.com/Complicateddd/DOTA2VOCtools) -> dataset split and transform to voc format
+* Segmentation annotations available in iSAID dataset
+
+## iSAID instance segmentation dataset
+* https://captain-whu.github.io/iSAID/dataset.html
+* A Large-scale Dataset for Instance Segmentation in Aerial Images
+* Uses images from the DOTA dataset
 
 ## HRSC RGB ship object detection dataset
 * https://www.kaggle.com/datasets/guofeng/hrsc2016
@@ -192,10 +198,6 @@ This section contains a short list of datasets relevant to deep learning, partic
 * https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspx
 * Semantic segmentation dataset
 * 38 patches of 6000x6000 pixels, each consisting of a true orthophoto (TOP) extracted from a larger TOP mosaic, and a DSM. Resolution 5 cm
-
-## iSAID
-* https://captain-whu.github.io/iSAID/dataset.html
-* A Large-scale Dataset for Instance Segmentation in Aerial Images
 
 ## SpaceNet
 * [spacenet.ai](https://spacenet.ai/) is an online hub for data, challenges, algorithms, and tools. Note that [CosmiQ Ended its Leadership of SpaceNet](https://medium.com/the-downlinq/closing-time-cosmiq-works-is-closing-down-and-ending-its-leadership-of-spacenet-a53ba239745b), handing over the reigns to Maxar
@@ -347,6 +349,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [urban-tree-detection-data](https://github.com/jonathanventura/urban-tree-detection-data) -> Dataset for training and evaluating tree detectors in urban environments with aerial imagery
 * [Landsat 8 Cloud Cover Assessment Validation Data](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data)
 * [Attribute-Cooperated-Classification-Datasets](https://github.com/CrazyStoneonRoad/Attribute-Cooperated-Classification-Datasets) -> Three datasets based on AID, UCM, and Sydney. For each image, there is a label of scene classification and a label vector of attribute items.
+* [RarePlanes](https://www.cosmiqworks.org/rareplanes-public-user-guide/) is a dataset of real (Maxar) and simulated images of planes. Utility functions at [VisionSystemsInc - RarePlanes](https://github.com/VisionSystemsInc/RarePlanes)
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
