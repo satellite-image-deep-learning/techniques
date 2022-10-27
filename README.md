@@ -1344,6 +1344,7 @@ Classification
 * [MS2A-Net](https://github.com/Kasra2020/MS2A-Net) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9855229): MS 2 A-Net: Multi-scale spectral-spatial association network for hyperspectral image clustering
 * [UDA_for_RS](https://github.com/Levantespot/UDA_for_RS) -> code for paper: Unsupervised Domain Adaptation for Remote Sensing Semantic Segmentation with Transformer
 * [MERLIN](https://gitlab.telecom-paris.fr/ring/MERLIN) -> code for 2021 [paper](https://arxiv.org/abs/2110.13148): As if by magic: self-supervised training of deep despeckling networks with MERLIN
+* [pytorch-ssl-building_extract](https://github.com/Chendeyue/pytorch-ssl-building_extract) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/21/5350): Research on Self-Supervised Building Information Extraction with High-Resolution Remote Sensing Images for Photovoltaic Potential Evaluation
 
 ## Weakly & semi-supervised learning
 These techniques use a partially annotated dataset
