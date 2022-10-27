@@ -60,7 +60,6 @@ Signup for the [geospatial-jobs-newsletter](https://geospatial.substack.com/p/we
 * [Earthdaily](https://earthdaily.applytojob.com/apply)
 * [EO-jobs](https://github.com/DahnJ/EO-jobs) -> List of earth observation companies and job sites
 * [Planet](https://boards.greenhouse.io/planetlabs)
-* [Satellite Vu](https://www.satellitevu.com/careers)
 * [Sparkgeo](https://sparkgeo.com/jobs/)
 
 # Movers and shakers on Github
@@ -133,7 +132,6 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [Planet Labs](https://github.com/planetlabs) -> thanks for COGS!
 * [Preligens](https://github.com/earthcube-lab) -> formerly Earthcube Lab
 * [pyronear](https://github.com/pyronear) -> Preserving forests from wildfires one commit at a time
-* [SatelliteVu](https://github.com/SatelliteVu) -> thermal imagery from space!
 * [Sinergise](https://github.com/sentinel-hub) -> maintaining Sentinel-hub
 * [SIAnalytics](https://github.com/SIAnalytics) -> Korean AI firm
 * [SkyTruth](https://github.com/SkyTruth)
