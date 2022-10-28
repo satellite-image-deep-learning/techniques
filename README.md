@@ -355,6 +355,7 @@ Classification
 * [Methane-detection-from-hyperspectral-imagery](https://github.com/satish1901/Methane-detection-from-hyperspectral-imagery) -> code for 2020 [paper](https://ieeexplore.ieee.org/document/9093600): Deep Remote Sensing Methods for Methane Detection in Overhead Hyperspectral Imagery
 * [EddyNet](https://github.com/redouanelg/EddyNet) -> A Deep Neural Network For Pixel-Wise Classification of Oceanic Eddies
 * [schisto-vegetation](https://github.com/deleo-lab/schisto-vegetation) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/6/1345): Deep Learning Segmentation of Satellite Imagery Identifies Aquatic Vegetation Associated with Snail Intermediate Hosts of Schistosomiasis in Senegal, Africa
+* [earth-forecasting-transformer](https://github.com/amazon-science/earth-forecasting-transformer) -> code for 2022 [paper](https://www.amazon.science/publications/earthformer-exploring-space-time-transformers-for-earth-system-forecasting): Earthformer: exploring space-time transformers for earth system forecasting
 
 ### Segmentation - Roads
 Extracting roads is challenging due to the occlusions caused by other objects and the complex traffic environment
@@ -1074,6 +1075,7 @@ Super-resolution attempts to enhance the resolution of an imaging system, and ca
 * [HSRnet](https://github.com/liangjiandeng/HSRnet) -> code for the 2021 [paper](https://arxiv.org/abs/2005.14400): Hyperspectral Image Super-resolution via Deep Spatio-spectral Attention Convolutional Neural Networks
 * [RRSGAN](https://github.com/dongrunmin/RRSGAN) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9328132): RRSGAN: Reference-Based Super-Resolution for Remote Sensing Image
 * [HDR-DSP-SR](https://github.com/centreborelli/HDR-DSP-SR) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9522764): Self-supervised multi-image super-resolution for push-frame satellite images
+* [GAN-HSI-SR](https://github.com/ZhuangChen25674/GAN-HSI-SR) -> code for 2020 [paper](https://ieeexplore.ieee.org/document/8960413): Hyperspectral Image Super-Resolution by Band Attention Through Adversarial Learning
 
 ### Single image super-resolution (SISR)
 * [Super Resolution for Satellite Imagery - srcnn repo](https://github.com/WarrenGreen/srcnn)
