@@ -326,6 +326,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [url-map](https://simonwillison.net/2022/Jun/12/url-map/) -> A tiny web app to create images from OpenStreetMap maps
 * [Label Maker](https://github.com/developmentseed/label-maker) -> a library for creating machine-learning ready data by pairing satellite images with OpenStreetMap (OSM) vector data
 * [baremaps](https://github.com/baremaps/baremaps) -> Create custom vector tiles from OpenStreetMap and other data sources with Postgis and Java.
+* [osm2streets](https://github.com/a-b-street/osm2streets) -> Convert OSM to street networks with detailed geometry
 
 ## QGIS
 A popular open source alternative to ArcGIS, QGIS is a desktop appication written in python and extended with plugins which are essentially python scripts
