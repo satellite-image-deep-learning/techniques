@@ -35,13 +35,13 @@ This repository lists resources on the topic of deep learning applied to satelli
     * [Oil storage tank detection](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection---oil-storage-tank-detection)
     * [Animals](https://github.com/robmarkcole/satellite-image-deep-learning#object-detection---animals)
   * [Object counting](https://github.com/robmarkcole/satellite-image-deep-learning#object-counting)
+  * [Regression](https://github.com/robmarkcole/satellite-image-deep-learning#regression)
   * [Cloud detection & removal](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-detection--removal)
   * [Change detection](https://github.com/robmarkcole/satellite-image-deep-learning#change-detection)
   * [Time series](https://github.com/robmarkcole/satellite-image-deep-learning#time-series)
   * [Crop yield](https://github.com/robmarkcole/satellite-image-deep-learning#crop-yield)
   * [Wealth and economic activity](https://github.com/robmarkcole/satellite-image-deep-learning#wealth-and-economic-activity)
   * [Disaster response](https://github.com/robmarkcole/satellite-image-deep-learning#disaster-response)
-  * [Weather phenomena](https://github.com/robmarkcole/satellite-image-deep-learning#weather-phenomena)
   * [Super-resolution](https://github.com/robmarkcole/satellite-image-deep-learning#super-resolution)
   * [Pansharpening](https://github.com/robmarkcole/satellite-image-deep-learning#pansharpening)
   * [Image-to-image translation](https://github.com/robmarkcole/satellite-image-deep-learning#image-to-image-translation)
@@ -803,6 +803,11 @@ When the object count, but not its shape is required, U-net can be used to treat
 * [PSGCNet](https://github.com/gaoguangshuai/PSGCNet) -> code for 2022 [paper](https://arxiv.org/abs/2012.03597): PSGCNet: A Pyramidal Scale and Global Context Guided Network for Dense Object Counting in Remote Sensing Images
 * [psgcnet](https://github.com/gaoguangshuai/psgcnet) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9720990): PSGCNet: A Pyramidal Scale and Global Context Guided Network for Dense Object Counting in Remote-Sensing Images
 
+## Regression
+* [python-windspeed](https://github.com/h-fuzzy-logic/python-windspeed) -> Predicting windspeed of hurricanes from satellite images, uses CNN regression in keras
+* [hurricane-wind-speed-cnn](https://github.com/23ccozad/hurricane-wind-speed-cnn) -> Predicting windspeed of hurricanes from satellite images, uses CNN regression in keras
+* [GEDI-BDL](https://github.com/langnico/GEDI-BDL) -> code for paper: Global canopy height regression and uncertainty estimation from GEDI LIDAR waveforms with deep ensembles
+
 ## Cloud detection & removal
 There are many algorithms that use band math to detect clouds, but the deep learning approach is to use semantic segmentation
 * [CloudSEN12](https://github.com/cloudsen12) -> Sentinel 2 cloud dataset with a [varierty of models here](https://github.com/cloudsen12/models)
@@ -1049,11 +1054,6 @@ Also checkout the sections on change detection and water/fire/building segmentat
 * [wildfire_forecasting](https://github.com/Orion-AI-Lab/wildfire_forecasting) -> code for 2021 [paper](https://arxiv.org/abs/2111.02736): Deep Learning Methods for Daily Wildfire Danger Forecasting. Uses ConvLSTM
 * [Satellite Image Analysis with fast.ai for Disaster Recovery](https://appsilon.com/satellite-image-analysis-with-fast-ai-for-disaster-recovery/)
 * [shackleton](https://github.com/avanetten/shackleton) -> leverages remote sensing imagery and machine learning techniques to provide insights into various transportation and evacuation scenarios in an interactive dashboard that conducts real-time computation
-
-## Weather phenomena
-* [EddyData](https://github.com/zmokokokok/EddyData) -> code for paper: A Deep Framework for Eddy Detection and Tracking from Satellite Sea Surface Height Data
-* [python-windspeed](https://github.com/h-fuzzy-logic/python-windspeed) -> Predicting windspeed of hurricanes from satellite images, uses CNN regression in keras
-* [hurricane-wind-speed-cnn](https://github.com/23ccozad/hurricane-wind-speed-cnn) -> Predicting windspeed of hurricanes from satellite images, uses CNN regression in keras
 
 ## Super-resolution
 Super-resolution attempts to enhance the resolution of an imaging system, and can be applied as a pre-processing step to improve the detection of small objects or boundaries. Its use is controversial since it can introduce artefacts at the same rate as real features. These techniques are generally grouped into single image super resolution (SISR) **or** a multi image super resolution (MISR)

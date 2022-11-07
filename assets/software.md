@@ -347,6 +347,8 @@ A popular open source alternative to ArcGIS, QGIS is a desktop appication writte
 * [pg_featureserv](https://github.com/CrunchyData/pg_featureserv) -> Lightweight RESTful Geospatial Feature Server for PostGIS in Go
 * [osm-instance-segmentation](https://github.com/mnboos/osm-instance-segmentation) -> QGIS plugin for finding changes in vector data from orthophotos (i.e. aerial imagery) using tensorflow
 * [Semi-Automatic Classification Plugin](https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin) -> supervised classification of remote sensing images, providing tools for the download, the preprocessing and postprocessing of images
+* [chippy-checker-editor](https://github.com/devglobalpartners/chippy-checker-editor) -> QGIS plugin for viewing and editing labeled remote sensing images
+* [qgis-plugin-deepness](https://github.com/PUTvision/qgis-plugin-deepness) -> Plugin for neural network inference in QGIS: segmentation, regression and detection
 
 ## Parallel procesing with Dask
 Dask provides advanced parallelism and distributed out-of-core computation with a `dask.dataframe` module designed to scale pandas.
