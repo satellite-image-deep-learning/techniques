@@ -2,9 +2,11 @@
 <img src="logo.png" width="700">
 </p>
 
-This repository lists resources on the topic of deep learning applied to satellite and aerial imagery. To a lesser extent classical machine learning techniques are listed, as are topics such as cloud computing and model deployment. You can follow me on [Twitter](https://twitter.com/robmarkcole) and join the dedicated [satellite-image-deep-learning group on LinkedIn](https://www.linkedin.com/groups/12698393/). If this resource is useful to your work please consider sponsoring it with a donation via [Github Sponsors](https://github.com/sponsors/robmarkcole)
+This repository lists resources on the topic of deep learning applied to satellite and aerial imagery. To a lesser extent classical machine learning techniques are listed, as are topics such as cloud computing and model deployment. **How to use this repository:** if you know exactly what you are looking for (e.g. a dataset name) you can `Control+F` to search for it in the page. Otherwise refer to the table of contents below, and search within the relevant section. Material that is suitable for getting started with a topic is tagged with `BEGINNER`, which can also be searched.
 
-**How to use this repository:** if you know exactly what you are looking for (e.g. a dataset name) you can `Control+F` to search for it in the page. Otherwise refer to the table of contents below, and search within the relevant section. Material that is suitable for getting started with a topic is tagged with `BEGINNER`, which can also be searched.
+- 🐦 Connect with me on [Twitter](https://twitter.com/robmarkcole) and [LinkedIn](https://www.linkedin.com/in/robmarkcole/)
+- 📧 Sign up to the [satellite-image-deep-learning newsletter](https://www.getrevue.co/profile/robmarkcole)
+- 👥 Join the [satellite-image-deep-learning group on LinkedIn](https://www.linkedin.com/groups/12698393/)
 
 # Table of contents
 * [Techniques](https://github.com/robmarkcole/satellite-image-deep-learning#techniques)
