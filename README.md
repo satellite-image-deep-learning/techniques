@@ -7,6 +7,8 @@ This repository lists resources on the topic of deep learning applied to satelli
 - 🐦 Connect with me on [Twitter](https://twitter.com/robmarkcole) and [LinkedIn](https://www.linkedin.com/in/robmarkcole/)
 - 📧 Sign up to the [satellite-image-deep-learning newsletter](https://www.getrevue.co/profile/robmarkcole)
 - 👥 Join the [satellite-image-deep-learning group on LinkedIn](https://www.linkedin.com/groups/12698393/)
+- 💬 [Book a 1:1 with me](https://calendly.com/robmarkcole/)
+- ⭐️ [Become a sponsor on GitHub](https://github.com/sponsors/robmarkcole)
 
 # Table of contents
 * [Techniques](https://github.com/robmarkcole/satellite-image-deep-learning#techniques)
