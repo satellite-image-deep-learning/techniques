@@ -814,6 +814,7 @@ When the object count, but not its shape is required, U-net can be used to treat
 * [hurricane-wind-speed-cnn](https://github.com/23ccozad/hurricane-wind-speed-cnn) -> Predicting windspeed of hurricanes from satellite images, uses CNN regression in keras
 * [GEDI-BDL](https://github.com/langnico/GEDI-BDL) -> code for paper: Global canopy height regression and uncertainty estimation from GEDI LIDAR waveforms with deep ensembles
 * [Traffic density estimation as a regression problem instead of object detection](https://omdena.com/blog/ai-road-safety/) -> inspired by [this paper](https://ieeexplore.ieee.org/document/8916990)
+* [OpticalWaveGauging_DNN](https://github.com/OpticalWaveGauging/OpticalWaveGauging_DNN) -> code for 2020 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0378383919301243): Optical wave gauging using deep neural networks
 
 ## Cloud detection & removal
 There are many algorithms that use band math to detect clouds, but the deep learning approach is to use semantic segmentation
@@ -1836,6 +1837,7 @@ A GPU is required for training deep learning models (but not necessarily for inf
 * [RocketML Deep Neural Networks](https://github.com/rocketmlhq/rmldnn) -> read [Satellite Image Classification](https://github.com/rocketmlhq/rmldnn/tree/main/tutorials/satellite_image_classification) using rmldnn and Sentinel 2 data
 * [segmentation_gym](https://github.com/Doodleverse/segmentation_gym) -> A neural gym for training deep learning models to carry out geoscientific image segmentation
 * [EarthNets](https://earthnets.nicepage.io/) -> includes a database of 400 baseline models, and tutorial examples of common deep learning tasks on satellite imagery. Accompanied by a [paper](https://arxiv.org/abs/2210.04936): EarthNets: Empowering AI in Earth Observation
+* [raster4ml](https://github.com/remotesensinglab/raster4ml) -> A geospatial raster processing library for machine learning
 
 # Neural nets in space
 Processing on board a satellite allows less data to be downlinked. e.g. super-resolution image might take 8 images to generate, then a single image is downlinked. Other applications include cloud detection and collision avoidance.
@@ -1875,6 +1877,7 @@ Processing on board a satellite allows less data to be downlinked. e.g. super-re
 * [engn3903](https://github.com/nicolasyounes/engn3903) -> Environmental Sensing, Mapping and Modelling
 * [PyTorch Fundamentals](https://docs.microsoft.com/en-us/learn/paths/pytorch-fundamentals/) -> 4 hour course by Microsoft
 * [pytorch-deep-learning](https://github.com/mrdbourke/pytorch-deep-learning) -> Materials for the Learn PyTorch for Deep Learning: Zero to Mastery course
+* [Materials for the USGS "Deep Learning for Image Classification and Segmentation" CDI workshop, 2020](https://github.com/MLMondays/MLMONDAYS)
 
 # Deploying models
 See [Deployment](https://github.com/robmarkcole/satellite-image-deep-learning/blob/master/assets/deployment.md)
