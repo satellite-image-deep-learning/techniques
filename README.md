@@ -2,12 +2,12 @@
 <img src="logo.png" width="700">
 </p>
 
-This repository lists resources on the topic of deep learning applied to satellite and aerial imagery. To a lesser extent classical machine learning techniques are listed, as are topics such as cloud computing and model deployment. **How to use this repository:** if you know exactly what you are looking for (e.g. a dataset name) you can `Control+F` to search for it in the page. Otherwise refer to the table of contents below, and search within the relevant section. Material that is suitable for getting started with a topic is tagged with `BEGINNER`, which can also be searched.
+This repository lists resources on the topic of deep learning applied to satellite and aerial imagery. For regular updates:
 
-- 🐦 Connect with me on [Twitter](https://twitter.com/robmarkcole) and [LinkedIn](https://www.linkedin.com/in/robmarkcole/)
 - 📧 Sign up to the [satellite-image-deep-learning newsletter](https://robmarkcole.substack.com/)
-- 👥 Join the [satellite-image-deep-learning group on LinkedIn](https://www.linkedin.com/groups/12698393/)
-- ⭐️ [Become a sponsor on GitHub](https://github.com/sponsors/robmarkcole)
+- 🐦 Follow me on [Twitter](https://twitter.com/robmarkcole)
+
+**How to use this repository:** if you know exactly what you are looking for (e.g. a dataset name) you can `Control+F` to search for it in the page. Otherwise refer to the table of contents below, and search within the relevant section. Material that is suitable for getting started with a topic is tagged with `BEGINNER`, which can also be searched.
 
 # Table of contents
 * [Techniques](https://github.com/robmarkcole/satellite-image-deep-learning#techniques)
@@ -84,7 +84,7 @@ This repository lists resources on the topic of deep learning applied to satelli
 This section explores the different deep and machine learning (ML) techniques applied to common problems in satellite imagery analysis. Good background reading is [Deep learning in remote sensing applications: A meta-analysis and review](https://www.iges.or.jp/en/publication_documents/pub/peer/en/6898/Ma+et+al+2019.pdf)
 
 ## Classification
-The classic cats vs dogs image classification task, which in the remote sensing domain is used to assign a label to an image, e.g. this is an image of a forest. The more complex case is applying multiple labels to an image. This approach of image level classification is not to be confused with pixel-level classification which is called semantic segmentation. Read my blog post [A brief introduction to satellite image classification with neural networks](https://robmarkcole.com/posts/2022-09-24-satellite-image-classification.html)
+The classic cats vs dogs image classification task, which in the remote sensing domain is used to assign a label to an image, e.g. this is an image of a forest. The more complex case is applying multiple labels to an image. This approach of image level classification is not to be confused with pixel-level classification which is called semantic segmentation.
 * Land classification on Sentinel 2 data using a [simple sklearn cluster algorithm](https://github.com/acgeospatial/Satellite_Imagery_Python/blob/master/Clustering_KMeans-Sentinel2.ipynb) or [deep learning CNN](https://towardsdatascience.com/land-use-land-cover-classification-with-deep-learning-9a5041095ddb) `BEGINNER`
 * Land Use Classification on Merced dataset using CNN [in Keras](https://github.com/tavgreen/landuse_classification)
 or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial-data-applications-multi-label-classification-2b0a1838fcf3). Also checkout [Multi-label Land Cover Classification](https://towardsdatascience.com/multi-label-land-cover-classification-with-deep-learning-d39ce2944a3d) using the redesigned multi-label Merced dataset with 17 land cover classes `BEGINNER`
@@ -154,7 +154,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [Satellite Image Classification](https://github.com/rocketmlhq/rmldnn/tree/main/tutorials/satellite_image_classification) using rmldnn and Sentinel 2 data
 
 ## Segmentation
- Segmentation will assign a class label to each **pixel** in an image. Single class models are often trained for road or building segmentation, with multi class for land use/crop type classification. **Note** that many articles which refer to 'hyperspectral land classification' are actually describing semantic segmentation. Note that cloud detection can be addressed with semantic segmentation and has its own section [Cloud detection & removal](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-detection--removal). Read my blog post [A brief introduction to satellite image segmentation with neural networks](https://robmarkcole.com/posts/2022-10-6-satellite-image-segmentation.html)
+ Segmentation will assign a class label to each **pixel** in an image. Single class models are often trained for road or building segmentation, with multi class for land use/crop type classification. **Note** that many articles which refer to 'hyperspectral land classification' are actually describing semantic segmentation. Note that cloud detection can be addressed with semantic segmentation and has its own section [Cloud detection & removal](https://github.com/robmarkcole/satellite-image-deep-learning#cloud-detection--removal).
 * [awesome-satellite-images-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation#satellite-images-segmentation)
 * [Satellite Image Segmentation: a Workflow with U-Net](https://medium.com/vooban-ai/satellite-image-segmentation-a-workflow-with-u-net-7ff992b2a56e) is a decent intro article `BEGINNER`
 * [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) -> Semantic Segmentation Toolbox with support for many remote sensing datasets including LoveDA
@@ -1210,7 +1210,6 @@ GANS are famously used for generating synthetic data, see the section [Synthetic
 
 ## Transformers
 * [Transformer-in-Remote-Sensing](https://github.com/VIROBO-15/Transformer-in-Remote-Sensing) -> code for 2022 [paper](https://arxiv.org/abs/2209.01206): Transformers in Remote Sensing: A Survey
-* [Transformers in remote sensing](https://robmarkcole.com/posts/2022-08-15-transformers.html) -> blog post by robmarkcole
 * [Remote-Sensing-RVSA](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA) -> code for 2022 [paper](https://arxiv.org/abs/2208.03987): Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model
 * [SatViT](https://github.com/antofuller/SatViT) -> self-supervised training of multispectral optical and SAR vision transformers
 * [UDA_for_RS](https://github.com/Levantespot/UDA_for_RS) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/19/4942): Unsupervised Domain Adaptation for Remote Sensing Semantic Segmentation with Transformer
