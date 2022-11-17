@@ -351,6 +351,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 * [RarePlanes](https://www.cosmiqworks.org/rareplanes-public-user-guide/) is a dataset of real (Maxar) and simulated images of planes. Utility functions at [VisionSystemsInc - RarePlanes](https://github.com/VisionSystemsInc/RarePlanes)
 * [dynnet](https://github.com/aysim/dynnet) -> DynamicEarthNet: Daily Multi-Spectral Satellite Dataset for Semantic Change Segmentation
 * [open_earth_map](https://github.com/bao18/open_earth_map) -> a benchmark dataset for global high-resolution land cover mapping
+* [Satellite imagery datasets containing ships](https://github.com/NaLiu613/Satellite-Imagery-Datasets-Containing-Ships) -> A list of radar and optical satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks
 
 ## Kaggle
 Kaggle hosts over > 200 satellite image datasets, [search results here](https://www.kaggle.com/search?q=satellite+image+in%3Adatasets).
