@@ -14,6 +14,10 @@ A common approach to serving up deep learning model inference code is to wrap it
 * [clearcut_detection](https://github.com/QuantuMobileSoftware/clearcut_detection) -> django backend
 * [airbus-ship-detection](https://github.com/jancervenka/airbus-ship-detection) -> CNN with REST API
 
+## Model serving with GRPC 
+GPRC is a framework for implementing Remote Procedure Call (RPC) via HTTP/2. Developed and maintained mainly by Google, it is widely used in the industry. It allows two machines to communicate, similar to HTTP but with better syntax and performance.
+* [deploy-models-with-grpc-pytorch-asyncio](https://github.com/FrancescoSaverioZuppichini/deploy-models-with-grpc-pytorch-asyncio)
+
 ## Framework specific model serving
 If you are happy to live with some lock-in, these are good options:
 * [Tensorflow serving](https://www.tensorflow.org/tfx/guide/serving) is limited to Tensorflow models
