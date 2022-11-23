@@ -264,6 +264,7 @@ Since there is a whole community around GEE I will not reproduce it here but lis
 ## Forest datasets
 * [awesome-forests](https://github.com/blutjens/awesome-forests) -> A curated list of ground-truth forest datasets for the machine learning and forestry community
 * [ReforesTree](https://github.com/gyrrei/ReforesTree) -> A dataset for estimating tropical forest biomass based on drone and field data
+* [yosemite-tree-dataset](https://github.com/nightonion/yosemite-tree-dataset) -> a benchmark dataset for tree counting from aerial images
 
 ## Geospatial datasets
 * [Resource Watch](https://resourcewatch.org/data/explore) provides a wide range of geospatial datasets and a UI to visualise them
