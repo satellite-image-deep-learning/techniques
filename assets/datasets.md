@@ -211,6 +211,7 @@ This section contains a short list of datasets relevant to deep learning, partic
 
 ## WorldStrat Dataset
 * https://github.com/worldstrat/worldstrat
+* [Quick tour of the WorldStrat Dataset](https://www.satellite-image-deep-learning.com/p/quick-tour-of-the-worldstrat-dataset)
 * Nearly 10,000 km² of free high-resolution satellite imagery of unique locations which ensure stratified representation of all types of land-use across the world: from agriculture to ice caps, from forests to multiple urbanization densities.
 * Each high-resolution image (1.5 m/pixel) comes with multiple temporally-matched low-resolution images from the freely accessible lower-resolution Sentinel-2 satellites (10 m/pixel)
 * Several super-resolution benchmark models trained on it
