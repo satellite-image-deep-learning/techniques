@@ -4,7 +4,9 @@
 
 This repository lists resources on the topic of deep learning applied to satellite and aerial imagery. For regular updates:
 
-## 🖥️ Checkout [satellite-image-deep-learning.com](https://www.satellite-image-deep-learning.com/)
+# 🖥️ Checkout [satellite-image-deep-learning.com](https://www.satellite-image-deep-learning.com/)
+
+Looking for a dataset, want to know about depolying models or interested in software for working with remote sensing data? [Sponsors on the $10 a month tier](https://github.com/sponsors/robmarkcole) get access to a private repository covering all of these topics 🚀
 
 **How to use this repository:** if you know exactly what you are looking for (e.g. a dataset name) you can `Control+F` to search for it in the page. Otherwise refer to the table of contents below, and search within the relevant section. Material that is suitable for getting started with a topic is tagged with `BEGINNER`, which can also be searched.
 
