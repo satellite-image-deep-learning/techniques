@@ -1940,7 +1940,6 @@ Processing on board a satellite allows less data to be downlinked. e.g. super-re
 
 # Online platforms for analytics
 * [This article discusses some of the available platforms](https://medium.com/pangeo/cloud-native-geoprocessing-of-earth-observation-satellite-data-with-pangeo-997692d91ca2)
-* [Pangeo](http://pangeo.io/index.html) -> There is no single software package called “pangeo”; rather, the Pangeo project serves as a coordination point between scientists, software, and computing infrastructure. Includes open source resources for parallel processing using Dask and Xarray. Pangeo recently announced their 2.0 goals: pivoting away from directly operating cloud-based JupyterHubs, and towards eductaion and research
 * [Descartes Labs](https://www.descarteslabs.com/) -> access to EO imagery from a variety of providers via python API
 * Planet have a [Jupyter notebook platform](https://developers.planet.com/) which can be deployed locally.
 * [eurodatacube.com](https://eurodatacube.com/) -> data & platform for EO analytics in Jupyter env, paid
