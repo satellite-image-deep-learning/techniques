@@ -74,6 +74,14 @@ This repository lists resources on the topic of deep learning applied to satelli
 * [Deep learning projects & frameworks](https://github.com/robmarkcole/satellite-image-deep-learning#deep-learning-projects--frameworks)
 * [Neural nets in space](https://github.com/robmarkcole/satellite-image-deep-learning#neural-nets-in-space)
 * [Courses](https://github.com/robmarkcole/satellite-image-deep-learning#courses)
+* [Online platforms for analytics](https://github.com/robmarkcole/satellite-image-deep-learning#online-platforms-for-analytics)
+* [Podcasts](https://github.com/robmarkcole/satellite-image-deep-learning#podcasts)
+* [Newsletters](https://github.com/robmarkcole/satellite-image-deep-learning#newsletters)
+* [Online communities](https://github.com/robmarkcole/satellite-image-deep-learning#online-communities)
+* [Books](https://github.com/robmarkcole/satellite-image-deep-learning#books)
+* [Jobs](https://github.com/robmarkcole/satellite-image-deep-learning#jobs)
+* [Movers and shakers on Github](https://github.com/robmarkcole/satellite-image-deep-learning#movers-and-shakers-on-github)
+* [Companies & organisations on Github](https://github.com/robmarkcole/satellite-image-deep-learning#companies--organisations-on-github)
 
 # Techniques
 This section explores the different deep and machine learning (ML) techniques applied to common problems in satellite imagery analysis. Good background reading is [Deep learning in remote sensing applications: A meta-analysis and review](https://www.iges.or.jp/en/publication_documents/pub/peer/en/6898/Ma+et+al+2019.pdf)
