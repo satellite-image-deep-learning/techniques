@@ -1961,7 +1961,7 @@ Processing on board a satellite allows less data to be downlinked. e.g. super-re
 # Podcasts
 * [Mapscaping podcast](https://mapscaping.com/blogs/the-mapscaping-podcast)
 * [Scene From Above Podcast](https://scenefromabove.podbean.com/)
-* [Minds Behind Maps](https://minds-behind-maps.simplecast.com/)
+* [Minds Behind Maps](https://www.mindsbehindmaps.com/)
 * [Terrawatch Space](https://anchor.fm/terrawatch-space)
 * [Geomob](https://thegeomob.com/)
 * [Project Geospatial](https://podcasts.apple.com/us/podcast/project-geospatial/id1486384184)
