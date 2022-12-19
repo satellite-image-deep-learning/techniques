@@ -2042,7 +2042,6 @@ For a full list of companies, on and off Github, checkout [awesome-geospatial-co
 * [CARTO](https://github.com/CartoDB) -> "The leading platform for Location Intelligence and Spatial Data Science"
 * [Cervest](https://github.com/Cervest) -> Climate Intelligence
 * [Citymapper](https://github.com/citymapper)
-* [Defense Innovation Unit (DIU)](https://diu.mil/) -> run the xView challenges
 * [Development Seed](https://github.com/developmentseed)
 * [Descartes Labs](https://github.com/descarteslabs)
 * [Dymaxion Labs](https://github.com/dymaxionlabs)
