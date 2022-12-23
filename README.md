@@ -6,7 +6,7 @@ This repository lists resources on the topic of deep learning applied to satelli
 
 # 🖥️ [satellite-image-deep-learning.com](https://www.satellite-image-deep-learning.com/)
 
-*Are you looking for a remote sensing dataset, or want to know about training deploying models?*
+*Are you looking for a remote sensing dataset, or want to know about training and deploying models?*
 
 # 📺 [Video: the remote-sensing-datasets repository](https://www.satellite-image-deep-learning.com/p/datasets-for-machine-and-deep-learning)
 
