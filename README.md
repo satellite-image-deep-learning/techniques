@@ -2,7 +2,7 @@
 <img src="logo.png" width="700">
 </p>
 
-This repository lists resources on the topic of deep learning applied to satellite and aerial imagery. For regular updates 👇
+This page lists resources on deep learning applied to satellite and aerial imagery. For regular updates 👇
 
 # 🖥️ [satellite-image-deep-learning.com](https://www.satellite-image-deep-learning.com/)
 
