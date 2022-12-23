@@ -8,7 +8,7 @@ This repository lists resources on the topic of deep learning applied to satelli
 
 *Are you looking for a remote sensing dataset, or want to know about training deploying models?*
 
-# 📺 [Short video on the remote-sensing-datasets repository](https://www.satellite-image-deep-learning.com/p/datasets-for-machine-and-deep-learning)
+# 📺 [Video: the remote-sensing-datasets repository](https://www.satellite-image-deep-learning.com/p/datasets-for-machine-and-deep-learning)
 
 **How to use this repository:** if you know exactly what you are looking for (e.g. a dataset name) you can `Control+F` to search for it in the page. Otherwise refer to the table of contents below, and search within the relevant section. Material that is suitable for getting started with a topic is tagged with `BEGINNER`, which can also be searched.
 
