@@ -10,6 +10,10 @@ This page lists resources on deep learning applied to satellite and aerial image
 
 # 📺 [Video: the remote-sensing-datasets repository](https://www.satellite-image-deep-learning.com/p/datasets-for-machine-and-deep-learning)
 
+*Do you want expert advice on your satellite & aerial imagery project?*
+
+# 💬 [Book a 1:1 with me](https://calendly.com/robmarkcole)
+
 **How to use this repository:** if you know exactly what you are looking for (e.g. a dataset name) you can `Control+F` to search for it in the page. Otherwise refer to the table of contents below, and search within the relevant section. Material that is suitable for getting started with a topic is tagged with `BEGINNER`, which can also be searched.
 
 # Table of contents
