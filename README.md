@@ -1641,7 +1641,7 @@ Training data can be hard to acquire, particularly for rare events such as chang
 # Deep learning projects & frameworks
 * [TorchGeo](https://github.com/microsoft/torchgeo) -> a PyTorch domain library providing datasets, samplers, transforms, and pre-trained models specific to geospatial data, supported by Microsoft. Read [Geospatial deep learning with TorchGeo](https://pytorch.org/blog/geospatial-deep-learning-with-torchgeo/)
 * [rastervision](https://docs.rastervision.io/) -> An open source Python framework for building computer vision models on aerial, satellite, and other large imagery sets
-* [geotorch](https://kanchanchy.github.io/geotorch/) -> A Deep Learning and Scalable Data Processing Framework for Raster and Spatio-Temporal Datasets
+* [GeoTorchAI](https://github.com/DataSystemsLab/GeoTorchAI) -> A Deep Learning and Scalable Data Processing Framework for Raster and Spatio-Temporal Datasets
 * [torchrs](https://github.com/isaaccorley/torchrs) -> PyTorch implementation of popular datasets and models in remote sensing tasksenhance) -> Enhance PyTorch vision for semantic segmentation, multi-channel images and TIF file
 * [DeepHyperX](https://github.com/eecn/Hyperspectral-Classification) -> A Python/pytorch tool to perform deep learning experiments on various hyperspectral datasets
 * [DELTA](https://github.com/nasa/delta) -> Deep Earth Learning, Tools, and Analysis, by NASA is a framework for deep learning on satellite imagery, based on Tensorflow & using MLflow for tracking experiments
