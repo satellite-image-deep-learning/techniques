@@ -681,6 +681,7 @@ Detecting the most noticeable or important object in a scene
 * [AGNet](https://github.com/NuaaYH/AGNet) -> code for 2022 paper: AGNet: Attention Guided Network for Salient Object Detection in Optical Remote Sensing Images
 * [MSCNet](https://github.com/NuaaYH/MSCNet) -> code for 2022 [paper](https://arxiv.org/abs/2205.08959): A lightweight multi-scale context network for salient object detection in optical remote sensing images
 * [GPnet](https://github.com/liuyu1002/GPnet) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9687549): Global Perception Network for Salient Object Detection in Remote Sensing Images
+* [SeaNet](https://github.com/MathLee/SeaNet) -> code for 2023 [paper](https://arxiv.org/abs/2301.02778): Lightweight Salient Object Detection in Optical Remote Sensing Images via Semantic Matching and Edge Alignment
 
 #### Object detection - Buildings, rooftops & solar panels
 * [satellite_image_tinhouse_detector](https://github.com/yasserius/satellite_image_tinhouse_detector) -> Detection of tin houses from satellite/aerial images using the Tensorflow Object Detection API `BEGINNER`
@@ -768,6 +769,7 @@ Detecting the most noticeable or important object in a scene
 * [FasterRCNN_ObjectDetection](https://github.com/UKMIITB/FasterRCNN_ObjectDetection) -> faster RCNN model for aircraft detection and localisation in satellite images and creating a webpage with live server for public usage
 * [HRPlanes](https://github.com/TolgaBkm/HRPlanes) -> weights of YOLOv4 and Faster R-CNN networks trained with HRPlanes dataset
 * [aerial-detection](https://github.com/alexbakr/aerial-detection) -> uses Yolov5 & Icevision
+* [How to choose a deep learning architecture to detect aircrafts in satellite imagery?](https://medium.com/artificialis/how-to-choose-a-deep-learning-model-to-detect-aircrafts-in-satellite-imagery-cd7d106e76ad)
 
 #### Object detection - Infrastructure & utilities
 * [wind-turbine-detector](https://github.com/lbborkowski/wind-turbine-detector) -> Wind Turbine Object Detection from Aerial Imagery Using TensorFlow Object Detection API
