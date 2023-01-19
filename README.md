@@ -12,10 +12,9 @@ This page lists resources on deep learning applied to satellite and aerial image
 
 *Do you want expert advice on your satellite & aerial imagery project?*
 
-# 💬 [Book a 1:1 with me](https://calendly.com/robmarkcole)
+# 💬 [Arrange a 1:1 with me](https://robmarkcole.com/consulting.html)
 
-
-*Do you want eto support my open source work?*
+*Do you want to support my open source work?*
 
 # 🎖️ [Sponsor me on Github](https://github.com/sponsors/robmarkcole)
 
