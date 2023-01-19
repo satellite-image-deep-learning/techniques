@@ -2,26 +2,22 @@
 <img src="logo.png" width="700">
 </p>
 
-This page lists resources on deep learning applied to satellite and aerial imagery. For regular updates 👇
-
+This page lists resources on deep learning applied to satellite and aerial imagery. For regular updates & videos 👇
 # 🖥️ [satellite-image-deep-learning.com](https://www.satellite-image-deep-learning.com/)
 
 *Are you looking for a remote sensing dataset, or want to know about training and deploying models?*
-
 # 📺 [Video: the remote-sensing-datasets repository](https://www.satellite-image-deep-learning.com/p/datasets-for-machine-and-deep-learning)
 
-*Do you want expert advice on your satellite & aerial imagery project?*
-
+*Do you want expert advice on your satellite or aerial imagery project?*
 # 💬 [Arrange a 1:1 with me](https://robmarkcole.com/consulting.html)
 
-*Do you want to support my open source work?*
+*Do you want to support this resource?*
+# 🎖️ [See my Github sponsors](https://github.com/sponsors/robmarkcole)
 
-# 🎖️ [Sponsor me on Github](https://github.com/sponsors/robmarkcole)
-
-**How to use this repository:** if you know exactly what you are looking for (e.g. a dataset name) you can `Control+F` to search for it in the page. Otherwise refer to the table of contents below, and search within the relevant section. Material that is suitable for getting started with a topic is tagged with `BEGINNER`, which can also be searched.
+**How to use this repository:** if you know exactly what you are looking for (e.g. you have the paper name) you can `Control+F` to search for it in this page (or search in the raw markdown). Note that material that is suitable for getting started with a topic is tagged with BEGINNER, which can also be searched.
 
 # Techniques
-This section explores the different deep and machine learning (ML) techniques applied to common problems in satellite imagery analysis. Good background reading is [Deep learning in remote sensing applications: A meta-analysis and review](https://www.iges.or.jp/en/publication_documents/pub/peer/en/6898/Ma+et+al+2019.pdf)
+This section lists techniques applied to satellite & aerial imagery. Click the ▶️ arrow to expand the section
 
 <details><summary>Classification</summary>
 <p>
@@ -1783,6 +1779,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 </p>
 </details>
+
+# 
 
 # Deep learning projects & frameworks
 * [TorchGeo](https://github.com/microsoft/torchgeo) -> a PyTorch domain library providing datasets, samplers, transforms, and pre-trained models specific to geospatial data, supported by Microsoft. Read [Geospatial deep learning with TorchGeo](https://pytorch.org/blog/geospatial-deep-learning-with-torchgeo/)
