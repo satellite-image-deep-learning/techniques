@@ -1610,7 +1610,6 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 * Process of creating a DEM [here](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLI-B1/327/2016/isprs-archives-XLI-B1-327-2016.pdf)
 * [ArcGIS can generate DEMs from stereo images](http://pro.arcgis.com/en/pro-app/help/data/imagery/generate-elevation-data-using-the-dems-wizard.htm)
 * https://github.com/MISS3D/s2p -> produces elevation models from images taken by high resolution optical satellites -> demo code on https://gfacciol.github.io/IS18/
-* [Automatic 3D Reconstruction from Multi-Date Satellite Images](http://dev.ipol.im/~facciolo/pub/CVPRW2017.pdf)
 * [Predict the fate of glaciers](https://github.com/geohackweek/glacierhack_2018)
 * [monodepth - Unsupervised single image depth prediction with CNNs](https://github.com/mrharicot/monodepth)
 * [Stereo Matching by Training a Convolutional Neural Network to Compare Image Patches](https://github.com/jzbontar/mc-cnn)
