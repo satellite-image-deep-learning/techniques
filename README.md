@@ -1872,7 +1872,7 @@ Processing on board a satellite allows less data to be downlinked. e.g. super-re
 * [TerraWatch Space by Aravind](https://terrawatch.substack.com/)
 * [Payload Space](https://payloadspace.com/)
 * [Geoscience and Remote Sensing eNewsletter from grss-ieee](https://www.grss-ieee.org/publications/geoscience-and-remote-sensing-enewsletter/)
-* [Weekly Remote Sensing and Geosciences news by Rafaela Tiengo](https://www.getrevue.co/profile/rafaelatiengo)
+* [Weekly Remote Sensing and Geosciences news by Rafaela Tiengo](https://rafaelatiengo.substack.com/)
 
 # Books
 * I highly recommend [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python-second-edition) by François Chollet
