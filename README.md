@@ -2,8 +2,9 @@
 <img src="logo.png" width="700">
 </p>
 
-This page lists resources on deep learning applied to satellite and aerial imagery. Learn more 👇
-# 🖥️ [satellite-image-deep-learning.com](https://www.satellite-image-deep-learning.com/)
+This page lists resources on deep learning applied to satellite and aerial imagery. Learn more at:
+
+# 👉 [satellite-image-deep-learning.com](https://www.satellite-image-deep-learning.com/) 👈
 
 **How to use this repository:** if you know exactly what you are looking for (e.g. you have the paper name) you can `Control+F` to search for it in this page (or search in the raw markdown). Note that material that is suitable for getting started with a topic is tagged with BEGINNER, which can also be searched.
 
