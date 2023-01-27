@@ -99,7 +99,15 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 
 # 
 ## Segmentation
- Segmentation will assign a class label to each **pixel** in an image. Single class models are often trained for road or building segmentation, with multi class for land use/crop type classification. Read more about segmentation in my post [A brief introduction to satellite image segmentation with neural networks](https://www.satellite-image-deep-learning.com/p/a-brief-introduction-to-satellite-365). **Note** that many articles which refer to 'hyperspectral land classification' are actually describing semantic segmentation.
+
+<p align="center">
+  <img src="images/segmentation.png" width="400">
+  <br>
+  <b>Source: https://towardsdatascience.com/semantic-segmentation-of-aerial-imagery-using-u-net-in-python-552705238514</b>
+</p>
+
+
+Segmentation will assign a class label to each **pixel** in an image. Single class models are often trained for road or building segmentation, with multi class for land use/crop type classification. Read more about segmentation in my post [A brief introduction to satellite image segmentation with neural networks](https://www.satellite-image-deep-learning.com/p/a-brief-introduction-to-satellite-365). **Note** that many articles which refer to 'hyperspectral land classification' are actually describing semantic segmentation.
 
 <details><summary>links</summary>
 <p>
