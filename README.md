@@ -101,13 +101,13 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 ## Segmentation
 
 <p align="center">
-  <img src="images/segmentation2.png" width="600">
+  <img src="images/segmentation.png" width="600">
   <br>
   <b>Source: https://towardsdatascience.com/semantic-segmentation-of-aerial-imagery-using-u-net-in-python-552705238514</b>
 </p>
 
 
-Segmentation will assign a class label to each **pixel** in an image. Single class models are often trained for road or building segmentation, with multi class for land use/crop type classification. Read more about segmentation in my post [A brief introduction to satellite image segmentation with neural networks](https://www.satellite-image-deep-learning.com/p/a-brief-introduction-to-satellite-365). **Note** that many articles which refer to 'hyperspectral land classification' are actually describing semantic segmentation.
+Segmentation will assign a class label to each **pixel** in an image. Single class models are often trained for road or building segmentation, with multi class for land use/crop type classification. Read [A brief introduction to satellite image segmentation with neural networks](https://www.satellite-image-deep-learning.com/p/a-brief-introduction-to-satellite-365). **Note** that many articles which refer to 'hyperspectral land classification' are actually describing semantic segmentation.
 
 <details><summary>links</summary>
 <p>
@@ -514,6 +514,13 @@ In instance segmentation, each individual 'instance' of a segmented area is give
 
 #
 ## Object detection
+
+<p align="center">
+  <img src="images/object-detection.png" width="700">
+  <br>
+  <b>Source: https://www.mdpi.com/2072-4292/13/21/4291</b>
+</p>
+
 Object detection is the task of placing a box around the bounds of an object (i.e. creating a bounding box). Typical use cases are detecting vehicles, aircraft & ships. A good introduction to the challenge of performing object detection on aerial imagery is given in [this paper](https://arxiv.org/abs/1902.06042v2). In summary, images are large and objects may comprise only a few pixels, easily confused with random features in background. For the same reason, object detection datasets are inherently imbalanced, since the area of background typically dominates over the area of the objects to be detected. In general object detection performs well on large objects, and gets increasingly difficult as the objects get smaller & more densely packed. Model accuracy falls off rapidly as image resolution degrades, so it is common for object detection to use very high resolution imagery, e.g. 30cm RGB. A particular characteristic of aerial images is that objects can be oriented in any direction, so using rotated bounding boxes which align with the object can be crucial for extracting measurements of the length and width of an object.
 
 <details><summary>links</summary>
@@ -521,7 +528,6 @@ Object detection is the task of placing a box around the bounds of an object (i.
 
 * [Object detection on Satellite Imagery using RetinaNet](https://medium.com/@ije_good/object-detection-on-satellite-imagery-using-retinanet-part-1-training-e589975afbd5) -> using the Kaggle Swimming Pool and Car Detection dataset `BEGINNER`
 * [Tackling the Small Object Problem in Object Detection](https://blog.roboflow.com/tackling-the-small-object-problem-in-object-detection) `BEGINNER`
-* Background reading: [Anchor Boxes for Object Detection](https://uk.mathworks.com/help/vision/ug/anchor-boxes-for-object-detection.html)
 * [Object Detection and Image Segmentation with Deep Learning on Earth Observation Data: A Review](https://www.mdpi.com/2072-4292/12/10/1667)
 * [awesome-aerial-object-detection bu murari023](https://github.com/murari023/awesome-aerial-object-detection), [another by visionxiang](https://github.com/visionxiang/awesome-object-detection-in-aerial-images) and [awesome-tiny-object-detection](https://github.com/kuanhungchen/awesome-tiny-object-detection) list many relevant papers
 * [Object Detection Accuracy as a Function of Image Resolution](https://medium.com/the-downlinq/the-satellite-utility-manifold-object-detection-accuracy-as-a-function-of-image-resolution-ebb982310e8c) -> Medium article using COWC dataset, performance rapidly degrades below 30cm imagery
