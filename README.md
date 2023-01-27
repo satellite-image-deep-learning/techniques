@@ -12,7 +12,7 @@ This page lists techniques for deep learning on satellite and aerial imagery. Le
 ## Classification
 
 <p align="center">
-  <img src="images/classification.png" width="500">
+  <img src="images/classification.png" width="300">
   <br>
   <b>The UC merced dataset</b>
 </p>
