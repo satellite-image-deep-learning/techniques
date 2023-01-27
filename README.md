@@ -816,6 +816,14 @@ Regression is the prediction of a continuous variable such as wind speed, tree h
 
 #
 ## Cloud detection & removal
+
+<p align="center">
+  <img src="images/clouds.png" width="450">
+  <br>
+  <b>Source: adapted from https://www.sciencedirect.com/science/article/pii/S1877050922005361</b>
+</p>
+
+
 Clouds are a common problem in remote sensing images because they obscure the view of the ground. Clouds can be detected with both classical algorithms and deep learning approaches. The generated cloud mask can be used to either discard these pixels from further ananlysis, or cloud inpainting techniques can be used to fill in the obscured area.
 
 <details><summary>links</summary>
