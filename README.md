@@ -101,7 +101,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 ## Segmentation
 
 <p align="center">
-  <img src="images/segmentation.png" width="400">
+  <img src="images/segmentation.png" width="600">
   <br>
   <b>Source: https://towardsdatascience.com/semantic-segmentation-of-aerial-imagery-using-u-net-in-python-552705238514</b>
 </p>
