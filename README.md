@@ -10,7 +10,14 @@ This page lists techniques for deep learning on satellite and aerial imagery. Le
 
 #
 ## Classification
-Classification is the task of assigning a label to an image, e.g. this is an image of a forest. The more complex case is applying multiple labels to an image. This approach of image level classification is not to be confused with pixel-level classification which is called semantic segmentation. Read more in my post [A brief introduction to satellite image classification with neural networks](https://www.satellite-image-deep-learning.com/p/a-brief-introduction-to-satellite)
+
+<p align="center">
+  <img src="images/classification.png" width="500">
+  <br>
+  <b>The UC merced dataset</b>
+</p>
+
+Classification is the task of assigning a label to an image, e.g. this is an image of a forest. The more complex case is applying multiple labels to an image. This approach of image level classification is not to be confused with pixel-level classification which is called semantic segmentation. Read [A brief introduction to satellite image classification with neural networks](https://www.satellite-image-deep-learning.com/p/a-brief-introduction-to-satellite)
 
 <details><summary>links</summary>
 <p>
