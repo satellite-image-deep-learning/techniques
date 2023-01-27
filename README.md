@@ -1784,8 +1784,6 @@ Training data can be hard to acquire, particularly for rare events such as chang
 * [torchrs](https://github.com/isaaccorley/torchrs) -> PyTorch implementation of popular datasets and models in remote sensing tasksenhance) -> Enhance PyTorch vision for semantic segmentation, multi-channel images and TIF file
 * [DeepHyperX](https://github.com/eecn/Hyperspectral-Classification) -> A Python/pytorch tool to perform deep learning experiments on various hyperspectral datasets
 * [DELTA](https://github.com/nasa/delta) -> Deep Earth Learning, Tools, and Analysis, by NASA is a framework for deep learning on satellite imagery, based on Tensorflow & using MLflow for tracking experiments
-* [Lightly](https://www.lightly.ai/) is a computer vision framework for training deep learning models using self-supervised learning
-* [Icevision](https://airctic.com/) offers a curated collection of hundreds of high-quality pre-trained models within an easy to use framework
 * [pytorch_eo](https://github.com/earthpulse/pytorch_eo) -> aims to make Deep Learning for Earth Observation data easy and accessible to real-world cases and research alike
 * [NGVEO](https://github.com/ESA-PhiLab/NGVEO) -> applying convolutional neural networks (CNN) to Earth Observation (EO) data from Sentinel 1 and 2 using python and PyTorch
 * [chip-n-scale-queue-arranger by developmentseed](https://github.com/developmentseed/chip-n-scale-queue-arranger) -> an orchestration pipeline for running machine learning inference at scale. [Supports fastai models](https://github.com/developmentseed/fastai-serving)
@@ -1795,17 +1793,15 @@ Training data can be hard to acquire, particularly for rare events such as chang
 * [RoboSat](https://github.com/mapbox/robosat) -> semantic segmentation on aerial and satellite imagery. Extracts features such as: buildings, parking lots, roads, water, clouds (no longer maintained)
 * [DeepOSM](https://github.com/trailbehind/DeepOSM) -> Train a deep learning net with OpenStreetMap features and satellite imagery (no activity since 2017)
 * [mapwith.ai](https://mapwith.ai/) -> AI assisted mapping of roads with OpenStreetMap. Part of [Open-Mapping-At-Facebook](https://github.com/facebookmicrosites/Open-Mapping-At-Facebook)
-* [SAHI](https://github.com/obss/sahi) -> Python library for slicing image datasets, performing sliced inference with MMDetection, Detectron2, YOLOv5, Torchvision detectors and generating error analysis plots. Read the [arxiv paper](https://arxiv.org/abs/2202.06934) and article [SAHI: A vision library for large-scale object detection & instance segmentation](https://medium.com/codable/sahi-a-vision-library-for-performing-sliced-inference-on-large-images-small-objects-c8b086af3b80)
 * [terragpu](https://github.com/nasa-cisto-ai/terragpu) -> Python library to process and classify remote sensing imagery by means of GPUs and AI/ML
 * [EOTorchLoader](https://github.com/ndavid/EOTorchLoader) -> Pytorch dataloader and pytorch lightning datamodule for Earth Observation imagery
 * [satellighte](https://github.com/canturan10/satellighte) -> an image classification library that consist state-of-the-art deep learning methods, using PyTorch Lightning
 * [aeronetlib](https://github.com/Geoalert/aeronetlib) -> Python library to work with geospatial raster and vector data for deep learning
 * [rsi-semantic-segmentation](https://github.com/xdu-jjgs/rsi-semantic-segmentation) -> A unified PyTorch framework for semantic segmentation from remote sensing imagery
-* [AiTLAS](https://github.com/biasvariancelabs/aitlas) -> implements state-of-the-art AI methods for exploratory and predictive analysis of satellite images
-* [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) -> Semantic Segmentation Toolbox with support for many remote sensing datasets including LoveDA
-, Potsdam, Vaihingen & iSAID
-* [mmrotate](https://github.com/open-mmlab/mmrotate) -> Open-source toolbox for rotated object detection which is great for detecting randomly oriented objects in huge satellite images 
+* [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) -> Semantic Segmentation Toolbox with support for many remote sensing datasets including LoveDA, Potsdam, Vaihingen & iSAID
+* [mmrotate](https://github.com/open-mmlab/mmrotate) -> Open-source toolbox for rotated object detection which is great for detecting randomly oriented objects in huge satellite images
 * [ODEON landcover](https://github.com/IGNF/odeon-landcover) -> a set of command-line tools performing semantic segmentation on remote sensing images (aerial and/or satellite) with as many layers as you wish
+* [AiTLAS](https://github.com/biasvariancelabs/aitlas) -> implements state-of-the-art AI methods for exploratory and predictive analysis of satellite images
 * [aitlas-arena](https://github.com/biasvariancelabs/aitlas-arena) -> An open-source benchmark framework for evaluating state-of-the-art deep learning approaches for image classification in Earth Observation (EO)
 * [PaddleRS](https://github.com/PaddlePaddle/PaddleRS) -> remote sensing image processing development kit
 * [RocketML Deep Neural Networks](https://github.com/rocketmlhq/rmldnn) -> read [Satellite Image Classification](https://github.com/rocketmlhq/rmldnn/tree/main/tutorials/satellite_image_classification) using rmldnn and Sentinel 2 data
@@ -1854,39 +1850,6 @@ Processing on board a satellite allows less data to be downlinked. e.g. super-re
 * [pytorch-deep-learning](https://github.com/mrdbourke/pytorch-deep-learning) -> Materials for the Learn PyTorch for Deep Learning: Zero to Mastery course
 * [Materials for the USGS "Deep Learning for Image Classification and Segmentation" CDI workshop, 2020](https://github.com/MLMondays/MLMONDAYS)
 * [DL4RS](https://blesaux.github.io/teaching/DL4RS) -> Deep Learning for Remote Sensing tutorial by Bertrand Le Saux
-
-# Podcasts
-* [Mapscaping podcast](https://mapscaping.com/blogs/the-mapscaping-podcast)
-* [Scene From Above Podcast](https://scenefromabove.podbean.com/)
-* [Minds Behind Maps](https://www.mindsbehindmaps.com/)
-* [Terrawatch Space](https://anchor.fm/terrawatch-space)
-* [Geomob](https://thegeomob.com/)
-* [Project Geospatial](https://podcasts.apple.com/us/podcast/project-geospatial/id1486384184)
-* [Eyes on Earth by USGS](https://www.usgs.gov/centers/eros/eyes-earth)
-* [Zenml episode: Satellite Vision with Robin Cole](https://podcast.zenml.io/satellite-vision-robin-cole)
-
-# Newsletters
-* [satellite-image-deep-learning newsletter](https://www.satellite-image-deep-learning.com/)
-* [Radiant Earth ML4EO market news](https://www.radiant.earth/category/ml4eo-market-news/)
-* [A Closer Look with Joe Morrison](https://joemorrison.substack.com/) -> examines the business and technology of mapping
-* [TerraWatch Space by Aravind](https://terrawatch.substack.com/)
-* [Payload Space](https://payloadspace.com/)
-* [Geoscience and Remote Sensing eNewsletter from grss-ieee](https://www.grss-ieee.org/publications/geoscience-and-remote-sensing-enewsletter/)
-* [Weekly Remote Sensing and Geosciences news by Rafaela Tiengo](https://rafaelatiengo.substack.com/)
-
-# Books
-* I highly recommend [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python-second-edition) by François Chollet
-* [Image Analysis, Classification and Change Detection in Remote Sensing With Algorithms for Python, Fourth Edition, By Morton John Canty](https://www.routledge.com/Image-Analysis-Classification-and-Change-Detection-in-Remote-Sensing-With/Canty/p/book/9781138613225) -> code [here](https://github.com/mortcanty/CRC4Docker)
-* [Practical Deep Learning for Cloud, Mobile & Edge](https://github.com/PracticalDL/Practical-Deep-Learning-Book)
-* [d2l.ai](https://www.d2l.ai/) -> Interactive deep learning book with code, math, and discussions
-* [interpretable-ml-book](https://github.com/christophM/interpretable-ml-book)
-* [pyGIS](https://github.com/mmann1123/pyGIS) -> an online textbook covering all the core geospatial functionality available in Python
-* [Deep Learning Interviews book](https://github.com/BoltzmannEntropy/interviews.ai)
-* [Geographic Data Science with Python](https://geographicdata.science/book/intro.html) -> data science applied to geographic problems and data
-* [eBook: Introduction to Datascience with Julia](https://datascience-book.gitlab.io/)
-* [Deep Learning In Production Book](https://github.com/The-AI-Summer/Deep-Learning-In-Production)
-* [Land Use Cover Datasets and Validation Tools](https://link.springer.com/book/10.1007/978-3-030-90998-7)
-* [Intermediate Python](https://book.pythontips.com/en/latest/)
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
