@@ -793,7 +793,14 @@ When the object count, but not its shape is required, U-net can be used to treat
 
 # 
 ## Regression
-Regression is the prediction of a continuous variable such as wind speed or tree height.
+
+<p align="center">
+  <img src="images/regression.png" width="250">
+  <br>
+  <b>Source: https://github.com/h-fuzzy-logic/python-windspeed</b>
+</p>
+
+Regression is the prediction of a continuous variable such as wind speed, tree height or soil moisture from an image. There are both classical machine learning and deep learning approaches  to this task. In classical machine learning, the input data is processed with feature engineering techniques to create a set of numerical values for each sample. A regression algorithm such as linear regression is then used to create a model that can be used to make predictions. In deep learning, a convolutional neural network (CNN) is used to process the image data, which is then fed into a fully connected neural network (FCNN) for regression. The FCNN is trained to map the input image data to the desired output.
 
 <details><summary>links</summary>
 <p>
