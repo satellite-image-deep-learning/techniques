@@ -902,7 +902,14 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
 #
 ## Change detection
-Change detection is applied to remote sensing images to detect changes in the landscape over time. This can be used to monitor land use, urban development, coastal erosion, and deforestation. Change detection can be applied to two images taken at different times, or to multiple images taken over a period of time. Note, clouds & shadows change often too..!
+
+<p align="center">
+  <img src="images/change.png" width="950">
+  <br>
+  <b>(left) Initial and (middle) after some development, with (right) the change highlighted.</b>
+</p>
+
+Change detection is a vital component of remote sensing analysis, enabling the monitoring of landscape changes over time. This technique can be applied to identify a wide range of changes, including land use changes, urban development, coastal erosion, and deforestation. Change detection can be performed on a pair of images taken at different times, or by analyzing multiple images collected over a period of time. It is important to note that while change detection is primarily used to detect changes in the landscape, it can also be influenced by the presence of clouds and shadows. These dynamic elements can alter the appearance of the image, leading to false positives in change detection results. Therefore, it is essential to consider the impact of clouds and shadows on change detection analysis, and to employ appropriate methods to mitigate their influence. [Image source](https://www.mdpi.com/2072-4292/11/3/240)
 
 <details><summary>links</summary>
 <p>
