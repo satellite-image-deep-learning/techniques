@@ -1076,7 +1076,14 @@ Crop classification in remote sensing is the identification and mapping of diffe
 
 #
 ## Crop yield
-Crop yield is the amount of a crop produced per unit area of land. Crop yield is affected by a variety of factors, such as soil fertility, weather conditions, the type of crop grown, and pest and disease control. Time series of satellite images can be used for accurate crop type classification, since seasonal variations specific to particular crop types can be detected.
+
+<p align="center">
+  <img src="images/yield.png" width="600">
+  <br>
+  <b>Wheat yield data. Blue vertical lines denote observation dates.</b>
+</p>
+
+Crop yield is a crucial metric in agriculture, as it determines the productivity and profitability of a farm. It is defined as the amount of crops produced per unit area of land and is influenced by a range of factors including soil fertility, weather conditions, the type of crop grown, and pest and disease control. By utilizing time series of satellite images, it is possible to perform accurate crop type classification and take advantage of the seasonal variations specific to certain crops. This information can be used to optimize crop management practices and ultimately improve crop yield. However, to achieve accurate results, it is essential to consider the quality and resolution of the input data, as well as the availability of labeled training data. Appropriate pre-processing and feature extraction techniques must also be employed. [Image source](https://www.mdpi.com/2072-4292/14/17/4193).
 
 <details><summary>links</summary>
 <p>
