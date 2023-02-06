@@ -1108,7 +1108,14 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
 #
 ## Wealth and economic activity
-The goal is to predict economic activity from satellite imagery rather than conducting labour intensive ground surveys
+
+<p align="center">
+  <img src="images/economic.png" width="450">
+  <br>
+  <b>COVID-19 impacts on human and economic activities.</b>
+</p>
+
+The traditional approach of collecting economic data through ground surveys is a time-consuming and resource-intensive process. However, advancements in satellite technology and machine learning offer an alternative solution. By utilizing satellite imagery and applying machine learning algorithms, it is possible to obtain accurate and current information on economic activity with greater efficiency. This shift towards satellite imagery-based forecasting not only provides cost savings but also offers a wider and more comprehensive perspective of economic activity. As a result, it is poised to become a valuable asset for both policymakers and businesses. [Image source](https://arxiv.org/abs/2004.07438).
 
 <details><summary>links</summary>
 <p>
