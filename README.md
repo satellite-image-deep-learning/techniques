@@ -803,7 +803,7 @@ When the object count, but not its shape is required, U-net can be used to treat
 ## Regression
 
 <p align="center">
-  <img src="images/regression.png" width="250">
+  <img src="images/regression.png" width="300">
   <br>
   <b>Regression can be used to predict the average windspeed of a tornado. </b>
 </p>
@@ -1050,7 +1050,14 @@ The analysis of time series observations in remote sensing data has numerous app
 
 #
 ## Crop classification
-Crop classification is the process of identifying and mapping different crops within an image or series of images captured from aerial or satellite sensors. The goal of crop classification is to provide information about the distribution and composition of crops within a given area, which can be used for various applications, such as monitoring crop growth, assessing crop damage, and estimating crop yields. Crop classification can be performed using both traditional machine learning methods, such as decision trees and support vector machines, as well as deep learning techniques, such as convolutional neural networks (CNNs). The selection of the appropriate method will depend on the specific requirements of the task, including the size and complexity of the dataset, the desired level of accuracy, and the computational resources available. Regardless of the method used, the success of crop classification depends on the quality and resolution of the input data, as well as the availability of labeled training data. To ensure accurate results, it is essential to carefully consider these factors and to employ appropriate pre-processing and feature extraction techniques.
+
+<p align="center">
+  <img src="images/crops.jpg" width="600">
+  <br>
+  <b>(left) false colour image and (right) predicted crop map.</b>
+</p>
+
+Crop classification in remote sensing is the identification and mapping of different crops in images or sequences of images. It aims to provide insight into the distribution and composition of crops in a specific area, with applications that include monitoring crop growth and evaluating crop damage. Both traditional machine learning methods, such as decision trees and support vector machines, and deep learning techniques, such as convolutional neural networks (CNNs), can be used to perform crop classification. The optimal method depends on the size and complexity of the dataset, the desired accuracy, and the available computational resources. However, the success of crop classification relies heavily on the quality and resolution of the input data, as well as the availability of labeled training data. [Image source](https://journal.hep.com.cn/fase/EN/10.15302/J-FASE-2018226).
 
 <details><summary>links</summary>
 <p>
