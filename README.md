@@ -1190,7 +1190,7 @@ Remote sensing images are used in disaster response to identify and assess damag
 ## Super-resolution
 
 <p align="center">
-  <img src="images/super-res.jpg" width="650">
+  <img src="images/super-res.jpg" width="600">
   <br>
   <b>Super resolution using multiple low resolution images as input.</b>
 </p>
@@ -1359,7 +1359,14 @@ Image-to-image translation is a crucial aspect of computer vision that utilizes 
 
 #
 ## Data fusion
-Data fusion is a technique for combining information from different sources such as Synthetic Aperture Radar (SAR), optical imagery, and non-imagery data such as Internet of Things (IoT) sensor data. The integration of diverse data sources enables data fusion to overcome the limitations of individual sources, leading to the creation of models that are more accurate and informative than those constructed from a single source.
+
+<p align="center">
+  <img src="images/fusion.png" width="800">
+  <br>
+  <b>Illustration of the fusion process.</b>
+</p>
+
+Data fusion is a technique for combining information from different sources such as Synthetic Aperture Radar (SAR), optical imagery, and non-imagery data such as Internet of Things (IoT) sensor data. The integration of diverse data sources enables data fusion to overcome the limitations of individual sources, leading to the creation of models that are more accurate and informative than those constructed from a single source. [Image source](https://www.mdpi.com/2072-4292/14/18/4458)
 
 <details><summary>links</summary>
 <p>
