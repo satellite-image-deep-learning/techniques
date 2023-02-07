@@ -1325,7 +1325,14 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
 
 #
 ## Image-to-image translation
-Image-to-image translation is  a type of computer vision task in which a model is used to convert an input image into a new output image. It is used to translate images from one domain to another, e.g. from SAR to RGB.
+
+<p align="center">
+  <img src="images/translation.png" width="500">
+  <br>
+  <b>(left) Sentinel-1 SAR input, (middle) generated RGB image from SAR and (right) Sentinel-2 true RGB image for comparison.).</b>
+</p>
+
+Image-to-image translation is a crucial aspect of computer vision that utilizes machine learning models to transform an input image into a new, distinct output image. In the field of remote sensing, it plays a significant role in bridging the gap between different imaging domains, such as converting Synthetic Aperture Radar (SAR) images into RGB (Red Green Blue) images. This technology has a wide range of applications, including improving image quality, filling in missing information, and facilitating cross-domain image analysis and comparison. By leveraging deep learning algorithms, image-to-image translation has become a powerful tool in the arsenal of remote sensing researchers and practitioners. [Image source](https://www.researchgate.net/publication/335648375_SAR-to-Optical_Image_Translation_Using_Supervised_Cycle-Consistent_Adversarial_Networks)
 
 <details><summary>links</summary>
 <p>
