@@ -1358,8 +1358,15 @@ Image-to-image translation is a crucial aspect of computer vision that utilizes 
 </details>
 
 #
-## GANs
-Generative Adversarial Networks (GANs) are a type of deep learning architecture in which two neural networks compete against each other in a zero-sum game to generate new, realistic data that is similar to the training data. GANs are therefore often used for generating synthetic data
+## Generative Adversarial Networks (GANs)
+
+<p align="center">
+  <img src="images/gan.png" width="600">
+  <br>
+  <b>Example generated images using a GAN.</b>
+</p>
+
+Generative Adversarial Networks (GANs) are a type of deep learning architecture that leverages the power of competition between two neural networks. The objective of a GAN is to generate new, synthetic data that appears similar to real-world data. This is achieved by training the two networks, the generator and the discriminator, in a zero-sum game, where the generator attempts to produce data that is indistinguishable from the real data, while the discriminator tries to distinguish between the generated data and the real data. In the field of remote sensing, GANs have found numerous applications, particularly in generating synthetic data. This synthetic data can be used for a wide range of purposes, including data augmentation, data imbalance correction, and filling in missing or corrupted data. By generating realistic synthetic data, GANs can improve the performance of remote sensing algorithms and models, leading to more accurate and reliable results. Additionally, GANs can also be used for various other tasks in remote sensing, such as super-resolution, denoising, and inpainting. [Image source](https://arxiv.org/abs/2207.14580)
 
 <details><summary>links</summary>
 <p>
