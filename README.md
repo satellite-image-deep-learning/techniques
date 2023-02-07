@@ -11,7 +11,7 @@
 </div>
 
 ## Introduction
-Deep learning has revolutionized the interpretation and analysis of satellite and aerial images. The large image sizes, high levels of variability, and diverse object classes, offer unique challenges and opportunities for deep learning researchers. The goal of this respoitory is to provide a comprehensive overview of the various deep learning techniques used to analyze satellite and aerial imagery, including the architectures, models, and algorithms used for tasks such as classification, segmentation and object detection. Whether you are a researcher, practitioner, or simply interested in learning about the latest advances in deep learning, this repository will help you gain a deeper understanding of the techniques which are shaping the future of computer vision and remote sensing.
+Deep learning has transformed the way satellite and aerial images are analyzed and interpreted. These images pose unique challenges, such as large sizes and diverse object classes, which offer opportunities for deep learning researchers. This repository offers a comprehensive overview of various deep learning techniques for analyzing satellite and aerial imagery, including architectures, models, and algorithms for tasks such as classification, segmentation, and object detection. It serves as a valuable resource for researchers, practitioners, and anyone interested in the latest advances in deep learning and its impact on computer vision and remote sensing.
 
 **How to use this repository:** if you know exactly what you are looking for (e.g. you have the paper name) you can `Control+F` to search for it in this page (or search in the raw markdown). Note that material that is suitable for getting started with a topic is tagged with `BEGINNER`, which can also be searched.
 
@@ -21,7 +21,7 @@ Deep learning has revolutionized the interpretation and analysis of satellite an
 <p align="center">
   <img src="images/classification.png" width="400">
   <br>
-  <b>The UC merced dataset is a common classification dataset in remote sensing</b>
+  <b>The UC merced dataset is a common classification dataset in remote sensing.</b>
 </p>
 
 Classification is a fundamental task in remote sensing data analysis, where the goal is to assign a semantic label to each image, such as 'urban', 'forest', 'agricultural land', etc. The process of assigning labels to an image is known as image-level classification. However, in some cases, a single image might contain multiple different land cover types, such as a forest with a river running through it, or a city with both residential and commercial areas. In these cases, image-level classification becomes more complex and involves assigning multiple labels to a single image. This can be accomplished using a combination of feature extraction and machine learning algorithms to accurately identify the different land cover types. It is important to note that image-level classification should not be confused with pixel-level classification, also known as semantic segmentation. While image-level classification assigns a single label to an entire image, semantic segmentation assigns a label to each individual pixel in an image, resulting in a highly detailed and accurate representation of the land cover types in an image. Read [A brief introduction to satellite image classification with neural networks](https://www.satellite-image-deep-learning.com/p/a-brief-introduction-to-satellite)
@@ -1275,7 +1275,14 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
 #
 ## Pansharpening
-Pansharpening is a data fusion technique used to integrate the spatial information from a higher resolution panchromatic image with the spectral information of a lower resolution multispectral image. It can be used to create a single high-resolution color image, combining the spatial information of the panchromatic band with the spectral information of the multispectral bands. Pansharpening can improve the spatial resolution of an image while also preserving its spectral characteristics.
+
+<p align="center">
+  <img src="images/pansharpen.png" width="500">
+  <br>
+  <b>Pansharpening example with a resolution difference of factor 4.</b>
+</p>
+
+Pansharpening is a data fusion method that merges the high spatial detail from a high-resolution panchromatic image with the rich spectral information from a lower-resolution multispectral image. The result is a single, high-resolution color image that retains both the sharpness of the panchromatic band and the color information of the multispectral bands. This process enhances the spatial resolution while preserving the spectral qualities of the original images. [Image source](https://www.researchgate.net/publication/308121983_Computer_Vision_for_Large_Format_Digital_Aerial_Cameras)
 
 <details><summary>links</summary>
 <p>
