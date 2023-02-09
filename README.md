@@ -108,7 +108,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 ## Segmentation
 
 <p align="center">
-  <img src="images/segmentation.png" width="600">
+  <img src="images/segmentation.png" width="500">
   <br>
   <b>(left) a satellite image of an urban area and (right) the annotations of the semantic classes in the image. </b>
 </p>
@@ -524,7 +524,7 @@ In instance segmentation, each individual 'instance' of a segmented area is give
 ## Object detection
 
 <p align="center">
-  <img src="images/object-detection.png" width="700">
+  <img src="images/object-detection.png" width="600">
   <br>
   <b>(left) regular horizontal and (right) oriented/rotated object detection bounding boxes are both common in remote sensing</b>
 </p>
@@ -826,7 +826,7 @@ Regression in remote sensing involves predicting continuous variables such as wi
 ## Cloud detection & removal
 
 <p align="center">
-  <img src="images/clouds.png" width="450">
+  <img src="images/clouds.png" width="550">
   <br>
   <b>(left) False colour image showing clouds over land, and (right) a cloud mask.</b>
 </p>
@@ -1190,7 +1190,7 @@ Remote sensing images are used in disaster response to identify and assess damag
 ## Super-resolution
 
 <p align="center">
-  <img src="images/super-res.jpg" width="600">
+  <img src="images/super-res.jpg" width="500">
   <br>
   <b>Super resolution using multiple low resolution images as input.</b>
 </p>
@@ -1414,7 +1414,7 @@ Data fusion is a technique for combining information from different sources such
 ## Generative Adversarial Networks (GANs)
 
 <p align="center">
-  <img src="images/gan.png" width="600">
+  <img src="images/gan.png" width="500">
   <br>
   <b>Example generated images using a GAN.</b>
 </p>
