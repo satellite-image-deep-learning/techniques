@@ -110,7 +110,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 <p align="center">
   <img src="images/segmentation.png" width="500">
   <br>
-  <b>(left) a satellite image of an urban area and (right) the annotations of the semantic classes in the image. </b>
+  <b>(left) a satellite image and (right) the semantic classes in the image.</b>
 </p>
 
 Image segmentation is a crucial step in image analysis and computer vision, with the goal of dividing an image into semantically meaningful segments or regions. The process of image segmentation assigns a class label to each pixel in an image, effectively transforming an image from a 2D grid of pixels into a 2D grid of pixels with assigned class labels. One common application of image segmentation is road or building segmentation, where the goal is to identify and separate roads and buildings from other features within an image. To accomplish this task, single class models are often trained to differentiate between roads and background, or buildings and background. These models are designed to recognize specific features, such as color, texture, and shape, that are characteristic of roads or buildings, and use this information to assign class labels to the pixels in an image. Another common application of image segmentation is land use or crop type classification, where the goal is to identify and map different land cover types within an image. In this case, multi-class models are typically used to recognize and differentiate between multiple classes within an image, such as forests, urban areas, and agricultural land. These models are capable of recognizing complex relationships between different land cover types, allowing for a more comprehensive understanding of the image content. Read [A brief introduction to satellite image segmentation with neural networks](https://www.satellite-image-deep-learning.com/p/a-brief-introduction-to-satellite-365). **Note** that many articles which refer to 'hyperspectral land classification' are often actually describing semantic segmentation. [Image source](https://towardsdatascience.com/semantic-segmentation-of-aerial-imagery-using-u-net-in-python-552705238514)
@@ -526,7 +526,7 @@ In instance segmentation, each individual 'instance' of a segmented area is give
 <p align="center">
   <img src="images/object-detection.png" width="600">
   <br>
-  <b>(left) regular horizontal and (right) oriented/rotated object detection bounding boxes are both common in remote sensing</b>
+  <b>Image showing the suitability of rotated bounding boxes in remote sensing.</b>
 </p>
 
 Object detection in remote sensing involves locating and surrounding objects of interest with bounding boxes. Due to the large size of remote sensing images and the fact that objects may only comprise a few pixels, object detection can be challenging in this context. The imbalance between the area of the objects to be detected and the background, combined with the potential for objects to be easily confused with random features in the background, further complicates the task. Object detection generally performs better on larger objects, but becomes increasingly difficult as the objects become smaller and more densely packed. The accuracy of object detection models can also degrade rapidly as image resolution decreases, which is why it is common to use high resolution imagery, such as 30cm RGB, for object detection in remote sensing. A unique characteristic of aerial images is that objects can be oriented in any direction. To effectively extract measurements of the length and width of an object, it can be crucial to use rotated bounding boxes that align with the orientation of the object. This approach enables more accurate and meaningful analysis of the objects within the image. [Image source](https://www.mdpi.com/2072-4292/13/21/4291)
@@ -805,7 +805,7 @@ When the object count, but not its shape is required, U-net can be used to treat
 <p align="center">
   <img src="images/regression.png" width="300">
   <br>
-  <b>Regression can be used to predict the average windspeed of a tornado. </b>
+  <b>Regression prediction of windspeed.</b>
 </p>
 
 Regression in remote sensing involves predicting continuous variables such as wind speed, tree height, or soil moisture from an image. Both classical machine learning and deep learning approaches can be used to accomplish this task. Classical machine learning utilizes feature engineering to extract numerical values from the input data, which are then used as input for a regression algorithm like linear regression. On the other hand, deep learning typically employs a convolutional neural network (CNN) to process the image data, followed by a fully connected neural network (FCNN) for regression. The FCNN is trained to map the input image to the desired output, providing predictions for the continuous variables of interest. [Image source](https://github.com/h-fuzzy-logic/python-windspeed)
@@ -828,7 +828,7 @@ Regression in remote sensing involves predicting continuous variables such as wi
 <p align="center">
   <img src="images/clouds.png" width="550">
   <br>
-  <b>(left) False colour image showing clouds over land, and (right) a cloud mask.</b>
+  <b>(left) False colour image and (right) a cloud & shadown mask.</b>
 </p>
 
 Clouds are a major issue in remote sensing images as they can obscure the underlying ground features. This hinders the accuracy and effectiveness of remote sensing analysis, as the obscured regions cannot be properly interpreted. In order to address this challenge, various techniques have been developed to detect clouds in remote sensing images. Both classical algorithms and deep learning approaches can be employed for cloud detection. Classical algorithms typically use threshold-based techniques and hand-crafted features to identify cloud pixels. However, these techniques can be limited in their accuracy and are sensitive to changes in image appearance and cloud structure. On the other hand, deep learning approaches leverage the power of convolutional neural networks (CNNs) to accurately detect clouds in remote sensing images. These models are trained on large datasets of remote sensing images, allowing them to learn and generalize the unique features and patterns of clouds. The generated cloud mask can be used to identify the cloud pixels and eliminate them from further analysis or, alternatively, cloud inpainting techniques can be used to fill in the gaps left by the clouds. This approach helps to improve the accuracy of remote sensing analysis and provides a clearer view of the ground, even in the presence of clouds. Image adapted from [this source](https://www.sciencedirect.com/science/article/pii/S1877050922005361)
@@ -1018,7 +1018,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 <p align="center">
   <img src="images/time-series.png" width="350">
   <br>
-  <b>Prediction in satellite image time series.</b>
+  <b>Prediction of the next image in a series.</b>
 </p>
 
 The analysis of time series observations in remote sensing data has numerous applications, including enhancing the accuracy of classification models and forecasting future patterns and events. [Image source](https://www.mdpi.com/2072-4292/13/23/4822). Note: since classifying crops and predicting crop yield are such prominent use case for time series data, these tasks have dedicated sections after this one.
@@ -1054,7 +1054,7 @@ The analysis of time series observations in remote sensing data has numerous app
 <p align="center">
   <img src="images/crops.jpg" width="600">
   <br>
-  <b>(left) false colour image and (right) predicted crop map.</b>
+  <b>(left) false colour image and (right) the crop map.</b>
 </p>
 
 Crop classification in remote sensing is the identification and mapping of different crops in images or sequences of images. It aims to provide insight into the distribution and composition of crops in a specific area, with applications that include monitoring crop growth and evaluating crop damage. Both traditional machine learning methods, such as decision trees and support vector machines, and deep learning techniques, such as convolutional neural networks (CNNs), can be used to perform crop classification. The optimal method depends on the size and complexity of the dataset, the desired accuracy, and the available computational resources. However, the success of crop classification relies heavily on the quality and resolution of the input data, as well as the availability of labeled training data. [Image source](https://journal.hep.com.cn/fase/EN/10.15302/J-FASE-2018226).
@@ -1329,7 +1329,7 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
 <p align="center">
   <img src="images/translation.png" width="500">
   <br>
-  <b>(left) Sentinel-1 SAR input, (middle) generated RGB image from SAR and (right) Sentinel-2 true RGB image for comparison.).</b>
+  <b>(left) Sentinel-1 SAR input, (middle) translated to RGB and (right) Sentinel-2 true RGB image for comparison.</b>
 </p>
 
 Image-to-image translation is a crucial aspect of computer vision that utilizes machine learning models to transform an input image into a new, distinct output image. In the field of remote sensing, it plays a significant role in bridging the gap between different imaging domains, such as converting Synthetic Aperture Radar (SAR) images into RGB (Red Green Blue) images. This technology has a wide range of applications, including improving image quality, filling in missing information, and facilitating cross-domain image analysis and comparison. By leveraging deep learning algorithms, image-to-image translation has become a powerful tool in the arsenal of remote sensing researchers and practitioners. [Image source](https://www.researchgate.net/publication/335648375_SAR-to-Optical_Image_Translation_Using_Supervised_Cycle-Consistent_Adversarial_Networks)
@@ -1363,7 +1363,7 @@ Image-to-image translation is a crucial aspect of computer vision that utilizes 
 <p align="center">
   <img src="images/fusion.png" width="800">
   <br>
-  <b>Illustration of the fusion process.</b>
+  <b>Illustration of a fusion workflow.</b>
 </p>
 
 Data fusion is a technique for combining information from different sources such as Synthetic Aperture Radar (SAR), optical imagery, and non-imagery data such as Internet of Things (IoT) sensor data. The integration of diverse data sources enables data fusion to overcome the limitations of individual sources, leading to the creation of models that are more accurate and informative than those constructed from a single source. [Image source](https://www.mdpi.com/2072-4292/14/18/4458)
