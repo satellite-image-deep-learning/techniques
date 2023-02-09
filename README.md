@@ -828,7 +828,7 @@ Regression in remote sensing involves predicting continuous variables such as wi
 <p align="center">
   <img src="images/clouds.png" width="550">
   <br>
-  <b>(left) False colour image and (right) a cloud & shadown mask.</b>
+  <b>(left) False colour image and (right) a cloud & shadow mask.</b>
 </p>
 
 Clouds are a major issue in remote sensing images as they can obscure the underlying ground features. This hinders the accuracy and effectiveness of remote sensing analysis, as the obscured regions cannot be properly interpreted. In order to address this challenge, various techniques have been developed to detect clouds in remote sensing images. Both classical algorithms and deep learning approaches can be employed for cloud detection. Classical algorithms typically use threshold-based techniques and hand-crafted features to identify cloud pixels. However, these techniques can be limited in their accuracy and are sensitive to changes in image appearance and cloud structure. On the other hand, deep learning approaches leverage the power of convolutional neural networks (CNNs) to accurately detect clouds in remote sensing images. These models are trained on large datasets of remote sensing images, allowing them to learn and generalize the unique features and patterns of clouds. The generated cloud mask can be used to identify the cloud pixels and eliminate them from further analysis or, alternatively, cloud inpainting techniques can be used to fill in the gaps left by the clouds. This approach helps to improve the accuracy of remote sensing analysis and provides a clearer view of the ground, even in the presence of clouds. Image adapted from [this source](https://www.sciencedirect.com/science/article/pii/S1877050922005361)
@@ -1447,7 +1447,14 @@ Generative Adversarial Networks (GANs) are a type of deep learning architecture 
 
 #
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
-Autoencoders are neural networks that learn to represent input data in a compressed form, in order to reduce the dimensionality of the data. This is done by using a combination of encoding (compressing) and decoding (decompressing) techniques. This allows for a more efficient storage and processing of data. Dimensionality reduction refers to more traditional techniques such as principal component analysis (PCA). Image embeddings are a type of representation of an image, where the most important features of the image are used to create a vector representation of the image. This vector representation can then be used to perform similarity searches, allowing for more accurate image retrieval. Similarity search is a process of finding similar images in a dataset by comparing the features of the images. This can be used to find similar images based on certain criteria, such as color, texture, shape, etc. It can also be used to identify duplicate images.
+
+<p align="center">
+  <img src="images/autoencoder.png" width="600">
+  <br>
+  <b>Example of using an autoencoder to compress hyperspectral data.</b>
+</p>
+
+Autoencoders are a type of neural network that aim to simplify the representation of input data by compressing it into a lower dimensional form. This is achieved through a two-step process of encoding and decoding, where the encoding step compresses the data into a lower dimensional representation, and the decoding step restores the data back to its original form. The goal of this process is to reduce the data's dimensionality, making it easier to store and process, while retaining the essential information. Dimensionality reduction, as the name suggests, refers to the process of reducing the number of dimensions in a dataset. This can be achieved through various techniques such as principal component analysis (PCA) or singular value decomposition (SVD). Autoencoders are one type of neural network that can be used for dimensionality reduction. In the field of computer vision, image embeddings are vector representations of images that capture the most important features of the image. These embeddings can then be used to perform similarity searches, where images are compared based on their features to find similar images. This process can be used in a variety of applications, such as image retrieval, where images are searched based on certain criteria like color, texture, or shape. It can also be used to identify duplicate images in a dataset. [Image source](https://www.mdpi.com/2072-4292/11/7/864)
 
 <details><summary>links</summary>
 <p>
@@ -1465,7 +1472,7 @@ Autoencoders are neural networks that learn to represent input data in a compres
 * [Mxnet repository for generating embeddings on satellite images](https://github.com/fisch92/Metric-embeddings-for-satellite-image-classification) -> Includes sampling of images, mining algorithms, different architectures, error functions, measures for evaluation.
 * [Fine tuning CLIP with Remote Sensing (Satellite) images and captions](https://huggingface.co/blog/fine-tune-clip-rsicd) -> fine tuning CLIP on the [RSICD](https://github.com/201528014227051/RSICD_optimal) image captioning dataset, to enable querying large catalogues in natural language. With [repo](https://github.com/arampacha/CLIP-rsicd), uses 🤗
 * [Image search with 🤗 datasets](https://huggingface.co/blog/image-search-datasets) -> tutorial on fine tuning an image search model
-* [SynImageAnalysis](https://github.com/FlorenceJiang/SynImageAnalysis) -> comparing syn and real sattlelite images in the latent feature space (embeddings)
+* [SynImageAnalysis](https://github.com/FlorenceJiang/SynImageAnalysis) -> comparing synthetic and real satellite images in the latent feature space (embeddings)
 * [GRN-SNDL](https://github.com/jiankang1991/GRN-SNDL) -> model the relations between samples (or scenes) by making use of a graph structure which is fed into network learning
 * [SauMoCo](https://github.com/jiankang1991/SauMoCo) -> codes for TGRS paper: Deep Unsupervised Embedding for Remotely Sensed Images Based on Spatially Augmented Momentum Contrast
 * [TGRS_RiDe](https://github.com/jiankang1991/TGRS_RiDe) -> Rotation Invariant Deep Embedding for RemoteSensing Images
