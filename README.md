@@ -1499,13 +1499,20 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 </details>
 
 #
-## Image retreival
-Image retreival is the task of retrieving images from a collection that are similar to a query image. It is an important task in computer vision and is used for applications such as image search, pattern recognition and object recognition. Image retrieval systems typically use features such as color, shape, texture, and content to find similar images.
+## Image retrieval
+
+<p align="center">
+  <img src="images/retrieval.png" width="600">
+  <br>
+  <b>Illustration of the remote sensing image retrieval process.</b>
+</p>
+
+Image retrieval is the task of retrieving images from a collection that are similar to a query image. Image retrieval plays a vital role in remote sensing by enabling the efficient and effective search for relevant images from large image archives, and by providing a way to quantify changes in the environment over time. [Image source](https://www.mdpi.com/2072-4292/12/2/219)
 
 <details><summary>links</summary>
 <p>
 
-* [Demo_AHCL_for_TGRS2022](https://github.com/weiweisong415/Demo_AHCL_for_TGRS2022) -> code for 2022 paper: Asymmetric Hash Code Learning (AHCL) for remote sensing image retreival
+* [Demo_AHCL_for_TGRS2022](https://github.com/weiweisong415/Demo_AHCL_for_TGRS2022) -> code for 2022 paper: Asymmetric Hash Code Learning (AHCL) for remote sensing image retrieval
 * [GaLR](https://github.com/xiaoyuan1996/GaLR) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9745546): Remote Sensing Cross-Modal Text-Image Retrieval Based on Global and Local Information
 * [retrievalSystem](https://github.com/xiaoyuan1996/retrievalSystem) -> cross-modal image retrieval system
 * [AMFMN](https://github.com/xiaoyuan1996/AMFMN) -> code for the 2021 paper: Exploring a Fine-grained Multiscale Method for Cross-modal Remote Sensing Image Retrieval
