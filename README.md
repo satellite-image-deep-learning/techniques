@@ -183,6 +183,7 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 * [UDA_for_RS](https://github.com/Levantespot/UDA_for_RS) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/19/4942): Unsupervised Domain Adaptation for Remote Sensing Semantic Segmentation with Transformer
 * [A-3D-CNN-AM-DSC-model-for-hyperspectral-image-classification](https://github.com/hahatongxue/A-3D-CNN-AM-DSC-model-for-hyperspectral-image-classification) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/9/2215): Attention Mechanism and Depthwise Separable Convolution Aided 3DCNN for Hyperspectral Remote Sensing Image Classification
 * [contrastive-distillation](https://github.com/edornd/contrastive-distillation) -> code for [paper](https://arxiv.org/abs/2112.03814): A Contrastive Distillation Approach for Incremental Semantic Segmentation in Aerial Images
+* [SegForestNet](https://github.com/gritzner/SegForestNet) -> code for 2023 paper: SegForestNet: Spatial-Partitioning-Based Aerial Image Segmentation
 
 ### Segmentation - Land use & land cover
 * [U-Net for Semantic Segmentation on Unbalanced Aerial Imagery](https://towardsdatascience.com/u-net-for-semantic-segmentation-on-unbalanced-aerial-imagery-3474fa1d3e56) -> using the Dubai dataset `BEGINNER`
@@ -1013,6 +1014,9 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 * [IEEE_TGRS_SSTFormer](https://github.com/yanhengwang-heu/IEEE_TGRS_SSTFormer) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9870837): Spectral–Spatial–Temporal Transformers for Hyperspectral Image Change Detection
 * [DMINet](https://github.com/ZhengJianwei2/DMINet) -> code for 2023 paper: Change Detection on Remote Sensing Images Using Dual-Branch Multilevel Intertemporal Network
 * [AFCF3D-Net](https://github.com/wm-Githuber/AFCF3D-Net) -> code for 2023 paper: Adjacent-level Feature Cross-Fusion with 3D CNN for Remote Sensing Image Change Detection
+* [DSAHRNet](https://github.com/Githubwujinming/DSAHRNet) -> code for paper: A Deeply Attentive High-Resolution Network for Change Detection in Remote Sensing Images
+* [RDPNet](https://github.com/Chnja/RDPNet) -> code for 2022 paper: RDP-Net: Region Detail Preserving Network for Change Detection
+* [BGAAE_CD](https://github.com/xauter/BGAAE_CD) -> code for 2022 paper: Bipartite Graph Attention Autoencoders for Unsupervised Change Detection Using VHR Remote Sensing Images
 
 </p>
 </details>
