@@ -176,6 +176,7 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 * [A-3D-CNN-AM-DSC-model-for-hyperspectral-image-classification](https://github.com/hahatongxue/A-3D-CNN-AM-DSC-model-for-hyperspectral-image-classification) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/9/2215): Attention Mechanism and Depthwise Separable Convolution Aided 3DCNN for Hyperspectral Remote Sensing Image Classification
 * [contrastive-distillation](https://github.com/edornd/contrastive-distillation) -> code for [paper](https://arxiv.org/abs/2112.03814): A Contrastive Distillation Approach for Incremental Semantic Segmentation in Aerial Images
 * [SegForestNet](https://github.com/gritzner/SegForestNet) -> code for 2023 paper: SegForestNet: Spatial-Partitioning-Based Aerial Image Segmentation
+* [MFVNet](https://github.com/weichenrs/MFVNet) -> code for 2023 paper: MFVNet: Deep Adaptive Fusion Network with Multiple Field-of-Views for Remote Sensing Image Semantic Segmentation
 
 ### Segmentation - Land use & land cover
 * [U-Net for Semantic Segmentation on Unbalanced Aerial Imagery](https://towardsdatascience.com/u-net-for-semantic-segmentation-on-unbalanced-aerial-imagery-3474fa1d3e56) -> using the Dubai dataset `BEGINNER`
