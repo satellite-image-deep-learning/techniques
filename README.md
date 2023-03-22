@@ -1572,7 +1572,7 @@ Supervised deep learning techniques typically require a huge number of annotated
 * [Active learning for object detection in high-resolution satellite images](https://arxiv.org/abs/2101.02480) -> arxiv paper
 * [AIDE V2 - Tools for detecting wildlife in aerial images using active learning](https://github.com/microsoft/aerial_wildlife_detection)
 * [AstronomicAL](https://github.com/grant-m-s/AstronomicAL) -> An interactive dashboard for visualisation, integration and classification of data using Active Learning
-* Read about [active learning on the lightly platform](https://docs.lightly.ai/getting_started/active_learning.html)
+* Follow tutorials for [active learning for object detection](https://docs.lightly.ai/docs/active-learning-yolov7) [and segmentation](https://docs.lightly.ai/docs/active-learning-for-driveable-area-segmentation-using-cityscapes) on the lightly platform.
 * [Active-Labeler by spaceml-org](https://github.com/spaceml-org/Active-Labeler) -> a CLI Tool that facilitates labeling datasets with just a SINGLE line of code
 * [Labelling platform for Mapping Africa active learning project](https://github.com/agroimpacts/labeller)
 * [ChangeDetectionProject](https://github.com/previtus/ChangeDetectionProject) -> Trying out Active Learning in with deep CNNs for Change detection on remote sensing data
