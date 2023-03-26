@@ -606,6 +606,7 @@ Object detection in remote sensing involves locating and surrounding objects of 
 * [mmdet-rfla](https://github.com/Chasel-Tsui/mmdet-rfla) -> code for 2022 [paper](https://arxiv.org/abs/2208.08738): RFLA: Gaussian Receptive based Label Assignment for Tiny Object Detection
 * [Interactive-Multi-Class-Tiny-Object-Detection](https://github.com/ChungYi347/Interactive-Multi-Class-Tiny-Object-Detection) -> code for 2022 [paper](https://arxiv.org/abs/2203.15266): Interactive Multi-Class Tiny-Object Detection
 * [small-object-detection-benchmark](https://github.com/fcakyon/small-object-detection-benchmark) -> code for ICIP 2022 [paper](https://arxiv.org/abs/2202.06934): Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection
+* [OD-Satellite-iSAID](https://github.com/muzairkhattak/OD-Satellite-iSAID) -> Object Detection in Aerial Images: A Case Study on Performance Improvement using iSAID
 
 #### Object detection with rotated bounding boxes
 Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For datasets checkout DOTA & HRSC2016
@@ -768,6 +769,7 @@ Detecting the most noticeable or important object in a scene
 * [aerial-detection](https://github.com/alexbakr/aerial-detection) -> uses Yolov5 & Icevision
 * [How to choose a deep learning architecture to detect aircrafts in satellite imagery?](https://medium.com/artificialis/how-to-choose-a-deep-learning-model-to-detect-aircrafts-in-satellite-imagery-cd7d106e76ad)
 * [rareplanes-yolov5](https://github.com/jeffaudi/rareplanes-yolov5) -> using YOLOv5 and the RarePlanes dataset to detect and classify sub-characteristics of aircraft, with [article](https://medium.com/artificialis/detecting-aircrafts-on-airbus-pleiades-imagery-with-yolov5-5f3d464b75ad)
+* [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> dataset and pretrained models for the paper: OnlyPlanes - Incrementally Tuning Synthetic Training Datasets for Satellite Object Detection
 
 #### Object detection - Infrastructure & utilities
 * [wind-turbine-detector](https://github.com/lbborkowski/wind-turbine-detector) -> Wind Turbine Object Detection from Aerial Imagery Using TensorFlow Object Detection API
@@ -1019,6 +1021,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 * [DSAHRNet](https://github.com/Githubwujinming/DSAHRNet) -> code for paper: A Deeply Attentive High-Resolution Network for Change Detection in Remote Sensing Images
 * [RDPNet](https://github.com/Chnja/RDPNet) -> code for 2022 paper: RDP-Net: Region Detail Preserving Network for Change Detection
 * [BGAAE_CD](https://github.com/xauter/BGAAE_CD) -> code for 2022 paper: Bipartite Graph Attention Autoencoders for Unsupervised Change Detection Using VHR Remote Sensing Images
+* [Unsupervised-Change-Detection](https://github.com/voodooed/Unsupervised-Change-Detection) -> code for 2009 paper: Unsupervised Change Detection in Satellite Images Using Principal Component Analysis and k-Means Clustering
 
 #
 ## Time series
@@ -1842,6 +1845,7 @@ Training data can be hard to acquire, particularly for rare events such as chang
 * [LESS](https://github.com/jianboqi/lessrt) -> LargE-Scale remote sensing data and image Simulation framework over heterogeneous 3D scenes
 * [Synthesizing Robustness: Dataset Size Requirements and Geographic Insights](https://avanetten.medium.com/synthesizing-robustness-dataset-size-requirements-and-geographic-insights-a687192e8004) -> Medium article, concludes that synthetic data is most beneficial to the rarest object classes and that extracting utility from synthetic data often takes significant effort and creativity
 * [rs_img_synth](https://github.com/gbaier/rs_img_synth) -> code for 2020 [paper](https://arxiv.org/abs/2011.11314): Synthesizing Optical and SAR Imagery From Land Cover Maps and Auxiliary Raster Data
+* [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> dataset and pretrained models for the paper: OnlyPlanes - Incrementally Tuning Synthetic Training Datasets for Satellite Object Detection
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
