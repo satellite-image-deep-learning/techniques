@@ -13,7 +13,41 @@
 ## Introduction
 Deep learning has transformed the way satellite and aerial images are analyzed and interpreted. These images pose unique challenges, such as large sizes and diverse object classes, which offer opportunities for deep learning researchers. This repository offers a comprehensive overview of various deep learning techniques for analyzing satellite and aerial imagery, including architectures, models, and algorithms for tasks such as classification, segmentation, and object detection. It serves as a valuable resource for researchers, practitioners, and anyone interested in the latest advances in deep learning and its impact on computer vision and remote sensing.
 
-**How to use this repository:** if you know exactly what you are looking for (e.g. you have the paper name) you can `Control+F` to search for it in this page (or search in the raw markdown). Note that material that is suitable for getting started with a topic is tagged with `BEGINNER`, which can also be searched.
+**How to use this repository:** if you know exactly what you are looking for (e.g. you have the paper name) you can `Control+F` to search for it in this page. Note that material that is suitable for getting started with a topic is tagged with `BEGINNER`, which can also be searched.
+
+## Techniques
+* [Classification](https://github.com/satellite-image-deep-learning/techniques#classification)
+* [Segmentation](https://github.com/satellite-image-deep-learning/techniques#segmentation)
+* [Object detection](https://github.com/satellite-image-deep-learning/techniques#object-detection)
+* [Object counting](https://github.com/satellite-image-deep-learning/techniques#object-counting)
+* [Regression](https://github.com/satellite-image-deep-learning/techniques#regression)
+* [Cloud detection & removal](https://github.com/satellite-image-deep-learning/techniques#cloud-detection--removal)
+* [Change detection](https://github.com/satellite-image-deep-learning/techniques#change-detection)
+* [Time series](https://github.com/satellite-image-deep-learning/techniques#time-series)
+* [Crop classification](https://github.com/satellite-image-deep-learning/techniques#crop-classification)
+* [Crop yield](https://github.com/satellite-image-deep-learning/techniques#crop-yield)
+* [Wealth and economic activity](https://github.com/satellite-image-deep-learning/techniques#wealth-and-economic-activity)
+* [Disaster response](https://github.com/satellite-image-deep-learning/techniques#disaster-response)
+* [Super-resolution](https://github.com/satellite-image-deep-learning/techniques#super-resolution)
+* [Pansharpening](https://github.com/satellite-image-deep-learning/techniques#pansharpening)
+* [Image-to-image translation](https://github.com/satellite-image-deep-learning/techniques#image-to-image-translation)
+* [Data fusion](https://github.com/satellite-image-deep-learning/techniques#data-fusion)
+* [Generative Adversarial Networks (GANs)](https://github.com/satellite-image-deep-learning/techniques#generative-adversarial-networks-gans)
+* [Autoencoders, dimensionality reduction, image embeddings & similarity search](https://github.com/satellite-image-deep-learning/techniques#autoencoders-dimensionality-reduction-image-embeddings--similarity-search)
+* [Image retrieval](https://github.com/satellite-image-deep-learning/techniques#image-retrieval)
+* [Image Captioning](https://github.com/satellite-image-deep-learning/techniques#image-captioning)
+* [Visual Question Answering](https://github.com/satellite-image-deep-learning/techniques#visual-question-answering)
+* [Mixed data learning](https://github.com/satellite-image-deep-learning/techniques#mixed-data-learning)
+* [Few-shot learning](https://github.com/satellite-image-deep-learning/techniques#few-shot-learning)
+* [Self-supervised, unsupervised & contrastive learning](https://github.com/satellite-image-deep-learning/techniques#self-supervised-unsupervised--contrastive-learning)
+* [Weakly & semi-supervised learning](https://github.com/satellite-image-deep-learning/techniques#weakly--semi-supervised-learning)
+* [Active learning](https://github.com/satellite-image-deep-learning/techniques#active-learning)
+* [Image registration](https://github.com/satellite-image-deep-learning/techniques#image-registration)
+* [Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF](https://github.com/satellite-image-deep-learning/techniques#terrain-mapping-disparity-estimation-lidar-dems--nerf)
+* [Thermal Infrared](https://github.com/satellite-image-deep-learning/techniques#thermal-infrared)
+* [SAR](https://github.com/satellite-image-deep-learning/techniques#sar)
+* [General image quality](https://github.com/satellite-image-deep-learning/techniques#general-image-quality)
+* [Synthetic data](https://github.com/satellite-image-deep-learning/techniques#synthetic-data)
 
 #
 ## Classification
