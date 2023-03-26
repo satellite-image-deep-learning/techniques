@@ -403,6 +403,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 * [Automatic-Road-Extraction-from-Historical-Maps-using-Deep-Learning-Techniques](https://github.com/UrbanOccupationsOETR/Automatic-Road-Extraction-from-Historical-Maps-using-Deep-Learning-Techniques) -> code for the paper: Automatic Road Extraction from Historical Maps using Deep Learning Techniques: A Regional Case Study of Turkey in a German World War II map
 * [Istanbul_Dataset](https://github.com/TolgaBkm/Istanbul_Dataset) -> segmentation on the Istanbul, Inria and Massachusetts datasets
 * [Road-Segmentation](https://github.com/ralph-elhaddad/Road-Segmentation) -> Road segmentation on Satellite Images using CNN (U-Nets and FCN8) and Logistic Regression
+* [D-LinkNet](https://github.com/ShenweiXie/D-LinkNet) -> 1st place solution in DeepGlobe Road Extraction Challenge
+* [PaRK-Detect](https://github.com/ShenweiXie/PaRK-Detect) -> code for 2023 paper: PaRK-Detect: Towards Efficient Multi-Task Satellite Imagery Road Extraction via Patch-Wise Keypoints Detection
 
 ### Segmentation - Buildings & rooftops
 * [Road and Building Semantic Segmentation in Satellite Imagery](https://github.com/Paulymorphous/Road-Segmentation) uses U-Net on the Massachusetts Roads Dataset & keras `BEGINNER`
@@ -1234,6 +1236,11 @@ Super-resolution is a technique aimed at improving the resolution of an imaging 
 * [CycleCNN](https://github.com/haopzhang/CycleCNN) -> code for 2021 [paper](https://ieeexplore.ieee.org/abstract/document/9151194): Nonpairwise-Trained Cycle Convolutional Neural Network for Single Remote Sensing Image Super-Resolution
 * [SISR with with Real-World Degradation Modeling](https://github.com/zhangjizhou-bit/Single-image-Super-Resolution-of-Remote-Sensing-Images-with-Real-World-Degradation-Modeling) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/12/2895): Single-Image Super Resolution of Remote Sensing Images with Real-World Degradation Modeling
 * [pixel-smasher](https://github.com/ekcomputer/pixel-smasher) -> code for 2020 [paper](https://www.tandfonline.com/doi/abs/10.1080/07038992.2021.1924646?journalCode=ujrs20): Super-Resolution Surface Water Mapping on the Canadian Shield Using Planet CubeSat Images and a Generative Adversarial Network
+* [satellite-image-super-resolution](https://github.com/farahmand-m/satellite-image-super-resolution) -> A Comparative Study on CNN-Based Single-Image Super-Resolution Techniques for Satellite Images
+* [SatelliteSR](https://github.com/kmalhan/SatelliteSR) -> comparison of a number of techniques on the DOTA dataset
+* [Image-Super-Resolution](https://github.com/Elangoraj/Image-Super-Resolution) -> Super resolution RESNET network
+* [Unsupervised Super Resolution for Sentinel-2 satellite imagery](https://github.com/savassif/Thesis) -> using Deep Image Prior (DIP), Zero-Shot Super Resolution (ΖSSR) & Degradation-Aware Super Resolution (DASR)
+* [Spectral Super-Resolution of Satellite Imagery with Generative Adversarial Networks](https://github.com/ImDanielRojas/thesis)
 
 ### Multi image super-resolution (MISR)
 Note that nearly all the MISR publications resulted from the [PROBA-V Super Resolution competition](https://kelvins.esa.int/proba-v-super-resolution/)
@@ -1249,6 +1256,9 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 * [DDRN](https://github.com/kuijiang94/DDRN) -> Deep Distillation Recursive Network for Video Satellite Imagery Super-Resolution
 * [worldstrat](https://github.com/worldstrat/worldstrat) -> SISR and MISR implementations of SRCNN
 * [MISR-GRU](https://github.com/rarefin/MISR-GRU) -> Pytorch implementation of MISR-GRU, a deep neural network for multi image super-resolution (MISR), for ProbaV Super Resolution Competition
+* [MSDTGP](https://github.com/XY-boy/MSDTGP) -> code for 2021 paper: Satellite Video Super-Resolution via Multiscale Deformable Convolution Alignment and Temporal Grouping Projection
+* [proba-v-super-resolution-challenge](https://github.com/cedricoeldorf/proba-v-super-resolution-challenge) -> Solution to ESA's satellite imagery super resolution challenge
+* [PROBA-V-Super-Resolution](https://github.com/spicy-mama/PROBA-V-Super-Resolution) -> solution using a custom deep learning architecture
 
 #
 ## Pansharpening
