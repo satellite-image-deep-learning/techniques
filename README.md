@@ -18,6 +18,7 @@ Deep learning has transformed the way satellite and aerial images are analyzed a
 ## Techniques
 * [Classification](https://github.com/satellite-image-deep-learning/techniques#classification)
 * [Segmentation](https://github.com/satellite-image-deep-learning/techniques#segmentation)
+* [Instance segmentation](https://github.com/satellite-image-deep-learning/techniques#instance-segmentation)
 * [Object detection](https://github.com/satellite-image-deep-learning/techniques#object-detection)
 * [Object counting](https://github.com/satellite-image-deep-learning/techniques#object-counting)
 * [Regression](https://github.com/satellite-image-deep-learning/techniques#regression)
