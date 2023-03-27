@@ -406,6 +406,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 * [Road-Segmentation](https://github.com/ralph-elhaddad/Road-Segmentation) -> Road segmentation on Satellite Images using CNN (U-Nets and FCN8) and Logistic Regression
 * [D-LinkNet](https://github.com/ShenweiXie/D-LinkNet) -> 1st place solution in DeepGlobe Road Extraction Challenge
 * [PaRK-Detect](https://github.com/ShenweiXie/PaRK-Detect) -> code for 2023 paper: PaRK-Detect: Towards Efficient Multi-Task Satellite Imagery Road Extraction via Patch-Wise Keypoints Detection
+* [tile2net](https://github.com/VIDA-NYU/tile2net) -> code for 2023 paper: Mapping the walk: A scalable computer vision approach for generating sidewalk network datasets from aerial imagery
 
 ### Segmentation - Buildings & rooftops
 * [Road and Building Semantic Segmentation in Satellite Imagery](https://github.com/Paulymorphous/Road-Segmentation) uses U-Net on the Massachusetts Roads Dataset & keras `BEGINNER`
@@ -1591,6 +1592,7 @@ Classification
 * [SatMAE](https://github.com/sustainlab-group/SatMAE) -> code for 2022 [paper](https://arxiv.org/abs/2207.08051): SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery
 * [FireCLR-Wildfires](https://github.com/spaceml-org/FireCLR-Wildfires) -> code for 2022 [paper](https://arxiv.org/abs/2211.14654): Unsupervised Wildfire Change Detection based on Contrastive Learning
 * [FALSE](https://github.com/GeoX-Lab/FALSE) -> code for 2022 [paper](https://arxiv.org/abs/2211.07928): False: False Negative Samples Aware Contrastive Learning for Semantic Segmentation of High-Resolution Remote Sensing Image
+* [MATTER](https://github.com/periakiva/MATTER) -> code for 2022 paper: Self-Supervised Material and Texture Representation Learning for Remote Sensing Tasks
 
 #
 ## Weakly & semi-supervised learning
