@@ -611,6 +611,7 @@ Object detection in remote sensing involves locating and surrounding objects of 
 * [Interactive-Multi-Class-Tiny-Object-Detection](https://github.com/ChungYi347/Interactive-Multi-Class-Tiny-Object-Detection) -> code for 2022 [paper](https://arxiv.org/abs/2203.15266): Interactive Multi-Class Tiny-Object Detection
 * [small-object-detection-benchmark](https://github.com/fcakyon/small-object-detection-benchmark) -> code for ICIP 2022 [paper](https://arxiv.org/abs/2202.06934): Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection
 * [OD-Satellite-iSAID](https://github.com/muzairkhattak/OD-Satellite-iSAID) -> Object Detection in Aerial Images: A Case Study on Performance Improvement using iSAID
+* [Large-Selective-Kernel-Network](https://github.com/zcablii/Large-Selective-Kernel-Network) -> code for 2023 paper: Large Selective Kernel Network for Remote Sensing Object Detection
 
 #### Object detection with rotated bounding boxes
 Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For datasets checkout DOTA & HRSC2016
@@ -1028,6 +1029,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 * [RDPNet](https://github.com/Chnja/RDPNet) -> code for 2022 paper: RDP-Net: Region Detail Preserving Network for Change Detection
 * [BGAAE_CD](https://github.com/xauter/BGAAE_CD) -> code for 2022 paper: Bipartite Graph Attention Autoencoders for Unsupervised Change Detection Using VHR Remote Sensing Images
 * [Unsupervised-Change-Detection](https://github.com/voodooed/Unsupervised-Change-Detection) -> code for 2009 paper: Unsupervised Change Detection in Satellite Images Using Principal Component Analysis and k-Means Clustering
+* [Metric-CD](https://github.com/wgcban/Metric-CD) -> code for 2023 paper: Deep Metric Learning for Unsupervised Change Detection in Remote Sensing Images
 
 #
 ## Time series
