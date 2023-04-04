@@ -133,6 +133,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [EmergencyNet](https://github.com/ckyrkou/EmergencyNet) -> identify fire and other emergencies from a drone
 * [satellite-deforestation](https://github.com/drewhibbard/satellite-deforestation) -> Using Satellite Imagery to Identify the Leading Indicators of Deforestation, applied to the Kaggle Challenge Understanding the Amazon from Space
 * [RSMLC](https://github.com/marjanstoimchev/RSMLC) -> code for 2023 [paper](https://www.mdpi.com/2072-4292/15/2/538): Deep Network Architectures as Feature Extractors for Multi-Label Classification of Remote Sensing Images
+* [FireRisk](https://github.com/CharmonyShen/FireRisk) -> A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Using Supervised and Self-supervised Learning
 
 # 
 ## Segmentation
@@ -212,6 +213,7 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 * [contrastive-distillation](https://github.com/edornd/contrastive-distillation) -> code for [paper](https://arxiv.org/abs/2112.03814): A Contrastive Distillation Approach for Incremental Semantic Segmentation in Aerial Images
 * [SegForestNet](https://github.com/gritzner/SegForestNet) -> code for 2023 paper: SegForestNet: Spatial-Partitioning-Based Aerial Image Segmentation
 * [MFVNet](https://github.com/weichenrs/MFVNet) -> code for 2023 paper: MFVNet: Deep Adaptive Fusion Network with Multiple Field-of-Views for Remote Sensing Image Semantic Segmentation
+* [Wildebeest-UNet](https://github.com/zijing-w/Wildebeest-UNet) -> detecting wildebeest and zebras in Serengeti-Mara ecosystem from very-high-resolution satellite imagery
 
 ### Segmentation - Land use & land cover
 * [U-Net for Semantic Segmentation on Unbalanced Aerial Imagery](https://towardsdatascience.com/u-net-for-semantic-segmentation-on-unbalanced-aerial-imagery-3474fa1d3e56) -> using the Dubai dataset `BEGINNER`
@@ -247,6 +249,8 @@ Classification
 * [DCSA-Net](https://github.com/Julia90/DCSA-Net) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/19/4941): Dynamic Convolution Self-Attention Network for Land-Cover Classification in VHR Remote-Sensing Images
 * [CHeGCN-CNN_enhanced_Heterogeneous_Graph](https://github.com/Liuzhizhiooo/CHeGCN-CNN_enhanced_Heterogeneous_Graph) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/19/5027): CNN-Enhanced Heterogeneous Graph Convolutional Network: Inferring Land Use from Land Cover with a Case Study of Park Segmentation
 * [TCSVT_2022_DGSSC](https://github.com/B-Xi/TCSVT_2022_DGSSC) -> code for the 2022 [paper](https://ieeexplore.ieee.org/document/9924229): DGSSC: A Deep Generative Spectral-Spatial Classifier for Imbalanced Hyperspectral Imagery
+* [DeepForest-Wetland-Paper](https://github.com/aj1365/DeepForest-Wetland-Paper) -> code for 2021 paper: Deep Forest classifier for wetland mapping using the combination of Sentinel-1 and Sentinel-2 data, GIScience & Remote Sensing
+* [Wetland_UNet](https://github.com/conservation-innovation-center/Wetland_UNet) -> UNet models that can delineate wetlands using remote sensing data input including bands from Sentinel-2 LiDAR and geomorphons. By the Conservation Innovation Center of Chesapeake Conservancy and Defenders of Wildlife
 
 ### Segmentation - Vegetation, crops & crop boundaries
 * [Сrор field boundary detection: approaches and main challenges](https://medium.com/geekculture/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-and-main-challenges-46e37dd276bc) -> Medium article, covering historical and modern approaches `BEGINNER` 
