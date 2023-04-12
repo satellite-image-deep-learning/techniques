@@ -300,6 +300,7 @@ Classification
 * [urban-tree-detection](https://github.com/jonathanventura/urban-tree-detection) -> code for 2022 [paper](https://arxiv.org/abs/2208.10607): Individual Tree Detection in Large-Scale Urban Environments using High-Resolution Multispectral Imagery. With [dataset](https://github.com/jonathanventura/urban-tree-detection-data)
 * [BioMassters_baseline](https://github.com/fnands/BioMassters_baseline) -> a basic pytorch ligning baseline using a UNet for getting started with the [BioMassters challenge](https://www.drivendata.org/competitions/99/biomass-estimation/) (biomass estimation)
 * [3DUNetGSFormer](https://github.com/aj1365/3DUNetGSFormer) -> code for 2022 [paper](https://www.sciencedirect.com/science/article/pii/S1574954122003545): 3DUNetGSFormer: A deep learning pipeline for complex wetland mapping using generative adversarial networks and Swin transformer
+* [SEANet_torch](https://github.com/long123524/SEANet_torch) -> code for 2023 paper: Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images
 
 ### Segmentation - Water, coastlines & floods
 * [Flood Detection and Analysis using UNET with Resnet-34 as the back bone](https://github.com/orion29/Satellite-Image-Segmentation-for-Flood-Damage-Analysis) uses fastai `BEGINNER`
@@ -1474,6 +1475,7 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 * [Tensorflow similarity](https://github.com/tensorflow/similarity) -> offers state-of-the-art algorithms for metric learning and all the necessary components to research, train, evaluate, and serve similarity-based models
 * [Train SimSiam on Satellite Images](https://docs.lightly.ai/tutorials/package/tutorial_simsiam_esa.html) using lightly.ai to generate embeddings that can be used for data exploration and understanding
 * [Airbus_SDC_dup](https://github.com/WillieMaddox/Airbus_SDC_dup) -> Project focused on detecting duplicate regions of overlapping satellite imagery. Applied to Airbus ship detection dataset
+* [scale-mae](https://github.com/bair-climate-initiative/scale-mae) -> code for 2022 [paper](https://arxiv.org/abs/2212.14532): Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning
 
 #
 ## Image retrieval
