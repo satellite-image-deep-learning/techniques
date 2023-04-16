@@ -1048,6 +1048,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 * [Unsupervised-Change-Detection](https://github.com/voodooed/Unsupervised-Change-Detection) -> code for 2009 paper: Unsupervised Change Detection in Satellite Images Using Principal Component Analysis and k-Means Clustering
 * [Metric-CD](https://github.com/wgcban/Metric-CD) -> code for 2023 paper: Deep Metric Learning for Unsupervised Change Detection in Remote Sensing Images
 * [HANet-CD](https://github.com/ChengxiHAN/HANet-CD) -> code for 2023 paper: HANet: A hierarchical attention network for change detection with bi-temporal very-high-resolution remote sensing images
+* [SRGCAE](https://github.com/ChenHongruixuan/SRGCAE) -> code for 2022 paper: Unsupervised Multimodal Change Detection Based on Structural Relationship Graph Representation Learning
 
 #
 ## Time series
@@ -1194,6 +1195,7 @@ Remote sensing images are used in disaster response to identify and assess damag
 * [AI Helps Detect Disaster Damage From Satellite Imagery](https://developer.nvidia.com/blog/ai-helps-detect-disaster-damage-from-satellite-imagery/) -> NVIDIA blog post
 * [Turkey-Earthquake-2023-Building-Change-Detection](https://github.com/blackshark-ai/Turkey-Earthquake-2023-Building-Change-Detection) -> The repository contains building footprints derived from Maxar open data imagery and change detection results by blackshark-ai
 * [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> code for 2022 paper: MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
+* [DAHiTra](https://github.com/nka77/DAHiTra) -> code for 2022 [paper](https://arxiv.org/abs/2208.02205): Large-scale Building Damage Assessment using a Novel Hierarchical Transformer Architecture on Satellite Images. Uses xView2 xBD dataset
 
 #
 ## Super-resolution
