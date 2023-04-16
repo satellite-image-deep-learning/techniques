@@ -134,6 +134,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [satellite-deforestation](https://github.com/drewhibbard/satellite-deforestation) -> Using Satellite Imagery to Identify the Leading Indicators of Deforestation, applied to the Kaggle Challenge Understanding the Amazon from Space
 * [RSMLC](https://github.com/marjanstoimchev/RSMLC) -> code for 2023 [paper](https://www.mdpi.com/2072-4292/15/2/538): Deep Network Architectures as Feature Extractors for Multi-Label Classification of Remote Sensing Images
 * [FireRisk](https://github.com/CharmonyShen/FireRisk) -> A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Using Supervised and Self-supervised Learning
+* [flood_susceptibility_mapping](https://github.com/omarseleem92/flood_susceptibility_mapping) -> Towards urban flood susceptibility mapping using data-driven models in Berlin, Germany
 
 # 
 ## Segmentation
@@ -304,8 +305,10 @@ Classification
 * [biomass-estimation](https://github.com/azavea/biomass-estimation) -> from Azavea, applied to Sentinel 1 & 2
 * [3DUNetGSFormer](https://github.com/aj1365/3DUNetGSFormer) -> code for 2022 [paper](https://www.sciencedirect.com/science/article/pii/S1574954122003545): 3DUNetGSFormer: A deep learning pipeline for complex wetland mapping using generative adversarial networks and Swin transformer
 * [SEANet_torch](https://github.com/long123524/SEANet_torch) -> code for 2023 paper: Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images
+* [arborizer](https://github.com/RaffiBienz/arborizer) -> Tree crowns segmentation and classification
 
 ### Segmentation - Water, coastlines & floods
+* [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces `BEGINNER`
 * [Flood Detection and Analysis using UNET with Resnet-34 as the back bone](https://github.com/orion29/Satellite-Image-Segmentation-for-Flood-Damage-Analysis) uses fastai `BEGINNER`
 * [Automatic Flood Detection from Satellite Images Using Deep Learning](https://medium.com/@omercaliskan99/automatic-flood-detection-from-satellite-images-using-deep-learning-f14fafd369e0) `BEGINNER`
 * [UNSOAT used fastai to train a Unet to perform semantic segmentation on satellite imageries to detect water](https://forums.fast.ai/t/unosat-used-fastai-ai-for-their-floodai-model-discussion-on-how-to-move-forward/78468) - [paper](https://www.mdpi.com/2072-4292/12/16/2532) + [notebook](https://github.com/UNITAR-UNOSAT/UNOSAT-AI-Based-Rapid-Mapping-Service/blob/master/Fastai%20training.ipynb), accuracy 0.97, precision 0.91, recall 0.92
@@ -333,6 +336,7 @@ Classification
 * [semantic segmentation model to identify newly developed or flooded land](https://github.com/Azure/pixel_level_land_classification) using NAIP imagery provided by the Chesapeake Conservancy, training on MS Azure
 * [BandNet](https://github.com/IamShubhamGupto/BandNet) -> code for 2022 [paper](https://arxiv.org/abs/2212.08749): Analysis and application of multispectral data for water segmentation using machine learning. Uses Sentinel-2 data
 * [mmflood](https://github.com/edornd/mmflood) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9882096): MMFlood: A Multimodal Dataset for Flood Delineation From Satellite Imagery (Sentinel 1 SAR)
+* [Urban_flooding](https://github.com/omarseleem92/Urban_flooding) -> Towards transferable data-driven models to predict urban pluvial flood water depth in Berlin, Germany
 
 ### Segmentation - Fire, smoke & burn areas
 * [SatelliteVu-AWS-Disaster-Response-Hackathon](https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon) -> fire spread prediction using classical ML & deep learning `BEGINNER`
@@ -503,6 +507,7 @@ Semantic Segmentation
 * [building-footprints-update](https://github.com/wangzehui20/building-footprints-update) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/22/5851): Learning Color Distributions from Bitemporal Remote Sensing Images to Update Existing Building Footprints
 * [Istanbul_Dataset](https://github.com/TolgaBkm/Istanbul_Dataset) -> this repo contains weights of Unet++ model with SE-ResNeXt101 encoder trained with Istanbul, Inria and Massachusetts datasets seperately. Accompanies the [paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417422007011?via%3Dihub): Comparative analysis of deep learning based building extraction methods with the new VHR Istanbul dataset
 * [RAMP](https://rampml.global/) -> model and buildings dataset to support a wide variety of humanitarian use cases
+* [Thesis_Semantic_Image_Segmentation_on_Satellite_Imagery_using_UNets](https://github.com/rinkwitz/Thesis_Semantic_Image_Segmentation_on_Satellite_Imagery_using_UNets) -> This master thesis aims to perform semantic segmentation of buildings on satellite images from the SpaceNet challenge 1 dataset using the U-Net architecture
 
 ### Segmentation - Solar panels
 * [DeepSolar](https://github.com/wangzhecheng/DeepSolar) -> A Machine Learning Framework to Efficiently Construct a Solar Deployment Database in the United States. [Dataset on kaggle](https://www.kaggle.com/tunguz/deep-solar-dataset), actually used a CNN for classification and segmentation is obtained by applying a threshold to the activation map. Original code is tf1 but [tf2/kers](https://github.com/aidan-fitz/deepsolar-v2) and a [pytorch implementation](https://github.com/wangzhecheng/deepsolar_pytorch) are available. Also checkout [Visualizations and in-depth analysis .. of the factors that can explain the adoption of solar energy in ..  Virginia](https://github.com/bessammehenni/DeepSolar_adoption_Virginia) and [DeepSolar tracker: towards unsupervised assessment with open-source data of the accuracy of deep learning-based distributed PV mapping](https://github.com/gabrielkasmi/dsfrance)
@@ -526,6 +531,7 @@ Semantic Segmentation
 * [projects-solar-panel-detection](https://github.com/top-on/projects-solar-panel-detection) -> List of project to detect solar panels from aerial/satellite images
 * [Satellite_ComputerVision](https://github.com/mjevans26/Satellite_ComputerVision) -> UNET to detect solar arrays from Sentinel-2 data, using Google Earth Engine and Tensorflow. Also covers parking lot detection
 * [photovoltaic-detection](https://github.com/riccardocadei/photovoltaic-detection) -> Detecting available rooftop area from satellite images to install photovoltaic panels
+* [Solar_UNet](https://github.com/mjevans26/Solar_UNet) -> U-Net models delineating solar arrays in Sentinel-2 imagery
 
 ### Segmentation - Other manmade
 * [Aarsh2001/ML_Challenge_NRSC](https://github.com/Aarsh2001/ML_Challenge_NRSC) -> Electrical Substation detection
@@ -678,6 +684,7 @@ Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For d
 * [OBB_Detection](https://github.com/HsLOL/OBB_Detection) -> Finalist's solution in the track of Oriented Object Detection in Remote Sensing Images, 2022 Guangdong-Hong Kong-Macao Greater Bay Area International Algorithm Competition
 * [sam-mmrotate](https://github.com/Li-Qingyun/sam-mmrotate) -> SAM (Segment Anything Model) for generating rotated bounding boxes with MMRotate, which is a comparison method of H2RBox-v2
 * [mmrotate-dcfl](https://github.com/Chasel-Tsui/mmrotate-dcfl) -> code for 2023 paper: Dynamic Coarse-to-Fine Learning for Oriented Tiny Object Detection
+* [h2rbox-mmrotate](https://github.com/yangxue0827/h2rbox-mmrotate) -> code for 2022 paper: H2RBox: Horizontal Box Annotation is All You Need for Oriented Object Detection
 
 #### Object detection enhanced by super resolution
 * [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
@@ -1196,6 +1203,7 @@ Remote sensing images are used in disaster response to identify and assess damag
 * [Turkey-Earthquake-2023-Building-Change-Detection](https://github.com/blackshark-ai/Turkey-Earthquake-2023-Building-Change-Detection) -> The repository contains building footprints derived from Maxar open data imagery and change detection results by blackshark-ai
 * [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> code for 2022 paper: MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
 * [DAHiTra](https://github.com/nka77/DAHiTra) -> code for 2022 [paper](https://arxiv.org/abs/2208.02205): Large-scale Building Damage Assessment using a Novel Hierarchical Transformer Architecture on Satellite Images. Uses xView2 xBD dataset
+* [building-segmentation-disaster-resilience](https://github.com/kbrodt/building-segmentation-disaster-resilience) -> 2nd place solution in the Open Cities AI Challenge: Segmenting Buildings for Disaster Resilience
 
 #
 ## Super-resolution
@@ -1268,6 +1276,7 @@ Super-resolution is a technique aimed at improving the resolution of an imaging 
 * [Unsupervised Super Resolution for Sentinel-2 satellite imagery](https://github.com/savassif/Thesis) -> using Deep Image Prior (DIP), Zero-Shot Super Resolution (ΖSSR) & Degradation-Aware Super Resolution (DASR)
 * [Spectral Super-Resolution of Satellite Imagery with Generative Adversarial Networks](https://github.com/ImDanielRojas/thesis)
 * [Super resolution using GAN / 4x Improvement](https://github.com/purijs/satellite-superresolution) -> applied to Sentinel 2
+* [rs-esrgan](https://github.com/luissalgueiro/rs-esrgan) -> code for paper: RS-ESRGAN: Super-Resolution of Sentinel-2 Imagery Using Generative Adversarial Networks
 
 ### Multi image super-resolution (MISR)
 Note that nearly all the MISR publications resulted from the [PROBA-V Super Resolution competition](https://kelvins.esa.int/proba-v-super-resolution/)
@@ -1331,6 +1340,7 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
 * [PanFormer](https://github.com/zhysora/PanFormer) -> code for 2022 [paper](https://arxiv.org/abs/2203.02916): PanFormer: a Transformer Based Model for Pan-sharpening
 * [Pansharpening](https://github.com/nithin-gr/Pansharpening) -> code for 2021 [paper](https://www.researchgate.net/publication/356974466_Pansformers_Transformer-Based_Self-Attention_Network_for_Pansharpening): Pansformers: Transformer-Based Self-Attention Network for Pansharpening
 * [Sentinel-2 Band Pan-Sharpening](https://github.com/purijs/Sentinel-2-Superresolution)
+* [PGCU](https://github.com/Zeyu-Zhu/PGCU) -> code for 2023 paper: Probability-based Global Cross-modal Upsampling for Pansharpening
 
 #
 ## Image-to-image translation
@@ -1438,6 +1448,7 @@ Generative Adversarial Networks (GANs) are a type of deep learning architecture 
 * [Satellite Image Augmetation with GANs](https://github.com/Oarowolo11/11785-Project) -> code for 2022 [paper](https://arxiv.org/abs/2207.14580): Image Augmentation for Satellite Images
 * [opt2sar-cyclegan](https://github.com/zzh811/opt2sar-cyclegan) -> Research on SAR image generation method based on non-homologous data
 * [sentinel-cgan](https://github.com/softwaremill/sentinel-cgan) -> code for [article](https://blog.softwaremill.com/generative-adversarial-networks-in-satellite-image-datasets-augmentation-b7045d2f51ab): Generative adversarial networks in satellite image datasets augmentation
+* [Shoreline_Extraction_GAN](https://github.com/mlundine/Shoreline_Extraction_GAN) -> Shoreline extraction via generative adversarial networks, prediction via LSTMs
 
 #
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
