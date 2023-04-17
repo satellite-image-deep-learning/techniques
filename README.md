@@ -306,6 +306,8 @@ Classification
 * [3DUNetGSFormer](https://github.com/aj1365/3DUNetGSFormer) -> code for 2022 [paper](https://www.sciencedirect.com/science/article/pii/S1574954122003545): 3DUNetGSFormer: A deep learning pipeline for complex wetland mapping using generative adversarial networks and Swin transformer
 * [SEANet_torch](https://github.com/long123524/SEANet_torch) -> code for 2023 paper: Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images
 * [arborizer](https://github.com/RaffiBienz/arborizer) -> Tree crowns segmentation and classification
+* [ReUse](https://github.com/priamus-lab/ReUse) -> UNet to estimate carbon absorbed by forests, using Biomass & Sentinel-2 imagery. Code for [paper](https://www.mdpi.com/2313-433X/9/3/61): ReUse: REgressive Unet for Carbon Storage and Above-Ground Biomass Estimation
+* [unet-sentinel](https://github.com/eliasqueirogavieira/unet-sentinel) -> UNet to handle Sentinel-1 SAR images to identify deforestation
 
 ### Segmentation - Water, coastlines & floods
 * [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces `BEGINNER`
@@ -1058,6 +1060,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 * [HANet-CD](https://github.com/ChengxiHAN/HANet-CD) -> code for 2023 paper: HANet: A hierarchical attention network for change detection with bi-temporal very-high-resolution remote sensing images
 * [SRGCAE](https://github.com/ChenHongruixuan/SRGCAE) -> code for 2022 paper: Unsupervised Multimodal Change Detection Based on Structural Relationship Graph Representation Learning
 * [change_detection_onera_baselines](https://github.com/previtus/change_detection_onera_baselines) -> Siamese version of U-Net baseline model
+* [SiamCRNN](https://github.com/ChenHongruixuan/SiamCRNN) -> code for 2020 paper: Change Detection in Multisource VHR Images via Deep Siamese Convolutional Multiple-Layers Recurrent Neural Network
 
 #
 ## Time series
@@ -1280,6 +1283,7 @@ Super-resolution is a technique aimed at improving the resolution of an imaging 
 * [Super resolution using GAN / 4x Improvement](https://github.com/purijs/satellite-superresolution) -> applied to Sentinel 2
 * [rs-esrgan](https://github.com/luissalgueiro/rs-esrgan) -> code for paper: RS-ESRGAN: Super-Resolution of Sentinel-2 Imagery Using Generative Adversarial Networks
 * [TS-RSGAN](https://github.com/yicrane/TS-RSGAN) -> code for [paper](https://www.mdpi.com/2079-9292/11/21/3474): Super-Resolution of Remote Sensing Images for ×4 Resolution without Reference Images. Applied to Sentinel-2
+* [CDCR](https://github.com/Suanmd/CDCR) -> code for 2023 paper: Combining Discrete and Continuous Representation: Scale-Arbitrary Super-Resolution for Satellite Images
 
 ### Multi image super-resolution (MISR)
 Note that nearly all the MISR publications resulted from the [PROBA-V Super Resolution competition](https://kelvins.esa.int/proba-v-super-resolution/)
@@ -1452,6 +1456,7 @@ Generative Adversarial Networks (GANs) are a type of deep learning architecture 
 * [opt2sar-cyclegan](https://github.com/zzh811/opt2sar-cyclegan) -> Research on SAR image generation method based on non-homologous data
 * [sentinel-cgan](https://github.com/softwaremill/sentinel-cgan) -> code for [article](https://blog.softwaremill.com/generative-adversarial-networks-in-satellite-image-datasets-augmentation-b7045d2f51ab): Generative adversarial networks in satellite image datasets augmentation
 * [Shoreline_Extraction_GAN](https://github.com/mlundine/Shoreline_Extraction_GAN) -> Shoreline extraction via generative adversarial networks, prediction via LSTMs
+* [Landsat8-Sentinel2-Fusion](https://github.com/Rohit18/Landsat8-Sentinel2-Fusion) -> Translating Landsat 8 to Sentinel-2 using a GAN
 
 #
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
