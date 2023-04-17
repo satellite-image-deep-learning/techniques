@@ -941,6 +941,7 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 * [cloud-detection-venus](https://github.com/pesekon2/cloud-detection-venus) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/20/5210): Using Convolutional Neural Networks for Cloud Detection on VENμS Images over Multiple Land-Cover Types
 * [explaining_cloud_effects](https://github.com/JakobCode/explaining_cloud_effects) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9956865): Explaining the Effects of Clouds on Remote Sensing Scene Classification
 * [Clouds-Images-Segmentation](https://github.com/DavidHuji/Clouds-Images-Segmentation) -> Marine Stratocumulus Cloud-Type Classification from SEVIRI Using Convolutional Neural Networks
+* [DeCloud-GAN](https://github.com/pixiedust18/DeCloud-GAN) -> code for 2021 paper: DeCloud GAN: An Advanced Generative Adversarial Network for Removing Cloud Cover in Optical Remote Sensing Imagery
 
 #
 ## Change detection
@@ -1056,6 +1057,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 * [Metric-CD](https://github.com/wgcban/Metric-CD) -> code for 2023 paper: Deep Metric Learning for Unsupervised Change Detection in Remote Sensing Images
 * [HANet-CD](https://github.com/ChengxiHAN/HANet-CD) -> code for 2023 paper: HANet: A hierarchical attention network for change detection with bi-temporal very-high-resolution remote sensing images
 * [SRGCAE](https://github.com/ChenHongruixuan/SRGCAE) -> code for 2022 paper: Unsupervised Multimodal Change Detection Based on Structural Relationship Graph Representation Learning
+* [change_detection_onera_baselines](https://github.com/previtus/change_detection_onera_baselines) -> Siamese version of U-Net baseline model
 
 #
 ## Time series
@@ -1277,6 +1279,7 @@ Super-resolution is a technique aimed at improving the resolution of an imaging 
 * [Spectral Super-Resolution of Satellite Imagery with Generative Adversarial Networks](https://github.com/ImDanielRojas/thesis)
 * [Super resolution using GAN / 4x Improvement](https://github.com/purijs/satellite-superresolution) -> applied to Sentinel 2
 * [rs-esrgan](https://github.com/luissalgueiro/rs-esrgan) -> code for paper: RS-ESRGAN: Super-Resolution of Sentinel-2 Imagery Using Generative Adversarial Networks
+* [TS-RSGAN](https://github.com/yicrane/TS-RSGAN) -> code for [paper](https://www.mdpi.com/2079-9292/11/21/3474): Super-Resolution of Remote Sensing Images for ×4 Resolution without Reference Images. Applied to Sentinel-2
 
 ### Multi image super-resolution (MISR)
 Note that nearly all the MISR publications resulted from the [PROBA-V Super Resolution competition](https://kelvins.esa.int/proba-v-super-resolution/)
