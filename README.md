@@ -216,6 +216,7 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 * [MFVNet](https://github.com/weichenrs/MFVNet) -> code for 2023 paper: MFVNet: Deep Adaptive Fusion Network with Multiple Field-of-Views for Remote Sensing Image Semantic Segmentation
 * [Wildebeest-UNet](https://github.com/zijing-w/Wildebeest-UNet) -> detecting wildebeest and zebras in Serengeti-Mara ecosystem from very-high-resolution satellite imagery
 * [segment-anything-eo](https://github.com/aliaksandr960/segment-anything-eo) -> Earth observation tools for Meta AI Segment Anything (SAM - Segment Anything Model)
+* [HR-Image-classification_SDF2N](https://github.com/SicongLiuRS/HR-Image-classification_SDF2N) -> code for 2023 paper: A Shallow-to-Deep Feature Fusion Network for VHR Remote Sensing Image Classification
 
 ### Segmentation - Land use & land cover
 * [U-Net for Semantic Segmentation on Unbalanced Aerial Imagery](https://towardsdatascience.com/u-net-for-semantic-segmentation-on-unbalanced-aerial-imagery-3474fa1d3e56) -> using the Dubai dataset `BEGINNER`
