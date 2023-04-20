@@ -1139,6 +1139,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 * [Yield-Prediction-Using-Sentinel-Data](https://github.com/meet-sapu/Crop-Yield-Prediction-Using-Satellite-Imagery)
 * [SPACY](https://github.com/rlee360/PLaTYPI) -> Satellite Prediction of Aggregate Corn Yield
 * [cropyieldArticle](https://github.com/myliheik/cropyieldArticle) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/17/4193): Scalable Crop Yield Prediction with Sentinel-2 Time Series and Temporal Convolutional Network
+* [CNN-RNN-Yield-Prediction](https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction) -> code for 2020 paper: A CNN-RNN Framework for Crop Yield Prediction
+* [Yield-Prediction-DNN](https://github.com/saeedkhaki92/Yield-Prediction-DNN) -> code for paper: Crop Yield Prediction Using Deep Neural Networks
 
 #
 ## Wealth and economic activity
