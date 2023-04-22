@@ -135,6 +135,7 @@ or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial
 * [RSMLC](https://github.com/marjanstoimchev/RSMLC) -> code for 2023 [paper](https://www.mdpi.com/2072-4292/15/2/538): Deep Network Architectures as Feature Extractors for Multi-Label Classification of Remote Sensing Images
 * [FireRisk](https://github.com/CharmonyShen/FireRisk) -> A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Using Supervised and Self-supervised Learning
 * [flood_susceptibility_mapping](https://github.com/omarseleem92/flood_susceptibility_mapping) -> Towards urban flood susceptibility mapping using data-driven models in Berlin, Germany
+* [tick-tick-bloom](https://github.com/drivendataorg/tick-tick-bloom) -> Winners of the Tick Tick Bloom: Harmful Algal Bloom Detection Challenge. Task was to predict severity of algae bloom, winners used decision trees
 
 # 
 ## Segmentation
@@ -301,6 +302,7 @@ Classification
 * [PTDM](https://github.com/hr8yhtzb/PTDM) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/16/3902): Pomelo Tree Detection Method Based on Attention Mechanism and Cross-Layer Feature Fusion
 * [urban-tree-detection](https://github.com/jonathanventura/urban-tree-detection) -> code for 2022 [paper](https://arxiv.org/abs/2208.10607): Individual Tree Detection in Large-Scale Urban Environments using High-Resolution Multispectral Imagery. With [dataset](https://github.com/jonathanventura/urban-tree-detection-data)
 * [BioMassters_baseline](https://github.com/fnands/BioMassters_baseline) -> a basic pytorch lightning baseline using a UNet for getting started with the [BioMassters challenge](https://www.drivendata.org/competitions/99/biomass-estimation/) (biomass estimation)
+* [Biomassters winners](https://github.com/drivendataorg/the-biomassters) -> top 3 solutions
 * [kbrodt biomassters solution](https://github.com/kbrodt/biomassters) -> 1st place solution
 * [quqixun biomassters solution](https://github.com/quqixun/BioMassters)
 * [biomass-estimation](https://github.com/azavea/biomass-estimation) -> from Azavea, applied to Sentinel 1 & 2
