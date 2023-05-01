@@ -2391,10 +2391,7 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.3.21. [Restoring old aerial images with Deep Learning](https://towardsdatascience.com/restoring-old-aerial-images-with-deep-learning-60f0cfd2658) -> Medium article Super Resolution with Perceptual Loss function and real images as input
 
-  
-
 #
-
 ## 15. Pansharpening
 
 <p align="center">
@@ -2472,7 +2469,6 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
   15.33. [Sentinel-2 Band Pan-Sharpening](https://github.com/purijs/Sentinel-2-Superresolution)
 
   15.34. [PGCU](https://github.com/Zeyu-Zhu/PGCU) -> code for 2023 paper: Probability-based Global Cross-modal Upsampling for Pansharpening
-
 
 #
 ## 16. Image-to-image translation
