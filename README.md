@@ -1980,6 +1980,12 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.105. [SiamCRNN](https://github.com/ChenHongruixuan/SiamCRNN) -> code for 2020 paper: Change Detection in Multisource VHR Images via Deep Siamese Convolutional Multiple-Layers Recurrent Neural Network
 
+  8.106. [Graph-based methods for change detection in remote sensing images](https://github.com/jfflorez/Graph-based-methods-for-change-detection-in-remote-sensing-images) -> code for paper: Graph Learning Based on Signal Smoothness Representation for Homogeneous and Heterogeneous Change Detection
+  
+  8.107. [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> code for 2023 paper: TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping
+
+  8.108. [AR-CDNet](https://github.com/guanyuezhen/AR-CDNet) -> code for 2023 paper: Towards Accurate and Reliable Change Detection of Remote Sensing Images via Knowledge Review and Online Uncertainty Estimation
+
 
 #
 ## 9. Time series
@@ -2598,6 +2604,8 @@ Data fusion is a technique for combining information from different sources such
 
   17.36. [deforestation-from-data-fusion](https://github.com/felferrari/deforestation-from-data-fusion) -> Fusing Sentinel-1 and Sentinel-2 images for deforestation detection in the Brazilian Amazon under diverse cloud conditions
 
+  17.37. [sct-fusion](https://git.tu-berlin.de/rsim/sct-fusion) -> code for 2023 [paper](https://arxiv.org/abs/2306.01523): Transformer-based Multi-Modal Learning for Multi Label Remote Sensing Image Classification
+
 
 #
 ## 18. Generative Adversarial Networks (GANs)
@@ -2808,7 +2816,9 @@ Image Captioning is the task of automatically generating a textual description o
 
 Visual Question Answering (VQA) is the task of automatically answering a natural language question about an image. In remote sensing, VQA enables users to interact with the images and retrieve information using natural language questions. For example, a user could ask a VQA system questions such as "What is the type of land cover in this area?", "What is the dominant crop in this region?" or "What is the size of the city in this image?". The system would then analyze the image and generate an answer based on its understanding of the image content.
 
-  22.1 [VQA-easy2hard](https://gitlab.lrz.de/ai4eo/reasoning/VQA-easy2hard) -> code for 2022 [paper](https://arxiv.org/abs/2205.03147): From Easy to Hard: Learning Language-guided Curriculum for Visual Question Answering on Remote Sensing Data
+  22.1. [VQA-easy2hard](https://gitlab.lrz.de/ai4eo/reasoning/VQA-easy2hard) -> code for 2022 [paper](https://arxiv.org/abs/2205.03147): From Easy to Hard: Learning Language-guided Curriculum for Visual Question Answering on Remote Sensing Data
+
+  22.2. [lit4rsvqa](https://git.tu-berlin.de/rsim/lit4rsvqa) -> code for [paper](https://arxiv.org/abs/2306.00758): LiT-4-RSVQA: Lightweight Transformer-based Visual Question Answering in Remote Sensing
 
 #
 ## 23. Mixed data learning
@@ -3034,6 +3044,8 @@ Federated learning is an approach to distributed machine learning where a centra
   28.1. [Federated-Learning-for-Remote-Sensing](https://github.com/anandcu3/Federated-Learning-for-Remote-Sensing) ->  implementation of three Federated Learning models
 
   28.2. [Semantic-Segmentation-UNet-Federated](https://github.com/PratikGarai/Semantic-Segmentation-UNet-Federated) -> code for paper: FedUKD: Federated UNet Model with Knowledge Distillation for Land Use Classification from Satellite and Street Views
+
+  28.3. [MM-FL](https://git.tu-berlin.de/rsim/MM-FL) -> code for paper: Learning Across Decentralized Multi-Modal Remote Sensing Archives with Federated Learning
 
 #
 ## 29. Transformers
