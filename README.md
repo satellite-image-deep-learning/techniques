@@ -16,7 +16,9 @@ Deep learning has transformed the way satellite and aerial images are analyzed a
 #
 
 <p align="center">
-  <img src="sponsor-logo.png" width="800">
+  <a href="http://orbuculum.xyz/">
+    <img src="sponsor-logo.png" width="800">
+  </a>
 </p>
 
 Orbuculum is an innovative and rapidly evolving platform designed with the specific intent to empower GIS and Earth Observation (EO) researchers by offering a unique avenue for monetizing their machine learning models. Standing distinctively apart from conventional marketplaces, Orbuculum pioneers a transformative approach by transmuting these models into smart contracts. This enables automatic remuneration for the creators each time their models are deployed, fostering an efficient and rewarding ecosystem.
