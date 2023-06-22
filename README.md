@@ -11,7 +11,28 @@
 </div>
 
 ## Introduction
-Deep learning has transformed the way satellite and aerial images are analyzed and interpreted. These images pose unique challenges, such as large sizes and diverse object classes, which offer opportunities for deep learning researchers. This repository offers a comprehensive overview of various deep learning techniques for analyzing satellite and aerial imagery, including architectures, models, and algorithms for tasks such as classification, segmentation, and object detection. It serves as a valuable resource for researchers, practitioners, and anyone interested in the latest advances in deep learning and its impact on computer vision and remote sensing.
+Deep learning has transformed the way satellite and aerial images are analyzed and interpreted. These images pose unique challenges, such as large sizes and diverse object classes, which offer opportunities for deep learning researchers. This repository offers a comprehensive overview of various deep learning techniques for analyzing satellite and aerial imagery, including architectures, models, and algorithms for tasks such as classification, segmentation, and object detection. It serves as a valuable resource for researchers, practitioners, and anyone interested in the latest advances in deep learning and its impact on computer vision and remote sensing. This repository is proudly sponsored by Orboculum
+
+#
+
+<p align="center">
+  <a href="http://orbuculum.xyz/">
+    <img src="sponsor-logo.png" width="800">
+  </a>
+</p>
+
+Orbuculum is an innovative and rapidly evolving platform designed with the specific intent to empower GIS and Earth Observation (EO) researchers by offering a unique avenue for monetizing their machine learning models. Standing distinctively apart from conventional marketplaces, Orbuculum pioneers a transformative approach by transmuting these models into smart contracts. This enables automatic remuneration for the creators each time their models are deployed, fostering an efficient and rewarding ecosystem.
+
+Orbuculum's potential extends far beyond the reinvention of the GIS/EO research industry. It is poised to serve as an invaluable conduit for public welfare initiatives, especially those striving to mitigate climate change. By providing access to vital data and insightful analytics, Orbuculum promises to act as a potent resource in the ongoing battle against some of the most urgent global concerns. This integration of cutting-edge technology with socially impactful missions could position Orbuculum as an instrumental platform at the intersection of scientific research and sustainable development.
+
+* 🖥️ [Orbuculum website](http://orbuculum.xyz/)
+* 📺 [Demo video of Orbuculum platform](https://youtu.be/V3HfWAstzEE)
+* 📺 [Conversation between Robin and Derek Ding, the co-founder of the Orbuculum platform](https://youtu.be/pDduLbMwSe8)
+* 🗣️ [Orbuculum Discord](https://discord.com/invite/aE9CHBmzar)
+* 💻 [Orbuculum Github](https://github.com/Orbuculum-DAO)
+* 🐦 [Orbuculum Twitter](https://twitter.com/Orbuculum_xyz)
+
+#
 
 **How to use this repository:** if you know exactly what you are looking for (e.g. you have the paper name) you can `Control+F` to search for it in this page. **Note** `BEGINNER` is used to identify material that is suitable for begginers & getting started with a topic
 
