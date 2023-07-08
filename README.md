@@ -321,6 +321,8 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
   2.1.36. [dynamicworld](https://github.com/google/dynamicworld) -> code for 2022 [paper](https://www.nature.com/articles/s41597-022-01307-4): Dynamic World, Near real-time global 10 m land use land cover mapping
 
+  2.1.37. [spada](https://github.com/links-ads/spada) -> code for 2023 [paper](https://arxiv.org/abs/2306.16252): Land Cover Segmentation with Sparse Annotations from Sentinel-2 Imagery
+
 ### 2.2. Segmentation - Vegetation, crops & crop boundaries
 
   2.2.1. [Сrор field boundary detection: approaches and main challenges](https://medium.com/geekculture/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-and-main-challenges-46e37dd276bc) -> Medium article, covering historical and modern approaches `BEGINNER` 
@@ -429,6 +431,7 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
   2.2.53. [unet-sentinel](https://github.com/eliasqueirogavieira/unet-sentinel) -> UNet to handle Sentinel-1 SAR images to identify deforestation
 
+  2.2.54. [MaskedSST](https://github.com/HSG-AIML/MaskedSST) -> code for 2023 paper: Masked Vision Transformers for Hyperspectral Image Classification
 
 
 ### 2.3. Segmentation - Water, coastlines & floods
@@ -519,7 +522,7 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
   2.4.11. [burned-area-baseline](https://github.com/lccol/burned-area-baseline) -> baseline unet model accompanying the Satellite Burned Area Dataset (Sentinel 1 & 2)
 
-  
+  2.4.12. [burned-area-seg](https://github.com/links-ads/burned-area-seg) -> Burned area segmentation from Sentinel-2 using multi-task learning
  
 
 ### 2.5.  Segmentation - Landslides
@@ -1088,6 +1091,8 @@ In instance segmentation, each individual 'instance' of a segmented area is give
   3.14. [FactSeg](https://github.com/Junjue-Wang/FactSeg) -> Foreground Activation Driven Small Object Semantic Segmentation in Large-Scale Remote Sensing Imagery (TGRS), also see [FarSeg](https://github.com/Z-Zheng/FarSeg) and [FreeNet](https://github.com/Z-Zheng/FreeNet), implementations of research paper
 
   3.15. [aqua_python](https://github.com/tclavelle/aqua_python) -> detecting aquaculture farms using Mask R-CNN
+
+  3.16. [RSPrompter](https://github.com/KyanChen/RSPrompter) -> code for 2023 paper: Learning to Prompt for Remote Sensing Instance Segmentation based on Visual Foundation Model
 
 
 #
@@ -1777,6 +1782,8 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
   7.60. [Clouds-Images-Segmentation](https://github.com/DavidHuji/Clouds-Images-Segmentation) -> Marine Stratocumulus Cloud-Type Classification from SEVIRI Using Convolutional Neural Networks
 
   7.61. [DeCloud-GAN](https://github.com/pixiedust18/DeCloud-GAN) -> code for 2021 paper: DeCloud GAN: An Advanced Generative Adversarial Network for Removing Cloud Cover in Optical Remote Sensing Imagery
+
+  7.62. [km_predict](https://github.com/kappazeta/km_predict) -> KappaMask, or km-predict, is a cloud detector for Sentinel-2 Level-1C and Level-2A input products applied to S2 full image prediction
 
 
 #
@@ -3424,6 +3431,7 @@ Image quality describes the degree of accuracy with which an image can represent
 
   36.16. [iquaflow](https://github.com/satellogic/iquaflow) -> from Satellogic, an image quality framework that aims at providing a set of tools to assess image quality by using the performance of AI models trained on the images as a proxy.
 
+  36.17. [lvrnet](https://github.com/Achleshwar/lvrnet) -> Lightweight Image Restoration for Aerial Images under Low Visibility
 
 #
 ## 37. Synthetic data
