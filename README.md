@@ -319,7 +319,7 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
   2.1.35. [DeepGlobe2018](https://github.com/suredream/DeepGlobe2018) -> PyTorch U-net for multi-class semantic segmentation
 
-
+  2.1.36. [dynamicworld](https://github.com/google/dynamicworld) -> code for 2022 [paper](https://www.nature.com/articles/s41597-022-01307-4): Dynamic World, Near real-time global 10 m land use land cover mapping
 
 ### 2.2. Segmentation - Vegetation, crops & crop boundaries
 
@@ -2004,6 +2004,10 @@ Change detection is a vital component of remote sensing analysis, enabling the m
   8.107. [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> code for 2023 paper: TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping
 
   8.108. [AR-CDNet](https://github.com/guanyuezhen/AR-CDNet) -> code for 2023 paper: Towards Accurate and Reliable Change Detection of Remote Sensing Images via Knowledge Review and Online Uncertainty Estimation
+
+  8.109. [CICNet](https://github.com/ZhengJianwei2/CICNet) -> code for 2023 paper: Compact Intertemporal Coupling Network for Remote Sensing Change Detection
+
+  8.110. [BGINet](https://github.com/JackLiu-97/BGINet) -> code for 2023 [paper](https://arxiv.org/abs/2307.02007): Remote Sensing Image Change Detection with Graph Interaction 
 
 
 #
