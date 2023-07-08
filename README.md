@@ -568,6 +568,7 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
   2.7.8. [WeatherFusionNet](https://github.com/Datalab-FIT-CTU/weather4cast-2022) -> code for [paper](https://arxiv.org/abs/2211.16824): WeatherFusionNet: Predicting Precipitation from Satellite Data. weather4cast-2022 1st place solution
   
+  2.7.9. [marinedebrisdetector](https://github.com/MarcCoru/marinedebrisdetector) -> code for paper: Large-scale Detection of Marine Debris in Coastal Areas with Sentinel-2
  
 
 ### 2.8. Segmentation - Roads
