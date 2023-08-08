@@ -671,8 +671,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
   2.8.43. [tile2net](https://github.com/VIDA-NYU/tile2net) -> code for 2023 paper: Mapping the walk: A scalable computer vision approach for generating sidewalk network datasets from aerial imagery
 
-  
-
 ### 2.9. Segmentation - Buildings & rooftops
 
   2.9.1. [Road and Building Semantic Segmentation in Satellite Imagery](https://github.com/Paulymorphous/Road-Segmentation) uses U-Net on the Massachusetts Roads Dataset & keras `BEGINNER`
@@ -1066,7 +1064,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
   2.13.69. [HR-Image-classification_SDF2N](https://github.com/SicongLiuRS/HR-Image-classification_SDF2N) -> code for 2023 paper: A Shallow-to-Deep Feature Fusion Network for VHR Remote Sensing Image Classification
 
 
-
 ## 3. Instance segmentation
 In instance segmentation, each individual 'instance' of a segmented area is given a unique lable. For detection of very small objects this may a good approach, but it can struggle seperating individual objects that are closely spaced.
 
@@ -1101,7 +1098,6 @@ In instance segmentation, each individual 'instance' of a segmented area is give
   3.15. [aqua_python](https://github.com/tclavelle/aqua_python) -> detecting aquaculture farms using Mask R-CNN
 
   3.16. [RSPrompter](https://github.com/KyanChen/RSPrompter) -> code for 2023 paper: Learning to Prompt for Remote Sensing Instance Segmentation based on Visual Foundation Model
-
 
 #
 ## 4. Object detection
@@ -1234,7 +1230,6 @@ Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For d
   4.2.50. [mmrotate-dcfl](https://github.com/Chasel-Tsui/mmrotate-dcfl) -> code for 2023 paper: Dynamic Coarse-to-Fine Learning for Oriented Tiny Object Detection
 
   4.2.51. [h2rbox-mmrotate](https://github.com/yangxue0827/h2rbox-mmrotate) -> code for 2022 paper: H2RBox: Horizontal Box Annotation is All You Need for Oriented Object Detection
-
 
 ### 4.3. Object detection enhanced by super resolution
 
@@ -1385,7 +1380,6 @@ Detecting the most noticeable or important object in a scene
 
   4.6.37. [xView3-The-First-Place-Solution](https://github.com/BloodAxe/xView3-The-First-Place-Solution) - A winning solution for [xView 3](https://iuu.xview.us/) challenge (Vessel detection, classification and length estimation on Sentinetl-1 images). Contains trained models, inference pipeline and training code & configs to reproduce the results.
 
-
 ### 4.7. Object detection - Cars, vehicles & trains
 
   4.7.1. [Detection of parkinglots and driveways with retinanet](https://github.com/spiyer99/retinanet) `BEGINNER`
@@ -1449,7 +1443,6 @@ Detecting the most noticeable or important object in a scene
   4.8.16. [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> dataset and pretrained models for the paper: OnlyPlanes - Incrementally Tuning Synthetic Training Datasets for Satellite Object Detection
 
   4.8.17. [Understanding the RarePlanes Dataset and Building an Aircraft Detection Model](https://encord.com/blog/rareplane-dataset-aircraft-detection-model/) -> blog post
-
 
 ### 4.9. Object detection - Infrastructure & utilities
 
@@ -1613,8 +1606,8 @@ A variety of techniques can be used to count animals, including object detection
 
   4.12.52. [FSANet](https://github.com/Lausen-Ng/FSANet) -> code for 2022 paper: FSANet: Feature-and-Spatial-Aligned Network for Tiny Object Detection in Remote Sensing Images
 
+  4.12.53. [OAN](https://github.com/Ranchosky/OAN) code for paper: Fewer is More: Efficient Object Detection in Large Aerial Images, based on MMdetection
 
-  
 
 ## 5. Object counting
 When the object count, but not its shape is required, U-net can be used to treat this as an image-to-image translation problem.
@@ -1792,7 +1785,6 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
   7.61. [DeCloud-GAN](https://github.com/pixiedust18/DeCloud-GAN) -> code for 2021 paper: DeCloud GAN: An Advanced Generative Adversarial Network for Removing Cloud Cover in Optical Remote Sensing Imagery
 
   7.62. [km_predict](https://github.com/kappazeta/km_predict) -> KappaMask, or km-predict, is a cloud detector for Sentinel-2 Level-1C and Level-2A input products applied to S2 full image prediction
-
 
 #
 ## 8. Change detection
@@ -2024,6 +2016,16 @@ Change detection is a vital component of remote sensing analysis, enabling the m
   8.109. [CICNet](https://github.com/ZhengJianwei2/CICNet) -> code for 2023 paper: Compact Intertemporal Coupling Network for Remote Sensing Change Detection
 
   8.110. [BGINet](https://github.com/JackLiu-97/BGINet) -> code for 2023 [paper](https://arxiv.org/abs/2307.02007): Remote Sensing Image Change Detection with Graph Interaction
+
+  8.111. [DSNUNet](https://github.com/NightSongs/DSNUNet) -> code for 2022 paper: DSNUNet: An Improved Forest Change Detection Network by Combining Sentinel-1 and Sentinel-2 Images
+
+  8.112. [Forest-CD](https://github.com/NightSongs/Forest-CD) -> code for 2022 paper: Forest-CD: Forest Change Detection Network Based on VHR Images
+
+  8.113. [S3Net_CD](https://github.com/OMEGA-RS/S3Net_CD) -> code for 2023 paper: Superpixel-Guided Self-Supervised Learning Network for Change Detection in Multitemporal Image Change Detection
+
+  8.114. [T-UNet](https://github.com/Pl-2000/T-UNet) -> code for 2023 paper: T-UNet: Triplet UNet for Change Detection in High-Resolution Remote Sensing Images
+
+  8.115. [UCDFormer](https://github.com/zhu-xlab/UCDFormer) -> code for 2023 paper: UCDFormer: Unsupervised Change Detection Using a Transformer-driven Image Translation
 
 #
 ## 9. Time series
