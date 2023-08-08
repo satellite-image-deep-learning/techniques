@@ -245,7 +245,6 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 Image segmentation is a crucial step in image analysis and computer vision, with the goal of dividing an image into semantically meaningful segments or regions. The process of image segmentation assigns a class label to each pixel in an image, effectively transforming an image from a 2D grid of pixels into a 2D grid of pixels with assigned class labels. One common application of image segmentation is road or building segmentation, where the goal is to identify and separate roads and buildings from other features within an image. To accomplish this task, single class models are often trained to differentiate between roads and background, or buildings and background. These models are designed to recognize specific features, such as color, texture, and shape, that are characteristic of roads or buildings, and use this information to assign class labels to the pixels in an image. Another common application of image segmentation is land use or crop type classification, where the goal is to identify and map different land cover types within an image. In this case, multi-class models are typically used to recognize and differentiate between multiple classes within an image, such as forests, urban areas, and agricultural land. These models are capable of recognizing complex relationships between different land cover types, allowing for a more comprehensive understanding of the image content. Read [A brief introduction to satellite image segmentation with neural networks](https://www.satellite-image-deep-learning.com/p/a-brief-introduction-to-satellite-365). **Note** that many articles which refer to 'hyperspectral land classification' are often actually describing semantic segmentation. [Image source](https://towardsdatascience.com/semantic-segmentation-of-aerial-imagery-using-u-net-in-python-552705238514)
 
-  
 ### 2.1. Segmentation - Land use & land cover
 
   2.1.1. [U-Net for Semantic Segmentation on Unbalanced Aerial Imagery](https://towardsdatascience.com/u-net-for-semantic-segmentation-on-unbalanced-aerial-imagery-3474fa1d3e56) -> using the Dubai dataset `BEGINNER`
@@ -323,9 +322,14 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
   2.1.37. [spada](https://github.com/links-ads/spada) -> code for 2023 [paper](https://arxiv.org/abs/2306.16252): Land Cover Segmentation with Sparse Annotations from Sentinel-2 Imagery
 
-### 2.2. Segmentation - Vegetation, crops & crop boundaries
+  2.1.38. [M3SPADA](https://github.com/ecapliez/M3SPADA) -> code for 2023 paper: Multi-Sensor Temporal Unsupervised Domain Adaptation for Land Cover Mapping with spatial pseudo labelling and adversarial learning
 
-  2.2.1. [Сrор field boundary detection: approaches and main challenges](https://medium.com/geekculture/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-and-main-challenges-46e37dd276bc) -> Medium article, covering historical and modern approaches `BEGINNER` 
+  2.1.39. [DPA](https://github.com/x-ytong/DPA) -> DPA is an unsupervised domain adaptation (UDA) method applied to different satellite images for larg-scale land cover mapping.
+
+### 2.2. Segmentation - Vegetation, deforestation, crops & crop boundaries
+Note that deforestation detection may be treated as a segmentation task or a change detection task
+
+  2.2.1. [Сrор field boundary detection: approaches and main challenges](https://medium.com/geekculture/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-and-main-challenges-46e37dd276bc) -> Medium article, covering historical and modern approaches `BEGINNER`
 
   2.2.2. [kenya-crop-mask](https://github.com/nasaharvest/kenya-crop-mask) -> Annual and in-season crop mapping in Kenya - LSTM classifier to classify pixels as containing crop or not, and a multi-spectral forecaster that provides a 12 month time series given a partial input. Dataset downloaded from GEE and pytorch lightning used for training `BEGINNER`
 
@@ -432,6 +436,10 @@ Image segmentation is a crucial step in image analysis and computer vision, with
   2.2.53. [unet-sentinel](https://github.com/eliasqueirogavieira/unet-sentinel) -> UNet to handle Sentinel-1 SAR images to identify deforestation
 
   2.2.54. [MaskedSST](https://github.com/HSG-AIML/MaskedSST) -> code for 2023 paper: Masked Vision Transformers for Hyperspectral Image Classification
+
+  2.2.55. [UNet-defmapping](https://github.com/bragagnololu/UNet-defmapping) -> master's thesis using UNet to map deforestation using Sentinel-2 Level 2A images, applied to Amazon and Atlantic Rainforest dataset
+
+  2.2.56. [cvpr-multiearth-deforestation-segmentation](https://github.com/h2oai/cvpr-multiearth-deforestation-segmentation) -> multimodal Unet entry to the CVPR Multiearth 2023 deforestation challenge
 
 
 ### 2.3. Segmentation - Water, coastlines & floods
@@ -2015,8 +2023,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.109. [CICNet](https://github.com/ZhengJianwei2/CICNet) -> code for 2023 paper: Compact Intertemporal Coupling Network for Remote Sensing Change Detection
 
-  8.110. [BGINet](https://github.com/JackLiu-97/BGINet) -> code for 2023 [paper](https://arxiv.org/abs/2307.02007): Remote Sensing Image Change Detection with Graph Interaction 
-
+  8.110. [BGINet](https://github.com/JackLiu-97/BGINet) -> code for 2023 [paper](https://arxiv.org/abs/2307.02007): Remote Sensing Image Change Detection with Graph Interaction
 
 #
 ## 9. Time series
@@ -2065,7 +2072,7 @@ The analysis of time series observations in remote sensing data has numerous app
 
   9.18. [DeepSatModels](https://github.com/michaeltrs/DeepSatModels) -> code for the 2023 [paper](https://arxiv.org/abs/2301.04944): ViTs for SITS: Vision Transformers for Satellite Image Time Series
 
-  9.19. [Presto](https://github.com/nasaharvest/presto) -> code for the 2023 [paper](https://arxiv.org/abs/2304.14065): Lightweight, Pre-trained Transformers for Remote Sensing Timeseries
+  9.19. [Presto](https://github.com/nasaharvest/presto) -> code for the 2023 [paper](https://arxiv.org/abs/2304.14065): Lightweight, Pre-trained Transformers for Remote Sensing Timeserie
 
 #
 ## 10. Crop classification
@@ -2093,6 +2100,12 @@ Crop classification in remote sensing is the identification and mapping of diffe
   10.7. [timematch](https://github.com/jnyborg/timematch) -> code for 2022 paper: A method to perform unsupervised cross-region adaptation of crop classifiers trained with satellite image time series. We also introduce an open-access dataset for cross-region adaptation with SITS from four different regions in Europe
 
   10.8. [elects](https://github.com/MarcCoru/elects) -> code for 2022 [paper](https://arxiv.org/abs/1901.10681): End-to-End Learned Early Classification of Time Series for In-Season Crop Type Mapping
+
+  10.9. [3d-fpn-and-time-domain](https://gitlab.com/ignazio.gallo/sentinel-2-time-series-with-3d-fpn-and-time-domain-cai) -> code for 2021 paper: Sentinel 2 Time Series Analysis with 3D Feature Pyramid Network and Time Domain Class Activation Intervals for Crop Mapping
+
+  10.10. [in-season-and-dynamic-crop-mapping](https://gitlab.com/artelabsuper/in-season-and-dynamic-crop-mapping) -> code for 2023 paper: In-season and dynamic crop mapping using 3D convolution neural networks and sentinel-2 time series, uses the Lombardy crop dataset
+
+  10.11. [MultiviewCropClassification](https://github.com/fmenat/MultiviewCropClassification) -> code for 2023 paper: A COMPARATIVE ASSESSMENT OF MULTI-VIEW FUSION LEARNING FOR CROP CLASSIFICATION
 
 #
 ## 11. Crop yield
