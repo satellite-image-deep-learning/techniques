@@ -701,7 +701,9 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
   2.9.13. [spacenet_building_detection](https://github.com/motokimura/spacenet_building_detection) solution by [motokimura](https://github.com/motokimura) using Unet
 
+<!-- markdown-link-check-disable -->
   2.9.14. [How to extract building footprints from satellite images using deep learning](https://azure.microsoft.com/en-us/blog/how-to-extract-building-footprints-from-satellite-images-using-deep-learning/)
+<!-- markdown-link-check-enable -->
 
   2.9.15. [Vec2Instance](https://github.com/lakmalnd/Vec2Instance) -> applied to the SpaceNet challenge AOI 2 (Vegas) building footprint dataset, tensorflow v1.12
 
