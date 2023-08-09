@@ -28,7 +28,7 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
 * 🖥️ [Orbuculum website](http://orbuculum.xyz/)
 * 📺 [Demo video of Orbuculum platform](https://youtu.be/V3HfWAstzEE)
 * 📺 [Conversation between Robin and Derek Ding, the co-founder of the Orbuculum platform](https://youtu.be/pDduLbMwSe8)
-* 🗣️ [Orbuculum Discord](https://discord.com/invite/aE9CHBmzar)
+* 🗣️ [Orbuculum Discord](https://t.co/4JOkajHZ0l)
 * 💻 [Orbuculum Github](https://github.com/Orbuculum-DAO)
 * 🐦 [Orbuculum Twitter](https://twitter.com/Orbuculum_xyz)
 
