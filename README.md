@@ -2459,7 +2459,7 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
 
   15.1. Several algorithms described [in the ArcGIS docs](http://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/fundamentals-of-panchromatic-sharpening.htm), with the simplest being taking the mean of the pan and RGB pixel value.
 
-  15.2. For into to classical methods [see this notebook](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/panchromatic_sharpening.ipynb) and [this kaggle kernel](https://www.kaggle.com/resolut/panchromatic-sharpening)
+  15.2. [PGCU](https://github.com/Zeyu-Zhu/PGCU) -> code for 2023 paper: Probability-based Global Cross-modal Upsampling for Pansharpening
 
   15.3. [rio-pansharpen](https://github.com/mapbox/rio-pansharpen) -> pansharpening Landsat scenes
 
@@ -2522,8 +2522,6 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
   15.32. [Pansharpening](https://github.com/nithin-gr/Pansharpening) -> code for 2021 [paper](https://www.researchgate.net/publication/356974466_Pansformers_Transformer-Based_Self-Attention_Network_for_Pansharpening): Pansformers: Transformer-Based Self-Attention Network for Pansharpening
 
   15.33. [Sentinel-2 Band Pan-Sharpening](https://github.com/purijs/Sentinel-2-Superresolution)
-
-  15.34. [PGCU](https://github.com/Zeyu-Zhu/PGCU) -> code for 2023 paper: Probability-based Global Cross-modal Upsampling for Pansharpening
 
 #
 ## 16. Image-to-image translation
