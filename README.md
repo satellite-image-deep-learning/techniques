@@ -2031,6 +2031,10 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.115. [UCDFormer](https://github.com/zhu-xlab/UCDFormer) -> code for 2023 paper: UCDFormer: Unsupervised Change Detection Using a Transformer-driven Image Translation
 
+  8.116. [satellite-change-events](https://github.com/utkarshmall13/satellite-change-events) -> code for paper: Change Event Dataset for Discovery from Spatio-temporal Remote Sensing Imagery, uses Sentinel 2 CaiRoad & CalFire datasets
+
+  8.1167. [CACo](https://github.com/utkarshmall13/CACo) -> code for paper: Change-Aware Sampling and Contrastive Learning for Satellite Images
+
 #
 ## 9. Time series
 
