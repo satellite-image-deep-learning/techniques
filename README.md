@@ -1384,6 +1384,8 @@ Detecting the most noticeable or important object in a scene
 
   4.6.37. [xView3-The-First-Place-Solution](https://github.com/BloodAxe/xView3-The-First-Place-Solution) - A winning solution for [xView 3](https://iuu.xview.us/) challenge (Vessel detection, classification and length estimation on Sentinetl-1 images). Contains trained models, inference pipeline and training code & configs to reproduce the results.
 
+  4.6.38. [vessel-detection-sentinels](https://github.com/allenai/vessel-detection-sentinels) -> Sentinel-1 and Sentinel-2 Vessel Detection
+
 ### 4.7. Object detection - Cars, vehicles & trains
 
   4.7.1. [Detection of parkinglots and driveways with retinanet](https://github.com/spiyer99/retinanet) `BEGINNER`
@@ -3498,6 +3500,10 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
   37.21. [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> dataset and pretrained models for the paper: OnlyPlanes - Incrementally Tuning Synthetic Training Datasets for Satellite Object Detection
 
+#
+## 38. ChatGPT and other language models (LLMs)
+
+  38.1. [Remote-Sensing-ChatGPT](https://github.com/HaonanGuo/Remote-Sensing-ChatGPT) -> an open source tool for solving remote sensing tasks with ChatGPT in an interactive way.
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
