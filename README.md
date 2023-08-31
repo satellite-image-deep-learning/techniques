@@ -319,7 +319,7 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
   2.1.34. [Wetland_UNet](https://github.com/conservation-innovation-center/Wetland_UNet) -> UNet models that can delineate wetlands using remote sensing data input including bands from Sentinel-2 LiDAR and geomorphons. By the Conservation Innovation Center of Chesapeake Conservancy and Defenders of Wildlife
 
-  2.1.35. [DeepGlobe2018](https://github.com/suredream/DeepGlobe2018) -> PyTorch U-net for multi-class semantic segmentation
+  2.1.35. [DPA](https://github.com/x-ytong/DPA) -> DPA is an unsupervised domain adaptation (UDA) method applied to different satellite images for larg-scale land cover mapping.
 
   2.1.36. [dynamicworld](https://github.com/google/dynamicworld) -> code for 2022 [paper](https://www.nature.com/articles/s41597-022-01307-4): Dynamic World, Near real-time global 10 m land use land cover mapping
 
@@ -327,7 +327,6 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
   2.1.38. [M3SPADA](https://github.com/ecapliez/M3SPADA) -> code for 2023 paper: Multi-Sensor Temporal Unsupervised Domain Adaptation for Land Cover Mapping with spatial pseudo labelling and adversarial learning
 
-  2.1.39. [DPA](https://github.com/x-ytong/DPA) -> DPA is an unsupervised domain adaptation (UDA) method applied to different satellite images for larg-scale land cover mapping.
 
 ### 2.2. Segmentation - Vegetation, deforestation, crops & crop boundaries
 Note that deforestation detection may be treated as a segmentation task or a change detection task
@@ -1351,7 +1350,7 @@ Detecting the most noticeable or important object in a scene
 
   4.6.20. [Satellite-Imagery-Datasets-Containing-Ships](https://github.com/JasonManesis/Satellite-Imagery-Datasets-Containing-Ships) -> A list of optical and radar satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks
 
-  4.6.21. [Ship-Classification-in-Satellite-Images](https://github.com/JasonManesis/Ship-Classification-in-Satellite-Images) -> Convolutional neural network model for ship classification in satellite images
+  4.6.21. [vessel-detection-sentinels](https://github.com/allenai/vessel-detection-sentinels) -> Sentinel-1 and Sentinel-2 Vessel Detection
 
   4.6.22. [Ship-Detection](https://github.com/gouravbarkle/Ship-Detection) -> CNN approach for ship detection in the ocean using a satellite image
 
@@ -1384,8 +1383,6 @@ Detecting the most noticeable or important object in a scene
   4.6.36. [DRENet](https://github.com/WindVChen/DRENet) -> code for 2022 [paper])(https://ieeexplore.ieee.org/abstract/document/9791363): A Degraded Reconstruction Enhancement-Based Method for Tiny Ship Detection in Remote Sensing Images With a New Large-Scale Dataset
 
   4.6.37. [xView3-The-First-Place-Solution](https://github.com/BloodAxe/xView3-The-First-Place-Solution) - A winning solution for [xView 3](https://iuu.xview.us/) challenge (Vessel detection, classification and length estimation on Sentinetl-1 images). Contains trained models, inference pipeline and training code & configs to reproduce the results.
-
-  4.6.38. [vessel-detection-sentinels](https://github.com/allenai/vessel-detection-sentinels) -> Sentinel-1 and Sentinel-2 Vessel Detection
 
 ### 4.7. Object detection - Cars, vehicles & trains
 
@@ -3031,7 +3028,7 @@ Weakly & semi-supervised learning are two methods of machine learning that use b
 
   26.2. [SSGF-for-HRRS-scene-classification](https://github.com/weihancug/SSGF-for-HRRS-scene-classification) -> code for 2018 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271617303428): A semi-supervised generative framework with deep learning features for high-resolution remote sensing image scene classification
 
-  26.3. [SFGAN](https://github.com/MLEnthusiast/SFGAN) -> code for 2018 [paper](https://ieeexplore.ieee.org/abstract/document/8451836): Semantic-Fusion Gans for Semi-Supervised Satellite Image Classification
+  26.3. [SFGAN](https://github.com/MLEnthusiast/SFGAN) -> code for 2018 paper: Semantic-Fusion Gans for Semi-Supervised Satellite Image Classification
 
   26.4. [SSDAN](https://github.com/alhichri/SSDAN) -> code for 2021 [paper](https://www.mdpi.com/2072-4292/13/19/3861): Multi-Source Semi-Supervised Domain Adaptation Network for Remote Sensing Scene Classification
 
@@ -3063,7 +3060,7 @@ Weakly & semi-supervised learning are two methods of machine learning that use b
 
   26.18. [es-CP](https://github.com/majidseydgar/Res-CP) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9849704): Semi-Supervised Hyperspectral Image Classification Using a Probabilistic Pseudo-Label Generation Framework
 
-  26.19. [Flood_Mapping_SSL](https://github.com/YJ-He/Flood_Mapping_SSL) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9924583): Enhancement of Urban Floodwater Mapping From Aerial Imagery With Dense Shadows via Semisupervised Learning
+  26.19. [Flood_Mapping_SSL](https://github.com/YJ-He/Flood_Mapping_SSL) -> code for 2022 paper: Enhancement of Urban Floodwater Mapping From Aerial Imagery With Dense Shadows via Semisupervised Learning
 
   26.20. [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> code for 2022 paper: MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
 
@@ -3447,7 +3444,7 @@ Image quality describes the degree of accuracy with which an image can represent
 
   36.11. [Hyperspectral-Deblurring-and-Destriping](https://github.com/ImageRestorationToolbox/Hyperspectral-Deblurring-and-Destriping)
 
-  36.12. [HyDe](https://github.com/Helmholtz-AI-Energy/HyDe) -> Hyperspectral Denoising algorithm toolbox in Python, with [paper](https://arxiv.org/abs/2204.06979)
+  36.12. [HyDe](https://github.com/Helmholtz-AI-Energy/HyDe) -> Hyperspectral Denoising algorithm toolbox in Python
 
   36.13. [HLF-DIP](https://github.com/Keiv4n/HLF-DIP) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9813381): Unsupervised Hyperspectral Denoising Based on Deep Image Prior and Least Favorable Distribution
 
