@@ -2036,7 +2036,11 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.116. [satellite-change-events](https://github.com/utkarshmall13/satellite-change-events) -> code for paper: Change Event Dataset for Discovery from Spatio-temporal Remote Sensing Imagery, uses Sentinel 2 CaiRoad & CalFire datasets
 
-  8.1167. [CACo](https://github.com/utkarshmall13/CACo) -> code for paper: Change-Aware Sampling and Contrastive Learning for Satellite Images
+  8.117. [CACo](https://github.com/utkarshmall13/CACo) -> code for paper: Change-Aware Sampling and Contrastive Learning for Satellite Images
+
+  8.118. [LightCDNet](https://github.com/NightSongs/LightCDNet) -> code for 2023 paper: LightCDNet: Lightweight Change Detection Network Based on VHR Images
+
+  8.119. [OpenMineChangeDetection](https://github.com/Dibz15/OpenMineChangeDetection) -> code for thesis: Characterising Open Cast Mining from Satellite Data (Sentinel 2), implements TinyCD, LSNet & DDPM-CD
 
 #
 ## 9. Time series
