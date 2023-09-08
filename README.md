@@ -2039,6 +2039,10 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.119. [OpenMineChangeDetection](https://github.com/Dibz15/OpenMineChangeDetection) -> code for thesis: Characterising Open Cast Mining from Satellite Data (Sentinel 2), implements TinyCD, LSNet & DDPM-CD
 
+  8.120. [https://github.com/mpapadomanolaki/multi-task-L-UNet](multi-task-L-UNet) -> code for 2021 paper: A Deep Multi-Task Learning Framework Coupling Semantic Segmentation and Fully Convolutional LSTM Networks for Urban Change Detection. Applied to SpaceNet7 dataset
+
+  8.121. [https://github.com/SebastianHafner/urban_change_detection](urban_change_detection) -> code for 2019 paper: Detecting Urban Changes With Recurrent Neural Networks From Multitemporal Sentinel-2 Data. [https://github.com/granularai/fabric](fabric) is another implementation
+
 #
 ## 9. Time series
 
