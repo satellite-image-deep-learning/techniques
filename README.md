@@ -237,6 +237,8 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
    1.74. [tick-tick-bloom](https://github.com/drivendataorg/tick-tick-bloom) -> Winners of the Tick Tick Bloom: Harmful Algal Bloom Detection Challenge. Task was to predict severity of algae bloom, winners used decision trees
 
+   1.75. [Estimating coal power plant operation from satellite images with computer vision](https://transitionzero.medium.com/estimating-coal-power-plant-operation-from-satellite-images-with-computer-vision-b966af56919e) -> use Sentinel 2 data to identify if a coal power plant is on or off, with dataset and repo
+
 # 
 ### 2. Segmentation
 
@@ -2664,6 +2666,7 @@ Data fusion is a technique for combining information from different sources such
 
   17.37. [sct-fusion](https://git.tu-berlin.de/rsim/sct-fusion) -> code for 2023 [paper](https://arxiv.org/abs/2306.01523): Transformer-based Multi-Modal Learning for Multi Label Remote Sensing Image Classification
 
+  17.38. [RSI-MMSegmentation](https://github.com/EarthNets/RSI-MMSegmentation) -> code for paper: GAMUS: A Geometry-aware Multi-modal Semantic Segmentation Benchmark for Remote Sensing Data
 
 #
 ## 18. Generative Adversarial Networks (GANs)
