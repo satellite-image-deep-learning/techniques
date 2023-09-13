@@ -2047,6 +2047,11 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.122. [UNetLSTM](https://github.com/mpapadomanolaki/UNetLSTM) -> code for 2019 paper: Detecting Urban Changes With Recurrent Neural Networks From Multitemporal Sentinel-2 Data
 
+  8.123. [SDACD](https://github.com/Perfect-You/SDACD) -> An End-to-end Supervised Domain Adaptation Framework for Cross-domain Change Detection
+
+  8.124. [CycleGAN-Based-DA-for-CD](https://github.com/pjsoto/CycleGAN-Based-DA-for-CD) -> CycleGAN-based Domain Adaptation for Deforestation Detection
+
+
 #
 ## 9. Time series
 
@@ -2669,6 +2674,8 @@ Data fusion is a technique for combining information from different sources such
   17.37. [sct-fusion](https://git.tu-berlin.de/rsim/sct-fusion) -> code for 2023 [paper](https://arxiv.org/abs/2306.01523): Transformer-based Multi-Modal Learning for Multi Label Remote Sensing Image Classification
 
   17.38. [RSI-MMSegmentation](https://github.com/EarthNets/RSI-MMSegmentation) -> code for paper: GAMUS: A Geometry-aware Multi-modal Semantic Segmentation Benchmark for Remote Sensing Data
+
+  17.39. [dfc2022-baseline](https://github.com/isaaccorley/dfc2022-baseline) -> baseline solution to the 2022 IEEE GRSS Data Fusion Contest (DFC2022) using TorchGeo, PyTorch Lightning, and Segmentation Models PyTorch to train a U-Net with a ResNet-18 backbone and a loss function of Focal + Dice loss to perform semantic segmentation on the DFC2022 dataset
 
 #
 ## 18. Generative Adversarial Networks (GANs)
