@@ -2045,6 +2045,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.121. [urban_change_detection](https://github.com/SebastianHafner/urban_change_detection) -> code for 2019 paper: Detecting Urban Changes With Recurrent Neural Networks From Multitemporal Sentinel-2 Data. [fabric](https://github.com/granularai/fabric) is another implementation
 
+  8.122. [UNetLSTM](https://github.com/mpapadomanolaki/UNetLSTM) -> code for 2019 paper: Detecting Urban Changes With Recurrent Neural Networks From Multitemporal Sentinel-2 Data
+
 #
 ## 9. Time series
 
@@ -3209,6 +3211,8 @@ Image registration is the process of registering one or more images onto another
   31.36. [OSMNet](https://github.com/zhanghan9718/OSMNet) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9609993): Explore Better Network Framework for High-Resolution Optical and SAR Image Matching
 
   31.37. [L2_Siamese](https://github.com/TheKiteFlier/L2_Siamese) -> code for the 2020 [paper](https://ieeexplore.ieee.org/document/9264687): Registration of Multiresolution Remote Sensing Images Based on L2-Siamese Model
+
+  31.38. [Multi-Step-Deformable-Registration](https://github.com/mpapadomanolaki/Multi-Step-Deformable-Registration) -> code for 2021 paper: Unsupervised Multi-Step Deformable Registration of Remote Sensing Imagery based on Deep Learning
 
 
 #
