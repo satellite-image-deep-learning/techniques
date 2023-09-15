@@ -2051,6 +2051,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.124. [CycleGAN-Based-DA-for-CD](https://github.com/pjsoto/CycleGAN-Based-DA-for-CD) -> CycleGAN-based Domain Adaptation for Deforestation Detection
 
+  8.125. [CGNet-CD](https://github.com/ChengxiHAN/CGNet-CD) -> code for 2023 paper: Change Guiding Network: Incorporating Change Prior to Guide Change Detection in Remote Sensing Imagery
 
 #
 ## 9. Time series
