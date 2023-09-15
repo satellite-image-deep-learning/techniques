@@ -445,6 +445,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
   2.2.56. [cvpr-multiearth-deforestation-segmentation](https://github.com/h2oai/cvpr-multiearth-deforestation-segmentation) -> multimodal Unet entry to the CVPR Multiearth 2023 deforestation challenge
 
+  2.2.57. [supervised-wheat-classification-using-pytorchs-torchgeo](https://medium.com/@sulemanhamdani10/supervised-wheat-classification-using-pytorchs-torchgeo-combining-satellite-imagery-and-python-fc7f95c82e) -> Article: supervised wheat classification using torchgeo `BEGINNER`
+
 
 ### 2.3. Segmentation - Water, coastlines & floods
 
@@ -1386,6 +1388,8 @@ Detecting the most noticeable or important object in a scene
 
   4.6.37. [xView3-The-First-Place-Solution](https://github.com/BloodAxe/xView3-The-First-Place-Solution) - A winning solution for [xView 3](https://iuu.xview.us/) challenge (Vessel detection, classification and length estimation on Sentinetl-1 images). Contains trained models, inference pipeline and training code & configs to reproduce the results.
 
+  4.6.38. [vessel-detection-viirs](https://github.com/allenai/vessel-detection-viirs) -> Model and service code for streaming vessel detections from VIIRS satellite imagery
+
 ### 4.7. Object detection - Cars, vehicles & trains
 
   4.7.1. [Detection of parkinglots and driveways with retinanet](https://github.com/spiyer99/retinanet) `BEGINNER`
@@ -1613,6 +1617,8 @@ A variety of techniques can be used to count animals, including object detection
   4.12.52. [FSANet](https://github.com/Lausen-Ng/FSANet) -> code for 2022 paper: FSANet: Feature-and-Spatial-Aligned Network for Tiny Object Detection in Remote Sensing Images
 
   4.12.53. [OAN](https://github.com/Ranchosky/OAN) code for paper: Fewer is More: Efficient Object Detection in Large Aerial Images, based on MMdetection
+
+  4.12.54. [DOTA-C](https://github.com/hehaodong530/DOTA-C) -> evaluating the robustness of object detection models to 19 types of image quality degradation
 
 
 ## 5. Object counting
@@ -2053,6 +2059,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.125. [CGNet-CD](https://github.com/ChengxiHAN/CGNet-CD) -> code for 2023 paper: Change Guiding Network: Incorporating Change Prior to Guide Change Detection in Remote Sensing Imagery
 
+  8.126. [PA-Former](https://github.com/liumency/PA-Former) -> code for 2022 paper: PA-Former: Learning Prior-Aware Transformer for Remote Sensing Building Change Detection
+
 #
 ## 9. Time series
 
@@ -2340,7 +2348,7 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.1.15. [PROBA-V-Super-Resolution](https://github.com/spicy-mama/PROBA-V-Super-Resolution) -> solution using a custom deep learning architecture
 
-
+  14.1.16. [satlas-super-resolution](https://github.com/allenai/satlas-super-resolution) -> Satlas Super Resolution: model is an adaptation of ESRGAN, with changes that allow the input to be a time series of Sentinel-2 images.
 
 ### 14.2. Single image super-resolution (SISR)
 
@@ -2587,6 +2595,8 @@ Image-to-image translation is a crucial aspect of computer vision that utilizes 
   16.15. [sat_to_map](https://github.com/shagunuppal/sat_to_map) -> Learning mappings to generate city maps images from corresponding satellite images
 
   16.16. [pix2pix-GANs](https://github.com/shashi7679/pix2pix-GANs) -> Generate Map using Satellite Image & PyTorch
+
+  16.17. [map-sat](https://github.com/miquel-espinosa/map-sat) -> code for 2023 paper: Generate Your Own Scotland: Satellite Image Generation Conditioned on Maps
 
 
 #
@@ -2940,6 +2950,8 @@ This is a class of techniques which attempt to make predictions for classes with
   24.12. [S3Net](https://github.com/ZhaohuiXue/S3Net) -> code for 2022 paper: S3Net: Spectral–Spatial Siamese Network for Few-Shot Hyperspectral Image Classification
 
   24.13. [SiameseNet-for-few-shot-Hyperspectral-Classification](https://github.com/jjwwczy/jjwwczy-SiameseNet-for-few-shot-Hyperspectral-Classification) -> code for 2020 paper: 3DCSN:SiameseNet-for-few-shot-Hyperspectral-Classification
+
+  24.14. [MESSL](https://github.com/OMEGAFSL/MESSL) -> code for paper: Multiform Ensemble Self-Supervised Learning for Few-Shot Remote Sensing Scene Classification
 
 #
 ## 25. Self-supervised, unsupervised & contrastive learning
@@ -3474,6 +3486,8 @@ Image quality describes the degree of accuracy with which an image can represent
   36.16. [iquaflow](https://github.com/satellogic/iquaflow) -> from Satellogic, an image quality framework that aims at providing a set of tools to assess image quality by using the performance of AI models trained on the images as a proxy.
 
   36.17. [lvrnet](https://github.com/Achleshwar/lvrnet) -> Lightweight Image Restoration for Aerial Images under Low Visibility
+
+  36.18. [DOTA-C](https://github.com/hehaodong530/DOTA-C) -> evaluating the robustness of object detection models to 19 types of image quality degradation
 
 #
 ## 37. Synthetic data
