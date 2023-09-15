@@ -1390,6 +1390,8 @@ Detecting the most noticeable or important object in a scene
 
   4.6.38. [vessel-detection-viirs](https://github.com/allenai/vessel-detection-viirs) -> Model and service code for streaming vessel detections from VIIRS satellite imagery
 
+  4.6.39. [anomaly-detection-in-SAR-imagery](https://github.com/iamyadavabhishek/anomaly-detection-in-SAR-imagery) -> identify an unknown ship in docks using keras & retinanet
+
 ### 4.7. Object detection - Cars, vehicles & trains
 
   4.7.1. [Detection of parkinglots and driveways with retinanet](https://github.com/spiyer99/retinanet) `BEGINNER`
@@ -3376,7 +3378,7 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
   34.21. [SAR_CD_MS_CapsNet](https://github.com/summitgao/SAR_CD_MS_CapsNet) -> Code for the paper "Change Detection in SAR Images Based on Multiscale Capsule Network" IEEE GRSL 2021
 
-  34.22. [anomaly-detection-in-SAR-imagery](https://github.com/iamyadavabhishek/anomaly-detection-in-SAR-imagery) -> identify an unknown ship in docks using keras &  retinanet
+  34.22 Toushka Waterbodies Segmentation from four different combinations of Sentinel-1 SAR imagery and Digital Elevation Model with Pytorch and U-net. -> [code](https://github.com/MuhammedM294/waterseg)
 
   34.23. [sar_transformer](https://github.com/malshaV/sar_transformer) -> Transformer based SAR image despeckling, trained with synthetic imagery, with [paper](https://arxiv.org/abs/2201.09355)
 
@@ -3423,9 +3425,6 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
   34.44. [XAI4SAR-PGIL](https://github.com/Alien9427/XAI4SAR-PGIL) -> code for 2021 [paper](https://arxiv.org/abs/2110.14144): Physically Explainable CNN for SAR Image Classification
 
   34.45. [PolSARFormer](https://github.com/aj1365/PolSARFormer) -> code for 2023 [paper](https://ieeexplore.ieee.org/document/10024822): Local Window Attention Transformer for Polarimetric SAR Image Classification
-
-  34.46 Toushka Waterbodies Segmentation from four different combinations of Sentinel-1 SAR imagery and Digital Elevation Model with Pytorch and U-net. -> [code](https://github.com/MuhammedM294/waterseg)
-
 
 #
 ## 35. NDVI - vegetation index
