@@ -1239,6 +1239,8 @@ Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For d
 
   4.2.51. [h2rbox-mmrotate](https://github.com/yangxue0827/h2rbox-mmrotate) -> code for 2022 paper: H2RBox: Horizontal Box Annotation is All You Need for Oriented Object Detection
 
+  4.2.52. [Spatial-Transform-Decoupling](https://github.com/yuhongtian17/Spatial-Transform-Decoupling) -> code for 2023 paper: Spatial Transform Decoupling for Oriented Object Detection
+
 ### 4.3. Object detection enhanced by super resolution
 
   4.3.1. [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
