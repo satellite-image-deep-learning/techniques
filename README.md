@@ -510,8 +510,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
   2.3.30. [Flood-Mapping-Using-Satellite-Images](https://github.com/KonstantinosF/Flood-Mapping-Using-Satellite-Images) -> masters thesis comparing Random Forest & Unet
 
-  
-
 ### 2.4. Segmentation - Fire, smoke & burn areas
 
   2.4.1. [SatelliteVu-AWS-Disaster-Response-Hackathon](https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon) -> fire spread prediction using classical ML & deep learning `BEGINNER`
@@ -537,6 +535,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
   2.4.11. [burned-area-baseline](https://github.com/lccol/burned-area-baseline) -> baseline unet model accompanying the Satellite Burned Area Dataset (Sentinel 1 & 2)
 
   2.4.12. [burned-area-seg](https://github.com/links-ads/burned-area-seg) -> Burned area segmentation from Sentinel-2 using multi-task learning
+
+  2.4.13. [chabud2023](https://github.com/developmentseed/chabud2023) -> Change detection for Burned area Delineation (ChaBuD) ECML/PKDD 2023 challenge
  
 
 ### 2.5.  Segmentation - Landslides
@@ -2954,6 +2954,8 @@ This is a class of techniques which attempt to make predictions for classes with
   24.13. [SiameseNet-for-few-shot-Hyperspectral-Classification](https://github.com/jjwwczy/jjwwczy-SiameseNet-for-few-shot-Hyperspectral-Classification) -> code for 2020 paper: 3DCSN:SiameseNet-for-few-shot-Hyperspectral-Classification
 
   24.14. [MESSL](https://github.com/OMEGAFSL/MESSL) -> code for paper: Multiform Ensemble Self-Supervised Learning for Few-Shot Remote Sensing Scene Classification
+
+  24.15. [SCCNet](https://github.com/linhanwang/SCCNet) -> code for 2023 paper: Self-Correlation and Cross-Correlation Learning for Few-Shot Remote Sensing Image Semantic Segmentation
 
 #
 ## 25. Self-supervised, unsupervised & contrastive learning
