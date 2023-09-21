@@ -539,6 +539,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
   2.4.12. [burned-area-seg](https://github.com/links-ads/burned-area-seg) -> Burned area segmentation from Sentinel-2 using multi-task learning
 
   2.4.13. [chabud2023](https://github.com/developmentseed/chabud2023) -> Change detection for Burned area Delineation (ChaBuD) ECML/PKDD 2023 challenge
+
+  2.4.14. [Post Wildfire Burnt-up Detection using Siamese-UNet](https://github.com/kavyagupta/chabud) -> on Chadbud dataset
  
 
 ### 2.5.  Segmentation - Landslides
@@ -588,6 +590,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
   2.7.8. [WeatherFusionNet](https://github.com/Datalab-FIT-CTU/weather4cast-2022) -> code for [paper](https://arxiv.org/abs/2211.16824): WeatherFusionNet: Predicting Precipitation from Satellite Data. weather4cast-2022 1st place solution
   
   2.7.9. [marinedebrisdetector](https://github.com/MarcCoru/marinedebrisdetector) -> code for paper: Large-scale Detection of Marine Debris in Coastal Areas with Sentinel-2
+
+  2.7.10. [kaggle-identify-contrails-4th](https://github.com/selimsef/kaggle-identify-contrails-4th) -> 4th place Solution, Google Research - Identify Contrails to Reduce Global Warming
  
 
 ### 2.8. Segmentation - Roads
@@ -1287,6 +1291,8 @@ Detecting the most noticeable or important object in a scene
   4.4.13. [GPnet](https://github.com/liuyu1002/GPnet) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9687549): Global Perception Network for Salient Object Detection in Remote Sensing Images
 
   4.4.14. [SeaNet](https://github.com/MathLee/SeaNet) -> code for 2023 [paper](https://arxiv.org/abs/2301.02778): Lightweight Salient Object Detection in Optical Remote Sensing Images via Semantic Matching and Edge Alignment
+
+  4.4.15. [GeleNet](https://github.com/MathLee/GeleNet) -> code for 2023 paper: Salient Object Detection in Optical Remote Sensing Images Driven by Transformer
 
 ### 4.5. Object detection - Buildings, rooftops & solar panels
 
@@ -2067,6 +2073,10 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.126. [PA-Former](https://github.com/liumency/PA-Former) -> code for 2022 paper: PA-Former: Learning Prior-Aware Transformer for Remote Sensing Building Change Detection
 
+  8.127. [AERNet](https://github.com/zjd1836/AERNet) -> code for 2023 paper: AERNet: An Attention-Guided Edge Refinement Network and a Dataset for Remote Sensing Building Change Detection (HRCUS-CD)
+
+  8.128. [S1GFlood-Detection](https://github.com/Tamer-Saleh/S1GFlood-Detection) -> code for 2023 paper: DAM-Net: Global Flood Detection from SAR Imagery Using Differential Attention Metric-Based Vision Transformers. Includes S1GFloods dataset
+
 #
 ## 9. Time series
 
@@ -2148,6 +2158,8 @@ Crop classification in remote sensing is the identification and mapping of diffe
   10.10. [in-season-and-dynamic-crop-mapping](https://gitlab.com/artelabsuper/in-season-and-dynamic-crop-mapping) -> code for 2023 paper: In-season and dynamic crop mapping using 3D convolution neural networks and sentinel-2 time series, uses the Lombardy crop dataset
 
   10.11. [MultiviewCropClassification](https://github.com/fmenat/MultiviewCropClassification) -> code for 2023 paper: A COMPARATIVE ASSESSMENT OF MULTI-VIEW FUSION LEARNING FOR CROP CLASSIFICATION
+
+  10.12. [Detection of manure application on crop fields leveraging satellite data and Machine Learning](https://github.com/Amatofrancesco99/master-thesis)
 
 #
 ## 11. Crop yield
@@ -2882,7 +2894,7 @@ Image Captioning is the task of automatically generating a textual description o
 
   21.1. [awesome-remote-image-captioning](https://github.com/iOPENCap/awesome-remote-image-captioning) -> a list of awesome remote sensing image captioning resources
 
-  21.2. [Fine tuning CLIP with Remote Sensing (Satellite) images and captions](https://huggingface.co/blog/fine-tune-clip-rsicd) -> fine tuning CLIP on the [RSICD](https://github.com/201528014227051/RSICD_optimal) image captioning dataset, to enable querying large catalogues in natural language. With [repo](https://github.com/arampacha/CLIP-rsicd), uses 🤗
+  21.2. [Fine tuning CLIP with Remote Sensing (Satellite) images and captions](https://huggingface.co/blog/fine-tune-clip-rsicd) -> fine tuning CLIP on the [RSICD](https://github.com/201528014227051/RSICD_optimal) image captioning dataset, to enable querying large catalogues in natural language. With [repo](https://github.com/arampacha/CLIP-rsicd), uses 🤗. Also read [Why and How to Fine-tune CLIP](https://dienhoa.github.io/dhblog/posts/finetune_clip.html)
 
   21.3. [CapFormer](https://github.com/Junjue-Wang/CapFormer) -> Pure transformer for remote sensing image caption
 
