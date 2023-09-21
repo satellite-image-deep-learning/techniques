@@ -2436,6 +2436,9 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.2.40. [CDCR](https://github.com/Suanmd/CDCR) -> code for 2023 paper: Combining Discrete and Continuous Representation: Scale-Arbitrary Super-Resolution for Satellite Images
 
+  14.2.41. [FunSR](https://github.com/KyanChen/FunSR) -> code for 2023 paper: Continuous Remote Sensing Image Super-Resolution based on Context Interaction in Implicit Function Space
+
+
 ### 14.3. Super-resolution - Miscellaneous
 
   14.3.1. [The value of super resolution — real world use case](https://medium.com/sentinel-hub/the-value-of-super-resolution-real-world-use-case-2ba811f4cd7f) -> Medium article on parcel boundary detection with super-resolved satellite imagery
@@ -2479,6 +2482,7 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
   14.3.20. [GAN-HSI-SR](https://github.com/ZhuangChen25674/GAN-HSI-SR) -> code for 2020 paper: Hyperspectral Image Super-Resolution by Band Attention Through Adversarial Learning
 
   14.3.21. [Restoring old aerial images with Deep Learning](https://towardsdatascience.com/restoring-old-aerial-images-with-deep-learning-60f0cfd2658) -> Medium article Super Resolution with Perceptual Loss function and real images as input
+
 
 #
 ## 15. Pansharpening
