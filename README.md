@@ -239,6 +239,8 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
    1.75. [Estimating coal power plant operation from satellite images with computer vision](https://transitionzero.medium.com/estimating-coal-power-plant-operation-from-satellite-images-with-computer-vision-b966af56919e) -> use Sentinel 2 data to identify if a coal power plant is on or off, with dataset and repo
 
+   1.76. [Building-detection-and-roof-type-recognition](https://github.com/loosgagnet/Building-detection-and-roof-type-recognition) -> A CNN-Based Approach for Automatic Building Detection and Recognition of Roof Types Using a Single Aerial Image
+
 # 
 ### 2. Segmentation
 
@@ -2437,6 +2439,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
   14.2.40. [CDCR](https://github.com/Suanmd/CDCR) -> code for 2023 paper: Combining Discrete and Continuous Representation: Scale-Arbitrary Super-Resolution for Satellite Images
 
   14.2.41. [FunSR](https://github.com/KyanChen/FunSR) -> code for 2023 paper: Continuous Remote Sensing Image Super-Resolution based on Context Interaction in Implicit Function Space
+
+  14.2.42. [HAUNet_RSISR](https://github.com/likakakaka/HAUNet_RSISR) -> code for 2023 paper: Hybrid Attention-Based U-Shaped Network for Remote Sensing Image Super-Resolution
 
 
 ### 14.3. Super-resolution - Miscellaneous
