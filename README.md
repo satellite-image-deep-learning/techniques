@@ -449,6 +449,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
   2.2.57. [supervised-wheat-classification-using-pytorchs-torchgeo](https://medium.com/@sulemanhamdani10/supervised-wheat-classification-using-pytorchs-torchgeo-combining-satellite-imagery-and-python-fc7f95c82e) -> Article: supervised wheat classification using torchgeo `BEGINNER`
 
+  2.2.58. [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> code for 2023 paper: TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping. Uses the Amazon and Atlantic forest dataset
+
 
 ### 2.3. Segmentation - Water, coastlines & floods
 
@@ -2033,7 +2035,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.106. [Graph-based methods for change detection in remote sensing images](https://github.com/jfflorez/Graph-based-methods-for-change-detection-in-remote-sensing-images) -> code for paper: Graph Learning Based on Signal Smoothness Representation for Homogeneous and Heterogeneous Change Detection
   
-  8.107. [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> code for 2023 paper: TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping
+  8.107. [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> code for 2023 paper: TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping. Uses the Amazon and Atlantic forest dataset
 
   8.108. [AR-CDNet](https://github.com/guanyuezhen/AR-CDNet) -> code for 2023 paper: Towards Accurate and Reliable Change Detection of Remote Sensing Images via Knowledge Review and Online Uncertainty Estimation
 
