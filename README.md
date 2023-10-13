@@ -3221,7 +3221,7 @@ Image registration is the process of registering one or more images onto another
 
   31.15. [Reprojecting the Perseverance landing footage onto satellite imagery](https://matthewearl.github.io/2021/03/06/mars2020-reproject/)
 
-  31.16. Kornia provides [image registration](https://kornia-tutorials.readthedocs.io/en/latest/_nbs/image_registration.html)
+  31.16. Kornia provides [image registration](https://kornia.readthedocs.io/en/latest/applications/image_registration.html)
 
   31.17. [LoFTR](https://github.com/zju3dv/LoFTR) -> Detector-Free Local Feature Matching with Transformers. Good performance matching satellite image pairs, tryout the web demo on your data
 
