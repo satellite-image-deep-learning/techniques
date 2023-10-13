@@ -64,7 +64,7 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
  1. [Image Captioning](https://github.com/satellite-image-deep-learning/techniques#21-image-captioning)
  1. [Visual Question Answering](https://github.com/satellite-image-deep-learning/techniques#22-visual-question-answering)
  1. [Mixed data learning](https://github.com/satellite-image-deep-learning/techniques#23-mixed-data-learning)
- 1. [Few-shot learning](https://github.com/satellite-image-deep-learning/techniques#24-few-shot-learning)
+ 1. [Few & zero shot learning](https://github.com/satellite-image-deep-learning/techniques#24-few-shot-learning)
  1. [Self-supervised, unsupervised & contrastive learning](https://github.com/satellite-image-deep-learning/techniques#25-self-supervised-unsupervised--contrastive-learning)
  1. [Weakly & semi-supervised learning](https://github.com/satellite-image-deep-learning/techniques#26-weakly--semi-supervised-learning)
  1. [Active learning](https://github.com/satellite-image-deep-learning/techniques#27-active-learning)
@@ -2945,7 +2945,7 @@ Mixed data learning is the process of learning from datasets that may contain an
   23.8. [Sub-meter resolution canopy height map by Meta](https://research.facebook.com/blog/2023/4/every-tree-counts-large-scale-mapping-of-canopy-height-at-the-resolution-of-individual-trees/) -> Satellite Metadata combined with outputs from simple CNN to regress canopy height
 
 #
-## 24. Few-shot learning
+## 24. Few & zero shot learning
 This is a class of techniques which attempt to make predictions for classes with few, one or even zero examples provided during training. In zero shot learning (ZSL) the model is assisted by the provision of auxiliary information which typically consists of descriptions/semantic attributes/word embeddings for both the seen and unseen classes at train time ([ref](https://learnopencv.com/zero-shot-learning-an-introduction/)). These approaches are particularly relevant to remote sensing, where there may be many examples of common classes, but few or even zero examples for other classes of interest.
 
   24.1. [Unseen Land Cover Classification from High-Resolution Orthophotos Using Integration of Zero-Shot Learning and Convolutional Neural Networks](https://www.mdpi.com/2072-4292/12/10/1676)
