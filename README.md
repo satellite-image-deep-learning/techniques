@@ -11,6 +11,7 @@
 </div>
 
 ## Introduction
+
 Deep learning has transformed the way satellite and aerial images are analyzed and interpreted. These images pose unique challenges, such as large sizes and diverse object classes, which offer opportunities for deep learning researchers. This repository offers a comprehensive overview of various deep learning techniques for analyzing satellite and aerial imagery, including architectures, models, and algorithms for tasks such as classification, segmentation, and object detection. It serves as a valuable resource for researchers, practitioners, and anyone interested in the latest advances in deep learning and its impact on computer vision and remote sensing. This repository is proudly sponsored by Orboculum
 
 #
@@ -39,6 +40,7 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
 **How to use this repository:** if you know exactly what you are looking for (e.g. you have the paper name) you can `Control+F` to search for it in this page. **Note** `BEGINNER` is used to identify material that is suitable for begginers & getting started with a topic
 
 ## Techniques
+
  1. [Classification](https://github.com/satellite-image-deep-learning/techniques#1-classification)
  1. [Segmentation](https://github.com/satellite-image-deep-learning/techniques#2-segmentation)
  1. [Instance segmentation](https://github.com/satellite-image-deep-learning/techniques#3-instance-segmentation)
@@ -331,8 +333,8 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
   2.1.38. [M3SPADA](https://github.com/ecapliez/M3SPADA) -> code for 2023 paper: Multi-Sensor Temporal Unsupervised Domain Adaptation for Land Cover Mapping with spatial pseudo labelling and adversarial learning
 
-
 ### 2.2. Segmentation - Vegetation, deforestation, crops & crop boundaries
+
 Note that deforestation detection may be treated as a segmentation task or a change detection task
 
   2.2.1. [Сrор field boundary detection: approaches and main challenges](https://medium.com/geekculture/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-and-main-challenges-46e37dd276bc) -> Medium article, covering historical and modern approaches `BEGINNER`
@@ -451,7 +453,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
   2.2.58. [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> code for 2023 paper: TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping. Uses the Amazon and Atlantic forest dataset
 
-
 ### 2.3. Segmentation - Water, coastlines & floods
 
   2.3.1. [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces `BEGINNER`
@@ -543,7 +544,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
   2.4.13. [chabud2023](https://github.com/developmentseed/chabud2023) -> Change detection for Burned area Delineation (ChaBuD) ECML/PKDD 2023 challenge
 
   2.4.14. [Post Wildfire Burnt-up Detection using Siamese-UNet](https://github.com/kavyagupta/chabud) -> on Chadbud dataset
- 
 
 ### 2.5.  Segmentation - Landslides
 
@@ -559,7 +559,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
   2.5.6. [landslide-sar-unet](https://github.com/iprapas/landslide-sar-unet) -> code for 2022 [paper](https://arxiv.org/abs/2211.02869): Deep Learning for Rapid Landslide Detection using Synthetic Aperture Radar (SAR) Datacubes
 
- 
 ### 2.6. Segmentation - Glaciers
 
   2.6.1. [HED-UNet](https://github.com/khdlr/HED-UNet) -> a model for simultaneous semantic segmentation and edge detection, examples provided are glacier fronts and building footprints using the Inria Aerial Image Labeling dataset
@@ -572,7 +571,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
   2.6.5. [Antarctic-fracture-detection](https://github.com/chingyaolai/Antarctic-fracture-detection) -> uses UNet with the MODIS Mosaic of Antarctica to detect surface fractures ([paper](https://www.nature.com/articles/s41586-020-2627-8#code-availability))
 
-  
 ### 2.7. Segmentation - Other environmental
 
   2.7.1. [Detection of Open Landfills](https://github.com/dymaxionlabs/basurales) -> uses Sentinel-2 to detect large changes in the Normalized Burn Ratio (NBR)
@@ -594,7 +592,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
   2.7.9. [marinedebrisdetector](https://github.com/MarcCoru/marinedebrisdetector) -> code for paper: Large-scale Detection of Marine Debris in Coastal Areas with Sentinel-2
 
   2.7.10. [kaggle-identify-contrails-4th](https://github.com/selimsef/kaggle-identify-contrails-4th) -> 4th place Solution, Google Research - Identify Contrails to Reduce Global Warming
- 
 
 ### 2.8. Segmentation - Roads
 Extracting roads is challenging due to the occlusions caused by other objects and the complex traffic environment
@@ -858,7 +855,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
   2.9.84. [Thesis_Semantic_Image_Segmentation_on_Satellite_Imagery_using_UNets](https://github.com/rinkwitz/Thesis_Semantic_Image_Segmentation_on_Satellite_Imagery_using_UNets) -> This master thesis aims to perform semantic segmentation of buildings on satellite images from the SpaceNet challenge 1 dataset using the U-Net architecture
 
-
 ### 2.10. Segmentation - Solar panels
 
   2.10.1. [DeepSolar](https://github.com/wangzhecheng/DeepSolar) -> A Machine Learning Framework to Efficiently Construct a Solar Deployment Database in the United States. [Dataset on kaggle](https://www.kaggle.com/tunguz/deep-solar-dataset), actually used a CNN for classification and segmentation is obtained by applying a threshold to the activation map. Original code is tf1 but [tf2/kers](https://github.com/aidan-fitz/deepsolar-v2) and a [pytorch implementation](https://github.com/wangzhecheng/deepsolar_pytorch) are available. Also checkout [Visualizations and in-depth analysis .. of the factors that can explain the adoption of solar energy in ..  Virginia](https://github.com/bessammehenni/DeepSolar_adoption_Virginia) and [DeepSolar tracker: towards unsupervised assessment with open-source data of the accuracy of deep learning-based distributed PV mapping](https://github.com/gabrielkasmi/dsfrance)
@@ -905,7 +901,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
   2.10.22. [Solar_UNet](https://github.com/mjevans26/Solar_UNet) -> U-Net models delineating solar arrays in Sentinel-2 imagery
 
-
 ### 2.11. Segmentation - Other manmade
 
   2.11.1. [Aarsh2001/ML_Challenge_NRSC](https://github.com/Aarsh2001/ML_Challenge_NRSC) -> Electrical Substation detection
@@ -922,7 +917,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
   2.11.7. [EG-UNet](https://github.com/tist0bsc/EG-UNet) code for 2023 paper: Deep Feature Enhancement Method for Land Cover With Irregular and Sparse Spatial Distribution Features: A Case Study on Open-Pit Mining
 
-
 ### 2.12. Panoptic segmentation
 
   2.12.1. [Things and stuff or how remote sensing could benefit from panoptic segmentation](https://softwaremill.com/things-and-stuff-or-how-remote-sensing-could-benefit-from-panoptic-segmentation/)
@@ -936,7 +930,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
   2.12.5. [BSB-Aerial-Dataset](https://github.com/osmarluiz/BSB-Aerial-Dataset) -> an example on how to use Detectron2's Panoptic-FPN in the BSB Aerial Dataset
 
   2.12.6. [utae-paps](https://github.com/VSainteuf/utae-paps) -> PyTorch implementation of U-TAE and PaPs for satellite image time series panoptic segmentation
-
 
 ### 2.13. Segmentation - Miscellaneous
 
@@ -1079,8 +1072,11 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
   2.13.69. [HR-Image-classification_SDF2N](https://github.com/SicongLiuRS/HR-Image-classification_SDF2N) -> code for 2023 paper: A Shallow-to-Deep Feature Fusion Network for VHR Remote Sensing Image Classification
 
+  2.13.70. [TDD](https://github.com/Jingtao-Li-CVer/TDD) -> code for 2023 paper: One-Step Detection Paradigm for Hyperspectral Anomaly Detection via Spectral Deviation Relationship Learning
 
+#
 ## 3. Instance segmentation
+
 In instance segmentation, each individual 'instance' of a segmented area is given a unique lable. For detection of very small objects this may a good approach, but it can struggle seperating individual objects that are closely spaced.
 
   3.1. [Mask_RCNN](https://github.com/matterport/Mask_RCNN) generates bounding boxes and segmentation masks for each instance of an object in the image. It is very commonly used for instance segmentation & object detection
@@ -1127,7 +1123,6 @@ In instance segmentation, each individual 'instance' of a segmented area is give
 Object detection in remote sensing involves locating and surrounding objects of interest with bounding boxes. Due to the large size of remote sensing images and the fact that objects may only comprise a few pixels, object detection can be challenging in this context. The imbalance between the area of the objects to be detected and the background, combined with the potential for objects to be easily confused with random features in the background, further complicates the task. Object detection generally performs better on larger objects, but becomes increasingly difficult as the objects become smaller and more densely packed. The accuracy of object detection models can also degrade rapidly as image resolution decreases, which is why it is common to use high resolution imagery, such as 30cm RGB, for object detection in remote sensing. A unique characteristic of aerial images is that objects can be oriented in any direction. To effectively extract measurements of the length and width of an object, it can be crucial to use rotated bounding boxes that align with the orientation of the object. This approach enables more accurate and meaningful analysis of the objects within the image. [Image source](https://www.mdpi.com/2072-4292/13/21/4291)
 
 ### 4.1. Object tracking in videos
-
   4.1.1. [Object Tracking in Satellite Videos Based on a Multi-Frame Optical Flow Tracker](https://arxiv.org/abs/1804.09323) arxiv paper
 
   4.1.2. [CFME](https://github.com/SY-Xuan/CFME) -> Object Tracking in Satellite Videos by Improved Correlation Filters With Motion Estimations
@@ -1250,7 +1245,6 @@ Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For d
   4.2.52. [Spatial-Transform-Decoupling](https://github.com/yuhongtian17/Spatial-Transform-Decoupling) -> code for 2023 paper: Spatial Transform Decoupling for Oriented Object Detection
 
 ### 4.3. Object detection enhanced by super resolution
-
   4.3.1. [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
 
   4.3.2. [EESRGAN](https://github.com/Jakaria08/EESRGAN) -> Small-Object Detection in Remote Sensing Images with End-to-End Edge-Enhanced GAN and Object Detector Network
@@ -1633,7 +1627,6 @@ A variety of techniques can be used to count animals, including object detection
   4.12.53. [OAN](https://github.com/Ranchosky/OAN) code for paper: Fewer is More: Efficient Object Detection in Large Aerial Images, based on MMdetection
 
   4.12.54. [DOTA-C](https://github.com/hehaodong530/DOTA-C) -> evaluating the robustness of object detection models to 19 types of image quality degradation
-
 
 ## 5. Object counting
 When the object count, but not its shape is required, U-net can be used to treat this as an image-to-image translation problem.
@@ -2206,7 +2199,6 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
   11.16. [Yield-Prediction-DNN](https://github.com/saeedkhaki92/Yield-Prediction-DNN) -> code for paper: Crop Yield Prediction Using Deep Neural Networks
 
-
 #
 ## 12. Wealth and economic activity
 
@@ -2322,7 +2314,6 @@ Remote sensing images are used in disaster response to identify and assess damag
   13.23. [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> code for 2022 paper: MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
 
   13.24. [DAHiTra](https://github.com/nka77/DAHiTra) -> code for 2022 [paper](https://arxiv.org/abs/2208.02205): Large-scale Building Damage Assessment using a Novel Hierarchical Transformer Architecture on Satellite Images. Uses xView2 xBD dataset
-
 
 #
 ## 14. Super-resolution
@@ -2456,7 +2447,6 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.2.42. [HAUNet_RSISR](https://github.com/likakakaka/HAUNet_RSISR) -> code for 2023 paper: Hybrid Attention-Based U-Shaped Network for Remote Sensing Image Super-Resolution
 
-
 ### 14.3. Super-resolution - Miscellaneous
 
   14.3.1. [The value of super resolution — real world use case](https://medium.com/sentinel-hub/the-value-of-super-resolution-real-world-use-case-2ba811f4cd7f) -> Medium article on parcel boundary detection with super-resolved satellite imagery
@@ -2500,7 +2490,6 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
   14.3.20. [GAN-HSI-SR](https://github.com/ZhuangChen25674/GAN-HSI-SR) -> code for 2020 paper: Hyperspectral Image Super-Resolution by Band Attention Through Adversarial Learning
 
   14.3.21. [Restoring old aerial images with Deep Learning](https://towardsdatascience.com/restoring-old-aerial-images-with-deep-learning-60f0cfd2658) -> Medium article Super Resolution with Perceptual Loss function and real images as input
-
 
 #
 ## 15. Pansharpening
@@ -2623,7 +2612,6 @@ Image-to-image translation is a crucial aspect of computer vision that utilizes 
   16.16. [pix2pix-GANs](https://github.com/shashi7679/pix2pix-GANs) -> Generate Map using Satellite Image & PyTorch
 
   16.17. [map-sat](https://github.com/miquel-espinosa/map-sat) -> code for 2023 paper: Generate Your Own Scotland: Satellite Image Generation Conditioned on Maps
-
 
 #
 ## 17. Data fusion
@@ -2767,7 +2755,6 @@ Generative Adversarial Networks (GANs) are a type of deep learning architecture 
 
   18.21. [Landsat8-Sentinel2-Fusion](https://github.com/Rohit18/Landsat8-Sentinel2-Fusion) -> Translating Landsat 8 to Sentinel-2 using a GAN
 
-
 #
 ## 19. Autoencoders, dimensionality reduction, image embeddings & similarity search
 
@@ -2850,7 +2837,6 @@ Autoencoders are a type of neural network that aim to simplify the representatio
   19.35. [Airbus_SDC_dup](https://github.com/WillieMaddox/Airbus_SDC_dup) -> Project focused on detecting duplicate regions of overlapping satellite imagery. Applied to Airbus ship detection dataset
 
   19.36. [scale-mae](https://github.com/bair-climate-initiative/scale-mae) -> code for 2022 [paper](https://arxiv.org/abs/2212.14532): Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning
-
 
 #
 ## 20. Image retrieval
@@ -3076,7 +3062,6 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 
   25.45. [MATTER](https://github.com/periakiva/MATTER) -> code for 2022 paper: Self-Supervised Material and Texture Representation Learning for Remote Sensing Tasks
 
-
 #
 ## 26. Weakly & semi-supervised learning
 Weakly & semi-supervised learning are two methods of machine learning that use both labeled and unlabeled data for training. Weakly supervised learning uses weakly labeled data, which may be incomplete or inaccurate, while semi-supervised learning uses both labeled and unlabeled data. Weakly supervised learning is typically used in situations where labeled data is scarce and unlabeled data is abundant. Semi-supervised learning is typically used in situations where labeled data is abundant but also contains some noise or errors. Both techniques can be used to improve the accuracy of machine learning models by making use of additional data sources.
@@ -3120,7 +3105,6 @@ Weakly & semi-supervised learning are two methods of machine learning that use b
   26.19. [Flood_Mapping_SSL](https://github.com/YJ-He/Flood_Mapping_SSL) -> code for 2022 paper: Enhancement of Urban Floodwater Mapping From Aerial Imagery With Dense Shadows via Semisupervised Learning
 
   26.20. [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> code for 2022 paper: MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
-
 
 #
 ## 27. Active learning
@@ -3261,7 +3245,6 @@ Image registration is the process of registering one or more images onto another
   31.37. [L2_Siamese](https://github.com/TheKiteFlier/L2_Siamese) -> code for the 2020 [paper](https://ieeexplore.ieee.org/document/9264687): Registration of Multiresolution Remote Sensing Images Based on L2-Siamese Model
 
   31.38. [Multi-Step-Deformable-Registration](https://github.com/mpapadomanolaki/Multi-Step-Deformable-Registration) -> code for 2021 paper: Unsupervised Multi-Step Deformable Registration of Remote Sensing Imagery based on Deep Learning
-
 
 #
 ## 32. Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF
