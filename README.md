@@ -2498,6 +2498,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.3.21. [Restoring old aerial images with Deep Learning](https://towardsdatascience.com/restoring-old-aerial-images-with-deep-learning-60f0cfd2658) -> Medium article Super Resolution with Perceptual Loss function and real images as input
 
+  14.3.22. [opensr-degradation](https://github.com/ESAOpenSR/opensr-degradation) -> Converting NAIP Imagery to Sentinel-2 Style
+
 #
 ## 15. Pansharpening
 
@@ -2889,7 +2891,7 @@ Image Captioning is the task of automatically generating a textual description o
 
   21.1. [awesome-remote-image-captioning](https://github.com/iOPENCap/awesome-remote-image-captioning) -> a list of awesome remote sensing image captioning resources
 
-  21.2. [Fine tuning CLIP with Remote Sensing (Satellite) images and captions](https://huggingface.co/blog/fine-tune-clip-rsicd) -> fine tuning CLIP on the [RSICD](https://github.com/201528014227051/RSICD_optimal) image captioning dataset, to enable querying large catalogues in natural language. With [repo](https://github.com/arampacha/CLIP-rsicd), uses 🤗. Also read [Why and How to Fine-tune CLIP](https://dienhoa.github.io/dhblog/posts/finetune_clip.html)
+  21.2. [awesome-vision-language-models-for-earth-observation](https://github.com/geoaigroup/awesome-vision-language-models-for-earth-observation)
 
   21.3. [CapFormer](https://github.com/Junjue-Wang/CapFormer) -> Pure transformer for remote sensing image caption
 
@@ -2910,6 +2912,8 @@ Image Captioning is the task of automatically generating a textual description o
   21.11. [Transformer-for-image-captioning](https://github.com/RicRicci22/Transformer-for-image-captioning) -> a transformer for image captioning, trained on the UCM dataset
 
   21.12. [remote-sensing-image-caption](https://github.com/TalentBoy2333/remote-sensing-image-caption) -> image classification and image caption by PyTorch
+
+  21.13. [Fine tuning CLIP with Remote Sensing (Satellite) images and captions](https://huggingface.co/blog/fine-tune-clip-rsicd) -> fine tuning CLIP on the [RSICD](https://github.com/201528014227051/RSICD_optimal) image captioning dataset, to enable querying large catalogues in natural language. With [repo](https://github.com/arampacha/CLIP-rsicd), uses 🤗. Also read [Why and How to Fine-tune CLIP](https://dienhoa.github.io/dhblog/posts/finetune_clip.html)
 
 # 
 ## 22. Visual Question Answering
