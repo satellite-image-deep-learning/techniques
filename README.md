@@ -64,21 +64,21 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
  1. [Image Captioning](https://github.com/satellite-image-deep-learning/techniques#21-image-captioning)
  1. [Visual Question Answering](https://github.com/satellite-image-deep-learning/techniques#22-visual-question-answering)
  1. [Mixed data learning](https://github.com/satellite-image-deep-learning/techniques#23-mixed-data-learning)
- 1. [Few & zero shot learning](https://github.com/satellite-image-deep-learning/techniques#24-few-shot-learning)
- 1. [Self-supervised, unsupervised & contrastive learning](https://github.com/satellite-image-deep-learning/techniques#25-self-supervised-unsupervised--contrastive-learning)
- 1. [Weakly & semi-supervised learning](https://github.com/satellite-image-deep-learning/techniques#26-weakly--semi-supervised-learning)
- 1. [Active learning](https://github.com/satellite-image-deep-learning/techniques#27-active-learning)
- 1. [Federated Learning](https://github.com/satellite-image-deep-learning/techniques#28-federated-learning)
- 1. [Transformers](https://github.com/satellite-image-deep-learning/techniques#29-transformers)
- 1. [Adversarial ML](https://github.com/satellite-image-deep-learning/techniques#30-adversarial-ml)
- 1. [Image registration](https://github.com/satellite-image-deep-learning/techniques#31-image-registration)
- 1. [Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF](https://github.com/satellite-image-deep-learning/techniques#32-terrain-mapping-disparity-estimation-lidar-dems--nerf)
- 1. [Thermal Infrared](https://github.com/satellite-image-deep-learning/techniques#33-thermal-infrared)
- 1. [SAR](https://github.com/satellite-image-deep-learning/techniques#34-sar)
- 1. [NDVI-Vegetation Index](https://github.com/satellite-image-deep-learning/techniques#35-ndvi---vegetation-index)
- 1. [General image quality](https://github.com/satellite-image-deep-learning/techniques#36-general-image-quality)
- 1. [Synthetic data](https://github.com/satellite-image-deep-learning/techniques#37-synthetic-data)
- 1. [ChatGPT and other language models (LLMs)](https://github.com/satellite-image-deep-learning/techniques#38-chatgpt-and-other-language-models-llms)
+ 2. [Few & zero shot learning](https://github.com/satellite-image-deep-learning/techniques#24-few--zero-shot-learning)
+ 3. [Self-supervised, unsupervised & contrastive learning](https://github.com/satellite-image-deep-learning/techniques#25-self-supervised-unsupervised--contrastive-learning)
+ 4. [Weakly & semi-supervised learning](https://github.com/satellite-image-deep-learning/techniques#26-weakly--semi-supervised-learning)
+ 5. [Active learning](https://github.com/satellite-image-deep-learning/techniques#27-active-learning)
+ 6. [Federated Learning](https://github.com/satellite-image-deep-learning/techniques#28-federated-learning)
+ 7. [Transformers](https://github.com/satellite-image-deep-learning/techniques#29-transformers)
+ 8. [Adversarial ML](https://github.com/satellite-image-deep-learning/techniques#30-adversarial-ml)
+ 9. [Image registration](https://github.com/satellite-image-deep-learning/techniques#31-image-registration)
+ 10. [Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF](https://github.com/satellite-image-deep-learning/techniques#32-terrain-mapping-disparity-estimation-lidar-dems--nerf)
+ 11. [Thermal Infrared](https://github.com/satellite-image-deep-learning/techniques#33-thermal-infrared)
+ 12. [SAR](https://github.com/satellite-image-deep-learning/techniques#34-sar)
+ 13. [NDVI-Vegetation Index](https://github.com/satellite-image-deep-learning/techniques#35-ndvi---vegetation-index)
+ 14. [General image quality](https://github.com/satellite-image-deep-learning/techniques#36-general-image-quality)
+ 15. [Synthetic data](https://github.com/satellite-image-deep-learning/techniques#37-synthetic-data)
+ 16. [ChatGPT and other language models (LLMs)](https://github.com/satellite-image-deep-learning/techniques#38-chatgpt-and-other-language-models-llms)
 
 #
 ### 1. Classification
@@ -2977,6 +2977,8 @@ This is a class of techniques which attempt to make predictions for classes with
   24.14. [MESSL](https://github.com/OMEGAFSL/MESSL) -> code for paper: Multiform Ensemble Self-Supervised Learning for Few-Shot Remote Sensing Scene Classification
 
   24.15. [SCCNet](https://github.com/linhanwang/SCCNet) -> code for 2023 paper: Self-Correlation and Cross-Correlation Learning for Few-Shot Remote Sensing Image Semantic Segmentation
+
+  24.16. [Aerial-SAM](https://github.com/geoaigroup/Aerial-SAM) -> code for 2023 paper: Zero-Shot Refinement of Buildings’ Segmentation Models using SAM
 
 #
 ## 25. Self-supervised, unsupervised & contrastive learning
