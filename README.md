@@ -2126,7 +2126,9 @@ The analysis of time series observations in remote sensing data has numerous app
 
   9.18. [DeepSatModels](https://github.com/michaeltrs/DeepSatModels) -> code for the 2023 [paper](https://arxiv.org/abs/2301.04944): ViTs for SITS: Vision Transformers for Satellite Image Time Series
 
-  9.19. [Presto](https://github.com/nasaharvest/presto) -> code for the 2023 [paper](https://arxiv.org/abs/2304.14065): Lightweight, Pre-trained Transformers for Remote Sensing Timeserie
+  9.19. [Presto](https://github.com/nasaharvest/presto) -> code for the 2023 [paper](https://arxiv.org/abs/2304.14065): Lightweight, Pre-trained Transformers for Remote Sensing Timeseries
+
+  9.20. [LULC mapping using time series data & spectral bands](https://github.com/developmentseed/time-series-for-lulc) -> uses 1D convolutions that learn from time-series data. Accompanies blog post: [Time-Traveling Pixels: A Journey into Land Use Modeling](https://developmentseed.org/blog/2023-06-29-time-travel-pixels)
 
 #
 ## 10. Crop classification
