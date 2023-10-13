@@ -1123,6 +1123,7 @@ In instance segmentation, each individual 'instance' of a segmented area is give
 Object detection in remote sensing involves locating and surrounding objects of interest with bounding boxes. Due to the large size of remote sensing images and the fact that objects may only comprise a few pixels, object detection can be challenging in this context. The imbalance between the area of the objects to be detected and the background, combined with the potential for objects to be easily confused with random features in the background, further complicates the task. Object detection generally performs better on larger objects, but becomes increasingly difficult as the objects become smaller and more densely packed. The accuracy of object detection models can also degrade rapidly as image resolution decreases, which is why it is common to use high resolution imagery, such as 30cm RGB, for object detection in remote sensing. A unique characteristic of aerial images is that objects can be oriented in any direction. To effectively extract measurements of the length and width of an object, it can be crucial to use rotated bounding boxes that align with the orientation of the object. This approach enables more accurate and meaningful analysis of the objects within the image. [Image source](https://www.mdpi.com/2072-4292/13/21/4291)
 
 ### 4.1. Object tracking in videos
+
   4.1.1. [Object Tracking in Satellite Videos Based on a Multi-Frame Optical Flow Tracker](https://arxiv.org/abs/1804.09323) arxiv paper
 
   4.1.2. [CFME](https://github.com/SY-Xuan/CFME) -> Object Tracking in Satellite Videos by Improved Correlation Filters With Motion Estimations
@@ -1138,6 +1139,7 @@ Object detection in remote sensing involves locating and surrounding objects of 
   4.1.7. [TCTrack](https://github.com/vision4robotics/TCTrack) -> code for 2022 [paper](https://arxiv.org/abs/2203.01885): TCTrack: Temporal Contexts for Aerial Tracking
 
 ### 4.2. Object detection with rotated bounding boxes
+
 Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For datasets checkout DOTA & HRSC2016
 
   4.2.1. [mmrotate](https://github.com/open-mmlab/mmrotate) -> Rotated Object Detection Benchmark, with pretrained models and function for inferencing on very large images
@@ -1245,6 +1247,7 @@ Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For d
   4.2.52. [Spatial-Transform-Decoupling](https://github.com/yuhongtian17/Spatial-Transform-Decoupling) -> code for 2023 paper: Spatial Transform Decoupling for Oriented Object Detection
 
 ### 4.3. Object detection enhanced by super resolution
+
   4.3.1. [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
 
   4.3.2. [EESRGAN](https://github.com/Jakaria08/EESRGAN) -> Small-Object Detection in Remote Sensing Images with End-to-End Edge-Enhanced GAN and Object Detector Network
@@ -1258,6 +1261,7 @@ Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For d
   4.3.6. [SuperYOLO](https://github.com/icey-zhang/SuperYOLO) -> code for 2022 [paper](https://arxiv.org/abs/2209.13351): SuperYOLO: Super Resolution Assisted Object Detection in Multimodal Remote Sensing Imagery
 
 ### 4.4. Salient object detection
+
 Detecting the most noticeable or important object in a scene
 
   4.4.1. [ACCoNet](https://github.com/MathLee/ACCoNet) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9756652): Adjacent Context Coordination Network for Salient Object Detection in Optical Remote Sensing Images
@@ -1471,6 +1475,7 @@ Detecting the most noticeable or important object in a scene
   4.9.3. [PCAN](https://www.mdpi.com/2072-4292/13/7/1243) -> Part-Based Context Attention Network for Thermal Power Plant Detection in Remote Sensing Imagery, with [dataset](https://github.com/wenxinYin/AIR-TPPDD)
 
 ### 4.10. Object detection - Oil storage tank detection
+
 Oil is stored in tanks at many points between extraction and sale, and the volume of oil in storage is an important economic indicator.
 
   4.10.1. [A Beginner’s Guide To Calculating Oil Storage Tank Occupancy With Help Of Satellite Imagery](https://medium.com/planet-stories/a-beginners-guide-to-calculating-oil-storage-tank-occupancy-with-help-of-satellite-imagery-e8f387200178)
@@ -1502,6 +1507,7 @@ Oil is stored in tanks at many points between extraction and sale, and the volum
   4.10.14. [Oil Storage Detection on Airbus Imagery with YOLOX](https://medium.com/artificialis/oil-storage-detection-on-airbus-imagery-with-yolox-9e38eb6f7e62) -> uses the Kaggle Airbus Oil Storage Detection dataset
 
 ### 4.11. Object detection - Animals
+
 A variety of techniques can be used to count animals, including object detection and instance segmentation. For convenience they are all listed here:
 
   4.11.1. [cownter_strike](https://github.com/IssamLaradji/cownter_strike) -> counting cows, located with point-annotations, two models: CSRNet (a density-based method) & LCFCN (a detection-based method)
@@ -1558,7 +1564,7 @@ A variety of techniques can be used to count animals, including object detection
 
   4.12.19. [Synthesizing Robustness YOLTv4 Results Part 2: Dataset Size Requirements and Geographic Insights](https://www.iqt.org/synthesizing-robustness-yoltv4-results-part-2-dataset-size-requirements-and-geographic-insights/) -> quantify how much harder rare objects are to localize
 
-  4.12.20. [IS-Count](https://github.com/sustainlab-group/IS-Count) -> IS-Count is a sampling-based and learnable method for estimating the total object count in a region. 
+  4.12.20. [IS-Count](https://github.com/sustainlab-group/IS-Count) -> IS-Count is a sampling-based and learnable method for estimating the total object count in a region
 
   4.12.21. [Object Detection On Aerial Imagery Using RetinaNet](https://towardsdatascience.com/object-detection-on-aerial-imagery-using-retinanet-626130ba2203)
 
@@ -1629,6 +1635,7 @@ A variety of techniques can be used to count animals, including object detection
   4.12.54. [DOTA-C](https://github.com/hehaodong530/DOTA-C) -> evaluating the robustness of object detection models to 19 types of image quality degradation
 
 ## 5. Object counting
+
 When the object count, but not its shape is required, U-net can be used to treat this as an image-to-image translation problem.
 
   5.1. [centroid-unet](https://github.com/gicait/centroid-unet) -> Centroid-UNet is deep neural network model to detect centroids from satellite images, with [paper](https://arxiv.org/abs/2112.06530) `BEGINNER`
@@ -3064,6 +3071,7 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 
 #
 ## 26. Weakly & semi-supervised learning
+
 Weakly & semi-supervised learning are two methods of machine learning that use both labeled and unlabeled data for training. Weakly supervised learning uses weakly labeled data, which may be incomplete or inaccurate, while semi-supervised learning uses both labeled and unlabeled data. Weakly supervised learning is typically used in situations where labeled data is scarce and unlabeled data is abundant. Semi-supervised learning is typically used in situations where labeled data is abundant but also contains some noise or errors. Both techniques can be used to improve the accuracy of machine learning models by making use of additional data sources.
 
   26.1. [MARE](https://github.com/VMarsocci/MARE) -> self-supervised Multi-Attention REsu-net for semantic segmentation in remote sensing
@@ -3108,6 +3116,7 @@ Weakly & semi-supervised learning are two methods of machine learning that use b
 
 #
 ## 27. Active learning
+
 Supervised deep learning techniques typically require a huge number of annotated/labelled examples to provide a training dataset. However labelling at scale take significant time, expertise and resources. Active learning techniques aim to reduce the total amount of annotation that needs to be performed by selecting the most useful images to label from a large pool of unlabelled images, thus reducing the time to generate useful training datasets. These processes may be referred to as [Human-in-the-Loop Machine Learning](https://medium.com/pytorch/https-medium-com-robert-munro-active-learning-with-pytorch-2f3ee8ebec)
 
   27.1. [Active learning for object detection in high-resolution satellite images](https://arxiv.org/abs/2101.02480) -> arxiv paper
@@ -3134,6 +3143,7 @@ Supervised deep learning techniques typically require a huge number of annotated
 
 #
 ## 28. Federated learning
+
 Federated learning is an approach to distributed machine learning where a central processor coordinates the training of an individual model in each of its clients. It is a type of distributed ML which means that the data is distributed among different devices or locations and the model is trained on all of them. The central processor aggregates the model updates from all the clients and then sends the global model parameters back to the clients. This is done to protect the privacy of data, as the data remains on the local device and only the global model parameters are shared with the central processor. This technique can be used to train models with large datasets that cannot be stored in a single device, as well as to enable certain privacy-preserving applications.
 
   28.1. [Federated-Learning-for-Remote-Sensing](https://github.com/anandcu3/Federated-Learning-for-Remote-Sensing) ->  implementation of three Federated Learning models
@@ -3144,6 +3154,7 @@ Federated learning is an approach to distributed machine learning where a centra
 
 #
 ## 29. Transformers
+
 Vision transformers are state-of-the-art models for vision tasks such as image classification and object detection. They differ from CNNs as they use self-attention instead of convolution to learn global relations between all pixels in the image. Vision transformers employ a transformer encoder architecture, composed of multi-layer blocks with multi-head self-attention and feed-forward layers, enabling the capture of rich contextual information for more accurate predictions.
 
   29.1. [Transformer-in-Remote-Sensing](https://github.com/VIROBO-15/Transformer-in-Remote-Sensing) -> code for 2022 [paper](https://arxiv.org/abs/2209.01206): Transformers in Remote Sensing: A Survey
@@ -3158,6 +3169,7 @@ Vision transformers are state-of-the-art models for vision tasks such as image c
 
 #
 ## 30. Adversarial ML
+
 Efforts to detect falsified images & deepfakes
 
   30.1. [UAE-RS](https://github.com/YonghaoXu/UAE-RS) -> dataset that provides black-box adversarial samples in the remote sensing field
@@ -3168,6 +3180,7 @@ Efforts to detect falsified images & deepfakes
 
 #
 ## 31. Image registration
+
 Image registration is the process of registering one or more images onto another (typically well georeferenced) image. Traditionally this is performed manually by identifying control points (tie-points) in the images, for example using QGIS. This section lists approaches which mostly aim to automate this manual process. There is some overlap with the data fusion section but the distinction I make is that image registration is performed as a prerequisite to downstream processes which will use the registered data as an input.
 
   31.1. [Wikipedia article on registration](https://en.wikipedia.org/wiki/Image_registration) -> register for change detection or [image stitching](https://mono.software/2018/03/14/Image-stitching/)
@@ -3246,8 +3259,11 @@ Image registration is the process of registering one or more images onto another
 
   31.38. [Multi-Step-Deformable-Registration](https://github.com/mpapadomanolaki/Multi-Step-Deformable-Registration) -> code for 2021 paper: Unsupervised Multi-Step Deformable Registration of Remote Sensing Imagery based on Deep Learning
 
+  31.39. [Siamese_ShiftNet](https://github.com/simon-donike/Siamese_ShiftNet) -> NN predicting spatial coregistration shift of remote sensing imagery. Adapted from HighRes-net
+
 #
 ## 32. Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF
+
 Measure surface contours & locate 3D points in space from 2D images. NeRF stands for Neural Radiance Fields and is the term used in deep learning communities to describe a model that generates views of complex 3D scenes based on a partial set of 2D images
 
   32.1. [Wikipedia DEM article](https://en.wikipedia.org/wiki/Digital_elevation_model) and [phase correlation](https://en.wikipedia.org/wiki/Phase_correlation) article
@@ -3260,7 +3276,7 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 
   32.5. [ArcGIS can generate DEMs from stereo images](http://pro.arcgis.com/en/pro-app/help/data/imagery/generate-elevation-data-using-the-dems-wizard.htm)
 
-  32.6. https://github.com/MISS3D/s2p -> produces elevation models from images taken by high resolution optical satellites -> demo code on https://gfacciol.github.io/IS18/
+  32.6. [S2P](https://github.com/centreborelli/s2p) -> S2P is a Python library and command line tool that implements a stereo pipeline which produces elevation models from images taken by high resolution optical satellites such as Pléiades, WorldView, QuickBird, Spot or Ikonos.
 
   32.7. [Predict the fate of glaciers](https://github.com/geohackweek/glacierhack_2018)
 
@@ -3272,7 +3288,7 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 
   32.11. [Phase correlation in scikit-image](https://scikit-image.org/docs/0.13.x/auto_examples/transform/plot_register_translation.html)
 
-  32.12. [s2p](https://github.com/cmla/s2p) -> a Python library and command line tool that implements a stereo pipeline which produces elevation models from images taken by high resolution optical satellites such as Pléiades, WorldView, QuickBird, Spot or Ikonos
+  32.12. [3DCD](https://github.com/VMarsocci/3DCD) -> code for paper: Inferring 3D change detection from bitemporal optical images
 
   32.13. The [Mapbox API](https://docs.mapbox.com/help/troubleshooting/access-elevation-data/) provides images and elevation maps, [article here](https://towardsdatascience.com/creating-high-resolution-satellite-images-with-mapbox-and-python-750b3ac83dd7)
 
@@ -3326,11 +3342,10 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 
   32.38. [Mapping drainage ditches in forested landscapes using deep learning and aerial laser scanning](https://github.com/williamlidberg/Mapping-drainage-ditches-in-forested-landscapes-using-deep-learning-and-aerial-laser-scanning)
 
-  32.39. [3DCD](https://github.com/VMarsocci/3DCD) -> code for paper: Inferring 3D change detection from bitemporal optical images
-
 
 #
 ## 33. Thermal Infrared
+
 Thermal infrared remote sensing is a technique used to detect and measure thermal radiation emitted from the Earth’s surface. This technique can be used to measure the temperature of the ground and any objects on it and can detect the presence of different materials. Thermal infrared remote sensing is used to assess land cover, detect land-use changes, and monitor urban heat islands, as well as to measure the temperature of the ground during nighttime or in areas of limited visibility.
 
   33.1. [The World Needs (a lot) More Thermal Infrared Data from Space](https://towardsdatascience.com/the-world-needs-a-lot-more-thermal-infrared-data-from-space-dbbba389be8a)
@@ -3343,6 +3358,7 @@ Thermal infrared remote sensing is a technique used to detect and measure therma
 
 #
 ## 34. SAR
+
 SAR (synthetic aperture radar) is used to detect and measure the properties of objects and surfaces on the Earth's surface. SAR can be used to detect changes in terrain, features, and objects over time, as well as to measure the size, shape, and composition of objects and surfaces. SAR can also be used to measure moisture levels in soil and vegetation, or to detect and monitor changes in land use.
 
   34.1. [awesome-sar](https://github.com/RadarCODE/awesome-sar) -> A curated list of awesome Synthetic Aperture Radar (SAR) software, libraries, and resources
@@ -3437,6 +3453,7 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
 #
 ## 35. NDVI - vegetation index
+
 Normalized Difference Vegetation Index (NDVI) is an index used to measure the amount of healthy vegetation in a given area. It is calculated by taking the difference between the near-infrared (NIR) and red (red) bands of a satellite image, and dividing by the sum of the two bands. NDVI can be used to identify areas of healthy vegetation and to assess the health of vegetation in a given area.
 
   35.1. Calculated via band math `ndvi = np.true_divide((ir - r), (ir + r))` but challenging due to the size of the imagery
@@ -3459,6 +3476,7 @@ Normalized Difference Vegetation Index (NDVI) is an index used to measure the am
 
 #
 ## 36. General image quality
+
 Image quality describes the degree of accuracy with which an image can represent the original object. Image quality is typically measured by the amount of detail, sharpness, and contrast that an image contains. Factors that contribute to image quality include the resolution, format, and compression of the image.
 
   36.1. Convolutional autoencoder network can be employed to image denoising, [read about this on the Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
@@ -3499,6 +3517,7 @@ Image quality describes the degree of accuracy with which an image can represent
 
 #
 ## 37. Synthetic data
+
 Training data can be hard to acquire, particularly for rare events such as change detection after disasters, or imagery of rare classes of objects. In these situations, generating synthetic training data might be the only option. This has become quite sophisticated, with 3D models being use with open source games engines such as [Unreal](https://www.unrealengine.com/en-US/).
 
   37.1. [The Synthinel-1 dataset: a collection of high resolution synthetic overhead imagery for building segmentation](https://arxiv.org/ftp/arxiv/papers/2001/2001.05130.pdf) with [repo](https://github.com/timqqt/Synthinel)
