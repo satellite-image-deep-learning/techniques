@@ -682,6 +682,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
   2.8.43. [tile2net](https://github.com/VIDA-NYU/tile2net) -> code for 2023 paper: Mapping the walk: A scalable computer vision approach for generating sidewalk network datasets from aerial imagery
 
+  2.8.44. [RCFSNet](https://github.com/CVer-Yang/RCFSNet) -> code for 2022 paper: Road Extraction From Satellite Imagery by Road Context and Full-Stage Feature
+
 ### 2.9. Segmentation - Buildings & rooftops
 
   2.9.1. [Road and Building Semantic Segmentation in Satellite Imagery](https://github.com/Paulymorphous/Road-Segmentation) uses U-Net on the Massachusetts Roads Dataset & keras `BEGINNER`
