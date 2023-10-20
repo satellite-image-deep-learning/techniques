@@ -58,7 +58,7 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
  1. [Pansharpening](https://github.com/satellite-image-deep-learning/techniques#15-pansharpening)
  1. [Image-to-image translation](https://github.com/satellite-image-deep-learning/techniques#16-image-to-image-translation)
  1. [Data fusion](https://github.com/satellite-image-deep-learning/techniques#17-data-fusion)
- 2. [Generative networks](https://github.com/satellite-image-deep-learning/techniques#18-generative-adversarial-networks-gans)
+ 2. [Generative networks](https://github.com/satellite-image-deep-learning/techniques#18-generative-networks)
  3. [Autoencoders, dimensionality reduction, image embeddings & similarity search](https://github.com/satellite-image-deep-learning/techniques#19-autoencoders-dimensionality-reduction-image-embeddings--similarity-search)
  4. [Image retrieval](https://github.com/satellite-image-deep-learning/techniques#20-image-retrieval)
  5. [Image Captioning](https://github.com/satellite-image-deep-learning/techniques#21-image-captioning)
@@ -2775,6 +2775,8 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
   18.20. [Shoreline_Extraction_GAN](https://github.com/mlundine/Shoreline_Extraction_GAN) -> Shoreline extraction via generative adversarial networks, prediction via LSTMs
 
   18.21. [Landsat8-Sentinel2-Fusion](https://github.com/Rohit18/Landsat8-Sentinel2-Fusion) -> Translating Landsat 8 to Sentinel-2 using a GAN
+
+  18.22. [Seg2Sat](https://github.com/RubenGres/Seg2Sat) -> Seg2Sat explores the potential of diffusion algorithms such as StableDiffusion and ControlNet to generate aerial images based on terrain segmentation data
 
 #
 ## 19. Autoencoders, dimensionality reduction, image embeddings & similarity search
