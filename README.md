@@ -58,27 +58,27 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
  1. [Pansharpening](https://github.com/satellite-image-deep-learning/techniques#15-pansharpening)
  1. [Image-to-image translation](https://github.com/satellite-image-deep-learning/techniques#16-image-to-image-translation)
  1. [Data fusion](https://github.com/satellite-image-deep-learning/techniques#17-data-fusion)
- 1. [Generative Adversarial Networks (GANs)](https://github.com/satellite-image-deep-learning/techniques#18-generative-adversarial-networks-gans)
- 1. [Autoencoders, dimensionality reduction, image embeddings & similarity search](https://github.com/satellite-image-deep-learning/techniques#19-autoencoders-dimensionality-reduction-image-embeddings--similarity-search)
- 1. [Image retrieval](https://github.com/satellite-image-deep-learning/techniques#20-image-retrieval)
- 1. [Image Captioning](https://github.com/satellite-image-deep-learning/techniques#21-image-captioning)
- 1. [Visual Question Answering](https://github.com/satellite-image-deep-learning/techniques#22-visual-question-answering)
- 1. [Mixed data learning](https://github.com/satellite-image-deep-learning/techniques#23-mixed-data-learning)
- 2. [Few & zero shot learning](https://github.com/satellite-image-deep-learning/techniques#24-few--zero-shot-learning)
- 3. [Self-supervised, unsupervised & contrastive learning](https://github.com/satellite-image-deep-learning/techniques#25-self-supervised-unsupervised--contrastive-learning)
- 4. [Weakly & semi-supervised learning](https://github.com/satellite-image-deep-learning/techniques#26-weakly--semi-supervised-learning)
- 5. [Active learning](https://github.com/satellite-image-deep-learning/techniques#27-active-learning)
- 6. [Federated Learning](https://github.com/satellite-image-deep-learning/techniques#28-federated-learning)
- 7. [Transformers](https://github.com/satellite-image-deep-learning/techniques#29-transformers)
- 8. [Adversarial ML](https://github.com/satellite-image-deep-learning/techniques#30-adversarial-ml)
- 9. [Image registration](https://github.com/satellite-image-deep-learning/techniques#31-image-registration)
- 10. [Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF](https://github.com/satellite-image-deep-learning/techniques#32-terrain-mapping-disparity-estimation-lidar-dems--nerf)
- 11. [Thermal Infrared](https://github.com/satellite-image-deep-learning/techniques#33-thermal-infrared)
- 12. [SAR](https://github.com/satellite-image-deep-learning/techniques#34-sar)
- 13. [NDVI-Vegetation Index](https://github.com/satellite-image-deep-learning/techniques#35-ndvi---vegetation-index)
- 14. [General image quality](https://github.com/satellite-image-deep-learning/techniques#36-general-image-quality)
- 15. [Synthetic data](https://github.com/satellite-image-deep-learning/techniques#37-synthetic-data)
- 16. [ChatGPT and other language models (LLMs)](https://github.com/satellite-image-deep-learning/techniques#38-chatgpt-and-other-language-models-llms)
+ 2. [Generative networks](https://github.com/satellite-image-deep-learning/techniques#18-generative-adversarial-networks-gans)
+ 3. [Autoencoders, dimensionality reduction, image embeddings & similarity search](https://github.com/satellite-image-deep-learning/techniques#19-autoencoders-dimensionality-reduction-image-embeddings--similarity-search)
+ 4. [Image retrieval](https://github.com/satellite-image-deep-learning/techniques#20-image-retrieval)
+ 5. [Image Captioning](https://github.com/satellite-image-deep-learning/techniques#21-image-captioning)
+ 6. [Visual Question Answering](https://github.com/satellite-image-deep-learning/techniques#22-visual-question-answering)
+ 7. [Mixed data learning](https://github.com/satellite-image-deep-learning/techniques#23-mixed-data-learning)
+ 8. [Few & zero shot learning](https://github.com/satellite-image-deep-learning/techniques#24-few--zero-shot-learning)
+ 9. [Self-supervised, unsupervised & contrastive learning](https://github.com/satellite-image-deep-learning/techniques#25-self-supervised-unsupervised--contrastive-learning)
+ 10. [Weakly & semi-supervised learning](https://github.com/satellite-image-deep-learning/techniques#26-weakly--semi-supervised-learning)
+ 11. [Active learning](https://github.com/satellite-image-deep-learning/techniques#27-active-learning)
+ 12. [Federated Learning](https://github.com/satellite-image-deep-learning/techniques#28-federated-learning)
+ 13. [Transformers](https://github.com/satellite-image-deep-learning/techniques#29-transformers)
+ 14. [Adversarial ML](https://github.com/satellite-image-deep-learning/techniques#30-adversarial-ml)
+ 15. [Image registration](https://github.com/satellite-image-deep-learning/techniques#31-image-registration)
+ 16. [Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF](https://github.com/satellite-image-deep-learning/techniques#32-terrain-mapping-disparity-estimation-lidar-dems--nerf)
+ 17. [Thermal Infrared](https://github.com/satellite-image-deep-learning/techniques#33-thermal-infrared)
+ 18. [SAR](https://github.com/satellite-image-deep-learning/techniques#34-sar)
+ 19. [NDVI-Vegetation Index](https://github.com/satellite-image-deep-learning/techniques#35-ndvi---vegetation-index)
+ 20. [General image quality](https://github.com/satellite-image-deep-learning/techniques#36-general-image-quality)
+ 21. [Synthetic data](https://github.com/satellite-image-deep-learning/techniques#37-synthetic-data)
+ 22. [ChatGPT and other language models (LLMs)](https://github.com/satellite-image-deep-learning/techniques#38-chatgpt-and-other-language-models-llms)
 
 #
 ### 1. Classification
@@ -122,7 +122,7 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
    1.15. [Vision Transformers Use Case: Satellite Image Classification without CNNs](https://medium.com/nerd-for-tech/vision-transformers-use-case-satellite-image-classification-without-cnns-2c4dbeb06f87)
 
-   1.16.  [WaterNet](https://github.com/treigerm/WaterNet) -> a CNN that identifies water in satellite images
+   1.16. [WaterNet](https://github.com/treigerm/WaterNet) -> a CNN that identifies water in satellite images
 
    1.17. [Road-Network-Classification](https://github.com/ualsg/Road-Network-Classification) -> Road network classification model using ResNet-34, road classes organic, gridiron, radial and no pattern
 
@@ -333,6 +333,8 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
   2.1.38. [M3SPADA](https://github.com/ecapliez/M3SPADA) -> code for 2023 paper: Multi-Sensor Temporal Unsupervised Domain Adaptation for Land Cover Mapping with spatial pseudo labelling and adversarial learning
 
+  2.1.39. [GLNet](https://github.com/VITA-Group/GLNet) -> code for 2019 paper: Collaborative Global-Local Networks for Memory-Efﬁcient Segmentation of Ultra-High Resolution Images
+
 ### 2.2. Segmentation - Vegetation, deforestation, crops & crop boundaries
 
 Note that deforestation detection may be treated as a segmentation task or a change detection task
@@ -452,6 +454,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
   2.2.57. [supervised-wheat-classification-using-pytorchs-torchgeo](https://medium.com/@sulemanhamdani10/supervised-wheat-classification-using-pytorchs-torchgeo-combining-satellite-imagery-and-python-fc7f95c82e) -> Article: supervised wheat classification using torchgeo `BEGINNER`
 
   2.2.58. [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> code for 2023 paper: TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping. Uses the Amazon and Atlantic forest dataset
+
+  2.2.59. [A high-resolution canopy height model of the Earth](https://github.com/langnico/global-canopy-height-model#a-high-resolution-canopy-height-model-of-the-earth) -> code for 2022 paper: A high-resolution canopy height model of the Earth
 
 ### 2.3. Segmentation - Water, coastlines & floods
 
@@ -1247,6 +1251,8 @@ Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For d
   4.2.51. [h2rbox-mmrotate](https://github.com/yangxue0827/h2rbox-mmrotate) -> code for 2022 paper: H2RBox: Horizontal Box Annotation is All You Need for Oriented Object Detection
 
   4.2.52. [Spatial-Transform-Decoupling](https://github.com/yuhongtian17/Spatial-Transform-Decoupling) -> code for 2023 paper: Spatial Transform Decoupling for Oriented Object Detection
+
+  4.2.53. [ARS-DETR](https://github.com/httle/ARS-DETR) -> code for 2023 paper: ARS-DETR: Aspect Ratio Sensitive Oriented Object Detection with Transformer
 
 ### 4.3. Object detection enhanced by super resolution
 
@@ -2081,6 +2087,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.128. [S1GFlood-Detection](https://github.com/Tamer-Saleh/S1GFlood-Detection) -> code for 2023 paper: DAM-Net: Global Flood Detection from SAR Imagery Using Differential Attention Metric-Based Vision Transformers. Includes S1GFloods dataset
 
+  8.129. [Changen](https://github.com/Z-Zheng/Changen) -> code for 2023 paper: Scalable Multi-Temporal Remote Sensing Change Data Generation via Simulating Stochastic Change Process
+
 #
 ## 9. Time series
 
@@ -2716,7 +2724,7 @@ Data fusion is a technique for combining information from different sources such
   17.39. [dfc2022-baseline](https://github.com/isaaccorley/dfc2022-baseline) -> baseline solution to the 2022 IEEE GRSS Data Fusion Contest (DFC2022) using TorchGeo, PyTorch Lightning, and Segmentation Models PyTorch to train a U-Net with a ResNet-18 backbone and a loss function of Focal + Dice loss to perform semantic segmentation on the DFC2022 dataset
 
 #
-## 18. Generative Adversarial Networks (GANs)
+## 18. Generative networks
 
 <p align="center">
   <img src="images/gan.png" width="500">
@@ -2724,7 +2732,7 @@ Data fusion is a technique for combining information from different sources such
   <b>Example generated images using a GAN.</b>
 </p>
 
-Generative Adversarial Networks (GANs) are a type of deep learning architecture that leverages the power of competition between two neural networks. The objective of a GAN is to generate new, synthetic data that appears similar to real-world data. This is achieved by training the two networks, the generator and the discriminator, in a zero-sum game, where the generator attempts to produce data that is indistinguishable from the real data, while the discriminator tries to distinguish between the generated data and the real data. In the field of remote sensing, GANs have found numerous applications, particularly in generating synthetic data. This synthetic data can be used for a wide range of purposes, including data augmentation, data imbalance correction, and filling in missing or corrupted data. By generating realistic synthetic data, GANs can improve the performance of remote sensing algorithms and models, leading to more accurate and reliable results. Additionally, GANs can also be used for various other tasks in remote sensing, such as super-resolution, denoising, and inpainting. [Image source](https://arxiv.org/abs/2207.14580)
+Generative networks (e.g. GANs) aim to generate new, synthetic data that appears similar to real-world data. This generated data can be used for a wide range of purposes, including data augmentation, data imbalance correction, and filling in missing or corrupted data. Including generating synthetic data can improve the performance of remote sensing algorithms and models, leading to more accurate and reliable results. [Image source](https://arxiv.org/abs/2207.14580)
 
   18.1. [Using Generative Adversarial Networks to Address Scarcity of Geospatial Training Data](https://medium.com/radiant-earth-insights/using-generative-adversarial-networks-to-address-scarcity-of-geospatial-training-data-e61cacec986e) -> GAN perform better than CNN in segmenting land cover classes outside of the training dataset (article, no code)
 
