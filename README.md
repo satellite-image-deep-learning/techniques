@@ -2512,8 +2512,6 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.3.21. [Restoring old aerial images with Deep Learning](https://towardsdatascience.com/restoring-old-aerial-images-with-deep-learning-60f0cfd2658) -> Medium article Super Resolution with Perceptual Loss function and real images as input
 
-  14.3.22. [opensr-degradation](https://github.com/ESAOpenSR/opensr-degradation) -> Converting NAIP Imagery to Sentinel-2 Style
-
 #
 ## 15. Pansharpening
 
