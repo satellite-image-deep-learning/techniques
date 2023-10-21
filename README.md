@@ -1254,6 +1254,8 @@ Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For d
 
   4.2.53. [ARS-DETR](https://github.com/httle/ARS-DETR) -> code for 2023 paper: ARS-DETR: Aspect Ratio Sensitive Oriented Object Detection with Transformer
 
+  4.2.54. [CFINet](https://github.com/shaunyuan22/CFINet) -> code for 2023 paper: Small Object Detection via Coarse-to-fine Proposal Generation and Imitation Learning. Introduces [SODA-A dataset](https://shaunyuan22.github.io/SODA/)
+
 ### 4.3. Object detection enhanced by super resolution
 
   4.3.1. [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
