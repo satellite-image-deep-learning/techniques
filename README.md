@@ -2778,6 +2778,8 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
 
   18.22. [Seg2Sat](https://github.com/RubenGres/Seg2Sat) -> Seg2Sat explores the potential of diffusion algorithms such as StableDiffusion and ControlNet to generate aerial images based on terrain segmentation data
 
+  18.23 [SAR2Optical](https://github.com/MuhammedM294/SAR2Optical) -> Transcoding Sentinel-1 SAR to Sentinel-2 using cGAN
+
 #
 ## 19. Autoencoders, dimensionality reduction, image embeddings & similarity search
 
