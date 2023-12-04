@@ -2382,6 +2382,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.1.16. [satlas-super-resolution](https://github.com/allenai/satlas-super-resolution) -> Satlas Super Resolution: model is an adaptation of ESRGAN, with changes that allow the input to be a time series of Sentinel-2 images.
 
+  14.1.17 [MISR Remote Sensing SRGAN](https://github.com/simon-donike/Remote-Sensing-SRGAN) -> PyTorch SRGAN for RGB Remote Sensing imagery, performing both SISR and MISR. MISR implementation inspired by RecursiveNet (HighResNet). Includes pretrained Checkpoints.
+
 ### 14.2. Single image super-resolution (SISR)
 
   14.2.1. [Super Resolution for Satellite Imagery - srcnn repo](https://github.com/WarrenGreen/srcnn)
