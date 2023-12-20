@@ -2179,6 +2179,8 @@ Crop classification in remote sensing is the identification and mapping of diffe
 
   10.12. [Detection of manure application on crop fields leveraging satellite data and Machine Learning](https://github.com/Amatofrancesco99/master-thesis)
 
+  10.13. [StressNet: A spatial-spectral-temporal deformable attention-based framework for water stress classification in maize](https://github.com/tejasri19/Stressnet) -> Water Stress Classification on Multispectral data of Maize captured by UAV - [paper](https://www.frontiersin.org/articles/10.3389/fpls.2023.1241921/full)
+
 #
 ## 11. Crop yield
 
