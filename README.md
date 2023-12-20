@@ -553,7 +553,7 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 ### 2.5.  Segmentation - Landslides
 
-  2.5.1. [landslide4sense](https://www.iarai.ac.at/landslide4sense/) -> a competition focused on landslide detection using globally distributed multi-source satellite imagery. [Baseline solution unet](https://github.com/isaaccorley/landslide4sense)  `BEGINNER`
+  2.5.1. [landslide-sar-unet](https://github.com/iprapas/landslide-sar-unet) -> code for 2022 [paper](https://arxiv.org/abs/2211.02869): Deep Learning for Rapid Landslide Detection using Synthetic Aperture Radar (SAR) Datacubes
 
   2.5.2. [landslide-mapping-with-cnn](https://github.com/nprksh/landslide-mapping-with-cnn) -> code for 2021 [paper](https://www.nature.com/articles/s41598-021-89015-8): A new strategy to map landslides with a generalized convolutional neural network
 
@@ -562,8 +562,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
   2.5.4. [Landslide-mapping-on-SAR-data-by-Attention-U-Net](https://github.com/lorenzonava96/Landslide-mapping-on-SAR-data-by-Attention-U-Net) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/6/1449): Rapid Mapping of landslide on SAR data by Attention U-net
 
   2.5.5. [SAR-landslide-detection-pretraining](https://github.com/VMBoehm/SAR-landslide-detection-pretraining) -> code for the 2022 [paper](https://arxiv.org/abs/2211.09927): SAR-based landslide classification pretraining leads to better segmentation
-
-  2.5.6. [landslide-sar-unet](https://github.com/iprapas/landslide-sar-unet) -> code for 2022 [paper](https://arxiv.org/abs/2211.02869): Deep Learning for Rapid Landslide Detection using Synthetic Aperture Radar (SAR) Datacubes
 
 ### 2.6. Segmentation - Glaciers
 
@@ -640,7 +638,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
   2.8.19. [road_building_extraction](https://github.com/jeffwen/road_building_extraction) -> Pytorch implementation of U-Net architecture for road and building extraction
 
-  2.8.20. [Satellite-Imagery-Road-Extraction](https://github.com/Akash-Ramjyothi/Satellite-Imagery-Road-Extraction) -> research project in keras
+  2.8.20. [RCFSNet](https://github.com/CVer-Yang/RCFSNet) -> code for 2022 paper: Road Extraction From Satellite Imagery by Road Context and Full-Stage Feature
 
   2.8.21. [SGCN](https://github.com/tist0bsc/SGCN) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9614130): Split Depth-Wise Separable Graph-Convolution Network for Road Extraction in Complex Environments From High-Resolution Remote-Sensing Images
 
@@ -687,8 +685,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
   2.8.42. [PaRK-Detect](https://github.com/ShenweiXie/PaRK-Detect) -> code for 2023 paper: PaRK-Detect: Towards Efficient Multi-Task Satellite Imagery Road Extraction via Patch-Wise Keypoints Detection
 
   2.8.43. [tile2net](https://github.com/VIDA-NYU/tile2net) -> code for 2023 paper: Mapping the walk: A scalable computer vision approach for generating sidewalk network datasets from aerial imagery
-
-  2.8.44. [RCFSNet](https://github.com/CVer-Yang/RCFSNet) -> code for 2022 paper: Road Extraction From Satellite Imagery by Road Context and Full-Stage Feature
 
 ### 2.9. Segmentation - Buildings & rooftops
 
