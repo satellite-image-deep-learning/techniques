@@ -78,7 +78,7 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
  19. [NDVI-Vegetation Index](https://github.com/satellite-image-deep-learning/techniques#35-ndvi---vegetation-index)
  20. [General image quality](https://github.com/satellite-image-deep-learning/techniques#36-general-image-quality)
  21. [Synthetic data](https://github.com/satellite-image-deep-learning/techniques#37-synthetic-data)
- 22. [ChatGPT and other language models (LLMs)](https://github.com/satellite-image-deep-learning/techniques#38-chatgpt-and-other-language-models-llms)
+ 22. [Large vision & language models (LLMs & LVMs)](https://github.com/satellite-image-deep-learning/techniques#38-chatgpt-and-other-language-models-llms)
 
 #
 ### 1. Classification
@@ -597,7 +597,7 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
   2.7.10. [kaggle-identify-contrails-4th](https://github.com/selimsef/kaggle-identify-contrails-4th) -> 4th place Solution, Google Research - Identify Contrails to Reduce Global Warming
 
-### 2.8. Segmentation - Roads
+### 2.8. Segmentation - Roads & sidewalks
 Extracting roads is challenging due to the occlusions caused by other objects and the complex traffic environment
 
   2.8.1. [Road detection using semantic segmentation and albumentations for data augmention](https://towardsdatascience.com/road-detection-using-segmentation-models-and-albumentations-libraries-on-keras-d5434eaf73a8) using the Massachusetts Roads Dataset, U-net & Keras. With [code](https://github.com/Diyago/ML-DL-scripts/tree/master/DEEP%20LEARNING/segmentation/Segmentation%20pipeline) `BEGINNER`
@@ -685,6 +685,9 @@ Extracting roads is challenging due to the occlusions caused by other objects an
   2.8.42. [PaRK-Detect](https://github.com/ShenweiXie/PaRK-Detect) -> code for 2023 paper: PaRK-Detect: Towards Efficient Multi-Task Satellite Imagery Road Extraction via Patch-Wise Keypoints Detection
 
   2.8.43. [tile2net](https://github.com/VIDA-NYU/tile2net) -> code for 2023 paper: Mapping the walk: A scalable computer vision approach for generating sidewalk network datasets from aerial imagery
+
+  2.8.43. [AerialLaneNet](https://github.com/Jiawei-Yao0812/AerialLaneNet) -> Building Lane-Level Maps from Aerial Images, introduces the AErial Lane (AEL) Dataset: a first large-scale aerial image dataset built for lane detection
+  
 
 ### 2.9. Segmentation - Buildings & rooftops
 
@@ -1077,6 +1080,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
   2.13.69. [HR-Image-classification_SDF2N](https://github.com/SicongLiuRS/HR-Image-classification_SDF2N) -> code for 2023 paper: A Shallow-to-Deep Feature Fusion Network for VHR Remote Sensing Image Classification
 
   2.13.70. [TDD](https://github.com/Jingtao-Li-CVer/TDD) -> code for 2023 paper: One-Step Detection Paradigm for Hyperspectral Anomaly Detection via Spectral Deviation Relationship Learning
+
+  2.13.71. [2023GRIC](https://github.com/biluko/2023GRIC) -> code for 2023 paper: Combining UPerNet and ConvNeXt for Contrails Identification to reduce Global Warming
 
 #
 ## 3. Instance segmentation
@@ -2088,6 +2093,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
   8.128. [S1GFlood-Detection](https://github.com/Tamer-Saleh/S1GFlood-Detection) -> code for 2023 paper: DAM-Net: Global Flood Detection from SAR Imagery Using Differential Attention Metric-Based Vision Transformers. Includes S1GFloods dataset
 
   8.129. [Changen](https://github.com/Z-Zheng/Changen) -> code for 2023 paper: Scalable Multi-Temporal Remote Sensing Change Data Generation via Simulating Stochastic Change Process
+
+  8.130. [TTP](https://github.com/KyanChen/TTP) -> code for 2023 paper: Time Travelling Pixels: Bitemporal Features Integration with Foundation Model for Remote Sensing Image Change Detection
 
 #
 ## 9. Time series
@@ -3587,9 +3594,11 @@ Training data can be hard to acquire, particularly for rare events such as chang
   37.21. [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> dataset and pretrained models for the paper: OnlyPlanes - Incrementally Tuning Synthetic Training Datasets for Satellite Object Detection
 
 #
-## 38. ChatGPT and other language models (LLMs)
+## 38. Large vision & language models (LLMs & LVMs)
 
-  38.1. [Remote-Sensing-ChatGPT](https://github.com/HaonanGuo/Remote-Sensing-ChatGPT) -> an open source tool for solving remote sensing tasks with ChatGPT in an interactive way.
+  38.1. [awesome-remote-sensing-vision-language-models](https://github.com/lzw-lzw/awesome-remote-sensing-vision-language-models)
+  
+  38.2. [Remote-Sensing-ChatGPT](https://github.com/HaonanGuo/Remote-Sensing-ChatGPT) -> an open source tool for solving remote sensing tasks with ChatGPT in an interactive way.
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
