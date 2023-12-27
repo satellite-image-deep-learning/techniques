@@ -243,7 +243,10 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
    1.76. [Building-detection-and-roof-type-recognition](https://github.com/loosgagnet/Building-detection-and-roof-type-recognition) -> A CNN-Based Approach for Automatic Building Detection and Recognition of Roof Types Using a Single Aerial Image
 
-   1.77 [Performance Comparison of Multispectral Channels for Land Use Classification](https://github.com/tejasri19/EuroSAT_data_analysis) -> Implemented ResNet-50, ResNet-101, ResNet-152, Vision Transformer on RGB and multispectral versions of EuroSAT dataset.
+   1.77. [Performance Comparison of Multispectral Channels for Land Use Classification](https://github.com/tejasri19/EuroSAT_data_analysis) -> Implemented ResNet-50, ResNet-101, ResNet-152, Vision Transformer on RGB and multispectral versions of EuroSAT dataset.
+
+   1.78. [SNN4Space](https://github.com/AndrzejKucik/SNN4Space) -> project which investigates the feasibility of deploying spiking neural networks (SNN) in land cover and land use classification tasks
+
 
 # 
 ### 2. Segmentation
@@ -597,6 +600,9 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
   2.7.10. [kaggle-identify-contrails-4th](https://github.com/selimsef/kaggle-identify-contrails-4th) -> 4th place Solution, Google Research - Identify Contrails to Reduce Global Warming
 
+  2.7.11. [MineSegSAT](https://github.com/macdonaldezra/MineSegSAT) -> code for paper: An automated system to evaluate mining disturbed area extents from Sentinel-2 imagery
+
+
 ### 2.8. Segmentation - Roads & sidewalks
 Extracting roads is challenging due to the occlusions caused by other objects and the complex traffic environment
 
@@ -861,6 +867,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
   2.9.83. [RAMP](https://rampml.global/) -> model and buildings dataset to support a wide variety of humanitarian use cases
 
   2.9.84. [Thesis_Semantic_Image_Segmentation_on_Satellite_Imagery_using_UNets](https://github.com/rinkwitz/Thesis_Semantic_Image_Segmentation_on_Satellite_Imagery_using_UNets) -> This master thesis aims to perform semantic segmentation of buildings on satellite images from the SpaceNet challenge 1 dataset using the U-Net architecture
+
+  2.9.85. [SRBuildSeg](https://github.com/xian1234/SRBuildSeg) -> code for 2021 paper: Making low-resolution satellite images reborn: a deep learning approach for super-resolution building extraction
 
 ### 2.10. Segmentation - Solar panels
 
@@ -3007,7 +3015,7 @@ This is a class of techniques which attempt to make predictions for classes with
 
 #
 ## 25. Self-supervised, unsupervised & contrastive learning
-Self-supervised, unsupervised & contrastive learning are all methods of machine learning that use unlabeled data to train algorithms. Self-supervised learning uses labeled data to create an artificial supervisor, while unsupervised learning uses only the data itself to identify patterns and similarities. Contrastive learning uses pairs of data points to learn representations of data, usually for classification tasks.
+Self-supervised, unsupervised & contrastive learning are all methods of machine learning that use unlabeled data to train algorithms. Self-supervised learning uses labeled data to create an artificial supervisor, while unsupervised learning uses only the data itself to identify patterns and similarities. Contrastive learning uses pairs of data points to learn representations of data, usually for classification tasks. Note that self-supervised approaches are commonly used in the training of so-called Foundational models, since they enable learning from large quantities of unlablleded data, tyipcally time series.
 
   25.1. [Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://devblog.pytorchlightning.ai/seasonal-contrast-transferable-visual-representations-for-remote-sensing-73a17863ed07) -> Seasonal Contrast (SeCo) is an effective pipeline to leverage unlabeled data for in-domain pre-training of remote sensing representations. Models trained with SeCo achieve better performance than their ImageNet pre-trained counterparts and state-of-the-art self-supervised learning methods on multiple downstream tasks. [paper](https://arxiv.org/abs/2103.16607) and [repo](https://github.com/ElementAI/seasonal-contrast)
 
@@ -3101,6 +3109,8 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
   25.45. [MATTER](https://github.com/periakiva/MATTER) -> code for 2022 paper: Self-Supervised Material and Texture Representation Learning for Remote Sensing Tasks
 
   25.46. [FGMAE](https://github.com/zhu-xlab/FGMAE) -> Feature guided masked Autoencoder for self-supervised learning in remote sensing
+
+  25.47. [GFM](https://github.com/mmendiet/GFM) -> code for 2023 paper: Towards Geospatial Foundation Models via Continual Pretraining
 
 #
 ## 26. Weakly & semi-supervised learning
