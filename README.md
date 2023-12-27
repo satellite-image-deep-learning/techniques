@@ -3100,6 +3100,8 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 
   25.45. [MATTER](https://github.com/periakiva/MATTER) -> code for 2022 paper: Self-Supervised Material and Texture Representation Learning for Remote Sensing Tasks
 
+  25.46. [FGMAE](https://github.com/zhu-xlab/FGMAE) -> Feature guided masked Autoencoder for self-supervised learning in remote sensing
+
 #
 ## 26. Weakly & semi-supervised learning
 
