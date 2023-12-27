@@ -78,7 +78,7 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
  19. [NDVI-Vegetation Index](https://github.com/satellite-image-deep-learning/techniques#35-ndvi---vegetation-index)
  20. [General image quality](https://github.com/satellite-image-deep-learning/techniques#36-general-image-quality)
  21. [Synthetic data](https://github.com/satellite-image-deep-learning/techniques#37-synthetic-data)
- 22. [Large vision & language models (LLMs & LVMs)](https://github.com/satellite-image-deep-learning/techniques#38-chatgpt-and-other-language-models-llms)
+ 22. [Large vision & language models (LLMs & LVMs)](https://github.com/satellite-image-deep-learning/techniques#38-large-vision--language-models-llms--lvms)
 
 #
 ### 1. Classification
