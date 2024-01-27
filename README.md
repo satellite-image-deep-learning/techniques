@@ -1796,7 +1796,7 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
   7.40. [CloudMattingGAN](https://github.com/flyakon/CloudMattingGAN) -> code for 2019 paper: Generative Adversarial Training for Weakly Supervised Cloud Matting
 
-  7.41. [atrain-cloudseg](https://github.com/seanremy/atrain-cloudseg) -> Official repository for the A-Train Cloud Segmentation Dataset
+  7.41. [km_predict](https://github.com/kappazeta/km_predict) -> KappaMask, or km-predict, is a cloud detector for Sentinel-2 Level-1C and Level-2A input products applied to S2 full image prediction
 
   7.42. [CDnet](https://github.com/nkszjx/CDnet-pytorch-master) -> code for 2019 paper: CNN-Based Cloud Detection for Remote Sensing Imager
 
@@ -1837,8 +1837,6 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
   7.60. [Clouds-Images-Segmentation](https://github.com/DavidHuji/Clouds-Images-Segmentation) -> Marine Stratocumulus Cloud-Type Classification from SEVIRI Using Convolutional Neural Networks
 
   7.61. [DeCloud-GAN](https://github.com/pixiedust18/DeCloud-GAN) -> code for 2021 paper: DeCloud GAN: An Advanced Generative Adversarial Network for Removing Cloud Cover in Optical Remote Sensing Imagery
-
-  7.62. [km_predict](https://github.com/kappazeta/km_predict) -> KappaMask, or km-predict, is a cloud detector for Sentinel-2 Level-1C and Level-2A input products applied to S2 full image prediction
 
 #
 ## 8. Change detection
@@ -3394,7 +3392,6 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 
   32.38. [Mapping drainage ditches in forested landscapes using deep learning and aerial laser scanning](https://github.com/williamlidberg/Mapping-drainage-ditches-in-forested-landscapes-using-deep-learning-and-aerial-laser-scanning)
 
-
 #
 ## 33. Thermal Infrared
 
@@ -3402,11 +3399,9 @@ Thermal infrared remote sensing is a technique used to detect and measure therma
 
   33.1. [The World Needs (a lot) More Thermal Infrared Data from Space](https://towardsdatascience.com/the-world-needs-a-lot-more-thermal-infrared-data-from-space-dbbba389be8a)
 
-  33.2. [IR2VI thermal-to-visible image translation framework based on GANs](https://arxiv.org/abs/1806.09565) with [code](https://github.com/linty5/IR2VI_CycleGAN)
+  33.2. [Object_Classification_in_Thermal_Images](https://www.researchgate.net/publication/328400392_Object_Classification_in_Thermal_Images_using_Convolutional_Neural_Networks_for_Search_and_Rescue_Missions_with_Unmanned_Aerial_Systems) -> classification accuracy was improved by adding the object size as a feature directly within the CNN
 
-  33.3. [Object_Classification_in_Thermal_Images](https://www.researchgate.net/publication/328400392_Object_Classification_in_Thermal_Images_using_Convolutional_Neural_Networks_for_Search_and_Rescue_Missions_with_Unmanned_Aerial_Systems) -> classification accuracy was improved by adding the object size as a feature directly within the CNN
-
-  33.4. [Thermal imaging with satellites](https://chrieke.medium.com/thermal-imaging-with-satellites-34f381856dd1) blog post by Christoph Rieke
+  33.3. [Thermal imaging with satellites](https://chrieke.medium.com/thermal-imaging-with-satellites-34f381856dd1) blog post by Christoph Rieke
 
 #
 ## 34. SAR
