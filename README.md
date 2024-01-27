@@ -340,6 +340,9 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
   2.1.39. [GLNet](https://github.com/VITA-Group/GLNet) -> code for 2019 paper: Collaborative Global-Local Networks for Memory-Efﬁcient Segmentation of Ultra-High Resolution Images
 
+  2.1.40. [LoveNAS](https://github.com/Junjue-Wang/LoveNAS) -> code for 2024 paper: LoveNAS: Towards Multi-Scene Land-Cover Mapping via Hierarchical Searching Adaptive Network
+
+
 ### 2.2. Segmentation - Vegetation, deforestation, crops & crop boundaries
 
 Note that deforestation detection may be treated as a segmentation task or a change detection task
@@ -601,6 +604,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
   2.7.10. [kaggle-identify-contrails-4th](https://github.com/selimsef/kaggle-identify-contrails-4th) -> 4th place Solution, Google Research - Identify Contrails to Reduce Global Warming
 
   2.7.11. [MineSegSAT](https://github.com/macdonaldezra/MineSegSAT) -> code for paper: An automated system to evaluate mining disturbed area extents from Sentinel-2 imagery
+
+  2.7.12. [STARCOP: Semantic Segmentation of Methane Plumes with Hyperspectral Machine Learning models](https://github.com/spaceml-org/STARCOP)
 
 
 ### 2.8. Segmentation - Roads & sidewalks
@@ -1698,6 +1703,8 @@ Regression in remote sensing involves predicting continuous variables such as wi
 
   6.7. [Tropical Cyclone Wind Estimation Competition](https://mlhub.earth/10.34911/rdnt.xs53up) -> on RadiantEarth MLHub
 
+  6.8. [DengueNet](https://github.com/mimikuo365/DengueNet-IJCAI) -> code for paper: DengueNet: Dengue Prediction using Spatiotemporal Satellite Imagery for Resource-Limited Countries
+
 #
 ## 7. Cloud detection & removal
 
@@ -2234,6 +2241,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
   11.15. [CNN-RNN-Yield-Prediction](https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction) -> code for 2020 paper: A CNN-RNN Framework for Crop Yield Prediction
 
   11.16. [Yield-Prediction-DNN](https://github.com/saeedkhaki92/Yield-Prediction-DNN) -> code for paper: Crop Yield Prediction Using Deep Neural Networks
+
+  11.17. [MMST-ViT](https://github.com/fudong03/MMST-ViT) -> PyTorch Implementation of MMST-ViT: Climate Change-aware Crop Yield Prediction via Multi-Modal Spatial-Temporal Vision Transformer. This paper utilizes the Tiny CropNet dataset
 
 #
 ## 12. Wealth and economic activity
@@ -3611,6 +3620,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
   38.1. [awesome-remote-sensing-vision-language-models](https://github.com/lzw-lzw/awesome-remote-sensing-vision-language-models)
   
   38.2. [Remote-Sensing-ChatGPT](https://github.com/HaonanGuo/Remote-Sensing-ChatGPT) -> an open source tool for solving remote sensing tasks with ChatGPT in an interactive way.
+
+  38.3. [ChangeCLIP](https://github.com/dyzy41/ChangeCLIP) -> 2024 paper: ChangeCLIP: Remote sensing change detection with multimodal vision-language representation learning
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
