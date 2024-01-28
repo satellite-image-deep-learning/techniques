@@ -4,7 +4,6 @@
         <img src="images/logo.png" width="700">
     </a>
 </p>
-  <h2>Techniques for deep learning on satellite and aerial imagery</h2>
 
 # 👉 [satellite-image-deep-learning.com](https://www.satellite-image-deep-learning.com/) 👈
 
