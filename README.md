@@ -35,7 +35,7 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
 
 #
 
-**How to use this repository:** use `Control+F` to search this page, and note that searching the raw markdown file can be more effective
+**How to use this repository:** use `Control+F` to search this page, and note that searching [the raw markdown file](https://raw.githubusercontent.com/satellite-image-deep-learning/techniques/master/README.md) can be more effective
 
 ## Techniques
 
