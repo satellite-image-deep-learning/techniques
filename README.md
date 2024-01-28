@@ -1754,7 +1754,7 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
   7.19. [HOW TO USE DEEP LEARNING, PYTORCH LIGHTNING, AND THE PLANETARY COMPUTER TO PREDICT CLOUD COVER IN SATELLITE IMAGERY](https://www.drivendata.co/blog/cloud-cover-benchmark/)
 
-  7.20. [cloud-cover-winners](https://github.com/drivendataorg/cloud-cover-winners) -> Code from the winning submissions for the On Cloud N: Cloud Cover Detection Challenge
+  7.20. [cloud-cover-winners](https://github.com/drivendataorg/cloud-cover-winners) -> winning submissions for the On Cloud N: Cloud Cover Detection Challenge
 
   7.21. [On-Cloud-N: Cloud Cover Detection Challenge - 19th Place Solution](https://github.com/max-schaefer-dev/on-cloud-n-19th-place-solution)
 
@@ -1762,17 +1762,17 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
   7.23. [OpenSICDR](https://github.com/dr-lizhiwei/OpenSICDR) -> long list of satellite image cloud detection resources
 
-  7.24. [RS-Net](https://github.com/JacobJeppesen/RS-Net) -> code for the paper: A cloud detection algorithm for satellite imagery based on deep learning
+  7.24. [RS-Net](https://github.com/JacobJeppesen/RS-Net) ->  A cloud detection algorithm for satellite imagery based on deep learning
 
   7.25. [Clouds-Segmentation-Project](https://github.com/TamirShalev/Clouds-Segmentation-Project) -> treats as a 3 class problem; Open clouds, Closed clouds and no clouds, uses pytorch on a dataset that consists of IR & Visual Grayscale images
 
-  7.26. [STGAN](https://github.com/ermongroup/STGAN) -> PyTorch Implementation of STGAN for Cloud Removal in Satellite Images, with [paper](https://arxiv.org/abs/1912.06838)
+  7.26. [STGAN](https://github.com/ermongroup/STGAN) -> STGAN for Cloud Removal in Satellite Images
 
-  7.27. [mcgan-cvprw2017-pytorch](https://github.com/enomotokenji/mcgan-cvprw2017-pytorch) -> code for 2017 paper: Filmy Cloud Removal on Satellite Imagery with Multispectral Conditional Generative Adversarial Nets
+  7.27. [mcgan-cvprw2017-pytorch](https://github.com/enomotokenji/mcgan-cvprw2017-pytorch) -> Filmy Cloud Removal on Satellite Imagery with Multispectral Conditional Generative Adversarial Nets
 
   7.28. [Cloud-Net: A semantic segmentation CNN for cloud detection](https://github.com/SorourMo/Cloud-Net-A-semantic-segmentation-CNN-for-cloud-detection) -> an end-to-end cloud detection algorithm for Landsat 8 imagery, trained on 38-Cloud Training Set
 
-  7.29. [fcd](https://github.com/jnyborg/fcd) -> code for 2021 paper: Fixed-Point GAN for Cloud Detection. A weakly-supervised approach, training with only image-level labels
+  7.29. [fcd](https://github.com/jnyborg/fcd) -> Fixed-Point GAN for Cloud Detection. A weakly-supervised approach, training with only image-level labels
 
   7.30. [CloudX-Net](https://github.com/sumitkanu/CloudX-Net) -> an efficient and robust architecture used for detection of clouds from satellite images
 
@@ -1784,7 +1784,7 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
   7.34. [Luojia1-Cloud-Detection](https://github.com/dedztbh/Luojia1-Cloud-Detection) -> Luojia-1 Satellite Visible Band Nighttime Imagery Cloud Detection
 
-  7.35. [SEN12MS-CR-TS](https://github.com/PatrickTUM/SEN12MS-CR-TS) -> code for 2022 paper: A Remote Sensing Data Set for Multi-modal Multi-temporal Cloud Removal
+  7.35. [SEN12MS-CR-TS](https://github.com/PatrickTUM/SEN12MS-CR-TS) -> A Remote Sensing Data Set for Multi-modal Multi-temporal Cloud Removal
 
   7.36. [ES-CCGAN](https://github.com/AnnaCUG/ES-CCGAN) -> This is a dehazed method for remote sensing image, which based on CycleGAN
 
@@ -1794,21 +1794,21 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
   7.39. [cloud-removal-deploy](https://github.com/XavierJiezou/cloud-removal-deploy) -> flask app for cloud removal
 
-  7.40. [CloudMattingGAN](https://github.com/flyakon/CloudMattingGAN) -> code for 2019 paper: Generative Adversarial Training for Weakly Supervised Cloud Matting
+  7.40. [CloudMattingGAN](https://github.com/flyakon/CloudMattingGAN) -> Generative Adversarial Training for Weakly Supervised Cloud Matting
 
   7.41. [km_predict](https://github.com/kappazeta/km_predict) -> KappaMask, or km-predict, is a cloud detector for Sentinel-2 Level-1C and Level-2A input products applied to S2 full image prediction
 
-  7.42. [CDnet](https://github.com/nkszjx/CDnet-pytorch-master) -> code for 2019 paper: CNN-Based Cloud Detection for Remote Sensing Imager
+  7.42. [CDnet](https://github.com/nkszjx/CDnet-pytorch-master) -> CNN-Based Cloud Detection for Remote Sensing Imager
 
-  7.43. [GLNET](https://github.com/wuchangsheng951/GLNET) -> code for 2021 paper: Convolutional Neural Networks Based Remote Sensing Scene Classification under Clear and Cloudy Environments
+  7.43. [GLNET](https://github.com/wuchangsheng951/GLNET) -> Convolutional Neural Networks Based Remote Sensing Scene Classification under Clear and Cloudy Environments
 
-  7.44. [CDnetV2](https://github.com/nkszjx/CDnetV2-pytorch-master) -> code for 2021 paper: CNN-Based Cloud Detection for Remote Sensing Imagery With Cloud-Snow Coexistence
+  7.44. [CDnetV2](https://github.com/nkszjx/CDnetV2-pytorch-master) -> CNN-Based Cloud Detection for Remote Sensing Imagery With Cloud-Snow Coexistence
 
-  7.45. [grouped-features-alignment](https://github.com/nkszjx/grouped-features-alignment) -> code for 2021 paper: Unsupervised Domain Adaptation for Cloud Detection Based on Grouped Features Alignment and Entropy Minimization
+  7.45. [grouped-features-alignment](https://github.com/nkszjx/grouped-features-alignment) -> Unsupervised Domain Adaptation for Cloud Detection Based on Grouped Features Alignment and Entropy Minimization
 
   7.46. [Detecting Cloud Cover Via Sentinel-2 Satellite Data](https://benjaminwarner.dev/2022/03/11/detecting-cloud-cover-via-satellite) -> blog post on Benjamin Warners Top-10 Percent Solution to DrivenData’s On CloudN Competition using fast.ai & customized version of XResNeXt50. [Repo](https://github.com/warner-benjamin/code_for_blog_posts/tree/main/2022/drivendata_cloudn)
 
-  7.47. [AISD](https://github.com/RSrscoder/AISD) -> code (Matlab) and dataset for 2020 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271620302045): Deeply supervised convolutional neural network for shadow detection based on a novel aerial shadow imagery dataset
+  7.47. [AISD](https://github.com/RSrscoder/AISD) -> Deeply supervised convolutional neural network for shadow detection based on a novel aerial shadow imagery dataset
 
   7.48. [CloudGAN](https://github.com/JerrySchonenberg/CloudGAN) -> Detecting and Removing Clouds from RGB-images using Image Inpainting
 
@@ -1820,9 +1820,9 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
   7.52. [MEcGANs](https://github.com/andrzejmizera/MEcGANs) -> Cloud Removal from Satellite Imagery using Multispectral Edge-filtered Conditional Generative Adversarial Networks
 
-  7.53. [CloudXNet](https://github.com/shyamfec/CloudXNet) -> code for 2020 [paper](https://www.sciencedirect.com/science/article/abs/pii/S2352938520303803): CloudX-net: A robust encoder-decoder architecture for cloud detection from satellite remote sensing images
+  7.53. [CloudXNet](https://github.com/shyamfec/CloudXNet) -> CloudX-net: A robust encoder-decoder architecture for cloud detection from satellite remote sensing images
 
-  7.54. [refined-unet-lite](https://github.com/92xianshen/refined-unet-lite) -> code for 2022 [paper](https://www.sciencedirect.com/science/article/pii/S1877050922005361): Refined UNet Lite: End-to-End Lightweight Network for Edge-precise Cloud Detection
+  7.54. [refined-unet-lite](https://github.com/92xianshen/refined-unet-lite) -> Refined UNet Lite: End-to-End Lightweight Network for Edge-precise Cloud Detection
 
   7.55. [cloud-buster](https://github.com/azavea/cloud-buster) -> Sentinel-2 L1C and L2A Imagery with Fewer Clouds
 
@@ -1830,13 +1830,13 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
   7.57. [SEnSeI](https://github.com/aliFrancis/SEnSeI) -> A python 3 package for developing sensor independent deep learning models for cloud masking in satellite imagery
 
-  7.58. [cloud-detection-venus](https://github.com/pesekon2/cloud-detection-venus) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/20/5210): Using Convolutional Neural Networks for Cloud Detection on VENμS Images over Multiple Land-Cover Types
+  7.58. [cloud-detection-venus](https://github.com/pesekon2/cloud-detection-venus) -> Using Convolutional Neural Networks for Cloud Detection on VENμS Images over Multiple Land-Cover Types
 
-  7.59. [explaining_cloud_effects](https://github.com/JakobCode/explaining_cloud_effects) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9956865): Explaining the Effects of Clouds on Remote Sensing Scene Classification
+  7.59. [explaining_cloud_effects](https://github.com/JakobCode/explaining_cloud_effects) -> Explaining the Effects of Clouds on Remote Sensing Scene Classification
 
   7.60. [Clouds-Images-Segmentation](https://github.com/DavidHuji/Clouds-Images-Segmentation) -> Marine Stratocumulus Cloud-Type Classification from SEVIRI Using Convolutional Neural Networks
 
-  7.61. [DeCloud-GAN](https://github.com/pixiedust18/DeCloud-GAN) -> code for 2021 paper: DeCloud GAN: An Advanced Generative Adversarial Network for Removing Cloud Cover in Optical Remote Sensing Imagery
+  7.61. [DeCloud-GAN](https://github.com/pixiedust18/DeCloud-GAN) -> DeCloud GAN: An Advanced Generative Adversarial Network for Removing Cloud Cover in Optical Remote Sensing Imagery
 
 #
 ## 8. Change detection
@@ -1853,11 +1853,11 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.2. [Change-Detection-Review](https://github.com/MinZHANG-WHU/Change-Detection-Review) -> A review of change detection methods, including code and open data sets for deep learning
 
-  8.3. [Change Detection using Siamese Networks](https://towardsdatascience.com/change-detection-using-siamese-networks-fc2935fff82) -> Medium article `BEGINNER`
+  8.3. [Change Detection using Siamese Networks](https://towardsdatascience.com/change-detection-using-siamese-networks-fc2935fff82)
 
-  8.4. [STANet](https://github.com/justchenhao/STANet) -> official implementation of the spatial-temporal attention neural network (STANet) for remote sensing image change detection `BEGINNER`
+  8.4. [STANet](https://github.com/justchenhao/STANet) ->STANet for remote sensing image change detection
 
-  8.5. [UNet-based-Unsupervised-Change-Detection](https://github.com/annabosman/UNet-based-Unsupervised-Change-Detection) -> A convolutional neural network (CNN) and semantic segmentation is implemented to detect the changes between the images, as well as classify the changes into the correct semantic class, with [arxiv paper](https://arxiv.org/abs/1812.05815) `BEGINNER`
+  8.5. [UNet-based-Unsupervised-Change-Detection](https://github.com/annabosman/UNet-based-Unsupervised-Change-Detection) -> A convolutional neural network (CNN) and semantic segmentation is implemented to detect the changes between the images, as well as classify the changes into the correct semantic class
 
   8.6. [BIT_CD](https://github.com/justchenhao/BIT_CD) -> Official Pytorch Implementation of Remote Sensing Image Change Detection with Transformers
 
@@ -1871,9 +1871,9 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.11. [LamboiseNet](https://github.com/hbaudhuin/LamboiseNet) -> Master thesis about change detection in satellite imagery using Deep Learning
 
-  8.12. [Fully Convolutional Siamese Networks for Change Detection](https://github.com/rcdaudt/fully_convolutional_change_detection) -> with [paper](https://ieeexplore.ieee.org/abstract/document/8451652)
+  8.12. [Fully Convolutional Siamese Networks for Change Detection](https://github.com/rcdaudt/fully_convolutional_change_detection)
 
-  8.13. [Urban Change Detection for Multispectral Earth Observation Using Convolutional Neural Networks](https://github.com/rcdaudt/patch_based_change_detection) -> with [paper](https://ieeexplore.ieee.org/abstract/document/8518015), used the Onera Satellite Change Detection (OSCD) dataset
+  8.13. [Urban Change Detection for Multispectral Earth Observation Using Convolutional Neural Networks](https://github.com/rcdaudt/patch_based_change_detection) -> used the Onera Satellite Change Detection (OSCD) dataset
 
   8.14. [IAug_CDNet](https://github.com/justchenhao/IAug_CDNet) -> Official Pytorch Implementation of Adversarial Instance Augmentation for Building Change Detection in Remote Sensing Images
 
@@ -1885,7 +1885,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.18. [CDLab](https://github.com/Bobholamovic/CDLab) -> benchmarking deep learning-based change detection methods.
 
-  8.19. [Siam-NestedUNet](https://github.com/likyoo/Siam-NestedUNet) -> The pytorch implementation for "SNUNet-CD: A Densely Connected Siamese Network for Change Detection of VHR Images"
+  8.19. [Siam-NestedUNet](https://github.com/likyoo/Siam-NestedUNet) -> SNUNet-CD: A Densely Connected Siamese Network for Change Detection of VHR Images
 
   8.20. [SUNet-change_detection](https://github.com/ShaoRuizhe/SUNet-change_detection) -> Implementation of paper SUNet: Change Detection for Heterogeneous Remote Sensing Images from Satellite and UAV Using a Dual-Channel Fully Convolution Network
 
@@ -1905,15 +1905,15 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.28. [autoRIFT](https://github.com/nasa-jpl/autoRIFT) -> fast and intelligent algorithm for finding the pixel displacement between two images
 
-  8.29. [DSAMNet](https://github.com/liumency/DSAMNet) -> Code for “A Deeply Supervised Attention Metric-Based Network and an Open Aerial Image Dataset for Remote Sensing Change Detection”. The main types of changes in the dataset include: (a) newly built urban buildings; (b) suburban dilation; (c) groundwork before construction; (d) change of vegetation; (e) road expansion; (f) sea construction.
+  8.29. [DSAMNet](https://github.com/liumency/DSAMNet) -> A Deeply Supervised Attention Metric-Based Network and an Open Aerial Image Dataset for Remote Sensing Change Detection
 
-  8.30. [SRCDNet](https://github.com/liumency/SRCDNet) -> The pytorch implementation for "Super-resolution-based Change Detection Network with Stacked Attention Module for Images with Different Resolutions ". SRCDNet is designed to learn and predict change maps from bi-temporal images with different resolutions
+  8.30. [SRCDNet](https://github.com/liumency/SRCDNet) -> Super-resolution-based Change Detection Network with Stacked Attention Module for Images with Different Resolutions. SRCDNet is designed to learn and predict change maps from bi-temporal images with different resolutions
 
   8.31. [Land-Cover-Analysis](https://github.com/Kalit31/Land-Cover-Analysis) -> Land Cover Change Detection using Satellite Image Segmentation
 
   8.32. [A deeply supervised image fusion network for change detection in high resolution bi-temporal remote sening images](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images)
 
-  8.33. [Satellite-Image-Alignment-Differencing-and-Segmentation](https://github.com/rishi5kesh/Satellite-Image-Alignment-Differencing-and-Segmentation) -> thesis on change detection
+  8.33. [Satellite-Image-Alignment-Differencing-and-Segmentation](https://github.com/rishi5kesh/Satellite-Image-Alignment-Differencing-and-Segmentation)
 
   8.34. [Change Detection in Multi-temporal Satellite Images](https://github.com/IhebeddineRyahi/Change-detection-in-multitemporal-satellite-images) -> uses Principal Component Analysis (PCA) and K-means clustering
 
@@ -1921,7 +1921,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.36. [ChangeFormer](https://github.com/wgcban/ChangeFormer) -> A Transformer-Based Siamese Network for Change Detection. Uses transformer architecture to address the limitations of CNN in handling multi-scale long-range details. Demonstrates that ChangeFormer captures much finer details compared to the other SOTA methods, achieving better performance on benchmark datasets
 
-  8.37. [Heterogeneous_CD](https://github.com/llu025/Heterogeneous_CD) -> Heterogeneous Change Detection in Remote Sensing Images. Accompanies [Code-Aligned Autoencoders for Unsupervised Change Detection in Multimodal Remote Sensing Images](https://arxiv.org/abs/2004.07011)
+  8.37. [Heterogeneous_CD](https://github.com/llu025/Heterogeneous_CD) -> Heterogeneous Change Detection in Remote Sensing Images
 
   8.38. [ChangeDetectionProject](https://github.com/previtus/ChangeDetectionProject) -> Trying out Active Learning in with deep CNNs for Change detection on remote sensing data
 
@@ -1929,185 +1929,185 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
   8.40. [siamese-change-detection](https://github.com/mvkolos/siamese-change-detection) -> Targeted synthesis of multi-temporal remote sensing images for change detection using siamese neural networks
 
-  8.41. [Bi-SRNet](https://github.com/ggsDing/Bi-SRNet) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9721305): Bi-Temporal Semantic Reasoning for the Semantic Change Detection in HR Remote Sensing Images
+  8.41. [Bi-SRNet](https://github.com/ggsDing/Bi-SRNet) -> Bi-Temporal Semantic Reasoning for the Semantic Change Detection in HR Remote Sensing Images
 
-  8.42. [SiROC](https://github.com/lukaskondmann/SiROC) -> Implementation of the paper: Spatial Context Awareness for Unsupervised Change Detection in Optical Satellite Images. Applied to Sentinel-2 and high-resolution Planetscope imagery on four datasets
+  8.42. [SiROC](https://github.com/lukaskondmann/SiROC) -> Spatial Context Awareness for Unsupervised Change Detection in Optical Satellite Images. Applied to Sentinel-2 and high-resolution Planetscope imagery on four datasets
 
   8.43. [DSMSCN](https://github.com/I-Hope-Peace/DSMSCN) -> Tensorflow implementation for Change Detection in Multi-temporal VHR Images Based on Deep Siamese Multi-scale Convolutional Neural Networks
 
   8.44. [RaVAEn](https://github.com/spaceml-org/RaVAEn) -> a lightweight, unsupervised approach for change detection in satellite data based on Variational Auto-Encoders (VAEs) with the specific purpose of on-board deployment. It flags changed areas to prioritise for downlink, shortening the response time
 
-  8.45. [SemiCD](https://github.com/wgcban/SemiCD) -> Code for [paper](https://arxiv.org/abs/2204.08454): Revisiting Consistency Regularization for Semi-supervised Change Detection in Remote Sensing Images. Achieves the performance of supervised CD even with access to as little as 10% of the annotated training data
+  8.45. [SemiCD](https://github.com/wgcban/SemiCD) -> Revisiting Consistency Regularization for Semi-supervised Change Detection in Remote Sensing Images. Achieves the performance of supervised CD even with access to as little as 10% of the annotated training data
 
-  8.46. [FCCDN_pytorch](https://github.com/chenpan0615/FCCDN_pytorch) -> code for [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271622000636): FCCDN: Feature Constraint Network for VHR Image Change Detection. Uses the [LEVIR-CD](https://justchenhao.github.io/LEVIR/) building change detection dataset
+  8.46. [FCCDN_pytorch](https://github.com/chenpan0615/FCCDN_pytorch) -> FCCDN: Feature Constraint Network for VHR Image Change Detection. Uses the [LEVIR-CD](https://justchenhao.github.io/LEVIR/) building change detection dataset
 
-  8.47. [INLPG_Python](https://github.com/zcsisiyao/INLPG_Python) -> code for paper: Structure Consistency based Graph for Unsupervised Change Detection with Homogeneous and Heterogeneous Remote Sensing Images
+  8.47. [INLPG_Python](https://github.com/zcsisiyao/INLPG_Python) -> Structure Consistency based Graph for Unsupervised Change Detection with Homogeneous and Heterogeneous Remote Sensing Images
 
-  8.48. [NSPG_Python](https://github.com/zcsisiyao/NSPG_Python) -> code for paper: Nonlocal patch similarity based heterogeneous remote sensing change detection
+  8.48. [NSPG_Python](https://github.com/zcsisiyao/NSPG_Python) -> Nonlocal patch similarity based heterogeneous remote sensing change detection
 
-  8.49. [LGPNet-BCD](https://github.com/TongfeiLiu/LGPNet-BCD) -> code for 2021 paper: Building Change Detection for VHR Remote Sensing Images via Local-Global Pyramid Network and Cross-Task Transfer Learning Strategy
+  8.49. [LGPNet-BCD](https://github.com/TongfeiLiu/LGPNet-BCD) -> Building Change Detection for VHR Remote Sensing Images via Local-Global Pyramid Network and Cross-Task Transfer Learning Strategy
 
-  8.50. [DS_UNet](https://github.com/SebastianHafner/DS_UNet) -> code for 2021 paper: Sentinel-1 and Sentinel-2 Data Fusion for Urban Change Detection using a Dual Stream U-Net, uses Onera Satellite Change Detection dataset
+  8.50. [DS_UNet](https://github.com/SebastianHafner/DS_UNet) -> Sentinel-1 and Sentinel-2 Data Fusion for Urban Change Detection using a Dual Stream U-Net, uses Onera Satellite Change Detection dataset
 
-  8.51. [SiameseSSL](https://github.com/SebastianHafner/SiameseSSL) -> code for 2022 [paper](https://arxiv.org/abs/2204.12202): Urban change detection with a Dual-Task Siamese network and semi-supervised learning. Uses SpaceNet 7 dataset
+  8.51. [SiameseSSL](https://github.com/SebastianHafner/SiameseSSL) -> Urban change detection with a Dual-Task Siamese network and semi-supervised learning. Uses SpaceNet 7 dataset
 
   8.52. [CD-SOTA-methods](https://github.com/wgcban/CD-SOTA-methods) -> Remote sensing change detection: State-of-the-art methods and available datasets
 
-  8.53. [multimodalCD_ISPRS21](https://github.com/PatrickTUM/multimodalCD_ISPRS21) -> code for 2021 paper: Fusing Multi-modal Data for Supervised Change Detection
+  8.53. [multimodalCD_ISPRS21](https://github.com/PatrickTUM/multimodalCD_ISPRS21) -> Fusing Multi-modal Data for Supervised Change Detection
 
-  8.54. [Unsupervised-CD-in-SITS-using-DL-and-Graphs](https://github.com/ekalinicheva/Unsupervised-CD-in-SITS-using-DL-and-Graphs) -> code for article: Unsupervised Change Detection Analysis in Satellite Image Time Series using Deep Learning Combined with Graph-Based Approaches
+  8.54. [Unsupervised-CD-in-SITS-using-DL-and-Graphs](https://github.com/ekalinicheva/Unsupervised-CD-in-SITS-using-DL-and-Graphs) -> Unsupervised Change Detection Analysis in Satellite Image Time Series using Deep Learning Combined with Graph-Based Approaches
 
-  8.55. [LSNet](https://github.com/qaz670756/LSNet) -> code for 2022 [paper](https://arxiv.org/abs/2201.09156): Extremely Light-Weight Siamese Network For Change Detection in Remote Sensing Image
+  8.55. [LSNet](https://github.com/qaz670756/LSNet) ->  Extremely Light-Weight Siamese Network For Change Detection in Remote Sensing Image
 
   8.56. [Change-Detection-in-Remote-Sensing-Images](https://github.com/themrityunjay/Change-Detection-in-Remote-Sensing-Images) ->  using PCA & K-means
 
-  8.57. [End-to-end-CD-for-VHR-satellite-image](https://github.com/daifeng2016/End-to-end-CD-for-VHR-satellite-image) -> code for 2019 [paper](https://www.mdpi.com/2072-4292/11/11/1382): End-to-End Change Detection for High Resolution Satellite Images Using Improved UNet++
+  8.57. [End-to-end-CD-for-VHR-satellite-image](https://github.com/daifeng2016/End-to-end-CD-for-VHR-satellite-image) -> End-to-End Change Detection for High Resolution Satellite Images Using Improved UNet++
 
-  8.58. [Semantic-Change-Detection](https://github.com/daifeng2016/Semantic-Change-Detection) -> code for 2021 [paper](https://www.sciencedirect.com/science/article/pii/S0303243421001720): SCDNET: A novel convolutional network for semantic change detection in high resolution optical remote sensing imagery
+  8.58. [Semantic-Change-Detection](https://github.com/daifeng2016/Semantic-Change-Detection) -> SCDNET: A novel convolutional network for semantic change detection in high resolution optical remote sensing imagery
 
-  8.59. [ERCNN-DRS_urban_change_monitoring](https://github.com/It4innovations/ERCNN-DRS_urban_change_monitoring) -> code for 2021 [paper](https://www.mdpi.com/2072-4292/13/15/3000): Neural Network-Based Urban Change Monitoring with Deep-Temporal Multispectral and SAR Remote Sensing Data
+  8.59. [ERCNN-DRS_urban_change_monitoring](https://github.com/It4innovations/ERCNN-DRS_urban_change_monitoring) -> Neural Network-Based Urban Change Monitoring with Deep-Temporal Multispectral and SAR Remote Sensing Data
 
-  8.60. [EGRCNN](https://github.com/luting-hnu/EGRCNN) -> code for 2021 paper: Edge-guided Recurrent Convolutional Neural Network for Multi-temporal Remote Sensing Image Building Change Detection
+  8.60. [EGRCNN](https://github.com/luting-hnu/EGRCNN) -> Edge-guided Recurrent Convolutional Neural Network for Multi-temporal Remote Sensing Image Building Change Detection
 
-  8.61. [Unsupervised-Remote-Sensing-Change-Detection](https://github.com/TangXu-Group/Unsupervised-Remote-Sensing-Change-Detection) -> code for 2021 paper: An Unsupervised Remote Sensing Change Detection Method Based on Multiscale Graph Convolutional Network and Metric Learning
+  8.61. [Unsupervised-Remote-Sensing-Change-Detection](https://github.com/TangXu-Group/Unsupervised-Remote-Sensing-Change-Detection) -> An Unsupervised Remote Sensing Change Detection Method Based on Multiscale Graph Convolutional Network and Metric Learning
 
-  8.62. [CropLand-CD](https://github.com/liumency/CropLand-CD) -> code for 2022 paper: A CNN-transformer Network with Multi-scale Context Aggregation for Fine-grained Cropland Change Detection
+  8.62. [CropLand-CD](https://github.com/liumency/CropLand-CD) -> A CNN-transformer Network with Multi-scale Context Aggregation for Fine-grained Cropland Change Detection
 
-  8.63. [contrastive-surface-image-pretraining](https://github.com/isaaccorley/contrastive-surface-image-pretraining) -> code for 2022 [paper](https://arxiv.org/abs/2202.13251): Supervising Remote Sensing Change Detection Models with 3D Surface Semantics
+  8.63. [contrastive-surface-image-pretraining](https://github.com/isaaccorley/contrastive-surface-image-pretraining) -> Supervising Remote Sensing Change Detection Models with 3D Surface Semantics
 
   8.64. [dcvaVHROptical](https://github.com/sudipansaha/dcvaVHROptical) -> Deep Change Vector Analysis (DCVA) change detection. Code for 2019 paper: Unsupervised Deep Change Vector Analysis for Multiple-Change Detection in VHR Images
 
-  8.65. [hyperdimensionalCD](https://github.com/sudipansaha/hyperdimensionalCD) -> code for 2021 [paper](https://ieeexplore.ieee.org/abstract/document/9582825): Change Detection in Hyperdimensional Images Using Untrained Models
+  8.65. [hyperdimensionalCD](https://github.com/sudipansaha/hyperdimensionalCD) -> Change Detection in Hyperdimensional Images Using Untrained Models
 
-  8.66. [DSFANet](https://github.com/wwdAlger/DSFANet) -> code for 2018 [paper](https://arxiv.org/abs/1812.00645): Unsupervised Deep Slow Feature Analysis for Change Detection in Multi-Temporal Remote Sensing Images
+  8.66. [DSFANet](https://github.com/wwdAlger/DSFANet) -> Unsupervised Deep Slow Feature Analysis for Change Detection in Multi-Temporal Remote Sensing Images
 
   8.67. [FCD-GAN-pytorch](https://github.com/Cwuwhu/FCD-GAN-pytorch) -> Fully Convolutional Change Detection Framework with Generative Adversarial Network (FCD-GAN) is a framework for change detection in multi-temporal remote sensing images
 
-  8.68. [DARNet-CD](https://github.com/jimmyli08/DARNet-CD) -> code for 2022 paper: A Densely Attentive Refinement Network for Change Detection Based on Very-High-Resolution Bitemporal Remote Sensing Images
+  8.68. [DARNet-CD](https://github.com/jimmyli08/DARNet-CD) -> A Densely Attentive Refinement Network for Change Detection Based on Very-High-Resolution Bitemporal Remote Sensing Images
 
   8.69. [xView2_Vulcan](https://github.com/RitwikGupta/xView2-Vulcan) -> Damage assessment using pre and post orthoimagery. Modified + productionized model based off the first-place model from the xView2 challenge.
 
-  8.70. [ESCNet](https://github.com/Bobholamovic/ESCNet) -> code for 2021 paper: An End-to-End Superpixel-Enhanced Change Detection Network for Very-High-Resolution Remote Sensing Images
+  8.70. [ESCNet](https://github.com/Bobholamovic/ESCNet) -> An End-to-End Superpixel-Enhanced Change Detection Network for Very-High-Resolution Remote Sensing Images
 
   8.71. [ForestCoverChange](https://github.com/annusgit/ForestCoverChange) -> Detecting and Predicting Forest Cover Change in Pakistani Areas Using Remote Sensing Imagery
 
-  8.72. [deforestation-detection](https://github.com/vldkhramtsov/deforestation-detection) -> code for 2020 paper: DEEP LEARNING FOR HIGH-FREQUENCY CHANGE DETECTION IN UKRAINIAN FOREST ECOSYSTEM WITH SENTINEL-2
+  8.72. [deforestation-detection](https://github.com/vldkhramtsov/deforestation-detection) -> DEEP LEARNING FOR HIGH-FREQUENCY CHANGE DETECTION IN UKRAINIAN FOREST ECOSYSTEM WITH SENTINEL-2
 
-  8.73. [forest_change_detection](https://github.com/QuantuMobileSoftware/forest_change_detection) -> forest change segmentation with time-dependent models, including Siamese, UNet-LSTM, UNet-diff, UNet3D models. Code for 2021 paper: Deep Learning for Regular Change Detection in Ukrainian Forest Ecosystem With Sentinel-2
+  8.73. [forest_change_detection](https://github.com/QuantuMobileSoftware/forest_change_detection) -> forest change segmentation with time-dependent models, including Siamese, UNet-LSTM, UNet-diff, UNet3D models
 
   8.74. [SentinelClearcutDetection](https://github.com/vldkhramtsov/SentinelClearcutDetection) -> Scripts for deforestation detection on the Sentinel-2 Level-A images
 
   8.75. [clearcut_detection](https://github.com/QuantuMobileSoftware/clearcut_detection) -> research & web-service for clearcut detection
 
-  8.76. [CDRL](https://github.com/cjf8899/CDRL) -> code for 2022 [paper](https://arxiv.org/abs/2204.01200): Unsupervised Change Detection Based on Image Reconstruction Loss
+  8.76. [CDRL](https://github.com/cjf8899/CDRL) -> Unsupervised Change Detection Based on Image Reconstruction Loss
 
-  8.77. [ddpm-cd](https://github.com/wgcban/ddpm-cd) -> code for 2022 [paper](https://arxiv.org/abs/2206.11892): Remote Sensing Change Detection (Segmentation) using Denoising Diffusion Probabilistic Models
+  8.77. [ddpm-cd](https://github.com/wgcban/ddpm-cd) ->  Remote Sensing Change Detection (Segmentation) using Denoising Diffusion Probabilistic Models
 
-  8.78. [Remote-sensing-time-series-change-detection](https://github.com/liulianni1688/Remote-sensing-time-series-change-detection) -> code for 2022 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0034425722001079): Graph-based block-level urban change detection using Sentinel-2 time series
+  8.78. [Remote-sensing-time-series-change-detection](https://github.com/liulianni1688/Remote-sensing-time-series-change-detection) -> Graph-based block-level urban change detection using Sentinel-2 time series
 
   8.79. [austin-ml-change-detection-demo](https://github.com/makepath/austin-ml-change-detection-demo) -> A change detection demo for the Austin area using a pre-trained PyTorch model scaled with Dask on Planet imagery
 
-  8.80. [dfc2021-msd-baseline](https://github.com/calebrob6/dfc2021-msd-baseline) -> A baseline for the "Multitemporal Semantic Change Detection" track of the 2021 IEEE GRSS Data Fusion Competition
+  8.80. [dfc2021-msd-baseline](https://github.com/calebrob6/dfc2021-msd-baseline) -> Multitemporal Semantic Change Detection track of the 2021 IEEE GRSS Data Fusion Competition
 
-  8.81. [CorrFusionNet](https://github.com/rulixiang/CorrFusionNet) -> code for 2020 [paper](https://arxiv.org/abs/2006.02176): Multi-Temporal Scene Classification and Scene Change Detection with Correlation based Fusion
+  8.81. [CorrFusionNet](https://github.com/rulixiang/CorrFusionNet) -> Multi-Temporal Scene Classification and Scene Change Detection with Correlation based Fusion
 
-  8.82. [ChangeDetectionPCAKmeans](https://github.com/rulixiang/ChangeDetectionPCAKmeans) -> MATLAB implementation for Unsupervised Change Detection in Satellite Images Using Principal Component Analysis and k-Means Clustering.
+  8.82. [ChangeDetectionPCAKmeans](https://github.com/rulixiang/ChangeDetectionPCAKmeans) -> Unsupervised Change Detection in Satellite Images Using Principal Component Analysis and k-Means Clustering.
 
-  8.83. [IRCNN](https://github.com/thebinyang/IRCNN) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9721897): IRCNN: An Irregular-Time-Distanced Recurrent Convolutional Neural Network for Change Detection in Satellite Time Series
+  8.83. [IRCNN](https://github.com/thebinyang/IRCNN) -> IRCNN: An Irregular-Time-Distanced Recurrent Convolutional Neural Network for Change Detection in Satellite Time Series
 
   8.84. [UTRNet](https://github.com/thebinyang/UTRNet) -> An Unsupervised Time-Distance-Guided Convolutional Recurrent Network for Change Detection in Irregularly Collected Images
 
   8.85. [open-cd](https://github.com/likyoo/open-cd) -> an open source change detection toolbox based on a series of open source general vision task tools
 
-  8.86. [Tiny_model_4_CD](https://github.com/AndreaCodegoni/Tiny_model_4_CD) -> code for 2022 [paper](https://arxiv.org/abs/2207.13159): TINYCD: A (Not So) Deep Learning Model For Change Detection. Uses LEVIR-CD & WHU-CD datasets
+  8.86. [Tiny_model_4_CD](https://github.com/AndreaCodegoni/Tiny_model_4_CD) -> TINYCD: A (Not So) Deep Learning Model For Change Detection. Uses LEVIR-CD & WHU-CD datasets
 
-  8.87. [FHD](https://github.com/ZSVOS/FHD) -> code for 2022 paper: Feature Hierarchical Differentiation for Remote Sensing Image Change Detection
+  8.87. [FHD](https://github.com/ZSVOS/FHD) -> Feature Hierarchical Differentiation for Remote Sensing Image Change Detection
 
   8.88. [Change detection with Raster Vision](https://www.azavea.com/blog/2022/04/18/change-detection-with-raster-vision/) -> blog post with Colab notebook
 
-  8.89. [building-expansion](https://github.com/reglab/building_expansion) -> code for 2021 [paper](https://arxiv.org/abs/2105.14159): Enhancing Environmental Enforcement with Near Real-Time Monitoring: Likelihood-Based Detection of Structural Expansion of Intensive Livestock Farms
+  8.89. [building-expansion](https://github.com/reglab/building_expansion) -> Enhancing Environmental Enforcement with Near Real-Time Monitoring: Likelihood-Based Detection of Structural Expansion of Intensive Livestock Farms
 
-  8.90. [SaDL_CD](https://github.com/justchenhao/SaDL_CD) -> code for 2022 [paper](https://arxiv.org/abs/2205.13769): Semantic-aware Dense Representation Learning for Remote Sensing Image Change Detection
+  8.90. [SaDL_CD](https://github.com/justchenhao/SaDL_CD) -> Semantic-aware Dense Representation Learning for Remote Sensing Image Change Detection
 
-  8.91. [EGCTNet_pytorch](https://github.com/chen11221/EGCTNet_pytorch) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/18/4524): Building Change Detection Based on an Edge-Guided Convolutional Neural Network Combined with a Transformer
+  8.91. [EGCTNet_pytorch](https://github.com/chen11221/EGCTNet_pytorch) -> Building Change Detection Based on an Edge-Guided Convolutional Neural Network Combined with a Transformer
 
-  8.92. [S2-cGAN](https://git.tu-berlin.de/rsim/S2-cGAN) -> code for 2020 [paper](https://arxiv.org/abs/2007.02565): S2-cGAN: Self-Supervised Adversarial Representation Learning for Binary Change Detection in Multispectral Images
+  8.92. [S2-cGAN](https://git.tu-berlin.de/rsim/S2-cGAN) -> S2-cGAN: Self-Supervised Adversarial Representation Learning for Binary Change Detection in Multispectral Images
 
-  8.93. [A-loss-function-for-change-detection](https://github.com/Chuan-shanjia/A-loss-function-for-change-detection) -> code for 2022 paper: UAL: Unchanged Area Loss-Function for Change Detection Networks
+  8.93. [A-loss-function-for-change-detection](https://github.com/Chuan-shanjia/A-loss-function-for-change-detection) -> UAL: Unchanged Area Loss-Function for Change Detection Networks
 
-  8.94. [IEEE_TGRS_SSTFormer](https://github.com/yanhengwang-heu/IEEE_TGRS_SSTFormer) -> code for 2022 paper: Spectral–Spatial–Temporal Transformers for Hyperspectral Image Change Detection
+  8.94. [IEEE_TGRS_SSTFormer](https://github.com/yanhengwang-heu/IEEE_TGRS_SSTFormer) -> Spectral–Spatial–Temporal Transformers for Hyperspectral Image Change Detection
 
-  8.95. [DMINet](https://github.com/ZhengJianwei2/DMINet) -> code for 2023 paper: Change Detection on Remote Sensing Images Using Dual-Branch Multilevel Intertemporal Network
+  8.95. [DMINet](https://github.com/ZhengJianwei2/DMINet) -> Change Detection on Remote Sensing Images Using Dual-Branch Multilevel Intertemporal Network
 
-  8.96. [AFCF3D-Net](https://github.com/wm-Githuber/AFCF3D-Net) -> code for 2023 paper: Adjacent-level Feature Cross-Fusion with 3D CNN for Remote Sensing Image Change Detection
+  8.96. [AFCF3D-Net](https://github.com/wm-Githuber/AFCF3D-Net) -> Adjacent-level Feature Cross-Fusion with 3D CNN for Remote Sensing Image Change Detection
 
-  8.97. [DSAHRNet](https://github.com/Githubwujinming/DSAHRNet) -> code for paper: A Deeply Attentive High-Resolution Network for Change Detection in Remote Sensing Images
+  8.97. [DSAHRNet](https://github.com/Githubwujinming/DSAHRNet) -> A Deeply Attentive High-Resolution Network for Change Detection in Remote Sensing Images
 
-  8.98. [RDPNet](https://github.com/Chnja/RDPNet) -> code for 2022 paper: RDP-Net: Region Detail Preserving Network for Change Detection
+  8.98. [RDPNet](https://github.com/Chnja/RDPNet) -> RDP-Net: Region Detail Preserving Network for Change Detection
 
-  8.99. [BGAAE_CD](https://github.com/xauter/BGAAE_CD) -> code for 2022 paper: Bipartite Graph Attention Autoencoders for Unsupervised Change Detection Using VHR Remote Sensing Images
+  8.99. [BGAAE_CD](https://github.com/xauter/BGAAE_CD) -> Bipartite Graph Attention Autoencoders for Unsupervised Change Detection Using VHR Remote Sensing Images
 
-  8.100. [Unsupervised-Change-Detection](https://github.com/voodooed/Unsupervised-Change-Detection) -> code for 2009 paper: Unsupervised Change Detection in Satellite Images Using Principal Component Analysis and k-Means Clustering
+  8.100. [Unsupervised-Change-Detection](https://github.com/voodooed/Unsupervised-Change-Detection) -> Unsupervised Change Detection in Satellite Images Using Principal Component Analysis and k-Means Clustering
 
-  8.101. [Metric-CD](https://github.com/wgcban/Metric-CD) -> code for 2023 paper: Deep Metric Learning for Unsupervised Change Detection in Remote Sensing Images
+  8.101. [Metric-CD](https://github.com/wgcban/Metric-CD) -> Deep Metric Learning for Unsupervised Change Detection in Remote Sensing Images
 
-  8.102. [HANet-CD](https://github.com/ChengxiHAN/HANet-CD) -> code for 2023 paper: HANet: A hierarchical attention network for change detection with bi-temporal very-high-resolution remote sensing images
+  8.102. [HANet-CD](https://github.com/ChengxiHAN/HANet-CD) -> HANet: A hierarchical attention network for change detection with bi-temporal very-high-resolution remote sensing images
 
-  8.103. [SRGCAE](https://github.com/ChenHongruixuan/SRGCAE) -> code for 2022 paper: Unsupervised Multimodal Change Detection Based on Structural Relationship Graph Representation Learning
+  8.103. [SRGCAE](https://github.com/ChenHongruixuan/SRGCAE) -> Unsupervised Multimodal Change Detection Based on Structural Relationship Graph Representation Learning
 
   8.104. [change_detection_onera_baselines](https://github.com/previtus/change_detection_onera_baselines) -> Siamese version of U-Net baseline model
 
-  8.105. [SiamCRNN](https://github.com/ChenHongruixuan/SiamCRNN) -> code for 2020 paper: Change Detection in Multisource VHR Images via Deep Siamese Convolutional Multiple-Layers Recurrent Neural Network
+  8.105. [SiamCRNN](https://github.com/ChenHongruixuan/SiamCRNN) -> Change Detection in Multisource VHR Images via Deep Siamese Convolutional Multiple-Layers Recurrent Neural Network
 
-  8.106. [Graph-based methods for change detection in remote sensing images](https://github.com/jfflorez/Graph-based-methods-for-change-detection-in-remote-sensing-images) -> code for paper: Graph Learning Based on Signal Smoothness Representation for Homogeneous and Heterogeneous Change Detection
+  8.106. [Graph-based methods for change detection in remote sensing images](https://github.com/jfflorez/Graph-based-methods-for-change-detection-in-remote-sensing-images) -> Graph Learning Based on Signal Smoothness Representation for Homogeneous and Heterogeneous Change Detection
   
-  8.107. [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> code for 2023 paper: TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping. Uses the Amazon and Atlantic forest dataset
+  8.107. [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping. Uses the Amazon and Atlantic forest dataset
 
-  8.108. [AR-CDNet](https://github.com/guanyuezhen/AR-CDNet) -> code for 2023 paper: Towards Accurate and Reliable Change Detection of Remote Sensing Images via Knowledge Review and Online Uncertainty Estimation
+  8.108. [AR-CDNet](https://github.com/guanyuezhen/AR-CDNet) -> Towards Accurate and Reliable Change Detection of Remote Sensing Images via Knowledge Review and Online Uncertainty Estimation
 
-  8.109. [CICNet](https://github.com/ZhengJianwei2/CICNet) -> code for 2023 paper: Compact Intertemporal Coupling Network for Remote Sensing Change Detection
+  8.109. [CICNet](https://github.com/ZhengJianwei2/CICNet) -> Compact Intertemporal Coupling Network for Remote Sensing Change Detection
 
-  8.110. [BGINet](https://github.com/JackLiu-97/BGINet) -> code for 2023 [paper](https://arxiv.org/abs/2307.02007): Remote Sensing Image Change Detection with Graph Interaction
+  8.110. [BGINet](https://github.com/JackLiu-97/BGINet) -> Remote Sensing Image Change Detection with Graph Interaction
 
-  8.111. [DSNUNet](https://github.com/NightSongs/DSNUNet) -> code for 2022 paper: DSNUNet: An Improved Forest Change Detection Network by Combining Sentinel-1 and Sentinel-2 Images
+  8.111. [DSNUNet](https://github.com/NightSongs/DSNUNet) -> DSNUNet: An Improved Forest Change Detection Network by Combining Sentinel-1 and Sentinel-2 Images
 
-  8.112. [Forest-CD](https://github.com/NightSongs/Forest-CD) -> code for 2022 paper: Forest-CD: Forest Change Detection Network Based on VHR Images
+  8.112. [Forest-CD](https://github.com/NightSongs/Forest-CD) -> Forest-CD: Forest Change Detection Network Based on VHR Images
 
-  8.113. [S3Net_CD](https://github.com/OMEGA-RS/S3Net_CD) -> code for 2023 paper: Superpixel-Guided Self-Supervised Learning Network for Change Detection in Multitemporal Image Change Detection
+  8.113. [S3Net_CD](https://github.com/OMEGA-RS/S3Net_CD) -> Superpixel-Guided Self-Supervised Learning Network for Change Detection in Multitemporal Image Change Detection
 
-  8.114. [T-UNet](https://github.com/Pl-2000/T-UNet) -> code for 2023 paper: T-UNet: Triplet UNet for Change Detection in High-Resolution Remote Sensing Images
+  8.114. [T-UNet](https://github.com/Pl-2000/T-UNet) -> T-UNet: Triplet UNet for Change Detection in High-Resolution Remote Sensing Images
 
-  8.115. [UCDFormer](https://github.com/zhu-xlab/UCDFormer) -> code for 2023 paper: UCDFormer: Unsupervised Change Detection Using a Transformer-driven Image Translation
+  8.115. [UCDFormer](https://github.com/zhu-xlab/UCDFormer) -> UCDFormer: Unsupervised Change Detection Using a Transformer-driven Image Translation
 
-  8.116. [satellite-change-events](https://github.com/utkarshmall13/satellite-change-events) -> code for paper: Change Event Dataset for Discovery from Spatio-temporal Remote Sensing Imagery, uses Sentinel 2 CaiRoad & CalFire datasets
+  8.116. [satellite-change-events](https://github.com/utkarshmall13/satellite-change-events) -> Change Event Dataset for Discovery from Spatio-temporal Remote Sensing Imagery, uses Sentinel 2 CaiRoad & CalFire datasets
 
-  8.117. [CACo](https://github.com/utkarshmall13/CACo) -> code for paper: Change-Aware Sampling and Contrastive Learning for Satellite Images
+  8.117. [CACo](https://github.com/utkarshmall13/CACo) -> Change-Aware Sampling and Contrastive Learning for Satellite Images
 
-  8.118. [LightCDNet](https://github.com/NightSongs/LightCDNet) -> code for 2023 paper: LightCDNet: Lightweight Change Detection Network Based on VHR Images
+  8.118. [LightCDNet](https://github.com/NightSongs/LightCDNet) -> LightCDNet: Lightweight Change Detection Network Based on VHR Images
 
-  8.119. [OpenMineChangeDetection](https://github.com/Dibz15/OpenMineChangeDetection) -> code for thesis: Characterising Open Cast Mining from Satellite Data (Sentinel 2), implements TinyCD, LSNet & DDPM-CD
+  8.119. [OpenMineChangeDetection](https://github.com/Dibz15/OpenMineChangeDetection) -> Characterising Open Cast Mining from Satellite Data (Sentinel 2), implements TinyCD, LSNet & DDPM-CD
 
-  8.120. [multi-task-L-UNet](https://github.com/mpapadomanolaki/multi-task-L-UNet) -> code for 2021 paper: A Deep Multi-Task Learning Framework Coupling Semantic Segmentation and Fully Convolutional LSTM Networks for Urban Change Detection. Applied to SpaceNet7 dataset
+  8.120. [multi-task-L-UNet](https://github.com/mpapadomanolaki/multi-task-L-UNet) -> A Deep Multi-Task Learning Framework Coupling Semantic Segmentation and Fully Convolutional LSTM Networks for Urban Change Detection. Applied to SpaceNet7 dataset
 
-  8.121. [urban_change_detection](https://github.com/SebastianHafner/urban_change_detection) -> code for 2019 paper: Detecting Urban Changes With Recurrent Neural Networks From Multitemporal Sentinel-2 Data. [fabric](https://github.com/granularai/fabric) is another implementation
+  8.121. [urban_change_detection](https://github.com/SebastianHafner/urban_change_detection) -> Detecting Urban Changes With Recurrent Neural Networks From Multitemporal Sentinel-2 Data. [fabric](https://github.com/granularai/fabric) is another implementation
 
-  8.122. [UNetLSTM](https://github.com/mpapadomanolaki/UNetLSTM) -> code for 2019 paper: Detecting Urban Changes With Recurrent Neural Networks From Multitemporal Sentinel-2 Data
+  8.122. [UNetLSTM](https://github.com/mpapadomanolaki/UNetLSTM) -> Detecting Urban Changes With Recurrent Neural Networks From Multitemporal Sentinel-2 Data
 
   8.123. [SDACD](https://github.com/Perfect-You/SDACD) -> An End-to-end Supervised Domain Adaptation Framework for Cross-domain Change Detection
 
   8.124. [CycleGAN-Based-DA-for-CD](https://github.com/pjsoto/CycleGAN-Based-DA-for-CD) -> CycleGAN-based Domain Adaptation for Deforestation Detection
 
-  8.125. [CGNet-CD](https://github.com/ChengxiHAN/CGNet-CD) -> code for 2023 paper: Change Guiding Network: Incorporating Change Prior to Guide Change Detection in Remote Sensing Imagery
+  8.125. [CGNet-CD](https://github.com/ChengxiHAN/CGNet-CD) -> Change Guiding Network: Incorporating Change Prior to Guide Change Detection in Remote Sensing Imagery
 
-  8.126. [PA-Former](https://github.com/liumency/PA-Former) -> code for 2022 paper: PA-Former: Learning Prior-Aware Transformer for Remote Sensing Building Change Detection
+  8.126. [PA-Former](https://github.com/liumency/PA-Former) -> PA-Former: Learning Prior-Aware Transformer for Remote Sensing Building Change Detection
 
-  8.127. [AERNet](https://github.com/zjd1836/AERNet) -> code for 2023 paper: AERNet: An Attention-Guided Edge Refinement Network and a Dataset for Remote Sensing Building Change Detection (HRCUS-CD)
+  8.127. [AERNet](https://github.com/zjd1836/AERNet) -> AERNet: An Attention-Guided Edge Refinement Network and a Dataset for Remote Sensing Building Change Detection (HRCUS-CD)
 
-  8.128. [S1GFlood-Detection](https://github.com/Tamer-Saleh/S1GFlood-Detection) -> code for 2023 paper: DAM-Net: Global Flood Detection from SAR Imagery Using Differential Attention Metric-Based Vision Transformers. Includes S1GFloods dataset
+  8.128. [S1GFlood-Detection](https://github.com/Tamer-Saleh/S1GFlood-Detection) -> DAM-Net: Global Flood Detection from SAR Imagery Using Differential Attention Metric-Based Vision Transformers. Includes S1GFloods dataset
 
-  8.129. [Changen](https://github.com/Z-Zheng/Changen) -> code for 2023 paper: Scalable Multi-Temporal Remote Sensing Change Data Generation via Simulating Stochastic Change Process
+  8.129. [Changen](https://github.com/Z-Zheng/Changen) -> Scalable Multi-Temporal Remote Sensing Change Data Generation via Simulating Stochastic Change Process
 
-  8.130. [TTP](https://github.com/KyanChen/TTP) -> code for 2023 paper: Time Travelling Pixels: Bitemporal Features Integration with Foundation Model for Remote Sensing Image Change Detection
+  8.130. [TTP](https://github.com/KyanChen/TTP) -> Time Travelling Pixels: Bitemporal Features Integration with Foundation Model for Remote Sensing Image Change Detection
 
 #
 ## 9. Time series
@@ -2124,19 +2124,19 @@ The analysis of time series observations in remote sensing data has numerous app
 
   9.2. [temporalCNN](https://github.com/charlotte-pel/temporalCNN) -> Temporal Convolutional Neural Network for the Classification of Satellite Image Time Series
 
-  9.3. [pytorch-psetae](https://github.com/VSainteuf/pytorch-psetae) -> code for the paper: Satellite Image Time Series Classification with Pixel-Set Encoders and Temporal Self-Attention
+  9.3. [pytorch-psetae](https://github.com/VSainteuf/pytorch-psetae) -> Satellite Image Time Series Classification with Pixel-Set Encoders and Temporal Self-Attention
 
   9.4. [satflow](https://github.com/openclimatefix/satflow) -> optical flow models for predicting future satellite images from current and past ones
 
-  9.5. [esa-superresolution-forecasting](https://github.com/PiSchool/esa-superresolution-forecasting) -> Forecasting air pollution using ESA Sentinel-5p data, and an encoder-decoder convolutional LSTM neural network architecture, implemented in Pytorch
+  9.5. [esa-superresolution-forecasting](https://github.com/PiSchool/esa-superresolution-forecasting) -> Forecasting air pollution using ESA Sentinel-5p data, and an encoder-decoder convolutional LSTM neural network architecture
 
-  9.6. [lightweight-temporal-attention-pytorch](https://github.com/VSainteuf/lightweight-temporal-attention-pytorch) -> A PyTorch implementation of the Light Temporal Attention Encoder (L-TAE) for satellite image time series
+  9.6. [lightweight-temporal-attention-pytorch](https://github.com/VSainteuf/lightweight-temporal-attention-pytorch) -> Light Temporal Attention Encoder (L-TAE) for satellite image time series
 
   9.7. [dtwSat](https://github.com/vwmaus/dtwSat) -> Time-Weighted Dynamic Time Warping for satellite image time series analysis
 
-  9.8. [MTLCC](https://github.com/MarcCoru/MTLCC) -> code for paper: Multitemporal Land Cover Classification Network. A recurrent neural network approach to encode multi-temporal data for land cover classification
+  9.8. [MTLCC](https://github.com/MarcCoru/MTLCC) -> Multitemporal Land Cover Classification Network. A recurrent neural network approach to encode multi-temporal data for land cover classification
 
-  9.9. [PWWB](https://github.com/PannuMuthu/PWWB) -> Code for the 2021 [paper](https://link.springer.com/chapter/10.1007/978-3-030-71704-9_20): Real-Time Spatiotemporal Air Pollution Prediction with Deep Convolutional LSTM through Satellite Image Analysis
+  9.9. [PWWB](https://github.com/PannuMuthu/PWWB) -> Real-Time Spatiotemporal Air Pollution Prediction with Deep Convolutional LSTM through Satellite Image Analysis
 
   9.10. [spaceweather](https://github.com/sarttiso/spaceweather) -> predicting geomagnetic storms from satellite measurements of the solar wind and solar corona, uses LSTMs
 
@@ -2146,17 +2146,17 @@ The analysis of time series observations in remote sensing data has numerous app
 
   9.13. [dl-time-series](https://github.com/NexGenMap/dl-time-series) -> Deep Learning algorithms applied to characterization of Remote Sensing time-series
 
-  9.14. [tpe](https://github.com/jnyborg/tpe) -> code for 2022 [paper](https://openaccess.thecvf.com/content/CVPR2022W/EarthVision/html/Nyborg_Generalized_Classification_of_Satellite_Image_Time_Series_With_Thermal_Positional_CVPRW_2022_paper.html): Generalized Classification of Satellite Image Time Series With Thermal Positional Encoding
+  9.14. [tpe](https://github.com/jnyborg/tpe) -> Generalized Classification of Satellite Image Time Series With Thermal Positional Encoding
 
-  9.15. [wildfire_forecasting](https://github.com/Orion-AI-Lab/wildfire_forecasting) -> code for 2021 [paper](https://arxiv.org/abs/2111.02736): Deep Learning Methods for Daily Wildfire Danger Forecasting. Uses ConvLSTM
+  9.15. [wildfire_forecasting](https://github.com/Orion-AI-Lab/wildfire_forecasting) -> Deep Learning Methods for Daily Wildfire Danger Forecasting. Uses ConvLSTM
 
   9.16. [satellite_image_forecasting](https://github.com/rudolfwilliam/satellite_image_forecasting) -> predict future satellite images from past ones using features such as precipitation and elevation maps. Entry for the [EarthNet2021](https://www.earthnet.tech/) challenge
 
   9.17. [Deep Learning for Cloud Gap-Filling on Normalized Difference Vegetation Index using Sentinel Time-Series](https://github.com/Agri-Hub/Deep-Learning-for-Cloud-Gap-Filling-on-Normalized-Difference-Vegetation-Index) -> A CNN-RNN based model that identifies correlations between optical and SAR data and exports dense Normalized Difference Vegetation Index (NDVI) time-series of a static 6-day time resolution and can be used for Events Detection tasks
 
-  9.18. [DeepSatModels](https://github.com/michaeltrs/DeepSatModels) -> code for the 2023 [paper](https://arxiv.org/abs/2301.04944): ViTs for SITS: Vision Transformers for Satellite Image Time Series
+  9.18. [DeepSatModels](https://github.com/michaeltrs/DeepSatModels) -> ViTs for SITS: Vision Transformers for Satellite Image Time Series
 
-  9.19. [Presto](https://github.com/nasaharvest/presto) -> code for the 2023 [paper](https://arxiv.org/abs/2304.14065): Lightweight, Pre-trained Transformers for Remote Sensing Timeseries
+  9.19. [Presto](https://github.com/nasaharvest/presto) -> Lightweight, Pre-trained Transformers for Remote Sensing Timeseries
 
   9.20. [LULC mapping using time series data & spectral bands](https://github.com/developmentseed/time-series-for-lulc) -> uses 1D convolutions that learn from time-series data. Accompanies blog post: [Time-Traveling Pixels: A Journey into Land Use Modeling](https://developmentseed.org/blog/2023-06-29-time-travel-pixels)
 
@@ -2183,19 +2183,19 @@ Crop classification in remote sensing is the identification and mapping of diffe
 
   10.6. [CropMappingInterpretation](https://github.com/Lab-IDEAS/CropMappingInterpretation) -> An interpretation pipeline towards understanding multi-temporal deep learning approaches for crop mapping
 
-  10.7. [timematch](https://github.com/jnyborg/timematch) -> code for 2022 paper: A method to perform unsupervised cross-region adaptation of crop classifiers trained with satellite image time series. We also introduce an open-access dataset for cross-region adaptation with SITS from four different regions in Europe
+  10.7. [timematch](https://github.com/jnyborg/timematch) -> A method to perform unsupervised cross-region adaptation of crop classifiers trained with satellite image time series. We also introduce an open-access dataset for cross-region adaptation with SITS from four different regions in Europe
 
-  10.8. [elects](https://github.com/MarcCoru/elects) -> code for 2022 [paper](https://arxiv.org/abs/1901.10681): End-to-End Learned Early Classification of Time Series for In-Season Crop Type Mapping
+  10.8. [elects](https://github.com/MarcCoru/elects) -> End-to-End Learned Early Classification of Time Series for In-Season Crop Type Mapping
 
-  10.9. [3d-fpn-and-time-domain](https://gitlab.com/ignazio.gallo/sentinel-2-time-series-with-3d-fpn-and-time-domain-cai) -> code for 2021 paper: Sentinel 2 Time Series Analysis with 3D Feature Pyramid Network and Time Domain Class Activation Intervals for Crop Mapping
+  10.9. [3d-fpn-and-time-domain](https://gitlab.com/ignazio.gallo/sentinel-2-time-series-with-3d-fpn-and-time-domain-cai) -> Sentinel 2 Time Series Analysis with 3D Feature Pyramid Network and Time Domain Class Activation Intervals for Crop Mapping
 
-  10.10. [in-season-and-dynamic-crop-mapping](https://gitlab.com/artelabsuper/in-season-and-dynamic-crop-mapping) -> code for 2023 paper: In-season and dynamic crop mapping using 3D convolution neural networks and sentinel-2 time series, uses the Lombardy crop dataset
+  10.10. [in-season-and-dynamic-crop-mapping](https://gitlab.com/artelabsuper/in-season-and-dynamic-crop-mapping) -> In-season and dynamic crop mapping using 3D convolution neural networks and sentinel-2 time series, uses the Lombardy crop dataset
 
-  10.11. [MultiviewCropClassification](https://github.com/fmenat/MultiviewCropClassification) -> code for 2023 paper: A COMPARATIVE ASSESSMENT OF MULTI-VIEW FUSION LEARNING FOR CROP CLASSIFICATION
+  10.11. [MultiviewCropClassification](https://github.com/fmenat/MultiviewCropClassification) -> A COMPARATIVE ASSESSMENT OF MULTI-VIEW FUSION LEARNING FOR CROP CLASSIFICATION
 
   10.12. [Detection of manure application on crop fields leveraging satellite data and Machine Learning](https://github.com/Amatofrancesco99/master-thesis)
 
-  10.13. [StressNet: A spatial-spectral-temporal deformable attention-based framework for water stress classification in maize](https://github.com/tejasri19/Stressnet) -> Water Stress Classification on Multispectral data of Maize captured by UAV - [paper](https://www.frontiersin.org/articles/10.3389/fpls.2023.1241921/full)
+  10.13. [StressNet: A spatial-spectral-temporal deformable attention-based framework for water stress classification in maize](https://github.com/tejasri19/Stressnet) -> Water Stress Classification on Multispectral data of Maize captured by UAV
 
 #
 ## 11. Crop yield
@@ -2224,23 +2224,23 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
   11.8. [Advanced Deep Learning Techniques for Predicting Maize Crop Yield using Sentinel-2 Satellite Imagery](https://zionayomide.medium.com/advanced-deep-learning-techniques-for-predicting-maize-crop-yield-using-sentinel-2-satellite-1b63ac8b0789)
 
-  11.9. [pycrop-yield-prediction](https://github.com/gabrieltseng/pycrop-yield-prediction) -> A PyTorch Implementation of Jiaxuan You's Deep Gaussian Process for Crop Yield Prediction
+  11.9. [pycrop-yield-prediction](https://github.com/gabrieltseng/pycrop-yield-prediction) -> Deep Gaussian Process for Crop Yield Prediction
 
   11.10. [PredictYield](https://github.com/dberm312/PredictYield) -> using data scraped from Google Earth Engine, this predicts the yield of Corn, Soybean, and Wheat in the USA with Keras
 
-  11.11. [Crop-Yield-Prediction-and-Estimation-using-Time-series-remote-sensing-data](https://github.com/mahimatendulkar/Crop-Yield-Prediction-and-Estimation-using-Time-series-remote-sensing-data.) -> student research
+  11.11. [Crop-Yield-Prediction-and-Estimation-using-Time-series-remote-sensing-data](https://github.com/mahimatendulkar/Crop-Yield-Prediction-and-Estimation-using-Time-series-remote-sensing-data.)
 
   11.12. [Yield-Prediction-Using-Sentinel-Data](https://github.com/meet-sapu/Crop-Yield-Prediction-Using-Satellite-Imagery)
 
   11.13. [SPACY](https://github.com/rlee360/PLaTYPI) -> Satellite Prediction of Aggregate Corn Yield
 
-  11.14. [cropyieldArticle](https://github.com/myliheik/cropyieldArticle) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/17/4193): Scalable Crop Yield Prediction with Sentinel-2 Time Series and Temporal Convolutional Network
+  11.14. [cropyieldArticle](https://github.com/myliheik/cropyieldArticle) -> Scalable Crop Yield Prediction with Sentinel-2 Time Series and Temporal Convolutional Network
 
-  11.15. [CNN-RNN-Yield-Prediction](https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction) -> code for 2020 paper: A CNN-RNN Framework for Crop Yield Prediction
+  11.15. [CNN-RNN-Yield-Prediction](https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction) ->A CNN-RNN Framework for Crop Yield Prediction
 
-  11.16. [Yield-Prediction-DNN](https://github.com/saeedkhaki92/Yield-Prediction-DNN) -> code for paper: Crop Yield Prediction Using Deep Neural Networks
+  11.16. [Yield-Prediction-DNN](https://github.com/saeedkhaki92/Yield-Prediction-DNN) -> Crop Yield Prediction Using Deep Neural Networks
 
-  11.17. [MMST-ViT](https://github.com/fudong03/MMST-ViT) -> PyTorch Implementation of MMST-ViT: Climate Change-aware Crop Yield Prediction via Multi-Modal Spatial-Temporal Vision Transformer. This paper utilizes the Tiny CropNet dataset
+  11.17. [MMST-ViT](https://github.com/fudong03/MMST-ViT) -> MMST-ViT: Climate Change-aware Crop Yield Prediction via Multi-Modal Spatial-Temporal Vision Transformer. This paper utilizes the Tiny CropNet dataset
 
 #
 ## 12. Wealth and economic activity
@@ -2255,19 +2255,19 @@ The traditional approach of collecting economic data through ground surveys is a
 
   12.1. [Using publicly available satellite imagery and deep learning to understand economic well-being in Africa, Nature Comms 22 May 2020](https://www.nature.com/articles/s41467-020-16185-w) -> Used CNN on Ladsat imagery (night & day) to predict asset wealth of African villages
 
-  12.2. [Combining Satellite Imagery and machine learning to predict poverty](https://towardsdatascience.com/combining-satellite-imagery-and-machine-learning-to-predict-poverty-884e0e200969) -> review article
+  12.2. [satellite_led_liverpool](https://github.com/darribas/satellite_led_liverpool) ->  Remote Sensing-Based Measurement of Living Environment Deprivation - Improving Classical Approaches with Machine Learning
 
-  12.3. [Measuring Human and Economic Activity from Satellite Imagery to Support City-Scale Decision-Making during COVID-19 Pandemic](https://arxiv.org/abs/2004.07438) -> arxiv article
+  12.3. [Predicting_Energy_Consumption_With_Convolutional_Neural_Networks](https://github.com/healdz/Predicting_Energy_Consumption_With_Convolutional_Neural_Networks)
 
-  12.4. [Predicting Food Security Outcomes Using CNNs for Satellite Tasking](https://arxiv.org/pdf/1902.05433.pdf) -> arxiv article
+  12.4. [SustainBench](https://github.com/sustainlab-group/sustainbench/) -> Benchmarks for Monitoring the Sustainable Development Goals with Machine Learning
 
-  12.5. [Measuring the Impacts of Poverty Alleviation Programs with Satellite Imagery and Deep Learning](https://github.com/luna983/beyond-nightlight) -> code and paper
+  12.5. [Measuring the Impacts of Poverty Alleviation Programs with Satellite Imagery and Deep Learning](https://github.com/luna983/beyond-nightlight)
 
   12.6. [Building a Spatial Model to Classify Global Urbanity Levels](https://towardsdatascience.com/building-a-spatial-model-to-classify-global-urbanity-levels-e2fb9da7252) -> estimage global urbanity levels from population data, nightime lights and road networks
 
   12.7. [deeppop](https://deeppop.github.io/) -> Deep Learning Approach for Population Estimation from Satellite Imagery, also [on Github](https://github.com/deeppop)
 
-  12.8. [Estimating telecoms demand in areas of poor data availability](https://github.com/edwardoughton/taddle) -> with papers on [arxiv](https://arxiv.org/abs/2006.07311) and [Science Direct](https://www.sciencedirect.com/science/article/abs/pii/S0736585321000617)
+  12.8. [Estimating telecoms demand in areas of poor data availability](https://github.com/edwardoughton/taddle)
 
   12.9. [satimage](https://github.com/mani-shailesh/satimage) -> Code and models for the manuscript "Predicting Poverty and Developmental Statistics from Satellite Images using Multi-task Deep Learning". Predict the main material of a roof, source of lighting and source of drinking water for properties, from satellite imagery
 
@@ -2277,9 +2277,9 @@ The traditional approach of collecting economic data through ground surveys is a
 
   12.12. [income-prediction](https://github.com/tnarayanan/income-prediction) -> Predicting average yearly income based on satellite imagery using CNNs, uses pytorch
 
-  12.13. [urban_score](https://github.com/Sungwon-Han/urban_score) -> Pytorch Implementation of paper: Learning to score economic development from satellite imagery
+  12.13. [urban_score](https://github.com/Sungwon-Han/urban_score) -> Learning to score economic development from satellite imagery
 
-  12.14. [READ](https://github.com/Sungwon-Han/READ) -> Pytorch Implementation of paper: Lightweight and robust representation of economic scales from satellite imagery
+  12.14. [READ](https://github.com/Sungwon-Han/READ) -> Lightweight and robust representation of economic scales from satellite imagery
 
   12.15. [Slum-classification](https://github.com/Jesse-DE/Slum-classification) -> Binary classification on a very high-resolution satellite image in case of mapping informal settlements using unet
 
@@ -2291,13 +2291,7 @@ The traditional approach of collecting economic data through ground surveys is a
 
   12.19. [Population Estimation from Satellite Imagery](https://github.com/ManuelSerranoR/Population-Estimation-from-Satellite-Imagery-using-Deep-Learning)
 
-  12.20. [Deep_Learning_Satellite_Imd](https://github.com/surendran-berkeley/Deep_Learning_Satellite_Imd) -> code for "Project Bhoomi" - Using Deep Learning on Satellite Imagery to predict population and economic indicators
-
-  12.21. [satellite_led_liverpool](https://github.com/darribas/satellite_led_liverpool) -> code for 2017 paper: Remote Sensing-Based Measurement of Living Environment Deprivation - Improving Classical Approaches with Machine Learning
-
-  12.22. [Predicting_Energy_Consumption_With_Convolutional_Neural_Networks](https://github.com/healdz/Predicting_Energy_Consumption_With_Convolutional_Neural_Networks)
-
-  12.23. [SustainBench](https://github.com/sustainlab-group/sustainbench/) -> Benchmarks for Monitoring the Sustainable Development Goals with Machine Learning
+  12.20. [Deep_Learning_Satellite_Imd](https://github.com/surendran-berkeley/Deep_Learning_Satellite_Imd) -> Using Deep Learning on Satellite Imagery to predict population and economic indicators
 
 #
 ## 13. Disaster response
@@ -2326,11 +2320,11 @@ Remote sensing images are used in disaster response to identify and assess damag
 
   13.8. [Disaster-Classification](https://github.com/bostankhan6/Disaster-Classification) -> A disaster classification model to predict the type of disaster given an input image
 
-  13.9. [Coarse-to-fine weakly supervised learning method for green plastic cover segmentation](https://github.com/lauraset/Coarse-to-fine-weakly-supervised-GPC-segmentation) -> with [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271622001095)
+  13.9. [Coarse-to-fine weakly supervised learning method for green plastic cover segmentation](https://github.com/lauraset/Coarse-to-fine-weakly-supervised-GPC-segmentation)
 
   13.10. [Detection of destruction in satellite imagery](https://github.com/usmanali414/Destruction-Detection-in-Satellite-Imagery)
 
-  13.11. [BDD-Net](https://github.com/jinyuan30/Recognize-damaged-buildings) -> code for 2020 paper: A General Protocol for Mapping Buildings Damaged by a Wide Range of Disasters Based on Satellite Imagery
+  13.11. [BDD-Net](https://github.com/jinyuan30/Recognize-damaged-buildings) -> A General Protocol for Mapping Buildings Damaged by a Wide Range of Disasters Based on Satellite Imagery
 
   13.12. [building-segmentation-disaster-resilience](https://github.com/kbrodt/building-segmentation-disaster-resilience) -> 2nd place solution in the Open Cities AI Challenge: Segmenting Buildings for Disaster Resilience
 
@@ -2342,7 +2336,7 @@ Remote sensing images are used in disaster response to identify and assess damag
 
   13.16. [Hurricane-Damage-Detection](https://github.com/Ryan-Awad/Hurricane-Damage-Detection) -> Waterloo's Hack the North 2020++ submission. A convolutional neural network model used to detect hurricane damage in RGB satellite images
 
-  13.17. [wildfire_forecasting](https://github.com/Orion-AI-Lab/wildfire_forecasting) -> code for 2021 [paper](https://arxiv.org/abs/2111.02736): Deep Learning Methods for Daily Wildfire Danger Forecasting. Uses ConvLSTM
+  13.17. [wildfire_forecasting](https://github.com/Orion-AI-Lab/wildfire_forecasting) -> Deep Learning Methods for Daily Wildfire Danger Forecasting. Uses ConvLSTM
 
   13.18. [Satellite Image Analysis with fast.ai for Disaster Recovery](https://appsilon.com/satellite-image-analysis-with-fast-ai-for-disaster-recovery/)
 
@@ -2354,9 +2348,9 @@ Remote sensing images are used in disaster response to identify and assess damag
 
   13.22. [Turkey-Earthquake-2023-Building-Change-Detection](https://github.com/blackshark-ai/Turkey-Earthquake-2023-Building-Change-Detection) -> The repository contains building footprints derived from Maxar open data imagery and change detection results by blackshark-ai
 
-  13.23. [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> code for 2022 paper: MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
+  13.23. [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
 
-  13.24. [DAHiTra](https://github.com/nka77/DAHiTra) -> code for 2022 [paper](https://arxiv.org/abs/2208.02205): Large-scale Building Damage Assessment using a Novel Hierarchical Transformer Architecture on Satellite Images. Uses xView2 xBD dataset
+  13.24. [DAHiTra](https://github.com/nka77/DAHiTra) -> Large-scale Building Damage Assessment using a Novel Hierarchical Transformer Architecture on Satellite Images. Uses xView2 xBD dataset
 
 #
 ## 14. Super-resolution
@@ -2374,9 +2368,9 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.1.1. [deepsum](https://github.com/diegovalsesia/deepsum) -> Deep neural network for Super-resolution of Unregistered Multitemporal images (ESA PROBA-V challenge)
 
-  14.1.2. [3DWDSRNet](https://github.com/frandorr/3DWDSRNet) -> code to reproduce Satellite Image Multi-Frame Super Resolution (MISR) Using 3D Wide-Activation Neural Networks
+  14.1.2. [3DWDSRNet](https://github.com/frandorr/3DWDSRNet) -> Satellite Image Multi-Frame Super Resolution (MISR) Using 3D Wide-Activation Neural Networks
 
-  14.1.3. [RAMS](https://github.com/EscVM/RAMS) -> Official TensorFlow code for paper Multi-Image Super Resolution of Remotely Sensed Images Using Residual Attention Deep Neural Networks
+  14.1.3. [RAMS](https://github.com/EscVM/RAMS) -> Multi-Image Super Resolution of Remotely Sensed Images Using Residual Attention Deep Neural Networks
 
   14.1.4. [TR-MISR](https://github.com/Suanmd/TR-MISR) ->  Transformer-based MISR framework for the the PROBA-V super-resolution challenge. With [paper](https://ieeexplore.ieee.org/abstract/document/9684717)
 
@@ -2396,7 +2390,7 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.1.12. [MISR-GRU](https://github.com/rarefin/MISR-GRU) -> Pytorch implementation of MISR-GRU, a deep neural network for multi image super-resolution (MISR), for ProbaV Super Resolution Competition
 
-  14.1.13. [MSDTGP](https://github.com/XY-boy/MSDTGP) -> code for 2021 paper: Satellite Video Super-Resolution via Multiscale Deformable Convolution Alignment and Temporal Grouping Projection
+  14.1.13. [MSDTGP](https://github.com/XY-boy/MSDTGP) -> Satellite Video Super-Resolution via Multiscale Deformable Convolution Alignment and Temporal Grouping Projection
 
   14.1.14. [proba-v-super-resolution-challenge](https://github.com/cedricoeldorf/proba-v-super-resolution-challenge) -> Solution to ESA's satellite imagery super resolution challenge
 
@@ -2420,7 +2414,7 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.2.6. [super-resolution-using-gan](https://github.com/saraivaufc/super-resolution-using-gan) -> Super-Resolution of Sentinel-2 Using Generative Adversarial Networks
 
-  14.2.7. [Super-resolution of Multispectral Satellite Images Using Convolutional Neural Networks](https://up42.com/blog/tech/super-resolution-of-multispectral-satellite-images-using-convolutional) with [paper](https://arxiv.org/abs/2002.00580)
+  14.2.7. [Super-resolution of Multispectral Satellite Images Using Convolutional Neural Networks](https://up42.com/blog/tech/super-resolution-of-multispectral-satellite-images-using-convolutional)
 
   14.2.8. [Multi-temporal Super-Resolution on Sentinel-2 Imagery](https://medium.com/sentinel-hub/multi-temporal-super-resolution-on-sentinel-2-imagery-6089c2b39ebc) using HighRes-Net, [repo](https://github.com/sentinel-hub/multi-temporal-super-resolution)
 
@@ -2428,7 +2422,7 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.2.10. [Sentinel-2 Super-Resolution: High Resolution For All (Bands)](https://up42.com/blog/tech/sentinel-2-superresolution)
 
-  14.2.11. [CinCGAN](https://github.com/Junshk/CinCGAN-pytorch) -> Unofficial Implementation of [Unsupervised Image Super-Resolution using Cycle-in-Cycle Generative Adversarial Networks](https://arxiv.org/abs/1809.00437)
+  14.2.11. [CinCGAN](https://github.com/Junshk/CinCGAN-pytorch) -> Unsupervised Image Super-Resolution using Cycle-in-Cycle Generative Adversarial Networks
 
   14.2.12. [Satellite-image-SRGAN using PyTorch](https://github.com/xjohnxjohn/Satellite-image-SRGAN)
 
@@ -2442,33 +2436,33 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.2.17. [Restoring old aerial images with Deep Learning](https://towardsdatascience.com/restoring-old-aerial-images-with-deep-learning-60f0cfd2658) -> Medium article on Super Resolution with Perceptual Loss function and real images as input
 
-  14.2.18. [RFSR_TGRS](https://github.com/wxywhu/RFSR_TGRS) -> code for the paper Hyperspectral Image Super-Resolution via Recurrent Feedback Embedding and Spatial-Spectral Consistency Regularization
+  14.2.18. [RFSR_TGRS](https://github.com/wxywhu/RFSR_TGRS) -> Hyperspectral Image Super-Resolution via Recurrent Feedback Embedding and Spatial-Spectral Consistency Regularization
 
   14.2.19. [SEN2VENµS](https://zenodo.org/record/6514159#.YoRxM5PMK3I) -> a dataset for the training of Sentinel-2 super-resolution algorithms. With [paper](https://www.mdpi.com/2306-5729/7/7/96)
 
-  14.2.20. [TransENet](https://github.com/Shaosifan/TransENet) -> code for 2021 paper: Transformer-based Multi-Stage Enhancement for Remote Sensing Image Super-Resolution
+  14.2.20. [TransENet](https://github.com/Shaosifan/TransENet) -> Transformer-based Multi-Stage Enhancement for Remote Sensing Image Super-Resolution
 
-  14.2.21. [SG-FBGAN](https://github.com/hanlinwu/SG-FBGAN) -> code for 2020 paper: Remote Sensing Image Super-Resolution via Saliency-Guided Feedback GANs
+  14.2.21. [SG-FBGAN](https://github.com/hanlinwu/SG-FBGAN) -> Remote Sensing Image Super-Resolution via Saliency-Guided Feedback GANs
 
   14.2.22. [finetune_ESRGAN](https://github.com/johnjaniczek/finetune_ESRGAN) -> finetune the ESRGAN super resolution generator for remote sensing images and video
 
-  14.2.23. [MIP](https://github.com/jiaming-wang/MIP) -> code for 2021 [paper](https://arxiv.org/abs/2105.03579): Unsupervised Remote Sensing Super-Resolution via Migration Image Prior
+  14.2.23. [MIP](https://github.com/jiaming-wang/MIP) -> Unsupervised Remote Sensing Super-Resolution via Migration Image Prior
 
-  14.2.24. [Optical-RemoteSensing-Image-Resolution](https://github.com/wenjiaXu/Optical-RemoteSensing-Image-Resolution) -> code for 2018 [paper](https://www.mdpi.com/2072-4292/10/12/1893): Deep Memory Connected Neural Network for Optical Remote Sensing Image Restoration. Two applications: Gaussian image denoising and single image super-resolution
+  14.2.24. [Optical-RemoteSensing-Image-Resolution](https://github.com/wenjiaXu/Optical-RemoteSensing-Image-Resolution) -> Deep Memory Connected Neural Network for Optical Remote Sensing Image Restoration. Two applications: Gaussian image denoising and single image super-resolution
 
-  14.2.25. [HSENet](https://github.com/Shaosifan/HSENet) -> code for 2021 paper: Hybrid-Scale Self-Similarity Exploitation for Remote Sensing Image Super-Resolution
+  14.2.25. [HSENet](https://github.com/Shaosifan/HSENet) -> Hybrid-Scale Self-Similarity Exploitation for Remote Sensing Image Super-Resolution
 
   14.2.26. [SR_RemoteSensing](https://github.com/Jing25/SR_RemoteSensing) -> Super-Resolution deep learning models for remote sensing data based on [BasicSR](https://github.com/XPixelGroup/BasicSR)
 
-  14.2.27. [RSI-Net](https://github.com/EricBrock/RSI-Net) -> code for 2022 paper: A Deep Multi-task Convolutional Neural Network for Remote Sensing Image Super-resolution and Colorization
+  14.2.27. [RSI-Net](https://github.com/EricBrock/RSI-Net) -> A Deep Multi-task Convolutional Neural Network for Remote Sensing Image Super-resolution and Colorization
 
   14.2.28. [EDSR-Super-Resolution](https://github.com/RakeshRaj97/EDSR-Super-Resolution) -> EDSR model using PyTorch applied to satellite imagery
 
-  14.2.29. [CycleCNN](https://github.com/haopzhang/CycleCNN) -> code for 2021 [paper](https://ieeexplore.ieee.org/abstract/document/9151194): Nonpairwise-Trained Cycle Convolutional Neural Network for Single Remote Sensing Image Super-Resolution
+  14.2.29. [CycleCNN](https://github.com/haopzhang/CycleCNN) -> Nonpairwise-Trained Cycle Convolutional Neural Network for Single Remote Sensing Image Super-Resolution
 
-  14.2.30. [SISR with with Real-World Degradation Modeling](https://github.com/zhangjizhou-bit/Single-image-Super-Resolution-of-Remote-Sensing-Images-with-Real-World-Degradation-Modeling) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/12/2895): Single-Image Super Resolution of Remote Sensing Images with Real-World Degradation Modeling
+  14.2.30. [SISR with with Real-World Degradation Modeling](https://github.com/zhangjizhou-bit/Single-image-Super-Resolution-of-Remote-Sensing-Images-with-Real-World-Degradation-Modeling) -> Single-Image Super Resolution of Remote Sensing Images with Real-World Degradation Modeling
 
-  14.2.31. [pixel-smasher](https://github.com/ekcomputer/pixel-smasher) -> code for 2020 [paper](https://www.tandfonline.com/doi/abs/10.1080/07038992.2021.1924646?journalCode=ujrs20): Super-Resolution Surface Water Mapping on the Canadian Shield Using Planet CubeSat Images and a Generative Adversarial Network
+  14.2.31. [pixel-smasher](https://github.com/ekcomputer/pixel-smasher) -> Super-Resolution Surface Water Mapping on the Canadian Shield Using Planet CubeSat Images and a Generative Adversarial Network
 
   14.2.32. [satellite-image-super-resolution](https://github.com/farahmand-m/satellite-image-super-resolution) -> A Comparative Study on CNN-Based Single-Image Super-Resolution Techniques for Satellite Images
 
@@ -2482,15 +2476,15 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.2.37. [Super resolution using GAN / 4x Improvement](https://github.com/purijs/satellite-superresolution) -> applied to Sentinel 2
 
-  14.2.38. [rs-esrgan](https://github.com/luissalgueiro/rs-esrgan) -> code for paper: RS-ESRGAN: Super-Resolution of Sentinel-2 Imagery Using Generative Adversarial Networks
+  14.2.38. [rs-esrgan](https://github.com/luissalgueiro/rs-esrgan) -> RS-ESRGAN: Super-Resolution of Sentinel-2 Imagery Using Generative Adversarial Networks
 
-  14.2.39. [TS-RSGAN](https://github.com/yicrane/TS-RSGAN) -> code for [paper](https://www.mdpi.com/2079-9292/11/21/3474): Super-Resolution of Remote Sensing Images for ×4 Resolution without Reference Images. Applied to Sentinel-2
+  14.2.39. [TS-RSGAN](https://github.com/yicrane/TS-RSGAN) -> Super-Resolution of Remote Sensing Images for ×4 Resolution without Reference Images. Applied to Sentinel-2
 
-  14.2.40. [CDCR](https://github.com/Suanmd/CDCR) -> code for 2023 paper: Combining Discrete and Continuous Representation: Scale-Arbitrary Super-Resolution for Satellite Images
+  14.2.40. [CDCR](https://github.com/Suanmd/CDCR) -> Combining Discrete and Continuous Representation: Scale-Arbitrary Super-Resolution for Satellite Images
 
-  14.2.41. [FunSR](https://github.com/KyanChen/FunSR) -> code for 2023 paper: Continuous Remote Sensing Image Super-Resolution based on Context Interaction in Implicit Function Space
+  14.2.41. [FunSR](https://github.com/KyanChen/FunSR) -> cContinuous Remote Sensing Image Super-Resolution based on Context Interaction in Implicit Function Space
 
-  14.2.42. [HAUNet_RSISR](https://github.com/likakakaka/HAUNet_RSISR) -> code for 2023 paper: Hybrid Attention-Based U-Shaped Network for Remote Sensing Image Super-Resolution
+  14.2.42. [HAUNet_RSISR](https://github.com/likakakaka/HAUNet_RSISR) -> Hybrid Attention-Based U-Shaped Network for Remote Sensing Image Super-Resolution
 
 ### 14.3. Super-resolution - Miscellaneous
 
@@ -2510,7 +2504,7 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.3.8. [AI-based Super resolution and change detection to enforce Sentinel-2 systematic usage](https://medium.com/@sistema_gmbh/ai-based-super-resolution-and-change-detection-to-enforce-sentinel-2-systematic-usage-65aa37d0365) -> Worldview-2 images (2m) were used to create a reference dataset and increase the spatial resolution of the Copernicus sensor from 10m to 5m
 
-  14.3.9. [SRCDNet](https://github.com/liumency/SRCDNet) -> The pytorch implementation for "Super-resolution-based Change Detection Network with Stacked Attention Module for Images with Different Resolutions ". SRCDNet is designed to learn and predict change maps from bi-temporal images with different resolutions
+  14.3.9. [SRCDNet](https://github.com/liumency/SRCDNet) -> Super-resolution-based Change Detection Network with Stacked Attention Module for Images with Different Resolutions. SRCDNet is designed to learn and predict change maps from bi-temporal images with different resolutions
 
   14.3.10. [Model-Guided Deep Hyperspectral Image Super-resolution](https://github.com/chengerr/Model-Guided-Deep-Hyperspectral-Image-Super-resolution) -> code accompanying the paper: Model-Guided Deep Hyperspectral Image Super-Resolution
 
@@ -2526,13 +2520,13 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
   14.3.16. [MMSR](https://github.com/palmdong/MMSR) -> Learning Mutual Modulation for Self-Supervised Cross-Modal Super-Resolution
 
-  14.3.17. [HSRnet](https://github.com/liangjiandeng/HSRnet) -> code for the 2021 [paper](https://arxiv.org/abs/2005.14400): Hyperspectral Image Super-resolution via Deep Spatio-spectral Attention Convolutional Neural Networks
+  14.3.17. [HSRnet](https://github.com/liangjiandeng/HSRnet) -> Hyperspectral Image Super-resolution via Deep Spatio-spectral Attention Convolutional Neural Networks
 
-  14.3.18. [RRSGAN](https://github.com/dongrunmin/RRSGAN) -> code for 2021 paper: RRSGAN: Reference-Based Super-Resolution for Remote Sensing Image
+  14.3.18. [RRSGAN](https://github.com/dongrunmin/RRSGAN) -> RRSGAN: Reference-Based Super-Resolution for Remote Sensing Image
 
-  14.3.19. [HDR-DSP-SR](https://github.com/centreborelli/HDR-DSP-SR) -> code for 2021 paper: Self-supervised multi-image super-resolution for push-frame satellite images
+  14.3.19. [HDR-DSP-SR](https://github.com/centreborelli/HDR-DSP-SR) -> Self-supervised multi-image super-resolution for push-frame satellite images
 
-  14.3.20. [GAN-HSI-SR](https://github.com/ZhuangChen25674/GAN-HSI-SR) -> code for 2020 paper: Hyperspectral Image Super-Resolution by Band Attention Through Adversarial Learning
+  14.3.20. [GAN-HSI-SR](https://github.com/ZhuangChen25674/GAN-HSI-SR) -> Hyperspectral Image Super-Resolution by Band Attention Through Adversarial Learning
 
   14.3.21. [Restoring old aerial images with Deep Learning](https://towardsdatascience.com/restoring-old-aerial-images-with-deep-learning-60f0cfd2658) -> Medium article Super Resolution with Perceptual Loss function and real images as input
 
@@ -2549,7 +2543,7 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
 
   15.1. Several algorithms described [in the ArcGIS docs](http://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/fundamentals-of-panchromatic-sharpening.htm), with the simplest being taking the mean of the pan and RGB pixel value.
 
-  15.2. [PGCU](https://github.com/Zeyu-Zhu/PGCU) -> code for 2023 paper: Probability-based Global Cross-modal Upsampling for Pansharpening
+  15.2. [PGCU](https://github.com/Zeyu-Zhu/PGCU) -> Probability-based Global Cross-modal Upsampling for Pansharpening
 
   15.3. [rio-pansharpen](https://github.com/mapbox/rio-pansharpen) -> pansharpening Landsat scenes
 
@@ -2557,11 +2551,11 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
 
   15.5. [Working-For-Pansharpening](https://github.com/yuanmaoxun/Working-For-Pansharpening) -> long list of pansharpening methods and update of [Awesome-Pansharpening](https://github.com/Lihui-Chen/Awesome-Pansharpening)
 
-  15.6. [PSGAN](https://github.com/liuqingjie/PSGAN) -> A Generative Adversarial Network for Remote Sensing Image Pan-sharpening, [arxiv paper](https://arxiv.org/abs/1805.03371)
+  15.6. [PSGAN](https://github.com/liuqingjie/PSGAN) -> A Generative Adversarial Network for Remote Sensing Image Pan-sharpening
 
   15.7. [Pansharpening-by-Convolutional-Neural-Network](https://github.com/ThomasWangWeiHong/Pansharpening-by-Convolutional-Neural-Network)
 
-  15.8. [PBR_filter](https://github.com/dbuscombe-usgs/PBR_filter) -> {P}ansharpening by {B}ackground {R}emoval algorithm for sharpening RGB images
+  15.8. [PBR_filter](https://github.com/dbuscombe-usgs/PBR_filter) -> Pansharpening by Background Removal algorithm for sharpening RGB images
 
   15.9. [py_pansharpening](https://github.com/codegaj/py_pansharpening) -> multiple algorithms implemented in python
 
@@ -2571,17 +2565,17 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
 
   15.12. [DIP-HyperKite](https://github.com/wgcban/DIP-HyperKite) -> Hyperspectral Pansharpening Based on Improved Deep Image Prior and Residual Reconstruction
 
-  15.13. [D2TNet](https://github.com/Meiqi-Gong/D2TNet) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9761261): A ConvLSTM Network with Dual-direction Transfer for Pan-sharpening
+  15.13. [D2TNet](https://github.com/Meiqi-Gong/D2TNet) -> A ConvLSTM Network with Dual-direction Transfer for Pan-sharpening
 
-  15.14. [PanColorGAN-VHR-Satellite-Images](https://github.com/esertel/PanColorGAN-VHR-Satellite-Images) -> code for 2020 [paper](https://arxiv.org/abs/2006.16644): Rethinking CNN-Based Pansharpening: Guided Colorization of Panchromatic Images via GANs
+  15.14. [PanColorGAN-VHR-Satellite-Images](https://github.com/esertel/PanColorGAN-VHR-Satellite-Images) -> Rethinking CNN-Based Pansharpening: Guided Colorization of Panchromatic Images via GANs
 
-  15.15. [MTL_PAN_SEG](https://github.com/andrewekhalel/MTL_PAN_SEG) -> code for 2019 paper: Multi-task deep learning for satellite image pansharpening and segmentation
+  15.15. [MTL_PAN_SEG](https://github.com/andrewekhalel/MTL_PAN_SEG) -> Multi-task deep learning for satellite image pansharpening and segmentation
 
-  15.16. [Z-PNN](https://github.com/matciotola/Z-PNN) -> code for 2022 paper: Pansharpening by convolutional neural networks in the full resolution framework
+  15.16. [Z-PNN](https://github.com/matciotola/Z-PNN) -> Pansharpening by convolutional neural networks in the full resolution framework
 
-  15.17. [GTP-PNet](https://github.com/HaoZhang1018/GTP-PNet) -> code for 2021 [paper](https://www.sciencedirect.com/science/article/abs/pii/S092427162030352X): GTP-PNet: A residual learning network based on gradient transformation prior for pansharpening
+  15.17. [GTP-PNet](https://github.com/HaoZhang1018/GTP-PNet) -> GTP-PNet: A residual learning network based on gradient transformation prior for pansharpening
 
-  15.18. [UDL](https://github.com/XiaoXiao-Woo/UDL) -> code for 2021 paper: Dynamic Cross Feature Fusion for Remote Sensing Pansharpening
+  15.18. [UDL](https://github.com/XiaoXiao-Woo/UDL) -> Dynamic Cross Feature Fusion for Remote Sensing Pansharpening
 
   15.19. [PSData](https://github.com/yisun98/PSData) -> A Large-Scale General Pan-sharpening DataSet, which contains PSData3 (QB, GF-2, WV-3) and PSData4 (QB, GF-1, GF-2, WV-2).
 
@@ -2589,27 +2583,27 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
 
   15.21. [pan-sharpening](https://github.com/yisun98/pan-sharpening) -> multiple methods demonstrated for multispectral and panchromatic images
 
-  15.22. [PSGan-Family](https://github.com/zhysora/PSGan-Family) -> code for 2020 paper: PSGAN: A Generative Adversarial Network for Remote Sensing Image Pan-Sharpening
+  15.22. [PSGan-Family](https://github.com/zhysora/PSGan-Family) -> PSGAN: A Generative Adversarial Network for Remote Sensing Image Pan-Sharpening
 
-  15.23. [PanNet-Landsat](https://github.com/oyam/PanNet-Landsat) -> code for 2017 paper: A Deep Network Architecture for Pan-Sharpening
+  15.23. [PanNet-Landsat](https://github.com/oyam/PanNet-Landsat) -> A Deep Network Architecture for Pan-Sharpening
 
-  15.24. [DLPan-Toolbox](https://github.com/liangjiandeng/DLPan-Toolbox) -> code for 2022 paper: Machine Learning in Pansharpening: A Benchmark, from Shallow to Deep Networks
+  15.24. [DLPan-Toolbox](https://github.com/liangjiandeng/DLPan-Toolbox) ->  Machine Learning in Pansharpening: A Benchmark, from Shallow to Deep Networks
 
-  15.25. [LPPN](https://github.com/ChengJin-git/LPPN) -> code for 2021 [paper](https://www.sciencedirect.com/science/article/abs/pii/S1566253521001809): Laplacian pyramid networks: A new approach for multispectral pansharpening
+  15.25. [LPPN](https://github.com/ChengJin-git/LPPN) -> Laplacian pyramid networks: A new approach for multispectral pansharpening
 
-  15.26. [S2_SSC_CNN](https://github.com/hvn2/S2_SSC_CNN) -> code for 2020 paper: Zero-shot Sentinel-2 Sharpening Using A Symmetric Skipped Connection Convolutional Neural Network
+  15.26. [S2_SSC_CNN](https://github.com/hvn2/S2_SSC_CNN) -> Zero-shot Sentinel-2 Sharpening Using A Symmetric Skipped Connection Convolutional Neural Network
 
-  15.27. [S2S_UCNN](https://github.com/hvn2/S2S_UCNN) -> code for 2021 paper: Sentinel 2 sharpening using a single unsupervised convolutional neural network with MTF-Based degradation model
+  15.27. [S2S_UCNN](https://github.com/hvn2/S2S_UCNN) -> Sentinel 2 sharpening using a single unsupervised convolutional neural network with MTF-Based degradation model
 
-  15.28. [SSE-Net](https://github.com/RSMagneto/SSE-Net) -> code for 2022 paper: Spatial and Spectral Extraction Network With Adaptive Feature Fusion for Pansharpening
+  15.28. [SSE-Net](https://github.com/RSMagneto/SSE-Net) -> Spatial and Spectral Extraction Network With Adaptive Feature Fusion for Pansharpening
 
-  15.29. [UCGAN](https://github.com/zhysora/UCGAN) -> code for 2022 paper: Unsupervised Cycle-consistent Generative Adversarial Networks for Pan-sharpening
+  15.29. [UCGAN](https://github.com/zhysora/UCGAN) -> Unsupervised Cycle-consistent Generative Adversarial Networks for Pan-sharpening
 
-  15.30. [GCPNet](https://github.com/Keyu-Yan/GCPNet) -> code for 2022 paper: When Pansharpening Meets Graph Convolution Network and Knowledge Distillation
+  15.30. [GCPNet](https://github.com/Keyu-Yan/GCPNet) -> When Pansharpening Meets Graph Convolution Network and Knowledge Distillation
 
-  15.31. [PanFormer](https://github.com/zhysora/PanFormer) -> code for 2022 [paper](https://arxiv.org/abs/2203.02916): PanFormer: a Transformer Based Model for Pan-sharpening
+  15.31. [PanFormer](https://github.com/zhysora/PanFormer) -> PanFormer: a Transformer Based Model for Pan-sharpening
 
-  15.32. [Pansharpening](https://github.com/nithin-gr/Pansharpening) -> code for 2021 [paper](https://www.researchgate.net/publication/356974466_Pansformers_Transformer-Based_Self-Attention_Network_for_Pansharpening): Pansformers: Transformer-Based Self-Attention Network for Pansharpening
+  15.32. [Pansharpening](https://github.com/nithin-gr/Pansharpening) -> Pansformers: Transformer-Based Self-Attention Network for Pansharpening
 
   15.33. [Sentinel-2 Band Pan-Sharpening](https://github.com/purijs/Sentinel-2-Superresolution)
 
@@ -2656,7 +2650,7 @@ Image-to-image translation is a crucial aspect of computer vision that utilizes 
 
   16.16. [pix2pix-GANs](https://github.com/shashi7679/pix2pix-GANs) -> Generate Map using Satellite Image & PyTorch
 
-  16.17. [map-sat](https://github.com/miquel-espinosa/map-sat) -> code for 2023 paper: Generate Your Own Scotland: Satellite Image Generation Conditioned on Maps
+  16.17. [map-sat](https://github.com/miquel-espinosa/map-sat) -> Generate Your Own Scotland: Satellite Image Generation Conditioned on Maps
 
 #
 ## 17. Data fusion
@@ -2679,15 +2673,15 @@ Data fusion is a technique for combining information from different sources such
 
   17.5. [Aerial-Template-Matching](https://github.com/m-hamza-mughal/Aerial-Template-Matching) -> development of an algorithm for template Matching on aerial imagery applied to UAV dataset
 
-  17.6. [DS_UNet](https://github.com/SebastianHafner/DS_UNet) -> code for 2021 paper: Sentinel-1 and Sentinel-2 Data Fusion for Urban Change Detection using a Dual Stream U-Net, uses Onera Satellite Change Detection dataset
+  17.6. [DS_UNet](https://github.com/SebastianHafner/DS_UNet) -> Sentinel-1 and Sentinel-2 Data Fusion for Urban Change Detection using a Dual Stream U-Net, uses Onera Satellite Change Detection dataset
 
   17.7. [DDA_UrbanExtraction](https://github.com/SebastianHafner/DDA_UrbanExtraction) -> Unsupervised Domain Adaptation for Global Urban Extraction using Sentinel-1 and Sentinel-2 Data
 
-  17.8. [swinstfm](https://github.com/LouisChen0104/swinstfm) -> code for paper: Remote Sensing Spatiotemporal Fusion using Swin Transformer
+  17.8. [swinstfm](https://github.com/LouisChen0104/swinstfm) -> Remote Sensing Spatiotemporal Fusion using Swin Transformer
 
-  17.9. [LoveCS](https://github.com/Junjue-Wang/LoveCS) -> code for 2022 [paper](https://www.researchgate.net/publication/360484883_Cross-sensor_domain_adaptation_for_high_spatial_resolution_urban_land-cover_mapping_From_airborne_to_spaceborne_imagery): Cross-sensor domain adaptation for high-spatial resolution urban land-cover mapping: from airborne to spaceborne imagery
+  17.9. [LoveCS](https://github.com/Junjue-Wang/LoveCS) -> Cross-sensor domain adaptation for high-spatial resolution urban land-cover mapping: from airborne to spaceborne imagery
 
-  17.10. [comingdowntoearth](https://github.com/aysim/comingdowntoearth) -> code for 2021 paper: Implementation of 'Coming Down to Earth: Satellite-to-Street View Synthesis for Geo-Localization'
+  17.10. [comingdowntoearth](https://github.com/aysim/comingdowntoearth) -> Implementation of 'Coming Down to Earth: Satellite-to-Street View Synthesis for Geo-Localization'
 
   17.11. [Matching between acoustic and satellite images](https://github.com/giovgiac/neptune)
 
@@ -2695,55 +2689,55 @@ Data fusion is a technique for combining information from different sources such
 
   17.13. [Compressive-Sensing-and-Deep-Learning-Framework](https://github.com/rahulgite94/Compressive-Sensing-and-Deep-Learning-Framework) ->  Compressive Sensing is used as an initial guess to combine data from multiple sources, with LSTM used to refine the result
 
-  17.14. [DeepSim](https://github.com/wangxiaodiu/DeepSim) -> code for paper: DeepSIM: GPS Spoofing Detection on UAVs using Satellite Imagery Matching
+  17.14. [DeepSim](https://github.com/wangxiaodiu/DeepSim) -> DeepSIM: GPS Spoofing Detection on UAVs using Satellite Imagery Matching
 
-  17.15. [MHF-net](https://github.com/XieQi2015/MHF-net) -> code for 2019 paper: Multispectral and Hyperspectral Image Fusion by MS/HS Fusion Net
+  17.15. [MHF-net](https://github.com/XieQi2015/MHF-net) -> Multispectral and Hyperspectral Image Fusion by MS/HS Fusion Net
 
   17.16. [Remote_Sensing_Image_Fusion](https://github.com/huangshanshan33/Remote_Sensing_Image_Fusion) -> code for 2021 [paper](https://www.researchgate.net/publication/352580177_Semi-Supervised_Remote_Sensing_Image_Fusion_Using_Multi-Scale_Conditional_Generative_Adversarial_network_with_Siamese_Structure): Semi-Supervised Remote Sensing Image Fusion Using Multi-Scale Conditional Generative Adversarial network with Siamese Structure
 
-  17.17. [CNNs for Multi-Source Remote Sensing Data Fusion](https://github.com/yyyyangyi/CNNs-for-Multi-Source-Remote-Sensing-Data-Fusion) -> code for 2021 [paper](https://arxiv.org/abs/2109.06094): Single-stream CNN with Learnable Architecture for Multi-source Remote Sensing Data
+  17.17. [CNNs for Multi-Source Remote Sensing Data Fusion](https://github.com/yyyyangyi/CNNs-for-Multi-Source-Remote-Sensing-Data-Fusion) -> Single-stream CNN with Learnable Architecture for Multi-source Remote Sensing Data
 
   17.18. [Deep Generative Reflectance Fusion](https://github.com/Cervest/ds-generative-reflectance-fusion) -> Achieving Landsat-like reflectance at any date by fusing Landsat and MODIS surface reflectance with deep generative models
 
-  17.19. [IEEE_TGRS_MDL-RS](https://github.com/danfenghong/IEEE_TGRS_MDL-RS) -> code for 2021 paper: More Diverse Means Better: Multimodal Deep Learning Meets Remote-Sensing Imagery Classification
+  17.19. [IEEE_TGRS_MDL-RS](https://github.com/danfenghong/IEEE_TGRS_MDL-RS) ->  More Diverse Means Better: Multimodal Deep Learning Meets Remote-Sensing Imagery Classification
 
-  17.20. [SSRNET](https://github.com/hw2hwei/SSRNET) -> code for 2022 paper: SSR-NET: Spatial-Spectral Reconstruction Network for Hyperspectral and Multispectral Image Fusion
+  17.20. [SSRNET](https://github.com/hw2hwei/SSRNET) -> SSR-NET: Spatial-Spectral Reconstruction Network for Hyperspectral and Multispectral Image Fusion
 
-  17.21. [cross-view-image-matching](https://github.com/kregmi/cross-view-image-matching) -> code for 2019 paper: Bridging the Domain Gap for Ground-to-Aerial Image Matching
+  17.21. [cross-view-image-matching](https://github.com/kregmi/cross-view-image-matching) -> Bridging the Domain Gap for Ground-to-Aerial Image Matching
 
-  17.22. [CoF-MSMG-PCNN](https://github.com/WeiTan1992/CoF-MSMG-PCNN) -> code for 2020 paper: Remote Sensing Image Fusion via Boundary Measured Dual-Channel PCNN in Multi-Scale Morphological Gradient Domain
+  17.22. [CoF-MSMG-PCNN](https://github.com/WeiTan1992/CoF-MSMG-PCNN) -> Remote Sensing Image Fusion via Boundary Measured Dual-Channel PCNN in Multi-Scale Morphological Gradient Domain
 
-  17.23. [robust_matching_network_on_remote_sensing_imagery_pytorch](https://github.com/mrk1992/robust_matching_network_on_remote_sensing_imagery_pytorch) -> code for 2019 paper: A Robust Matching Network for Gradually Estimating Geometric Transformation on Remote Sensing Imagery
+  17.23. [robust_matching_network_on_remote_sensing_imagery_pytorch](https://github.com/mrk1992/robust_matching_network_on_remote_sensing_imagery_pytorch) -> A Robust Matching Network for Gradually Estimating Geometric Transformation on Remote Sensing Imagery
 
-  17.24. [edcstfn](https://github.com/theonegis/edcstfn) -> code for 2019 [paper](https://www.mdpi.com/2072-4292/11/24/2898): An Enhanced Deep Convolutional Model for Spatiotemporal Image Fusion
+  17.24. [edcstfn](https://github.com/theonegis/edcstfn) -> An Enhanced Deep Convolutional Model for Spatiotemporal Image Fusion
 
-  17.25. [ganstfm](https://github.com/theonegis/ganstfm) -> code for 2021 paper: A Flexible Reference-Insensitive Spatiotemporal Fusion Model for Remote Sensing Images Using Conditional Generative Adversarial Network
+  17.25. [ganstfm](https://github.com/theonegis/ganstfm) -> A Flexible Reference-Insensitive Spatiotemporal Fusion Model for Remote Sensing Images Using Conditional Generative Adversarial Network
 
-  17.26. [CMAFF](https://github.com/DocF/CMAFF) -> code for 2021 [paper](https://arxiv.org/abs/2112.02991): Cross-Modality Attentive Feature Fusion for Object Detection in Multispectral Remote Sensing Imagery
+  17.26. [CMAFF](https://github.com/DocF/CMAFF) -> Cross-Modality Attentive Feature Fusion for Object Detection in Multispectral Remote Sensing Imagery
 
-  17.27. [SOLC](https://github.com/yisun98/SOLC) -> code for 2022 [paper](https://www.sciencedirect.com/science/article/pii/S0303243421003457): MCANet: A joint semantic segmentation framework of optical and SAR images for land use classification. Uses [WHU-OPT-SAR-dataset](https://github.com/AmberHen/WHU-OPT-SAR-dataset)
+  17.27. [SOLC](https://github.com/yisun98/SOLC) -> MCANet: A joint semantic segmentation framework of optical and SAR images for land use classification. Uses [WHU-OPT-SAR-dataset](https://github.com/AmberHen/WHU-OPT-SAR-dataset)
 
-  17.28. [MFT](https://github.com/AnkurDeria/MFT) -> code for 2022 [paper](https://arxiv.org/abs/2203.16952): Multimodal Fusion Transformer for Remote Sensing Image Classification
+  17.28. [MFT](https://github.com/AnkurDeria/MFT) -> Multimodal Fusion Transformer for Remote Sensing Image Classification
 
-  17.29. [ISPRS_S2FL](https://github.com/danfenghong/ISPRS_S2FL) -> code for 2021 [paper](https://www.sciencedirect.com/science/article/pii/S0924271621001362): Multimodal Remote Sensing Benchmark Datasets for Land Cover Classification with A Shared and Specific Feature Learning Model
+  17.29. [ISPRS_S2FL](https://github.com/danfenghong/ISPRS_S2FL) -> Multimodal Remote Sensing Benchmark Datasets for Land Cover Classification with A Shared and Specific Feature Learning Model
 
-  17.30. [HSHT-Satellite-Imagery-Synthesis](https://github.com/yuvalofek/HSHT-Satellite-Imagery-Synthesis) -> code for thesis - Improving Flood Maps by Increasing the Temporal Resolution of Satellites Using Hybrid Sensor Fusion
+  17.30. [HSHT-Satellite-Imagery-Synthesis](https://github.com/yuvalofek/HSHT-Satellite-Imagery-Synthesis) -> Improving Flood Maps by Increasing the Temporal Resolution of Satellites Using Hybrid Sensor Fusion
 
-  17.31. [MDC](https://github.com/Kasra2020/MDC) -> code for 2021 paper: Unsupervised Data Fusion With Deeper Perspective: A Novel Multisensor Deep Clustering Algorithm
+  17.31. [MDC](https://github.com/Kasra2020/MDC) -> Unsupervised Data Fusion With Deeper Perspective: A Novel Multisensor Deep Clustering Algorithm
 
-  17.32. [FusAtNet](https://github.com/ShivamP1993/FusAtNet) -> code for 2020 paper: FusAtNet: Dual Attention based SpectroSpatial Multimodal Fusion Network for Hyperspectral and LiDAR Classification
+  17.32. [FusAtNet](https://github.com/ShivamP1993/FusAtNet) -> FusAtNet: Dual Attention based SpectroSpatial Multimodal Fusion Network for Hyperspectral and LiDAR Classification
 
-  17.33. [AMM-FuseNet](https://github.com/oktaykarakus/ReSIF/tree/main/AMM-FuseNet) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/18/4458): AMM-FuseNet: Attention-Based Multi-Modal Image Fusion Network for Land Cover Mapping
+  17.33. [AMM-FuseNet](https://github.com/oktaykarakus/ReSIF/tree/main/AMM-FuseNet) -> Attention-Based Multi-Modal Image Fusion Network for Land Cover Mapping
 
-  17.34. [MANet](https://github.com/caohuimin/MANet) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/18/4600): MANet: A Network Architecture for Remote Sensing Spatiotemporal Fusion Based on Multiscale and Attention Mechanisms
+  17.34. [MANet](https://github.com/caohuimin/MANet) -> MANet: A Network Architecture for Remote Sensing Spatiotemporal Fusion Based on Multiscale and Attention Mechanisms
 
-  17.35. [DCSA-Net](https://github.com/Julia90/DCSA-Net) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/19/4941): Dynamic Convolution Self-Attention Network for Land-Cover Classification in VHR Remote-Sensing Images
+  17.35. [DCSA-Net](https://github.com/Julia90/DCSA-Net) -> Dynamic Convolution Self-Attention Network for Land-Cover Classification in VHR Remote-Sensing Images
 
   17.36. [deforestation-from-data-fusion](https://github.com/felferrari/deforestation-from-data-fusion) -> Fusing Sentinel-1 and Sentinel-2 images for deforestation detection in the Brazilian Amazon under diverse cloud conditions
 
-  17.37. [sct-fusion](https://git.tu-berlin.de/rsim/sct-fusion) -> code for 2023 [paper](https://arxiv.org/abs/2306.01523): Transformer-based Multi-Modal Learning for Multi Label Remote Sensing Image Classification
+  17.37. [sct-fusion](https://git.tu-berlin.de/rsim/sct-fusion) -> Transformer-based Multi-Modal Learning for Multi Label Remote Sensing Image Classification
 
-  17.38. [RSI-MMSegmentation](https://github.com/EarthNets/RSI-MMSegmentation) -> code for paper: GAMUS: A Geometry-aware Multi-modal Semantic Segmentation Benchmark for Remote Sensing Data
+  17.38. [RSI-MMSegmentation](https://github.com/EarthNets/RSI-MMSegmentation) -> GAMUS: A Geometry-aware Multi-modal Semantic Segmentation Benchmark for Remote Sensing Data
 
   17.39. [dfc2022-baseline](https://github.com/isaaccorley/dfc2022-baseline) -> baseline solution to the 2022 IEEE GRSS Data Fusion Contest (DFC2022) using TorchGeo, PyTorch Lightning, and Segmentation Models PyTorch to train a U-Net with a ResNet-18 backbone and a loss function of Focal + Dice loss to perform semantic segmentation on the DFC2022 dataset
 
@@ -2772,11 +2766,11 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
 
   18.7. [HC_ADGAN](https://github.com/summitgao/HC_ADGAN) -> codes for the paper Adaptive Dropblock Enhanced GenerativeAdversarial Networks for Hyperspectral Image Classification
 
-  18.8. [SCALAE](https://github.com/LendelTheGreat/SCALAE) -> code for our [paper](https://arxiv.org/abs/2101.05069) Formatting the Landscape: Spatial conditional GAN for varying population in satellite imagery. Method to generate satellite imagery from custom 2D population maps
+  18.8. [SCALAE](https://github.com/LendelTheGreat/SCALAE) -> Formatting the Landscape: Spatial conditional GAN for varying population in satellite imagery. Method to generate satellite imagery from custom 2D population maps
 
   18.9. [Satellite-Image-Forgery-Detection-and-Localization](https://github.com/tailongnguyen/Satellite-Image-Forgery-Detection-and-Localization)
 
-  18.10. [STGAN](https://github.com/ermongroup/STGAN) -> PyTorch Implementation of STGAN for Cloud Removal in Satellite Images, with [paper](https://arxiv.org/abs/1912.06838)
+  18.10. [STGAN](https://github.com/ermongroup/STGAN) -> PyTorch Implementation of STGAN for Cloud Removal in Satellite Images
 
   18.11. [ds-gan-spatiotemporal-evaluation](https://github.com/Cervest/ds-gan-spatiotemporal-evaluation) -> evaluating use of deep generative models in remote sensing applications
 
@@ -2786,11 +2780,11 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
 
   18.14. [Remote-Sensing-Image-Generation](https://github.com/aashishrai3799/Remote-Sensing-Image-Generation) -> Generate RS Images using Generative Adversarial Networks (GAN)
 
-  18.15. [RoadDA](https://github.com/LANMNG/RoadDA) -> code for 2021 [paper](https://arxiv.org/abs/2108.12611): Stagewise Unsupervised Domain Adaptation with Adversarial Self-Training for Road Segmentation of Remote Sensing Images
+  18.15. [RoadDA](https://github.com/LANMNG/RoadDA) -> Stagewise Unsupervised Domain Adaptation with Adversarial Self-Training for Road Segmentation of Remote Sensing Images
 
-  18.16. [PSGan-Family](https://github.com/zhysora/PSGan-Family) -> code for 2020 paper: PSGAN: A Generative Adversarial Network for Remote Sensing Image Pan-Sharpening
+  18.16. [PSGan-Family](https://github.com/zhysora/PSGan-Family) -> A Generative Adversarial Network for Remote Sensing Image Pan-Sharpening
 
-  18.17. [Satellite Image Augmetation with GANs](https://github.com/Oarowolo11/11785-Project) -> code for 2022 [paper](https://arxiv.org/abs/2207.14580): Image Augmentation for Satellite Images
+  18.17. [Satellite Image Augmetation with GANs](https://github.com/Oarowolo11/11785-Project) -> Image Augmentation for Satellite Images
 
   18.18. [opt2sar-cyclegan](https://github.com/zzh811/opt2sar-cyclegan) -> Research on SAR image generation method based on non-homologous data
 
@@ -2845,7 +2839,7 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
   19.15. [GRN-SNDL](https://github.com/jiankang1991/GRN-SNDL) -> model the relations between samples (or scenes) by making use of a graph structure which is fed into network learning
 
-  19.16. [SauMoCo](https://github.com/jiankang1991/SauMoCo) -> codes for TGRS paper: Deep Unsupervised Embedding for Remotely Sensed Images Based on Spatially Augmented Momentum Contrast
+  19.16. [SauMoCo](https://github.com/jiankang1991/SauMoCo) -> Deep Unsupervised Embedding for Remotely Sensed Images Based on Spatially Augmented Momentum Contrast
 
   19.17. [TGRS_RiDe](https://github.com/jiankang1991/TGRS_RiDe) -> Rotation Invariant Deep Embedding for RemoteSensing Images
 
@@ -2873,11 +2867,11 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
   19.29. [DINCAE](https://github.com/gher-ulg/DINCAE) -> Data-Interpolating Convolutional Auto-Encoder is a neural network to reconstruct missing data in satellite observations
 
-  19.30. [3D_SITS_Clustering](https://github.com/ekalinicheva/3D_SITS_Clustering) -> code for 2020 [paper](https://www.researchgate.net/publication/341902683_Unsupervised_Satellite_Image_Time_Series_Clustering_Using_Object-Based_Approaches_and_3D_Convolutional_Autoencoder): Unsupervised Satellite Image Time Series Clustering Using Object-Based Approaches and 3D Convolutional Autoencoder
+  19.30. [3D_SITS_Clustering](https://github.com/ekalinicheva/3D_SITS_Clustering) -> Unsupervised Satellite Image Time Series Clustering Using Object-Based Approaches and 3D Convolutional Autoencoder
 
-  19.31. [sat_cnn](https://github.com/GDSL-UL/sat_cnn) -> code for 2022 [paper](https://www.sciencedirect.com/science/article/pii/S0198971522000461?via%3Dihub): Estimating Generalized Measures of Local Neighbourhood Context from Multispectral Satellite Images Using a Convolutional Neural Network. Uses a convolutional autoencoder (CAE)
+  19.31. [sat_cnn](https://github.com/GDSL-UL/sat_cnn) -> Estimating Generalized Measures of Local Neighbourhood Context from Multispectral Satellite Images Using a Convolutional Neural Network. Uses a convolutional autoencoder (CAE)
 
-  19.32. [you-are-here](https://github.com/ZhouMengjie/you-are-here) -> Matlab code for 2020 paper: You Are Here: Geolocation by Embedding Maps and Images
+  19.32. [you-are-here](https://github.com/ZhouMengjie/you-are-here) -> You Are Here: Geolocation by Embedding Maps and Images
 
   19.33. [Tensorflow similarity](https://github.com/tensorflow/similarity) -> offers state-of-the-art algorithms for metric learning and all the necessary components to research, train, evaluate, and serve similarity-based models
 
@@ -2885,7 +2879,7 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
   19.35. [Airbus_SDC_dup](https://github.com/WillieMaddox/Airbus_SDC_dup) -> Project focused on detecting duplicate regions of overlapping satellite imagery. Applied to Airbus ship detection dataset
 
-  19.36. [scale-mae](https://github.com/bair-climate-initiative/scale-mae) -> code for 2022 [paper](https://arxiv.org/abs/2212.14532): Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning
+  19.36. [scale-mae](https://github.com/bair-climate-initiative/scale-mae) -> Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning
 
 #
 ## 20. Image retrieval
@@ -2898,25 +2892,25 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 Image retrieval is the task of retrieving images from a collection that are similar to a query image. Image retrieval plays a vital role in remote sensing by enabling the efficient and effective search for relevant images from large image archives, and by providing a way to quantify changes in the environment over time. [Image source](https://www.mdpi.com/2072-4292/12/2/219)
 
-  20.1. [Demo_AHCL_for_TGRS2022](https://github.com/weiweisong415/Demo_AHCL_for_TGRS2022) -> code for 2022 paper: Asymmetric Hash Code Learning (AHCL) for remote sensing image retrieval
+  20.1. [Demo_AHCL_for_TGRS2022](https://github.com/weiweisong415/Demo_AHCL_for_TGRS2022) -> Asymmetric Hash Code Learning (AHCL) for remote sensing image retrieval
 
-  20.2. [GaLR](https://github.com/xiaoyuan1996/GaLR) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9745546): Remote Sensing Cross-Modal Text-Image Retrieval Based on Global and Local Information
+  20.2. [GaLR](https://github.com/xiaoyuan1996/GaLR) -> Remote Sensing Cross-Modal Text-Image Retrieval Based on Global and Local Information
 
   20.3. [retrievalSystem](https://github.com/xiaoyuan1996/retrievalSystem) -> cross-modal image retrieval system
 
-  20.4. [AMFMN](https://github.com/xiaoyuan1996/AMFMN) -> code for the 2021 paper: Exploring a Fine-grained Multiscale Method for Cross-modal Remote Sensing Image Retrieval
+  20.4. [AMFMN](https://github.com/xiaoyuan1996/AMFMN) -> Exploring a Fine-grained Multiscale Method for Cross-modal Remote Sensing Image Retrieval
 
   20.5. [Active-Learning-for-Remote-Sensing-Image-Retrieval](https://github.com/flateon/Active-Learning-for-Remote-Sensing-Image-Retrieval) -> unofficial implementation of paper: A Novel Active Learning Method in Relevance Feedback for Content-Based Remote Sensing Image Retrieval
 
   20.6. [CMIR-NET](https://github.com/ushasi/CMIR-NET-A-deep-learning-based-model-for-cross-modal-retrieval-in-remote-sensing) -> code for 2020 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0167865520300453?via%3Dihub): A deep learning based model for cross-modal retrieval in remote sensing
 
-  20.7. [Deep-Hash-learning-for-Remote-Sensing-Image-Retrieval](https://github.com/smallsmallflypigtang/Deep-Hash-learning-for-Remote-Sensing-Image-Retrieval) -> code for 2020 paper: Deep Hash Learning for Remote Sensing Image Retrieval
+  20.7. [Deep-Hash-learning-for-Remote-Sensing-Image-Retrieval](https://github.com/smallsmallflypigtang/Deep-Hash-learning-for-Remote-Sensing-Image-Retrieval) -> Deep Hash Learning for Remote Sensing Image Retrieval
 
-  20.8. [MHCLN](https://github.com/MLEnthusiast/MHCLN) -> code for 2018 paper: Deep Metric and Hash-Code Learning for Content-Based Retrieval of Remote Sensing Images
+  20.8. [MHCLN](https://github.com/MLEnthusiast/MHCLN) -> Deep Metric and Hash-Code Learning for Content-Based Retrieval of Remote Sensing Images
 
   20.9. [HydroViet_VOR](https://github.com/lannguyen0910/HydroViet_VOR) -> Object Retrieval in satellite images with Triplet Network
 
-  20.10. [AMFMN](https://github.com/AICyberTeam/AMFMN) -> code for 2021 paper: Exploring a Fine-Grained Multiscale Method for Cross-Modal Remote Sensing Image Retrieval
+  20.10. [AMFMN](https://github.com/AICyberTeam/AMFMN) -> Exploring a Fine-Grained Multiscale Method for Cross-Modal Remote Sensing Image Retrieval
 
 # 
 ## 21. Image Captioning
@@ -2935,17 +2929,17 @@ Image Captioning is the task of automatically generating a textual description o
 
   21.3. [CapFormer](https://github.com/Junjue-Wang/CapFormer) -> Pure transformer for remote sensing image caption
 
-  21.4. [remote_sensing_image_captioning](https://github.com/chan64/remote_sensing_image_captioning) -> code for 2019 [paper](https://www.sciencedirect.com/science/article/pii/S1877050920300752): Region Driven Remote Sensing Image Captioning
+  21.4. [remote_sensing_image_captioning](https://github.com/chan64/remote_sensing_image_captioning) -> Region Driven Remote Sensing Image Captioning
 
   21.5. [Remote Sensing Image Captioning with Transformer and Multilabel Classification](https://github.com/hiteshK03/Remote-sensing-image-captioning-with-transformer-and-multilabel-classification)
 
-  21.6. [Siamese-spatial-Graph-Convolution-Network](https://github.com/ushasi/Siamese-spatial-Graph-Convolution-Network) -> code for 2019 [paper](https://www.sciencedirect.com/science/article/abs/pii/S1077314219300578): Siamese graph convolutional network for content based remote sensing image retrieval
+  21.6. [Siamese-spatial-Graph-Convolution-Network](https://github.com/ushasi/Siamese-spatial-Graph-Convolution-Network) -> Siamese graph convolutional network for content based remote sensing image retrieval
 
-  21.7. [MLAT](https://github.com/Chen-Yang-Liu/MLAT) -> code for 2022 paper: Remote-Sensing Image Captioning Based on Multilayer Aggregated Transformer
+  21.7. [MLAT](https://github.com/Chen-Yang-Liu/MLAT) -> Remote-Sensing Image Captioning Based on Multilayer Aggregated Transformer
 
-  21.8. [WordSent](https://github.com/hw2hwei/WordSent) -> code for 2020 paper: Word–Sentence Framework for Remote Sensing Image Captioning
+  21.8. [WordSent](https://github.com/hw2hwei/WordSent) -> Word–Sentence Framework for Remote Sensing Image Captioning
 
-  21.9. [a-mask-guided-transformer-with-topic-token](https://github.com/Meditation0119/a-mask-guided-transformer-with-topic-token-for-remote-sensing-image-captioning) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/12/2939): A Mask-Guided Transformer Network with Topic Token for Remote Sensing Image Captioning
+  21.9. [a-mask-guided-transformer-with-topic-token](https://github.com/Meditation0119/a-mask-guided-transformer-with-topic-token-for-remote-sensing-image-captioning) -> A Mask-Guided Transformer Network with Topic Token for Remote Sensing Image Captioning
 
   21.10. [MetaCaptioning](https://github.com/QiaoqiaoYang/MetaCaptioning) -> code for 2022 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271622000351): Meta captioning: A meta learning based remote sensing image captioning framework
 
@@ -2960,9 +2954,9 @@ Image Captioning is the task of automatically generating a textual description o
 
 Visual Question Answering (VQA) is the task of automatically answering a natural language question about an image. In remote sensing, VQA enables users to interact with the images and retrieve information using natural language questions. For example, a user could ask a VQA system questions such as "What is the type of land cover in this area?", "What is the dominant crop in this region?" or "What is the size of the city in this image?". The system would then analyze the image and generate an answer based on its understanding of the image content.
 
-  22.1. [VQA-easy2hard](https://gitlab.lrz.de/ai4eo/reasoning/VQA-easy2hard) -> code for 2022 [paper](https://arxiv.org/abs/2205.03147): From Easy to Hard: Learning Language-guided Curriculum for Visual Question Answering on Remote Sensing Data
+  22.1. [VQA-easy2hard](https://gitlab.lrz.de/ai4eo/reasoning/VQA-easy2hard) -> From Easy to Hard: Learning Language-guided Curriculum for Visual Question Answering on Remote Sensing Data
 
-  22.2. [lit4rsvqa](https://git.tu-berlin.de/rsim/lit4rsvqa) -> code for [paper](https://arxiv.org/abs/2306.00758): LiT-4-RSVQA: Lightweight Transformer-based Visual Question Answering in Remote Sensing
+  22.2. [lit4rsvqa](https://git.tu-berlin.de/rsim/lit4rsvqa) -> LiT-4-RSVQA: Lightweight Transformer-based Visual Question Answering in Remote Sensing
 
 #
 ## 23. Mixed data learning
@@ -2988,37 +2982,36 @@ Mixed data learning is the process of learning from datasets that may contain an
 ## 24. Few & zero shot learning
 This is a class of techniques which attempt to make predictions for classes with few, one or even zero examples provided during training. In zero shot learning (ZSL) the model is assisted by the provision of auxiliary information which typically consists of descriptions/semantic attributes/word embeddings for both the seen and unseen classes at train time ([ref](https://learnopencv.com/zero-shot-learning-an-introduction/)). These approaches are particularly relevant to remote sensing, where there may be many examples of common classes, but few or even zero examples for other classes of interest.
 
-  24.1. [Unseen Land Cover Classification from High-Resolution Orthophotos Using Integration of Zero-Shot Learning and Convolutional Neural Networks](https://www.mdpi.com/2072-4292/12/10/1676)
+  24.1. [Aerial-SAM](https://github.com/geoaigroup/Aerial-SAM) -> Zero-Shot Refinement of Buildings’ Segmentation Models using SAM
 
-  24.2. [FSODM](https://github.com/lixiang-ucas/FSODM) -> Official Code for paper "Few-shot Object Detection on Remote Sensing Images" on [arxiv](https://arxiv.org/abs/2006.07826)
+  24.2. [FSODM](https://github.com/lixiang-ucas/FSODM) -> Few-shot Object Detection on Remote Sensing Images
 
   24.3. [Few-Shot Classification of Aerial Scene Images via Meta-Learning](https://www.mdpi.com/2072-4292/13/1/108/htm) -> 2020 publication, a classification model that can quickly adapt to unseen categories using only a few labeled samples
 
   24.4. [Papers about Few-shot Learning / Meta-Learning on Remote Sensing](https://github.com/lx709/Few-shot-Learning-Meta-Learning-on-Remote-Sensing-Papers)
 
-  24.5. [SPNet](https://github.com/zoraup/SPNet) -> code for 2021 paper: Siamese-Prototype Network for Few-Shot Remote Sensing Image Scene Classification
+  24.5. [SPNet](https://github.com/zoraup/SPNet) -> Siamese-Prototype Network for Few-Shot Remote Sensing Image Scene Classification
 
-  24.6. [MDL4OW](https://github.com/sjliu68/MDL4OW) -> code for 2020 paper: Few-Shot Hyperspectral Image Classification With Unknown Classes Using Multitask Deep Learning
+  24.6. [MDL4OW](https://github.com/sjliu68/MDL4OW) -> Few-Shot Hyperspectral Image Classification With Unknown Classes Using Multitask Deep Learning
 
-  24.7. [P-CNN](https://github.com/Ybowei/P-CNN) -> code for 2021 paper: Prototype-CNN for Few-Shot Object Detection in Remote Sensing Images
+  24.7. [P-CNN](https://github.com/Ybowei/P-CNN) -> Prototype-CNN for Few-Shot Object Detection in Remote Sensing Images
 
-  24.8. [CIR-FSD-2022](https://github.com/Li-ZK/CIR-FSD-2022) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/14/3255): Context Information Refinement for Few-Shot Object Detection in Remote Sensing Images
+  24.8. [CIR-FSD-2022](https://github.com/Li-ZK/CIR-FSD-2022) -> Context Information Refinement for Few-Shot Object Detection in Remote Sensing Images
 
-  24.9. [IEEE_TNNLS_Gia-CFSL](https://github.com/YuxiangZhang-BIT/IEEE_TNNLS_Gia-CFSL) -> code for 2022 paper: Graph Information Aggregation Cross-Domain Few-Shot Learning for Hyperspectral Image Classification
+  24.9. [IEEE_TNNLS_Gia-CFSL](https://github.com/YuxiangZhang-BIT/IEEE_TNNLS_Gia-CFSL) -> Graph Information Aggregation Cross-Domain Few-Shot Learning for Hyperspectral Image Classification
 
-  24.10. [TIP_2022_CMFSL](https://github.com/B-Xi/TIP_2022_CMFSL) -> code for 2022 paper: Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification
+  24.10. [TIP_2022_CMFSL](https://github.com/B-Xi/TIP_2022_CMFSL) -> Few-shot Learning with Class-Covariance Metric for Hyperspectral Image Classification
 
-  24.11. [sen12ms-human-few-shot-classifier](https://github.com/MarcCoru/sen12ms-human-few-shot-classifier) -> code for paper: Humans are poor few-shot classifiers for Sentinel-2 land cover
+  24.11. [sen12ms-human-few-shot-classifier](https://github.com/MarcCoru/sen12ms-human-few-shot-classifier) -> Humans are poor few-shot classifiers for Sentinel-2 land cover
 
-  24.12. [S3Net](https://github.com/ZhaohuiXue/S3Net) -> code for 2022 paper: S3Net: Spectral–Spatial Siamese Network for Few-Shot Hyperspectral Image Classification
+  24.12. [S3Net](https://github.com/ZhaohuiXue/S3Net) -> S3Net: Spectral–Spatial Siamese Network for Few-Shot Hyperspectral Image Classification
 
-  24.13. [SiameseNet-for-few-shot-Hyperspectral-Classification](https://github.com/jjwwczy/jjwwczy-SiameseNet-for-few-shot-Hyperspectral-Classification) -> code for 2020 paper: 3DCSN:SiameseNet-for-few-shot-Hyperspectral-Classification
+  24.13. [SiameseNet-for-few-shot-Hyperspectral-Classification](https://github.com/jjwwczy/jjwwczy-SiameseNet-for-few-shot-Hyperspectral-Classification) -> 3DCSN:SiameseNet-for-few-shot-Hyperspectral-Classification
 
-  24.14. [MESSL](https://github.com/OMEGAFSL/MESSL) -> code for paper: Multiform Ensemble Self-Supervised Learning for Few-Shot Remote Sensing Scene Classification
+  24.14. [MESSL](https://github.com/OMEGAFSL/MESSL) -> Multiform Ensemble Self-Supervised Learning for Few-Shot Remote Sensing Scene Classification
 
-  24.15. [SCCNet](https://github.com/linhanwang/SCCNet) -> code for 2023 paper: Self-Correlation and Cross-Correlation Learning for Few-Shot Remote Sensing Image Semantic Segmentation
+  24.15. [SCCNet](https://github.com/linhanwang/SCCNet) -> Self-Correlation and Cross-Correlation Learning for Few-Shot Remote Sensing Image Semantic Segmentation
 
-  24.16. [Aerial-SAM](https://github.com/geoaigroup/Aerial-SAM) -> code for 2023 paper: Zero-Shot Refinement of Buildings’ Segmentation Models using SAM
 
 #
 ## 25. Self-supervised, unsupervised & contrastive learning
@@ -3036,13 +3029,13 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 
   25.6. [Sentinel-2 image clustering in python](https://towardsdatascience.com/sentinel-2-image-clustering-in-python-58f7f2c8a7f6)
 
-  25.7. [MARTA GANs: Unsupervised Representation Learning for Remote Sensing Image Classification](https://arxiv.org/abs/1612.08879) and [code](https://github.com/BUPTLdy/MARTA-GAN)
+  25.7. [MARTA GANs: Unsupervised Representation Learning for Remote Sensing Image Classification](https://github.com/BUPTLdy/MARTA-GAN)
 
   25.8. [A generalizable and accessible approach to machine learning with global satellite imagery](https://www.nature.com/articles/s41467-021-24638-z) nature publication -> MOSAIKS is designed to solve an unlimited number of tasks at planet-scale quickly using feature vectors, [with repo](https://github.com/Global-Policy-Lab/mosaiks-paper). Also see [mosaiks-api](https://github.com/calebrob6/mosaiks-api)
 
   25.9. [contrastive-satellite](https://github.com/hakeemtfrank/contrastive-satellite) -> Using contrastive learning to create embeddings from optical EuroSAT Satellite-2 imagery
 
-  25.10. [Self-Supervised Learning of Remote Sensing Scene Representations Using Contrastive Multiview Coding](https://arxiv.org/abs/2104.07070) -> arxiv paper and [code](https://github.com/vladan-stojnic/CMC-RSSR)
+  25.10. [Self-Supervised Learning of Remote Sensing Scene Representations Using Contrastive Multiview Coding](https://github.com/vladan-stojnic/CMC-RSSR)
 
   25.11. [Self-Supervised-Learner by spaceml-org](https://github.com/spaceml-org/Self-Supervised-Learner) -> train a classifier with fewer labeled examples needed using self-supervised learning, example applied to UC Merced land use dataset
 
@@ -3072,52 +3065,52 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 
   25.24. [SoundingEarth](https://github.com/khdlr/SoundingEarth) -> Self-supervised Audiovisual Representation Learning for Remote Sensing Data, uses the SoundingEarth [Dataset](https://zenodo.org/record/5600379#.Yom4W5PMK3I)
 
-  25.25. [singleSceneSemSegTgrs2022](https://github.com/sudipansaha/singleSceneSemSegTgrs2022) -> code for 2022 paper: Unsupervised Single-Scene Semantic Segmentation for Earth Observation
+  25.25. [singleSceneSemSegTgrs2022](https://github.com/sudipansaha/singleSceneSemSegTgrs2022) -> Unsupervised Single-Scene Semantic Segmentation for Earth Observation
 
-  25.26. [SSLRemoteSensing](https://github.com/flyakon/SSLRemoteSensing) -> code for 2021 paper: Semantic Segmentation of Remote Sensing Images With Self-Supervised Multitask Representation Learning
+  25.26. [SSLRemoteSensing](https://github.com/flyakon/SSLRemoteSensing) -> Semantic Segmentation of Remote Sensing Images With Self-Supervised Multitask Representation Learning
 
-  25.27. [CBT](https://github.com/VMarsocci/CBT) code for 2022 [paper](https://arxiv.org/abs/2205.11319): Continual Barlow Twins: continual self-supervised learning for remote sensing semantic segmentation
+  25.27. [CBT](https://github.com/VMarsocci/CBT) -> Continual Barlow Twins: continual self-supervised learning for remote sensing semantic segmentation
 
   25.28. [Unsupervised Satellite Image Classification based on Partial Adversarial Domain Adaptation](https://github.com/lwpyh/Unsupervised-Satellite-Image-Classfication-based-on-Partial-Domain-Adaptation) -> Code for course project
 
-  25.29. [T2FTS](https://github.com/wdzhao123/T2FTS) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9781379): Teaching Teachers First and Then Student: Hierarchical Distillation to Improve Long-Tailed Object Recognition in Aerial Images
+  25.29. [T2FTS](https://github.com/wdzhao123/T2FTS) -> Teaching Teachers First and Then Student: Hierarchical Distillation to Improve Long-Tailed Object Recognition in Aerial Images
 
-  25.30. [SSLTransformerRS](https://github.com/HSG-AIML/SSLTransformerRS) -> code for 2022 paper: Self-supervised Vision Transformers for Land-cover Segmentation and
+  25.30. [SSLTransformerRS](https://github.com/HSG-AIML/SSLTransformerRS) -> Self-supervised Vision Transformers for Land-cover Segmentation and
   Classification
 
-  25.31. [DINO-MM](https://github.com/zhu-xlab/DINO-MM) -> code for 2022 [paper](https://arxiv.org/abs/2204.05381): Self-supervised Vision Transformers for Joint SAR-optical Representation Learning
+  25.31. [DINO-MM](https://github.com/zhu-xlab/DINO-MM) -> Self-supervised Vision Transformers for Joint SAR-optical Representation Learning
 
   25.32. [SSL4EO-S12](https://github.com/zhu-xlab/SSL4EO-S12) -> a large-scale dataset for self-supervised learning in Earth observation
 
-  25.33. [SSL4EO-Review](https://github.com/zhu-xlab/SSL4EO-Review) -> code for 2022 [paper](https://arxiv.org/abs/2206.13188): Self-supervised Learning in Remote Sensing: A Review
+  25.33. [SSL4EO-Review](https://github.com/zhu-xlab/SSL4EO-Review) -> Self-supervised Learning in Remote Sensing: A Review
 
-  25.34. [transfer_learning_cspt](https://github.com/ZhAnGToNG1/transfer_learning_cspt) -> code for 2022 [paper](https://arxiv.org/abs/2207.03860): Consecutive Pretraining: A Knowledge Transfer Learning Strategy with Relevant Unlabeled Data for Remote Sensing Domain
+  25.34. [transfer_learning_cspt](https://github.com/ZhAnGToNG1/transfer_learning_cspt) -> Consecutive Pretraining: A Knowledge Transfer Learning Strategy with Relevant Unlabeled Data for Remote Sensing Domain
 
-  25.35. [OTL](https://github.com/qlilx/OTL) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/14/3361): Clustering-Based Representation Learning through Output Translation and Its Application to Remote-Sensing Images
+  25.35. [OTL](https://github.com/qlilx/OTL) -> Clustering-Based Representation Learning through Output Translation and Its Application to Remote-Sensing Images
 
-  25.36. [Push-and-Pull-Network](https://github.com/WindVChen/Push-and-Pull-Network) -> code for 2022 paper: Contrastive Learning for Fine-grained Ship Classification in Remote Sensing Images
+  25.36. [Push-and-Pull-Network](https://github.com/WindVChen/Push-and-Pull-Network) -> Contrastive Learning for Fine-grained Ship Classification in Remote Sensing Images
 
   25.37. [vissl_experiments](https://github.com/lewfish/ssl/tree/main/vissl_experiments) -> Self-supervised Learning using Facebook [VISSL](https://github.com/facebookresearch/vissl) on the RESISC-45 satellite imagery classification dataset
 
-  25.38. [MS2A-Net](https://github.com/Kasra2020/MS2A-Net) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9855229): MS 2 A-Net: Multi-scale spectral-spatial association network for hyperspectral image clustering
+  25.38. [MS2A-Net](https://github.com/Kasra2020/MS2A-Net) -> MS 2 A-Net: Multi-scale spectral-spatial association network for hyperspectral image clustering
 
   25.39. [UDA_for_RS](https://github.com/Levantespot/UDA_for_RS) -> code for paper: Unsupervised Domain Adaptation for Remote Sensing Semantic Segmentation with Transformer
 
-  25.40. [pytorch-ssl-building_extract](https://github.com/Chendeyue/pytorch-ssl-building_extract) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/21/5350): Research on Self-Supervised Building Information Extraction with High-Resolution Remote Sensing Images for Photovoltaic Potential Evaluation
+  25.40. [pytorch-ssl-building_extract](https://github.com/Chendeyue/pytorch-ssl-building_extract) -> Research on Self-Supervised Building Information Extraction with High-Resolution Remote Sensing Images for Photovoltaic Potential Evaluation
 
-  25.41. [self-rare-wildlife](https://github.com/xcvil/self-rare-wildlife) -> code for 2021 [paper](https://arxiv.org/abs/2108.07582): Self-Supervised Pretraining and Controlled Augmentation Improve Rare Wildlife Recognition in UAV Images
+  25.41. [self-rare-wildlife](https://github.com/xcvil/self-rare-wildlife) -> Self-Supervised Pretraining and Controlled Augmentation Improve Rare Wildlife Recognition in UAV Images
 
-  25.42. [SatMAE](https://github.com/sustainlab-group/SatMAE) -> code for 2022 [paper](https://arxiv.org/abs/2207.08051): SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery
+  25.42. [SatMAE](https://github.com/sustainlab-group/SatMAE) -> SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery
 
-  25.43. [FireCLR-Wildfires](https://github.com/spaceml-org/FireCLR-Wildfires) -> code for 2022 [paper](https://arxiv.org/abs/2211.14654): Unsupervised Wildfire Change Detection based on Contrastive Learning
+  25.43. [FireCLR-Wildfires](https://github.com/spaceml-org/FireCLR-Wildfires) -> Unsupervised Wildfire Change Detection based on Contrastive Learning
 
-  25.44. [FALSE](https://github.com/GeoX-Lab/FALSE) -> code for 2022 [paper](https://arxiv.org/abs/2211.07928): False: False Negative Samples Aware Contrastive Learning for Semantic Segmentation of High-Resolution Remote Sensing Image
+  25.44. [FALSE](https://github.com/GeoX-Lab/FALSE) -> False Negative Samples Aware Contrastive Learning for Semantic Segmentation of High-Resolution Remote Sensing Image
 
-  25.45. [MATTER](https://github.com/periakiva/MATTER) -> code for 2022 paper: Self-Supervised Material and Texture Representation Learning for Remote Sensing Tasks
+  25.45. [MATTER](https://github.com/periakiva/MATTER) -> Self-Supervised Material and Texture Representation Learning for Remote Sensing Tasks
 
   25.46. [FGMAE](https://github.com/zhu-xlab/FGMAE) -> Feature guided masked Autoencoder for self-supervised learning in remote sensing
 
-  25.47. [GFM](https://github.com/mmendiet/GFM) -> code for 2023 paper: Towards Geospatial Foundation Models via Continual Pretraining
+  25.47. [GFM](https://github.com/mmendiet/GFM) -> Towards Geospatial Foundation Models via Continual Pretraining
 
 #
 ## 26. Weakly & semi-supervised learning
@@ -3126,50 +3119,50 @@ Weakly & semi-supervised learning are two methods of machine learning that use b
 
   26.1. [MARE](https://github.com/VMarsocci/MARE) -> self-supervised Multi-Attention REsu-net for semantic segmentation in remote sensing
 
-  26.2. [SSGF-for-HRRS-scene-classification](https://github.com/weihancug/SSGF-for-HRRS-scene-classification) -> code for 2018 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271617303428): A semi-supervised generative framework with deep learning features for high-resolution remote sensing image scene classification
+  26.2. [SSGF-for-HRRS-scene-classification](https://github.com/weihancug/SSGF-for-HRRS-scene-classification) -> A semi-supervised generative framework with deep learning features for high-resolution remote sensing image scene classification
 
-  26.3. [SFGAN](https://github.com/MLEnthusiast/SFGAN) -> code for 2018 paper: Semantic-Fusion Gans for Semi-Supervised Satellite Image Classification
+  26.3. [SFGAN](https://github.com/MLEnthusiast/SFGAN) -> Semantic-Fusion Gans for Semi-Supervised Satellite Image Classification
 
-  26.4. [SSDAN](https://github.com/alhichri/SSDAN) -> code for 2021 [paper](https://www.mdpi.com/2072-4292/13/19/3861): Multi-Source Semi-Supervised Domain Adaptation Network for Remote Sensing Scene Classification
+  26.4. [SSDAN](https://github.com/alhichri/SSDAN) -> Multi-Source Semi-Supervised Domain Adaptation Network for Remote Sensing Scene Classification
 
-  26.5. [HR-S2DML](https://github.com/jiankang1991/HR-S2DML) -> code for 2020 [paper](https://www.mdpi.com/2072-4292/12/16/2603): High-Rankness Regularized Semi-Supervised Deep Metric Learning for Remote Sensing Imagery
+  26.5. [HR-S2DML](https://github.com/jiankang1991/HR-S2DML) -> High-Rankness Regularized Semi-Supervised Deep Metric Learning for Remote Sensing Imagery
 
   26.6. [Semantic Segmentation of Satellite Images Using Point Supervision](https://github.com/KambachJannis/MasterThesis)
 
-  26.7. [fcd](https://github.com/jnyborg/fcd) -> code for 2021 paper: Fixed-Point GAN for Cloud Detection. A weakly-supervised approach, training with only image-level labels
+  26.7. [fcd](https://github.com/jnyborg/fcd) -> Fixed-Point GAN for Cloud Detection. A weakly-supervised approach, training with only image-level labels
 
   26.8. [weak-segmentation](https://github.com/LendelTheGreat/weak-segmentation) -> Weakly supervised semantic segmentation for aerial images in pytorch
 
-  26.9. [TNNLS_2022_X-GPN](https://github.com/B-Xi/TNNLS_2022_X-GPN) -> Code for paper: Semisupervised Cross-scale Graph Prototypical Network for Hyperspectral Image Classification
+  26.9. [TNNLS_2022_X-GPN](https://github.com/B-Xi/TNNLS_2022_X-GPN) -> Semisupervised Cross-scale Graph Prototypical Network for Hyperspectral Image Classification
 
   26.10. [weakly_supervised](https://github.com/LobellLab/weakly_supervised) -> code for the paper Weakly Supervised Deep Learning for Segmentation of Remote Sensing Imagery. Demonstrates that segmentation can be performed using small datasets comprised of pixel or image labels
 
-  26.11. [wan](https://github.com/engrjavediqbal/wan) -> Weakly-Supervised Domain Adaptation for Built-up Region Segmentation in Aerial and Satellite Imagery, with [arxiv paper](https://arxiv.org/abs/2007.02277)
+  26.11. [wan](https://github.com/engrjavediqbal/wan) -> Weakly-Supervised Domain Adaptation for Built-up Region Segmentation in Aerial and Satellite Imagery
 
-  26.12. [sourcerer](https://github.com/benjaminmlucas/sourcerer) -> A Bayesian-inspired deep learning method for semi-supervised domain adaptation designed for land cover mapping from satellite image time series (SITS). [Paper](https://link.springer.com/article/10.1007/s10994-020-05942-z)
+  26.12. [sourcerer](https://github.com/benjaminmlucas/sourcerer) -> A Bayesian-inspired deep learning method for semi-supervised domain adaptation designed for land cover mapping from satellite image time series (SITS)
 
-  26.13. [MSMatch](https://github.com/gomezzz/MSMatch) -> Semi-Supervised Multispectral Scene Classification with Few Labels. Includes code to work with both the RGB and the multispectral (MS) versions of EuroSAT dataset and the UC Merced Land Use (UCM) dataset. [Paper](https://arxiv.org/abs/2103.10368)
+  26.13. [MSMatch](https://github.com/gomezzz/MSMatch) -> Semi-Supervised Multispectral Scene Classification with Few Labels. Includes code to work with both the RGB and the multispectral (MS) versions of EuroSAT dataset and the UC Merced Land Use (UCM) dataset
 
-  26.14. [Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection) with [arxiv paper](https://arxiv.org/abs/2107.08369)
+  26.14. [Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection)
 
   26.15. [Semi-supervised learning in satellite image classification](https://medium.com/sentinel-hub/semi-supervised-learning-in-satellite-image-classification-e0874a76fc61) -> experimenting with MixMatch and the EuroSAT data set
 
-  26.16. [ScRoadExtractor](https://github.com/weiyao1996/ScRoadExtractor) -> code for 2020 [paper](https://arxiv.org/abs/2010.13106): Scribble-based Weakly Supervised Deep Learning for Road Surface Extraction from Remote Sensing Images
+  26.16. [ScRoadExtractor](https://github.com/weiyao1996/ScRoadExtractor) -> Scribble-based Weakly Supervised Deep Learning for Road Surface Extraction from Remote Sensing Images
 
-  26.17. [ICSS](https://github.com/alteia-ai/ICSS) -> code for 2022 [paper](https://arxiv.org/abs/2201.01029): Weakly-supervised continual learning for class-incremental segmentation
+  26.17. [ICSS](https://github.com/alteia-ai/ICSS) -> Weakly-supervised continual learning for class-incremental segmentation
 
-  26.18. [es-CP](https://github.com/majidseydgar/Res-CP) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9849704): Semi-Supervised Hyperspectral Image Classification Using a Probabilistic Pseudo-Label Generation Framework
+  26.18. [es-CP](https://github.com/majidseydgar/Res-CP) -> Semi-Supervised Hyperspectral Image Classification Using a Probabilistic Pseudo-Label Generation Framework
 
-  26.19. [Flood_Mapping_SSL](https://github.com/YJ-He/Flood_Mapping_SSL) -> code for 2022 paper: Enhancement of Urban Floodwater Mapping From Aerial Imagery With Dense Shadows via Semisupervised Learning
+  26.19. [Flood_Mapping_SSL](https://github.com/YJ-He/Flood_Mapping_SSL) -> Enhancement of Urban Floodwater Mapping From Aerial Imagery With Dense Shadows via Semisupervised Learning
 
-  26.20. [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> code for 2022 paper: MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
+  26.20. [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
 
 #
 ## 27. Active learning
 
 Supervised deep learning techniques typically require a huge number of annotated/labelled examples to provide a training dataset. However labelling at scale take significant time, expertise and resources. Active learning techniques aim to reduce the total amount of annotation that needs to be performed by selecting the most useful images to label from a large pool of unlabelled images, thus reducing the time to generate useful training datasets. These processes may be referred to as [Human-in-the-Loop Machine Learning](https://medium.com/pytorch/https-medium-com-robert-munro-active-learning-with-pytorch-2f3ee8ebec)
 
-  27.1. [Active learning for object detection in high-resolution satellite images](https://arxiv.org/abs/2101.02480) -> arxiv paper
+  27.1. [Active learning for object detection in high-resolution satellite images](https://arxiv.org/abs/2101.02480)
 
   27.2. [AIDE V2 - Tools for detecting wildlife in aerial images using active learning](https://github.com/microsoft/aerial_wildlife_detection)
 
@@ -3183,11 +3176,11 @@ Supervised deep learning techniques typically require a huge number of annotated
 
   27.7. [ChangeDetectionProject](https://github.com/previtus/ChangeDetectionProject) -> Trying out Active Learning in with deep CNNs for Change detection on remote sensing data
 
-  27.8. [ALS4GAN](https://github.com/immuno121/ALS4GAN) -> Active Learning for Improved Semi Supervised Semantic Segmentation in Satellite Images, with [paper](https://arxiv.org/abs/2110.07782)
+  27.8. [ALS4GAN](https://github.com/immuno121/ALS4GAN) -> Active Learning for Improved Semi Supervised Semantic Segmentation in Satellite Images
 
   27.9. [Active-Learning-for-Remote-Sensing-Image-Retrieval](https://github.com/flateon/Active-Learning-for-Remote-Sensing-Image-Retrieval) -> unofficial implementation of paper: A Novel Active Learning Method in Relevance Feedback for Content-Based Remote Sensing Image Retrieval
 
-  27.10. [DIAL](https://github.com/alteia-ai/DIAL) -> code for 2022 [paper](https://arxiv.org/abs/2201.01047): DIAL: Deep Interactive and Active Learning for Semantic Segmentation in Remote Sensing
+  27.10. [DIAL](https://github.com/alteia-ai/DIAL) -> DIAL: Deep Interactive and Active Learning for Semantic Segmentation in Remote Sensing
 
   27.11. [whales](https://github.com/microsoft/whales) -> An active learning pipeline for identifying whales in high-resolution satellite imagery, by Microsoft
 
@@ -3198,22 +3191,22 @@ Federated learning is an approach to distributed machine learning where a centra
 
   28.1. [Federated-Learning-for-Remote-Sensing](https://github.com/anandcu3/Federated-Learning-for-Remote-Sensing) ->  implementation of three Federated Learning models
 
-  28.2. [Semantic-Segmentation-UNet-Federated](https://github.com/PratikGarai/Semantic-Segmentation-UNet-Federated) -> code for paper: FedUKD: Federated UNet Model with Knowledge Distillation for Land Use Classification from Satellite and Street Views
+  28.2. [Semantic-Segmentation-UNet-Federated](https://github.com/PratikGarai/Semantic-Segmentation-UNet-Federated) -> FedUKD: Federated UNet Model with Knowledge Distillation for Land Use Classification from Satellite and Street Views
 
-  28.3. [MM-FL](https://git.tu-berlin.de/rsim/MM-FL) -> code for paper: Learning Across Decentralized Multi-Modal Remote Sensing Archives with Federated Learning
+  28.3. [MM-FL](https://git.tu-berlin.de/rsim/MM-FL) -> Learning Across Decentralized Multi-Modal Remote Sensing Archives with Federated Learning
 
 #
 ## 29. Transformers
 
 Vision transformers are state-of-the-art models for vision tasks such as image classification and object detection. They differ from CNNs as they use self-attention instead of convolution to learn global relations between all pixels in the image. Vision transformers employ a transformer encoder architecture, composed of multi-layer blocks with multi-head self-attention and feed-forward layers, enabling the capture of rich contextual information for more accurate predictions.
 
-  29.1. [Transformer-in-Remote-Sensing](https://github.com/VIROBO-15/Transformer-in-Remote-Sensing) -> code for 2022 [paper](https://arxiv.org/abs/2209.01206): Transformers in Remote Sensing: A Survey
+  29.1. [Transformer-in-Remote-Sensing](https://github.com/VIROBO-15/Transformer-in-Remote-Sensing) -> Transformers in Remote Sensing: A Survey
 
-  29.2. [Remote-Sensing-RVSA](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA) -> code for 2022 [paper](https://arxiv.org/abs/2208.03987): Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model
+  29.2. [Remote-Sensing-RVSA](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA) -> Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model
 
   29.3. [SatViT](https://github.com/antofuller/SatViT) -> self-supervised training of multispectral optical and SAR vision transformers
 
-  29.4. [UDA_for_RS](https://github.com/Levantespot/UDA_for_RS) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/19/4942): Unsupervised Domain Adaptation for Remote Sensing Semantic Segmentation with Transformer
+  29.4. [UDA_for_RS](https://github.com/Levantespot/UDA_for_RS) -> Unsupervised Domain Adaptation for Remote Sensing Semantic Segmentation with Transformer
 
   29.5. [Vision Transformers for Low Earth Orbit Satellites](https://myrtle.ai/learn/leo-1-low-earth-orbit-satellites/) -> blog post that investigates deploying Vision Transformers on low earth orbit satellites
 
@@ -3224,9 +3217,9 @@ Efforts to detect falsified images & deepfakes
 
   30.1. [UAE-RS](https://github.com/YonghaoXu/UAE-RS) -> dataset that provides black-box adversarial samples in the remote sensing field
 
-  30.2. [PSGAN](https://github.com/xuxiangsun/PSGAN) -> code for paper: Perturbation Seeking Generative Adversarial Networks: A Defense Framework for Remote Sensing Image Scene Classification
+  30.2. [PSGAN](https://github.com/xuxiangsun/PSGAN) -> Perturbation Seeking Generative Adversarial Networks: A Defense Framework for Remote Sensing Image Scene Classification
 
-  30.3. [SACNet](https://github.com/YonghaoXu/SACNet) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9573256): Self-Attention Context Network: Addressing the Threat of Adversarial Attacks for Hyperspectral Image Classification
+  30.3. [SACNet](https://github.com/YonghaoXu/SACNet) -> Self-Attention Context Network: Addressing the Threat of Adversarial Attacks for Hyperspectral Image Classification
 
 #
 ## 31. Image registration
@@ -3249,7 +3242,7 @@ Image registration is the process of registering one or more images onto another
 
   31.8. [cnn-registration](https://github.com/yzhq97/cnn-registration) -> A image registration method using convolutional neural network features written in Python2, Tensorflow 1.5
 
-  31.9. [Detecting Ground Control Points via Convolutional Neural Network for Stereo Matching](https://arxiv.org/abs/1605.02289) -> code?
+  31.10. [Siamese_ShiftNet](https://github.com/simon-donike/Siamese_ShiftNet) -> NN predicting spatial coregistration shift of remote sensing imagery. Adapted from HighRes-net
 
   31.10. [ImageCoregistration](https://github.com/ily-R/ImageCoregistration) -> Image registration with openCV using sift and RANSAC
 
@@ -3271,23 +3264,23 @@ Image registration is the process of registering one or more images onto another
 
   31.19. [MS_HLMO_registration](https://github.com/MrPingQi/MS_HLMO_registration) -> Multi-scale Histogram of Local Main Orientation for Remote Sensing Image Registration, with [paper](https://arxiv.org/abs/2204.00260)
 
-  31.20. [cnn-matching](https://github.com/lan-cz/cnn-matching) -> code and datadset for paper: Deep learning algorithm for feature matching of cross modality remote sensing images
+  31.20. [cnn-matching](https://github.com/lan-cz/cnn-matching) -> Deep learning algorithm for feature matching of cross modality remote sensing images
 
   31.21. [Imatch-P](https://github.com/geoyee/Imatch-P) -> A demo using SuperGlue and SuperPoint to do the image matching task based PaddlePaddle
 
   31.22. [NBR-Net](https://github.com/xuyingxiao/NBR-Net) -> A Non-rigid Bi-directional Registration Network for Multi-temporal Remote Sensing Images
 
-  31.23. [MU-Net](https://github.com/woshiybc/Multi-Scale-Unsupervised-Framework-MSUF) -> code for paper: A Multi-Scale Framework with Unsupervised Learning for Remote Sensing Image Registration
+  31.23. [MU-Net](https://github.com/woshiybc/Multi-Scale-Unsupervised-Framework-MSUF) -> A Multi-Scale Framework with Unsupervised Learning for Remote Sensing Image Registration
 
   31.24. [unsupervisedDeepHomographyRAL2018](https://github.com/tynguyen/unsupervisedDeepHomographyRAL2018) -> Unsupervised Deep Homography applied to aerial data
 
-  31.25. [registration_cnn_ntg](https://github.com/zhangliukun/registration_cnn_ntg) -> code for paper: A Multispectral Image Registration Method Based on Unsupervised Learning
+  31.25. [registration_cnn_ntg](https://github.com/zhangliukun/registration_cnn_ntg) -> A Multispectral Image Registration Method Based on Unsupervised Learning
 
   31.26. [remote-sensing-images-registration-dataset](https://github.com/liliangzhi110/remote-sensing-images-registration-dataset) -> at 0.23m, 3.75m & 30m resolution
 
-  31.27. [semantic-template-matching](https://github.com/liliangzhi110/semantictemplatematching) -> code for 2021 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271621002446): A deep learning semantic template matching framework for remote sensing image registration
+  31.27. [semantic-template-matching](https://github.com/liliangzhi110/semantictemplatematching) -> A deep learning semantic template matching framework for remote sensing image registration
 
-  31.28. [GMN-Generative-Matching-Network](https://github.com/ei1994/GMN-Generative-Matching-Network) -> code for 2018 paper: Deep Generative Matching Network for Optical and SAR Image Registration
+  31.28. [GMN-Generative-Matching-Network](https://github.com/ei1994/GMN-Generative-Matching-Network) -> Deep Generative Matching Network for Optical and SAR Image Registration
 
   31.29. [SOMatch](https://github.com/system123/SOMatch) -> code for 2020 [paper](https://www.sciencedirect.com/science/article/pii/S0924271620302598): A deep learning framework for matching of SAR and optical imagery
 
@@ -3295,21 +3288,20 @@ Image registration is the process of registering one or more images onto another
 
   31.31. [RISG-image-matching](https://github.com/lan-cz/RISG-image-matching) -> A rotation invariant SuperGlue image matching algorithm
 
-  31.32. [DeepAerialMatching_pytorch](https://github.com/jaehyunnn/DeepAerialMatching_pytorch) -> code for 2020 [paper](https://arxiv.org/abs/2002.01325): A Two-Stream Symmetric Network with Bidirectional Ensemble for Aerial Image Matching
+  31.32. [DeepAerialMatching_pytorch](https://github.com/jaehyunnn/DeepAerialMatching_pytorch) -> A Two-Stream Symmetric Network with Bidirectional Ensemble for Aerial Image Matching
 
-  31.33. [DPCN](https://github.com/ZJU-Robotics-Lab/DPCN) -> code for 2020 [paper](https://arxiv.org/abs/2008.09474): Deep Phase Correlation for End-to-End Heterogeneous Sensor Measurements Matching
+  31.33. [DPCN](https://github.com/ZJU-Robotics-Lab/DPCN) -> Deep Phase Correlation for End-to-End Heterogeneous Sensor Measurements Matching
 
-  31.34. [FSRA](https://github.com/Dmmm1997/FSRA) -> code for 2022 [paper](https://arxiv.org/abs/2201.09206): A Transformer-Based Feature Segmentation and Region Alignment Method For UAV-View Geo-Localization
+  31.34. [FSRA](https://github.com/Dmmm1997/FSRA) -> A Transformer-Based Feature Segmentation and Region Alignment Method For UAV-View Geo-Localization
 
-  31.35. [IHN](https://github.com/imdumpl78/IHN) -> code for 2022 [paper](https://arxiv.org/abs/2203.15982): Iterative Deep Homography Estimation
+  31.35. [IHN](https://github.com/imdumpl78/IHN) -> Iterative Deep Homography Estimation
 
-  31.36. [OSMNet](https://github.com/zhanghan9718/OSMNet) -> code for 2021 [paper](https://ieeexplore.ieee.org/document/9609993): Explore Better Network Framework for High-Resolution Optical and SAR Image Matching
+  31.36. [OSMNet](https://github.com/zhanghan9718/OSMNet) -> Explore Better Network Framework for High-Resolution Optical and SAR Image Matching
 
-  31.37. [L2_Siamese](https://github.com/TheKiteFlier/L2_Siamese) -> code for the 2020 [paper](https://ieeexplore.ieee.org/document/9264687): Registration of Multiresolution Remote Sensing Images Based on L2-Siamese Model
+  31.37. [L2_Siamese](https://github.com/TheKiteFlier/L2_Siamese) -> Registration of Multiresolution Remote Sensing Images Based on L2-Siamese Model
 
   31.38. [Multi-Step-Deformable-Registration](https://github.com/mpapadomanolaki/Multi-Step-Deformable-Registration) -> code for 2021 paper: Unsupervised Multi-Step Deformable Registration of Remote Sensing Imagery based on Deep Learning
 
-  31.39. [Siamese_ShiftNet](https://github.com/simon-donike/Siamese_ShiftNet) -> NN predicting spatial coregistration shift of remote sensing imagery. Adapted from HighRes-net
 
 #
 ## 32. Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF
@@ -3372,13 +3364,13 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 
   32.28. [M3Net](https://github.com/lauraset/BuildingHeightModel) -> A deep learning method for building height estimation using high-resolution multi-view imagery over urban areas
 
-  32.29. [HMSM-Net](https://github.com/Sheng029/HMSM-Net) -> code for 2022 [paper](https://www.sciencedirect.com/science/article/abs/pii/S092427162200123X): Hierarchical multi-scale matching network for disparity estimation of high-resolution satellite stereo images
+  32.29. [HMSM-Net](https://github.com/Sheng029/HMSM-Net) -> Hierarchical multi-scale matching network for disparity estimation of high-resolution satellite stereo images
 
-  32.30. [StereoMatchingRemoteSensing](https://github.com/Sheng029/StereoMatchingRemoteSensing) -> code for 2021 [paper](https://www.mdpi.com/2072-4292/13/24/5050): Dual-Scale Matching Network for Disparity Estimation of High-Resolution Remote Sensing Images
+  32.30. [StereoMatchingRemoteSensing](https://github.com/Sheng029/StereoMatchingRemoteSensing) -> Dual-Scale Matching Network for Disparity Estimation of High-Resolution Remote Sensing Images
 
   32.31. [satnerf](https://centreborelli.github.io/satnerf/) -> Learning Multi-View Satellite Photogrammetry With Transient Objects and Shadow Modeling Using RPC Cameras
 
-  32.32. [SatMVS](https://github.com/WHU-GPCV/SatMVS) -> code for 2021 paper: Rational Polynomial Camera Model Warping for Deep Learning Based Satellite Multi-View Stereo Matching
+  32.32. [SatMVS](https://github.com/WHU-GPCV/SatMVS) -> Rational Polynomial Camera Model Warping for Deep Learning Based Satellite Multi-View Stereo Matching
 
   32.33. [ImpliCity](https://github.com/prs-eth/ImpliCity) -> reconstructs digital surface models (DSMs) from raw photogrammetric 3D point clouds and ortho-images with the help of an implicit neural 3D scene representation
 
@@ -3424,7 +3416,7 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
   34.8. [Implementing an Ensemble Convolutional Neural Network on Sentinel-1 Synthetic Aperture Radar data and Sentinel-3 Radiometric data for the detecting of forest fires](https://github.com/aalling93/ECNN-on-SAR-data-and-Radiometry-data)
 
-  34.9. [s1_parking_occupancy](https://github.com/sdrdis/s1_parking_occupancy) -> Source code for PARKING OCCUPANCY ESTIMATION ON SENTINEL-1 IMAGES, ISPRS 2020
+  34.9. [s1_parking_occupancy](https://github.com/sdrdis/s1_parking_occupancy) -> PARKING OCCUPANCY ESTIMATION ON SENTINEL-1 IMAGES
 
   34.10. [Experiments on Flood Segmentation on Sentinel-1 SAR Imagery with Cyclical Pseudo Labeling and Noisy Student Training](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection)
 
@@ -3436,7 +3428,7 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
   34.14. [Winners of the STAC Overflow: Map Floodwater from Radar Imagery competition](https://github.com/drivendataorg/stac-overflow)
 
-  34.15. [deSpeckNet-TF-GEE](https://github.com/adugnag/deSpeckNet-TF-GEE) -> implementation of the paper 'deSpeckNet: Generalizing Deep Learning Based SAR Image Despeckling'
+  34.15. [deSpeckNet-TF-GEE](https://github.com/adugnag/deSpeckNet-TF-GEE) -> deSpeckNet: Generalizing Deep Learning Based SAR Image Despeckling
 
   34.16. [cnn_sar_image_classification](https://github.com/diogosens/cnn_sar_image_classification) -> CNN for classifying SAR images of the Amazon Rainforest
 
@@ -3448,7 +3440,7 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
   34.20. [SAR_CD_DDNet](https://github.com/summitgao/SAR_CD_DDNet) -> PyTorch implementation of Change Detection in Synthetic Aperture Radar Images Using a Dual Domain Network
 
-  34.21. [SAR_CD_MS_CapsNet](https://github.com/summitgao/SAR_CD_MS_CapsNet) -> Code for the paper "Change Detection in SAR Images Based on Multiscale Capsule Network" IEEE GRSL 2021
+  34.21. [SAR_CD_MS_CapsNet](https://github.com/summitgao/SAR_CD_MS_CapsNet) -> Change Detection in SAR Images Based on Multiscale Capsule Network
 
   34.22 Toushka Waterbodies Segmentation from four different combinations of Sentinel-1 SAR imagery and Digital Elevation Model with Pytorch and U-net. -> [code](https://github.com/MuhammedM294/waterseg)
 
@@ -3462,19 +3454,19 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
   34.27. [Target Recognition in SAR](https://github.com/NateDiR/sar_target_recognition_deep_learning) -> Identify Military Vehicles in Satellite Imagery with TensorFlow, with [article](https://python.plainenglish.io/identifying-military-vehicles-in-satellite-imagery-with-tensorflow-96015634129d)
 
-  34.28. [DSN](https://github.com/Alien9427/DSN) -> code for 2020 paper: Deep SAR-Net: Learning objects from signals
+  34.28. [DSN](https://github.com/Alien9427/DSN) -> Deep SAR-Net: Learning objects from signals
 
   34.29. [SAR_denoising](https://github.com/MathieuRita/SAR_denoising) -> project on application of FFDNet to SAR images
 
-  34.30. [cnninsar](https://github.com/subhayanmukherjee/cnninsar) -> code for 2018 [paper](https://ieeexplore.ieee.org/document/8589920): CNN-Based InSAR Denoising and Coherence Metric
+  34.30. [cnninsar](https://github.com/subhayanmukherjee/cnninsar) -> CNN-Based InSAR Denoising and Coherence Metric
 
   34.31. [sar](https://github.com/GeomaticsAndRS/sar) -> Despeckling Synthetic Aperture Radar Images using a Deep Residual CNN
 
-  34.32. [GCBANet](https://github.com/TianwenZhang0825/GCBANet) -> code for 2022 [paper](https://www.mdpi.com/2072-4292/14/9/2165): A Global Context Boundary-Aware Network for SAR Ship Instance Segmentation
+  34.32. [GCBANet](https://github.com/TianwenZhang0825/GCBANet) -> A Global Context Boundary-Aware Network for SAR Ship Instance Segmentation
 
-  34.33. [SAR_CD_GKSNet](https://github.com/summitgao/SAR_CD_GKSNet) -> code for 2022 [paper](https://arxiv.org/abs/2201.08954): Change Detection from Synthetic Aperture Radar Images via Graph-Based Knowledge Supplement Network
+  34.33. [SAR_CD_GKSNet](https://github.com/summitgao/SAR_CD_GKSNet) -> Change Detection from Synthetic Aperture Radar Images via Graph-Based Knowledge Supplement Network
 
-  34.34. [pixel-wise-segmentation-of-sar](https://github.com/flyingshan/pixel-wise-segmentation-of-sar-imagery-using-encoder-decoder-network-and-fully-connected-crf) -> code for 2020 [paper](https://link.springer.com/chapter/10.1007/978-3-030-39431-8_15): Pixel-Wise Segmentation of SAR Imagery Using Encoder-Decoder Network and Fully-Connected CRF
+  34.34. [pixel-wise-segmentation-of-sar](https://github.com/flyingshan/pixel-wise-segmentation-of-sar-imagery-using-encoder-decoder-network-and-fully-connected-crf) -> Pixel-Wise Segmentation of SAR Imagery Using Encoder-Decoder Network and Fully-Connected CRF
 
   34.35. [SAR_Ship_detection_CFAR](https://github.com/Rc-W024/SAR_Ship_detection_CFAR) -> An improved two-parameter CFAR algorithm based on Rayleigh distribution and Mathematical Morphology for SAR ship detection
 
@@ -3484,19 +3476,19 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
   34.38. [random-wetlands](https://github.com/ekcomputer/random-wetlands) -> Random forest classification for wetland vegetation from synthetic aperture radar dataset
 
-  34.39. [AGSDNet](https://github.com/RTSIR/AGSDNet) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9755131): AGSDNet: Attention and Gradient-Based SAR Denoising Network
+  34.39. [AGSDNet](https://github.com/RTSIR/AGSDNet) -> AGSDNet: Attention and Gradient-Based SAR Denoising Network
 
-  34.40. [LFG-Net](https://github.com/Evarray/LFG-Net) -> code for 2022 [paper](https://ieeexplore.ieee.org/abstract/document/9815311): LFG-Net: Low-Level Feature Guided Network for Precise Ship Instance Segmentation in SAR Images
+  34.40. [LFG-Net](https://github.com/Evarray/LFG-Net) -> LFG-Net: Low-Level Feature Guided Network for Precise Ship Instance Segmentation in SAR Images
 
   34.41. [sar_sift](https://github.com/yishiliuhuasheng/sar_sift) -> Image registration algorithm
 
   34.42. [SAR-Despeckling](https://github.com/ImageRestorationToolbox/SAR-Despeckling) -> toolbox
 
-  34.43. [cogsima2022](https://github.com/galatolofederico/cogsima2022) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9830661): Enhancing land subsidence awareness via InSAR data and Deep Transformers
+  34.43. [cogsima2022](https://github.com/galatolofederico/cogsima2022) -> Enhancing land subsidence awareness via InSAR data and Deep Transformers
 
-  34.44. [XAI4SAR-PGIL](https://github.com/Alien9427/XAI4SAR-PGIL) -> code for 2021 [paper](https://arxiv.org/abs/2110.14144): Physically Explainable CNN for SAR Image Classification
+  34.44. [XAI4SAR-PGIL](https://github.com/Alien9427/XAI4SAR-PGIL) -> Physically Explainable CNN for SAR Image Classification
 
-  34.45. [PolSARFormer](https://github.com/aj1365/PolSARFormer) -> code for 2023 [paper](https://ieeexplore.ieee.org/document/10024822): Local Window Attention Transformer for Polarimetric SAR Image Classification
+  34.45. [PolSARFormer](https://github.com/aj1365/PolSARFormer) -> Local Window Attention Transformer for Polarimetric SAR Image Classification
 
 #
 ## 35. NDVI - vegetation index
@@ -3515,7 +3507,7 @@ Normalized Difference Vegetation Index (NDVI) is an index used to measure the am
 
   35.6. [A walkthrough on calculating NDWI water index for flooded areas](https://towardsdatascience.com/how-to-compute-satellite-image-statistics-and-use-it-in-pandas-81864a489144) -> Derive zonal statistics from Sentinel 2 images using Rasterio and Geopandas
 
-  35.7. [NDVI-Net](https://github.com/HaoZhang1018/NDVI-Net) -> code for 2020 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271620302185): NDVI-Net: A fusion network for generating high-resolution normalized difference vegetation index in remote sensing
+  35.7. [NDVI-Net](https://github.com/HaoZhang1018/NDVI-Net) -> NDVI-Net: A fusion network for generating high-resolution normalized difference vegetation index in remote sensing
 
   35.8. [Awesome-Vegetation-Index](https://github.com/px39n/Awesome-Vegetation-Index)
 
@@ -3526,7 +3518,7 @@ Normalized Difference Vegetation Index (NDVI) is an index used to measure the am
 
 Image quality describes the degree of accuracy with which an image can represent the original object. Image quality is typically measured by the amount of detail, sharpness, and contrast that an image contains. Factors that contribute to image quality include the resolution, format, and compression of the image.
 
-  36.1. Convolutional autoencoder network can be employed to image denoising, [read about this on the Keras blog](https://blog.keras.io/building-autoencoders-in-keras.html)
+  36.1. [lvrnet](https://github.com/Achleshwar/lvrnet) -> Lightweight Image Restoration for Aerial Images under Low Visibility
 
   36.2. [jitter-compensation](https://github.com/caiya55/jitter-compensation) -> Remote Sensing Image Jitter Detection and Compensation Using CNN
 
@@ -3534,7 +3526,7 @@ Image quality describes the degree of accuracy with which an image can represent
 
   36.4. [image-quality-assessment](https://github.com/idealo/image-quality-assessment) -> CNN to predict the aesthetic and technical quality of images
 
-  36.5. [Convolutional autoencoder for image denoising](https://keras.io/examples/vision/autoencoder/) -> keras guide
+  36.5. [DOTA-C](https://github.com/hehaodong530/DOTA-C) -> evaluating the robustness of object detection models to 19 types of image quality degradation
 
   36.6. [piq](https://github.com/photosynthesis-team/piq) -> a collection of measures and metrics for image quality assessment
 
@@ -3544,23 +3536,19 @@ Image quality describes the degree of accuracy with which an image can represent
 
   36.9. [PerceptualSimilarity](https://github.com/richzhang/PerceptualSimilarity) -> LPIPS is a perceptual metric which aims to overcome the limitations of traditional metrics such as PSNR & SSIM, to better represent the features the human eye picks up on
 
-  36.10. [Optical-RemoteSensing-Image-Resolution](https://github.com/wenjiaXu/Optical-RemoteSensing-Image-Resolution) -> code for 2018 [paper](https://www.mdpi.com/2072-4292/10/12/1893): Deep Memory Connected Neural Network for Optical Remote Sensing Image Restoration. Two applications: Gaussian image denoising and single image super-resolution
+  36.10. [Optical-RemoteSensing-Image-Resolution](https://github.com/wenjiaXu/Optical-RemoteSensing-Image-Resolution) -> Deep Memory Connected Neural Network for Optical Remote Sensing Image Restoration. Two applications: Gaussian image denoising and single image super-resolution
 
   36.11. [Hyperspectral-Deblurring-and-Destriping](https://github.com/ImageRestorationToolbox/Hyperspectral-Deblurring-and-Destriping)
 
   36.12. [HyDe](https://github.com/Helmholtz-AI-Energy/HyDe) -> Hyperspectral Denoising algorithm toolbox in Python
 
-  36.13. [HLF-DIP](https://github.com/Keiv4n/HLF-DIP) -> code for 2022 [paper](https://ieeexplore.ieee.org/document/9813381): Unsupervised Hyperspectral Denoising Based on Deep Image Prior and Least Favorable Distribution
+  36.13. [HLF-DIP](https://github.com/Keiv4n/HLF-DIP) -> Unsupervised Hyperspectral Denoising Based on Deep Image Prior and Least Favorable Distribution
 
-  36.14. [RQUNetVAE](https://github.com/trile83/RQUNetVAE) -> code for 2022 [paper](https://arxiv.org/abs/2208.12810): Riesz-Quincunx-UNet Variational Auto-Encoder for Satellite Image Denoising
+  36.14. [RQUNetVAE](https://github.com/trile83/RQUNetVAE) -> Riesz-Quincunx-UNet Variational Auto-Encoder for Satellite Image Denoising
 
-  36.15. [deep-hs-prior](https://github.com/acecreamu/deep-hs-prior) -> code for 2019 [paper](https://arxiv.org/abs/1902.00301): Deep Hyperspectral Prior: Denoising, Inpainting, Super-Resolution
+  36.15. [deep-hs-prior](https://github.com/acecreamu/deep-hs-prior) -> Deep Hyperspectral Prior: Denoising, Inpainting, Super-Resolution
 
   36.16. [iquaflow](https://github.com/satellogic/iquaflow) -> from Satellogic, an image quality framework that aims at providing a set of tools to assess image quality by using the performance of AI models trained on the images as a proxy.
-
-  36.17. [lvrnet](https://github.com/Achleshwar/lvrnet) -> Lightweight Image Restoration for Aerial Images under Low Visibility
-
-  36.18. [DOTA-C](https://github.com/hehaodong530/DOTA-C) -> evaluating the robustness of object detection models to 19 types of image quality degradation
 
 #
 ## 37. Synthetic data
@@ -3591,7 +3579,7 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
   37.12. [Combining Synthetic Data with Real Data to Improve Detection Results in Satellite Imagery: Case Study](https://one-view.ai/combining-synthetic-data-with-real-data-to-improve-detection-results-in-satellite-imagery-case-study/)
 
-  37.13. [SynImageAnalysis](https://github.com/FlorenceJiang/SynImageAnalysis) -> comparing syn and real sattlelite images in the latent feature space (embeddings)
+  37.13. [SynImageAnalysis](https://github.com/FlorenceJiang/SynImageAnalysis) -> comparing synthetic and real sattlelite images in the latent feature space (embeddings)
 
   37.14. [Import OpenStreetMap data into Unreal Engine 4](https://github.com/ue4plugins/StreetMap)
 
@@ -3605,7 +3593,7 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
   37.19. [Synthesizing Robustness: Dataset Size Requirements and Geographic Insights](https://avanetten.medium.com/synthesizing-robustness-dataset-size-requirements-and-geographic-insights-a687192e8004) -> Medium article, concludes that synthetic data is most beneficial to the rarest object classes and that extracting utility from synthetic data often takes significant effort and creativity
 
-  37.20. [rs_img_synth](https://github.com/gbaier/rs_img_synth) -> code for 2020 [paper](https://arxiv.org/abs/2011.11314): Synthesizing Optical and SAR Imagery From Land Cover Maps and Auxiliary Raster Data
+  37.20. [rs_img_synth](https://github.com/gbaier/rs_img_synth) -> Synthesizing Optical and SAR Imagery From Land Cover Maps and Auxiliary Raster Data
 
   37.21. [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> dataset and pretrained models for the paper: OnlyPlanes - Incrementally Tuning Synthetic Training Datasets for Satellite Object Detection
 
@@ -3616,7 +3604,9 @@ Training data can be hard to acquire, particularly for rare events such as chang
   
   38.2. [Remote-Sensing-ChatGPT](https://github.com/HaonanGuo/Remote-Sensing-ChatGPT) -> an open source tool for solving remote sensing tasks with ChatGPT in an interactive way.
 
-  38.3. [ChangeCLIP](https://github.com/dyzy41/ChangeCLIP) -> 2024 paper: ChangeCLIP: Remote sensing change detection with multimodal vision-language representation learning
+  38.3. [ChangeCLIP](https://github.com/dyzy41/ChangeCLIP) -> ChangeCLIP: Remote sensing change detection with multimodal vision-language representation learning
+
+  38.4. [SkyEyeGPT](https://github.com/ZhanYang-nwpu/SkyEyeGPT) -> SkyEyeGPT: Unifying Remote Sensing Vision-Language Tasks via Instruction Tuning with Large Language Model
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
