@@ -4,14 +4,13 @@
         <img src="logo.png" width="700">
     </a>
 </p>
-  <h2>Techniques for deep learning on satellite and aerial imagery.</h2>
+  <h2>Techniques for deep learning on satellite and aerial imagery</h2>
 
 # 👉 [satellite-image-deep-learning.com](https://www.satellite-image-deep-learning.com/) 👈
 
 </div>
 
 ## Introduction
-
 Deep learning has revolutionized the analysis and interpretation of satellite and aerial imagery, addressing unique challenges such as vast image sizes and a wide array of object classes. This repository provides an exhaustive overview of deep learning techniques specifically tailored for satellite and aerial image processing. It covers a range of architectures, models, and algorithms suited for key tasks like classification, segmentation, and object detection. This repository is proudly sponsored by Orboculum
 
 #
