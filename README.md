@@ -35,51 +35,51 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
 
 #
 
-**How to use this repository:** if you know exactly what you are looking for (e.g. you have the paper name) you can `Control+F` to search for it in this page
+**How to use this repository:** use `Control+F` to search this page, and note that searching the raw markdown file can be more effective
 
 ## Techniques
 
- 1. [Classification](https://github.com/satellite-image-deep-learning/techniques#1-classification)
- 1. [Segmentation](https://github.com/satellite-image-deep-learning/techniques#2-segmentation)
- 1. [Instance segmentation](https://github.com/satellite-image-deep-learning/techniques#3-instance-segmentation)
- 1. [Object detection](https://github.com/satellite-image-deep-learning/techniques#4-object-detection)
- 1. [Object counting](https://github.com/satellite-image-deep-learning/techniques#5-object-counting)
- 1. [Regression](https://github.com/satellite-image-deep-learning/techniques#6-regression)
- 1. [Cloud detection & removal](https://github.com/satellite-image-deep-learning/techniques#7-cloud-detection--removal)
- 1. [Change detection](https://github.com/satellite-image-deep-learning/techniques#8-change-detection)
- 1. [Time series](https://github.com/satellite-image-deep-learning/techniques#9-time-series)
- 1. [Crop classification](https://github.com/satellite-image-deep-learning/techniques#10-crop-classification)
- 1. [Crop yield](https://github.com/satellite-image-deep-learning/techniques#11-crop-yield)
- 1. [Wealth and economic activity](https://github.com/satellite-image-deep-learning/techniques#12-wealth-and-economic-activity)
- 1. [Disaster response](https://github.com/satellite-image-deep-learning/techniques#13-disaster-response)
- 1. [Super-resolution](https://github.com/satellite-image-deep-learning/techniques#14-super-resolution)
- 1. [Pansharpening](https://github.com/satellite-image-deep-learning/techniques#15-pansharpening)
- 1. [Image-to-image translation](https://github.com/satellite-image-deep-learning/techniques#16-image-to-image-translation)
- 1. [Data fusion](https://github.com/satellite-image-deep-learning/techniques#17-data-fusion)
- 2. [Generative networks](https://github.com/satellite-image-deep-learning/techniques#18-generative-networks)
- 3. [Autoencoders, dimensionality reduction, image embeddings & similarity search](https://github.com/satellite-image-deep-learning/techniques#19-autoencoders-dimensionality-reduction-image-embeddings--similarity-search)
- 4. [Image retrieval](https://github.com/satellite-image-deep-learning/techniques#20-image-retrieval)
- 5. [Image Captioning](https://github.com/satellite-image-deep-learning/techniques#21-image-captioning)
- 6. [Visual Question Answering](https://github.com/satellite-image-deep-learning/techniques#22-visual-question-answering)
- 7. [Mixed data learning](https://github.com/satellite-image-deep-learning/techniques#23-mixed-data-learning)
- 8. [Few & zero shot learning](https://github.com/satellite-image-deep-learning/techniques#24-few--zero-shot-learning)
- 9. [Self-supervised, unsupervised & contrastive learning](https://github.com/satellite-image-deep-learning/techniques#25-self-supervised-unsupervised--contrastive-learning)
- 10. [Weakly & semi-supervised learning](https://github.com/satellite-image-deep-learning/techniques#26-weakly--semi-supervised-learning)
- 11. [Active learning](https://github.com/satellite-image-deep-learning/techniques#27-active-learning)
- 12. [Federated Learning](https://github.com/satellite-image-deep-learning/techniques#28-federated-learning)
- 13. [Transformers](https://github.com/satellite-image-deep-learning/techniques#29-transformers)
- 14. [Adversarial ML](https://github.com/satellite-image-deep-learning/techniques#30-adversarial-ml)
- 15. [Image registration](https://github.com/satellite-image-deep-learning/techniques#31-image-registration)
- 16. [Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF](https://github.com/satellite-image-deep-learning/techniques#32-terrain-mapping-disparity-estimation-lidar-dems--nerf)
- 17. [Thermal Infrared](https://github.com/satellite-image-deep-learning/techniques#33-thermal-infrared)
- 18. [SAR](https://github.com/satellite-image-deep-learning/techniques#34-sar)
- 19. [NDVI-Vegetation Index](https://github.com/satellite-image-deep-learning/techniques#35-ndvi---vegetation-index)
- 20. [General image quality](https://github.com/satellite-image-deep-learning/techniques#36-general-image-quality)
- 21. [Synthetic data](https://github.com/satellite-image-deep-learning/techniques#37-synthetic-data)
- 22. [Large vision & language models (LLMs & LVMs)](https://github.com/satellite-image-deep-learning/techniques#38-large-vision--language-models-llms--lvms)
+- Classification
+- Segmentation
+- Instance segmentation
+- Object detection
+- Object counting
+- Regression
+- Cloud detection & removal
+- Change detection
+- Time series
+- Crop classification
+- Crop yield
+- Wealth and economic activity
+- Disaster response
+- Super-resolution
+- Pansharpening
+- Image-to-image translation
+- Data fusion
+- Generative networks
+- Autoencoders, dimensionality reduction, image embeddings & similarity search
+- Image retrieval
+- Image Captioning
+- Visual Question Answering
+- Mixed data learning
+- Few & zero shot learning
+- Self-supervised, unsupervised & contrastive learning
+- Weakly & semi-supervised learning
+- Active learning
+- Federated Learning
+- Transformers
+- Adversarial ML
+- Image registration
+- Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF
+- Thermal Infrared
+- SAR
+- NDVI-Vegetation Index
+- General image quality
+- Synthetic data
+- Large vision & language models (LLMs & LVMs)
 
 #
-### 1. Classification
+## Classification
 
 <p align="center">
   <img src="images/merced.png" width="600">
@@ -141,9 +141,9 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [Satellite image classification using multiple machine learning algorithms](https://github.com/tanmay-delhikar/satellite-image-analysis-ml)
 
-- [satsense](https://github.com/DynaSlum/satsense) -> a Python library for land use/cover classification using classical features including HoG & NDVI
+- [satsense](https://github.com/DynaSlum/satsense) -> land use/cover classification using classical features including HoG & NDVI
 
--[PyTorch_UCMerced_LandUse](https://github.com/GeneralLi95/PyTorch_UCMerced_LandUse)
+- [PyTorch_UCMerced_LandUse](https://github.com/GeneralLi95/PyTorch_UCMerced_LandUse)
 
 - [EuroSAT-image-classification](https://github.com/artemisart/EuroSAT-image-classification)
 
@@ -245,7 +245,7 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 
 # 
-### 2. Segmentation
+## Segmentation
 
 <p align="center">
   <img src="images/segmentation.png" width="500">
@@ -255,7 +255,7 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 Image segmentation is a crucial step in image analysis and computer vision, with the goal of dividing an image into semantically meaningful segments or regions. The process of image segmentation assigns a class label to each pixel in an image, effectively transforming an image from a 2D grid of pixels into a 2D grid of pixels with assigned class labels. One common application of image segmentation is road or building segmentation, where the goal is to identify and separate roads and buildings from other features within an image. To accomplish this task, single class models are often trained to differentiate between roads and background, or buildings and background. These models are designed to recognize specific features, such as color, texture, and shape, that are characteristic of roads or buildings, and use this information to assign class labels to the pixels in an image. Another common application of image segmentation is land use or crop type classification, where the goal is to identify and map different land cover types within an image. In this case, multi-class models are typically used to recognize and differentiate between multiple classes within an image, such as forests, urban areas, and agricultural land. These models are capable of recognizing complex relationships between different land cover types, allowing for a more comprehensive understanding of the image content. Read [A brief introduction to satellite image segmentation with neural networks](https://medium.com/@robmarkcole/a-brief-introduction-to-satellite-image-segmentation-with-neural-networks-33ea732d5bce). **Note** that many articles which refer to 'hyperspectral land classification' are often actually describing semantic segmentation. [Image source](https://towardsdatascience.com/semantic-segmentation-of-aerial-imagery-using-u-net-in-python-552705238514)
 
-### 2.1. Segmentation - Land use & land cover
+### Segmentation - Land use & land cover
 
 - [U-Net for Semantic Segmentation on Unbalanced Aerial Imagery](https://towardsdatascience.com/u-net-for-semantic-segmentation-on-unbalanced-aerial-imagery-3474fa1d3e56) -> using the Dubai dataset
 
@@ -339,7 +339,7 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 - [LoveNAS](https://github.com/Junjue-Wang/LoveNAS) -> LoveNAS: Towards Multi-Scene Land-Cover Mapping via Hierarchical Searching Adaptive Network
 
 
-### 2.2. Segmentation - Vegetation, deforestation, crops & crop boundaries
+### Segmentation - Vegetation, deforestation, crops & crop boundaries
 
 Note that deforestation detection may be treated as a segmentation task or a change detection task
 
@@ -411,7 +411,7 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [attention-mechanism-unet](https://github.com/davej23/attention-mechanism-unet) -> An attention-based U-Net for detecting deforestation within satellite sensor imagery
 
--[Cocoa_plantations_detection](https://github.com/antoine-spahr/Cocoa_plantations_detection) -> Detecting cocoa plantation in Ivory Coast using Sentinel-2 remote sensing data using KNN, SVM, Random Forest and MLP
+- [Cocoa_plantations_detection](https://github.com/antoine-spahr/Cocoa_plantations_detection) -> Detecting cocoa plantation in Ivory Coast using Sentinel-2 remote sensing data using KNN, SVM, Random Forest and MLP
 
 - [SummerCrop_Deeplearning](https://github.com/AgriRS/SummerCrop_Deeplearning) -> A Transferable Learning Classification Model and Carbon Sequestration Estimation of Crops in Farmland Ecosystem
 
@@ -461,7 +461,7 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [A high-resolution canopy height model of the Earth](https://github.com/langnico/global-canopy-height-model#a-high-resolution-canopy-height-model-of-the-earth) -> A high-resolution canopy height model of the Earth
 
-### 2.3. Segmentation - Water, coastlines & floods
+### Segmentation - Water, coastlines & floods
 
 - [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces
 
@@ -491,8 +491,7 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Flood Event Detection Utilizing Satellite Images](https://github.com/KonstantinosF/Flood-Detection---Satellite-Images)
 
-- [ETCI-2021-Competition-on-Flood-Detection](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection) -> Experiments on Flood Segmentation on Sentinel-1 SAR Imagery with Cyclical Pseudo Labeling and Noisy Student Training
-  
+- [ETCI-2021-Competition-on-Flood-Detection](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection) -> Experiments on Flood Segmentation on Sentinel-1 SAR Imagery with Cyclical Pseudo Labeling and Noisy Student Training 
 
 - [FDSI](https://github.com/keillernogueira/FDSI) -> Flood Detection in Satellite Images - 2017 Multimedia Satellite Task
 
@@ -524,7 +523,7 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Flood-Mapping-Using-Satellite-Images](https://github.com/KonstantinosF/Flood-Mapping-Using-Satellite-Images) -> masters thesis comparing Random Forest & Unet
 
-### 2.4. Segmentation - Fire, smoke & burn areas
+### Segmentation - Fire, smoke & burn areas
 
 - [SatelliteVu-AWS-Disaster-Response-Hackathon](https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon) -> fire spread prediction using classical ML & deep learning
 
@@ -554,7 +553,7 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Post Wildfire Burnt-up Detection using Siamese-UNet](https://github.com/kavyagupta/chabud) -> on Chadbud dataset
 
-### 2.5.  Segmentation - Landslides
+### Segmentation - Landslides
 
 - [landslide-sar-unet](https://github.com/iprapas/landslide-sar-unet) -> Deep Learning for Rapid Landslide Detection using Synthetic Aperture Radar (SAR) Datacubes
 
@@ -566,7 +565,7 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [SAR-landslide-detection-pretraining](https://github.com/VMBoehm/SAR-landslide-detection-pretraining) -> SAR-based landslide classification pretraining leads to better segmentation
 
-### 2.6. Segmentation - Glaciers
+### Segmentation - Glaciers
 
 - [HED-UNet](https://github.com/khdlr/HED-UNet) -> a model for simultaneous semantic segmentation and edge detection, examples provided are glacier fronts and building footprints using the Inria Aerial Image Labeling dataset
 
@@ -578,7 +577,7 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Antarctic-fracture-detection](https://github.com/chingyaolai/Antarctic-fracture-detection) -> uses UNet with the MODIS Mosaic of Antarctica to detect surface fractures
 
-### 2.7. Segmentation - Other environmental
+### Segmentation - Other environmental
 
 - [Detection of Open Landfills](https://github.com/dymaxionlabs/basurales) -> uses Sentinel-2 to detect large changes in the Normalized Burn Ratio (NBR)
 
@@ -605,7 +604,7 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [STARCOP: Semantic Segmentation of Methane Plumes with Hyperspectral Machine Learning models](https://github.com/spaceml-org/STARCOP)
 
 
-### 2.8. Segmentation - Roads & sidewalks
+### Segmentation - Roads & sidewalks
 Extracting roads is challenging due to the occlusions caused by other objects and the complex traffic environment
 
 - [Road detection using semantic segmentation and albumentations for data augmention](https://towardsdatascience.com/road-detection-using-segmentation-models-and-albumentations-libraries-on-keras-d5434eaf73a8) using the Massachusetts Roads Dataset, U-net & Keras. With [code](https://github.com/Diyago/ML-DL-scripts/tree/master/DEEP%20LEARNING/segmentation/Segmentation%20pipeline)
@@ -697,7 +696,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [AerialLaneNet](https://github.com/Jiawei-Yao0812/AerialLaneNet) -> Building Lane-Level Maps from Aerial Images, introduces the AErial Lane (AEL) Dataset: a first large-scale aerial image dataset built for lane detection
   
 
-### 2.9. Segmentation - Buildings & rooftops
+### Segmentation - Buildings & rooftops
 
 - [Road and Building Semantic Segmentation in Satellite Imagery](https://github.com/Paulymorphous/Road-Segmentation) uses U-Net on the Massachusetts Roads Dataset & keras
 
@@ -864,7 +863,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [Thesis_Semantic_Image_Segmentation_on_Satellite_Imagery_using_UNets](https://github.com/rinkwitz/Thesis_Semantic_Image_Segmentation_on_Satellite_Imagery_using_UNets) -> This master thesis aims to perform semantic segmentation of buildings on satellite images from the SpaceNet challenge 1 dataset using the U-Net architecture
 
 
-### 2.10. Segmentation - Solar panels
+### Segmentation - Solar panels
 
 - [DeepSolar](https://github.com/wangzhecheng/DeepSolar) -> A Machine Learning Framework to Efficiently Construct a Solar Deployment Database in the United States. [Dataset on kaggle](https://www.kaggle.com/tunguz/deep-solar-dataset), actually used a CNN for classification and segmentation is obtained by applying a threshold to the activation map. Original code is tf1 but [tf2/kers](https://github.com/aidan-fitz/deepsolar-v2) and a [pytorch implementation](https://github.com/wangzhecheng/deepsolar_pytorch) are available. Also checkout [Visualizations and in-depth analysis .. of the factors that can explain the adoption of solar energy in ..  Virginia](https://github.com/bessammehenni/DeepSolar_adoption_Virginia) and [DeepSolar tracker: towards unsupervised assessment with open-source data of the accuracy of deep learning-based distributed PV mapping](https://github.com/gabrielkasmi/dsfrance)
 
@@ -910,7 +909,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [Solar_UNet](https://github.com/mjevans26/Solar_UNet) -> U-Net models delineating solar arrays in Sentinel-2 imagery
 
-### 2.11. Segmentation - Other manmade
+### Segmentation - Other manmade
 
 - [Aarsh2001/ML_Challenge_NRSC](https://github.com/Aarsh2001/ML_Challenge_NRSC) -> Electrical Substation detection
 
@@ -926,7 +925,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [EG-UNet](https://github.com/tist0bsc/EG-UNet) Deep Feature Enhancement Method for Land Cover With Irregular and Sparse Spatial Distribution Features: A Case Study on Open-Pit Mining
 
-### 2.12. Panoptic segmentation
+### Panoptic segmentation
 
 - [Things and stuff or how remote sensing could benefit from panoptic segmentation](https://softwaremill.com/things-and-stuff-or-how-remote-sensing-could-benefit-from-panoptic-segmentation/)
 
@@ -938,7 +937,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [BSB-Aerial-Dataset](https://github.com/osmarluiz/BSB-Aerial-Dataset) -> an example on how to use Detectron2's Panoptic-FPN in the BSB Aerial Dataset
 
-### 2.13. Segmentation - Miscellaneous
+### Segmentation - Miscellaneous
 
 - [awesome-satellite-images-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation#satellite-images-segmentation)
 
@@ -985,7 +984,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [Satellite-Image-Classification](https://github.com/yxian29/Satellite-Image-Classification) -> using random forest or support vector machines (SVM) and sklearn
 
 - [dynamic-rs-segmentation](https://github.com/keillernogueira/dynamic-rs-segmentation) -> Dynamic Multi-Context Segmentation of Remote Sensing Images based on Convolutional Networks
-
 
 - [2023GRIC](https://github.com/biluko/2023GRIC) -> Combining UPerNet and ConvNeXt for Contrails Identification to reduce Global Warming
 
@@ -1080,7 +1078,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [HR-Image-classification_SDF2N](https://github.com/SicongLiuRS/HR-Image-classification_SDF2N) -> A Shallow-to-Deep Feature Fusion Network for VHR Remote Sensing Image Classification
 
 #
-## 3. Instance segmentation
+## Instance segmentation
 
 In instance segmentation, each individual 'instance' of a segmented area is given a unique lable. For detection of very small objects this may a good approach, but it can struggle seperating individual objects that are closely spaced.
 
@@ -1117,7 +1115,7 @@ In instance segmentation, each individual 'instance' of a segmented area is give
 - [RSPrompter](https://github.com/KyanChen/RSPrompter) -> Learning to Prompt for Remote Sensing Instance Segmentation based on Visual Foundation Model
 
 #
-## 4. Object detection
+## Object detection
 
 <p align="center">
   <img src="images/object-detection.png" width="600">
@@ -1127,7 +1125,7 @@ In instance segmentation, each individual 'instance' of a segmented area is give
 
 Object detection in remote sensing involves locating and surrounding objects of interest with bounding boxes. Due to the large size of remote sensing images and the fact that objects may only comprise a few pixels, object detection can be challenging in this context. The imbalance between the area of the objects to be detected and the background, combined with the potential for objects to be easily confused with random features in the background, further complicates the task. Object detection generally performs better on larger objects, but becomes increasingly difficult as the objects become smaller and more densely packed. The accuracy of object detection models can also degrade rapidly as image resolution decreases, which is why it is common to use high resolution imagery, such as 30cm RGB, for object detection in remote sensing. A unique characteristic of aerial images is that objects can be oriented in any direction. To effectively extract measurements of the length and width of an object, it can be crucial to use rotated bounding boxes that align with the orientation of the object. This approach enables more accurate and meaningful analysis of the objects within the image. [Image source](https://www.mdpi.com/2072-4292/13/21/4291)
 
-### 4.1. Object tracking in videos
+### Object tracking in videos
 
 - [TCTrack](https://github.com/vision4robotics/TCTrack) -> Temporal Contexts for Aerial Tracking
 
@@ -1141,7 +1139,7 @@ Object detection in remote sensing involves locating and surrounding objects of 
 
 - [HiFT](https://github.com/vision4robotics/HiFT) -> Hierarchical Feature Transformer for Aerial Tracking
 
-### 4.2. Object detection with rotated bounding boxes
+### Object detection with rotated bounding boxes
 
 Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For datasets checkout DOTA & HRSC2016. Start with Yolov8
 
@@ -1253,7 +1251,7 @@ Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For d
 
 - [CFINet](https://github.com/shaunyuan22/CFINet) -> Small Object Detection via Coarse-to-fine Proposal Generation and Imitation Learning. Introduces [SODA-A dataset](https://shaunyuan22.github.io/SODA/)
 
-### 4.3. Object detection enhanced by super resolution
+### Object detection enhanced by super resolution
 
 - [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
 
@@ -1267,7 +1265,7 @@ Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For d
 
 - [SuperYOLO](https://github.com/icey-zhang/SuperYOLO) -> SuperYOLO: Super Resolution Assisted Object Detection in Multimodal Remote Sensing Imagery
 
-### 4.4. Salient object detection
+### Salient object detection
 
 Detecting the most noticeable or important object in a scene
 
@@ -1301,7 +1299,7 @@ Detecting the most noticeable or important object in a scene
 
 - [GeleNet](https://github.com/MathLee/GeleNet) -> Salient Object Detection in Optical Remote Sensing Images Driven by Transformer
 
-### 4.5. Object detection - Buildings, rooftops & solar panels
+### Object detection - Buildings, rooftops & solar panels
 
 - [satellite_image_tinhouse_detector](https://github.com/yasserius/satellite_image_tinhouse_detector) -> Detection of tin houses from satellite/aerial images using the Tensorflow Object Detection API
 
@@ -1329,7 +1327,7 @@ Detecting the most noticeable or important object in a scene
 
 - [mappingchallenge](https://github.com/krishanr/mappingchallenge) -> YOLOv5 applied to the AICrowd Mapping Challenge dataset
 
-### 4.6. Object detection - Ships & boats
+### Object detection - Ships & boats
 
 - [kaggle-ships-in-Google-Earth-yolov5](https://github.com/robmarkcole/kaggle-ships-in-Google-Earth-yolov5) -> Applying YOLOv5 to Kaggle Ships in Google Earth dataset
 
@@ -1409,7 +1407,7 @@ Detecting the most noticeable or important object in a scene
 
 - [anomaly-detection-in-SAR-imagery](https://github.com/iamyadavabhishek/anomaly-detection-in-SAR-imagery) -> identify an unknown ship in docks using keras & retinanet
 
-### 4.7. Object detection - Cars, vehicles & trains
+### Object detection - Cars, vehicles & trains
 
 - [Detection of parkinglots and driveways with retinanet](https://github.com/spiyer99/retinanet)
 
@@ -1437,7 +1435,7 @@ Detecting the most noticeable or important object in a scene
 
 - [Vehicle Detection blog post](https://www.silvispace.xyz/posts/vehicle-post/) by Grant Pearse: detecting vehicles across New Zealand without collecting local training data
 
-### 4.8. Object detection - Planes & aircraft
+### Object detection - Planes & aircraft
 
 - [Faster RCNN to detect airplanes](https://github.com/ShubhankarRawat/Airplane-Detection-for-Satellites)
 
@@ -1473,7 +1471,7 @@ Detecting the most noticeable or important object in a scene
 
 - [Understanding the RarePlanes Dataset and Building an Aircraft Detection Model](https://encord.com/blog/rareplane-dataset-aircraft-detection-model/) -> blog post
 
-### 4.9. Object detection - Infrastructure & utilities
+### Object detection - Infrastructure & utilities
 
 - [wind-turbine-detector](https://github.com/lbborkowski/wind-turbine-detector) -> Wind Turbine Object Detection from Aerial Imagery Using TensorFlow Object Detection API
 
@@ -1481,7 +1479,7 @@ Detecting the most noticeable or important object in a scene
 
 - [PCAN](https://www.mdpi.com/2072-4292/13/7/1243) -> Part-Based Context Attention Network for Thermal Power Plant Detection in Remote Sensing Imagery, with [dataset](https://github.com/wenxinYin/AIR-TPPDD)
 
-### 4.10. Object detection - Oil storage tank detection
+### Object detection - Oil storage tank detection
 
 Oil is stored in tanks at many points between extraction and sale, and the volume of oil in storage is an important economic indicator.
 
@@ -1503,7 +1501,7 @@ Oil is stored in tanks at many points between extraction and sale, and the volum
 
 - [AContrarioTankDetection](https://github.com/anttad/AContrarioTankDetection) -> Oil Tank Detection in Satellite Images via a Contrario Clustering
 
-### 4.11. Object detection - Animals
+### Object detection - Animals
 
 A variety of techniques can be used to count animals, including object detection and instance segmentation. For convenience they are all listed here:
 
@@ -1521,7 +1519,7 @@ A variety of techniques can be used to count animals, including object detection
 
 - [Audubon_F21](https://github.com/RiceD2KLab/Audubon_F21) ->  Deep object detection for waterbird monitoring using aerial imagery
 
-### 4.12. Object detection - Miscellaneous
+### Object detection - Miscellaneous
 
 - [Object detection on Satellite Imagery using RetinaNet](https://medium.com/@ije_good/object-detection-on-satellite-imagery-using-retinanet-part-1-training-e589975afbd5) -> using the Kaggle Swimming Pool and Car Detection dataset
 
@@ -1631,7 +1629,7 @@ A variety of techniques can be used to count animals, including object detection
 
 - [DOTA-C](https://github.com/hehaodong530/DOTA-C) -> evaluating the robustness of object detection models to 19 types of image quality degradation
 
-## 5. Object counting
+## Object counting
 
 When the object count, but not its shape is required, U-net can be used to treat this as an image-to-image translation problem.
 
@@ -1650,7 +1648,7 @@ When the object count, but not its shape is required, U-net can be used to treat
 - [psgcnet](https://github.com/gaoguangshuai/psgcnet) -> A Pyramidal Scale and Global Context Guided Network for Dense Object Counting in Remote-Sensing Images
 
 # 
-## 6. Regression
+## Regression
 
 <p align="center">
   <img src="images/regression.png" width="300">
@@ -1677,7 +1675,7 @@ Regression in remote sensing involves predicting continuous variables such as wi
 - [DengueNet](https://github.com/mimikuo365/DengueNet-IJCAI) -> DengueNet: Dengue Prediction using Spatiotemporal Satellite Imagery for Resource-Limited Countries
 
 #
-## 7. Cloud detection & removal
+## Cloud detection & removal
 
 <p align="center">
   <img src="images/clouds.png" width="550">
@@ -1810,7 +1808,7 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 - [DeCloud-GAN](https://github.com/pixiedust18/DeCloud-GAN) -> DeCloud GAN: An Advanced Generative Adversarial Network for Removing Cloud Cover in Optical Remote Sensing Imagery
 
 #
-## 8. Change detection
+## Change detection
 
 <p align="center">
   <img src="images/change.png" width="950">
@@ -2081,7 +2079,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 - [TTP](https://github.com/KyanChen/TTP) -> Time Travelling Pixels: Bitemporal Features Integration with Foundation Model for Remote Sensing Image Change Detection
 
 #
-## 9. Time series
+## Time series
 
 <p align="center">
   <img src="images/time-series.png" width="350">
@@ -2132,7 +2130,7 @@ The analysis of time series observations in remote sensing data has numerous app
 - [LULC mapping using time series data & spectral bands](https://github.com/developmentseed/time-series-for-lulc) -> uses 1D convolutions that learn from time-series data. Accompanies blog post: [Time-Traveling Pixels: A Journey into Land Use Modeling](https://developmentseed.org/blog/2023-06-29-time-travel-pixels)
 
 #
-## 10. Crop classification
+## Crop classification
 
 <p align="center">
   <img src="images/crops.jpg" width="600">
@@ -2169,7 +2167,7 @@ Crop classification in remote sensing is the identification and mapping of diffe
 - [StressNet: A spatial-spectral-temporal deformable attention-based framework for water stress classification in maize](https://github.com/tejasri19/Stressnet) -> Water Stress Classification on Multispectral data of Maize captured by UAV
 
 #
-## 11. Crop yield
+## Crop yield
 
 <p align="center">
   <img src="images/yield.png" width="600">
@@ -2214,7 +2212,7 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 - [MMST-ViT](https://github.com/fudong03/MMST-ViT) -> MMST-ViT: Climate Change-aware Crop Yield Prediction via Multi-Modal Spatial-Temporal Vision Transformer. This paper utilizes the Tiny CropNet dataset
 
 #
-## 12. Wealth and economic activity
+## Wealth and economic activity
 
 <p align="center">
   <img src="images/economic.png" width="450">
@@ -2265,7 +2263,7 @@ The traditional approach of collecting economic data through ground surveys is a
 - [Deep_Learning_Satellite_Imd](https://github.com/surendran-berkeley/Deep_Learning_Satellite_Imd) -> Using Deep Learning on Satellite Imagery to predict population and economic indicators
 
 #
-## 13. Disaster response
+## Disaster response
 
 <p align="center">
   <img src="images/disaster.png" width="750">
@@ -2324,7 +2322,7 @@ Remote sensing images are used in disaster response to identify and assess damag
 - [DAHiTra](https://github.com/nka77/DAHiTra) -> Large-scale Building Damage Assessment using a Novel Hierarchical Transformer Architecture on Satellite Images. Uses xView2 xBD dataset
 
 #
-## 14. Super-resolution
+## Super-resolution
 
 <p align="center">
   <img src="images/super-res.jpg" width="500">
@@ -2334,7 +2332,7 @@ Remote sensing images are used in disaster response to identify and assess damag
 
 Super-resolution is a technique aimed at improving the resolution of an imaging system. This process can be applied prior to other image processing steps to increase the visibility of small objects or boundaries. Despite its potential benefits, the use of super-resolution is controversial due to the possibility of introducing artifacts that could be mistaken for real features. Super-resolution techniques are broadly categorized into two groups: single image super-resolution (SISR) and multi-image super-resolution (MISR). SISR focuses on enhancing the resolution of a single image, while MISR utilizes multiple images of the same scene to create a high-resolution output. Each approach has its own advantages and limitations, and the choice of method depends on the specific application and desired outcome. [Image source](https://github.com/worldstrat/worldstrat).
 
-### 14.1. Multi image super-resolution (MISR)
+### Multi image super-resolution (MISR)
 Note that nearly all the MISR publications resulted from the [PROBA-V Super Resolution competition](https://kelvins.esa.int/proba-v-super-resolution/)
 
 - [deepsum](https://github.com/diegovalsesia/deepsum) -> Deep neural network for Super-resolution of Unregistered Multitemporal images (ESA PROBA-V challenge)
@@ -2371,7 +2369,7 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
 - [MISR Remote Sensing SRGAN](https://github.com/simon-donike/Remote-Sensing-SRGAN) -> PyTorch SRGAN for RGB Remote Sensing imagery, performing both SISR and MISR. MISR implementation inspired by RecursiveNet (HighResNet). Includes pretrained Checkpoints.
 
-### 14.2. Single image super-resolution (SISR)
+### Single image super-resolution (SISR)
 
 - [Super Resolution for Satellite Imagery - srcnn repo](https://github.com/WarrenGreen/srcnn)
 
@@ -2457,7 +2455,7 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
 - [HAUNet_RSISR](https://github.com/likakakaka/HAUNet_RSISR) -> Hybrid Attention-Based U-Shaped Network for Remote Sensing Image Super-Resolution
 
-### 14.3. Super-resolution - Miscellaneous
+### Super-resolution - Miscellaneous
 
 - [The value of super resolution — real world use case](https://medium.com/sentinel-hub/the-value-of-super-resolution-real-world-use-case-2ba811f4cd7f) -> Medium article on parcel boundary detection with super-resolved satellite imagery
 
@@ -2502,7 +2500,7 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 - [Restoring old aerial images with Deep Learning](https://towardsdatascience.com/restoring-old-aerial-images-with-deep-learning-60f0cfd2658) -> Medium article Super Resolution with Perceptual Loss function and real images as input
 
 #
-## 15. Pansharpening
+## Pansharpening
 
 <p align="center">
   <img src="images/pansharpen.png" width="500">
@@ -2579,7 +2577,7 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
 - [Sentinel-2 Band Pan-Sharpening](https://github.com/purijs/Sentinel-2-Superresolution)
 
 #
-## 16. Image-to-image translation
+## Image-to-image translation
 
 <p align="center">
   <img src="images/translation.png" width="500">
@@ -2624,7 +2622,7 @@ Image-to-image translation is a crucial aspect of computer vision that utilizes 
 - [map-sat](https://github.com/miquel-espinosa/map-sat) -> Generate Your Own Scotland: Satellite Image Generation Conditioned on Maps
 
 #
-## 17. Data fusion
+## Data fusion
 
 <p align="center">
   <img src="images/fusion.png" width="800">
@@ -2713,7 +2711,7 @@ Data fusion is a technique for combining information from different sources such
 - [dfc2022-baseline](https://github.com/isaaccorley/dfc2022-baseline) -> baseline solution to the 2022 IEEE GRSS Data Fusion Contest (DFC2022) using TorchGeo, PyTorch Lightning, and Segmentation Models PyTorch to train a U-Net with a ResNet-18 backbone and a loss function of Focal + Dice loss to perform semantic segmentation on the DFC2022 dataset
 
 #
-## 18. Generative networks
+## Generative networks
 
 <p align="center">
   <img src="images/gan.png" width="500">
@@ -2770,7 +2768,7 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
 - [SAR2Optical](https://github.com/MuhammedM294/SAR2Optical) -> Transcoding Sentinel-1 SAR to Sentinel-2 using cGAN
 
 #
-## 19. Autoencoders, dimensionality reduction, image embeddings & similarity search
+## Autoencoders, dimensionality reduction, image embeddings & similarity search
 
 <p align="center">
   <img src="images/autoencoder.png" width="600">
@@ -2853,7 +2851,7 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 - [scale-mae](https://github.com/bair-climate-initiative/scale-mae) -> Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning
 
 #
-## 20. Image retrieval
+## Image retrieval
 
 <p align="center">
   <img src="images/retrieval.png" width="550">
@@ -2884,7 +2882,7 @@ Image retrieval is the task of retrieving images from a collection that are simi
 - [AMFMN](https://github.com/AICyberTeam/AMFMN) -> Exploring a Fine-Grained Multiscale Method for Cross-Modal Remote Sensing Image Retrieval
 
 # 
-## 21. Image Captioning
+## Image Captioning
 
 <p align="center">
   <img src="images/captioned.png" width="600">
@@ -2921,7 +2919,7 @@ Image Captioning is the task of automatically generating a textual description o
 - [Fine tuning CLIP with Remote Sensing (Satellite) images and captions](https://huggingface.co/blog/fine-tune-clip-rsicd) -> fine tuning CLIP on the [RSICD](https://github.com/201528014227051/RSICD_optimal) image captioning dataset, to enable querying large catalogues in natural language. With [repo](https://github.com/arampacha/CLIP-rsicd), uses 🤗. Also read [Why and How to Fine-tune CLIP](https://dienhoa.github.io/dhblog/posts/finetune_clip.html)
 
 # 
-## 22. Visual Question Answering
+## Visual Question Answering
 
 Visual Question Answering (VQA) is the task of automatically answering a natural language question about an image. In remote sensing, VQA enables users to interact with the images and retrieve information using natural language questions. For example, a user could ask a VQA system questions such as "What is the type of land cover in this area?", "What is the dominant crop in this region?" or "What is the size of the city in this image?". The system would then analyze the image and generate an answer based on its understanding of the image content.
 
@@ -2930,7 +2928,7 @@ Visual Question Answering (VQA) is the task of automatically answering a natural
 - [lit4rsvqa](https://git.tu-berlin.de/rsim/lit4rsvqa) -> LiT-4-RSVQA: Lightweight Transformer-based Visual Question Answering in Remote Sensing
 
 #
-## 23. Mixed data learning
+## Mixed data learning
 Mixed data learning is the process of learning from datasets that may contain an mix of images, textual and numeric data. Mixed data learning can help improve the accuracy of models by allowing them to learn from multiple sources at once and use more sophisticated methods to identify patterns and correlations.
 
 - [Predicting the locations of traffic accidents with satellite imagery and convolutional neural networks](https://towardsdatascience.com/teaching-a-neural-network-to-see-roads-74bff240c3e5) -> Combining satellite imagery and structured data to predict the location of traffic accidents with a neural network of neural networks, with [repo](https://github.com/L-Lewis/Predicting-traffic-accidents-CNN)
@@ -2950,7 +2948,7 @@ Mixed data learning is the process of learning from datasets that may contain an
 - [Sub-meter resolution canopy height map by Meta](https://research.facebook.com/blog/2023/4/every-tree-counts-large-scale-mapping-of-canopy-height-at-the-resolution-of-individual-trees/) -> Satellite Metadata combined with outputs from simple CNN to regress canopy height
 
 #
-## 24. Few & zero shot learning
+## Few & zero shot learning
 This is a class of techniques which attempt to make predictions for classes with few, one or even zero examples provided during training. In zero shot learning (ZSL) the model is assisted by the provision of auxiliary information which typically consists of descriptions/semantic attributes/word embeddings for both the seen and unseen classes at train time ([ref](https://learnopencv.com/zero-shot-learning-an-introduction/)). These approaches are particularly relevant to remote sensing, where there may be many examples of common classes, but few or even zero examples for other classes of interest.
 
 - [Aerial-SAM](https://github.com/geoaigroup/Aerial-SAM) -> Zero-Shot Refinement of Buildings’ Segmentation Models using SAM
@@ -2985,7 +2983,7 @@ This is a class of techniques which attempt to make predictions for classes with
 
 
 #
-## 25. Self-supervised, unsupervised & contrastive learning
+## Self-supervised, unsupervised & contrastive learning
 Self-supervised, unsupervised & contrastive learning are all methods of machine learning that use unlabeled data to train algorithms. Self-supervised learning uses labeled data to create an artificial supervisor, while unsupervised learning uses only the data itself to identify patterns and similarities. Contrastive learning uses pairs of data points to learn representations of data, usually for classification tasks. Note that self-supervised approaches are commonly used in the training of so-called Foundational models, since they enable learning from large quantities of unlablleded data, tyipcally time series.
 
 - [Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://devblog.pytorchlightning.ai/seasonal-contrast-transferable-visual-representations-for-remote-sensing-73a17863ed07) -> Seasonal Contrast (SeCo) is an effective pipeline to leverage unlabeled data for in-domain pre-training of remote sensing representations. Models trained with SeCo achieve better performance than their ImageNet pre-trained counterparts and state-of-the-art self-supervised learning methods on multiple downstream tasks. [paper](https://arxiv.org/abs/2103.16607) and [repo](https://github.com/ElementAI/seasonal-contrast)
@@ -3084,7 +3082,7 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 - [GFM](https://github.com/mmendiet/GFM) -> Towards Geospatial Foundation Models via Continual Pretraining
 
 #
-## 26. Weakly & semi-supervised learning
+## Weakly & semi-supervised learning
 
 Weakly & semi-supervised learning are two methods of machine learning that use both labeled and unlabeled data for training. Weakly supervised learning uses weakly labeled data, which may be incomplete or inaccurate, while semi-supervised learning uses both labeled and unlabeled data. Weakly supervised learning is typically used in situations where labeled data is scarce and unlabeled data is abundant. Semi-supervised learning is typically used in situations where labeled data is abundant but also contains some noise or errors. Both techniques can be used to improve the accuracy of machine learning models by making use of additional data sources.
 
@@ -3129,7 +3127,7 @@ Weakly & semi-supervised learning are two methods of machine learning that use b
 - [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
 
 #
-## 27. Active learning
+## Active learning
 
 Supervised deep learning techniques typically require a huge number of annotated/labelled examples to provide a training dataset. However labelling at scale take significant time, expertise and resources. Active learning techniques aim to reduce the total amount of annotation that needs to be performed by selecting the most useful images to label from a large pool of unlabelled images, thus reducing the time to generate useful training datasets. These processes may be referred to as [Human-in-the-Loop Machine Learning](https://medium.com/pytorch/https-medium-com-robert-munro-active-learning-with-pytorch-2f3ee8ebec)
 
@@ -3156,7 +3154,7 @@ Supervised deep learning techniques typically require a huge number of annotated
 - [whales](https://github.com/microsoft/whales) -> An active learning pipeline for identifying whales in high-resolution satellite imagery, by Microsoft
 
 #
-## 28. Federated learning
+## Federated learning
 
 Federated learning is an approach to distributed machine learning where a central processor coordinates the training of an individual model in each of its clients. It is a type of distributed ML which means that the data is distributed among different devices or locations and the model is trained on all of them. The central processor aggregates the model updates from all the clients and then sends the global model parameters back to the clients. This is done to protect the privacy of data, as the data remains on the local device and only the global model parameters are shared with the central processor. This technique can be used to train models with large datasets that cannot be stored in a single device, as well as to enable certain privacy-preserving applications.
 
@@ -3167,7 +3165,7 @@ Federated learning is an approach to distributed machine learning where a centra
 - [MM-FL](https://git.tu-berlin.de/rsim/MM-FL) -> Learning Across Decentralized Multi-Modal Remote Sensing Archives with Federated Learning
 
 #
-## 29. Transformers
+## Transformers
 
 Vision transformers are state-of-the-art models for vision tasks such as image classification and object detection. They differ from CNNs as they use self-attention instead of convolution to learn global relations between all pixels in the image. Vision transformers employ a transformer encoder architecture, composed of multi-layer blocks with multi-head self-attention and feed-forward layers, enabling the capture of rich contextual information for more accurate predictions.
 
@@ -3182,7 +3180,7 @@ Vision transformers are state-of-the-art models for vision tasks such as image c
 - [Vision Transformers for Low Earth Orbit Satellites](https://myrtle.ai/learn/leo-1-low-earth-orbit-satellites/) -> blog post that investigates deploying Vision Transformers on low earth orbit satellites
 
 #
-## 30. Adversarial ML
+## Adversarial ML
 
 Efforts to detect falsified images & deepfakes
 
@@ -3193,7 +3191,7 @@ Efforts to detect falsified images & deepfakes
 - [SACNet](https://github.com/YonghaoXu/SACNet) -> Self-Attention Context Network: Addressing the Threat of Adversarial Attacks for Hyperspectral Image Classification
 
 #
-## 31. Image registration
+## Image registration
 
 Image registration is the process of registering one or more images onto another (typically well georeferenced) image. Traditionally this is performed manually by identifying control points (tie-points) in the images, for example using QGIS. This section lists approaches which mostly aim to automate this manual process. There is some overlap with the data fusion section but the distinction I make is that image registration is performed as a prerequisite to downstream processes which will use the registered data as an input.
 
@@ -3275,7 +3273,7 @@ Image registration is the process of registering one or more images onto another
 
 
 #
-## 32. Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF
+## Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF
 
 Measure surface contours & locate 3D points in space from 2D images. NeRF stands for Neural Radiance Fields and is the term used in deep learning communities to describe a model that generates views of complex 3D scenes based on a partial set of 2D images
 
@@ -3356,7 +3354,7 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 - [Mapping drainage ditches in forested landscapes using deep learning and aerial laser scanning](https://github.com/williamlidberg/Mapping-drainage-ditches-in-forested-landscapes-using-deep-learning-and-aerial-laser-scanning)
 
 #
-## 33. Thermal Infrared
+## Thermal Infrared
 
 Thermal infrared remote sensing is a technique used to detect and measure thermal radiation emitted from the Earth’s surface. This technique can be used to measure the temperature of the ground and any objects on it and can detect the presence of different materials. Thermal infrared remote sensing is used to assess land cover, detect land-use changes, and monitor urban heat islands, as well as to measure the temperature of the ground during nighttime or in areas of limited visibility.
 
@@ -3367,7 +3365,7 @@ Thermal infrared remote sensing is a technique used to detect and measure therma
 - [Thermal imaging with satellites](https://chrieke.medium.com/thermal-imaging-with-satellites-34f381856dd1) blog post by Christoph Rieke
 
 #
-## 34. SAR
+## SAR
 
 SAR (synthetic aperture radar) is used to detect and measure the properties of objects and surfaces on the Earth's surface. SAR can be used to detect changes in terrain, features, and objects over time, as well as to measure the size, shape, and composition of objects and surfaces. SAR can also be used to measure moisture levels in soil and vegetation, or to detect and monitor changes in land use.
 
@@ -3462,11 +3460,9 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 - [PolSARFormer](https://github.com/aj1365/PolSARFormer) -> Local Window Attention Transformer for Polarimetric SAR Image Classification
 
 #
-## 35. NDVI - vegetation index
+## NDVI - vegetation index
 
-Normalized Difference Vegetation Index (NDVI) is an index used to measure the amount of healthy vegetation in a given area. It is calculated by taking the difference between the near-infrared (NIR) and red (red) bands of a satellite image, and dividing by the sum of the two bands. NDVI can be used to identify areas of healthy vegetation and to assess the health of vegetation in a given area.
-
-- Calculated via band math `ndvi = np.true_divide((ir - r), (ir + r))` but challenging due to the size of the imagery
+Normalized Difference Vegetation Index (NDVI) is an index used to measure the amount of healthy vegetation in a given area. It is calculated by taking the difference between the near-infrared (NIR) and red (red) bands of a satellite image, and dividing by the sum of the two bands. NDVI can be used to identify areas of healthy vegetation and to assess the health of vegetation in a given area. `ndvi = np.true_divide((ir - r), (ir + r))`
 
 - [Example notebook local](http://nbviewer.jupyter.org/github/HyperionAnalytics/PyDataNYC2014/blob/master/ndvi_calculation.ipynb)
 
@@ -3485,7 +3481,7 @@ Normalized Difference Vegetation Index (NDVI) is an index used to measure the am
 - [Remote-Sensing-Indices-Derivation-Tool](https://github.com/rander38/Remote-Sensing-Indices-Derivation-Tool) -> Calculate spectral remote sensing indices from satellite imagery
 
 #
-## 36. General image quality
+## General image quality
 
 Image quality describes the degree of accuracy with which an image can represent the original object. Image quality is typically measured by the amount of detail, sharpness, and contrast that an image contains. Factors that contribute to image quality include the resolution, format, and compression of the image.
 
@@ -3522,7 +3518,7 @@ Image quality describes the degree of accuracy with which an image can represent
 - [iquaflow](https://github.com/satellogic/iquaflow) -> from Satellogic, an image quality framework that aims at providing a set of tools to assess image quality by using the performance of AI models trained on the images as a proxy.
 
 #
-## 37. Synthetic data
+## Synthetic data
 
 Training data can be hard to acquire, particularly for rare events such as change detection after disasters, or imagery of rare classes of objects. In these situations, generating synthetic training data might be the only option. This has become quite sophisticated, with 3D models being use with open source games engines such as [Unreal](https://www.unrealengine.com/en-US/).
 
@@ -3569,7 +3565,7 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> dataset and pretrained models for the paper: OnlyPlanes - Incrementally Tuning Synthetic Training Datasets for Satellite Object Detection
 
 #
-## 38. Large vision & language models (LLMs & LVMs)
+## Large vision & language models (LLMs & LVMs)
 
 - [awesome-remote-sensing-vision-language-models](https://github.com/lzw-lzw/awesome-remote-sensing-vision-language-models)
 
