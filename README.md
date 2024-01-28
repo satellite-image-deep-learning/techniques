@@ -10,7 +10,9 @@
 </div>
 
 ## Introduction
-Deep learning has revolutionized the analysis and interpretation of satellite and aerial imagery, addressing unique challenges such as vast image sizes and a wide array of object classes. This repository provides an exhaustive overview of deep learning techniques specifically tailored for satellite and aerial image processing. It covers a range of architectures, models, and algorithms suited for key tasks like classification, segmentation, and object detection. This repository is proudly sponsored by Orboculum
+Deep learning has revolutionized the analysis and interpretation of satellite and aerial imagery, addressing unique challenges such as vast image sizes and a wide array of object classes. This repository provides an exhaustive overview of deep learning techniques specifically tailored for satellite and aerial image processing. It covers a range of architectures, models, and algorithms suited for key tasks like classification, segmentation, and object detection. 
+
+**How to use this repository:** use `Control+F` to search this page, and note that searching [the raw markdown file](https://raw.githubusercontent.com/satellite-image-deep-learning/techniques/master/README.md) can be more effective
 
 #
 
@@ -20,7 +22,7 @@ Deep learning has revolutionized the analysis and interpretation of satellite an
   </a>
 </p>
 
-Orbuculum is an innovative and rapidly evolving platform designed with the specific intent to empower GIS and Earth Observation (EO) researchers by offering a unique avenue for monetizing their machine learning models. Standing distinctively apart from conventional marketplaces, Orbuculum pioneers a transformative approach by transmuting these models into smart contracts. This enables automatic remuneration for the creators each time their models are deployed, fostering an efficient and rewarding ecosystem.
+This repository is proudly sponsored by Orboculum. Orbuculum is an innovative and rapidly evolving platform designed with the specific intent to empower GIS and Earth Observation (EO) researchers by offering a unique avenue for monetizing their machine learning models. Standing distinctively apart from conventional marketplaces, Orbuculum pioneers a transformative approach by transmuting these models into smart contracts. This enables automatic remuneration for the creators each time their models are deployed, fostering an efficient and rewarding ecosystem.
 
 Orbuculum's potential extends far beyond the reinvention of the GIS/EO research industry. It is poised to serve as an invaluable conduit for public welfare initiatives, especially those striving to mitigate climate change. By providing access to vital data and insightful analytics, Orbuculum promises to act as a potent resource in the ongoing battle against some of the most urgent global concerns. This integration of cutting-edge technology with socially impactful missions could position Orbuculum as an instrumental platform at the intersection of scientific research and sustainable development.
 
@@ -35,7 +37,7 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
 
 #
 
-**How to use this repository:** use `Control+F` to search this page, and note that searching [the raw markdown file](https://raw.githubusercontent.com/satellite-image-deep-learning/techniques/master/README.md) can be more effective
+
 
 ## Techniques
 
