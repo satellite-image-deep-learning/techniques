@@ -89,162 +89,159 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
 
 Classification is a fundamental task in remote sensing data analysis, where the goal is to assign a semantic label to each image, such as 'urban', 'forest', 'agricultural land', etc. The process of assigning labels to an image is known as image-level classification. However, in some cases, a single image might contain multiple different land cover types, such as a forest with a river running through it, or a city with both residential and commercial areas. In these cases, image-level classification becomes more complex and involves assigning multiple labels to a single image. This can be accomplished using a combination of feature extraction and machine learning algorithms to accurately identify the different land cover types. It is important to note that image-level classification should not be confused with pixel-level classification, also known as semantic segmentation. While image-level classification assigns a single label to an entire image, semantic segmentation assigns a label to each individual pixel in an image, resulting in a highly detailed and accurate representation of the land cover types in an image. Read [A brief introduction to satellite image classification with neural networks](https://medium.com/@robmarkcole/a-brief-introduction-to-satellite-image-classification-with-neural-networks-3ce28be15683)
 
-   1.1. Land classification on Sentinel 2 data using a [simple sklearn cluster algorithm](https://github.com/acgeospatial/Satellite_Imagery_Python/blob/master/Clustering_KMeans-Sentinel2.ipynb) or [deep learning CNN](https://towardsdatascience.com/land-use-land-cover-classification-with-deep-learning-9a5041095ddb)
+- Land classification on Sentinel 2 data using a [simple sklearn cluster algorithm](https://github.com/acgeospatial/Satellite_Imagery_Python/blob/master/Clustering_KMeans-Sentinel2.ipynb) or [deep learning CNN](https://towardsdatascience.com/land-use-land-cover-classification-with-deep-learning-9a5041095ddb)
 
-   1.2. Land Use Classification on Merced dataset using CNN [in Keras](https://github.com/tavgreen/landuse_classification)
-  or [fastai](https://medium.com/spatial-data-science/deep-learning-for-geospatial-data-applications-multi-label-classification-2b0a1838fcf3). Also checkout [Multi-label Land Cover Classification](https://towardsdatascience.com/multi-label-land-cover-classification-with-deep-learning-d39ce2944a3d) using the redesigned multi-label Merced dataset with 17 land cover classes
+- [Multi-Label Classification of Satellite Photos of the Amazon Rainforest using keras](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-satellite-photos-of-the-amazon-rainforest/) or [FastAI](https://towardsdatascience.com/fastai-multi-label-image-classification-8034be646e95)
 
-   1.3. [Multi-Label Classification of Satellite Photos of the Amazon Rainforest using keras](https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-satellite-photos-of-the-amazon-rainforest/) or [FastAI](https://towardsdatascience.com/fastai-multi-label-image-classification-8034be646e95)
+- [EuroSat-Satellite-CNN-and-ResNet](https://github.com/Rumeysakeskin/EuroSat-Satellite-CNN-and-ResNet) -> Classifying custom image datasets by creating Convolutional Neural Networks and Residual Networks from scratch with PyTorch
 
-   1.4. [EuroSat-Satellite-CNN-and-ResNet](https://github.com/Rumeysakeskin/EuroSat-Satellite-CNN-and-ResNet) -> Classifying custom image datasets by creating Convolutional Neural Networks and Residual Networks from scratch with PyTorch
+- [Detecting Informal Settlements from Satellite Imagery using fine-tuning of ResNet-50 classifier](https://blog.goodaudience.com/detecting-informal-settlements-using-satellite-imagery-and-convolutional-neural-networks-d571a819bf44) with [repo](https://github.com/dymaxionlabs/ap-latam)
 
-   1.5. [Detecting Informal Settlements from Satellite Imagery using fine-tuning of ResNet-50 classifier](https://blog.goodaudience.com/detecting-informal-settlements-using-satellite-imagery-and-convolutional-neural-networks-d571a819bf44) with [repo](https://github.com/dymaxionlabs/ap-latam)
+-  [Land-Cover-Classification-using-Sentinel-2-Dataset](https://github.com/raoofnaushad/Land-Cover-Classification-using-Sentinel-2-Dataset) -> [well written Medium article](https://raoofnaushad7.medium.com/applying-deep-learning-on-satellite-imagery-classification-5f2588b932c1) accompanying this repo but using the EuroSAT dataset
 
-   1.6.  [Land-Cover-Classification-using-Sentinel-2-Dataset](https://github.com/raoofnaushad/Land-Cover-Classification-using-Sentinel-2-Dataset) -> [well written Medium article](https://raoofnaushad7.medium.com/applying-deep-learning-on-satellite-imagery-classification-5f2588b932c1) accompanying this repo but using the EuroSAT dataset
+- [Land Cover Classification of Satellite Imagery using Convolutional Neural Networks](https://towardsdatascience.com/land-cover-classification-of-satellite-imagery-using-convolutional-neural-networks-91b5bb7fe808) using Keras and a multi spectral dataset captured over vineyard fields of Salinas Valley, California
 
-   1.7. [Land Cover Classification of Satellite Imagery using Convolutional Neural Networks](https://towardsdatascience.com/land-cover-classification-of-satellite-imagery-using-convolutional-neural-networks-91b5bb7fe808) using Keras and a multi spectral dataset captured over vineyard fields of Salinas Valley, California
+- [Detecting deforestation from satellite images](https://towardsdatascience.com/detecting-deforestation-from-satellite-images-7aa6dfbd9f61) -> using FastAI and ResNet50, with repo [fsdl_deforestation_detection](https://github.com/karthikraja95/fsdl_deforestation_detection)
 
-   1.8. [Detecting deforestation from satellite images](https://towardsdatascience.com/detecting-deforestation-from-satellite-images-7aa6dfbd9f61) -> using FastAI and ResNet50, with repo [fsdl_deforestation_detection](https://github.com/karthikraja95/fsdl_deforestation_detection)
+- [Neural Network for Satellite Data Classification Using Tensorflow in Python](https://towardsdatascience.com/neural-network-for-satellite-data-classification-using-tensorflow-in-python-a13bcf38f3e1) -> A step-by-step guide for Landsat 5 multispectral data classification for binary built-up/non-built-up class prediction, with [repo](https://github.com/PratyushTripathy/Landsat-Classification-Using-Neural-Network)
 
-   1.9. [Neural Network for Satellite Data Classification Using Tensorflow in Python](https://towardsdatascience.com/neural-network-for-satellite-data-classification-using-tensorflow-in-python-a13bcf38f3e1) -> A step-by-step guide for Landsat 5 multispectral data classification for binary built-up/non-built-up class prediction, with [repo](https://github.com/PratyushTripathy/Landsat-Classification-Using-Neural-Network)
+- [Slums mapping from pretrained CNN network](https://github.com/deepankverma/slums_detection) on VHR (Pleiades: 0.5m) and MR (Sentinel: 10m) imagery
 
-   1.10. [Slums mapping from pretrained CNN network](https://github.com/deepankverma/slums_detection) on VHR (Pleiades: 0.5m) and MR (Sentinel: 10m) imagery
+- [Comparing urban environments using satellite imagery and convolutional neural networks](https://github.com/adrianalbert/urban-environments) -> includes interesting study of the image embedding features extracted for each image on the Urban Atlas dataset
 
-   1.11. [Comparing urban environments using satellite imagery and convolutional neural networks](https://github.com/adrianalbert/urban-environments) -> includes interesting study of the image embedding features extracted for each image on the Urban Atlas dataset
+- [RSI-CB](https://github.com/lehaifeng/RSI-CB) -> A Large Scale Remote Sensing Image Classification Benchmark via Crowdsource Data. See also [Remote-sensing-image-classification](https://github.com/aashishrai3799/Remote-sensing-image-classification)
 
-   1.12. [RSI-CB](https://github.com/lehaifeng/RSI-CB) -> A Large Scale Remote Sensing Image Classification Benchmark via Crowdsource Data. See also [Remote-sensing-image-classification](https://github.com/aashishrai3799/Remote-sensing-image-classification)
+- [NAIP_PoolDetection](https://github.com/annaptasznik/NAIP_PoolDetection) -> modelled as an object recognition problem, a CNN is used to identify images as being swimming pools or something else - specifically a street, rooftop, or lawn
 
-   1.13. [NAIP_PoolDetection](https://github.com/annaptasznik/NAIP_PoolDetection) -> modelled as an object recognition problem, a CNN is used to identify images as being swimming pools or something else - specifically a street, rooftop, or lawn
+- [Land Use and Land Cover Classification using a ResNet Deep Learning Architecture](https://www.luigiselmi.eu/eo/lulc-classification-deeplearning.html) -> uses fastai and the EuroSAT dataset
 
-   1.14. [Land Use and Land Cover Classification using a ResNet Deep Learning Architecture](https://www.luigiselmi.eu/eo/lulc-classification-deeplearning.html) -> uses fastai and the EuroSAT dataset
+- [Vision Transformers Use Case: Satellite Image Classification without CNNs](https://medium.com/nerd-for-tech/vision-transformers-use-case-satellite-image-classification-without-cnns-2c4dbeb06f87)
 
-   1.15. [Vision Transformers Use Case: Satellite Image Classification without CNNs](https://medium.com/nerd-for-tech/vision-transformers-use-case-satellite-image-classification-without-cnns-2c4dbeb06f87)
+- [WaterNet](https://github.com/treigerm/WaterNet) -> a CNN that identifies water in satellite images
 
-   1.16. [WaterNet](https://github.com/treigerm/WaterNet) -> a CNN that identifies water in satellite images
+- [Road-Network-Classification](https://github.com/ualsg/Road-Network-Classification) -> Road network classification model using ResNet-34, road classes organic, gridiron, radial and no pattern
 
-   1.17. [Road-Network-Classification](https://github.com/ualsg/Road-Network-Classification) -> Road network classification model using ResNet-34, road classes organic, gridiron, radial and no pattern
+- [Scaling AI to map every school on the planet](https://developmentseed.org/blog/2021-03-18-ai-enabling-school-mapping)
 
-   1.18. [Scaling AI to map every school on the planet](https://developmentseed.org/blog/2021-03-18-ai-enabling-school-mapping)
+- [Landsat classification CNN tutorial](https://towardsdatascience.com/is-cnn-equally-shiny-on-mid-resolution-satellite-data-9e24e68f0c08) with [repo](https://github.com/PratyushTripathy/Landsat-Classification-Using-Convolution-Neural-Network)
 
-   1.19.  [Landsat classification CNN tutorial](https://towardsdatascience.com/is-cnn-equally-shiny-on-mid-resolution-satellite-data-9e24e68f0c08) with [repo](https://github.com/PratyushTripathy/Landsat-Classification-Using-Convolution-Neural-Network)
+- [satellite-crosswalk-classification](https://github.com/rodrigoberriel/satellite-crosswalk-classification)
 
-   1.20. [satellite-crosswalk-classification](https://github.com/rodrigoberriel/satellite-crosswalk-classification)
+- [Understanding the Amazon Rainforest with Multi-Label Classification + VGG-19, Inceptionv3, AlexNet & Transfer Learning](https://towardsdatascience.com/understanding-the-amazon-rainforest-with-multi-label-classification-vgg-19-inceptionv3-5084544fb655)
 
-   1.21. [Understanding the Amazon Rainforest with Multi-Label Classification + VGG-19, Inceptionv3, AlexNet & Transfer Learning](https://towardsdatascience.com/understanding-the-amazon-rainforest-with-multi-label-classification-vgg-19-inceptionv3-5084544fb655)
+- [Implementation of the 3D-CNN model for land cover classification](https://medium.com/geekculture/remote-sensing-deep-learning-for-land-cover-classification-of-satellite-imagery-using-python-6a7b4c4f570f) -> uses the Sundarbans dataset, with [repo](https://github.com/syamkakarla98/Satellite_Imagery_Analysis)
 
-   1.22. [Implementation of the 3D-CNN model for land cover classification](https://medium.com/geekculture/remote-sensing-deep-learning-for-land-cover-classification-of-satellite-imagery-using-python-6a7b4c4f570f) -> uses the Sundarbans dataset, with [repo](https://github.com/syamkakarla98/Satellite_Imagery_Analysis). Also read [Land cover classification of Sundarbans satellite imagery using K-Nearest Neighbor(K-NNC), Support Vector Machine (SVM), and Gradient Boosting classification algorithms](https://towardsdatascience.com/land-cover-classification-in-satellite-imagery-using-python-ae39dbf2929) which is by the same author and shares the repo
+- [SSTN](https://github.com/zilongzhong/SSTN) -> Spectral-Spatial Transformer Network for Hyperspectral Image Classification: A FAS Framework
 
-   1.23. [SSTN](https://github.com/zilongzhong/SSTN) -> Spectral-Spatial Transformer Network for Hyperspectral Image Classification: A FAS Framework
+- [SatellitePollutionCNN](https://github.com/arnavbansal1/SatellitePollutionCNN) -> A novel algorithm to predict air pollution levels with state-of-art accuracy using deep learning and GoogleMaps satellite images
 
-   1.24. [SatellitePollutionCNN](https://github.com/arnavbansal1/SatellitePollutionCNN) -> A novel algorithm to predict air pollution levels with state-of-art accuracy using deep learning and GoogleMaps satellite images
+- [PropertyClassification](https://github.com/Sardhendu/PropertyClassification) -> Classifying the type of property given Real Estate, satellite and Street view Images
 
-   1.25. [PropertyClassification](https://github.com/Sardhendu/PropertyClassification) -> Classifying the type of property given Real Estate, satellite and Street view Images
+- [remote-sense-quickstart](https://github.com/CarryHJR/remote-sense-quickstart) -> classification on a number of datasets, including with attention visualization
 
-   1.26. [remote-sense-quickstart](https://github.com/CarryHJR/remote-sense-quickstart) -> classification on a number of datasets, including with attention visualization
+- [Satellite image classification using multiple machine learning algorithms](https://github.com/tanmay-delhikar/satellite-image-analysis-ml)
 
-   1.27. [Satellite image classification using multiple machine learning algorithms](https://github.com/tanmay-delhikar/satellite-image-analysis-ml)
+- [satsense](https://github.com/DynaSlum/satsense) -> a Python library for land use/cover classification using classical features including HoG & NDVI
 
-   1.28. [satsense](https://github.com/DynaSlum/satsense) -> a Python library for land use/cover classification using classical features including HoG & NDVI
+-[PyTorch_UCMerced_LandUse](https://github.com/GeneralLi95/PyTorch_UCMerced_LandUse)
 
-   1.29. [PyTorch_UCMerced_LandUse](https://github.com/GeneralLi95/PyTorch_UCMerced_LandUse)
+- [EuroSAT-image-classification](https://github.com/artemisart/EuroSAT-image-classification)
 
-   1.30. [EuroSAT-image-classification](https://github.com/artemisart/EuroSAT-image-classification)
+- [landcover_classification](https://github.com/reidfalconer/landcover_classification) -> using fast.ai on EuroSAT
 
-   1.31. [landcover_classification](https://github.com/reidfalconer/landcover_classification) -> using fast.ai on EuroSAT
+- [IGARSS2020_BWMS](https://github.com/jiankang1991/IGARSS2020_BWMS) -> Band-Wise Multi-Scale CNN Architecture for Remote Sensing Image Scene Classification with a novel CNN architecture for the feature embedding of high-dimensional RS images
 
-   1.32. [IGARSS2020_BWMS](https://github.com/jiankang1991/IGARSS2020_BWMS) -> Band-Wise Multi-Scale CNN Architecture for Remote Sensing Image Scene Classification with a novel CNN architecture for the feature embedding of high-dimensional RS images
+- [image.classification.on.EuroSAT](https://github.com/canturan10/image.classification.on.EuroSAT) -> solution in pure pytorch
 
-   1.33. [image.classification.on.EuroSAT](https://github.com/canturan10/image.classification.on.EuroSAT) -> solution in pure pytorch
+- [hurricane_damage](https://github.com/allankapoor/hurricane_damage) -> Post-hurricane structure damage assessment based on aerial imagery
 
-   1.34. [hurricane_damage](https://github.com/allankapoor/hurricane_damage) -> Post-hurricane structure damage assessment based on aerial imagery with CNN
+- [openai-drivendata-challenge](https://github.com/buildwithcycy/openai-drivendata-challenge) -> Using deep learning to classify the building material of rooftops (aerial imagery from South America)
 
-   1.35. [openai-drivendata-challenge](https://github.com/buildwithcycy/openai-drivendata-challenge) -> Using deep learning to classify the building material of rooftops (aerial imagery from South America)
+- [is-it-abandoned](https://github.com/zach-brown-18/is-it-abandoned) -> Can we tell if a house is abandoned based on aerial LIDAR imagery?
 
-   1.36. [is-it-abandoned](https://github.com/zach-brown-18/is-it-abandoned) -> Can we tell if a house is abandoned based on aerial LIDAR imagery?
+- [BoulderAreaDetector](https://github.com/pszemraj/BoulderAreaDetector) -> CNN to classify whether a satellite image shows an area would be a good rock climbing spot or not
 
-   1.37. [BoulderAreaDetector](https://github.com/pszemraj/BoulderAreaDetector) -> CNN to classify whether a satellite image shows an area would be a good rock climbing spot or not
+- [ISPRS_S2FL](https://github.com/danfenghong/ISPRS_S2FL) -> Multimodal Remote Sensing Benchmark Datasets for Land Cover Classification with A Shared and Specific Feature Learning Model
 
-   1.38. [ISPRS_S2FL](https://github.com/danfenghong/ISPRS_S2FL) -> Multimodal Remote Sensing Benchmark Datasets for Land Cover Classification with A Shared and Specific Feature Learning Model
+- [Brazilian-Coffee-Detection](https://github.com/MrSquidward/Brazilian-Coffee-Detection) -> uses Keras with public dataset
 
-   1.39. [Brazilian-Coffee-Detection](https://github.com/MrSquidward/Brazilian-Coffee-Detection) -> uses Keras with public dataset
+- [tf-crash-severity](https://github.com/SoySauceNZ/tf-crash-severity) -> predict the crash severity for given road features contained within satellite images
 
-   1.40. [tf-crash-severity](https://github.com/SoySauceNZ/tf-crash-severity) -> predict the crash severity for given road features contained within satellite images
+- [ensemble_LCLU](https://github.com/burakekim/ensemble_LCLU) -> Deep neural network ensembles for remote sensing land cover and land use classification
 
-   1.41. [ensemble_LCLU](https://github.com/burakekim/ensemble_LCLU) -> Deep neural network ensembles for remote sensing land cover and land use classification
+- [cerraNet](https://github.com/MirandaMat/cerraNet-v2) -> contextually classify the types of use and coverage in the Brazilian Cerrado
 
-   1.42. [cerraNet](https://github.com/MirandaMat/cerraNet-v2) -> contextually classify the types of use and coverage in the Brazilian Cerrado
+- [Urban-Analysis-Using-Satellite-Imagery](https://github.com/mominali12/Urban-Analysis-Using-Satellite-Imagery) -> classify urban area as planned or unplanned using a combination of segmentation and classification
 
-   1.43. [Urban-Analysis-Using-Satellite-Imagery](https://github.com/mominali12/Urban-Analysis-Using-Satellite-Imagery) -> classify urban area as planned or unplanned using a combination of segmentation and classification
+- [ChipClassification](https://github.com/yurithefury/ChipClassification) -> Deep learning for multi-modal classification of cloud, shadow and land cover scenes in PlanetScope and Sentinel-2 imagery
 
-   1.44. [ChipClassification](https://github.com/yurithefury/ChipClassification) -> Deep learning for multi-modal classification of cloud, shadow and land cover scenes in PlanetScope and Sentinel-2 imagery
+- [DeeplearningClassficationLandsat-tImages](https://github.com/VinayarajPoliyapram/DeeplearningClassficationLandsat-tImages) -> Water/Ice/Land Classification Using Large-Scale Medium Resolution Landsat Satellite Images
 
-   1.45. [DeeplearningClassficationLandsat-tImages](https://github.com/VinayarajPoliyapram/DeeplearningClassficationLandsat-tImages) -> Water/Ice/Land Classification Using Large-Scale Medium Resolution Landsat Satellite Images
+- [wildfire-detection-from-satellite-images-ml](https://github.com/shrey24/wildfire-detection-from-satellite-images-ml) -> detect whether an image contains a wildfire, with example flask web app
 
-   1.46. [wildfire-detection-from-satellite-images-ml](https://github.com/shrey24/wildfire-detection-from-satellite-images-ml) -> detect whether an image contains a wildfire, with example flask web app
+- [mining-discovery-with-deep-learning](https://github.com/remis/mining-discovery-with-deep-learning) -> Mining and Tailings Dam Detection in Satellite Imagery Using Deep Learning
 
-   1.47. [mining-discovery-with-deep-learning](https://github.com/remis/mining-discovery-with-deep-learning) -> Mining and Tailings Dam Detection in Satellite Imagery Using Deep Learning
+- [e-Farmerce-platform](https://github.com/efarmerce/e-Farmerce-platform) -> classify crop type
 
-   1.48. [e-Farmerce-platform](https://github.com/efarmerce/e-Farmerce-platform) -> classify crop type
+- [sentinel2-deep-learning](https://github.com/d-smit/sentinel2-deep-learning) -> Novel Training Methodologies for Land Classification of Sentinel-2 Imagery
 
-   1.49. [sentinel2-deep-learning](https://github.com/d-smit/sentinel2-deep-learning) -> Novel Training Methodologies for Land Classification of Sentinel-2 Imagery
+- [RSSC-transfer](https://github.com/risojevicv/RSSC-transfer) -> The Role of Pre-Training in High-Resolution Remote Sensing Scene Classification
 
-   1.50. [RSSC-transfer](https://github.com/risojevicv/RSSC-transfer) -> The Role of Pre-Training in High-Resolution Remote Sensing Scene Classification
+- [Classifying Geo-Referenced Photos and Satellite Images for Supporting Terrain Classification](https://github.com/jorgemspereira/Classifying-Geo-Referenced-Photos) -> detect floods
 
-   1.51. [Classifying Geo-Referenced Photos and Satellite Images for Supporting Terrain Classification](https://github.com/jorgemspereira/Classifying-Geo-Referenced-Photos) -> detect floods
+- [Pay-More-Attention](https://github.com/williamzhao95/Pay-More-Attention) -> Remote Sensing Image Scene Classification Based on an Enhanced Attention Module
 
-   1.52. [Pay-More-Attention](https://github.com/williamzhao95/Pay-More-Attention) -> Remote Sensing Image Scene Classification Based on an Enhanced Attention Module
+- [Remote Sensing Image Classification via Improved Cross-Entropy Loss and Transfer Learning Strategy Based on Deep Convolutional Neural Networks](https://github.com/AliBahri94/Remote-Sensing-Image-Classification-via-Improved-Cross-Entropy-Loss-and-Transfer-Learning-Strategy)
 
-   1.53. [Remote Sensing Image Classification via Improved Cross-Entropy Loss and Transfer Learning Strategy Based on Deep Convolutional Neural Networks](https://github.com/AliBahri94/Remote-Sensing-Image-Classification-via-Improved-Cross-Entropy-Loss-and-Transfer-Learning-Strategy)
+- [DenseNet40-for-HRRSISC](https://github.com/BiQiWHU/DenseNet40-for-HRRSISC) -> DenseNet40 for remote sensing image scene classification, uses UC Merced Dataset
 
-   1.54. [DenseNet40-for-HRRSISC](https://github.com/BiQiWHU/DenseNet40-for-HRRSISC) -> DenseNet40 for remote sensing image scene classification, uses UC Merced Dataset
+- [SKAL](https://github.com/hw2hwei/SKAL) -> Looking Closer at the Scene: Multiscale Representation Learning for Remote Sensing Image Scene Classification
 
-   1.55. [SKAL](https://github.com/hw2hwei/SKAL) -> Looking Closer at the Scene: Multiscale Representation Learning for Remote Sensing Image Scene Classification
+- [potsdam-tensorflow-practice](https://github.com/medicinely/potsdam-tensorflow-practice) -> image classification of Potsdam dataset using tensorflow
 
-   1.56. [potsdam-tensorflow-practice](https://github.com/medicinely/potsdam-tensorflow-practice) -> image classification of Potsdam dataset using tensorflow
+- [SAFF](https://github.com/zh-hike/SAFF) -> Self-Attention-Based Deep Feature Fusion for Remote Sensing Scene Classification
 
-   1.57. [SAFF](https://github.com/zh-hike/SAFF) -> Self-Attention-Based Deep Feature Fusion for Remote Sensing Scene Classification
+- [GLNET](https://github.com/wuchangsheng951/GLNET) -> Convolutional Neural Networks Based Remote Sensing Scene Classification under Clear and Cloudy Environments
 
-   1.58. [GLNET](https://github.com/wuchangsheng951/GLNET) -> Convolutional Neural Networks Based Remote Sensing Scene Classification under Clear and Cloudy Environments
+- [Remote-sensing-image-classification](https://github.com/hiteshK03/Remote-sensing-image-classification) -> transfer learning using pytorch to classify remote sensing data into three classes: aircrafts, ships, none
 
-   1.59. [Remote-sensing-image-classification](https://github.com/hiteshK03/Remote-sensing-image-classification) -> transfer learning using pytorch to classify remote sensing data into three classes: aircrafts, ships, none
+- [remote_sensing_pretrained_models](https://github.com/lsh1994/remote_sensing_pretrained_models) -> as an alternative to fine tuning on models pretrained on ImageNet, here some CNN are pretrained on the RSD46-WHU & AID datasets
 
-   1.60. [remote_sensing_pretrained_models](https://github.com/lsh1994/remote_sensing_pretrained_models) -> as an alternative to fine tuning on models pretrained on ImageNet, here some CNN are pretrained on the RSD46-WHU & AID datasets
+- [CNN_AircraftDetection](https://github.com/UKMIITB/CNN_AircraftDetection) -> CNN for aircraft detection in satellite images using keras
 
-   1.61. [CNN_AircraftDetection](https://github.com/UKMIITB/CNN_AircraftDetection) -> CNN for aircraft detection in satellite images using keras
+- [OBIC-GCN](https://github.com/CVEO/OBIC-GCN) -> Object-based Classification Framework of Remote Sensing Images with Graph Convolutional Networks
 
-   1.62. [OBIC-GCN](https://github.com/CVEO/OBIC-GCN) -> Object-based Classification Framework of Remote Sensing Images with Graph Convolutional Networks
+- [aitlas-arena](https://github.com/biasvariancelabs/aitlas-arena) -> An open-source benchmark framework for evaluating state-of-the-art deep learning approaches for image classification in Earth Observation (EO)
 
-   1.63. [aitlas-arena](https://github.com/biasvariancelabs/aitlas-arena) -> An open-source benchmark framework for evaluating state-of-the-art deep learning approaches for image classification in Earth Observation (EO)
+- [droughtwatch](https://github.com/wandb/droughtwatch) -> Satellite-based Prediction of Forage Conditions for Livestock in Northern Kenya
 
-   1.64. [droughtwatch](https://github.com/wandb/droughtwatch) -> Satellite-based Prediction of Forage Conditions for Livestock in Northern Kenya
+- [JSTARS_2020_DPN-HRA](https://github.com/B-Xi/JSTARS_2020_DPN-HRA) -> Deep Prototypical Networks With Hybrid Residual Attention for Hyperspectral Image Classification
 
-   1.65. [JSTARS_2020_DPN-HRA](https://github.com/B-Xi/JSTARS_2020_DPN-HRA) -> Deep Prototypical Networks With Hybrid Residual Attention for Hyperspectral Image Classification
+- [SIGNA](https://github.com/kyle-one/SIGNA) -> Semantic Interleaving Global Channel Attention for Multilabel Remote Sensing Image Classification
 
-   1.66. [SIGNA](https://github.com/kyle-one/SIGNA) -> Semantic Interleaving Global Channel Attention for Multilabel Remote Sensing Image Classification
+- [Satellite Image Classification](https://github.com/rocketmlhq/rmldnn/tree/main/tutorials/satellite_image_classification) using rmldnn and Sentinel 2 data
 
-   1.67. [Satellite Image Classification](https://github.com/rocketmlhq/rmldnn/tree/main/tutorials/satellite_image_classification) using rmldnn and Sentinel 2 data
+- [PBDL](https://github.com/Usman1021/PBDL) -> Patch-Based Discriminative Learning for Remote Sensing Scene Classification
 
-   1.68. [PBDL](https://github.com/Usman1021/PBDL) -> Patch-Based Discriminative Learning for Remote Sensing Scene Classification
+- [EmergencyNet](https://github.com/ckyrkou/EmergencyNet) -> identify fire and other emergencies from a drone
 
-   1.69. [EmergencyNet](https://github.com/ckyrkou/EmergencyNet) -> identify fire and other emergencies from a drone
+- [satellite-deforestation](https://github.com/drewhibbard/satellite-deforestation) -> Using Satellite Imagery to Identify the Leading Indicators of Deforestation, applied to the Kaggle Challenge Understanding the Amazon from Space
 
-   1.70. [satellite-deforestation](https://github.com/drewhibbard/satellite-deforestation) -> Using Satellite Imagery to Identify the Leading Indicators of Deforestation, applied to the Kaggle Challenge Understanding the Amazon from Space
+- [RSMLC](https://github.com/marjanstoimchev/RSMLC) -> Deep Network Architectures as Feature Extractors for Multi-Label Classification of Remote Sensing Images
 
-   1.71. [RSMLC](https://github.com/marjanstoimchev/RSMLC) -> Deep Network Architectures as Feature Extractors for Multi-Label Classification of Remote Sensing Images
+- [FireRisk](https://github.com/CharmonyShen/FireRisk) -> A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Using Supervised and Self-supervised Learning
 
-   1.72. [FireRisk](https://github.com/CharmonyShen/FireRisk) -> A Remote Sensing Dataset for Fire Risk Assessment with Benchmarks Using Supervised and Self-supervised Learning
+- [flood_susceptibility_mapping](https://github.com/omarseleem92/flood_susceptibility_mapping) -> Towards urban flood susceptibility mapping using data-driven models in Berlin, Germany
 
-   1.73. [flood_susceptibility_mapping](https://github.com/omarseleem92/flood_susceptibility_mapping) -> Towards urban flood susceptibility mapping using data-driven models in Berlin, Germany
+- [tick-tick-bloom](https://github.com/drivendataorg/tick-tick-bloom) -> Winners of the Tick Tick Bloom: Harmful Algal Bloom Detection Challenge. Task was to predict severity of algae bloom, winners used decision trees
 
-   1.74. [tick-tick-bloom](https://github.com/drivendataorg/tick-tick-bloom) -> Winners of the Tick Tick Bloom: Harmful Algal Bloom Detection Challenge. Task was to predict severity of algae bloom, winners used decision trees
+- [Estimating coal power plant operation from satellite images with computer vision](https://transitionzero.medium.com/estimating-coal-power-plant-operation-from-satellite-images-with-computer-vision-b966af56919e) -> use Sentinel 2 data to identify if a coal power plant is on or off, with dataset and repo
 
-   1.75. [Estimating coal power plant operation from satellite images with computer vision](https://transitionzero.medium.com/estimating-coal-power-plant-operation-from-satellite-images-with-computer-vision-b966af56919e) -> use Sentinel 2 data to identify if a coal power plant is on or off, with dataset and repo
+- [Building-detection-and-roof-type-recognition](https://github.com/loosgagnet/Building-detection-and-roof-type-recognition) -> A CNN-Based Approach for Automatic Building Detection and Recognition of Roof Types Using a Single Aerial Image
 
-   1.76. [Building-detection-and-roof-type-recognition](https://github.com/loosgagnet/Building-detection-and-roof-type-recognition) -> A CNN-Based Approach for Automatic Building Detection and Recognition of Roof Types Using a Single Aerial Image
+- [Performance Comparison of Multispectral Channels for Land Use Classification](https://github.com/tejasri19/EuroSAT_data_analysis) -> Implemented ResNet-50, ResNet-101, ResNet-152, Vision Transformer on RGB and multispectral versions of EuroSAT dataset.
 
-   1.77. [Performance Comparison of Multispectral Channels for Land Use Classification](https://github.com/tejasri19/EuroSAT_data_analysis) -> Implemented ResNet-50, ResNet-101, ResNet-152, Vision Transformer on RGB and multispectral versions of EuroSAT dataset.
-
-   1.78. [SNN4Space](https://github.com/AndrzejKucik/SNN4Space) -> project which investigates the feasibility of deploying spiking neural networks (SNN) in land cover and land use classification tasks
+- [SNN4Space](https://github.com/AndrzejKucik/SNN4Space) -> project which investigates the feasibility of deploying spiking neural networks (SNN) in land cover and land use classification tasks
 
 
 # 
@@ -260,616 +257,611 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
 ### 2.1. Segmentation - Land use & land cover
 
-  2.1.1. [U-Net for Semantic Segmentation on Unbalanced Aerial Imagery](https://towardsdatascience.com/u-net-for-semantic-segmentation-on-unbalanced-aerial-imagery-3474fa1d3e56) -> using the Dubai dataset
+- [U-Net for Semantic Segmentation on Unbalanced Aerial Imagery](https://towardsdatascience.com/u-net-for-semantic-segmentation-on-unbalanced-aerial-imagery-3474fa1d3e56) -> using the Dubai dataset
 
-  2.1.2. [Semantic Segmentation of Dubai dataset Using a TensorFlow U-Net Model](https://towardsdatascience.com/semantic-segmentation-of-aerial-imagery-using-u-net-in-python-552705238514)
+- [Semantic Segmentation of Dubai dataset Using a TensorFlow U-Net Model](https://towardsdatascience.com/semantic-segmentation-of-aerial-imagery-using-u-net-in-python-552705238514)
 
-  2.1.3. [nga-deep-learning](https://github.com/jordancaraballo/nga-deep-learning) -> performs semantic segmentation on high resultion GeoTIF data using a modified U-Net & Keras, published by NASA researchers
+- [nga-deep-learning](https://github.com/jordancaraballo/nga-deep-learning) -> performs semantic segmentation on high resultion GeoTIF data using a modified U-Net & Keras, published by NASA researchers
 
-  2.1.4. [Automatic Detection of Landfill Using Deep Learning](https://github.com/AnupamaRajkumar/LandfillDetection_SemanticSegmentation)
+- [Automatic Detection of Landfill Using Deep Learning](https://github.com/AnupamaRajkumar/LandfillDetection_SemanticSegmentation)
 
-  2.1.5. [SpectralNET](https://github.com/tanmay-ty/SpectralNET) -> a 2D wavelet CNN for Hyperspectral Image Classification, uses Salinas Scene dataset & Keras
+- [SpectralNET](https://github.com/tanmay-ty/SpectralNET) -> a 2D wavelet CNN for Hyperspectral Image Classification, uses Salinas Scene dataset & Keras
 
-  2.1.6. [laika](https://github.com/datasciencecampus/laika) -> The goal of this repo is to research potential sources of satellite image data and to implement various algorithms for satellite image segmentation
+- [laika](https://github.com/datasciencecampus/laika) -> The goal of this repo is to research potential sources of satellite image data and to implement various algorithms for satellite image segmentation
 
-  2.1.7. [PEARL](https://www.landcover.io/) -> a human-in-the-loop AI tool to drastically reduce the time required to produce an accurate Land Use/Land Cover (LULC) map, [blog post](http://devseed.com/blog/2021-05-17-pearl-ai-land-cover), uses Microsoft Planetary Computer and ML models run locally in the browser. Code for [backelnd](https://github.com/developmentseed/pearl-backend) and [frontend](https://github.com/developmentseed/pearl-frontend)
+- [PEARL](https://www.landcover.io/) -> a human-in-the-loop AI tool to drastically reduce the time required to produce an accurate Land Use/Land Cover (LULC) map, [blog post](http://devseed.com/blog/2021-05-17-pearl-ai-land-cover), uses Microsoft Planetary Computer and ML models run locally in the browser. Code for [backelnd](https://github.com/developmentseed/pearl-backend) and [frontend](https://github.com/developmentseed/pearl-frontend)
 
-  2.1.8. [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net, uses DeepGlobe Land Cover Segmentation dataset, with [code](https://github.com/TarunKumar1995-glitch/land_cover_classification_unet)
+- [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net, uses DeepGlobe Land Cover Segmentation dataset, with [code](https://github.com/TarunKumar1995-glitch/land_cover_classification_unet)
 
-  2.1.9. [Multi-class semantic segmentation of satellite images using U-Net](https://github.com/rogerxujiang/dstl_unet) using DSTL dataset, tensorflow 1 & python 2.7. Accompanying [article](https://towardsdatascience.com/dstl-satellite-imagery-contest-on-kaggle-2f3ef7b8ac40)
+- [Multi-class semantic segmentation of satellite images using U-Net](https://github.com/rogerxujiang/dstl_unet) using DSTL dataset, tensorflow 1 & python 2.7. Accompanying [article](https://towardsdatascience.com/dstl-satellite-imagery-contest-on-kaggle-2f3ef7b8ac40)
 
-  2.1.10. [Codebase for multi class land cover classification with U-Net](https://github.com/jaeeolma/lulc_ml) accompanying a masters thesis, uses Keras
+- [Codebase for multi class land cover classification with U-Net](https://github.com/jaeeolma/lulc_ml) accompanying a masters thesis, uses Keras
 
-  2.1.11. [dubai-satellite-imagery-segmentation](https://github.com/ayushdabra/dubai-satellite-imagery-segmentation) -> due to the small dataset, image augmentation was used
+- [dubai-satellite-imagery-segmentation](https://github.com/ayushdabra/dubai-satellite-imagery-segmentation) -> due to the small dataset, image augmentation was used
 
-  2.1.12. [CDL-Segmentation](https://github.com/asimniazi63/CDL-Segmentation) -> Deep Learning Based Land Cover and Crop Type Classification: A Comparative Study. Compares UNet, SegNet & DeepLabv3+
+- [CDL-Segmentation](https://github.com/asimniazi63/CDL-Segmentation) -> Deep Learning Based Land Cover and Crop Type Classification: A Comparative Study. Compares UNet, SegNet & DeepLabv3+
 
-  2.1.13. [LoveDA](https://github.com/Junjue-Wang/LoveDA) -> A Remote Sensing Land-Cover Dataset for Domain Adaptive Semantic Segmentation
+- [LoveDA](https://github.com/Junjue-Wang/LoveDA) -> A Remote Sensing Land-Cover Dataset for Domain Adaptive Semantic Segmentation
 
-  2.1.14. [Satellite Imagery Semantic Segmentation with CNN](https://joshting.medium.com/satellite-imagery-segmentation-with-convolutional-neural-networks-f9254de3b907) -> 7 different segmentation classes, DeepGlobe Land Cover Classification Challenge dataset, with [repo](https://github.com/justjoshtings/satellite_image_segmentation)
+- [Satellite Imagery Semantic Segmentation with CNN](https://joshting.medium.com/satellite-imagery-segmentation-with-convolutional-neural-networks-f9254de3b907) -> 7 different segmentation classes, DeepGlobe Land Cover Classification Challenge dataset, with [repo](https://github.com/justjoshtings/satellite_image_segmentation)
 
-  2.1.15. [Aerial Semantic Segmentation using U-Net Deep Learning Model](https://medium.com/@rehman.aimal/aerial-semantic-segmentation-using-u-net-deep-learning-model-3356a53c915f) medium article, with [repo](https://github.com/aimalrehman92/Multiclass-Semantic-Segmentation-with-U-NET)
+- [Aerial Semantic Segmentation using U-Net Deep Learning Model](https://medium.com/@rehman.aimal/aerial-semantic-segmentation-using-u-net-deep-learning-model-3356a53c915f) medium article, with [repo](https://github.com/aimalrehman92/Multiclass-Semantic-Segmentation-with-U-NET)
 
-  2.1.16. [UNet-Satellite-Image-Segmentation](https://github.com/YudeWang/UNet-Satellite-Image-Segmentation) -> A Tensorflow implentation of light UNet semantic segmentation framework
+- [UNet-Satellite-Image-Segmentation](https://github.com/YudeWang/UNet-Satellite-Image-Segmentation) -> A Tensorflow implentation of light UNet semantic segmentation framework
 
-  2.1.17. [DeepGlobe Land Cover Classification Challenge solution](https://github.com/GeneralLi95/deepglobe_land_cover_classification_with_deeplabv3plus)
+- [DeepGlobe Land Cover Classification Challenge solution](https://github.com/GeneralLi95/deepglobe_land_cover_classification_with_deeplabv3plus)
 
-  2.1.18. [Semantic-segmentation-with-PyTorch-Satellite-Imagery](https://github.com/JenAlchimowicz/Semantic-segmentation-with-PyTorch-Satellite-Imagery) -> predict 25 classes on RGB imagery taken to assess the damage after Hurricane Harvey
+- [Semantic-segmentation-with-PyTorch-Satellite-Imagery](https://github.com/JenAlchimowicz/Semantic-segmentation-with-PyTorch-Satellite-Imagery) -> predict 25 classes on RGB imagery taken to assess the damage after Hurricane Harvey
 
-  2.1.19. [Semantic Segmentation With Sentinel-2 Imagery](https://github.com/pavlo-seimskyi/semantic-segmentation-satellite-imagery) -> uses LandCoverNet dataset and fast.ai
+- [Semantic Segmentation With Sentinel-2 Imagery](https://github.com/pavlo-seimskyi/semantic-segmentation-satellite-imagery) -> uses LandCoverNet dataset and fast.ai
 
-  2.1.20. [CNN_Enhanced_GCN](https://github.com/qichaoliu/CNN_Enhanced_GCN) -> CNN-Enhanced Graph Convolutional Network With Pixel- and Superpixel-Level Feature Fusion for Hyperspectral Image Classification
+- [CNN_Enhanced_GCN](https://github.com/qichaoliu/CNN_Enhanced_GCN) -> CNN-Enhanced Graph Convolutional Network With Pixel- and Superpixel-Level Feature Fusion for Hyperspectral Image Classification
 
-  2.1.21. [LULCMapping-WV3images-CORINE-DLMethods](https://github.com/esertel/LULCMapping-WV3images-CORINE-DLMethods) -> Land Use and Land Cover Mapping Using Deep Learning Based Segmentation Approaches and VHR Worldview-3 Images
+- [LULCMapping-WV3images-CORINE-DLMethods](https://github.com/esertel/LULCMapping-WV3images-CORINE-DLMethods) -> Land Use and Land Cover Mapping Using Deep Learning Based Segmentation Approaches and VHR Worldview-3 Images
 
-  2.1.22. [MCANet](https://github.com/yisun98/SOLC) -> A joint semantic segmentation framework of optical and SAR images for land use classification. Uses [WHU-OPT-SAR-dataset](https://github.com/AmberHen/WHU-OPT-SAR-dataset)
+- [MCANet](https://github.com/yisun98/SOLC) -> A joint semantic segmentation framework of optical and SAR images for land use classification. Uses [WHU-OPT-SAR-dataset](https://github.com/AmberHen/WHU-OPT-SAR-dataset)
 
-  2.1.23. [MUnet-LUC](https://github.com/abhi170599/MUnet-LUC)
+- [MUnet-LUC](https://github.com/abhi170599/MUnet-LUC)
 
-  2.1.24. [land-cover](https://github.com/lucashu1/land-cover) -> Model Generalization in Deep Learning Applications for Land Cover Mapping
+- [land-cover](https://github.com/lucashu1/land-cover) -> Model Generalization in Deep Learning Applications for Land Cover Mapping
 
-  2.1.25. [generalizablersc](https://github.com/dgominski/generalizablersc) -> Cross-dataset Learning for Generalizable Land Use Scene Classification
+- [generalizablersc](https://github.com/dgominski/generalizablersc) -> Cross-dataset Learning for Generalizable Land Use Scene Classification
 
-  2.1.26. [Large-scale-Automatic-Identification-of-Urban-Vacant-Land](https://github.com/SkydustZ/Large-scale-Automatic-Identification-of-Urban-Vacant-Land) -> Large-scale automatic identification of urban vacant land using semantic segmentation of high-resolution remote sensing images
+- [Large-scale-Automatic-Identification-of-Urban-Vacant-Land](https://github.com/SkydustZ/Large-scale-Automatic-Identification-of-Urban-Vacant-Land) -> Large-scale automatic identification of urban vacant land using semantic segmentation of high-resolution remote sensing images
 
-  2.1.27. [SSLTransformerRS](https://github.com/HSG-AIML/SSLTransformerRS) -> Self-supervised Vision Transformers for Land-cover Segmentation and
+- [SSLTransformerRS](https://github.com/HSG-AIML/SSLTransformerRS) -> Self-supervised Vision Transformers for Land-cover Segmentation and
   Classification
 
-  2.1.28. [aerial-tile-segmentation](https://github.com/mrsebai/aerial-tile-segmentation) -> Large satellite image semantic segmentation into 6 classes using Tensorflow 2.0 and ISPRS benchmark dataset
+- [aerial-tile-segmentation](https://github.com/mrsebai/aerial-tile-segmentation) -> Large satellite image semantic segmentation into 6 classes using Tensorflow 2.0 and ISPRS benchmark dataset
 
-  2.1.29. [LULCMapping-WV3images-CORINE-DLMethods](https://github.com/burakekim/LULCMapping-WV3images-CORINE-DLMethods) -> Land Use and Land Cover Mapping Using Deep Learning Based Segmentation Approaches and VHR Worldview-3 Images
+- [LULCMapping-WV3images-CORINE-DLMethods](https://github.com/burakekim/LULCMapping-WV3images-CORINE-DLMethods) -> Land Use and Land Cover Mapping Using Deep Learning Based Segmentation Approaches and VHR Worldview-3 Images
 
-  2.1.30. [DCSA-Net](https://github.com/Julia90/DCSA-Net) -> Dynamic Convolution Self-Attention Network for Land-Cover Classification in VHR Remote-Sensing Images
+- [DCSA-Net](https://github.com/Julia90/DCSA-Net) -> Dynamic Convolution Self-Attention Network for Land-Cover Classification in VHR Remote-Sensing Images
 
-  2.1.31. [CHeGCN-CNN_enhanced_Heterogeneous_Graph](https://github.com/Liuzhizhiooo/CHeGCN-CNN_enhanced_Heterogeneous_Graph) -> CNN-Enhanced Heterogeneous Graph Convolutional Network: Inferring Land Use from Land Cover with a Case Study of Park Segmentation
+- [CHeGCN-CNN_enhanced_Heterogeneous_Graph](https://github.com/Liuzhizhiooo/CHeGCN-CNN_enhanced_Heterogeneous_Graph) -> CNN-Enhanced Heterogeneous Graph Convolutional Network: Inferring Land Use from Land Cover with a Case Study of Park Segmentation
 
-  2.1.32. [TCSVT_2022_DGSSC](https://github.com/B-Xi/TCSVT_2022_DGSSC) -> DGSSC: A Deep Generative Spectral-Spatial Classifier for Imbalanced Hyperspectral Imagery
+- [TCSVT_2022_DGSSC](https://github.com/B-Xi/TCSVT_2022_DGSSC) -> DGSSC: A Deep Generative Spectral-Spatial Classifier for Imbalanced Hyperspectral Imagery
 
-  2.1.33. [DeepForest-Wetland-Paper](https://github.com/aj1365/DeepForest-Wetland-Paper) -> Deep Forest classifier for wetland mapping using the combination of Sentinel-1 and Sentinel-2 data, GIScience & Remote Sensing
+- [DeepForest-Wetland-Paper](https://github.com/aj1365/DeepForest-Wetland-Paper) -> Deep Forest classifier for wetland mapping using the combination of Sentinel-1 and Sentinel-2 data, GIScience & Remote Sensing
 
-  2.1.34. [Wetland_UNet](https://github.com/conservation-innovation-center/Wetland_UNet) -> UNet models that can delineate wetlands using remote sensing data input including bands from Sentinel-2 LiDAR and geomorphons. By the Conservation Innovation Center of Chesapeake Conservancy and Defenders of Wildlife
+- [Wetland_UNet](https://github.com/conservation-innovation-center/Wetland_UNet) -> UNet models that can delineate wetlands using remote sensing data input including bands from Sentinel-2 LiDAR and geomorphons. By the Conservation Innovation Center of Chesapeake Conservancy and Defenders of Wildlife
 
-  2.1.35. [DPA](https://github.com/x-ytong/DPA) -> DPA is an unsupervised domain adaptation (UDA) method applied to different satellite images for larg-scale land cover mapping.
+- [DPA](https://github.com/x-ytong/DPA) -> DPA is an unsupervised domain adaptation (UDA) method applied to different satellite images for larg-scale land cover mapping.
 
-  2.1.36. [dynamicworld](https://github.com/google/dynamicworld) -> Dynamic World, Near real-time global 10 m land use land cover mapping
+- [dynamicworld](https://github.com/google/dynamicworld) -> Dynamic World, Near real-time global 10 m land use land cover mapping
 
-  2.1.37. [spada](https://github.com/links-ads/spada) -> Land Cover Segmentation with Sparse Annotations from Sentinel-2 Imagery
+- [spada](https://github.com/links-ads/spada) -> Land Cover Segmentation with Sparse Annotations from Sentinel-2 Imagery
 
-  2.1.38. [M3SPADA](https://github.com/ecapliez/M3SPADA) ->  Multi-Sensor Temporal Unsupervised Domain Adaptation for Land Cover Mapping with spatial pseudo labelling and adversarial learning
+- [M3SPADA](https://github.com/ecapliez/M3SPADA) ->  Multi-Sensor Temporal Unsupervised Domain Adaptation for Land Cover Mapping with spatial pseudo labelling and adversarial learning
 
-  2.1.39. [GLNet](https://github.com/VITA-Group/GLNet) -> Collaborative Global-Local Networks for Memory-Efﬁcient Segmentation of Ultra-High Resolution Images
+- [GLNet](https://github.com/VITA-Group/GLNet) -> Collaborative Global-Local Networks for Memory-Efﬁcient Segmentation of Ultra-High Resolution Images
 
-  2.1.40. [LoveNAS](https://github.com/Junjue-Wang/LoveNAS) -> LoveNAS: Towards Multi-Scene Land-Cover Mapping via Hierarchical Searching Adaptive Network
+- [LoveNAS](https://github.com/Junjue-Wang/LoveNAS) -> LoveNAS: Towards Multi-Scene Land-Cover Mapping via Hierarchical Searching Adaptive Network
 
 
 ### 2.2. Segmentation - Vegetation, deforestation, crops & crop boundaries
 
 Note that deforestation detection may be treated as a segmentation task or a change detection task
 
-  2.2.1. [Сrор field boundary detection: approaches and main challenges](https://medium.com/geekculture/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-and-main-challenges-46e37dd276bc) -> Medium article, covering historical and modern approaches
+- [Сrор field boundary detection: approaches and main challenges](https://medium.com/geekculture/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-and-main-challenges-46e37dd276bc) -> Medium article, covering historical and modern approaches
 
-  2.2.2. [kenya-crop-mask](https://github.com/nasaharvest/kenya-crop-mask) -> Annual and in-season crop mapping in Kenya - LSTM classifier to classify pixels as containing crop or not, and a multi-spectral forecaster that provides a 12 month time series given a partial input. Dataset downloaded from GEE and pytorch lightning used for training
+- [kenya-crop-mask](https://github.com/nasaharvest/kenya-crop-mask) -> Annual and in-season crop mapping in Kenya - LSTM classifier to classify pixels as containing crop or not, and a multi-spectral forecaster that provides a 12 month time series given a partial input. Dataset downloaded from GEE and pytorch lightning used for training
 
-  2.2.3. [What’s growing there? Identify crops from multi-spectral remote sensing data (Sentinel 2)](https://towardsdatascience.com/whats-growing-there-a5618a2e6933) using eo-learn for data pre-processing, cloud detection, NDVI calculation, image augmentation & fastai
+- [What’s growing there? Identify crops from multi-spectral remote sensing data (Sentinel 2)](https://towardsdatascience.com/whats-growing-there-a5618a2e6933) using eo-learn for data pre-processing, cloud detection, NDVI calculation, image augmentation & fastai
 
-  2.2.4. [Tree species classification from from airborne LiDAR and hyperspectral data using 3D convolutional neural networks](https://github.com/jaeeolma/tree-detection-evo)
+- [Tree species classification from from airborne LiDAR and hyperspectral data using 3D convolutional neural networks](https://github.com/jaeeolma/tree-detection-evo)
 
-  2.2.5. [crop-type-classification](https://medium.com/nerd-for-tech/crop-type-classification-cf5cc2593396) -> using Sentinel 1 & 2 data with a U-Net + LSTM, more features (i.e. bands) and higher resolution produced better results (article, no code)
+- [crop-type-classification](https://medium.com/nerd-for-tech/crop-type-classification-cf5cc2593396) -> using Sentinel 1 & 2 data with a U-Net + LSTM, more features (i.e. bands) and higher resolution produced better results (article, no code)
 
-  2.2.6. [Find sports fields using Mask R-CNN and overlay on open-street-map](https://github.com/jremillard/images-to-osm)
+- [Find sports fields using Mask R-CNN and overlay on open-street-map](https://github.com/jremillard/images-to-osm)
 
-  2.2.7. [An LSTM to generate a crop mask for Togo](https://github.com/nasaharvest/togo-crop-mask)
+- [An LSTM to generate a crop mask for Togo](https://github.com/nasaharvest/togo-crop-mask)
 
-  2.2.8. [DeepSatModels](https://github.com/michaeltrs/DeepSatModels) -> Context-self contrastive pretraining for crop type semantic segmentation
+- [DeepSatModels](https://github.com/michaeltrs/DeepSatModels) -> Context-self contrastive pretraining for crop type semantic segmentation
 
-  2.2.9. [farm-pin-crop-detection-challenge](https://github.com/simongrest/farm-pin-crop-detection-challenge) -> Using eo-learn and fastai to identify crops from multi-spectral remote sensing data
+- [farm-pin-crop-detection-challenge](https://github.com/simongrest/farm-pin-crop-detection-challenge) -> Using eo-learn and fastai to identify crops from multi-spectral remote sensing data
 
-  2.2.10. [Detecting Agricultural Croplands from Sentinel-2 Satellite Imagery](https://medium.com/radiant-earth-insights/detecting-agricultural-croplands-from-sentinel-2-satellite-imagery-a025735d3bd8) -> We developed UNet-Agri, a benchmark machine learning model that classifies croplands using open-access Sentinel-2 imagery at 10m spatial resolution
+- [Detecting Agricultural Croplands from Sentinel-2 Satellite Imagery](https://medium.com/radiant-earth-insights/detecting-agricultural-croplands-from-sentinel-2-satellite-imagery-a025735d3bd8) -> We developed UNet-Agri, a benchmark machine learning model that classifies croplands using open-access Sentinel-2 imagery at 10m spatial resolution
 
-  2.2.11. [DeepTreeAttention](https://github.com/weecology/DeepTreeAttention) -> Implementation of Hang et al. 2020 "Hyperspectral Image Classification with Attention Aided CNNs" for tree species prediction
+- [DeepTreeAttention](https://github.com/weecology/DeepTreeAttention) -> Implementation of Hang et al. 2020 "Hyperspectral Image Classification with Attention Aided CNNs" for tree species prediction
 
-  2.2.12. [Crop-Classification](https://github.com/bhavesh907/Crop-Classification) -> crop classification using multi temporal satellite images
+- [Crop-Classification](https://github.com/bhavesh907/Crop-Classification) -> crop classification using multi temporal satellite images
 
-  2.2.13. [ParcelDelineation](https://github.com/sustainlab-group/ParcelDelineation) -> using a French polygons dataset and unet in keras
+- [ParcelDelineation](https://github.com/sustainlab-group/ParcelDelineation) -> using a French polygons dataset and unet in keras
 
-  2.2.14. [crop-mask](https://github.com/nasaharvest/crop-mask) -> End-to-end workflow for generating high resolution cropland maps, uses GEE & LSTM model
+- [crop-mask](https://github.com/nasaharvest/crop-mask) -> End-to-end workflow for generating high resolution cropland maps, uses GEE & LSTM model
 
-  2.2.15. [DeepCropMapping](https://github.com/Lab-IDEAS/DeepCropMapping) -> A multi-temporal deep learning approach with improved spatial generalizability for dynamic corn and soybean mapping, uses LSTM
+- [DeepCropMapping](https://github.com/Lab-IDEAS/DeepCropMapping) -> A multi-temporal deep learning approach with improved spatial generalizability for dynamic corn and soybean mapping, uses LSTM
 
-  2.2.16. [Segment Canopy Cover and Soil using NDVI and Rasterio](https://towardsdatascience.com/segment-satellite-imagery-using-ndvi-and-rasterio-6dcae02a044b)
+- [Segment Canopy Cover and Soil using NDVI and Rasterio](https://towardsdatascience.com/segment-satellite-imagery-using-ndvi-and-rasterio-6dcae02a044b)
 
-  2.2.17. [Use KMeans clustering to segment satellite imagery by land cover/land use](https://towardsdatascience.com/segment-satellite-images-using-rasterio-and-scikit-learn-fc048f465874)
+- [Use KMeans clustering to segment satellite imagery by land cover/land use](https://towardsdatascience.com/segment-satellite-images-using-rasterio-and-scikit-learn-fc048f465874)
 
-  2.2.18. [ResUnet-a](https://github.com/Akhilesh64/ResUnet-a) -> a deep learning framework for semantic segmentation of remotely sensed data
+- [ResUnet-a](https://github.com/Akhilesh64/ResUnet-a) -> a deep learning framework for semantic segmentation of remotely sensed data
 
-  2.2.19. [DSD_paper_2020](https://github.com/JacobJeppesen/DSD_paper_2020) -> Crop Type Classification based on Machine Learning with Multitemporal Sentinel-1 Data
+- [DSD_paper_2020](https://github.com/JacobJeppesen/DSD_paper_2020) -> Crop Type Classification based on Machine Learning with Multitemporal Sentinel-1 Data
 
-  2.2.20. [MR-DNN](https://github.com/yasir2afaq/Multi-resolution-deep-neural-network) -> extract rice field from Landsat 8 satellite imagery
+- [MR-DNN](https://github.com/yasir2afaq/Multi-resolution-deep-neural-network) -> extract rice field from Landsat 8 satellite imagery
 
-  2.2.21. [deep_learning_forest_monitoring](https://github.com/waldeland/deep_learning_forest_monitoring) -> Forest mapping and monitoring of the African continent using Sentinel-2 data and deep learning
+- [deep_learning_forest_monitoring](https://github.com/waldeland/deep_learning_forest_monitoring) -> Forest mapping and monitoring of the African continent using Sentinel-2 data and deep learning
 
-  2.2.22. [global-cropland-mapping](https://github.com/Charly-tian/global-cropland-mapping) -> global multi-temporal cropland mapping
+- [global-cropland-mapping](https://github.com/Charly-tian/global-cropland-mapping) -> global multi-temporal cropland mapping
 
-  2.2.23. [U-Net for Semantic Segmentation of Soyabean Crop Fields with SAR images](https://joaootavionf007.medium.com/u-net-for-semantic-segmentation-of-soyabeans-crop-fields-with-sar-images-604232e49315)
+- [U-Net for Semantic Segmentation of Soyabean Crop Fields with SAR images](https://joaootavionf007.medium.com/u-net-for-semantic-segmentation-of-soyabeans-crop-fields-with-sar-images-604232e49315)
 
-  2.2.24. [UNet-RemoteSensing](https://github.com/aryanVijaywargia/UNet-RemoteSensing) -> uses 7 bands of Landsat and keras
+- [UNet-RemoteSensing](https://github.com/aryanVijaywargia/UNet-RemoteSensing) -> uses 7 bands of Landsat and keras
 
-  2.2.25. [Landuse_DL](https://github.com/yghlc/Landuse_DL) -> delineate landforms due to the thawing of ice-rich permafrost
+- [Landuse_DL](https://github.com/yghlc/Landuse_DL) -> delineate landforms due to the thawing of ice-rich permafrost
 
-  2.2.26. [canopy](https://github.com/jonathanventura/canopy) -> A Convolutional Neural Network Classifier Identifies Tree Species in Mixed-Conifer Forest from Hyperspectral Imagery
+- [canopy](https://github.com/jonathanventura/canopy) -> A Convolutional Neural Network Classifier Identifies Tree Species in Mixed-Conifer Forest from Hyperspectral Imagery
 
-  2.2.27. [RandomForest-Classification](https://github.com/florianbeyer/RandomForest-Classification) -> Multisensor data to derive peatland vegetation communities using a fixed-wing unmanned aerial vehicle
+- [RandomForest-Classification](https://github.com/florianbeyer/RandomForest-Classification) -> Multisensor data to derive peatland vegetation communities using a fixed-wing unmanned aerial vehicle
 
-  2.2.28. [forest_change_detection](https://github.com/QuantuMobileSoftware/forest_change_detection) -> forest change segmentation with time-dependent models, including Siamese, UNet-LSTM, UNet-diff, UNet3D models
+- [forest_change_detection](https://github.com/QuantuMobileSoftware/forest_change_detection) -> forest change segmentation with time-dependent models, including Siamese, UNet-LSTM, UNet-diff, UNet3D models
 
-  2.2.29. [cultionet](https://github.com/jgrss/cultionet) -> segmentation of cultivated land, built on PyTorch Geometric and PyTorch Lightning
+- [cultionet](https://github.com/jgrss/cultionet) -> segmentation of cultivated land, built on PyTorch Geometric and PyTorch Lightning
 
-  2.2.30. [sentinel-tree-cover](https://github.com/wri/sentinel-tree-cover) -> A global method to identify trees outside of closed-canopy forests with medium-resolution satellite imagery
+- [sentinel-tree-cover](https://github.com/wri/sentinel-tree-cover) -> A global method to identify trees outside of closed-canopy forests with medium-resolution satellite imagery
 
-  2.2.31. [crop-type-detection-ICLR-2020](https://github.com/RadiantMLHub/crop-type-detection-ICLR-2020) -> Winning Solutions from Crop Type Detection Competition at CV4A workshop, ICLR 2020
+- [crop-type-detection-ICLR-2020](https://github.com/RadiantMLHub/crop-type-detection-ICLR-2020) -> Winning Solutions from Crop Type Detection Competition at CV4A workshop, ICLR 2020
 
-  2.2.32. [Crop identification using satellite imagery](https://write.agrevolution.in/crop-identification-using-satellite-imagery-introduction-83d79344f9ee) -> Medium article, introduction to crop identification
+- [Crop identification using satellite imagery](https://write.agrevolution.in/crop-identification-using-satellite-imagery-introduction-83d79344f9ee) -> Medium article, introduction to crop identification
 
-  2.2.33. [S4A-Models](https://github.com/Orion-AI-Lab/S4A-Models) -> Various experiments on the Sen4AgriNet dataset
+- [S4A-Models](https://github.com/Orion-AI-Lab/S4A-Models) -> Various experiments on the Sen4AgriNet dataset
 
-  2.2.34. [attention-mechanism-unet](https://github.com/davej23/attention-mechanism-unet) -> An attention-based U-Net for detecting deforestation within satellite sensor imagery
+- [attention-mechanism-unet](https://github.com/davej23/attention-mechanism-unet) -> An attention-based U-Net for detecting deforestation within satellite sensor imagery
 
-  2.2.35. [Cocoa_plantations_detection](https://github.com/antoine-spahr/Cocoa_plantations_detection) -> Detecting cocoa plantation in Ivory Coast using Sentinel-2 remote sensing data using KNN, SVM, Random Forest and MLP
+-[Cocoa_plantations_detection](https://github.com/antoine-spahr/Cocoa_plantations_detection) -> Detecting cocoa plantation in Ivory Coast using Sentinel-2 remote sensing data using KNN, SVM, Random Forest and MLP
 
-  2.2.36. [SummerCrop_Deeplearning](https://github.com/AgriRS/SummerCrop_Deeplearning) -> A Transferable Learning Classification Model and Carbon Sequestration Estimation of Crops in Farmland Ecosystem
+- [SummerCrop_Deeplearning](https://github.com/AgriRS/SummerCrop_Deeplearning) -> A Transferable Learning Classification Model and Carbon Sequestration Estimation of Crops in Farmland Ecosystem
 
-  2.2.37. [DeepForest](https://deepforest.readthedocs.io/en/latest/index.html) is a python package for training and predicting individual tree crowns from airborne RGB imagery
+- [DeepForest](https://deepforest.readthedocs.io/en/latest/index.html) is a python package for training and predicting individual tree crowns from airborne RGB imagery
 
-  2.2.38. [Official repository for the "Identifying trees on satellite images" challenge from Omdena](https://github.com/cienciaydatos/ai-challenge-trees)
+- [Official repository for the "Identifying trees on satellite images" challenge from Omdena](https://github.com/cienciaydatos/ai-challenge-trees)
 
-  2.2.39. [Counting-Trees-using-Satellite-Images](https://github.com/A2Amir/Counting-Trees-using-Satellite-Images) -> create an inventory of incoming and outgoing trees for an annual tree inspections, uses keras & semantic segmentation
+- [Counting-Trees-using-Satellite-Images](https://github.com/A2Amir/Counting-Trees-using-Satellite-Images) -> create an inventory of incoming and outgoing trees for an annual tree inspections, uses keras & semantic segmentation
 
-  2.2.40. [2020 Nature paper - An unexpectedly large count of trees in the West African Sahara and Sahel](https://www.nature.com/articles/s41586-020-2824-5) -> tree detection framework based on U-Net & tensorflow 2 with code [here](https://github.com/ankitkariryaa/An-unexpectedly-large-count-of-trees-in-the-western-Sahara-and-Sahel/tree/v1.0.0)
+- [2020 Nature paper - An unexpectedly large count of trees in the West African Sahara and Sahel](https://www.nature.com/articles/s41586-020-2824-5) -> tree detection framework based on U-Net & tensorflow 2 with code [here](https://github.com/ankitkariryaa/An-unexpectedly-large-count-of-trees-in-the-western-Sahara-and-Sahel/tree/v1.0.0)
 
-  2.2.41. [TreeDetection](https://github.com/AmirNiaraki/TreeDetection) -> A color-based classifier to detect the trees in google image data along with tree visual localization and crown size calculations via OpenCV
+- [TreeDetection](https://github.com/AmirNiaraki/TreeDetection) -> A color-based classifier to detect the trees in google image data along with tree visual localization and crown size calculations via OpenCV
 
-  2.2.42. [PTDM](https://github.com/hr8yhtzb/PTDM) -> Pomelo Tree Detection Method Based on Attention Mechanism and Cross-Layer Feature Fusion
+- [PTDM](https://github.com/hr8yhtzb/PTDM) -> Pomelo Tree Detection Method Based on Attention Mechanism and Cross-Layer Feature Fusion
 
-  2.2.43. [urban-tree-detection](https://github.com/jonathanventura/urban-tree-detection) -> Individual Tree Detection in Large-Scale Urban Environments using High-Resolution Multispectral Imagery. With [dataset](https://github.com/jonathanventura/urban-tree-detection-data)
+- [urban-tree-detection](https://github.com/jonathanventura/urban-tree-detection) -> Individual Tree Detection in Large-Scale Urban Environments using High-Resolution Multispectral Imagery. With [dataset](https://github.com/jonathanventura/urban-tree-detection-data)
 
-  2.2.44. [BioMassters_baseline](https://github.com/fnands/BioMassters_baseline) -> a basic pytorch lightning baseline using a UNet for getting started with the [BioMassters challenge](https://www.drivendata.org/competitions/99/biomass-estimation/) (biomass estimation)
+- [BioMassters_baseline](https://github.com/fnands/BioMassters_baseline) -> a basic pytorch lightning baseline using a UNet for getting started with the [BioMassters challenge](https://www.drivendata.org/competitions/99/biomass-estimation/) (biomass estimation)
 
-  2.2.45. [Biomassters winners](https://github.com/drivendataorg/the-biomassters) -> top 3 solutions
+- [Biomassters winners](https://github.com/drivendataorg/the-biomassters) -> top 3 solutions
 
-  2.2.46. [kbrodt biomassters solution](https://github.com/kbrodt/biomassters) -> 1st place solution
+- [kbrodt biomassters solution](https://github.com/kbrodt/biomassters) -> 1st place solution
 
-  2.2.47. [quqixun biomassters solution](https://github.com/quqixun/BioMassters)
+- [quqixun biomassters solution](https://github.com/quqixun/BioMassters)
 
-  2.2.48. [biomass-estimation](https://github.com/azavea/biomass-estimation) -> from Azavea, applied to Sentinel 1 & 2
+- [biomass-estimation](https://github.com/azavea/biomass-estimation) -> from Azavea, applied to Sentinel 1 & 2
 
-  2.2.49. [3DUNetGSFormer](https://github.com/aj1365/3DUNetGSFormer) -> A deep learning pipeline for complex wetland mapping using generative adversarial networks and Swin transformer
+- [3DUNetGSFormer](https://github.com/aj1365/3DUNetGSFormer) -> A deep learning pipeline for complex wetland mapping using generative adversarial networks and Swin transformer
 
-  2.2.50. [SEANet_torch](https://github.com/long123524/SEANet_torch) -> Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images
+- [SEANet_torch](https://github.com/long123524/SEANet_torch) -> Using a semantic edge-aware multi-task neural network to delineate agricultural parcels from remote sensing images
 
-  2.2.51. [arborizer](https://github.com/RaffiBienz/arborizer) -> Tree crowns segmentation and classification
+- [arborizer](https://github.com/RaffiBienz/arborizer) -> Tree crowns segmentation and classification
 
-  2.2.52. [ReUse](https://github.com/priamus-lab/ReUse) -> REgressive Unet for Carbon Storage and Above-Ground Biomass Estimation
+- [ReUse](https://github.com/priamus-lab/ReUse) -> REgressive Unet for Carbon Storage and Above-Ground Biomass Estimation
 
-  2.2.53. [unet-sentinel](https://github.com/eliasqueirogavieira/unet-sentinel) -> UNet to handle Sentinel-1 SAR images to identify deforestation
+- [unet-sentinel](https://github.com/eliasqueirogavieira/unet-sentinel) -> UNet to handle Sentinel-1 SAR images to identify deforestation
 
-  2.2.54. [MaskedSST](https://github.com/HSG-AIML/MaskedSST) -> Masked Vision Transformers for Hyperspectral Image Classification
+- [MaskedSST](https://github.com/HSG-AIML/MaskedSST) -> Masked Vision Transformers for Hyperspectral Image Classification
 
-  2.2.55. [UNet-defmapping](https://github.com/bragagnololu/UNet-defmapping) -> master's thesis using UNet to map deforestation using Sentinel-2 Level 2A images, applied to Amazon and Atlantic Rainforest dataset
+- [UNet-defmapping](https://github.com/bragagnololu/UNet-defmapping) -> master's thesis using UNet to map deforestation using Sentinel-2 Level 2A images, applied to Amazon and Atlantic Rainforest dataset
 
-  2.2.56. [cvpr-multiearth-deforestation-segmentation](https://github.com/h2oai/cvpr-multiearth-deforestation-segmentation) -> multimodal Unet entry to the CVPR Multiearth 2023 deforestation challenge
+- [cvpr-multiearth-deforestation-segmentation](https://github.com/h2oai/cvpr-multiearth-deforestation-segmentation) -> multimodal Unet entry to the CVPR Multiearth 2023 deforestation challenge
 
-  2.2.57. [supervised-wheat-classification-using-pytorchs-torchgeo](https://medium.com/@sulemanhamdani10/supervised-wheat-classification-using-pytorchs-torchgeo-combining-satellite-imagery-and-python-fc7f95c82e) -> supervised wheat classification using torchgeo
+- [supervised-wheat-classification-using-pytorchs-torchgeo](https://medium.com/@sulemanhamdani10/supervised-wheat-classification-using-pytorchs-torchgeo-combining-satellite-imagery-and-python-fc7f95c82e) -> supervised wheat classification using torchgeo
 
-  2.2.58. [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping. Uses the Amazon and Atlantic forest dataset
+- [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping. Uses the Amazon and Atlantic forest dataset
 
-  2.2.59. [A high-resolution canopy height model of the Earth](https://github.com/langnico/global-canopy-height-model#a-high-resolution-canopy-height-model-of-the-earth) -> A high-resolution canopy height model of the Earth
+- [A high-resolution canopy height model of the Earth](https://github.com/langnico/global-canopy-height-model#a-high-resolution-canopy-height-model-of-the-earth) -> A high-resolution canopy height model of the Earth
 
 ### 2.3. Segmentation - Water, coastlines & floods
 
-  2.3.1. [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces
+- [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces
 
-  2.3.2. [Flood Detection and Analysis using UNET with Resnet-34 as the back bone](https://github.com/orion29/Satellite-Image-Segmentation-for-Flood-Damage-Analysis) uses fastai
+- [Flood Detection and Analysis using UNET with Resnet-34 as the back bone](https://github.com/orion29/Satellite-Image-Segmentation-for-Flood-Damage-Analysis) uses fastai
 
-  2.3.3. [Automatic Flood Detection from Satellite Images Using Deep Learning](https://medium.com/@omercaliskan99/automatic-flood-detection-from-satellite-images-using-deep-learning-f14fafd369e0)
+- [Automatic Flood Detection from Satellite Images Using Deep Learning](https://medium.com/@omercaliskan99/automatic-flood-detection-from-satellite-images-using-deep-learning-f14fafd369e0)
 
-  2.3.4. [UNSOAT used fastai to train a Unet to perform semantic segmentation on satellite imageries to detect water](https://forums.fast.ai/t/unosat-used-fastai-ai-for-their-floodai-model-discussion-on-how-to-move-forward/78468)
+- [UNSOAT used fastai to train a Unet to perform semantic segmentation on satellite imageries to detect water](https://forums.fast.ai/t/unosat-used-fastai-ai-for-their-floodai-model-discussion-on-how-to-move-forward/78468)
 
-  2.3.5. [Semi-Supervised Classification and Segmentation on High Resolution Aerial Images - Solving the FloodNet problem](https://sahilkhose.medium.com/paper-presentation-e9bd0f3fb0bf)
+- [Semi-Supervised Classification and Segmentation on High Resolution Aerial Images - Solving the FloodNet problem](https://sahilkhose.medium.com/paper-presentation-e9bd0f3fb0bf)
 
-  2.3.6. [Houston_flooding](https://github.com/Lichtphyz/Houston_flooding) -> labeling each pixel as either flooded or not using data from Hurricane Harvey. Dataset consisted of pre and post flood images, and a ground truth floodwater mask was created using unsupervised clustering (with DBScan) of image pixels with human cluster verification/adjustment
+- [Houston_flooding](https://github.com/Lichtphyz/Houston_flooding) -> labeling each pixel as either flooded or not using data from Hurricane Harvey. Dataset consisted of pre and post flood images, and a ground truth floodwater mask was created using unsupervised clustering (with DBScan) of image pixels with human cluster verification/adjustment
 
-  2.3.7. [ml4floods](https://github.com/spaceml-org/ml4floods) -> An ecosystem of data, models and code pipelines to tackle flooding with ML
+- [ml4floods](https://github.com/spaceml-org/ml4floods) -> An ecosystem of data, models and code pipelines to tackle flooding with ML
 
-  2.3.8. [A comprehensive guide to getting started with the ETCI Flood Detection competition](https://medium.com/cloud-to-street/jumpstart-your-machine-learning-satellite-competition-submission-2443b40d0a5a) -> using Sentinel1 SAR & pytorch
+- [A comprehensive guide to getting started with the ETCI Flood Detection competition](https://medium.com/cloud-to-street/jumpstart-your-machine-learning-satellite-competition-submission-2443b40d0a5a) -> using Sentinel1 SAR & pytorch
 
-  2.3.9. [Map Floodwater of SAR Imagery with SageMaker](https://github.com/JayThibs/map-floodwater-sar-imagery-on-sagemaker) -> applied to Sentinel-1 dataset
+- [Map Floodwater of SAR Imagery with SageMaker](https://github.com/JayThibs/map-floodwater-sar-imagery-on-sagemaker) -> applied to Sentinel-1 dataset
 
-  2.3.10. [1st place solution for STAC Overflow: Map Floodwater from Radar Imagery hosted by Microsoft AI for Earth](https://github.com/sweetlhare/STAC-Overflow) -> combines Unet with Catboostclassifier, taking their maxima, not the average
+- [1st place solution for STAC Overflow: Map Floodwater from Radar Imagery hosted by Microsoft AI for Earth](https://github.com/sweetlhare/STAC-Overflow) -> combines Unet with Catboostclassifier, taking their maxima, not the average
 
-  2.3.11. [hydra-floods](https://github.com/Servir-Mekong/hydra-floods) -> an open source Python application for downloading, processing, and delivering surface water maps derived from remote sensing data
+- [hydra-floods](https://github.com/Servir-Mekong/hydra-floods) -> an open source Python application for downloading, processing, and delivering surface water maps derived from remote sensing data
 
-  2.3.12. [CoastSat](https://github.com/kvos/CoastSat) -> tool for mapping coastlines which has an extension [CoastSeg](https://github.com/dbuscombe-usgs/CoastSeg) using segmentation models
+- [CoastSat](https://github.com/kvos/CoastSat) -> tool for mapping coastlines which has an extension [CoastSeg](https://github.com/dbuscombe-usgs/CoastSeg) using segmentation models
 
-  2.3.13. [Satellite_Flood_Segmentation_of_Harvey](https://github.com/morgan-tam/Satellite_Flood_Segmentation_of_Harvey) -> explores both deep learning and traditional kmeans
+- [Satellite_Flood_Segmentation_of_Harvey](https://github.com/morgan-tam/Satellite_Flood_Segmentation_of_Harvey) -> explores both deep learning and traditional kmeans
 
-  2.3.14. [Flood Event Detection Utilizing Satellite Images](https://github.com/KonstantinosF/Flood-Detection---Satellite-Images)
+- [Flood Event Detection Utilizing Satellite Images](https://github.com/KonstantinosF/Flood-Detection---Satellite-Images)
 
-  2.3.15. [ETCI-2021-Competition-on-Flood-Detection](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection) -> Experiments on Flood Segmentation on Sentinel-1 SAR Imagery with Cyclical Pseudo Labeling and Noisy Student Training
+- [ETCI-2021-Competition-on-Flood-Detection](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection) -> Experiments on Flood Segmentation on Sentinel-1 SAR Imagery with Cyclical Pseudo Labeling and Noisy Student Training
   
 
-  2.3.16. [FDSI](https://github.com/keillernogueira/FDSI) -> Flood Detection in Satellite Images - 2017 Multimedia Satellite Task
+- [FDSI](https://github.com/keillernogueira/FDSI) -> Flood Detection in Satellite Images - 2017 Multimedia Satellite Task
 
-  2.3.17. [deepwatermap](https://github.com/isikdogan/deepwatermap) -> a deep model that segments water on multispectral images
+- [deepwatermap](https://github.com/isikdogan/deepwatermap) -> a deep model that segments water on multispectral images
 
-  2.3.18. [rivamap](https://github.com/isikdogan/rivamap) -> an automated river analysis and mapping engine
+- [rivamap](https://github.com/isikdogan/rivamap) -> an automated river analysis and mapping engine
 
-  2.3.19. [deep-water](https://github.com/maxbeber/deep-water) -> track changes in water level
+- [deep-water](https://github.com/maxbeber/deep-water) -> track changes in water level
 
-  2.3.20. [WatNet](https://github.com/xinluo2018/WatNet) -> A deep ConvNet for surface water mapping based on Sentinel-2 image, uses the [Earth Surface Water Dataset](https://zenodo.org/record/5205674#.YoMjyZPMK3I)
+- [WatNet](https://github.com/xinluo2018/WatNet) -> A deep ConvNet for surface water mapping based on Sentinel-2 image, uses the [Earth Surface Water Dataset](https://zenodo.org/record/5205674#.YoMjyZPMK3I)
 
-  2.3.21. [A-U-Net-for-Flood-Extent-Mapping](https://github.com/jorgemspereira/A-U-Net-for-Flood-Extent-Mapping)
+- [A-U-Net-for-Flood-Extent-Mapping](https://github.com/jorgemspereira/A-U-Net-for-Flood-Extent-Mapping)
 
-  2.3.22. [floatingobjects](https://github.com/ESA-PhiLab/floatingobjects) -> TOWARDS DETECTING FLOATING OBJECTS ON A GLOBAL SCALE WITHLEARNED SPATIAL FEATURES USING SENTINEL 2. Uses U-Net & pytorch
+- [floatingobjects](https://github.com/ESA-PhiLab/floatingobjects) -> TOWARDS DETECTING FLOATING OBJECTS ON A GLOBAL SCALE WITHLEARNED SPATIAL FEATURES USING SENTINEL 2. Uses U-Net & pytorch
 
-  2.3.23. [SpaceNet8](https://github.com/SpaceNetChallenge/SpaceNet8) -> baseline Unet solution to detect flooded roads and buildings
+- [SpaceNet8](https://github.com/SpaceNetChallenge/SpaceNet8) -> baseline Unet solution to detect flooded roads and buildings
 
-  2.3.24. [dlsim](https://github.com/nyokoya/dlsim) -> Breaking the Limits of Remote Sensing by Simulation and Deep Learning for Flood and Debris Flow Mapping
+- [dlsim](https://github.com/nyokoya/dlsim) -> Breaking the Limits of Remote Sensing by Simulation and Deep Learning for Flood and Debris Flow Mapping
 
-  2.3.25. [Water-HRNet](https://github.com/faye0078/Water-Extraction) -> HRNet trained on Sentinel 2
+- [Water-HRNet](https://github.com/faye0078/Water-Extraction) -> HRNet trained on Sentinel 2
 
-  2.3.26. [semantic segmentation model to identify newly developed or flooded land](https://github.com/Azure/pixel_level_land_classification) using NAIP imagery provided by the Chesapeake Conservancy, training on MS Azure
+- [semantic segmentation model to identify newly developed or flooded land](https://github.com/Azure/pixel_level_land_classification) using NAIP imagery provided by the Chesapeake Conservancy, training on MS Azure
 
-  2.3.27. [BandNet](https://github.com/IamShubhamGupto/BandNet) -> Analysis and application of multispectral data for water segmentation using machine learning. Uses Sentinel-2 data
+- [BandNet](https://github.com/IamShubhamGupto/BandNet) -> Analysis and application of multispectral data for water segmentation using machine learning. Uses Sentinel-2 data
 
-  2.3.28. [mmflood](https://github.com/edornd/mmflood) -> MMFlood: A Multimodal Dataset for Flood Delineation From Satellite Imagery (Sentinel 1 SAR)
+- [mmflood](https://github.com/edornd/mmflood) -> MMFlood: A Multimodal Dataset for Flood Delineation From Satellite Imagery (Sentinel 1 SAR)
 
-  2.3.29. [Urban_flooding](https://github.com/omarseleem92/Urban_flooding) -> Towards transferable data-driven models to predict urban pluvial flood water depth in Berlin, Germany
+- [Urban_flooding](https://github.com/omarseleem92/Urban_flooding) -> Towards transferable data-driven models to predict urban pluvial flood water depth in Berlin, Germany
 
-  2.3.30. [Flood-Mapping-Using-Satellite-Images](https://github.com/KonstantinosF/Flood-Mapping-Using-Satellite-Images) -> masters thesis comparing Random Forest & Unet
+- [Flood-Mapping-Using-Satellite-Images](https://github.com/KonstantinosF/Flood-Mapping-Using-Satellite-Images) -> masters thesis comparing Random Forest & Unet
 
 ### 2.4. Segmentation - Fire, smoke & burn areas
 
-  2.4.1. [SatelliteVu-AWS-Disaster-Response-Hackathon](https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon) -> fire spread prediction using classical ML & deep learning
+- [SatelliteVu-AWS-Disaster-Response-Hackathon](https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon) -> fire spread prediction using classical ML & deep learning
 
-  2.4.2. [Wild Fire Detection](https://github.com/yueureka/WildFireDetection) using U-Net trained on Databricks & Keras, semantic segmentation
+- [Wild Fire Detection](https://github.com/yueureka/WildFireDetection) using U-Net trained on Databricks & Keras, semantic segmentation
 
-  2.4.3. [A Practical Method for High-Resolution Burned Area Monitoring Using Sentinel-2 and VIIRS](https://github.com/mnpinto/FireHR)
+- [A Practical Method for High-Resolution Burned Area Monitoring Using Sentinel-2 and VIIRS](https://github.com/mnpinto/FireHR)
 
-  2.4.4. [AI Geospatial Wildfire Risk Prediction](https://towardsdatascience.com/ai-geospatial-wildfire-risk-prediction-8c6b1d415eb4) -> A predictive model using geospatial raster data to asses wildfire hazard potential over the contiguous United States using Unet
+- [AI Geospatial Wildfire Risk Prediction](https://towardsdatascience.com/ai-geospatial-wildfire-risk-prediction-8c6b1d415eb4) -> A predictive model using geospatial raster data to asses wildfire hazard potential over the contiguous United States using Unet
 
-  2.4.5. [IndustrialSmokePlumeDetection](https://github.com/HSG-AIML/IndustrialSmokePlumeDetection) -> using Sentinel-2 & a modified ResNet-50
+- [IndustrialSmokePlumeDetection](https://github.com/HSG-AIML/IndustrialSmokePlumeDetection) -> using Sentinel-2 & a modified ResNet-50
 
-  2.4.6. [burned-area-detection](https://github.com/dymaxionlabs/burned-area-detection) -> uses Sentinel-2
+- [burned-area-detection](https://github.com/dymaxionlabs/burned-area-detection) -> uses Sentinel-2
 
-  2.4.7. [rescue](https://github.com/dbdmg/rescue) -> Attention to fires: multi-channel deep-learning models forwildfire severity prediction
+- [rescue](https://github.com/dbdmg/rescue) -> Attention to fires: multi-channel deep-learning models forwildfire severity prediction
 
-  2.4.8. [smoke_segmentation](https://github.com/jeffwen/smoke_segmentation) -> Segmenting smoke plumes and predicting density from GOES imagery
+- [smoke_segmentation](https://github.com/jeffwen/smoke_segmentation) -> Segmenting smoke plumes and predicting density from GOES imagery
 
-  2.4.9. [wildfire-detection](https://github.com/amanbasu/wildfire-detection) -> Using Vision Transformers for enhanced wildfire detection in satellite images
+- [wildfire-detection](https://github.com/amanbasu/wildfire-detection) -> Using Vision Transformers for enhanced wildfire detection in satellite images
 
-  2.4.10. [Burned_Area_Detection](https://github.com/prhuppertz/Burned_Area_Detection) -> Detecting Burned Areas with Sentinel-2 data
+- [Burned_Area_Detection](https://github.com/prhuppertz/Burned_Area_Detection) -> Detecting Burned Areas with Sentinel-2 data
 
-  2.4.11. [burned-area-baseline](https://github.com/lccol/burned-area-baseline) -> baseline unet model accompanying the Satellite Burned Area Dataset (Sentinel 1 & 2)
+- [burned-area-baseline](https://github.com/lccol/burned-area-baseline) -> baseline unet model accompanying the Satellite Burned Area Dataset (Sentinel 1 & 2)
 
-  2.4.12. [burned-area-seg](https://github.com/links-ads/burned-area-seg) -> Burned area segmentation from Sentinel-2 using multi-task learning
+- [burned-area-seg](https://github.com/links-ads/burned-area-seg) -> Burned area segmentation from Sentinel-2 using multi-task learning
 
-  2.4.13. [chabud2023](https://github.com/developmentseed/chabud2023) -> Change detection for Burned area Delineation (ChaBuD) ECML/PKDD 2023 challenge
+- [chabud2023](https://github.com/developmentseed/chabud2023) -> Change detection for Burned area Delineation (ChaBuD) ECML/PKDD 2023 challenge
 
-  2.4.14. [Post Wildfire Burnt-up Detection using Siamese-UNet](https://github.com/kavyagupta/chabud) -> on Chadbud dataset
+- [Post Wildfire Burnt-up Detection using Siamese-UNet](https://github.com/kavyagupta/chabud) -> on Chadbud dataset
 
 ### 2.5.  Segmentation - Landslides
 
-  2.5.1. [landslide-sar-unet](https://github.com/iprapas/landslide-sar-unet) -> Deep Learning for Rapid Landslide Detection using Synthetic Aperture Radar (SAR) Datacubes
+- [landslide-sar-unet](https://github.com/iprapas/landslide-sar-unet) -> Deep Learning for Rapid Landslide Detection using Synthetic Aperture Radar (SAR) Datacubes
 
-  2.5.2. [landslide-mapping-with-cnn](https://github.com/nprksh/landslide-mapping-with-cnn) -> A new strategy to map landslides with a generalized convolutional neural network
+- [landslide-mapping-with-cnn](https://github.com/nprksh/landslide-mapping-with-cnn) -> A new strategy to map landslides with a generalized convolutional neural network
 
-  2.5.3. [Relict_landslides_CNN_kmeans](https://github.com/SPAMLab/data_sharing/tree/main/Relict_landslides_CNN_kmeans) -> Relict landslide detection in rainforest areas using a combination of k-means clustering algorithm and Deep-Learning semantic segmentation models
+- [Relict_landslides_CNN_kmeans](https://github.com/SPAMLab/data_sharing/tree/main/Relict_landslides_CNN_kmeans) -> Relict landslide detection in rainforest areas using a combination of k-means clustering algorithm and Deep-Learning semantic segmentation models
 
-  2.5.4. [Landslide-mapping-on-SAR-data-by-Attention-U-Net](https://github.com/lorenzonava96/Landslide-mapping-on-SAR-data-by-Attention-U-Net) -> Rapid Mapping of landslide on SAR data by Attention U-net
+- [Landslide-mapping-on-SAR-data-by-Attention-U-Net](https://github.com/lorenzonava96/Landslide-mapping-on-SAR-data-by-Attention-U-Net) -> Rapid Mapping of landslide on SAR data by Attention U-net
 
-  2.5.5. [SAR-landslide-detection-pretraining](https://github.com/VMBoehm/SAR-landslide-detection-pretraining) -> SAR-based landslide classification pretraining leads to better segmentation
+- [SAR-landslide-detection-pretraining](https://github.com/VMBoehm/SAR-landslide-detection-pretraining) -> SAR-based landslide classification pretraining leads to better segmentation
 
 ### 2.6. Segmentation - Glaciers
 
-  2.6.1. [HED-UNet](https://github.com/khdlr/HED-UNet) -> a model for simultaneous semantic segmentation and edge detection, examples provided are glacier fronts and building footprints using the Inria Aerial Image Labeling dataset
+- [HED-UNet](https://github.com/khdlr/HED-UNet) -> a model for simultaneous semantic segmentation and edge detection, examples provided are glacier fronts and building footprints using the Inria Aerial Image Labeling dataset
 
-  2.6.2. [glacier_mapping](https://github.com/krisrs1128/glacier_mapping) -> Mapping glaciers in the Hindu Kush Himalaya, Landsat 7 images, Shapefile labels of the glaciers, Unet with dropout
+- [glacier_mapping](https://github.com/krisrs1128/glacier_mapping) -> Mapping glaciers in the Hindu Kush Himalaya, Landsat 7 images, Shapefile labels of the glaciers, Unet with dropout
 
-  2.6.3. [glacier-detect-ML](https://github.com/mikeskaug/glacier-detect-ML) -> a simple logistic regression model to identify a glacier in Landsat satellite imagery
+- [glacier-detect-ML](https://github.com/mikeskaug/glacier-detect-ML) -> a simple logistic regression model to identify a glacier in Landsat satellite imagery
 
-  2.6.4. [GlacierSemanticSegmentation](https://github.com/n9Mtq4/GlacierSemanticSegmentation)
+- [GlacierSemanticSegmentation](https://github.com/n9Mtq4/GlacierSemanticSegmentation)
 
-  2.6.5. [Antarctic-fracture-detection](https://github.com/chingyaolai/Antarctic-fracture-detection) -> uses UNet with the MODIS Mosaic of Antarctica to detect surface fractures
+- [Antarctic-fracture-detection](https://github.com/chingyaolai/Antarctic-fracture-detection) -> uses UNet with the MODIS Mosaic of Antarctica to detect surface fractures
 
 ### 2.7. Segmentation - Other environmental
 
-  2.7.1. [Detection of Open Landfills](https://github.com/dymaxionlabs/basurales) -> uses Sentinel-2 to detect large changes in the Normalized Burn Ratio (NBR)
+- [Detection of Open Landfills](https://github.com/dymaxionlabs/basurales) -> uses Sentinel-2 to detect large changes in the Normalized Burn Ratio (NBR)
 
-  2.7.2. [sea_ice_remote_sensing](https://github.com/sum1lim/sea_ice_remote_sensing) -> Sea Ice Concentration classification
+- [sea_ice_remote_sensing](https://github.com/sum1lim/sea_ice_remote_sensing) -> Sea Ice Concentration classification
 
-  2.7.3. [Methane-detection-from-hyperspectral-imagery](https://github.com/satish1901/Methane-detection-from-hyperspectral-imagery) -> Deep Remote Sensing Methods for Methane Detection in Overhead Hyperspectral Imagery
+- [Methane-detection-from-hyperspectral-imagery](https://github.com/satish1901/Methane-detection-from-hyperspectral-imagery) -> Deep Remote Sensing Methods for Methane Detection in Overhead Hyperspectral Imagery
 
-  2.7.4. [EddyNet](https://github.com/redouanelg/EddyNet) -> A Deep Neural Network For Pixel-Wise Classification of Oceanic Eddies
+- [EddyNet](https://github.com/redouanelg/EddyNet) -> A Deep Neural Network For Pixel-Wise Classification of Oceanic Eddies
 
-  2.7.5. [schisto-vegetation](https://github.com/deleo-lab/schisto-vegetation) -> Deep Learning Segmentation of Satellite Imagery Identifies Aquatic Vegetation Associated with Snail Intermediate Hosts of Schistosomiasis in Senegal, Africa
+- [schisto-vegetation](https://github.com/deleo-lab/schisto-vegetation) -> Deep Learning Segmentation of Satellite Imagery Identifies Aquatic Vegetation Associated with Snail Intermediate Hosts of Schistosomiasis in Senegal, Africa
 
-  2.7.6. [Earthformer](https://github.com/amazon-science/earth-forecasting-transformer) -> Exploring space-time transformers for earth system forecasting
+- [Earthformer](https://github.com/amazon-science/earth-forecasting-transformer) -> Exploring space-time transformers for earth system forecasting
 
-  2.7.7. [weather4cast-2022](https://github.com/iarai/weather4cast-2022) -> Unet-3D baseline model for Weather4cast Rain Movie Prediction competition
+- [weather4cast-2022](https://github.com/iarai/weather4cast-2022) -> Unet-3D baseline model for Weather4cast Rain Movie Prediction competition
 
-  2.7.8. [WeatherFusionNet](https://github.com/Datalab-FIT-CTU/weather4cast-2022) -> Predicting Precipitation from Satellite Data. weather4cast-2022 1st place solution
+- [WeatherFusionNet](https://github.com/Datalab-FIT-CTU/weather4cast-2022) -> Predicting Precipitation from Satellite Data. weather4cast-2022 1st place solution
   
-  2.7.9. [marinedebrisdetector](https://github.com/MarcCoru/marinedebrisdetector) -> Large-scale Detection of Marine Debris in Coastal Areas with Sentinel-2
+- [marinedebrisdetector](https://github.com/MarcCoru/marinedebrisdetector) -> Large-scale Detection of Marine Debris in Coastal Areas with Sentinel-2
 
-  2.7.10. [kaggle-identify-contrails-4th](https://github.com/selimsef/kaggle-identify-contrails-4th) -> 4th place Solution, Google Research - Identify Contrails to Reduce Global Warming
+- [kaggle-identify-contrails-4th](https://github.com/selimsef/kaggle-identify-contrails-4th) -> 4th place Solution, Google Research - Identify Contrails to Reduce Global Warming
 
-  2.7.11. [MineSegSAT](https://github.com/macdonaldezra/MineSegSAT) -> An automated system to evaluate mining disturbed area extents from Sentinel-2 imagery
+- [MineSegSAT](https://github.com/macdonaldezra/MineSegSAT) -> An automated system to evaluate mining disturbed area extents from Sentinel-2 imagery
 
-  2.7.12. [STARCOP: Semantic Segmentation of Methane Plumes with Hyperspectral Machine Learning models](https://github.com/spaceml-org/STARCOP)
+- [STARCOP: Semantic Segmentation of Methane Plumes with Hyperspectral Machine Learning models](https://github.com/spaceml-org/STARCOP)
 
 
 ### 2.8. Segmentation - Roads & sidewalks
 Extracting roads is challenging due to the occlusions caused by other objects and the complex traffic environment
 
-  2.8.1. [Road detection using semantic segmentation and albumentations for data augmention](https://towardsdatascience.com/road-detection-using-segmentation-models-and-albumentations-libraries-on-keras-d5434eaf73a8) using the Massachusetts Roads Dataset, U-net & Keras. With [code](https://github.com/Diyago/ML-DL-scripts/tree/master/DEEP%20LEARNING/segmentation/Segmentation%20pipeline)
+- [Road detection using semantic segmentation and albumentations for data augmention](https://towardsdatascience.com/road-detection-using-segmentation-models-and-albumentations-libraries-on-keras-d5434eaf73a8) using the Massachusetts Roads Dataset, U-net & Keras. With [code](https://github.com/Diyago/ML-DL-scripts/tree/master/DEEP%20LEARNING/segmentation/Segmentation%20pipeline)
 
-  2.8.2. [ML_EPFL_Project_2](https://github.com/LucasBrazCappelo/ML_EPFL_Project_2) -> U-Net in Pytorch to perform semantic segmentation of roads on satellite images
+- [ML_EPFL_Project_2](https://github.com/LucasBrazCappelo/ML_EPFL_Project_2) -> U-Net in Pytorch to perform semantic segmentation of roads on satellite images
 
-  2.8.3. [Semantic Segmentation of roads](https://vihan-tyagi.medium.com/semantic-segmentation-of-satellite-images-based-on-deep-learning-algorithms-ea5ec408ac53) using  U-net Keras, OSM data, project summary article by student, no code
+- [Semantic Segmentation of roads](https://vihan-tyagi.medium.com/semantic-segmentation-of-satellite-images-based-on-deep-learning-algorithms-ea5ec408ac53) using  U-net Keras, OSM data, project summary article by student, no code
 
-  2.8.4. [Winning Solutions from SpaceNet Road Detection and Routing Challenge](https://github.com/SpaceNetChallenge/RoadDetector)
+- [Winning Solutions from SpaceNet Road Detection and Routing Challenge](https://github.com/SpaceNetChallenge/RoadDetector)
 
-  2.8.5. [RoadVecNet](https://github.com/gismodelling/RoadVecNet) -> Road-Network-Segmentation-and-Vectorization in keras with dataset
+- [RoadVecNet](https://github.com/gismodelling/RoadVecNet) -> Road-Network-Segmentation-and-Vectorization in keras with dataset
 
-  2.8.6. [Detecting road and road types jupyter notebook](https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb)
+- [Detecting road and road types jupyter notebook](https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb)
 
-  2.8.7. [awesome-deep-map](https://github.com/antran89/awesome-deep-map) -> A curated list of resources dedicated to deep learning / computer vision algorithms for mapping. The mapping problems include road network inference, building footprint extraction, etc.
+- [awesome-deep-map](https://github.com/antran89/awesome-deep-map) -> A curated list of resources dedicated to deep learning / computer vision algorithms for mapping. The mapping problems include road network inference, building footprint extraction, etc.
 
-  2.8.8. [RoadTracer: Automatic Extraction of Road Networks from Aerial Images](https://github.com/mitroadmaps/roadtracer) -> uses an iterative search process guided by a CNN-based decision function to derive the road network graph directly from the output of the CNN
+- [RoadTracer: Automatic Extraction of Road Networks from Aerial Images](https://github.com/mitroadmaps/roadtracer) -> uses an iterative search process guided by a CNN-based decision function to derive the road network graph directly from the output of the CNN
 
-  2.8.9. [road_detection_mtl](https://github.com/ntelo007/road_detection_mtl) -> Road Detection using a multi-task Learning technique to improve the performance of the road detection task by incorporating prior knowledge constraints, uses the SpaceNet Roads Dataset
+- [road_detection_mtl](https://github.com/ntelo007/road_detection_mtl) -> Road Detection using a multi-task Learning technique to improve the performance of the road detection task by incorporating prior knowledge constraints, uses the SpaceNet Roads Dataset
 
-  2.8.10. [road_connectivity](https://github.com/anilbatra2185/road_connectivity) -> Improved Road Connectivity by Joint Learning of Orientation and Segmentation (CVPR2019)
+- [road_connectivity](https://github.com/anilbatra2185/road_connectivity) -> Improved Road Connectivity by Joint Learning of Orientation and Segmentation (CVPR2019)
 
-  2.8.11. [Road-Network-Extraction using classical Image processing](https://github.com/abhaykes1/Road-Network-Extraction) -> blur & canny edge detection
+- [Road-Network-Extraction using classical Image processing](https://github.com/abhaykes1/Road-Network-Extraction) -> blur & canny edge detection
 
-  2.8.12. [SPIN_RoadMapper](https://github.com/wgcban/SPIN_RoadMapper) -> Extracting Roads from Aerial Images via Spatial and Interaction Space Graph Reasoning for Autonomous Driving
+- [SPIN_RoadMapper](https://github.com/wgcban/SPIN_RoadMapper) -> Extracting Roads from Aerial Images via Spatial and Interaction Space Graph Reasoning for Autonomous Driving
 
-  2.8.13. [road_extraction_remote_sensing](https://github.com/jiankang1991/road_extraction_remote_sensing) -> pytorch implementation, CVPR2018 DeepGlobe Road Extraction Challenge submission. See also [DeepGlobe-Road-Extraction-Challenge](https://github.com/zlckanata/DeepGlobe-Road-Extraction-Challenge)
+- [road_extraction_remote_sensing](https://github.com/jiankang1991/road_extraction_remote_sensing) -> pytorch implementation, CVPR2018 DeepGlobe Road Extraction Challenge submission. See also [DeepGlobe-Road-Extraction-Challenge](https://github.com/zlckanata/DeepGlobe-Road-Extraction-Challenge)
 
-  2.8.14. [RoadDetections dataset by Microsoft](https://github.com/microsoft/RoadDetections)
+- [RoadDetections dataset by Microsoft](https://github.com/microsoft/RoadDetections)
 
-  2.8.15. [CoANet](https://github.com/mj129/CoANet) -> Connectivity Attention Network for Road Extraction From Satellite Imagery. The CoA module incorporates graphical information to ensure the connectivity of roads are better preserved
+- [CoANet](https://github.com/mj129/CoANet) -> Connectivity Attention Network for Road Extraction From Satellite Imagery. The CoA module incorporates graphical information to ensure the connectivity of roads are better preserved
 
-  2.8.16. [Satellite Imagery Road Segmentation](https://medium.com/@nithishmailme/satellite-imagery-road-segmentation-ad2964dc3812) -> intro articule on Medium using the kaggle [Massachusetts Roads Dataset](https://www.kaggle.com/datasets/balraj98/massachusetts-roads-dataset)
+- [Satellite Imagery Road Segmentation](https://medium.com/@nithishmailme/satellite-imagery-road-segmentation-ad2964dc3812) -> intro articule on Medium using the kaggle [Massachusetts Roads Dataset](https://www.kaggle.com/datasets/balraj98/massachusetts-roads-dataset)
 
-  2.8.17. [Label-Pixels](https://github.com/venkanna37/Label-Pixels) -> for semantic segmentation of roads and other features
+- [Label-Pixels](https://github.com/venkanna37/Label-Pixels) -> for semantic segmentation of roads and other features
 
-  2.8.18. [Satellite-image-road-extraction](https://github.com/amanhari-projects/Satellite-image-road-extraction) -> Road Extraction by Deep Residual U-Net
+- [Satellite-image-road-extraction](https://github.com/amanhari-projects/Satellite-image-road-extraction) -> Road Extraction by Deep Residual U-Net
 
-  2.8.19. [road_building_extraction](https://github.com/jeffwen/road_building_extraction) -> Pytorch implementation of U-Net architecture for road and building extraction
+- [road_building_extraction](https://github.com/jeffwen/road_building_extraction) -> Pytorch implementation of U-Net architecture for road and building extraction
 
-  2.8.20. [RCFSNet](https://github.com/CVer-Yang/RCFSNet) -> Road Extraction From Satellite Imagery by Road Context and Full-Stage Feature
+- [RCFSNet](https://github.com/CVer-Yang/RCFSNet) -> Road Extraction From Satellite Imagery by Road Context and Full-Stage Feature
 
-  2.8.21. [SGCN](https://github.com/tist0bsc/SGCN) -> Split Depth-Wise Separable Graph-Convolution Network for Road Extraction in Complex Environments From High-Resolution Remote-Sensing Images
+- [SGCN](https://github.com/tist0bsc/SGCN) -> Split Depth-Wise Separable Graph-Convolution Network for Road Extraction in Complex Environments From High-Resolution Remote-Sensing Images
 
-  2.8.22. [ASPN](https://github.com/pshams55/ASPN) -> Road Segmentation for Remote Sensing Images using Adversarial Spatial Pyramid Networks
+- [ASPN](https://github.com/pshams55/ASPN) -> Road Segmentation for Remote Sensing Images using Adversarial Spatial Pyramid Networks
 
-  2.8.23. [FCNs-for-road-extraction-keras](https://github.com/zetrun-liu/FCNs-for-road-extraction-keras) -> Road extraction of high-resolution remote sensing images based on various semantic segmentation networks
+ - [FCNs-for-road-extraction-keras](https://github.com/zetrun-liu/FCNs-for-road-extraction-keras) -> Road extraction of high-resolution remote sensing images based on various semantic segmentation networks
 
-  2.8.24. [cresi](https://github.com/avanetten/cresi) -> Road network extraction from satellite imagery, with speed and travel time estimates
+- [cresi](https://github.com/avanetten/cresi) -> Road network extraction from satellite imagery, with speed and travel time estimates
 
-  2.8.25. [D-LinkNet](https://github.com/NekoApocalypse/road-extraction-d-linknet) -> LinkNet with Pretrained Encoder and Dilated Convolution for High Resolution Satellite Imagery Road Extraction
+- [D-LinkNet](https://github.com/NekoApocalypse/road-extraction-d-linknet) -> LinkNet with Pretrained Encoder and Dilated Convolution for High Resolution Satellite Imagery Road Extraction
 
-  2.8.26. [Sat2Graph](https://github.com/songtaohe/Sat2Graph) -> Road Graph Extraction through Graph-Tensor Encoding
+- [Sat2Graph](https://github.com/songtaohe/Sat2Graph) -> Road Graph Extraction through Graph-Tensor Encoding
 
-  2.8.27. [Image-Segmentation)](https://github.com/mschulz/Image-Segmentation) -> using Massachusetts Road dataset and fast.ai
+- [Image-Segmentation)](https://github.com/mschulz/Image-Segmentation) -> using Massachusetts Road dataset and fast.ai
 
-  2.8.28. [RoadTracer-M](https://github.com/astro-ck/RoadTracer-M) -> Road Network Extraction from Satellite Images Using CNN Based Segmentation and Tracing
+- [RoadTracer-M](https://github.com/astro-ck/RoadTracer-M) -> Road Network Extraction from Satellite Images Using CNN Based Segmentation and Tracing
 
-  2.8.29. [ScRoadExtractor](https://github.com/weiyao1996/ScRoadExtractor) -> Scribble-based Weakly Supervised Deep Learning for Road Surface Extraction from Remote Sensing Images
+- [ScRoadExtractor](https://github.com/weiyao1996/ScRoadExtractor) -> Scribble-based Weakly Supervised Deep Learning for Road Surface Extraction from Remote Sensing Images
 
-  2.8.30. [RoadDA](https://github.com/LANMNG/RoadDA) -> Stagewise Unsupervised Domain Adaptation with Adversarial Self-Training for Road Segmentation of Remote Sensing Images
+- [RoadDA](https://github.com/LANMNG/RoadDA) -> Stagewise Unsupervised Domain Adaptation with Adversarial Self-Training for Road Segmentation of Remote Sensing Images
 
-  2.8.31. [DeepSegmentor](https://github.com/yhlleo/DeepSegmentor) -> A Pytorch implementation of DeepCrack and RoadNet projects
+- [DeepSegmentor](https://github.com/yhlleo/DeepSegmentor) -> A Pytorch implementation of DeepCrack and RoadNet projects
 
-  2.8.32. [Cascaded Residual Attention Enhanced Road Extraction from Remote Sensing Images](https://github.com/liaochengcsu/Cascade_Residual_Attention_Enhanced_for_Refinement_Road_Extraction)
+- [Cascaded Residual Attention Enhanced Road Extraction from Remote Sensing Images](https://github.com/liaochengcsu/Cascade_Residual_Attention_Enhanced_for_Refinement_Road_Extraction)
 
-  2.8.33. [NL-LinkNet](https://github.com/SIAnalytics/nia-road-baseline) -> Toward Lighter but More Accurate Road Extraction with Non-Local Operations
+- [NL-LinkNet](https://github.com/SIAnalytics/nia-road-baseline) -> Toward Lighter but More Accurate Road Extraction with Non-Local Operations
 
-  2.8.34. [IRSR-net](https://github.com/yangzhen1252/IRSR-net) -> Lightweight Remote Sensing Road Detection Network
+- [IRSR-net](https://github.com/yangzhen1252/IRSR-net) -> Lightweight Remote Sensing Road Detection Network
 
-  2.8.35. [hironex](https://github.com/johannesuhl/hironex) -> A python tool for automatic, fully unsupervised extraction of historical road networks from historical maps
+- [hironex](https://github.com/johannesuhl/hironex) -> A python tool for automatic, fully unsupervised extraction of historical road networks from historical maps
 
-  2.8.36. [Road_detection_model](https://github.com/JonasImazon/Road_detection_model) -> Mapping Roads in the Brazilian Amazon with Artificial Intelligence and Sentinel-2
+- [Road_detection_model](https://github.com/JonasImazon/Road_detection_model) -> Mapping Roads in the Brazilian Amazon with Artificial Intelligence and Sentinel-2
 
-  2.8.37. [DTnet](https://github.com/huzican695/DTnet) -> Road detection via a dual-task network based on cross-layer graph fusion modules
+- [DTnet](https://github.com/huzican695/DTnet) -> Road detection via a dual-task network based on cross-layer graph fusion modules
 
-  2.8.38. [Automatic-Road-Extraction-from-Historical-Maps-using-Deep-Learning-Techniques](https://github.com/UrbanOccupationsOETR/Automatic-Road-Extraction-from-Historical-Maps-using-Deep-Learning-Techniques) -> Automatic Road Extraction from Historical Maps using Deep Learning Techniques
+- [Automatic-Road-Extraction-from-Historical-Maps-using-Deep-Learning-Techniques](https://github.com/UrbanOccupationsOETR/Automatic-Road-Extraction-from-Historical-Maps-using-Deep-Learning-Techniques) -> Automatic Road Extraction from Historical Maps using Deep Learning Techniques
 
-  2.8.39. [Istanbul_Dataset](https://github.com/TolgaBkm/Istanbul_Dataset) -> segmentation on the Istanbul, Inria and Massachusetts datasets
+- [Istanbul_Dataset](https://github.com/TolgaBkm/Istanbul_Dataset) -> segmentation on the Istanbul, Inria and Massachusetts datasets
 
-  2.8.40. [Road-Segmentation](https://github.com/ralph-elhaddad/Road-Segmentation) -> Road segmentation on Satellite Images using CNN (U-Nets and FCN8) and Logistic Regression
+- [Road-Segmentation](https://github.com/ralph-elhaddad/Road-Segmentation) -> Road segmentation on Satellite Images using CNN (U-Nets and FCN8) and Logistic Regression
 
-  2.8.41. [D-LinkNet](https://github.com/ShenweiXie/D-LinkNet) -> 1st place solution in DeepGlobe Road Extraction Challenge
+- [D-LinkNet](https://github.com/ShenweiXie/D-LinkNet) -> 1st place solution in DeepGlobe Road Extraction Challenge
 
-  2.8.42. [PaRK-Detect](https://github.com/ShenweiXie/PaRK-Detect) -> PaRK-Detect: Towards Efficient Multi-Task Satellite Imagery Road Extraction via Patch-Wise Keypoints Detection
+- [PaRK-Detect](https://github.com/ShenweiXie/PaRK-Detect) -> PaRK-Detect: Towards Efficient Multi-Task Satellite Imagery Road Extraction via Patch-Wise Keypoints Detection
 
-  2.8.43. [tile2net](https://github.com/VIDA-NYU/tile2net) -> Mapping the walk: A scalable computer vision approach for generating sidewalk network datasets from aerial imagery
+- [tile2net](https://github.com/VIDA-NYU/tile2net) -> Mapping the walk: A scalable computer vision approach for generating sidewalk network datasets from aerial imagery
 
-  2.8.43. [AerialLaneNet](https://github.com/Jiawei-Yao0812/AerialLaneNet) -> Building Lane-Level Maps from Aerial Images, introduces the AErial Lane (AEL) Dataset: a first large-scale aerial image dataset built for lane detection
+- [AerialLaneNet](https://github.com/Jiawei-Yao0812/AerialLaneNet) -> Building Lane-Level Maps from Aerial Images, introduces the AErial Lane (AEL) Dataset: a first large-scale aerial image dataset built for lane detection
   
 
 ### 2.9. Segmentation - Buildings & rooftops
 
-  2.9.1. [Road and Building Semantic Segmentation in Satellite Imagery](https://github.com/Paulymorphous/Road-Segmentation) uses U-Net on the Massachusetts Roads Dataset & keras
+- [Road and Building Semantic Segmentation in Satellite Imagery](https://github.com/Paulymorphous/Road-Segmentation) uses U-Net on the Massachusetts Roads Dataset & keras
 
-  2.9.2. [find-unauthorized-constructions-using-aerial-photography](https://medium.com/towards-artificial-intelligence/find-unauthorized-constructions-using-aerial-photography-and-deep-learning-with-code-part-2-b56ca80c8c99) -> semantic segmentation using U-Net with custom_f1 metric & Keras. The creation of the dataset is described in [this article](https://pub.towardsai.net/find-unauthorized-constructions-using-aerial-photography-and-deep-learning-with-code-part-1-6d3ca7ff6fa0)
+- [find unauthorized constructions using aerial photography](https://medium.com/towards-artificial-intelligence/find-unauthorized-constructions-using-aerial-photography-and-deep-learning-with-code-part-2-b56ca80c8c99) -> [Dataset creation](https://pub.towardsai.net/find-unauthorized-constructions-using-aerial-photography-and-deep-learning-with-code-part-1-6d3ca7ff6fa0)
 
-  2.9.3. [SRBuildSeg](https://github.com/xian1234/SRBuildSeg) -> Making low-resolution satellite images reborn: a deep learning approach for super-resolution building extraction
+- [SRBuildSeg](https://github.com/xian1234/SRBuildSeg) -> Making low-resolution satellite images reborn: a deep learning approach for super-resolution building extraction
 
-  2.9.4. [Building footprint detection with fastai on the challenging SpaceNet7 dataset](https://deeplearning.berlin/satellite%20imagery/computer%20vision/fastai/2021/02/17/Building-Detection-SpaceNet7.html) uses U-Net & fastai
+- [Building footprint detection with fastai on the challenging SpaceNet7 dataset](https://deeplearning.berlin/satellite%20imagery/computer%20vision/fastai/2021/02/17/Building-Detection-SpaceNet7.html) uses U-Net & fastai
 
-  2.9.5. [Pix2Pix-for-Semantic-Segmentation-of-Satellite-Images](https://github.com/A2Amir/Pix2Pix-for-Semantic-Segmentation-of-Satellite-Images) -> using Pix2Pix GAN network to segment the building footprint from Satellite Images, uses tensorflow
+- [Pix2Pix-for-Semantic-Segmentation-of-Satellite-Images](https://github.com/A2Amir/Pix2Pix-for-Semantic-Segmentation-of-Satellite-Images) -> using Pix2Pix GAN network to segment the building footprint from Satellite Images, uses tensorflow
 
-  2.9.6. [SpaceNetUnet](https://github.com/boggis30/SpaceNetUnet) -> Baseline model is U-net like, applied to SpaceNet Vegas data, using Keras
+- [SpaceNetUnet](https://github.com/boggis30/SpaceNetUnet) -> Baseline model is U-net like, applied to SpaceNet Vegas data, using Keras
 
-  2.9.7. [automated-building-detection](https://github.com/rodekruis/automated-building-detection) -> Input: very-high-resolution (<= 0.5 m/pixel) RGB satellite images. Output: buildings in vector format (geojson), to be used in digital map products. Built on top of robosat and robosat.pink.
+- [automated-building-detection](https://github.com/rodekruis/automated-building-detection) -> Input: very-high-resolution (<= 0.5 m/pixel) RGB satellite images. Output: buildings in vector format (geojson), to be used in digital map products. Built on top of robosat and robosat.pink.
 
-  2.9.8. [project_sunroof_india](https://github.com/AKASH2907/project_sunroof_india) -> Analyzed Google Satellite images to generate a report on individual house rooftop's solar power potential, uses a range of classical computer vision techniques (e.g Canny Edge Detection) to segment the roofs
+- [project_sunroof_india](https://github.com/AKASH2907/project_sunroof_india) -> Analyzed Google Satellite images to generate a report on individual house rooftop's solar power potential, uses a range of classical computer vision techniques (e.g Canny Edge Detection) to segment the roofs
 
-  2.9.9. [JointNet-A-Common-Neural-Network-for-Road-and-Building-Extraction](https://github.com/ThomasWangWeiHong/JointNet-A-Common-Neural-Network-for-Road-and-Building-Extraction)
+- [JointNet-A-Common-Neural-Network-for-Road-and-Building-Extraction](https://github.com/ThomasWangWeiHong/JointNet-A-Common-Neural-Network-for-Road-and-Building-Extraction)
 
-  2.9.10. [Mapping Africa’s Buildings with Satellite Imagery: Google AI blog post](https://ai.googleblog.com/2021/07/mapping-africas-buildings-with.html). See the [open-buildings](https://sites.research.google/open-buildings/) dataset
+- [Mapping Africa’s Buildings with Satellite Imagery: Google AI blog post](https://ai.googleblog.com/2021/07/mapping-africas-buildings-with.html). See the [open-buildings](https://sites.research.google/open-buildings/) dataset
 
-  2.9.11. [nz_convnet](https://github.com/weiji14/nz_convnet) -> A U-net based ConvNet for New Zealand imagery to classify building outlines
+- [nz_convnet](https://github.com/weiji14/nz_convnet) -> A U-net based ConvNet for New Zealand imagery to classify building outlines
 
-  2.9.12. [polycnn](https://github.com/Lydorn/polycnn) -> End-to-End Learning of Polygons for Remote Sensing Image Classification
+- [polycnn](https://github.com/Lydorn/polycnn) -> End-to-End Learning of Polygons for Remote Sensing Image Classification
 
-  2.9.13. [spacenet_building_detection](https://github.com/motokimura/spacenet_building_detection) solution by [motokimura](https://github.com/motokimura) using Unet
+- [spacenet_building_detection](https://github.com/motokimura/spacenet_building_detection) solution by [motokimura](https://github.com/motokimura) using Unet
 
-<!-- markdown-link-check-disable -->
-  2.9.14. [How to extract building footprints from satellite images using deep learning](https://azure.microsoft.com/en-us/blog/how-to-extract-building-footprints-from-satellite-images-using-deep-learning/)
-<!-- markdown-link-check-enable -->
+- [Vec2Instance](https://github.com/lakmalnd/Vec2Instance) -> applied to the SpaceNet challenge AOI 2 (Vegas) building footprint dataset, tensorflow v1.12
 
-  2.9.15. [Vec2Instance](https://github.com/lakmalnd/Vec2Instance) -> applied to the SpaceNet challenge AOI 2 (Vegas) building footprint dataset, tensorflow v1.12
+- [EarthquakeDamageDetection](https://github.com/JaneKravchenko/EarthquakeDamageDetection) -> Buildings segmentation from satellite imagery and damage classification for each build, using Keras
 
-  2.9.16. [EarthquakeDamageDetection](https://github.com/JaneKravchenko/EarthquakeDamageDetection) -> Buildings segmentation from satellite imagery and damage classification for each build, using Keras
+- [Semantic-segmentation repo by fuweifu-vtoo](https://github.com/fuweifu-vtoo/Semantic-segmentation) -> uses pytorch and the [Massachusetts Buildings & Roads Datasets](https://www.cs.toronto.edu/~vmnih/data/)
 
-  2.9.17. [Semantic-segmentation repo by fuweifu-vtoo](https://github.com/fuweifu-vtoo/Semantic-segmentation) -> uses pytorch and the [Massachusetts Buildings & Roads Datasets](https://www.cs.toronto.edu/~vmnih/data/)
+- [Extracting buildings and roads from AWS Open Data using Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/extracting-buildings-and-roads-from-aws-open-data-using-amazon-sagemaker/) -> With [repo](https://github.com/aws-samples/aws-open-data-satellite-lidar-tutorial)
 
-  2.9.18. [Extracting buildings and roads from AWS Open Data using Amazon SageMaker](https://aws.amazon.com/blogs/machine-learning/extracting-buildings-and-roads-from-aws-open-data-using-amazon-sagemaker/) -> uses merged RGB (SpaceNet) and LiDAR (USGS 3DEP) datasets with Unet to reproduce the winning algorithm from SpaceNet challenge 4 by XD_XD. With [repo](https://github.com/aws-samples/aws-open-data-satellite-lidar-tutorial)
+- [TF-SegNet](https://github.com/mathildor/TF-SegNet) -> AirNet is a segmentation network based on SegNet, but with some modifications
 
-  2.9.19. [TF-SegNet](https://github.com/mathildor/TF-SegNet) -> AirNet is a segmentation network based on SegNet, but with some modifications
+- [rgb-footprint-extract](https://github.com/aatifjiwani/rgb-footprint-extract) -> a Semantic Segmentation Network for Urban-Scale Building Footprint Extraction Using RGB Satellite Imagery, DeepLavV3+ module with a Dilated ResNet C42 backbone
 
-  2.9.20. [rgb-footprint-extract](https://github.com/aatifjiwani/rgb-footprint-extract) -> a Semantic Segmentation Network for Urban-Scale Building Footprint Extraction Using RGB Satellite Imagery, DeepLavV3+ module with a Dilated ResNet C42 backbone
+- [SpaceNetExploration](https://github.com/yangsiyu007/SpaceNetExploration) -> A sample project demonstrating how to extract building footprints from satellite images using a semantic segmentation model. Data from the SpaceNet Challenge
 
-  2.9.21. [SpaceNetExploration](https://github.com/yangsiyu007/SpaceNetExploration) -> A sample project demonstrating how to extract building footprints from satellite images using a semantic segmentation model. Data from the SpaceNet Challenge
+- [Rooftop-Instance-Segmentation](https://github.com/MasterSkepticista/Rooftop-Instance-Segmentation) -> VGG-16, Instance Segmentation, uses the Airs dataset
 
-  2.9.22. [Rooftop-Instance-Segmentation](https://github.com/MasterSkepticista/Rooftop-Instance-Segmentation) -> VGG-16, Instance Segmentation, uses the Airs dataset
+- [solar-farms-mapping](https://github.com/microsoft/solar-farms-mapping) -> An Artificial Intelligence Dataset for Solar Energy Locations in India
 
-  2.9.23. [solar-farms-mapping](https://github.com/microsoft/solar-farms-mapping) -> An Artificial Intelligence Dataset for Solar Energy Locations in India
+- [poultry-cafos](https://github.com/microsoft/poultry-cafos) -> This repo contains code for detecting poultry barns from high-resolution aerial imagery and an accompanying dataset of predicted barns over the United States
 
-  2.9.24. [poultry-cafos](https://github.com/microsoft/poultry-cafos) -> This repo contains code for detecting poultry barns from high-resolution aerial imagery and an accompanying dataset of predicted barns over the United States
+- [ssai-cnn](https://github.com/mitmul/ssai-cnn) -> This is an implementation of Volodymyr Mnih's dissertation methods on his Massachusetts road & building dataset
 
-  2.9.25. [ssai-cnn](https://github.com/mitmul/ssai-cnn) -> This is an implementation of Volodymyr Mnih's dissertation methods on his Massachusetts road & building dataset
+- [Remote-sensing-building-extraction-to-3D-model-using-Paddle-and-Grasshopper](https://github.com/Youssef-Harby/Remote-sensing-building-extraction-to-3D-model-using-Paddle-and-Grasshopper)
 
-  2.9.26. [Remote-sensing-building-extraction-to-3D-model-using-Paddle-and-Grasshopper](https://github.com/Youssef-Harby/Remote-sensing-building-extraction-to-3D-model-using-Paddle-and-Grasshopper)
+- [segmentation-enhanced-resunet](https://github.com/tranleanh/segmentation-enhanced-resunet) -> Urban building extraction in Daejeon region using Modified Residual U-Net (Modified ResUnet) and applying post-processing
 
-  2.9.27. [segmentation-enhanced-resunet](https://github.com/tranleanh/segmentation-enhanced-resunet) -> Urban building extraction in Daejeon region using Modified Residual U-Net (Modified ResUnet) and applying post-processing
+- [Mask RCNN for Spacenet Off Nadir Building Detection](https://github.com/ashnair1/Mask-RCNN-for-Off-Nadir-Building-Detection)
 
-  2.9.28. [Mask RCNN for Spacenet Off Nadir Building Detection](https://github.com/ashnair1/Mask-RCNN-for-Off-Nadir-Building-Detection)
+- [GRSL_BFE_MA](https://github.com/jiankang1991/GRSL_BFE_MA) -> Deep Learning-based Building Footprint Extraction with Missing Annotations using a novel loss function
 
-  2.9.29. [GRSL_BFE_MA](https://github.com/jiankang1991/GRSL_BFE_MA) -> Deep Learning-based Building Footprint Extraction with Missing Annotations using a novel loss function
+- [FER-CNN](https://github.com/runnergirl13/FER-CNN) -> Detection, Classification and Boundary Regularization of Buildings in Satellite Imagery Using Faster Edge Region Convolutional Neural Networks
 
-  2.9.30. [FER-CNN](https://github.com/runnergirl13/FER-CNN) -> Detection, Classification and Boundary Regularization of Buildings in Satellite Imagery Using Faster Edge Region Convolutional Neural Networks
+- [UNET-Image-Segmentation-Satellite-Picture](https://github.com/rwie1and/UNET-Image-Segmentation-Satellite-Pictures) -> Unet to predict roof tops on Crowed AI Mapping dataset, uses keras
 
-  2.9.31. [UNET-Image-Segmentation-Satellite-Picture](https://github.com/rwie1and/UNET-Image-Segmentation-Satellite-Pictures) -> Unet to predict roof tops on Crowed AI Mapping dataset, uses keras
+- [Vector-Map-Generation-from-Aerial-Imagery-using-Deep-Learning-GeoSpatial-UNET](https://github.com/ManishSahu53/Vector-Map-Generation-from-Aerial-Imagery-using-Deep-Learning-GeoSpatial-UNET) -> applied to geo-referenced images which are very large size > 10k x 10k pixels
 
-  2.9.32. [Vector-Map-Generation-from-Aerial-Imagery-using-Deep-Learning-GeoSpatial-UNET](https://github.com/ManishSahu53/Vector-Map-Generation-from-Aerial-Imagery-using-Deep-Learning-GeoSpatial-UNET) -> applied to geo-referenced images which are very large size > 10k x 10k pixels
+- [building-footprint-segmentation](https://github.com/fuzailpalnak/building-footprint-segmentation) -> pip installable library to train building footprint segmentation on satellite and aerial imagery, applied to Massachusetts Buildings Dataset and Inria Aerial Image Labeling Dataset
 
-  2.9.33. [building-footprint-segmentation](https://github.com/fuzailpalnak/building-footprint-segmentation) -> pip installable library to train building footprint segmentation on satellite and aerial imagery, applied to Massachusetts Buildings Dataset and Inria Aerial Image Labeling Dataset
+- [SemSegBuildings](https://github.com/SharpestProjects/SemSegBuildings) -> Project using fast.ai framework for semantic segmentation on Inria building segmentation dataset
 
-  2.9.34. [SemSegBuildings](https://github.com/SharpestProjects/SemSegBuildings) -> Project using fast.ai framework for semantic segmentation on Inria building segmentation dataset
+- [FCNN-example](https://github.com/emredog/FCNN-example) -> overfit to a given single image to detect houses
 
-  2.9.35. [FCNN-example](https://github.com/emredog/FCNN-example) -> overfit to a given single image to detect houses
+- [SAT2LOD2](https://github.com/gdaosu/lod2buildingmodel) -> an open-source, python-based GUI-enabled software that takes the satellite images as inputs and returns LoD2 building models as outputs
 
-  2.9.36. [SAT2LOD2](https://github.com/gdaosu/lod2buildingmodel) -> an open-source, python-based GUI-enabled software that takes the satellite images as inputs and returns LoD2 building models as outputs
+- [SatFootprint](https://github.com/PriyanK7n/SatFootprint) -> building segmentation on the Spacenet 7 dataset
 
-  2.9.37. [SatFootprint](https://github.com/PriyanK7n/SatFootprint) -> building segmentation on the Spacenet 7 dataset
+- [Building-Detection](https://github.com/EL-BID/Building-Detection) -> Raster Vision experiment to train a model to detect buildings from satellite imagery in three cities in Latin America
 
-  2.9.38. [Building-Detection](https://github.com/EL-BID/Building-Detection) -> Raster Vision experiment to train a model to detect buildings from satellite imagery in three cities in Latin America
+- [Multi-building-tracker](https://github.com/sebasmos/Multi-building-tracker) -> Multi-target building tracker for satellite images using deep learning
 
-  2.9.39. [Multi-building-tracker](https://github.com/sebasmos/Multi-building-tracker) -> Multi-target building tracker for satellite images using deep learning
+- [Boundary Enhancement Semantic Segmentation for Building Extraction](https://github.com/hin1115/BEmodule-Satellite-Building-Segmentation)
 
-  2.9.40. [Boundary Enhancement Semantic Segmentation for Building Extraction](https://github.com/hin1115/BEmodule-Satellite-Building-Segmentation)
+- [keras code for binary semantic segmentation](https://github.com/loveswine/UNet_keras_for_RSimage)
 
-  2.9.41. [keras code for binary semantic segmentation](https://github.com/loveswine/UNet_keras_for_RSimage)
+- [Spacenet-Building-Detection](https://github.com/IdanC1s2/Spacenet-Building-Detection)
 
-  2.9.42. [Spacenet-Building-Detection](https://github.com/IdanC1s2/Spacenet-Building-Detection)
+- [LGPNet-BCD](https://github.com/TongfeiLiu/LGPNet-BCD) -> Building Change Detection for VHR Remote Sensing Images via Local-Global Pyramid Network and Cross-Task Transfer Learning Strategy
 
-  2.9.43. [LGPNet-BCD](https://github.com/TongfeiLiu/LGPNet-BCD) -> Building Change Detection for VHR Remote Sensing Images via Local-Global Pyramid Network and Cross-Task Transfer Learning Strategy
+- [MTL_homoscedastic_SRB](https://github.com/burakekim/MTL_homoscedastic_SRB) -> A Multi-Task Deep Learning Framework for Building Footprint Segmentation
 
-  2.9.44. [MTL_homoscedastic_SRB](https://github.com/burakekim/MTL_homoscedastic_SRB) -> A Multi-Task Deep Learning Framework for Building Footprint Segmentation
+- [UNet_CNN](https://github.com/Inamdarpushkar/UNet_CNN) -> UNet model to segment building coverage in Boston using Remote sensing data, uses keras
 
-  2.9.45. [UNet_CNN](https://github.com/Inamdarpushkar/UNet_CNN) -> UNet model to segment building coverage in Boston using Remote sensing data, uses keras
+- [FDANet](https://github.com/daifeng2016/FDANet) -> Full-Level Domain Adaptation for Building Extraction in Very-High-Resolution Optical Remote-Sensing Images
 
-  2.9.46. [FDANet](https://github.com/daifeng2016/FDANet) -> Full-Level Domain Adaptation for Building Extraction in Very-High-Resolution Optical Remote-Sensing Images
+- [CBRNet](https://github.com/HaonanGuo/CBRNet) -> A Coarse-to-fine Boundary Refinement Network for Building Extraction from Remote Sensing Imagery
 
-  2.9.47. [CBRNet](https://github.com/HaonanGuo/CBRNet) -> A Coarse-to-fine Boundary Refinement Network for Building Extraction from Remote Sensing Imagery
+- [ASLNet](https://github.com/ggsDing/ASLNet) -> Adversarial Shape Learning for Building Extraction in VHR Remote Sensing Images
 
-  2.9.48. [ASLNet](https://github.com/ggsDing/ASLNet) -> Adversarial Shape Learning for Building Extraction in VHR Remote Sensing Images
+- [BRRNet](https://github.com/wangyi111/Building-Extraction) -> A Fully Convolutional Neural Network for Automatic Building Extraction From High-Resolution Remote Sensing Images
 
-  2.9.49. [BRRNet](https://github.com/wangyi111/Building-Extraction) -> A Fully Convolutional Neural Network for Automatic Building Extraction From High-Resolution Remote Sensing Images
+- [Multi-Scale-Filtering-Building-Index](https://github.com/ThomasWangWeiHong/Multi-Scale-Filtering-Building-Index) -> A Multi - Scale Filtering Building Index for Building Extraction in Very High - Resolution Satellite Imagery
 
-  2.9.50. [Multi-Scale-Filtering-Building-Index](https://github.com/ThomasWangWeiHong/Multi-Scale-Filtering-Building-Index) -> A Multi - Scale Filtering Building Index for Building Extraction in Very High - Resolution Satellite Imagery
+- [Models for Remote Sensing](https://github.com/bohaohuang/mrs) -> long list of unets etc applied to building detection
 
-  2.9.51. [Models for Remote Sensing](https://github.com/bohaohuang/mrs) -> long list of unets etc applied to building detection
+- [boundary_loss_for_remote_sensing](https://github.com/yiskw713/boundary_loss_for_remote_sensing) -> Boundary Loss for Remote Sensing Imagery Semantic Segmentation
 
-  2.9.52. [boundary_loss_for_remote_sensing](https://github.com/yiskw713/boundary_loss_for_remote_sensing) -> Boundary Loss for Remote Sensing Imagery
-  Semantic Segmentation
+- [Open Cities AI Challenge](https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/) -> Segmenting Buildings for Disaster Resilience. Winning solutions [on Github](https://github.com/drivendataorg/open-cities-ai-challenge/)
 
-  2.9.53. [Open Cities AI Challenge](https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/) -> Segmenting Buildings for Disaster Resilience. Winning solutions [on Github](https://github.com/drivendataorg/open-cities-ai-challenge/)
+- [MAPNet](https://github.com/lehaifeng/MAPNet) -> Multi Attending Path Neural Network for Building Footprint Extraction from Remote Sensed Imagery
 
-  2.9.54. [MAPNet](https://github.com/lehaifeng/MAPNet) -> Multi Attending Path Neural Network for Building Footprint Extraction from Remote Sensed Imagery
+- [dual-hrnet](https://github.com/SIAnalytics/dual-hrnet) -> localizing buildings and classifying their damage level
 
-  2.9.55. [dual-hrnet](https://github.com/SIAnalytics/dual-hrnet) -> localizing buildings and classifying their damage level
+- [ESFNet](https://github.com/mrluin/ESFNet-Pytorch) -> Efficient Network for Building Extraction from High-Resolution Aerial Images
 
-  2.9.56. [ESFNet](https://github.com/mrluin/ESFNet-Pytorch) -> Efficient Network for Building Extraction from High-Resolution Aerial Images
+- [rooftop-detection-python](https://github.com/sayonpalit/rooftop-detection-python) -> Detect Rooftops from low resolution satellite images and calculate area for cultivation and solar panel installment using classical computer vision techniques
 
-  2.9.57. [rooftop-detection-python](https://github.com/sayonpalit/rooftop-detection-python) -> Detect Rooftops from low resolution satellite images and calculate area for cultivation and solar panel installment using classical computer vision techniques
+- [keras_segmentation_models](https://github.com/sajmonogy/keras_segmentation_models) -> Using Open Vector-Based Spatial Data to Create Semantic Datasets for Building Segmentation for Raster Data
 
-  2.9.58. [keras_segmentation_models](https://github.com/sajmonogy/keras_segmentation_models) -> Using Open Vector-Based Spatial Data to Create Semantic Datasets for Building Segmentation for Raster Data
+- [CVCMFFNet](https://github.com/Jiankun-chen/CVCMFFNet-master) -> Complex-Valued Convolutional and Multifeature Fusion Network for Building Semantic Segmentation of InSAR Images
 
-  2.9.59. [CVCMFFNet](https://github.com/Jiankun-chen/CVCMFFNet-master) -> Complex-Valued Convolutional and Multifeature Fusion Network for Building Semantic Segmentation of InSAR Images
+- [STEB-UNet](https://github.com/BrightGuo048/STEB-UNet) -> A Swin Transformer-Based Encoding Booster Integrated in U-Shaped Network for Building Extraction
 
-  2.9.60. [STEB-UNet](https://github.com/BrightGuo048/STEB-UNet) -> A Swin Transformer-Based Encoding Booster Integrated in U-Shaped Network for Building Extraction
+- [dfc2020_baseline](https://github.com/lukasliebel/dfc2020_baseline) -> Baseline solution for the IEEE GRSS Data Fusion Contest 2020. Predict land cover labels from Sentinel-1 and Sentinel-2 imagery
 
-  2.9.61. [dfc2020_baseline](https://github.com/lukasliebel/dfc2020_baseline) -> Baseline solution for the IEEE GRSS Data Fusion Contest 2020. Predict land cover labels from Sentinel-1 and Sentinel-2 imagery
+- [Fusing multiple segmentation models based on different datasets into a single edge-deployable model](https://github.com/markusmeingast/Satellite-Classifier) -> roof, car & road segmentation
 
-  2.9.62. [Fusing multiple segmentation models based on different datasets into a single edge-deployable model](https://github.com/markusmeingast/Satellite-Classifier) -> roof, car & road segmentation
+- [ground-truth-gan-segmentation](https://github.com/zakariamejdoul/ground-truth-gan-segmentation) -> use Pix2Pix to segment the footprint of a building. The dataset used is AIRS
 
-  2.9.63. [ground-truth-gan-segmentation](https://github.com/zakariamejdoul/ground-truth-gan-segmentation) -> use Pix2Pix to segment the footprint of a building. The dataset used is AIRS
+- [UNICEF-Giga_Sudan](https://github.com/Kamal-Eldin/UNICEF-Giga_Sudan) -> Detecting school lots from satellite imagery in Southern Sudan using a UNET segmentation model
 
-  2.9.64. [UNICEF-Giga_Sudan](https://github.com/Kamal-Eldin/UNICEF-Giga_Sudan) -> Detecting school lots from satellite imagery in Southern Sudan using a UNET segmentation model
+- [building_footprint_extraction](https://github.com/shubhamgoel27/building_footprint_extraction) -> The project retrieves satellite imagery from Google and performs building footprint extraction using a U-Net.
 
-  2.9.65. [building_footprint_extraction](https://github.com/shubhamgoel27/building_footprint_extraction) -> The project retrieves satellite imagery from Google and performs building footprint extraction using a U-Net.
+- [projectRegularization](https://github.com/zorzi-s/projectRegularization) -> Regularization of building boundaries in satellite images using adversarial and regularized losses
 
-  2.9.66. [projectRegularization](https://github.com/zorzi-s/projectRegularization) -> Regularization of building boundaries in satellite images using adversarial and regularized losses
+- [PolyWorldPretrainedNetwork](https://github.com/zorzi-s/PolyWorldPretrainedNetwork) -> Polygonal Building Extraction with Graph Neural Networks in Satellite Images
 
-  2.9.67. [PolyWorldPretrainedNetwork](https://github.com/zorzi-s/PolyWorldPretrainedNetwork) -> Polygonal Building Extraction with Graph Neural Networks in Satellite Images
+- [dl_image_segmentation](https://github.com/harry-gibson/dl_image_segmentation) -> Uncertainty-Aware Interpretable Deep Learning for Slum Mapping and Monitoring. Uses SHAP
 
-  2.9.68. [dl_image_segmentation](https://github.com/harry-gibson/dl_image_segmentation) -> Uncertainty-Aware Interpretable Deep Learning for Slum Mapping and Monitoring. Uses SHAP
+- [UBC-dataset](https://github.com/AICyberTeam/UBC-dataset) -> a dataset for building detection and classification from very high-resolution satellite imagery with the focus on object-level interpretation of individual buildings
 
-  2.9.69. [UBC-dataset](https://github.com/AICyberTeam/UBC-dataset) -> a dataset for building detection and classification from very high-resolution satellite imagery with the focus on object-level interpretation of individual buildings
+- [UNetFormer](https://github.com/WangLibo1995/GeoSeg) -> A UNet-like transformer for efficient semantic segmentation of remote sensing urban scene imagery
 
-  2.9.70. [UNetFormer](https://github.com/WangLibo1995/GeoSeg) -> A UNet-like transformer for efficient semantic segmentation of remote sensing urban scene imagery
+- [BES-Net](https://github.com/FlyC235/BESNet) -> Boundary Enhancing Semantic Context Network for High-Resolution Image Semantic Segmentation. Applied to Vaihingen and Potsdam datasets
 
-  2.9.71. [BES-Net](https://github.com/FlyC235/BESNet) -> Boundary Enhancing Semantic Context Network for High-Resolution Image Semantic Segmentation. Applied to Vaihingen and Potsdam datasets
+- [CVNet](https://github.com/xzq-njust/CVNet) -> Contour Vibration Network for Building Extraction
 
-  2.9.72. [CVNet](https://github.com/xzq-njust/CVNet) -> Contour Vibration Network for Building Extraction
+- [CFENet](https://github.com/djzgroup/CFENet) -> A Context Feature Enhancement Network for Building Extraction from High-Resolution Remote Sensing Imagery
 
-  2.9.73. [CFENet](https://github.com/djzgroup/CFENet) -> A Context Feature Enhancement Network for Building Extraction from High-Resolution Remote Sensing Imagery
+- [HiSup](https://github.com/SarahwXU/HiSup) -> Accurate Polygonal Mapping of Buildings in Satellite Imagery
 
-  2.9.74. [HiSup](https://github.com/SarahwXU/HiSup) -> Accurate Polygonal Mapping of Buildings in Satellite Imagery
+- [BuildingExtraction](https://github.com/KyanChen/BuildingExtraction) -> Building Extraction from Remote Sensing Images with Sparse Token Transformers
 
-  2.9.75. [BuildingExtraction](https://github.com/KyanChen/BuildingExtraction) -> Building Extraction from Remote Sensing Images with Sparse Token Transformers
+- [CrossGeoNet](https://github.com/lqycrystal/coseg_building) -> A Framework for Building Footprint Generation of Label-Scarce Geographical Regions
 
-  2.9.76. [CrossGeoNet](https://github.com/lqycrystal/coseg_building) -> A Framework for Building Footprint Generation of Label-Scarce Geographical Regions
+- [AFM_building](https://github.com/lqycrystal/AFM_building) -> Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation
 
-  2.9.77. [AFM_building](https://github.com/lqycrystal/AFM_building) -> Building Footprint Generation Through Convolutional Neural Networks With Attraction Field Representation
+- [RAMP (Replicable AI for MicroPlanning)](https://github.com/devglobalpartners/ramp-code) -> building detection in low and middle income countries
 
-  2.9.78. [RAMP (Replicable AI for MicroPlanning)](https://github.com/devglobalpartners/ramp-code) -> building detection in low and middle income countries
+- [Building-instance-segmentation](https://github.com/yuanqinglie/Building-instance-segmentation-combining-anchor-free-detectors-and-multi-modal-feature-fusion) -> Multi-Modal Feature Fusion Network with Adaptive Center Point Detector for Building Instance Extraction
 
-  2.9.79. [Building-instance-segmentation](https://github.com/yuanqinglie/Building-instance-segmentation-combining-anchor-free-detectors-and-multi-modal-feature-fusion) -> Multi-Modal Feature Fusion Network with Adaptive Center Point Detector for Building Instance Extraction
+- [CGSANet](https://github.com/MrChen18/CGSANet) -> A Contour-Guided and Local Structure-Aware Encoder–Decoder Network for Accurate Building Extraction From Very High-Resolution Remote Sensing Imagery
 
-  2.9.80. [CGSANet](https://github.com/MrChen18/CGSANet) -> A Contour-Guided and Local Structure-Aware Encoder–Decoder Network for Accurate Building Extraction From Very High-Resolution Remote Sensing Imagery
+- [building-footprints-update](https://github.com/wangzehui20/building-footprints-update) -> Learning Color Distributions from Bitemporal Remote Sensing Images to Update Existing Building Footprints
 
-  2.9.81. [building-footprints-update](https://github.com/wangzehui20/building-footprints-update) -> Learning Color Distributions from Bitemporal Remote Sensing Images to Update Existing Building Footprints
+- [RAMP](https://rampml.global/) -> model and buildings dataset to support a wide variety of humanitarian use cases
 
-  2.9.82. [RAMP](https://rampml.global/) -> model and buildings dataset to support a wide variety of humanitarian use cases
-
-  2.9.83. [Thesis_Semantic_Image_Segmentation_on_Satellite_Imagery_using_UNets](https://github.com/rinkwitz/Thesis_Semantic_Image_Segmentation_on_Satellite_Imagery_using_UNets) -> This master thesis aims to perform semantic segmentation of buildings on satellite images from the SpaceNet challenge 1 dataset using the U-Net architecture
+- [Thesis_Semantic_Image_Segmentation_on_Satellite_Imagery_using_UNets](https://github.com/rinkwitz/Thesis_Semantic_Image_Segmentation_on_Satellite_Imagery_using_UNets) -> This master thesis aims to perform semantic segmentation of buildings on satellite images from the SpaceNet challenge 1 dataset using the U-Net architecture
 
 
 ### 2.10. Segmentation - Solar panels
