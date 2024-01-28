@@ -2996,209 +2996,209 @@ This is a class of techniques which attempt to make predictions for classes with
 ## 25. Self-supervised, unsupervised & contrastive learning
 Self-supervised, unsupervised & contrastive learning are all methods of machine learning that use unlabeled data to train algorithms. Self-supervised learning uses labeled data to create an artificial supervisor, while unsupervised learning uses only the data itself to identify patterns and similarities. Contrastive learning uses pairs of data points to learn representations of data, usually for classification tasks. Note that self-supervised approaches are commonly used in the training of so-called Foundational models, since they enable learning from large quantities of unlablleded data, tyipcally time series.
 
-  25.1. [Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://devblog.pytorchlightning.ai/seasonal-contrast-transferable-visual-representations-for-remote-sensing-73a17863ed07) -> Seasonal Contrast (SeCo) is an effective pipeline to leverage unlabeled data for in-domain pre-training of remote sensing representations. Models trained with SeCo achieve better performance than their ImageNet pre-trained counterparts and state-of-the-art self-supervised learning methods on multiple downstream tasks. [paper](https://arxiv.org/abs/2103.16607) and [repo](https://github.com/ElementAI/seasonal-contrast)
+- [Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://devblog.pytorchlightning.ai/seasonal-contrast-transferable-visual-representations-for-remote-sensing-73a17863ed07) -> Seasonal Contrast (SeCo) is an effective pipeline to leverage unlabeled data for in-domain pre-training of remote sensing representations. Models trained with SeCo achieve better performance than their ImageNet pre-trained counterparts and state-of-the-art self-supervised learning methods on multiple downstream tasks. [paper](https://arxiv.org/abs/2103.16607) and [repo](https://github.com/ElementAI/seasonal-contrast)
 
-  25.2. [Unsupervised Learning for Land Cover Classification in Satellite Imagery](https://omdena.com/blog/land-cover-classification/)
+- [Unsupervised Learning for Land Cover Classification in Satellite Imagery](https://omdena.com/blog/land-cover-classification/)
 
-  25.3. [Tile2Vec: Unsupervised representation learning for spatially distributed data](https://ermongroup.github.io/blog/tile2vec/)
+- [Tile2Vec: Unsupervised representation learning for spatially distributed data](https://ermongroup.github.io/blog/tile2vec/)
 
-  25.4. [Contrastive Sensor Fusion](https://github.com/descarteslabs/contrastive_sensor_fusion) -> Code implementing Contrastive Sensor Fusion, an approach for unsupervised learning of multi-sensor representations targeted at remote sensing imagery
+- [Contrastive Sensor Fusion](https://github.com/descarteslabs/contrastive_sensor_fusion) -> Code implementing Contrastive Sensor Fusion, an approach for unsupervised learning of multi-sensor representations targeted at remote sensing imagery
 
-  25.5. [hyperspectral-autoencoders](https://github.com/lloydwindrim/hyperspectral-autoencoders) -> Tools for training and using unsupervised autoencoders and supervised deep learning classifiers for hyperspectral data, built on tensorflow. Autoencoders are unsupervised neural networks that are useful for a range of applications such as unsupervised feature learning and dimensionality reduction.
+- [hyperspectral-autoencoders](https://github.com/lloydwindrim/hyperspectral-autoencoders) -> Tools for training and using unsupervised autoencoders and supervised deep learning classifiers for hyperspectral data, built on tensorflow. Autoencoders are unsupervised neural networks that are useful for a range of applications such as unsupervised feature learning and dimensionality reduction.
 
-  25.6. [Sentinel-2 image clustering in python](https://towardsdatascience.com/sentinel-2-image-clustering-in-python-58f7f2c8a7f6)
+- [Sentinel-2 image clustering in python](https://towardsdatascience.com/sentinel-2-image-clustering-in-python-58f7f2c8a7f6)
 
-  25.7. [MARTA GANs: Unsupervised Representation Learning for Remote Sensing Image Classification](https://github.com/BUPTLdy/MARTA-GAN)
+- [MARTA GANs: Unsupervised Representation Learning for Remote Sensing Image Classification](https://github.com/BUPTLdy/MARTA-GAN)
 
-  25.8. [A generalizable and accessible approach to machine learning with global satellite imagery](https://www.nature.com/articles/s41467-021-24638-z) nature publication -> MOSAIKS is designed to solve an unlimited number of tasks at planet-scale quickly using feature vectors, [with repo](https://github.com/Global-Policy-Lab/mosaiks-paper). Also see [mosaiks-api](https://github.com/calebrob6/mosaiks-api)
+- [A generalizable and accessible approach to machine learning with global satellite imagery](https://www.nature.com/articles/s41467-021-24638-z) nature publication -> MOSAIKS is designed to solve an unlimited number of tasks at planet-scale quickly using feature vectors, [with repo](https://github.com/Global-Policy-Lab/mosaiks-paper). Also see [mosaiks-api](https://github.com/calebrob6/mosaiks-api)
 
-  25.9. [contrastive-satellite](https://github.com/hakeemtfrank/contrastive-satellite) -> Using contrastive learning to create embeddings from optical EuroSAT Satellite-2 imagery
+- [contrastive-satellite](https://github.com/hakeemtfrank/contrastive-satellite) -> Using contrastive learning to create embeddings from optical EuroSAT Satellite-2 imagery
 
-  25.10. [Self-Supervised Learning of Remote Sensing Scene Representations Using Contrastive Multiview Coding](https://github.com/vladan-stojnic/CMC-RSSR)
+- [Self-Supervised Learning of Remote Sensing Scene Representations Using Contrastive Multiview Coding](https://github.com/vladan-stojnic/CMC-RSSR)
 
-  25.11. [Self-Supervised-Learner by spaceml-org](https://github.com/spaceml-org/Self-Supervised-Learner) -> train a classifier with fewer labeled examples needed using self-supervised learning, example applied to UC Merced land use dataset
+- [Self-Supervised-Learner by spaceml-org](https://github.com/spaceml-org/Self-Supervised-Learner) -> train a classifier with fewer labeled examples needed using self-supervised learning, example applied to UC Merced land use dataset
 
-  25.12. [deepsentinel](https://github.com/Lkruitwagen/deepsentinel) -> a sentinel-1 and -2 self-supervised sensor fusion model for general purpose semantic embedding
+- [deepsentinel](https://github.com/Lkruitwagen/deepsentinel) -> a sentinel-1 and -2 self-supervised sensor fusion model for general purpose semantic embedding
 
-  25.13. [contrastive_SSL_ship_detection](https://github.com/alina2204/contrastive_SSL_ship_detection) -> Contrastive self supervised learning for ship detection in Sentinel 2 images
+- [contrastive_SSL_ship_detection](https://github.com/alina2204/contrastive_SSL_ship_detection) -> Contrastive self supervised learning for ship detection in Sentinel 2 images
 
-  25.14. [geography-aware-ssl](https://github.com/sustainlab-group/geography-aware-ssl) -> uses spatially aligned images over time to construct temporal positive pairs in contrastive learning and geo-location to design pre-text tasks
+- [geography-aware-ssl](https://github.com/sustainlab-group/geography-aware-ssl) -> uses spatially aligned images over time to construct temporal positive pairs in contrastive learning and geo-location to design pre-text tasks
 
-  25.15. [CNN-Supervised Classification](https://github.com/geojames/CNN-Supervised-Classification) -> Python code for self-supervised classification of remotely sensed imagery - part of the Deep Riverscapes project
+- [CNN-Supervised Classification](https://github.com/geojames/CNN-Supervised-Classification) -> Python code for self-supervised classification of remotely sensed imagery - part of the Deep Riverscapes project
 
-  25.16. [clustimage](https://github.com/erdogant/clustimage) -> a python package for unsupervised clustering of images
+- [clustimage](https://github.com/erdogant/clustimage) -> a python package for unsupervised clustering of images
 
-  25.17. [LandSurfaceClustering](https://github.com/lhalloran/LandSurfaceClustering) -> Land surface classification using remote sensing data with unsupervised machine learning (k-means)
+- [LandSurfaceClustering](https://github.com/lhalloran/LandSurfaceClustering) -> Land surface classification using remote sensing data with unsupervised machine learning (k-means)
 
-  25.18. [K-Means Clustering for Surface Segmentation of Satellite Images](https://medium.com/@maxfieldeland/k-means-clustering-for-surface-segmentation-of-satellite-images-ad1902791ebf)
+- [K-Means Clustering for Surface Segmentation of Satellite Images](https://medium.com/@maxfieldeland/k-means-clustering-for-surface-segmentation-of-satellite-images-ad1902791ebf)
 
-  25.19. [Sentinel-2 satellite imagery for crop classification using unsupervised clustering](https://medium.com/devseed/sentinel-2-satellite-imagery-for-crop-classification-part-2-47db3745eb49) -> label groups of pixels based on temporal trends of their NDVI values
+- [Sentinel-2 satellite imagery for crop classification using unsupervised clustering](https://medium.com/devseed/sentinel-2-satellite-imagery-for-crop-classification-part-2-47db3745eb49) -> label groups of pixels based on temporal trends of their NDVI values
 
-  25.20. [TheColorOutOfSpace](https://github.com/stevinc/TheColorOutOfSpace) -> The color out of space: learning self-supervised representations for Earth Observation imagery, using the BigEarthNet dataset
+- [TheColorOutOfSpace](https://github.com/stevinc/TheColorOutOfSpace) -> The color out of space: learning self-supervised representations for Earth Observation imagery, using the BigEarthNet dataset
 
-  25.21. [Semantic segmentation of SAR images using a self supervised technique](https://github.com/cattale93/pytorch_self_supervised_learning)
+- [Semantic segmentation of SAR images using a self supervised technique](https://github.com/cattale93/pytorch_self_supervised_learning)
 
-  25.22. [STEGO](https://github.com/mhamilton723/STEGO) -> Unsupervised Semantic Segmentation by Distilling Feature Correspondences, with [paper](https://arxiv.org/abs/2203.08414)
+- [STEGO](https://github.com/mhamilton723/STEGO) -> Unsupervised Semantic Segmentation by Distilling Feature Correspondences, with [paper](https://arxiv.org/abs/2203.08414)
 
-  25.23. [Unsupervised Segmentation of Hyperspectral Remote Sensing Images with Superpixels](https://github.com/mpBarbato/Unsupervised-Segmentation-of-Hyperspectral-Remote-Sensing-Images-with-Superpixels)
+- [Unsupervised Segmentation of Hyperspectral Remote Sensing Images with Superpixels](https://github.com/mpBarbato/Unsupervised-Segmentation-of-Hyperspectral-Remote-Sensing-Images-with-Superpixels)
 
-  25.24. [SoundingEarth](https://github.com/khdlr/SoundingEarth) -> Self-supervised Audiovisual Representation Learning for Remote Sensing Data, uses the SoundingEarth [Dataset](https://zenodo.org/record/5600379#.Yom4W5PMK3I)
+- [SoundingEarth](https://github.com/khdlr/SoundingEarth) -> Self-supervised Audiovisual Representation Learning for Remote Sensing Data, uses the SoundingEarth [Dataset](https://zenodo.org/record/5600379#.Yom4W5PMK3I)
 
-  25.25. [singleSceneSemSegTgrs2022](https://github.com/sudipansaha/singleSceneSemSegTgrs2022) -> Unsupervised Single-Scene Semantic Segmentation for Earth Observation
+- [singleSceneSemSegTgrs2022](https://github.com/sudipansaha/singleSceneSemSegTgrs2022) -> Unsupervised Single-Scene Semantic Segmentation for Earth Observation
 
-  25.26. [SSLRemoteSensing](https://github.com/flyakon/SSLRemoteSensing) -> Semantic Segmentation of Remote Sensing Images With Self-Supervised Multitask Representation Learning
+- [SSLRemoteSensing](https://github.com/flyakon/SSLRemoteSensing) -> Semantic Segmentation of Remote Sensing Images With Self-Supervised Multitask Representation Learning
 
-  25.27. [CBT](https://github.com/VMarsocci/CBT) -> Continual Barlow Twins: continual self-supervised learning for remote sensing semantic segmentation
+-[CBT](https://github.com/VMarsocci/CBT) -> Continual Barlow Twins: continual self-supervised learning for remote sensing semantic segmentation
 
-  25.28. [Unsupervised Satellite Image Classification based on Partial Adversarial Domain Adaptation](https://github.com/lwpyh/Unsupervised-Satellite-Image-Classfication-based-on-Partial-Domain-Adaptation) -> Code for course project
+- [Unsupervised Satellite Image Classification based on Partial Adversarial Domain Adaptation](https://github.com/lwpyh/Unsupervised-Satellite-Image-Classfication-based-on-Partial-Domain-Adaptation) -> Code for course project
 
-  25.29. [T2FTS](https://github.com/wdzhao123/T2FTS) -> Teaching Teachers First and Then Student: Hierarchical Distillation to Improve Long-Tailed Object Recognition in Aerial Images
+- [T2FTS](https://github.com/wdzhao123/T2FTS) -> Teaching Teachers First and Then Student: Hierarchical Distillation to Improve Long-Tailed Object Recognition in Aerial Images
 
-  25.30. [SSLTransformerRS](https://github.com/HSG-AIML/SSLTransformerRS) -> Self-supervised Vision Transformers for Land-cover Segmentation and
+- [SSLTransformerRS](https://github.com/HSG-AIML/SSLTransformerRS) -> Self-supervised Vision Transformers for Land-cover Segmentation and
   Classification
 
-  25.31. [DINO-MM](https://github.com/zhu-xlab/DINO-MM) -> Self-supervised Vision Transformers for Joint SAR-optical Representation Learning
+- [DINO-MM](https://github.com/zhu-xlab/DINO-MM) -> Self-supervised Vision Transformers for Joint SAR-optical Representation Learning
 
-  25.32. [SSL4EO-S12](https://github.com/zhu-xlab/SSL4EO-S12) -> a large-scale dataset for self-supervised learning in Earth observation
+- [SSL4EO-S12](https://github.com/zhu-xlab/SSL4EO-S12) -> a large-scale dataset for self-supervised learning in Earth observation
 
-  25.33. [SSL4EO-Review](https://github.com/zhu-xlab/SSL4EO-Review) -> Self-supervised Learning in Remote Sensing: A Review
+- [SSL4EO-Review](https://github.com/zhu-xlab/SSL4EO-Review) -> Self-supervised Learning in Remote Sensing: A Review
 
-  25.34. [transfer_learning_cspt](https://github.com/ZhAnGToNG1/transfer_learning_cspt) -> Consecutive Pretraining: A Knowledge Transfer Learning Strategy with Relevant Unlabeled Data for Remote Sensing Domain
+- [transfer_learning_cspt](https://github.com/ZhAnGToNG1/transfer_learning_cspt) -> Consecutive Pretraining: A Knowledge Transfer Learning Strategy with Relevant Unlabeled Data for Remote Sensing Domain
 
-  25.35. [OTL](https://github.com/qlilx/OTL) -> Clustering-Based Representation Learning through Output Translation and Its Application to Remote-Sensing Images
+- [OTL](https://github.com/qlilx/OTL) -> Clustering-Based Representation Learning through Output Translation and Its Application to Remote-Sensing Images
 
-  25.36. [Push-and-Pull-Network](https://github.com/WindVChen/Push-and-Pull-Network) -> Contrastive Learning for Fine-grained Ship Classification in Remote Sensing Images
+- [Push-and-Pull-Network](https://github.com/WindVChen/Push-and-Pull-Network) -> Contrastive Learning for Fine-grained Ship Classification in Remote Sensing Images
 
-  25.37. [vissl_experiments](https://github.com/lewfish/ssl/tree/main/vissl_experiments) -> Self-supervised Learning using Facebook [VISSL](https://github.com/facebookresearch/vissl) on the RESISC-45 satellite imagery classification dataset
+- [vissl_experiments](https://github.com/lewfish/ssl/tree/main/vissl_experiments) -> Self-supervised Learning using Facebook [VISSL](https://github.com/facebookresearch/vissl) on the RESISC-45 satellite imagery classification dataset
 
-  25.38. [MS2A-Net](https://github.com/Kasra2020/MS2A-Net) -> MS 2 A-Net: Multi-scale spectral-spatial association network for hyperspectral image clustering
+- [MS2A-Net](https://github.com/Kasra2020/MS2A-Net) -> MS 2 A-Net: Multi-scale spectral-spatial association network for hyperspectral image clustering
 
-  25.39. [UDA_for_RS](https://github.com/Levantespot/UDA_for_RS) -> Unsupervised Domain Adaptation for Remote Sensing Semantic Segmentation with Transformer
+- [UDA_for_RS](https://github.com/Levantespot/UDA_for_RS) -> Unsupervised Domain Adaptation for Remote Sensing Semantic Segmentation with Transformer
 
-  25.40. [pytorch-ssl-building_extract](https://github.com/Chendeyue/pytorch-ssl-building_extract) -> Research on Self-Supervised Building Information Extraction with High-Resolution Remote Sensing Images for Photovoltaic Potential Evaluation
+- [pytorch-ssl-building_extract](https://github.com/Chendeyue/pytorch-ssl-building_extract) -> Research on Self-Supervised Building Information Extraction with High-Resolution Remote Sensing Images for Photovoltaic Potential Evaluation
 
-  25.41. [self-rare-wildlife](https://github.com/xcvil/self-rare-wildlife) -> Self-Supervised Pretraining and Controlled Augmentation Improve Rare Wildlife Recognition in UAV Images
+- [self-rare-wildlife](https://github.com/xcvil/self-rare-wildlife) -> Self-Supervised Pretraining and Controlled Augmentation Improve Rare Wildlife Recognition in UAV Images
 
-  25.42. [SatMAE](https://github.com/sustainlab-group/SatMAE) -> SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery
+- [SatMAE](https://github.com/sustainlab-group/SatMAE) -> SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery
 
-  25.43. [FireCLR-Wildfires](https://github.com/spaceml-org/FireCLR-Wildfires) -> Unsupervised Wildfire Change Detection based on Contrastive Learning
+- [FireCLR-Wildfires](https://github.com/spaceml-org/FireCLR-Wildfires) -> Unsupervised Wildfire Change Detection based on Contrastive Learning
 
-  25.44. [FALSE](https://github.com/GeoX-Lab/FALSE) -> False Negative Samples Aware Contrastive Learning for Semantic Segmentation of High-Resolution Remote Sensing Image
+- [FALSE](https://github.com/GeoX-Lab/FALSE) -> False Negative Samples Aware Contrastive Learning for Semantic Segmentation of High-Resolution Remote Sensing Image
 
-  25.45. [MATTER](https://github.com/periakiva/MATTER) -> Self-Supervised Material and Texture Representation Learning for Remote Sensing Tasks
+- [MATTER](https://github.com/periakiva/MATTER) -> Self-Supervised Material and Texture Representation Learning for Remote Sensing Tasks
 
-  25.46. [FGMAE](https://github.com/zhu-xlab/FGMAE) -> Feature guided masked Autoencoder for self-supervised learning in remote sensing
+- [FGMAE](https://github.com/zhu-xlab/FGMAE) -> Feature guided masked Autoencoder for self-supervised learning in remote sensing
 
-  25.47. [GFM](https://github.com/mmendiet/GFM) -> Towards Geospatial Foundation Models via Continual Pretraining
+- [GFM](https://github.com/mmendiet/GFM) -> Towards Geospatial Foundation Models via Continual Pretraining
 
 #
 ## 26. Weakly & semi-supervised learning
 
 Weakly & semi-supervised learning are two methods of machine learning that use both labeled and unlabeled data for training. Weakly supervised learning uses weakly labeled data, which may be incomplete or inaccurate, while semi-supervised learning uses both labeled and unlabeled data. Weakly supervised learning is typically used in situations where labeled data is scarce and unlabeled data is abundant. Semi-supervised learning is typically used in situations where labeled data is abundant but also contains some noise or errors. Both techniques can be used to improve the accuracy of machine learning models by making use of additional data sources.
 
-  26.1. [MARE](https://github.com/VMarsocci/MARE) -> self-supervised Multi-Attention REsu-net for semantic segmentation in remote sensing
+- [MARE](https://github.com/VMarsocci/MARE) -> self-supervised Multi-Attention REsu-net for semantic segmentation in remote sensing
 
-  26.2. [SSGF-for-HRRS-scene-classification](https://github.com/weihancug/SSGF-for-HRRS-scene-classification) -> A semi-supervised generative framework with deep learning features for high-resolution remote sensing image scene classification
+- [SSGF-for-HRRS-scene-classification](https://github.com/weihancug/SSGF-for-HRRS-scene-classification) -> A semi-supervised generative framework with deep learning features for high-resolution remote sensing image scene classification
 
-  26.3. [SFGAN](https://github.com/MLEnthusiast/SFGAN) -> Semantic-Fusion Gans for Semi-Supervised Satellite Image Classification
+- [SFGAN](https://github.com/MLEnthusiast/SFGAN) -> Semantic-Fusion Gans for Semi-Supervised Satellite Image Classification
 
-  26.4. [SSDAN](https://github.com/alhichri/SSDAN) -> Multi-Source Semi-Supervised Domain Adaptation Network for Remote Sensing Scene Classification
+- [SSDAN](https://github.com/alhichri/SSDAN) -> Multi-Source Semi-Supervised Domain Adaptation Network for Remote Sensing Scene Classification
 
-  26.5. [HR-S2DML](https://github.com/jiankang1991/HR-S2DML) -> High-Rankness Regularized Semi-Supervised Deep Metric Learning for Remote Sensing Imagery
+- [HR-S2DML](https://github.com/jiankang1991/HR-S2DML) -> High-Rankness Regularized Semi-Supervised Deep Metric Learning for Remote Sensing Imagery
 
-  26.6. [Semantic Segmentation of Satellite Images Using Point Supervision](https://github.com/KambachJannis/MasterThesis)
+- [Semantic Segmentation of Satellite Images Using Point Supervision](https://github.com/KambachJannis/MasterThesis)
 
-  26.7. [fcd](https://github.com/jnyborg/fcd) -> Fixed-Point GAN for Cloud Detection. A weakly-supervised approach, training with only image-level labels
+- [fcd](https://github.com/jnyborg/fcd) -> Fixed-Point GAN for Cloud Detection. A weakly-supervised approach, training with only image-level labels
 
-  26.8. [weak-segmentation](https://github.com/LendelTheGreat/weak-segmentation) -> Weakly supervised semantic segmentation for aerial images in pytorch
+- [weak-segmentation](https://github.com/LendelTheGreat/weak-segmentation) -> Weakly supervised semantic segmentation for aerial images in pytorch
 
-  26.9. [TNNLS_2022_X-GPN](https://github.com/B-Xi/TNNLS_2022_X-GPN) -> Semisupervised Cross-scale Graph Prototypical Network for Hyperspectral Image Classification
+- [TNNLS_2022_X-GPN](https://github.com/B-Xi/TNNLS_2022_X-GPN) -> Semisupervised Cross-scale Graph Prototypical Network for Hyperspectral Image Classification
 
-  26.10. [weakly_supervised](https://github.com/LobellLab/weakly_supervised) -> Weakly Supervised Deep Learning for Segmentation of Remote Sensing Imagery. Demonstrates that segmentation can be performed using small datasets comprised of pixel or image labels
+- [weakly_supervised](https://github.com/LobellLab/weakly_supervised) -> Weakly Supervised Deep Learning for Segmentation of Remote Sensing Imagery. Demonstrates that segmentation can be performed using small datasets comprised of pixel or image labels
 
-  26.11. [wan](https://github.com/engrjavediqbal/wan) -> Weakly-Supervised Domain Adaptation for Built-up Region Segmentation in Aerial and Satellite Imagery
+- [wan](https://github.com/engrjavediqbal/wan) -> Weakly-Supervised Domain Adaptation for Built-up Region Segmentation in Aerial and Satellite Imagery
 
-  26.12. [sourcerer](https://github.com/benjaminmlucas/sourcerer) -> A Bayesian-inspired deep learning method for semi-supervised domain adaptation designed for land cover mapping from satellite image time series (SITS)
+- [sourcerer](https://github.com/benjaminmlucas/sourcerer) -> A Bayesian-inspired deep learning method for semi-supervised domain adaptation designed for land cover mapping from satellite image time series (SITS)
 
-  26.13. [MSMatch](https://github.com/gomezzz/MSMatch) -> Semi-Supervised Multispectral Scene Classification with Few Labels. Includes code to work with both the RGB and the multispectral (MS) versions of EuroSAT dataset and the UC Merced Land Use (UCM) dataset
+- [MSMatch](https://github.com/gomezzz/MSMatch) -> Semi-Supervised Multispectral Scene Classification with Few Labels. Includes code to work with both the RGB and the multispectral (MS) versions of EuroSAT dataset and the UC Merced Land Use (UCM) dataset
 
-  26.14. [Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection)
+- [Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection)
 
-  26.15. [Semi-supervised learning in satellite image classification](https://medium.com/sentinel-hub/semi-supervised-learning-in-satellite-image-classification-e0874a76fc61) -> experimenting with MixMatch and the EuroSAT data set
+- [Semi-supervised learning in satellite image classification](https://medium.com/sentinel-hub/semi-supervised-learning-in-satellite-image-classification-e0874a76fc61) -> experimenting with MixMatch and the EuroSAT data set
 
-  26.16. [ScRoadExtractor](https://github.com/weiyao1996/ScRoadExtractor) -> Scribble-based Weakly Supervised Deep Learning for Road Surface Extraction from Remote Sensing Images
+- [ScRoadExtractor](https://github.com/weiyao1996/ScRoadExtractor) -> Scribble-based Weakly Supervised Deep Learning for Road Surface Extraction from Remote Sensing Images
 
-  26.17. [ICSS](https://github.com/alteia-ai/ICSS) -> Weakly-supervised continual learning for class-incremental segmentation
+- [ICSS](https://github.com/alteia-ai/ICSS) -> Weakly-supervised continual learning for class-incremental segmentation
 
-  26.18. [es-CP](https://github.com/majidseydgar/Res-CP) -> Semi-Supervised Hyperspectral Image Classification Using a Probabilistic Pseudo-Label Generation Framework
+- [es-CP](https://github.com/majidseydgar/Res-CP) -> Semi-Supervised Hyperspectral Image Classification Using a Probabilistic Pseudo-Label Generation Framework
 
-  26.19. [Flood_Mapping_SSL](https://github.com/YJ-He/Flood_Mapping_SSL) -> Enhancement of Urban Floodwater Mapping From Aerial Imagery With Dense Shadows via Semisupervised Learning
+- [Flood_Mapping_SSL](https://github.com/YJ-He/Flood_Mapping_SSL) -> Enhancement of Urban Floodwater Mapping From Aerial Imagery With Dense Shadows via Semisupervised Learning
 
-  26.20. [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
+- [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
 
 #
 ## 27. Active learning
 
 Supervised deep learning techniques typically require a huge number of annotated/labelled examples to provide a training dataset. However labelling at scale take significant time, expertise and resources. Active learning techniques aim to reduce the total amount of annotation that needs to be performed by selecting the most useful images to label from a large pool of unlabelled images, thus reducing the time to generate useful training datasets. These processes may be referred to as [Human-in-the-Loop Machine Learning](https://medium.com/pytorch/https-medium-com-robert-munro-active-learning-with-pytorch-2f3ee8ebec)
 
-  27.1. [Active learning for object detection in high-resolution satellite images](https://arxiv.org/abs/2101.02480)
+- [Active learning for object detection in high-resolution satellite images](https://arxiv.org/abs/2101.02480)
 
-  27.2. [AIDE V2 - Tools for detecting wildlife in aerial images using active learning](https://github.com/microsoft/aerial_wildlife_detection)
+- [AIDE V2 - Tools for detecting wildlife in aerial images using active learning](https://github.com/microsoft/aerial_wildlife_detection)
 
-  27.3. [AstronomicAL](https://github.com/grant-m-s/AstronomicAL) -> An interactive dashboard for visualisation, integration and classification of data using Active Learning
+- [AstronomicAL](https://github.com/grant-m-s/AstronomicAL) -> An interactive dashboard for visualisation, integration and classification of data using Active Learning
 
-  27.4. Follow tutorials for [active learning for object detection](https://docs.lightly.ai/docs/active-learning-yolov7) [and segmentation](https://docs.lightly.ai/docs/active-learning-for-driveable-area-segmentation-using-cityscapes) on the lightly platform.
+- Follow tutorials for [active learning for object detection](https://docs.lightly.ai/docs/active-learning-yolov7) [and segmentation](https://docs.lightly.ai/docs/active-learning-for-driveable-area-segmentation-using-cityscapes) on the lightly platform.
 
-  27.5. [Active-Labeler by spaceml-org](https://github.com/spaceml-org/Active-Labeler) -> a CLI Tool that facilitates labeling datasets with just a SINGLE line of code
+- [Active-Labeler by spaceml-org](https://github.com/spaceml-org/Active-Labeler) -> a CLI Tool that facilitates labeling datasets with just a SINGLE line of code
 
-  27.6. [Labelling platform for Mapping Africa active learning project](https://github.com/agroimpacts/labeller)
+- [Labelling platform for Mapping Africa active learning project](https://github.com/agroimpacts/labeller)
 
-  27.7. [ChangeDetectionProject](https://github.com/previtus/ChangeDetectionProject) -> Trying out Active Learning in with deep CNNs for Change detection on remote sensing data
+- [ChangeDetectionProject](https://github.com/previtus/ChangeDetectionProject) -> Trying out Active Learning in with deep CNNs for Change detection on remote sensing data
 
-  27.8. [ALS4GAN](https://github.com/immuno121/ALS4GAN) -> Active Learning for Improved Semi Supervised Semantic Segmentation in Satellite Images
+- [ALS4GAN](https://github.com/immuno121/ALS4GAN) -> Active Learning for Improved Semi Supervised Semantic Segmentation in Satellite Images
 
-  27.9. [Active-Learning-for-Remote-Sensing-Image-Retrieval](https://github.com/flateon/Active-Learning-for-Remote-Sensing-Image-Retrieval) -> unofficial implementation of paper: A Novel Active Learning Method in Relevance Feedback for Content-Based Remote Sensing Image Retrieval
+- [Active-Learning-for-Remote-Sensing-Image-Retrieval](https://github.com/flateon/Active-Learning-for-Remote-Sensing-Image-Retrieval) -> unofficial implementation of paper: A Novel Active Learning Method in Relevance Feedback for Content-Based Remote Sensing Image Retrieval
 
-  27.10. [DIAL](https://github.com/alteia-ai/DIAL) -> DIAL: Deep Interactive and Active Learning for Semantic Segmentation in Remote Sensing
+- [DIAL](https://github.com/alteia-ai/DIAL) -> DIAL: Deep Interactive and Active Learning for Semantic Segmentation in Remote Sensing
 
-  27.11. [whales](https://github.com/microsoft/whales) -> An active learning pipeline for identifying whales in high-resolution satellite imagery, by Microsoft
+- [whales](https://github.com/microsoft/whales) -> An active learning pipeline for identifying whales in high-resolution satellite imagery, by Microsoft
 
 #
 ## 28. Federated learning
 
 Federated learning is an approach to distributed machine learning where a central processor coordinates the training of an individual model in each of its clients. It is a type of distributed ML which means that the data is distributed among different devices or locations and the model is trained on all of them. The central processor aggregates the model updates from all the clients and then sends the global model parameters back to the clients. This is done to protect the privacy of data, as the data remains on the local device and only the global model parameters are shared with the central processor. This technique can be used to train models with large datasets that cannot be stored in a single device, as well as to enable certain privacy-preserving applications.
 
-  28.1. [Federated-Learning-for-Remote-Sensing](https://github.com/anandcu3/Federated-Learning-for-Remote-Sensing) ->  implementation of three Federated Learning models
+- [Federated-Learning-for-Remote-Sensing](https://github.com/anandcu3/Federated-Learning-for-Remote-Sensing) ->  implementation of three Federated Learning models
 
-  28.2. [Semantic-Segmentation-UNet-Federated](https://github.com/PratikGarai/Semantic-Segmentation-UNet-Federated) -> FedUKD: Federated UNet Model with Knowledge Distillation for Land Use Classification from Satellite and Street Views
+- [Semantic-Segmentation-UNet-Federated](https://github.com/PratikGarai/Semantic-Segmentation-UNet-Federated) -> FedUKD: Federated UNet Model with Knowledge Distillation for Land Use Classification from Satellite and Street Views
 
-  28.3. [MM-FL](https://git.tu-berlin.de/rsim/MM-FL) -> Learning Across Decentralized Multi-Modal Remote Sensing Archives with Federated Learning
+- [MM-FL](https://git.tu-berlin.de/rsim/MM-FL) -> Learning Across Decentralized Multi-Modal Remote Sensing Archives with Federated Learning
 
 #
 ## 29. Transformers
 
 Vision transformers are state-of-the-art models for vision tasks such as image classification and object detection. They differ from CNNs as they use self-attention instead of convolution to learn global relations between all pixels in the image. Vision transformers employ a transformer encoder architecture, composed of multi-layer blocks with multi-head self-attention and feed-forward layers, enabling the capture of rich contextual information for more accurate predictions.
 
-  29.1. [Transformer-in-Remote-Sensing](https://github.com/VIROBO-15/Transformer-in-Remote-Sensing) -> Transformers in Remote Sensing: A Survey
+- [Transformer-in-Remote-Sensing](https://github.com/VIROBO-15/Transformer-in-Remote-Sensing) -> Transformers in Remote Sensing: A Survey
 
-  29.2. [Remote-Sensing-RVSA](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA) -> Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model
+- [Remote-Sensing-RVSA](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA) -> Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model
 
-  29.3. [SatViT](https://github.com/antofuller/SatViT) -> self-supervised training of multispectral optical and SAR vision transformers
+- [SatViT](https://github.com/antofuller/SatViT) -> self-supervised training of multispectral optical and SAR vision transformers
 
-  29.4. [UDA_for_RS](https://github.com/Levantespot/UDA_for_RS) -> Unsupervised Domain Adaptation for Remote Sensing Semantic Segmentation with Transformer
+- [UDA_for_RS](https://github.com/Levantespot/UDA_for_RS) -> Unsupervised Domain Adaptation for Remote Sensing Semantic Segmentation with Transformer
 
-  29.5. [Vision Transformers for Low Earth Orbit Satellites](https://myrtle.ai/learn/leo-1-low-earth-orbit-satellites/) -> blog post that investigates deploying Vision Transformers on low earth orbit satellites
+- [Vision Transformers for Low Earth Orbit Satellites](https://myrtle.ai/learn/leo-1-low-earth-orbit-satellites/) -> blog post that investigates deploying Vision Transformers on low earth orbit satellites
 
 #
 ## 30. Adversarial ML
 
 Efforts to detect falsified images & deepfakes
 
-  30.1. [UAE-RS](https://github.com/YonghaoXu/UAE-RS) -> dataset that provides black-box adversarial samples in the remote sensing field
+- [UAE-RS](https://github.com/YonghaoXu/UAE-RS) -> dataset that provides black-box adversarial samples in the remote sensing field
 
-  30.2. [PSGAN](https://github.com/xuxiangsun/PSGAN) -> Perturbation Seeking Generative Adversarial Networks: A Defense Framework for Remote Sensing Image Scene Classification
+- [PSGAN](https://github.com/xuxiangsun/PSGAN) -> Perturbation Seeking Generative Adversarial Networks: A Defense Framework for Remote Sensing Image Scene Classification
 
-  30.3. [SACNet](https://github.com/YonghaoXu/SACNet) -> Self-Attention Context Network: Addressing the Threat of Adversarial Attacks for Hyperspectral Image Classification
+- [SACNet](https://github.com/YonghaoXu/SACNet) -> Self-Attention Context Network: Addressing the Threat of Adversarial Attacks for Hyperspectral Image Classification
 
 #
 ## 31. Image registration
@@ -3301,7 +3301,7 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 
 - [Predict the fate of glaciers](https://github.com/geohackweek/glacierhack_2018)
 
--[monodepth - Unsupervised single image depth prediction with CNNs](https://github.com/mrharicot/monodepth)
+- [monodepth - Unsupervised single image depth prediction with CNNs](https://github.com/mrharicot/monodepth)
 
 - [Stereo Matching by Training a Convolutional Neural Network to Compare Image Patches](https://github.com/jzbontar/mc-cnn)
 
@@ -3311,7 +3311,7 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 
 - [3DCD](https://github.com/VMarsocci/3DCD) -> Inferring 3D change detection from bitemporal optical images
 
--. The [Mapbox API](https://docs.mapbox.com/help/troubleshooting/access-elevation-data/) provides images and elevation maps, [article here](https://towardsdatascience.com/creating-high-resolution-satellite-images-with-mapbox-and-python-750b3ac83dd7)
+- [The Mapbox API](https://docs.mapbox.com/help/troubleshooting/access-elevation-data/) provides images and elevation maps, [article here](https://towardsdatascience.com/creating-high-resolution-satellite-images-with-mapbox-and-python-750b3ac83dd7)
 
 - [Reconstructing 3D buildings from aerial LiDAR with Mask R-CNN](https://medium.com/geoai/reconstructing-3d-buildings-from-aerial-lidar-with-ai-details-6a81cb3079c0)
 
@@ -3411,9 +3411,9 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
 - [cnn_sar_image_classification](https://github.com/diogosens/cnn_sar_image_classification) -> CNN for classifying SAR images of the Amazon Rainforest
 
--[s1_icetype_cnn](https://github.com/nansencenter/s1_icetype_cnn) -> Retrieve sea ice type from Sentinel-1 SAR with CNN
+- [s1_icetype_cnn](https://github.com/nansencenter/s1_icetype_cnn) -> Retrieve sea ice type from Sentinel-1 SAR with CNN
 
--[MP-ResNet](https://github.com/ggsDing/SARSeg) -> Multi-path Residual Network for the Semantic segmentation of PolSAR Images'
+- [MP-ResNet](https://github.com/ggsDing/SARSeg) -> Multi-path Residual Network for the Semantic segmentation of PolSAR Images'
 
 - [TGRS_DisOptNet](https://github.com/jiankang1991/TGRS_DisOptNet) -> Distilling Semantic Knowledge from Optical Images for Weather-independent Building Segmentation
 
@@ -3455,7 +3455,7 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
 - [random-wetlands](https://github.com/ekcomputer/random-wetlands) -> Random forest classification for wetland vegetation from synthetic aperture radar dataset
 
--[AGSDNet](https://github.com/RTSIR/AGSDNet) -> AGSDNet: Attention and Gradient-Based SAR Denoising Network
+- [AGSDNet](https://github.com/RTSIR/AGSDNet) -> AGSDNet: Attention and Gradient-Based SAR Denoising Network
 
 - [LFG-Net](https://github.com/Evarray/LFG-Net) -> LFG-Net: Low-Level Feature Guided Network for Precise Ship Instance Segmentation in SAR Images
 
