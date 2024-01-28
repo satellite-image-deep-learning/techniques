@@ -16,7 +16,7 @@ Deep learning has revolutionized the analysis and interpretation of satellite an
 
 <p align="center">
   <a href="http://orbuculum.xyz/">
-    <img src="images/sponsor-logo.png" width="500">
+    <img src="images/sponsor-logo.png" width="300">
   </a>
 </p>
 
