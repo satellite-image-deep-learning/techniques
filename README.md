@@ -2664,7 +2664,7 @@ Data fusion is a technique for combining information from different sources such
 
 - [MHF-net](https://github.com/XieQi2015/MHF-net) -> Multispectral and Hyperspectral Image Fusion by MS/HS Fusion Net
 
--[Remote_Sensing_Image_Fusion](https://github.com/huangshanshan33/Remote_Sensing_Image_Fusion) -> Semi-Supervised Remote Sensing Image Fusion Using Multi-Scale Conditional Generative Adversarial network with Siamese Structure
+- [Remote_Sensing_Image_Fusion](https://github.com/huangshanshan33/Remote_Sensing_Image_Fusion) -> Semi-Supervised Remote Sensing Image Fusion Using Multi-Scale Conditional Generative Adversarial network with Siamese Structure
 
 - [CNNs for Multi-Source Remote Sensing Data Fusion](https://github.com/yyyyangyi/CNNs-for-Multi-Source-Remote-Sensing-Data-Fusion) -> Single-stream CNN with Learnable Architecture for Multi-source Remote Sensing Data
 
