@@ -12,7 +12,7 @@
 ## Introduction
 Deep learning has revolutionized the analysis and interpretation of satellite and aerial imagery, addressing unique challenges such as vast image sizes and a wide array of object classes. This repository provides an exhaustive overview of deep learning techniques specifically tailored for satellite and aerial image processing. It covers a range of architectures, models, and algorithms suited for key tasks like classification, segmentation, and object detection. 
 
-**How to use this repository:** use `Control+F` to search this page, and note that searching [the raw markdown file](https://raw.githubusercontent.com/satellite-image-deep-learning/techniques/master/README.md) can be more effective
+**How to use this repository:** use `Command + F` (Mac) or `CTRL + F` (Windows) to search this page, and note that searching [the raw markdown file](https://raw.githubusercontent.com/satellite-image-deep-learning/techniques/master/README.md) can be more effective
 
 #
 
