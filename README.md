@@ -79,6 +79,7 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
 - General image quality
 - Synthetic data
 - Large vision & language models (LLMs & LVMs)
+- Foundational models
 
 #
 ## Classification
@@ -2080,6 +2081,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [TTP](https://github.com/KyanChen/TTP) -> Time Travelling Pixels: Bitemporal Features Integration with Foundation Model for Remote Sensing Image Change Detection
 
+- [SAM-CD](https://github.com/ggsDing/SAM-CD) -> Adapting Segment Anything Model for Change Detection in HR Remote Sensing Images
+
 #
 ## Time series
 
@@ -2852,6 +2855,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [scale-mae](https://github.com/bair-climate-initiative/scale-mae) -> Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning
 
+- [satclip](https://github.com/microsoft/satclip) -> A Global, General-Purpose Geographic Location Encoder from Microsoft
+
 #
 ## Image retrieval
 
@@ -3576,6 +3581,15 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [ChangeCLIP](https://github.com/dyzy41/ChangeCLIP) -> ChangeCLIP: Remote sensing change detection with multimodal vision-language representation learning
 
 - [SkyEyeGPT](https://github.com/ZhanYang-nwpu/SkyEyeGPT) -> SkyEyeGPT: Unifying Remote Sensing Vision-Language Tasks via Instruction Tuning with Large Language Model
+
+- [RemoteCLIP](https://github.com/ChenDelong1999/RemoteCLIP) -> A Vision Language Foundation Model for Remote Sensing
+
+- [GeoChat](https://github.com/mbzuai-oryx/GeoChat) -> Grounded Large Vision-Language Model for Remote Sensing
+
+#
+## Foundational models
+
+- [Awesome Remote Sensing Foundation Models](https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models)
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
