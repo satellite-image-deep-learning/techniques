@@ -3228,8 +3228,6 @@ Image registration is the process of registering one or more images onto another
 
 - [eolearn](https://eo-learn.readthedocs.io/en/latest/_modules/eolearn/coregistration/coregistration.html) implements phase correlation, feature matching and [ECC](https://learnopencv.com/image-alignment-ecc-in-opencv-c-python/)
 
-- RStoolbox supports [Image to Image Co-Registration based on Mutual Information](https://bleutner.github.io/RStoolbox/rstbx-docu/coregisterImages.html)
-
 - [Reprojecting the Perseverance landing footage onto satellite imagery](https://matthewearl.github.io/2021/03/06/mars2020-reproject/)
 
 - Kornia provides [image registration](https://kornia.readthedocs.io/en/latest/applications/image_registration.html)
@@ -3585,6 +3583,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [RemoteCLIP](https://github.com/ChenDelong1999/RemoteCLIP) -> A Vision Language Foundation Model for Remote Sensing
 
 - [GeoChat](https://github.com/mbzuai-oryx/GeoChat) -> Grounded Large Vision-Language Model for Remote Sensing
+
+- [labs-gpt-stac](https://github.com/developmentseed/labs-gpt-stac) -> connect ChatGPT to a STAC API backend
 
 #
 ## Foundational models
