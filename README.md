@@ -51,7 +51,7 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
 - Change detection
 - Time series
 - Crop classification
-- Crop yield
+- Crop yield & vegetation forecasting
 - Wealth and economic activity
 - Disaster response
 - Super-resolution
@@ -941,6 +941,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [BSB-Aerial-Dataset](https://github.com/osmarluiz/BSB-Aerial-Dataset) -> an example on how to use Detectron2's Panoptic-FPN in the BSB Aerial Dataset
 
 ### Segmentation - Miscellaneous
+
+- [seg-eval](https://github.com/itracasa/seg-eval) -> SegEval is a Python library that provides tools for evaluating semantic segmentation models. Generate evaluation regions and to analyze segmentation results within them.
 
 - [awesome-satellite-images-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation#satellite-images-segmentation)
 
@@ -2172,7 +2174,7 @@ Crop classification in remote sensing is the identification and mapping of diffe
 - [StressNet: A spatial-spectral-temporal deformable attention-based framework for water stress classification in maize](https://github.com/tejasri19/Stressnet) -> Water Stress Classification on Multispectral data of Maize captured by UAV
 
 #
-## Crop yield
+## Crop yield & vegetation forecasting
 
 <p align="center">
   <img src="images/yield.png" width="600">
@@ -2215,6 +2217,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 - [Yield-Prediction-DNN](https://github.com/saeedkhaki92/Yield-Prediction-DNN) -> Crop Yield Prediction Using Deep Neural Networks
 
 - [MMST-ViT](https://github.com/fudong03/MMST-ViT) -> MMST-ViT: Climate Change-aware Crop Yield Prediction via Multi-Modal Spatial-Temporal Vision Transformer. This paper utilizes the Tiny CropNet dataset
+
+- [Greenearthnet](https://github.com/vitusbenson/greenearthnet) -> Multi-modal learning for geospatial vegetation forecasting
 
 #
 ## Wealth and economic activity
@@ -2887,6 +2891,8 @@ Image retrieval is the task of retrieving images from a collection that are simi
 - [HydroViet_VOR](https://github.com/lannguyen0910/HydroViet_VOR) -> Object Retrieval in satellite images with Triplet Network
 
 - [AMFMN](https://github.com/AICyberTeam/AMFMN) -> Exploring a Fine-Grained Multiscale Method for Cross-Modal Remote Sensing Image Retrieval
+
+- [remote-sensing-image-retrieval](https://github.com/IBM/remote-sensing-image-retrieval) -> Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models (IBM Prithvi)
 
 # 
 ## Image Captioning
@@ -3574,6 +3580,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [awesome-remote-sensing-vision-language-models](https://github.com/lzw-lzw/awesome-remote-sensing-vision-language-models)
 
+- [Awesome-Remote-Sensing-Multimodal-Large-Language-Model](https://github.com/ZhanYang-nwpu/Awesome-Remote-Sensing-Multimodal-Large-Language-Model)
+
 - [Remote-Sensing-ChatGPT](https://github.com/HaonanGuo/Remote-Sensing-ChatGPT) -> an open source tool for solving remote sensing tasks with ChatGPT in an interactive way.
 
 - [ChangeCLIP](https://github.com/dyzy41/ChangeCLIP) -> ChangeCLIP: Remote sensing change detection with multimodal vision-language representation learning
@@ -3590,6 +3598,10 @@ Training data can be hard to acquire, particularly for rare events such as chang
 ## Foundational models
 
 - [Awesome Remote Sensing Foundation Models](https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models)
+
+- [hydro-foundation-model](https://github.com/isaaccorley/hydro-foundation-model) -> A Foundation Model for Water in Satellite Imagery
+
+- [RSBuilding](https://github.com/Meize0729/RSBuilding) -> Towards General Remote Sensing Image Building Extraction and Change Detection with Foundation Model
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
