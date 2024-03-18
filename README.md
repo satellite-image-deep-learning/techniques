@@ -610,6 +610,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 ### Segmentation - Roads & sidewalks
 Extracting roads is challenging due to the occlusions caused by other objects and the complex traffic environment
 
+- [ChesapeakeRSC](https://github.com/isaaccorley/ChesapeakeRSC) -> segmentation to extract roads from the background but are additionally evaluated by how they perform on the "Tree Canopy Over Road" class
+
 - [Road detection using semantic segmentation and albumentations for data augmention](https://towardsdatascience.com/road-detection-using-segmentation-models-and-albumentations-libraries-on-keras-d5434eaf73a8) using the Massachusetts Roads Dataset, U-net & Keras. With [code](https://github.com/Diyago/ML-DL-scripts/tree/master/DEEP%20LEARNING/segmentation/Segmentation%20pipeline)
 
 - [ML_EPFL_Project_2](https://github.com/LucasBrazCappelo/ML_EPFL_Project_2) -> U-Net in Pytorch to perform semantic segmentation of roads on satellite images
@@ -1667,6 +1669,8 @@ Regression in remote sensing involves predicting continuous variables such as wi
 
 - [GEDI-BDL](https://github.com/langnico/GEDI-BDL) -> Global canopy height regression and uncertainty estimation from GEDI LIDAR waveforms with deep ensembles
 
+- [HighResCanopyHeight](https://github.com/facebookresearch/HighResCanopyHeight) -> code for Meta paper: Very high resolution canopy height maps from RGB imagery using self-supervised vision transformer and convolutional decoder trained on Aerial Lidar
+
 - [Traffic density estimation as a regression problem instead of object detection](https://omdena.com/blog/ai-road-safety/) -> inspired by paper: Traffic density estimation method from small satellite imagery: Towards frequent remote sensing of car traffic
 
 - [OpticalWaveGauging_DNN](https://github.com/OpticalWaveGauging/OpticalWaveGauging_DNN) -> Optical wave gauging using deep neural networks
@@ -2715,6 +2719,8 @@ Data fusion is a technique for combining information from different sources such
 
 - [dfc2022-baseline](https://github.com/isaaccorley/dfc2022-baseline) -> baseline solution to the 2022 IEEE GRSS Data Fusion Contest (DFC2022) using TorchGeo, PyTorch Lightning, and Segmentation Models PyTorch to train a U-Net with a ResNet-18 backbone and a loss function of Focal + Dice loss to perform semantic segmentation on the DFC2022 dataset
 
+- [multiviewRS-models](https://github.com/fmenat/multiviewRS-models) -> List of multi-view fusion learning models proposed for remote sensing (RS) multi-view data
+
 #
 ## Generative networks
 
@@ -2854,6 +2860,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 - [Airbus_SDC_dup](https://github.com/WillieMaddox/Airbus_SDC_dup) -> Project focused on detecting duplicate regions of overlapping satellite imagery. Applied to Airbus ship detection dataset
 
 - [scale-mae](https://github.com/bair-climate-initiative/scale-mae) -> Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning
+
+- [Cross-Scale-MAE](https://github.com/aicip/Cross-Scale-MAE) -> code for paper: Cross-Scale MAE: A Tale of Multiscale Exploitation in Remote Sensing
 
 - [satclip](https://github.com/microsoft/satclip) -> A Global, General-Purpose Geographic Location Encoder from Microsoft
 
