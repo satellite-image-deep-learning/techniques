@@ -1814,6 +1814,8 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
 - [DeCloud-GAN](https://github.com/pixiedust18/DeCloud-GAN) -> DeCloud GAN: An Advanced Generative Adversarial Network for Removing Cloud Cover in Optical Remote Sensing Imagery
 
+- [cloud_segmentation_comparative](https://github.com/toelt-llc/cloud_segmentation_comparative) -> BenchCloudVision: A Benchmark Analysis of Deep Learning Approaches for Cloud Detection and Segmentation in Remote Sensing Imagery
+
 #
 ## Change detection
 
@@ -2998,6 +3000,8 @@ This is a class of techniques which attempt to make predictions for classes with
 
 - [SCCNet](https://github.com/linhanwang/SCCNet) -> Self-Correlation and Cross-Correlation Learning for Few-Shot Remote Sensing Image Semantic Segmentation
 
+- [OEM-Fewshot-Challenge](https://github.com/cliffbb/OEM-Fewshot-Challenge) -> OpenEarthMap Land Cover Mapping Few-Shot Challenge
+Generalized Few-shot Semantic Segmentation
 
 #
 ## Self-supervised, unsupervised & contrastive learning
