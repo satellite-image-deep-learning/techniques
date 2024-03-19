@@ -246,6 +246,8 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [SNN4Space](https://github.com/AndrzejKucik/SNN4Space) -> project which investigates the feasibility of deploying spiking neural networks (SNN) in land cover and land use classification tasks
 
+- [vessel-classification](https://github.com/GlobalFishingWatch/vessel-classification) -> classify vessels and identify fishing behavior based on AIS data
+
 
 # 
 ## Segmentation
