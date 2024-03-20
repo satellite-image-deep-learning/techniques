@@ -466,6 +466,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [A high-resolution canopy height model of the Earth](https://github.com/langnico/global-canopy-height-model#a-high-resolution-canopy-height-model-of-the-earth) -> A high-resolution canopy height model of the Earth
 
+- [Radiant Earth Spot the Crop Challenge](https://github.com/radiantearth/spot-the-crop-challenge) -> Winning models from the Radiant Earth Spot the Crop Challenge, uses a time-series of Sentinel-2 multispectral data to classify crops in the Western Cape of South Africa. [Another solution](https://github.com/DariusTheGeek/Radiant-Earth-Spot-the-Crop-XL-Challenge)
+
 ### Segmentation - Water, coastlines & floods
 
 - [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces
@@ -2224,6 +2226,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
 - [Greenearthnet](https://github.com/vitusbenson/greenearthnet) -> Multi-modal learning for geospatial vegetation forecasting
 
+- [crop-forecasting](https://github.com/association-rosia/crop-forecasting) -> Predicting rice field yields
+
 #
 ## Wealth and economic activity
 
@@ -3003,6 +3007,8 @@ This is a class of techniques which attempt to make predictions for classes with
 - [OEM-Fewshot-Challenge](https://github.com/cliffbb/OEM-Fewshot-Challenge) -> OpenEarthMap Land Cover Mapping Few-Shot Challenge
 Generalized Few-shot Semantic Segmentation
 
+- [meteor](https://github.com/MarcCoru/meteor) -> a small deep learning meta-model with a single output
+
 #
 ## Self-supervised, unsupervised & contrastive learning
 Self-supervised, unsupervised & contrastive learning are all methods of machine learning that use unlabeled data to train algorithms. Self-supervised learning uses labeled data to create an artificial supervisor, while unsupervised learning uses only the data itself to identify patterns and similarities. Contrastive learning uses pairs of data points to learn representations of data, usually for classification tasks. Note that self-supervised approaches are commonly used in the training of so-called Foundational models, since they enable learning from large quantities of unlablleded data, tyipcally time series.
@@ -3609,17 +3615,20 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [Clay Foundation Model](https://github.com/Clay-foundation/model) -> an open source AI model and interface for Earth.
 
-- [hydro-foundation-model](https://github.com/isaaccorley/hydro-foundation-model) -> A Foundation Model for Water in Satellite Imagery
-
-- [RSBuilding](https://github.com/Meize0729/RSBuilding) -> Towards General Remote Sensing Image Building Extraction and Change Detection with Foundation Model
-
-- [Prithvi foundation model](https://github.com/NASA-IMPACT/hls-foundation-os)
+- [Prithvi foundation model](https://github.com/NASA-IMPACT/hls-foundation-os) -> also see the [Baseline Model for Segmentation](https://github.com/ClarkCGA/multi-temporal-crop-classification-baseline)
 
 - [prithvi-pytorch](https://github.com/isaaccorley/prithvi-pytorch) -> makes Prithvi usable from Pytorch Lightning
 
 - [geo-bench](https://github.com/ServiceNow/geo-bench) -> a General Earth Observation benchmark for evaluating the performances of large pre-trained models on geospatial data
 
+- [USat](https://github.com/stanfordmlgroup/USat) -> A Unified Self-Supervised Encoder for Multi-Sensor Satellite Imagery
+
+- [hydro-foundation-model](https://github.com/isaaccorley/hydro-foundation-model) -> A Foundation Model for Water in Satellite Imagery
+
+- [RSBuilding](https://github.com/Meize0729/RSBuilding) -> Towards General Remote Sensing Image Building Extraction and Change Detection with Foundation Model
+
 - [Text2Seg](https://github.com/Douglas2Code/Text2Seg) ->  a pipeline that combined multiple Vision Foundation Models (SAM, CLIP, GroundingDINO) to perform semantic segmentation.
+
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
