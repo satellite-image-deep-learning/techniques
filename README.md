@@ -3607,9 +3607,19 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [Awesome Remote Sensing Foundation Models](https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models)
 
+- [Clay Foundation Model](https://github.com/Clay-foundation/model) -> an open source AI model and interface for Earth.
+
 - [hydro-foundation-model](https://github.com/isaaccorley/hydro-foundation-model) -> A Foundation Model for Water in Satellite Imagery
 
 - [RSBuilding](https://github.com/Meize0729/RSBuilding) -> Towards General Remote Sensing Image Building Extraction and Change Detection with Foundation Model
+
+- [Prithvi foundation model](https://github.com/NASA-IMPACT/hls-foundation-os)
+
+- [prithvi-pytorch](https://github.com/isaaccorley/prithvi-pytorch) -> makes Prithvi usable from Pytorch Lightning
+
+- [geo-bench](https://github.com/ServiceNow/geo-bench) -> a General Earth Observation benchmark for evaluating the performances of large pre-trained models on geospatial data
+
+- [Text2Seg](https://github.com/Douglas2Code/Text2Seg) ->  a pipeline that combined multiple Vision Foundation Models (SAM, CLIP, GroundingDINO) to perform semantic segmentation.
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
