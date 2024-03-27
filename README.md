@@ -2091,6 +2091,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [SAM-CD](https://github.com/ggsDing/SAM-CD) -> Adapting Segment Anything Model for Change Detection in HR Remote Sensing Images
 
+- [SCanNet](https://github.com/ggsDing/SCanNet) -> Joint Spatio-Temporal Modeling for Semantic Change Detection in Remote Sensing Images
+
 #
 ## Time series
 
@@ -3614,6 +3616,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [Awesome Remote Sensing Foundation Models](https://github.com/Jack-bo1220/Awesome-Remote-Sensing-Foundation-Models)
 
 - [Clay Foundation Model](https://github.com/Clay-foundation/model) -> an open source AI model and interface for Earth.
+
+- [DOFA-pytorch](https://github.com/ShadowXZT/DOFA-pytorch) -> Dynamic One-For-All (DOFA) multimodal foundation models for Earth vision reference implementation.
 
 - [Prithvi foundation model](https://github.com/NASA-IMPACT/hls-foundation-os) -> also see the [Baseline Model for Segmentation](https://github.com/ClarkCGA/multi-temporal-crop-classification-baseline)
 
