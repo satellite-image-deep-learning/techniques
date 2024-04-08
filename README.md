@@ -473,6 +473,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [transfer-field-delineation](https://github.com/kerner-lab/transfer-field-delineation) -> Multi-Region Transfer Learning for Segmentation of Crop Field Boundaries in Satellite Images with Limited Labels
 
+- [mowing-detection](https://github.com/lucas-batier/mowing-detection) -> Automatic detection of mowing and grazing from Sentinel images
+
 ### Segmentation - Water, coastlines & floods
 
 - [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces
@@ -2489,6 +2491,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 - [FunSR](https://github.com/KyanChen/FunSR) -> cContinuous Remote Sensing Image Super-Resolution based on Context Interaction in Implicit Function Space
 
 - [HAUNet_RSISR](https://github.com/likakakaka/HAUNet_RSISR) -> Hybrid Attention-Based U-Shaped Network for Remote Sensing Image Super-Resolution
+
+- [L1BSR](https://github.com/centreborelli/L1BSR) -> Exploiting Detector Overlap for Self-Supervised SISR of Sentinel-2 L1B Imagery
 
 ### Super-resolution - Miscellaneous
 
