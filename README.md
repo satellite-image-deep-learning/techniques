@@ -2841,8 +2841,6 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [Image search with 🤗 datasets](https://huggingface.co/blog/image-search-datasets) -> tutorial on fine tuning an image search model
 
-- [SynImageAnalysis](https://github.com/FlorenceJiang/SynImageAnalysis) -> comparing synthetic and real satellite images in the latent feature space (embeddings)
-
 - [GRN-SNDL](https://github.com/jiankang1991/GRN-SNDL) -> model the relations between samples (or scenes) by making use of a graph structure which is fed into network learning
 
 - [SauMoCo](https://github.com/jiankang1991/SauMoCo) -> Deep Unsupervised Embedding for Remotely Sensed Images Based on Spatially Augmented Momentum Contrast
