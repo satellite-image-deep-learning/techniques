@@ -248,6 +248,7 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [vessel-classification](https://github.com/GlobalFishingWatch/vessel-classification) -> classify vessels and identify fishing behavior based on AIS data
 
+- [RSMamba](https://github.com/KyanChen/RSMamba) -> Remote Sensing Image Classification with State Space Model
 
 # 
 ## Segmentation
@@ -347,6 +348,8 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 ### Segmentation - Vegetation, deforestation, crops & crop boundaries
 
 Note that deforestation detection may be treated as a segmentation task or a change detection task
+
+- [DetecTree](https://github.com/martibosch/detectree) -> Tree detection from aerial imagery in Python, a LightGBM classifier of tree/non-tree pixels from aerial imagery
 
 - [Сrор field boundary detection: approaches and main challenges](https://medium.com/geekculture/%D1%81r%D0%BE%D1%80-field-boundary-detection-approaches-and-main-challenges-46e37dd276bc) -> Medium article, covering historical and modern approaches
 
@@ -467,6 +470,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [A high-resolution canopy height model of the Earth](https://github.com/langnico/global-canopy-height-model#a-high-resolution-canopy-height-model-of-the-earth) -> A high-resolution canopy height model of the Earth
 
 - [Radiant Earth Spot the Crop Challenge](https://github.com/radiantearth/spot-the-crop-challenge) -> Winning models from the Radiant Earth Spot the Crop Challenge, uses a time-series of Sentinel-2 multispectral data to classify crops in the Western Cape of South Africa. [Another solution](https://github.com/DariusTheGeek/Radiant-Earth-Spot-the-Crop-XL-Challenge)
+
+- [transfer-field-delineation](https://github.com/kerner-lab/transfer-field-delineation) -> Multi-Region Transfer Learning for Segmentation of Crop Field Boundaries in Satellite Images with Limited Labels
 
 ### Segmentation - Water, coastlines & floods
 
@@ -873,6 +878,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 
 ### Segmentation - Solar panels
+
+- [Deep-Learning-for-Solar-Panel-Recognition](https://github.com/saizk/Deep-Learning-for-Solar-Panel-Recognition) -> using both object detection with Yolov5 and Unet segmentation
 
 - [DeepSolar](https://github.com/wangzhecheng/DeepSolar) -> A Machine Learning Framework to Efficiently Construct a Solar Deployment Database in the United States. [Dataset on kaggle](https://www.kaggle.com/datasets/tunguz/deep-solar-dataset), actually used a CNN for classification and segmentation is obtained by applying a threshold to the activation map. Original code is tf1 but [tf2/kers](https://github.com/aidan-fitz/deepsolar-v2) and a [pytorch implementation](https://github.com/wangzhecheng/deepsolar_pytorch) are available. Also checkout [Visualizations and in-depth analysis .. of the factors that can explain the adoption of solar energy in ..  Virginia](https://github.com/bessammehenni/DeepSolar_adoption_Virginia) and [DeepSolar tracker: towards unsupervised assessment with open-source data of the accuracy of deep learning-based distributed PV mapping](https://github.com/gabrielkasmi/dsfrance)
 
@@ -1445,6 +1452,7 @@ Detecting the most noticeable or important object in a scene
 - [Vehicle Detection blog post](https://www.silvispace.xyz/posts/vehicle-post/) by Grant Pearse: detecting vehicles across New Zealand without collecting local training data
 
 ### Object detection - Planes & aircraft
+- [FlightScope_Bench](https://github.com/toelt-llc/FlightScope_Bench) -> A Deep Comprehensive Assessment of Aircraft Detection Algorithms in Satellite Imagery, including Faster RCNN, DETR, SSD, RTMdet, RetinaNet, CenterNet, YOLOv5, and YOLOv8
 
 - [Faster RCNN to detect airplanes](https://github.com/ShubhankarRawat/Airplane-Detection-for-Satellites)
 
@@ -1818,6 +1826,10 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
 - [cloud_segmentation_comparative](https://github.com/toelt-llc/cloud_segmentation_comparative) -> BenchCloudVision: A Benchmark Analysis of Deep Learning Approaches for Cloud Detection and Segmentation in Remote Sensing Imagery
 
+- [PLFM-Clouds-Removal](https://github.com/alessandrosebastianelli/PLFM-Clouds-Removal) -> Spatio-Temporal SAR-Optical Data Fusion for Cloud Removal via a Deep Hierarchical Model
+
+- [Cloud-removal-model-collection](https://github.com/littlebeen/Cloud-removal-model-collection) -> A collection of the existing end-to-end cloud removal models
+
 #
 ## Change detection
 
@@ -2093,6 +2105,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [SCanNet](https://github.com/ggsDing/SCanNet) -> Joint Spatio-Temporal Modeling for Semantic Change Detection in Remote Sensing Images
 
+- [ELGC-Net](https://github.com/techmn/elgcnet) -> Efficient Local-Global Context Aggregation for Remote Sensing Change Detection
+
 #
 ## Time series
 
@@ -2143,6 +2157,8 @@ The analysis of time series observations in remote sensing data has numerous app
 - [Presto](https://github.com/nasaharvest/presto) -> Lightweight, Pre-trained Transformers for Remote Sensing Timeseries
 
 - [LULC mapping using time series data & spectral bands](https://github.com/developmentseed/time-series-for-lulc) -> uses 1D convolutions that learn from time-series data. Accompanies blog post: [Time-Traveling Pixels: A Journey into Land Use Modeling](https://developmentseed.org/blog/2023-06-29-time-travel-pixels)
+
+- [hurricane-net](https://github.com/hammad93/hurricane-net) -> A deep learning framework for forecasting Atlantic hurricane trajectory and intensity.
 
 #
 ## Crop classification
@@ -2954,6 +2970,8 @@ Visual Question Answering (VQA) is the task of automatically answering a natural
 
 - [lit4rsvqa](https://git.tu-berlin.de/rsim/lit4rsvqa) -> LiT-4-RSVQA: Lightweight Transformer-based Visual Question Answering in Remote Sensing
 
+- [Change-Agent](https://github.com/Chen-Yang-Liu/Change-Agent) -> Towards Interactive Comprehensive Remote Sensing Change Interpretation and Analysis
+
 #
 ## Mixed data learning
 Mixed data learning is the process of learning from datasets that may contain an mix of images, textual and numeric data. Mixed data learning can help improve the accuracy of models by allowing them to learn from multiple sources at once and use more sophisticated methods to identify patterns and correlations.
@@ -3396,9 +3414,11 @@ Thermal infrared remote sensing is a technique used to detect and measure therma
 
 SAR (synthetic aperture radar) is used to detect and measure the properties of objects and surfaces on the Earth's surface. SAR can be used to detect changes in terrain, features, and objects over time, as well as to measure the size, shape, and composition of objects and surfaces. SAR can also be used to measure moisture levels in soil and vegetation, or to detect and monitor changes in land use.
 
-- [awesome-sar](https://github.com/RadarCODE/awesome-sar) -> A curated list of awesome Synthetic Aperture Radar (SAR) software, libraries, and resources
+- [awesome-sar](https://github.com/RadarCODE/awesome-sar)
 
-- [Removing speckle noise from Sentinel-1 SAR using a CNN](https://medium.com/upstream/denoising-sentinel-1-radar-images-5f764faffb3e)
+- [awesome-sar-deep-learning](https://github.com/neeraj3029/awesome-sar-deep-learning)
+
+- [MERLIN](https://gitlab.telecom-paris.fr/ring/MERLIN) -> self-supervised training of deep despeckling networks with MERLIN
 
 - [You do not need clean images for SAR despeckling with deep learning](https://towardsdatascience.com/you-do-not-need-clean-images-for-sar-despeckling-with-deep-learning-fe9c44350b69) -> How Speckle2Void learned to stop worrying and love the noise
 
@@ -3610,6 +3630,10 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [labs-gpt-stac](https://github.com/developmentseed/labs-gpt-stac) -> connect ChatGPT to a STAC API backend
 
+- [EarthGPT](https://github.com/wivizhang/EarthGPT) -> A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain
+
+- [H2RSVLM](https://github.com/opendatalab/H2RSVLM) -> Towards Helpful and Honest Remote Sensing Large Vision Language Model
+
 #
 ## Foundational models
 
@@ -3617,7 +3641,9 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [Clay Foundation Model](https://github.com/Clay-foundation/model) -> an open source AI model and interface for Earth.
 
-- [DOFA-pytorch](https://github.com/ShadowXZT/DOFA-pytorch) -> Dynamic One-For-All (DOFA) multimodal foundation models for Earth vision reference implementation.
+- [SpectralGPT](https://github.com/danfenghong/IEEE_TPAMI_SpectralGPT) -> Spectral remote sensing foundation model, with finetuning on classification, segmentation, and change detection tasks
+
+- [DOFA-pytorch](https://github.com/ShadowXZT/DOFA-pytorch) -> Dynamic One-For-All (DOFA) multimodal foundation models for Earth vision reference implementation. Also see [DOFA](https://github.com/zhu-xlab/DOFA)
 
 - [Prithvi foundation model](https://github.com/NASA-IMPACT/hls-foundation-os) -> also see the [Baseline Model for Segmentation](https://github.com/ClarkCGA/multi-temporal-crop-classification-baseline)
 
