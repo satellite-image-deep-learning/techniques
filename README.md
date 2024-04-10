@@ -10,9 +10,10 @@
 </div>
 
 ## Introduction
-Deep learning has revolutionized the analysis and interpretation of satellite and aerial imagery, addressing unique challenges such as vast image sizes and a wide array of object classes. This repository provides an exhaustive overview of deep learning techniques specifically tailored for satellite and aerial image processing. It covers a range of architectures, models, and algorithms suited for key tasks like classification, segmentation, and object detection. 
 
-**How to use this repository:** use `Command + F` (Mac) or `CTRL + F` (Windows) to search this page, and note that searching [the raw markdown file](https://raw.githubusercontent.com/satellite-image-deep-learning/techniques/master/README.md) can be more effective
+Deep learning has revolutionized the analysis and interpretation of satellite and aerial imagery, addressing unique challenges such as vast image sizes and a wide array of object classes. This repository provides an exhaustive overview of deep learning techniques specifically tailored for satellite and aerial image processing. It covers a range of architectures, models, and algorithms suited for key tasks like classification, segmentation, and object detection.
+
+**How to use this repository:** use `Command + F` (Mac) or `CTRL + F` (Windows) to search this page for e.g. 'SAM'
 
 #
 
@@ -36,7 +37,6 @@ Orbuculum's potential extends far beyond the reinvention of the GIS/EO research 
 <!-- markdown-link-check-enable -->
 
 #
-
 
 
 ## Techniques
@@ -711,6 +711,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [AerialLaneNet](https://github.com/Jiawei-Yao0812/AerialLaneNet) -> Building Lane-Level Maps from Aerial Images, introduces the AErial Lane (AEL) Dataset: a first large-scale aerial image dataset built for lane detection
   
+- [sam_road](https://github.com/htcr/sam_road) -> Segment Anything Model (SAM) for large-scale, vectorized road network extraction from aerial imagery.
 
 ### Segmentation - Buildings & rooftops
 
@@ -878,6 +879,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [Thesis_Semantic_Image_Segmentation_on_Satellite_Imagery_using_UNets](https://github.com/rinkwitz/Thesis_Semantic_Image_Segmentation_on_Satellite_Imagery_using_UNets) -> This master thesis aims to perform semantic segmentation of buildings on satellite images from the SpaceNet challenge 1 dataset using the U-Net architecture
 
+- [HD-Net](https://github.com/danfenghong/ISPRS_HD-Net) -> High-resolution decoupled network for building footprint extraction via deeply supervised body and boundary decomposition
 
 ### Segmentation - Solar panels
 
@@ -2109,6 +2111,10 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [ELGC-Net](https://github.com/techmn/elgcnet) -> Efficient Local-Global Context Aggregation for Remote Sensing Change Detection
 
+- [Official_Remote_Sensing_Mamba](https://github.com/walking-shadow/Official_Remote_Sensing_Mamba) -> RS-Mamba for Large Remote Sensing Image Dense Prediction
+
+- [ChangeMamba](https://github.com/ChenHongruixuan/MambaCD) -> Remote Sensing Change Detection with Spatio-Temporal State Space Model
+
 #
 ## Time series
 
@@ -2198,6 +2204,8 @@ Crop classification in remote sensing is the identification and mapping of diffe
 - [Detection of manure application on crop fields leveraging satellite data and Machine Learning](https://github.com/Amatofrancesco99/master-thesis)
 
 - [StressNet: A spatial-spectral-temporal deformable attention-based framework for water stress classification in maize](https://github.com/tejasri19/Stressnet) -> Water Stress Classification on Multispectral data of Maize captured by UAV
+
+- [XAI4EO](https://github.com/adelabbs/XAI4EO) -> Towards Explainable AI4EO: an explainable DL approach for crop type mapping using SITS
 
 #
 ## Crop yield & vegetation forecasting
