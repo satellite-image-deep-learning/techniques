@@ -2789,8 +2789,6 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
 
 - [ds-gan-spatiotemporal-evaluation](https://github.com/Cervest/ds-gan-spatiotemporal-evaluation) -> evaluating use of deep generative models in remote sensing applications
 
-- [pub-ffi-gan](https://github.com/awweide/pub-ffi-gan) -> Applying generative adversarial networks for anomaly detection in hyperspectral remote sensing imagery
-
 - [GAN-based method to generate high-resolution remote sensing for data augmentation and image classification](https://github.com/weihancug/GAN-based-HRRS-Sample-Generation-for-Image-Classification)
 
 - [Remote-Sensing-Image-Generation](https://github.com/aashishrai3799/Remote-Sensing-Image-Generation) -> Generate RS Images using Generative Adversarial Networks (GAN)
@@ -2907,6 +2905,8 @@ Anomaly detection refers to the process of identifying unusual patterns or outli
 - [TDD](https://github.com/Jingtao-Li-CVer/TDD) -> One-Step Detection Paradigm for Hyperspectral Anomaly Detection via Spectral Deviation Relationship Learning
 
 - [anomaly-detection-in-SAR-imagery](https://github.com/iamyadavabhishek/anomaly-detection-in-SAR-imagery) -> identify an unknown ship in docks using keras & retinanet
+
+- [pub-ffi-gan](https://github.com/awweide/pub-ffi-gan) -> Applying generative adversarial networks for anomaly detection in hyperspectral remote sensing imagery
 
 #
 ## Image retrieval
