@@ -3649,6 +3649,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [Clay Foundation Model](https://github.com/Clay-foundation/model) -> an open source AI model and interface for Earth.
 
+- [EarthPT](https://github.com/aspiaspace/earthPT) -> A time series foundation model for Earth Observation
+
 - [SpectralGPT](https://github.com/danfenghong/IEEE_TPAMI_SpectralGPT) -> Spectral remote sensing foundation model, with finetuning on classification, segmentation, and change detection tasks
 
 - [DOFA-pytorch](https://github.com/ShadowXZT/DOFA-pytorch) -> Dynamic One-For-All (DOFA) multimodal foundation models for Earth vision reference implementation. Also see [DOFA](https://github.com/zhu-xlab/DOFA)
