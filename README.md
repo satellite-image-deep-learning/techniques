@@ -251,6 +251,8 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [RSMamba](https://github.com/KyanChen/RSMamba) -> Remote Sensing Image Classification with State Space Model
 
+- [BirdSAT](https://github.com/mvrl/BirdSAT) -> Cross-View Contrastive Masked Autoencoders for Bird Species Classification and Mapping
+
 # 
 ## Segmentation
 
@@ -1096,6 +1098,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [HR-Image-classification_SDF2N](https://github.com/SicongLiuRS/HR-Image-classification_SDF2N) -> A Shallow-to-Deep Feature Fusion Network for VHR Remote Sensing Image Classification
 
+- [sink-seg](https://github.com/mvrl/sink-seg) -> Automatic Segmentation of Sinkholes Using a Convolutional Neural Network
+
 #
 ## Instance segmentation
 
@@ -1461,8 +1465,6 @@ Detecting the most noticeable or important object in a scene
 
 - [aircraft-detection](https://github.com/hakeemtfrank/aircraft-detection) -> experiments to test the performance of a Gaussian process (GP) classifier with various kernels on the UC Merced land use land cover (LULC) dataset
 
-- [Using Detectron2 to segment aircraft from satellite imagery](https://share.buitrongan.com/using-detectron2-to-segments-aircraft-from-satellite-images-5a8ac1a0d35e) -> pytorch and Rare Planes
-
 - [aircraft-detection-from-satellite-images-yolov3](https://github.com/emrekrtorun/aircraft-detection-from-satellite-images-yolov3) -> trained on kaggle cgi-planes-in-satellite-imagery-w-bboxes dataset
 
 - [HRPlanesv2-Data-Set](https://github.com/dilsadunsal/HRPlanesv2-Data-Set) -> YOLOv4 and YOLOv5 weights trained on the HRPlanesv2 dataset
@@ -1693,6 +1695,8 @@ Regression in remote sensing involves predicting continuous variables such as wi
 - [Tropical Cyclone Wind Estimation Competition](https://mlhub.earth/10.34911/rdnt.xs53up) -> on RadiantEarth MLHub
 
 - [DengueNet](https://github.com/mimikuo365/DengueNet-IJCAI) -> DengueNet: Dengue Prediction using Spatiotemporal Satellite Imagery for Resource-Limited Countries
+
+- [tropical_cyclone_uq](https://github.com/nilsleh/tropical_cyclone_uq) -> Uncertainty Aware Tropical Cyclone Wind Speed Estimation from Satellite Data
 
 #
 ## Cloud detection & removal
