@@ -2257,6 +2257,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
 - [crop-forecasting](https://github.com/association-rosia/crop-forecasting) -> Predicting rice field yields
 
+- [SICKLE](https://github.com/Depanshu-Sani/SICKLE) -> A Multi-Sensor Satellite Imagery Dataset Annotated with Multiple Key Cropping Parameters. Basline solutions: U-TAE, U-Net3D and ConvLSTM
+
 #
 ## Wealth and economic activity
 
@@ -3664,7 +3666,7 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [SpectralGPT](https://github.com/danfenghong/IEEE_TPAMI_SpectralGPT) -> Spectral remote sensing foundation model, with finetuning on classification, segmentation, and change detection tasks
 
-- [DOFA-pytorch](https://github.com/ShadowXZT/DOFA-pytorch) -> Dynamic One-For-All (DOFA) multimodal foundation models for Earth vision reference implementation. Also see [DOFA](https://github.com/zhu-xlab/DOFA)
+- [DOFA-pytorch](https://github.com/zhu-xlab/DOFA) -> Dynamic One-For-All (DOFA) multimodal foundation models for Earth vision reference implementation
 
 - [Prithvi foundation model](https://github.com/NASA-IMPACT/hls-foundation-os) -> also see the [Baseline Model for Segmentation](https://github.com/ClarkCGA/multi-temporal-crop-classification-baseline)
 
