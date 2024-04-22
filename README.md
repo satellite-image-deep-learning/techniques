@@ -1700,8 +1700,6 @@ Regression in remote sensing involves predicting continuous variables such as wi
 
 - [tropical_cyclone_uq](https://github.com/nilsleh/tropical_cyclone_uq) -> Uncertainty Aware Tropical Cyclone Wind Speed Estimation from Satellite Data
 
-- [Hurricane_Wind_Speed_Prediction](https://github.com/ALAG11/Hurricane-Wind-Speed-Prediction.git) -> Machine learning model designed to predict hurricane wind speeds. The model is trained on historical hurricane data and utilizes convolutional neural networks (cnn) for prediction.
-
 #
 ## Cloud detection & removal
 
