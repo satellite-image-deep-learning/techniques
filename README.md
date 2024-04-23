@@ -1102,6 +1102,10 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [sink-seg](https://github.com/mvrl/sink-seg) -> Automatic Segmentation of Sinkholes Using a Convolutional Neural Network
 
+- [Tiling and Stitching Segmentation Output for Remote Sensing: Basic Challenges and Recommendations](https://arxiv.org/abs/1805.12219)
+
+- [EMRT](https://github.com/peach-xiao/EMRT) -> Enhancing Multiscale Representations With Transformer for Remote Sensing Image Semantic Segmentation
+
 #
 ## Instance segmentation
 
@@ -1361,8 +1365,6 @@ Detecting the most noticeable or important object in a scene
 - [Object Detection in Satellite Imagery, a Low Overhead Approach](https://medium.com/the-downlinq/object-detection-in-satellite-imagery-a-low-overhead-approach-part-i-cbd96154a1b7)
 
 - [Detecting Ships in Satellite Imagery](https://medium.com/dataseries/detecting-ships-in-satellite-imagery-7f0ca04e7964) using the Planet dataset and Keras
-
-- [Planet use non DL felzenszwalb algorithm to detect ships](https://github.com/planetlabs/notebooks/blob/master/jupyter-notebooks/ship-detector/01_ship_detector.ipynb)
 
 - [Ship detection using k-means clustering & CNN classifier on patches](https://towardsdatascience.com/data-science-and-satellite-imagery-985229e1cd2f)
 
@@ -2117,6 +2119,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 - [Official_Remote_Sensing_Mamba](https://github.com/walking-shadow/Official_Remote_Sensing_Mamba) -> RS-Mamba for Large Remote Sensing Image Dense Prediction
 
 - [ChangeMamba](https://github.com/ChenHongruixuan/MambaCD) -> Remote Sensing Change Detection with Spatio-Temporal State Space Model
+
+- [ClearSCD](https://github.com/tangkai-RS/ClearSCD) -> Comprehensively leveraging semantics and change relationships for semantic change detection in high spatial resolution remote sensing imagery
 
 #
 ## Time series
@@ -3530,6 +3534,8 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 - [XAI4SAR-PGIL](https://github.com/Alien9427/XAI4SAR-PGIL) -> Physically Explainable CNN for SAR Image Classification
 
 - [PolSARFormer](https://github.com/aj1365/PolSARFormer) -> Local Window Attention Transformer for Polarimetric SAR Image Classification
+
+- [DC4Flood](https://github.com/Kasra2020/DC4Flood) -> A deep clustering framework for rapid flood detection using Sentinel-1 SAR imagery
 
 #
 ## NDVI - vegetation index
