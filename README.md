@@ -3673,6 +3673,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [H2RSVLM](https://github.com/opendatalab/H2RSVLM) -> Towards Helpful and Honest Remote Sensing Large Vision Language Model
 
+- [LLMs & FMs in Smart Agriculture](https://arxiv.org/pdf/2308.06668) -> Large Language Models and Foundation Models in Smart Agriculture: Basics, Opportunities, and Challenges
+
 #
 ## Foundational models
 
