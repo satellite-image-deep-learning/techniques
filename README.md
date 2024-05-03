@@ -1356,7 +1356,7 @@ Detecting the most noticeable or important object in a scene
 
 - [mappingchallenge](https://github.com/krishanr/mappingchallenge) -> YOLOv5 applied to the AICrowd Mapping Challenge dataset
 
-### Object detection - Ships & boats
+### Object detection - Ships, boats, vessels & wake
 
 - [kaggle-ships-in-Google-Earth-yolov5](https://github.com/robmarkcole/kaggle-ships-in-Google-Earth-yolov5) -> Applying YOLOv5 to Kaggle Ships in Google Earth dataset
 
@@ -1431,6 +1431,8 @@ Detecting the most noticeable or important object in a scene
 - [xView3-The-First-Place-Solution](https://github.com/BloodAxe/xView3-The-First-Place-Solution) -> A winning solution for [xView 3](https://iuu.xview.us/) challenge (Vessel detection, classification and length estimation on Sentinetl-1 images). Contains trained models, inference pipeline and training code & configs to reproduce the results.
 
 - [vessel-detection-viirs](https://github.com/allenai/vessel-detection-viirs) -> Model and service code for streaming vessel detections from VIIRS satellite imagery
+
+- [wakemodel_llmassist](https://github.com/pbeukema/wakemodel_llmassist) -> wake detection in Sentinel-2, uses an EfficientNet-B0 architecture adapted for keypoint detection
 
 ### Object detection - Cars, vehicles & trains
 
@@ -1839,6 +1841,8 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
 - [Cloud-removal-model-collection](https://github.com/littlebeen/Cloud-removal-model-collection) -> A collection of the existing end-to-end cloud removal models
 
+- [SEnSeIv2](https://github.com/aliFrancis/SEnSeIv2) -> Sensor Independent Cloud and Shadow Masking with Ambiguous Labels and Multimodal Inputs
+
 #
 ## Change detection
 
@@ -2121,6 +2125,10 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 - [ChangeMamba](https://github.com/ChenHongruixuan/MambaCD) -> Remote Sensing Change Detection with Spatio-Temporal State Space Model
 
 - [ClearSCD](https://github.com/tangkai-RS/ClearSCD) -> Comprehensively leveraging semantics and change relationships for semantic change detection in high spatial resolution remote sensing imagery
+
+- [RSCaMa](https://github.com/Chen-Yang-Liu/RSCaMa) -> Remote Sensing Image Change Captioning with State Space Model
+
+- [ChangeBind](https://github.com/techmn/changebind) -> A Hybrid Change Encoder for Remote Sensing Change Detection
 
 #
 ## Time series
@@ -2424,6 +2432,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 - [MISR Remote Sensing SRGAN](https://github.com/simon-donike/Remote-Sensing-SRGAN) -> PyTorch SRGAN for RGB Remote Sensing imagery, performing both SISR and MISR. MISR implementation inspired by RecursiveNet (HighResNet). Includes pretrained Checkpoints.
 
 ### Single image super-resolution (SISR)
+
+- [sentinel2_superresolution](https://github.com/Evoland-Land-Monitoring-Evolution/sentinel2_superresolution) -> Super-resolution of 10 Sentinel-2 bands to 5-meter resolution, starting from L1C or L2A (Theia format) products. Trained on Sen2Venµs
 
 - [Super Resolution for Satellite Imagery - srcnn repo](https://github.com/WarrenGreen/srcnn)
 
