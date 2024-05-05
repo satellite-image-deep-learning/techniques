@@ -253,6 +253,8 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [BirdSAT](https://github.com/mvrl/BirdSAT) -> Cross-View Contrastive Masked Autoencoders for Bird Species Classification and Mapping
 
+- [EGNNA_WND](https://github.com/stevinc/EGNNA_WND) -> Estimating the presence of the West Nile Disease employing Graph Neural network
+
 # 
 ## Segmentation
 
@@ -478,6 +480,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [mowing-detection](https://github.com/lucas-batier/mowing-detection) -> Automatic detection of mowing and grazing from Sentinel images
 
+- [An improved Forest change detection in Sentinel-2 satellite images using Attention Residual U-Net](https://github.com/kkalinaki/Improved-Attention-Residual-U-Net-For-Forest-change-detection)
+
 ### Segmentation - Water, coastlines & floods
 
 - [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces
@@ -620,6 +624,7 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [STARCOP: Semantic Segmentation of Methane Plumes with Hyperspectral Machine Learning models](https://github.com/spaceml-org/STARCOP)
 
+- [asos](https://gitlab.jsc.fz-juelich.de/kiste/asos) -> Recognizing protected and anthropogenic patterns in landscapes using interpretable machine learning and satellite imagery
 
 ### Segmentation - Roads & sidewalks
 Extracting roads is challenging due to the occlusions caused by other objects and the complex traffic environment
@@ -932,6 +937,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [Solar_UNet](https://github.com/mjevans26/Solar_UNet) -> U-Net models delineating solar arrays in Sentinel-2 imagery
 
+- [SolarDetection-solafune](https://github.com/bit-guber/SolarDetection-solafune) -> Solar Panel Detection Using Sentinel-2 for the Solafune Competition
+
 ### Segmentation - Other manmade
 
 - [Aarsh2001/ML_Challenge_NRSC](https://github.com/Aarsh2001/ML_Challenge_NRSC) -> Electrical Substation detection
@@ -946,7 +953,9 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [EG-UNet](https://github.com/tist0bsc/EG-UNet) Deep Feature Enhancement Method for Land Cover With Irregular and Sparse Spatial Distribution Features: A Case Study on Open-Pit Mining
 
-- [mados](https://github.com/gkakogeorgiou/mados) -> Detecting Marine Pollutants and Sea Surface Features with Deep Learning in Sentinel-2 Imagery
+- [MADOS](https://github.com/gkakogeorgiou/mados) -> Detecting Marine Pollutants and Sea Surface Features with Deep Learning in Sentinel-2 Imagery on the MADOS dataset
+
+- [SADMA](https://github.com/sheikhazhanmohammed/SADMA) -> Residual Attention UNet on MARIDA: Marine Debris Archive is a marine debris-oriented dataset on Sentinel-2 satellite images
 
 ### Panoptic segmentation
 
@@ -1105,6 +1114,10 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [Tiling and Stitching Segmentation Output for Remote Sensing: Basic Challenges and Recommendations](https://arxiv.org/abs/1805.12219)
 
 - [EMRT](https://github.com/peach-xiao/EMRT) -> Enhancing Multiscale Representations With Transformer for Remote Sensing Image Semantic Segmentation
+
+- [UDA_for_RS](https://github.com/Levantespot/UDA_for_RS) -> Unsupervised Domain Adaptation for Remote Sensing Semantic Segmentation with Transformer
+
+- [CMTFNet](https://github.com/DrWuHonglin/CMTFNet) -> CMTFNet: CNN and Multiscale Transformer Fusion Network for Remote Sensing Image Semantic Segmentation
 
 #
 ## Instance segmentation
@@ -1461,6 +1474,8 @@ Detecting the most noticeable or important object in a scene
 - [Vehicle-Counting-in-Very-Low-Resolution-Aerial-Images](https://github.com/hbsszq/Vehicle-Counting-in-Very-Low-Resolution-Aerial-Images) -> Vehicle Counting in Very Low-Resolution Aerial Images via Cross-Resolution Spatial Consistency and Intraresolution Time Continuity
 
 - [Vehicle Detection blog post](https://www.silvispace.xyz/posts/vehicle-post/) by Grant Pearse: detecting vehicles across New Zealand without collecting local training data
+
+- [detecting-trucks](https://github.com/datasciencecampus/detecting-trucks) -> detecting large vehicles in Sentinel-2
 
 ### Object detection - Planes & aircraft
 - [FlightScope_Bench](https://github.com/toelt-llc/FlightScope_Bench) -> A Deep Comprehensive Assessment of Aircraft Detection Algorithms in Satellite Imagery, including Faster RCNN, DETR, SSD, RTMdet, RetinaNet, CenterNet, YOLOv5, and YOLOv8
@@ -1843,6 +1858,8 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
 - [SEnSeIv2](https://github.com/aliFrancis/SEnSeIv2) -> Sensor Independent Cloud and Shadow Masking with Ambiguous Labels and Multimodal Inputs
 
+- [cloud-detection-venus](https://github.com/pesekon2/cloud-detection-venus) -> Using Convolutional Neural Networks for Cloud Detection on VENμS Images over Multiple Land-Cover Types
+
 #
 ## Change detection
 
@@ -2129,6 +2146,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 - [RSCaMa](https://github.com/Chen-Yang-Liu/RSCaMa) -> Remote Sensing Image Change Captioning with State Space Model
 
 - [ChangeBind](https://github.com/techmn/changebind) -> A Hybrid Change Encoder for Remote Sensing Change Detection
+
+- [OctaveNet](https://github.com/farhadinima75/OctaveNet) -> An efficient multi-scale pseudo-siamese network for change detection in remote sensing images
 
 #
 ## Time series
@@ -2430,6 +2449,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 - [satlas-super-resolution](https://github.com/allenai/satlas-super-resolution) -> Satlas Super Resolution: model is an adaptation of ESRGAN, with changes that allow the input to be a time series of Sentinel-2 images.
 
 - [MISR Remote Sensing SRGAN](https://github.com/simon-donike/Remote-Sensing-SRGAN) -> PyTorch SRGAN for RGB Remote Sensing imagery, performing both SISR and MISR. MISR implementation inspired by RecursiveNet (HighResNet). Includes pretrained Checkpoints.
+
+- [MISR-S2](https://github.com/aimiokab/MISR-S2) -> Cross-sensor super-resolution of irregularly sampled Sentinel-2 time series
 
 ### Single image super-resolution (SISR)
 
@@ -3167,6 +3188,8 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 
 - [GFM](https://github.com/mmendiet/GFM) -> Towards Geospatial Foundation Models via Continual Pretraining
 
+- [SatViT](https://github.com/antofuller/SatViT) -> self-supervised training of multispectral optical and SAR vision transformers
+
 #
 ## Weakly & semi-supervised learning
 
@@ -3249,21 +3272,6 @@ Federated learning is an approach to distributed machine learning where a centra
 - [Semantic-Segmentation-UNet-Federated](https://github.com/PratikGarai/Semantic-Segmentation-UNet-Federated) -> FedUKD: Federated UNet Model with Knowledge Distillation for Land Use Classification from Satellite and Street Views
 
 - [MM-FL](https://git.tu-berlin.de/rsim/MM-FL) -> Learning Across Decentralized Multi-Modal Remote Sensing Archives with Federated Learning
-
-#
-## Transformers
-
-Vision transformers are state-of-the-art models for vision tasks such as image classification and object detection. They differ from CNNs as they use self-attention instead of convolution to learn global relations between all pixels in the image. Vision transformers employ a transformer encoder architecture, composed of multi-layer blocks with multi-head self-attention and feed-forward layers, enabling the capture of rich contextual information for more accurate predictions.
-
-- [Transformer-in-Remote-Sensing](https://github.com/VIROBO-15/Transformer-in-Remote-Sensing) -> Transformers in Remote Sensing: A Survey
-
-- [Remote-Sensing-RVSA](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA) -> Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model
-
-- [SatViT](https://github.com/antofuller/SatViT) -> self-supervised training of multispectral optical and SAR vision transformers
-
-- [UDA_for_RS](https://github.com/Levantespot/UDA_for_RS) -> Unsupervised Domain Adaptation for Remote Sensing Semantic Segmentation with Transformer
-
-- [Vision Transformers for Low Earth Orbit Satellites](https://myrtle.ai/learn/leo-1-low-earth-orbit-satellites/) -> blog post that investigates deploying Vision Transformers on low earth orbit satellites
 
 #
 ## Adversarial ML
@@ -3547,6 +3555,8 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
 - [DC4Flood](https://github.com/Kasra2020/DC4Flood) -> A deep clustering framework for rapid flood detection using Sentinel-1 SAR imagery
 
+- [Sentinel1-Flood-Finder](https://github.com/cordmaur/Sentinel1-Flood-Finder) -> Flood Finder Package from Sentinel 1 Imagery
+
 #
 ## NDVI - vegetation index
 
@@ -3702,6 +3712,11 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [Text2Seg](https://github.com/Douglas2Code/Text2Seg) ->  a pipeline that combined multiple Vision Foundation Models (SAM, CLIP, GroundingDINO) to perform semantic segmentation.
 
+- [Remote-Sensing-RVSA](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA) -> Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model
+
+- [FoMo-Bench](https://github.com/RolnickLab/FoMo-Bench) -> a multi-modal, multi-scale and multi-task Forest Monitoring Benchmark for remote sensing foundation models
+
+- [MTP](https://github.com/ViTAE-Transformer/MTP) -> Advancing Remote Sensing Foundation Model via Multi-Task Pretraining
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
