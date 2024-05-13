@@ -1369,7 +1369,9 @@ Detecting the most noticeable or important object in a scene
 
 ### Object detection - Ships, boats, vessels & wake
 
-- [kaggle-ships-in-Google-Earth-yolov5](https://github.com/robmarkcole/kaggle-ships-in-Google-Earth-yolov5) -> Applying YOLOv5 to Kaggle Ships in Google Earth dataset
+- [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection) -> using oriented bounding boxes. Read [Detecting ships in satellite imagery: five years later…](https://medium.com/artificialis/detecting-ships-in-satellite-imagery-five-years-later-28df2e83f987)
+
+- [kaggle-ships-in-Google-Earth-yolov8](https://github.com/robmarkcole/kaggle-ships-in-satellite-imagery-with-YOLOv8) -> Applying YOLOv8 to Kaggle Ships in Google Earth dataset
 
 - [How hard is it for an AI to detect ships on satellite images?](https://medium.com/earthcube-stories/how-hard-it-is-for-an-ai-to-detect-ships-on-satellite-images-7265e34aadf0)
 
@@ -1390,8 +1392,6 @@ Detecting the most noticeable or important object in a scene
 - [Ship-detection-in-satellite-images](https://github.com/zmf0507/Ship-detection-in-satellite-images) -> experiments with  UNET, YOLO, Mask R-CNN, SSD, Faster R-CNN, RETINA-NET
 
 - [Ship-Detection-from-Satellite-Images-using-YOLOV4](https://github.com/debasis-dotcom/Ship-Detection-from-Satellite-Images-using-YOLOV4) -> uses Kaggle Airbus Ship Detection dataset
-
-- [kaggle-airbus-ship-detection-challenge](https://github.com/toshi-k/kaggle-airbus-ship-detection-challenge) -> using oriented SSD
 
 - [shipsnet-detector](https://github.com/rhammell/shipsnet-detector) -> Detect container ships in Planet imagery using machine learning
 
@@ -2400,6 +2400,8 @@ Remote sensing images are used in disaster response to identify and assess damag
 
 - [DAHiTra](https://github.com/nka77/DAHiTra) -> Large-scale Building Damage Assessment using a Novel Hierarchical Transformer Architecture on Satellite Images. Uses xView2 xBD dataset
 
+- [skai](https://github.com/google-research/skai) -> a machine learning based tool from Goolge for performing automatic building damage assessments on aerial imagery of disaster sites.
+
 #
 ## Super-resolution
 
@@ -3089,6 +3091,8 @@ Generalized Few-shot Semantic Segmentation
 
 - [meteor](https://github.com/MarcCoru/meteor) -> a small deep learning meta-model with a single output
 
+- [SegLand](https://github.com/LiZhuoHong/SegLand) -> Generalized Few-Shot Meets Remote Sensing: Discovering Novel Classes in Land Cover Mapping via Hybrid Semantic Segmentation Framework. 1st place in the OpenEarthMap Land Cover Mapping Few-Shot Challenge
+
 #
 ## Self-supervised, unsupervised & contrastive learning
 Self-supervised, unsupervised & contrastive learning are all methods of machine learning that use unlabeled data to train algorithms. Self-supervised learning uses labeled data to create an artificial supervisor, while unsupervised learning uses only the data itself to identify patterns and similarities. Contrastive learning uses pairs of data points to learn representations of data, usually for classification tasks. Note that self-supervised approaches are commonly used in the training of so-called Foundational models, since they enable learning from large quantities of unlablleded data, tyipcally time series.
@@ -3717,6 +3721,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [FoMo-Bench](https://github.com/RolnickLab/FoMo-Bench) -> a multi-modal, multi-scale and multi-task Forest Monitoring Benchmark for remote sensing foundation models
 
 - [MTP](https://github.com/ViTAE-Transformer/MTP) -> Advancing Remote Sensing Foundation Model via Multi-Task Pretraining
+
+- [DiffusionSat](https://www.samarkhanna.com/DiffusionSat/) -> A Generative Foundation Model For Satellite Imagery
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
