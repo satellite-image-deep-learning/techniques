@@ -889,6 +889,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [HD-Net](https://github.com/danfenghong/ISPRS_HD-Net) -> High-resolution decoupled network for building footprint extraction via deeply supervised body and boundary decomposition
 
+- [RoofSense](https://github.com/DimitrisMantas/RoofSense/tree/master) -> A novel deep learning solution for the automatic roofing material classification of the Dutch building stock using aerial imagery and laser scanning data fusion
+
 ### Segmentation - Solar panels
 
 - [Deep-Learning-for-Solar-Panel-Recognition](https://github.com/saizk/Deep-Learning-for-Solar-Panel-Recognition) -> using both object detection with Yolov5 and Unet segmentation
@@ -1118,6 +1120,10 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [UDA_for_RS](https://github.com/Levantespot/UDA_for_RS) -> Unsupervised Domain Adaptation for Remote Sensing Semantic Segmentation with Transformer
 
 - [CMTFNet](https://github.com/DrWuHonglin/CMTFNet) -> CMTFNet: CNN and Multiscale Transformer Fusion Network for Remote Sensing Image Semantic Segmentation
+
+- [CM-UNet](https://github.com/XiaoBuL/CM-UNet) -> Hybrid CNN-Mamba UNet for Remote Sensing Image Semantic Segmentation
+
+- [Using Stable Diffusion to Improve Image Segmentation Models](https://medium.com/edge-analytics/using-stable-diffusion-to-improve-image-segmentation-models-1e99c25acbf) -> Augmenting Data with Stable Diffusion
 
 #
 ## Instance segmentation
@@ -2147,6 +2153,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [OctaveNet](https://github.com/farhadinima75/OctaveNet) -> An efficient multi-scale pseudo-siamese network for change detection in remote sensing images
 
+- [MaskCD](https://github.com/EricYu97/MaskCD) -> A Remote Sensing Change Detection Network Based on Mask Classification
+
 #
 ## Time series
 
@@ -2199,6 +2207,8 @@ The analysis of time series observations in remote sensing data has numerous app
 - [LULC mapping using time series data & spectral bands](https://github.com/developmentseed/time-series-for-lulc) -> uses 1D convolutions that learn from time-series data. Accompanies blog post: [Time-Traveling Pixels: A Journey into Land Use Modeling](https://developmentseed.org/blog/2023-06-29-time-travel-pixels)
 
 - [hurricane-net](https://github.com/hammad93/hurricane-net) -> A deep learning framework for forecasting Atlantic hurricane trajectory and intensity.
+
+- [CAPES](https://github.com/twin22jw/CAPES/tree/main) -> Construction changes are detected using the U-net model and satellite time series
 
 #
 ## Crop classification
@@ -2541,6 +2551,10 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 - [HAUNet_RSISR](https://github.com/likakakaka/HAUNet_RSISR) -> Hybrid Attention-Based U-Shaped Network for Remote Sensing Image Super-Resolution
 
 - [L1BSR](https://github.com/centreborelli/L1BSR) -> Exploiting Detector Overlap for Self-Supervised SISR of Sentinel-2 L1B Imagery
+
+- [Deep-Harmonization](https://github.com/venkatesh-thiru/Deep-Harmonization) -> Deep Learning-based Harmonization and Super-Resolution of Landsat-8 and Sentinel-2 images
+
+- [SGDM](https://github.com/wwangcece/SGDM) -> Semantic Guided Large Scale Factor Remote Sensing Image Super-resolution with Generative Diffusion Prior
 
 ### Super-resolution - Miscellaneous
 
@@ -2936,6 +2950,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 - [Cross-Scale-MAE](https://github.com/aicip/Cross-Scale-MAE) -> code for paper: Cross-Scale MAE: A Tale of Multiscale Exploitation in Remote Sensing
 
 - [satclip](https://github.com/microsoft/satclip) -> A Global, General-Purpose Geographic Location Encoder from Microsoft
+
+- [](https://earthloc-and-earthmatch.github.io/) -> Astronaut Photography Localization & Iterative Coregistration
 
 #
 ## Anomaly detection
@@ -3663,6 +3679,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [rs_img_synth](https://github.com/gbaier/rs_img_synth) -> Synthesizing Optical and SAR Imagery From Land Cover Maps and Auxiliary Raster Data
 
 - [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> dataset and pretrained models for the paper: OnlyPlanes - Incrementally Tuning Synthetic Training Datasets for Satellite Object Detection
+
+- [Using Stable Diffusion to Improve Image Segmentation Models](https://medium.com/edge-analytics/using-stable-diffusion-to-improve-image-segmentation-models-1e99c25acbf) -> Augmenting Data with Stable Diffusion
 
 #
 ## Large vision & language models (LLMs & LVMs)
