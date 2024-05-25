@@ -3714,6 +3714,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [Clay Foundation Model](https://github.com/Clay-foundation/model) -> an open source AI model and interface for Earth.
 
+- [TerraTorch](https://github.com/IBM/terratorch) -> a Python toolkit for fine-tuning Geospatial Foundation Models from IBM, based on PyTorch Lightning and TorchGeo
+
 - [EarthPT](https://github.com/aspiaspace/earthPT) -> A time series foundation model for Earth Observation
 
 - [SpectralGPT](https://github.com/danfenghong/IEEE_TPAMI_SpectralGPT) -> Spectral remote sensing foundation model, with finetuning on classification, segmentation, and change detection tasks
