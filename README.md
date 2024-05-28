@@ -255,7 +255,7 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [EGNNA_WND](https://github.com/stevinc/EGNNA_WND) -> Estimating the presence of the West Nile Disease employing Graph Neural network
 
-# 
+#
 ## Segmentation
 
 <p align="center">
@@ -512,7 +512,7 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Flood Event Detection Utilizing Satellite Images](https://github.com/KonstantinosF/Flood-Detection---Satellite-Images)
 
-- [ETCI-2021-Competition-on-Flood-Detection](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection) -> Experiments on Flood Segmentation on Sentinel-1 SAR Imagery with Cyclical Pseudo Labeling and Noisy Student Training 
+- [ETCI-2021-Competition-on-Flood-Detection](https://github.com/sidgan/ETCI-2021-Competition-on-Flood-Detection) -> Experiments on Flood Segmentation on Sentinel-1 SAR Imagery with Cyclical Pseudo Labeling and Noisy Student Training
 
 - [FDSI](https://github.com/keillernogueira/FDSI) -> Flood Detection in Satellite Images - 2017 Multimedia Satellite Task
 
@@ -615,7 +615,7 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [weather4cast-2022](https://github.com/iarai/weather4cast-2022) -> Unet-3D baseline model for Weather4cast Rain Movie Prediction competition
 
 - [WeatherFusionNet](https://github.com/Datalab-FIT-CTU/weather4cast-2022) -> Predicting Precipitation from Satellite Data. weather4cast-2022 1st place solution
-  
+
 - [marinedebrisdetector](https://github.com/MarcCoru/marinedebrisdetector) -> Large-scale Detection of Marine Debris in Coastal Areas with Sentinel-2
 
 - [kaggle-identify-contrails-4th](https://github.com/selimsef/kaggle-identify-contrails-4th) -> 4th place Solution, Google Research - Identify Contrails to Reduce Global Warming
@@ -718,7 +718,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [tile2net](https://github.com/VIDA-NYU/tile2net) -> Mapping the walk: A scalable computer vision approach for generating sidewalk network datasets from aerial imagery
 
 - [AerialLaneNet](https://github.com/Jiawei-Yao0812/AerialLaneNet) -> Building Lane-Level Maps from Aerial Images, introduces the AErial Lane (AEL) Dataset: a first large-scale aerial image dataset built for lane detection
-  
+
 - [sam_road](https://github.com/htcr/sam_road) -> Segment Anything Model (SAM) for large-scale, vectorized road network extraction from aerial imagery.
 
 ### Segmentation - Buildings & rooftops
@@ -1688,7 +1688,7 @@ When the object count, but not its shape is required, U-net can be used to treat
 
 - [psgcnet](https://github.com/gaoguangshuai/psgcnet) -> A Pyramidal Scale and Global Context Guided Network for Dense Object Counting in Remote-Sensing Images
 
-# 
+#
 ## Regression
 
 <p align="center">
@@ -2082,7 +2082,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 - [SiamCRNN](https://github.com/ChenHongruixuan/SiamCRNN) -> Change Detection in Multisource VHR Images via Deep Siamese Convolutional Multiple-Layers Recurrent Neural Network
 
 - [Graph-based methods for change detection in remote sensing images](https://github.com/jfflorez/Graph-based-methods-for-change-detection-in-remote-sensing-images) -> Graph Learning Based on Signal Smoothness Representation for Homogeneous and Heterogeneous Change Detection
-  
+
 - [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping. Uses the Amazon and Atlantic forest dataset
 
 - [AR-CDNet](https://github.com/guanyuezhen/AR-CDNet) -> Towards Accurate and Reliable Change Detection of Remote Sensing Images via Knowledge Review and Online Uncertainty Estimation
@@ -2459,6 +2459,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 - [MISR-S2](https://github.com/aimiokab/MISR-S2) -> Cross-sensor super-resolution of irregularly sampled Sentinel-2 time series
 
 ### Single image super-resolution (SISR)
+
+- [Swin2-MoSE](https://github.com/IMPLabUniPr/swin2-mose) -> Swin2-MoSE: A New Single Image Super-Resolution Model for Remote Sensing
 
 - [sentinel2_superresolution](https://github.com/Evoland-Land-Monitoring-Evolution/sentinel2_superresolution) -> Super-resolution of 10 Sentinel-2 bands to 5-meter resolution, starting from L1C or L2A (Theia format) products. Trained on Sen2Venµs
 
@@ -2907,7 +2909,7 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [RaVAEn](https://github.com/spaceml-org/RaVAEn) -> RaVAEn is a lightweight, unsupervised approach for change detection in satellite data based on Variational Auto-Encoders (VAEs) with the specific purpose of on-board deployment
 
-- [Reverse image search using deep discrete feature extraction and locality-sensitive hashing](https://github.com/martenjostmann/deep-discrete-image-retrieval) 
+- [Reverse image search using deep discrete feature extraction and locality-sensitive hashing](https://github.com/martenjostmann/deep-discrete-image-retrieval)
 
 - [SNCA_CE](https://github.com/jiankang1991/SNCA_CE) -> Deep Metric Learning based on Scalable Neighborhood Components for Remote Sensing Scene Characterization
 
@@ -2998,7 +3000,7 @@ Image retrieval is the task of retrieving images from a collection that are simi
 
 - [remote-sensing-image-retrieval](https://github.com/IBM/remote-sensing-image-retrieval) -> Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models (IBM Prithvi)
 
-# 
+#
 ## Image Captioning
 
 <p align="center">
@@ -3035,7 +3037,7 @@ Image Captioning is the task of automatically generating a textual description o
 
 - [Fine tuning CLIP with Remote Sensing (Satellite) images and captions](https://huggingface.co/blog/fine-tune-clip-rsicd) -> fine tuning CLIP on the [RSICD](https://github.com/201528014227051/RSICD_optimal) image captioning dataset, to enable querying large catalogues in natural language. With [repo](https://github.com/arampacha/CLIP-rsicd), uses 🤗. Also read [Why and How to Fine-tune CLIP](https://dienhoa.github.io/dhblog/posts/finetune_clip.html)
 
-# 
+#
 ## Visual Question Answering
 
 Visual Question Answering (VQA) is the task of automatically answering a natural language question about an image. In remote sensing, VQA enables users to interact with the images and retrieve information using natural language questions. For example, a user could ask a VQA system questions such as "What is the type of land cover in this area?", "What is the dominant crop in this region?" or "What is the size of the city in this image?". The system would then analyze the image and generate an answer based on its understanding of the image content.
