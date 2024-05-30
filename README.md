@@ -1451,6 +1451,8 @@ Detecting the most noticeable or important object in a scene
 
 - [wakemodel_llmassist](https://github.com/pbeukema/wakemodel_llmassist) -> wake detection in Sentinel-2, uses an EfficientNet-B0 architecture adapted for keypoint detection
 
+- [ORFENet](https://github.com/dyl96/ORFENet) -> Tiny Object Detection in Remote Sensing Images Based on Object Reconstruction and Multiple Receptive Field Adaptive Feature Enhancement. Uses LEVIR-Ship & AI-TODv2 datasets
+
 ### Object detection - Cars, vehicles & trains
 
 - [Detection of parkinglots and driveways with retinanet](https://github.com/spiyer99/retinanet)
