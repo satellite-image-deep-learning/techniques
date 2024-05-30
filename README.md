@@ -480,8 +480,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [mowing-detection](https://github.com/lucas-batier/mowing-detection) -> Automatic detection of mowing and grazing from Sentinel images
 
-- [An improved Forest change detection in Sentinel-2 satellite images using Attention Residual U-Net](https://github.com/kkalinaki/Improved-Attention-Residual-U-Net-For-Forest-change-detection)
-
 ### Segmentation - Water, coastlines & floods
 
 - [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces
@@ -544,6 +542,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Flood-Mapping-Using-Satellite-Images](https://github.com/KonstantinosF/Flood-Mapping-Using-Satellite-Images) -> masters thesis comparing Random Forest & Unet
 
+- [MECNet](https://github.com/zhilyzhang/MECNet) -> Rich CNN features for water-body segmentation from very high resolution aerial and satellite imagery
+
 ### Segmentation - Fire, smoke & burn areas
 
 - [SatelliteVu-AWS-Disaster-Response-Hackathon](https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon) -> fire spread prediction using classical ML & deep learning
@@ -573,6 +573,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [chabud2023](https://github.com/developmentseed/chabud2023) -> Change detection for Burned area Delineation (ChaBuD) ECML/PKDD 2023 challenge
 
 - [Post Wildfire Burnt-up Detection using Siamese-UNet](https://github.com/kavyagupta/chabud) -> on Chadbud dataset
+
+- [vit-burned-detection](https://github.com/DarthReca/vit-burned-detection) -> Vision transformers in burned area delineation
 
 ### Segmentation - Landslides
 
@@ -720,6 +722,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [AerialLaneNet](https://github.com/Jiawei-Yao0812/AerialLaneNet) -> Building Lane-Level Maps from Aerial Images, introduces the AErial Lane (AEL) Dataset: a first large-scale aerial image dataset built for lane detection
 
 - [sam_road](https://github.com/htcr/sam_road) -> Segment Anything Model (SAM) for large-scale, vectorized road network extraction from aerial imagery.
+
+- [LRDNet](https://github.com/dyl96/LRDNet) -> A Lightweight Road Detection Algorithm Based on Multiscale Convolutional Attention Network and Coupled Decoder Head
 
 ### Segmentation - Buildings & rooftops
 
@@ -890,6 +894,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [HD-Net](https://github.com/danfenghong/ISPRS_HD-Net) -> High-resolution decoupled network for building footprint extraction via deeply supervised body and boundary decomposition
 
 - [RoofSense](https://github.com/DimitrisMantas/RoofSense/tree/master) -> A novel deep learning solution for the automatic roofing material classification of the Dutch building stock using aerial imagery and laser scanning data fusion
+
+- [IBS-AQSNet](https://github.com/zhilyzhang/IBS-AQSNet) -> Enhanced Automated Quality Assessment Network for Interactive Building Segmentation in High-Resolution Remote Sensing Imagery
 
 ### Segmentation - Solar panels
 
@@ -2153,6 +2159,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [MaskCD](https://github.com/EricYu97/MaskCD) -> A Remote Sensing Change Detection Network Based on Mask Classification
 
+- [I3PE](https://github.com/ChenHongruixuan/I3PE) -> Exchange means change: an unsupervised single-temporal change detection framework based on intra- and inter-image patch exchange
+
 #
 ## Time series
 
@@ -2207,6 +2215,8 @@ The analysis of time series observations in remote sensing data has numerous app
 - [hurricane-net](https://github.com/hammad93/hurricane-net) -> A deep learning framework for forecasting Atlantic hurricane trajectory and intensity.
 
 - [CAPES](https://github.com/twin22jw/CAPES/tree/main) -> Construction changes are detected using the U-net model and satellite time series
+
+- [Exchanger4SITS](https://github.com/TotalVariation/Exchanger4SITS) -> Rethinking the Encoding of Satellite Image Time Series
 
 #
 ## Crop classification
@@ -3002,6 +3012,8 @@ Image retrieval is the task of retrieving images from a collection that are simi
 
 - [remote-sensing-image-retrieval](https://github.com/IBM/remote-sensing-image-retrieval) -> Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models (IBM Prithvi)
 
+- [Composed Image Retrieval for Remote Sensing](https://github.com/billpsomas/rscir)
+
 #
 ## Image Captioning
 
@@ -3706,6 +3718,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [H2RSVLM](https://github.com/opendatalab/H2RSVLM) -> Towards Helpful and Honest Remote Sensing Large Vision Language Model
 
 - [LLMs & FMs in Smart Agriculture](https://arxiv.org/pdf/2308.06668) -> Large Language Models and Foundation Models in Smart Agriculture: Basics, Opportunities, and Challenges
+
+- [LHRS-Bot](https://github.com/NJU-LHRS/LHRS-Bot) -> Empowering Remote Sensing with VGI-Enhanced Large Multimodal Language Model
 
 #
 ## Foundational models
