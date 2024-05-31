@@ -588,6 +588,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [SAR-landslide-detection-pretraining](https://github.com/VMBoehm/SAR-landslide-detection-pretraining) -> SAR-based landslide classification pretraining leads to better segmentation
 
+- [Landslide mapping from Sentinel-2 imagery through change detection](https://github.com/links-ads/igarss-landslide-delineation)
+
 ### Segmentation - Glaciers
 
 - [HED-UNet](https://github.com/khdlr/HED-UNet) -> a model for simultaneous semantic segmentation and edge detection, examples provided are glacier fronts and building footprints using the Inria Aerial Image Labeling dataset
@@ -724,6 +726,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [sam_road](https://github.com/htcr/sam_road) -> Segment Anything Model (SAM) for large-scale, vectorized road network extraction from aerial imagery.
 
 - [LRDNet](https://github.com/dyl96/LRDNet) -> A Lightweight Road Detection Algorithm Based on Multiscale Convolutional Attention Network and Coupled Decoder Head
+
+- [Fine–Grained Extraction of Road Networks via Joint Learning of Connectivity and Segmentation](https://github.com/YXu556/RoadExtraction) -> uses SpaceNet 3 dataset
 
 ### Segmentation - Buildings & rooftops
 
@@ -946,6 +950,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [Solar_UNet](https://github.com/mjevans26/Solar_UNet) -> U-Net models delineating solar arrays in Sentinel-2 imagery
 
 - [SolarDetection-solafune](https://github.com/bit-guber/SolarDetection-solafune) -> Solar Panel Detection Using Sentinel-2 for the Solafune Competition
+
+- [A Comparative Evaluation of Deep Learning Techniques for Photovoltaic Panel Detection from Aerial Images](https://github.com/links-ads/access-solar-panels)
 
 ### Segmentation - Other manmade
 
@@ -2218,6 +2224,8 @@ The analysis of time series observations in remote sensing data has numerous app
 
 - [Exchanger4SITS](https://github.com/TotalVariation/Exchanger4SITS) -> Rethinking the Encoding of Satellite Image Time Series
 
+- [Rapid Wildfire Hotspot Detection Using Self-Supervised Learning on Temporal Remote Sensing Data](https://github.com/links-ads/igarss-multi-temporal-hotspot-detection)
+
 #
 ## Crop classification
 
@@ -3014,6 +3022,9 @@ Image retrieval is the task of retrieving images from a collection that are simi
 
 - [Composed Image Retrieval for Remote Sensing](https://github.com/billpsomas/rscir)
 
+- [CSMAE](https://github.com/jakhac/CSMAE) -> About
+Cross-Sensor Masked Autoencoder for Content Based Image Retrieval in Remote Sensing
+
 #
 ## Image Captioning
 
@@ -3221,6 +3232,8 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 - [GFM](https://github.com/mmendiet/GFM) -> Towards Geospatial Foundation Models via Continual Pretraining
 
 - [SatViT](https://github.com/antofuller/SatViT) -> self-supervised training of multispectral optical and SAR vision transformers
+
+- [SITS-MoCo](https://github.com/YXu556/SITS-MoCo) -> Self-supervised pre-training for large-scale crop mapping using Sentinel-2 time series
 
 #
 ## Weakly & semi-supervised learning
