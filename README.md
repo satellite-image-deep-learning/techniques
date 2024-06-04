@@ -349,6 +349,9 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
 - [LoveNAS](https://github.com/Junjue-Wang/LoveNAS) -> LoveNAS: Towards Multi-Scene Land-Cover Mapping via Hierarchical Searching Adaptive Network
 
+- [FLAIR-2 challenge](https://github.com/IGNF/FLAIR-2) -> Semantic segmentation and domain adaptation challenge proposed by the French National Institute of Geographical and Forest Information (IGN)
+
+- [flair-2 8th place solution](https://github.com/association-rosia/flair-2)
 
 ### Segmentation - Vegetation, deforestation, crops & crop boundaries
 
@@ -544,6 +547,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [MECNet](https://github.com/zhilyzhang/MECNet) -> Rich CNN features for water-body segmentation from very high resolution aerial and satellite imagery
 
+- [SWRNET](https://github.com/trongan93/swrnet) -> A Deep Learning Approach for Small Surface Water Area Recognition Onboard Satellite
+
 ### Segmentation - Fire, smoke & burn areas
 
 - [SatelliteVu-AWS-Disaster-Response-Hackathon](https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon) -> fire spread prediction using classical ML & deep learning
@@ -609,6 +614,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [sea_ice_remote_sensing](https://github.com/sum1lim/sea_ice_remote_sensing) -> Sea Ice Concentration classification
 
 - [Methane-detection-from-hyperspectral-imagery](https://github.com/satish1901/Methane-detection-from-hyperspectral-imagery) -> Deep Remote Sensing Methods for Methane Detection in Overhead Hyperspectral Imagery
+
+- [methane-emission-project](https://github.com/stlbnmaria/methane-emission-project) -> Classification CNNs was combined in an ensemble approach with traditional methods on tabular data
 
 - [EddyNet](https://github.com/redouanelg/EddyNet) -> A Deep Neural Network For Pixel-Wise Classification of Oceanic Eddies
 
@@ -953,6 +960,14 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [A Comparative Evaluation of Deep Learning Techniques for Photovoltaic Panel Detection from Aerial Images](https://github.com/links-ads/access-solar-panels)
 
+### Segmentation - Ships & vessels
+
+- [Universal-segmentation-baseline-Kaggle-Airbus-Ship-Detection](https://github.com/OniroAI/Universal-segmentation-baseline-Kaggle-Airbus-Ship-Detection) -> Kaggle Airbus Ship Detection Challenge - bronze medal solution
+
+- [Airbus-Ship-Segmentation](https://github.com/TheXirex/Airbus-Ship-Segmentation) -> unet
+
+- [contrastive_SSL_ship_detection](https://github.com/alina2204/contrastive_SSL_ship_detection) -> Contrastive self supervised learning for ship detection in Sentinel 2 images
+
 ### Segmentation - Other manmade
 
 - [Aarsh2001/ML_Challenge_NRSC](https://github.com/Aarsh2001/ML_Challenge_NRSC) -> Electrical Substation detection
@@ -961,15 +976,17 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [MCAN-OilSpillDetection](https://github.com/liyongqingupc/MCAN-OilSpillDetection) -> Oil Spill Detection with A Multiscale Conditional Adversarial Network under Small Data Training
 
-- [plastics](https://github.com/earthrise-media/plastics) -> Detecting and Monitoring Plastic Waste Aggregations in Sentinel-2 Imagery for [globalplasticwatch.org](https://globalplasticwatch.org/)
-
 - [mining-detector](https://github.com/earthrise-media/mining-detector) -> detection of artisanal gold mines in Sentinel-2 satellite imagery for [Amazon Mining Watch](https://amazonminingwatch.org/). Also covers clandestine airstrips
 
 - [EG-UNet](https://github.com/tist0bsc/EG-UNet) Deep Feature Enhancement Method for Land Cover With Irregular and Sparse Spatial Distribution Features: A Case Study on Open-Pit Mining
 
+- [plastics](https://github.com/earthrise-media/plastics) -> Detecting and Monitoring Plastic Waste Aggregations in Sentinel-2 Imagery for [globalplasticwatch.org](https://globalplasticwatch.org/)
+
 - [MADOS](https://github.com/gkakogeorgiou/mados) -> Detecting Marine Pollutants and Sea Surface Features with Deep Learning in Sentinel-2 Imagery on the MADOS dataset
 
 - [SADMA](https://github.com/sheikhazhanmohammed/SADMA) -> Residual Attention UNet on MARIDA: Marine Debris Archive is a marine debris-oriented dataset on Sentinel-2 satellite images
+
+- [MAP-Mapper](https://github.com/CoDIS-Lab/MAP-Mapper) -> Marine Plastic Mapper is a tool for assessing marine macro-plastic density to identify plastic hotspots, underpinned by the MARIDA dataset.
 
 ### Panoptic segmentation
 
@@ -1136,6 +1153,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [CM-UNet](https://github.com/XiaoBuL/CM-UNet) -> Hybrid CNN-Mamba UNet for Remote Sensing Image Semantic Segmentation
 
 - [Using Stable Diffusion to Improve Image Segmentation Models](https://medium.com/edge-analytics/using-stable-diffusion-to-improve-image-segmentation-models-1e99c25acbf) -> Augmenting Data with Stable Diffusion
+
+- [SSRS](https://github.com/sstary/SSRS) -> Semantic Segmentation for Remote Sensing, multiple networks implemented
 
 #
 ## Instance segmentation
@@ -1874,6 +1893,10 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
 - [cloud-detection-venus](https://github.com/pesekon2/cloud-detection-venus) -> Using Convolutional Neural Networks for Cloud Detection on VENμS Images over Multiple Land-Cover Types
 
+- [UnCRtainTS](https://github.com/PatrickTUM/UnCRtainTS) -> Uncertainty Quantification for Cloud Removal in Optical Satellite Time Series
+
+- [U-TILISE](https://github.com/prs-eth/U-TILISE) -> A Sequence-to-sequence Model for Cloud Removal in Optical Satellite Time Series
+
 #
 ## Change detection
 
@@ -2166,6 +2189,14 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 - [MaskCD](https://github.com/EricYu97/MaskCD) -> A Remote Sensing Change Detection Network Based on Mask Classification
 
 - [I3PE](https://github.com/ChenHongruixuan/I3PE) -> Exchange means change: an unsupervised single-temporal change detection framework based on intra- and inter-image patch exchange
+
+- [BDANet](https://github.com/ShaneShen/BDANet-Building-Damage-Assessment) -> Multiscale Convolutional Neural Network with Cross-directional Attention for Building Damage Assessment from Satellite Images
+
+- [BAN](https://github.com/likyoo/BAN) -> A New Learning Paradigm for Foundation Model-based Remote Sensing Change Detection
+
+- [ubdd](https://github.com/fzmi/ubdd) -> Learning Efficient Unsupervised Satellite Image-based Building Damage Detection, uses xView2
+
+- [SGSLN](https://github.com/NJU-LHRS/offical-SGSLN) -> Exchanging Dual-Encoder–Decoder: A New Strategy for Change Detection With Semantic Guidance and Spatial Localization
 
 #
 ## Time series
@@ -3090,6 +3121,8 @@ Mixed data learning is the process of learning from datasets that may contain an
 - [accidentRiskMap](https://github.com/songtaohe/accidentRiskMap) -> Inferring high-resolution traffic accident risk maps based on satellite imagery and GPS trajectories
 
 - [Sub-meter resolution canopy height map by Meta](https://research.facebook.com/blog/2023/4/every-tree-counts-large-scale-mapping-of-canopy-height-at-the-resolution-of-individual-trees/) -> Satellite Metadata combined with outputs from simple CNN to regress canopy height
+
+- [methane-emission-project](https://github.com/stlbnmaria/methane-emission-project) -> Classification CNNs was combined in an ensemble approach with traditional methods on tabular data
 
 #
 ## Few & zero shot learning
