@@ -255,6 +255,8 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [EGNNA_WND](https://github.com/stevinc/EGNNA_WND) -> Estimating the presence of the West Nile Disease employing Graph Neural network
 
+- [cyfi](https://github.com/drivendataorg/cyfi) -> Estimate cyanobacteria density based on Sentinel-2 satellite imagery
+
 #
 ## Segmentation
 
@@ -908,6 +910,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [IBS-AQSNet](https://github.com/zhilyzhang/IBS-AQSNet) -> Enhanced Automated Quality Assessment Network for Interactive Building Segmentation in High-Resolution Remote Sensing Imagery
 
+- [DeepMAO](https://github.com/Sumanth181099/DeepMAO) -> Deep Multi-scale Aware Overcomplete Network for Building Segmentation in Satellite Imagery
+
 ### Segmentation - Solar panels
 
 - [Deep-Learning-for-Solar-Panel-Recognition](https://github.com/saizk/Deep-Learning-for-Solar-Panel-Recognition) -> using both object detection with Yolov5 and Unet segmentation
@@ -1553,6 +1557,8 @@ Detecting the most noticeable or important object in a scene
 
 - [PCAN](https://www.mdpi.com/2072-4292/13/7/1243) -> Part-Based Context Attention Network for Thermal Power Plant Detection in Remote Sensing Imagery, with [dataset](https://github.com/wenxinYin/AIR-TPPDD)
 
+- [WindTurbineDetection](https://github.com/nvriese1/WindTurbineDetection) -> Implementation of transfer learning approach using the YOLOv7 framework to detect and rapidly quantify wind turbines in raw LANDSAT and NAIP satellite imagery
+
 ### Object detection - Oil storage tank detection
 
 Oil is stored in tanks at many points between extraction and sale, and the volume of oil in storage is an important economic indicator.
@@ -1702,6 +1708,8 @@ A variety of techniques can be used to count animals, including object detection
 - [OAN](https://github.com/Ranchosky/OAN) Fewer is More: Efficient Object Detection in Large Aerial Images, based on MMdetection
 
 - [DOTA-C](https://github.com/hehaodong530/DOTA-C) -> evaluating the robustness of object detection models to 19 types of image quality degradation
+
+- [Satellite-Remote-Sensing-Image-Object-Detection](https://github.com/ypw-lbj/Satellite-Remote-Sensing-Image-Object-Detection) -> using RefineDet & DOTA dataset
 
 ## Object counting
 
@@ -2256,6 +2264,8 @@ The analysis of time series observations in remote sensing data has numerous app
 - [Exchanger4SITS](https://github.com/TotalVariation/Exchanger4SITS) -> Rethinking the Encoding of Satellite Image Time Series
 
 - [Rapid Wildfire Hotspot Detection Using Self-Supervised Learning on Temporal Remote Sensing Data](https://github.com/links-ads/igarss-multi-temporal-hotspot-detection)
+
+- [stenn-pytorch](https://github.com/ThinkPak/STENN) -> A Spatio-temporal Encoding Neural Network for Semantic Segmentation of Satellite Image Time Series
 
 #
 ## Crop classification
@@ -3339,6 +3349,8 @@ Supervised deep learning techniques typically require a huge number of annotated
 - [DIAL](https://github.com/alteia-ai/DIAL) -> DIAL: Deep Interactive and Active Learning for Semantic Segmentation in Remote Sensing
 
 - [whales](https://github.com/microsoft/whales) -> An active learning pipeline for identifying whales in high-resolution satellite imagery, by Microsoft
+
+- [AL4EO](https://github.com/Romain3Ch216/AL4EO) -> a QGIS plug-in to run Active Learning techniques on Earth observation data
 
 #
 ## Federated learning
