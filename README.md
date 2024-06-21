@@ -15,30 +15,6 @@ Deep learning has revolutionized the analysis and interpretation of satellite an
 
 **How to use this repository:** use `Command + F` (Mac) or `CTRL + F` (Windows) to search this page for e.g. 'SAM'
 
-#
-
-<p align="center">
-  <a href="http://orbuculum.xyz/">
-    <img src="images/sponsor-logo.png" width="300">
-  </a>
-</p>
-
-This repository is proudly sponsored by Orboculum. Orbuculum is an innovative and rapidly evolving platform designed with the specific intent to empower GIS and Earth Observation (EO) researchers by offering a unique avenue for monetizing their machine learning models. Standing distinctively apart from conventional marketplaces, Orbuculum pioneers a transformative approach by transmuting these models into smart contracts. This enables automatic remuneration for the creators each time their models are deployed, fostering an efficient and rewarding ecosystem.
-
-Orbuculum's potential extends far beyond the reinvention of the GIS/EO research industry. It is poised to serve as an invaluable conduit for public welfare initiatives, especially those striving to mitigate climate change. By providing access to vital data and insightful analytics, Orbuculum promises to act as a potent resource in the ongoing battle against some of the most urgent global concerns. This integration of cutting-edge technology with socially impactful missions could position Orbuculum as an instrumental platform at the intersection of scientific research and sustainable development.
-
-* 🖥️ [Orbuculum website](http://orbuculum.xyz/)
-* 📺 [Demo video of Orbuculum platform](https://youtu.be/V3HfWAstzEE)
-* 📺 [Conversation between Robin and Derek Ding, the co-founder of the Orbuculum platform](https://youtu.be/pDduLbMwSe8)
-* 🗣️ [Orbuculum Discord](https://t.co/4JOkajHZ0l)
-* 💻 [Orbuculum Github](https://github.com/Orbuculum-DAO)
-<!-- markdown-link-check-disable -->
-* 🐦 [Orbuculum Twitter](https://twitter.com/Orbuculum_xyz)
-<!-- markdown-link-check-enable -->
-
-#
-
-
 ## Techniques
 
 - Classification
@@ -2205,6 +2181,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 - [ubdd](https://github.com/fzmi/ubdd) -> Learning Efficient Unsupervised Satellite Image-based Building Damage Detection, uses xView2
 
 - [SGSLN](https://github.com/NJU-LHRS/offical-SGSLN) -> Exchanging Dual-Encoder–Decoder: A New Strategy for Change Detection With Semantic Guidance and Spatial Localization
+
+- [ChangeViT](https://github.com/zhuduowang/ChangeViT) -> Unleashing Plain Vision Transformers for Change Detection
 
 #
 ## Time series
