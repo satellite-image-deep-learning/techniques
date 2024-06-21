@@ -571,6 +571,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [methane-emission-project](https://github.com/stlbnmaria/methane-emission-project) -> Classification CNNs was combined in an ensemble approach with traditional methods on tabular data
 
+- [CH4Net](https://github.com/annavaughan/CH4Net) -> A fast, simple model for detection of methane plumes using sentinel-2
+
 - [EddyNet](https://github.com/redouanelg/EddyNet) -> A Deep Neural Network For Pixel-Wise Classification of Oceanic Eddies
 
 - [schisto-vegetation](https://github.com/deleo-lab/schisto-vegetation) -> Deep Learning Segmentation of Satellite Imagery Identifies Aquatic Vegetation Associated with Snail Intermediate Hosts of Schistosomiasis in Senegal, Africa
@@ -923,6 +925,10 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [Airbus-Ship-Segmentation](https://github.com/TheXirex/Airbus-Ship-Segmentation) -> unet
 
 - [contrastive_SSL_ship_detection](https://github.com/alina2204/contrastive_SSL_ship_detection) -> Contrastive self supervised learning for ship detection in Sentinel 2 images
+
+- [airbus-ship-detection](https://github.com/odessitua/airbus-ship-detection) -> using DeepLabV3+
+
+- [Unet with web-application applied to Airbus ships](https://github.com/glibesyck/ImageSegmentation)
 
 ### Segmentation - Other manmade
 
@@ -1378,7 +1384,7 @@ Detecting the most noticeable or important object in a scene
 
 - [Arbitrary-Oriented Ship Detection through Center-Head Point Extraction](https://github.com/JinleiMa/ASD)
 
-- [ship_detection](https://github.com/rugg2/ship_detection) -> using an interesting combination of CNN classifier, Class Activation Mapping (CAM) & UNET segmentation. Accompanying [three part blog post](https://www.vortexa.com/insights/technology/satellite-images-object-detection/)
+- [ship_detection](https://github.com/rugg2/ship_detection) -> using an interesting combination of CNN classifier, Class Activation Mapping (CAM) & UNET segmentation
 
 - [Building a complete Ship detection algorithm using YOLOv3 and Planet satellite images](https://medium.com/intel-software-innovators/ship-detection-in-satellite-images-from-scratch-849ccfcc3072) -> covers finding and annotating data (using LabelMe), preprocessing large images into chips, and training Yolov3. [Repo](https://github.com/amanbasu/ship-detection)
 
@@ -1697,6 +1703,8 @@ Regression in remote sensing involves predicting continuous variables such as wi
 - [hurricane-wind-speed-cnn](https://github.com/23ccozad/hurricane-wind-speed-cnn) -> Predicting windspeed of hurricanes from satellite images, uses CNN regression in keras
 
 - [GEDI-BDL](https://github.com/langnico/GEDI-BDL) -> Global canopy height regression and uncertainty estimation from GEDI LIDAR waveforms with deep ensembles
+
+- [Global-Canopy-Height-Map](https://github.com/AI4Forest/Global-Canopy-Height-Map) -> Estimating Canopy Height at Scale (ICML2024)
 
 - [HighResCanopyHeight](https://github.com/facebookresearch/HighResCanopyHeight) -> code for Meta paper: Very high resolution canopy height maps from RGB imagery using self-supervised vision transformer and convolutional decoder trained on Aerial Lidar
 
@@ -2219,7 +2227,7 @@ The analysis of time series observations in remote sensing data has numerous app
 
 - [Rapid Wildfire Hotspot Detection Using Self-Supervised Learning on Temporal Remote Sensing Data](https://github.com/links-ads/igarss-multi-temporal-hotspot-detection)
 
-- [stenn-pytorch](https://github.com/ThinkPak/STENN) -> A Spatio-temporal Encoding Neural Network for Semantic Segmentation of Satellite Image Time Series
+- [stenn-pytorch](https://github.com/ThinkPak/stenn-pytorch) -> A Spatio-temporal Encoding Neural Network for Semantic Segmentation of Satellite Image Time Series
 
 #
 ## Crop classification
@@ -2422,6 +2430,8 @@ Remote sensing images are used in disaster response to identify and assess damag
 - [DAHiTra](https://github.com/nka77/DAHiTra) -> Large-scale Building Damage Assessment using a Novel Hierarchical Transformer Architecture on Satellite Images. Uses xView2 xBD dataset
 
 - [skai](https://github.com/google-research/skai) -> a machine learning based tool from Goolge for performing automatic building damage assessments on aerial imagery of disaster sites.
+
+- [building-damage-assessment-cnn-siamese](https://github.com/microsoft/building-damage-assessment-cnn-siamese) -> from the Microsoft Ai for Good lab
 
 #
 ## Super-resolution
@@ -3732,6 +3742,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [LLMs & FMs in Smart Agriculture](https://arxiv.org/pdf/2308.06668) -> Large Language Models and Foundation Models in Smart Agriculture: Basics, Opportunities, and Challenges
 
 - [LHRS-Bot](https://github.com/NJU-LHRS/LHRS-Bot) -> Empowering Remote Sensing with VGI-Enhanced Large Multimodal Language Model
+
+- [Awesome-VLGFM](https://github.com/zytx121/Awesome-VLGFM) -> Towards Vision-Language Geo-Foundation Models: A Survey
 
 #
 ## Foundational models
