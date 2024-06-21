@@ -17,46 +17,22 @@ Deep learning has revolutionized the analysis and interpretation of satellite an
 
 ## Techniques
 
-- Classification
-- Segmentation
-- Instance segmentation
-- Object detection
-- Object counting
-- Regression
-- Cloud detection & removal
-- Change detection
-- Time series
-- Crop classification
-- Crop yield & vegetation forecasting
-- Wealth and economic activity
-- Disaster response
-- Super-resolution
-- Pansharpening
-- Image-to-image translation
-- Data fusion
-- Generative networks
-- Autoencoders, dimensionality reduction, image embeddings & similarity search
-- Anomaly detection
-- Image retrieval
-- Image Captioning
-- Visual Question Answering
-- Mixed data learning
-- Few & zero shot learning
-- Self-supervised, unsupervised & contrastive learning
-- Weakly & semi-supervised learning
-- Active learning
-- Federated Learning
-- Transformers
-- Adversarial ML
-- Image registration
-- Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF
-- Thermal Infrared
-- SAR
-- NDVI-Vegetation Index
-- General image quality
-- Synthetic data
-- Large vision & language models (LLMs & LVMs)
-- Foundational models
+- [Classification](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#classification)
+- [Segmentation](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#segmentation)
+- [Object detection](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#object-detection)
+- [Regression](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#regression)
+- [Cloud detection & removal](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#cloud-detection--removal)
+- [Change detection](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#change-detection)
+- [Time series](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#time-series)
+- [Crop classification](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#crop-classification)
+- [Crop yield & vegetation forecasting](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#crop-yield--vegetation-forecasting)
+- [Generative networks](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#generative-networks)
+- [Autoencoders, dimensionality reduction, image embeddings & similarity search](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#autoencoders-dimensionality-reduction-image-embeddings--similarity-search)
+- [Few & zero shot learning](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#few--zero-shot-learning)
+- [Self-supervised, unsupervised & contrastive learning](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#self-supervised-unsupervised--contrastive-learning)
+- [SAR](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#sar)
+- [Large vision & language models (LLMs & LVMs)](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#large-vision--language-models-llms--lvms)
+- [Foundational models](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#foundational-models)
 
 #
 ## Classification
