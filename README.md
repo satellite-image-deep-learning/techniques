@@ -437,7 +437,7 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [mowing-detection](https://github.com/lucas-batier/mowing-detection) -> Automatic detection of mowing and grazing from Sentinel images
 
-### Segmentation - Water, coastlines & floods
+### Segmentation - Water, coastlines, rivers & floods
 
 - [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces
 
@@ -502,6 +502,10 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [MECNet](https://github.com/zhilyzhang/MECNet) -> Rich CNN features for water-body segmentation from very high resolution aerial and satellite imagery
 
 - [SWRNET](https://github.com/trongan93/swrnet) -> A Deep Learning Approach for Small Surface Water Area Recognition Onboard Satellite
+
+- [elwha-segmentation](https://github.com/StefanTodoran/elwha-segmentation) -> fine-tuning Meta's Segment Anything (SAM) for bird's eye view river pixel segmentation, [with Medium article](https://towardsdatascience.com/learn-transformer-fine-tuning-and-segment-anything-481c6c4ac802)
+
+- [RiverSnap](https://github.com/ArminMoghimi/RiverSnap) -> code for paper: A Comparative Performance Analysis of Popular Deep Learning Models and Segment Anything Model (SAM) for River Water Segmentation in Close-Range Remote Sensing Imagery
 
 ### Segmentation - Fire, smoke & burn areas
 
@@ -2168,6 +2172,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [ChangeViT](https://github.com/zhuduowang/ChangeViT) -> Unleashing Plain Vision Transformers for Change Detection
 
+- [pytorch-change-models](https://github.com/Z-Zheng/pytorch-change-models) -> out-of-box contemporary spatiotemporal change model implementations, standard metrics, and datasets
+
 #
 ## Time series
 
@@ -2974,8 +2980,12 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [satclip](https://github.com/microsoft/satclip) -> A Global, General-Purpose Geographic Location Encoder from Microsoft
 
-- [](https://earthloc-and-earthmatch.github.io/) -> Astronaut Photography Localization & Iterative Coregistration
+- [Astronaut Photography Localization & Iterative Coregistration](https://earthloc-and-earthmatch.github.io/)
 
+- [rs-cbir](https://github.com/amirafshari/rs-cbir) -> Satellite Image Vector Database and Multimodal Search using fine-tuned ResNet50 on AID dataset
+
+- [TorchSpatial](https://github.com/seai-lab/TorchSpatial) -> A Location Encoding Framework and Benchmark for Spatial Representation Learning
+  
 #
 ## Anomaly detection
 Anomaly detection refers to the process of identifying unusual patterns or outliers in satellite or aerial images that do not conform to expected norms. This is crucial in applications such as environmental monitoring, defense surveillance, and urban planning. Machine learning algorithms, particularly unsupervised learning methods, are used to analyze vast amounts of remote sensing data efficiently. These algorithms learn the typical patterns and variations in the data, allowing them to flag anomalies such as unexpected land cover changes, illegal deforestation, or unusual maritime activities. The detection of these anomalies can provide valuable insights for timely decision-making and intervention in various fields.
@@ -3348,6 +3358,8 @@ Image registration is the process of registering one or more images onto another
 - [Phase correlation](https://en.wikipedia.org/wiki/Phase_correlation) is used to estimate the XY translation between two images with sub-pixel accuracy. Can be used for accurate registration of low resolution imagery onto high resolution imagery, or to register a [sub-image on a full image](https://www.mathworks.com/help/images/registering-an-image-using-normalized-cross-correlation.html) -> Unlike many spatial-domain algorithms, the phase correlation method is resilient to noise, occlusions, and other defects. With [additional pre-processing](https://scikit-image.org/docs/dev/auto_examples/registration/plot_register_rotation.html) image rotation and scale changes can also be calculated.
 
 - [How to Co-Register Temporal Stacks of Satellite Images](https://medium.com/sentinel-hub/how-to-co-register-temporal-stacks-of-satellite-images-5167713b3e0b)
+
+- [image-matching-models](https://github.com/gmberton/image-matching-models) ->  easily try 23 different image matching methods
 
 - [ImageRegistration](https://github.com/jandremarais/ImageRegistration) -> Interview assignment for multimodal image registration using SIFT
 
@@ -3781,6 +3793,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [MTP](https://github.com/ViTAE-Transformer/MTP) -> Advancing Remote Sensing Foundation Model via Multi-Task Pretraining
 
 - [DiffusionSat](https://www.samarkhanna.com/DiffusionSat/) -> A Generative Foundation Model For Satellite Imagery
+
+- [granite-geospatial-biomass](https://github.com/ibm-granite/granite-geospatial-biomass) -> A geospatial model for Above Ground Biomass from IBM
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
