@@ -3792,7 +3792,7 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 # ⭐️ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=satellite-image-deep-learning/techniques&type=Date)]
+![Star History Chart](https://api.star-history.com/svg?repos=satellite-image-deep-learning/techniques&type=Date)
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
