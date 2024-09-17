@@ -1122,6 +1122,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [SSRS](https://github.com/sstary/SSRS) -> Semantic Segmentation for Remote Sensing, multiple networks implemented
 
+- [BIOSCANN](https://github.com/BiodiversityLab/bioscann) -> BIOdiversity Segmentation and Classification with Artificial Neural Networks
+
 #
 ## Instance segmentation
 
@@ -1449,6 +1451,8 @@ Detecting the most noticeable or important object in a scene
 - [wakemodel_llmassist](https://github.com/pbeukema/wakemodel_llmassist) -> wake detection in Sentinel-2, uses an EfficientNet-B0 architecture adapted for keypoint detection
 
 - [ORFENet](https://github.com/dyl96/ORFENet) -> Tiny Object Detection in Remote Sensing Images Based on Object Reconstruction and Multiple Receptive Field Adaptive Feature Enhancement. Uses LEVIR-Ship & AI-TODv2 datasets
+
+- [mayrajeo S2 ship-detection](https://github.com/mayrajeo/ship-detection) -> Detecting marine vessels from Sentinel-2 imagery with YOLOv8
 
 ### Object detection - Cars, vehicles & trains
 
