@@ -3694,8 +3694,6 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - Read [this article from NVIDIA](https://developer.nvidia.com/blog/preparing-models-for-object-detection-with-real-and-synthetic-data-and-tao-toolkit/) which discusses fine tuning a model pre-trained on synthetic data (Rareplanes) with 10% real data, then pruning the model to reduce its size, before quantizing the model to improve inference speed
 
-- [Combining Synthetic Data with Real Data to Improve Detection Results in Satellite Imagery](https://one-view.ai/combining-synthetic-data-with-real-data-to-improve-detection-results-in-satellite-imagery-case-study/)
-
 - [BlenderGIS](https://github.com/domlysz/BlenderGIS) could be used for synthetic data generation
 
 - [bifrost.ai](https://www.bifrost.ai/) -> simulated data service with geospatial output data formats
