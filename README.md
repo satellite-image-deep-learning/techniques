@@ -1020,8 +1020,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [dynamic-rs-segmentation](https://github.com/keillernogueira/dynamic-rs-segmentation) -> Dynamic Multi-Context Segmentation of Remote Sensing Images based on Convolutional Networks
 
-- [2023GRIC](https://github.com/biluko/2023GRIC) -> Combining UPerNet and ConvNeXt for Contrails Identification to reduce Global Warming
-
 - [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) -> Segmentation models with pretrained backbones, has been used in multiple winning solutions to remote sensing competitions
 
 - [SSRN](https://github.com/zilongzhong/SSRN) -> Spectral-Spatial Residual Network for Hyperspectral Image Classification: A 3-D Deep Learning Framework
@@ -3717,8 +3715,6 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [rendered.ai](https://rendered.ai/) -> The Platform as a Service for Creating Synthetic Data
 
 - [synthetic_xview_airplanes](https://github.com/yangxu351/synthetic_xview_airplanes) -> creation of airplanes synthetic dataset using ArcGIS CityEngine
-
-- [Combining Synthetic Data with Real Data to Improve Detection Results in Satellite Imagery: Case Study](https://one-view.ai/combining-synthetic-data-with-real-data-to-improve-detection-results-in-satellite-imagery-case-study/)
 
 - [Import OpenStreetMap data into Unreal Engine 4](https://github.com/ue4plugins/StreetMap)
 
