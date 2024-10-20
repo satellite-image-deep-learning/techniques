@@ -437,6 +437,10 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [mowing-detection](https://github.com/lucas-batier/mowing-detection) -> Automatic detection of mowing and grazing from Sentinel images
 
+- [PTAViT3D and PTAViT3DCA](https://github.com/feevos/tfcl) -> Tackling fluffy clouds: field boundaries detection using time series of S2 and/or S1 imagery
+
+- [ai4boundaries](https://github.com/waldnerf/ai4boundaries) -> a Python package that facilitates download of the AI4boundaries data set
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces
@@ -954,6 +958,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [MAP-Mapper](https://github.com/CoDIS-Lab/MAP-Mapper) -> Marine Plastic Mapper is a tool for assessing marine macro-plastic density to identify plastic hotspots, underpinned by the MARIDA dataset.
 
+- [substation-seg](https://github.com/Lindsay-Lab/substation-seg) -> segmenting substations in Sentinel 2 satellite imagery
+
 ### Panoptic segmentation
 
 - [Things and stuff or how remote sensing could benefit from panoptic segmentation](https://softwaremill.com/things-and-stuff-or-how-remote-sensing-could-benefit-from-panoptic-segmentation/)
@@ -1123,6 +1129,10 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [SSRS](https://github.com/sstary/SSRS) -> Semantic Segmentation for Remote Sensing, multiple networks implemented
 
 - [BIOSCANN](https://github.com/BiodiversityLab/bioscann) -> BIOdiversity Segmentation and Classification with Artificial Neural Networks
+
+- [ResUNet-a](https://github.com/feevos/resuneta) -> a deep learning framework for semantic segmentation of remotely sensed data
+
+- [SSG2](https://github.com/feevos/ssg2) -> A New Modelling Paradigm for Semantic Segmentation
 
 #
 ## Instance segmentation
@@ -2327,6 +2337,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
 - [SICKLE](https://github.com/Depanshu-Sani/SICKLE) -> A Multi-Sensor Satellite Imagery Dataset Annotated with Multiple Key Cropping Parameters. Basline solutions: U-TAE, U-Net3D and ConvLSTM
 
+- [yieldCNN](https://github.com/waldnerf/yieldCNN) -> Training temporal Convolution Neural Networks (CNNs) on satellite image time series for yield forecasting
+
 #
 ## Wealth and economic activity
 
@@ -2438,6 +2450,8 @@ Remote sensing images are used in disaster response to identify and assess damag
 - [DAHiTra](https://github.com/nka77/DAHiTra) -> Large-scale Building Damage Assessment using a Novel Hierarchical Transformer Architecture on Satellite Images. Uses xView2 xBD dataset
 
 - [skai](https://github.com/google-research/skai) -> a machine learning based tool from Goolge for performing automatic building damage assessments on aerial imagery of disaster sites.
+
+- [building-damage-assessment](https://github.com/microsoft/building-damage-assessment) -> A toolkit that enables building damage assessments from remotely sensed imagery
 
 - [building-damage-assessment-cnn-siamese](https://github.com/microsoft/building-damage-assessment-cnn-siamese) -> from the Microsoft Ai for Good lab
 
