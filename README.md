@@ -2999,6 +2999,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 - [rs-cbir](https://github.com/amirafshari/rs-cbir) -> Satellite Image Vector Database and Multimodal Search using fine-tuned ResNet50 on AID dataset
 
 - [TorchSpatial](https://github.com/seai-lab/TorchSpatial) -> A Location Encoding Framework and Benchmark for Spatial Representation Learning
+
+- [experimental-design-multichannel](https://github.com/sbb-gh/experimental-design-multichannel) -> Task-based image channel selection e.g. select most informative hyperspectral wavelengths and perform a task. [Paper](https://openreview.net/pdf?id=MloaGA6WwX).
   
 #
 ## Anomaly detection
