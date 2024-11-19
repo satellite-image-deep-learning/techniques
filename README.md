@@ -1594,7 +1594,7 @@ A variety of techniques can be used to count animals, including object detection
 - [Pytorch Benchmarks for Object Detection in Aerial Images](https://github.com/dingjiansw101/AerialDetection)
 
 - [ASPDNet](https://github.com/liuqingjie/ASPDNet) -> Counting dense objects in remote sensing images
-
+/
 - [xview-yolov3](https://github.com/ultralytics/xview-yolov3) -> xView 2018 Object Detection Challenge: YOLOv3 Training and Inference
 
 - [Faster RCNN for xView satellite data challenge](https://github.com/samirsen/small-object-detection)
@@ -3000,7 +3000,7 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [TorchSpatial](https://github.com/seai-lab/TorchSpatial) -> A Location Encoding Framework and Benchmark for Spatial Representation Learning
 
-- [experimental-design-multichannel](https://github.com/sbb-gh/experimental-design-multichannel) -> Task-based image channel selection e.g. select most informative hyperspectral wavelengths and perform a task. [Paper](https://openreview.net/pdf?id=MloaGA6WwX).
+- [experimental-design-multichannel](https://github.com/sbb-gh/experimental-design-multichannel) -> Task-based image channel selection e.g. select most informative hyperspectral wavelengths and perform a task. [Paper](https://openreview.net/forum?id=MloaGA6WwX).
   
 #
 ## Anomaly detection
