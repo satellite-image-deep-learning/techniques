@@ -1594,7 +1594,7 @@ A variety of techniques can be used to count animals, including object detection
 - [Pytorch Benchmarks for Object Detection in Aerial Images](https://github.com/dingjiansw101/AerialDetection)
 
 - [ASPDNet](https://github.com/liuqingjie/ASPDNet) -> Counting dense objects in remote sensing images
-/
+
 - [xview-yolov3](https://github.com/ultralytics/xview-yolov3) -> xView 2018 Object Detection Challenge: YOLOv3 Training and Inference
 
 - [Faster RCNN for xView satellite data challenge](https://github.com/samirsen/small-object-detection)
