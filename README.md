@@ -209,6 +209,10 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [cyfi](https://github.com/drivendataorg/cyfi) -> Estimate cyanobacteria density based on Sentinel-2 satellite imagery
 
+- [3DGAN-ViT](https://github.com/aj1365/3DGAN-ViT) -> A deep learning framework based on generative adversarial networks and vision transformer for complex wetland classification puplished in [International Journal of Applied Earth Observation and Geoinformation](https://www.sciencedirect.com/science/article/pii/S1569843222002837)
+
+- [EfficientBigEarthNet](https://github.com/Orion-AI-Lab/EfficientBigEarthNet) -> Code and models from the paper [Benchmarking and scaling of deep learning models for land cover image classification](https://www.sciencedirect.com/science/article/pii/S0924271622003057).
+
 #
 ## Segmentation
 
@@ -440,6 +444,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [PTAViT3D and PTAViT3DCA](https://github.com/feevos/tfcl) -> Tackling fluffy clouds: field boundaries detection using time series of S2 and/or S1 imagery
 
 - [ai4boundaries](https://github.com/waldnerf/ai4boundaries) -> a Python package that facilitates download of the AI4boundaries data set
+
+- [Nasa_harvest_field_boundary_competition](https://github.com/radiantearth/Nasa_harvest_field_boundary_competition) -> Nasa Harvest Rwanda Field Boundary Detection Challenge Tutorial
 
 ### Segmentation - Water, coastlines, rivers & floods
 
@@ -874,6 +880,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [DeepMAO](https://github.com/Sumanth181099/DeepMAO) -> Deep Multi-scale Aware Overcomplete Network for Building Segmentation in Satellite Imagery
 
+- [CMGFNet-Building_Extraction](https://github.com/hamidreza2015/CMGFNet-Building_Extraction) -> Deep Learning Code for Building Extraction from very high resolution (VHR) remote sensing images
+
 ### Segmentation - Solar panels
 
 - [Deep-Learning-for-Solar-Panel-Recognition](https://github.com/saizk/Deep-Learning-for-Solar-Panel-Recognition) -> using both object detection with Yolov5 and Unet segmentation
@@ -1132,6 +1140,16 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [SSG2](https://github.com/feevos/ssg2) -> A New Modelling Paradigm for Semantic Segmentation
 
+- [DBFNet](https://github.com/Luffy03/DBFNet) -> Deep Bilateral Filtering Network for Point-Supervised Semantic Segmentation in Remote Sensing Images [IEEE](https://ieeexplore.ieee.org/document/9961229) paper
+
+- [PGNet](https://github.com/Fhujinwu/PGNet) -> PGNet: Positioning Guidance Network for Semantic Segmentation of Very-High-Resolution Remote Sensing Images [paper](https://www.mdpi.com/2072-4292/14/17/4219)
+
+- [ASD](https://github.com/Jingtao-Li-CVer/ASD) -> Anomaly Segmentation for High-Resolution Remote Sensing Images Based on Pixel Descriptors (AAAI2023) [download link](https://ojs.aaai.org/index.php/AAAI/article/view/25563/25335)
+
+- [u-nets-implementation](https://github.com/Aadit3003/u-nets-implementation) -> Semantic-Segmentation-with-U-Nets
+
+- [SDM](https://github.com/caoql98/SDM) -> Scale-aware Detailed Matching for Few-Shot Aerial Image Semantic Segmentation
+
 #
 ## Instance segmentation
 
@@ -1193,6 +1211,8 @@ Object detection in remote sensing involves locating and surrounding objects of 
 - [Moving-object-detection-DSFNet](https://github.com/ChaoXiao12/Moving-object-detection-DSFNet) -> DSFNet: Dynamic and Static Fusion Network for Moving Object Detection in Satellite Videos
 
 - [HiFT](https://github.com/vision4robotics/HiFT) -> Hierarchical Feature Transformer for Aerial Tracking
+
+- [segment-anything-video](https://github.com/kadirnar/segment-anything-video) -> MetaSeg: Packaged version of the Segment Anything repository
 
 ### Object detection with rotated bounding boxes
 
@@ -1462,6 +1482,8 @@ Detecting the most noticeable or important object in a scene
 
 - [mayrajeo S2 ship-detection](https://github.com/mayrajeo/ship-detection) -> Detecting marine vessels from Sentinel-2 imagery with YOLOv8
 
+- [CHPDet](https://github.com/zf020114/CHPDet) -> PyTorch implementation of "Arbitrary-Oriented Ship Detection through Center-Head Point Extraction"
+
 ### Object detection - Cars, vehicles & trains
 
 - [Detection of parkinglots and driveways with retinanet](https://github.com/spiyer99/retinanet)
@@ -1554,6 +1576,8 @@ Oil is stored in tanks at many points between extraction and sale, and the volum
 - [Oil Storage Detection on Airbus Imagery with YOLOX](https://medium.com/artificialis/oil-storage-detection-on-airbus-imagery-with-yolox-9e38eb6f7e62) -> uses the Kaggle Airbus Oil Storage Detection dataset
 
 - [AContrarioTankDetection](https://github.com/anttad/AContrarioTankDetection) -> Oil Tank Detection in Satellite Images via a Contrario Clustering
+
+- [Fast-Large-Image-Object-Detection-yolov7](https://github.com/shah0nawaz/Fast-Large-Image-Object-Detection-yolov7) -> The oil yolov7 model is trained on oil storage tanks (OST) dataset
 
 ### Object detection - Animals
 
@@ -1682,6 +1706,8 @@ A variety of techniques can be used to count animals, including object detection
 - [DOTA-C](https://github.com/hehaodong530/DOTA-C) -> evaluating the robustness of object detection models to 19 types of image quality degradation
 
 - [Satellite-Remote-Sensing-Image-Object-Detection](https://github.com/ypw-lbj/Satellite-Remote-Sensing-Image-Object-Detection) -> using RefineDet & DOTA dataset
+
+- [yolov5](https://github.com/leticiastachelski/yolov5) -> yolov5 detecting hurricane with Roboflow
 
 ## Object counting
 
@@ -2184,6 +2210,16 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [pytorch-change-models](https://github.com/Z-Zheng/pytorch-change-models) -> out-of-box contemporary spatiotemporal change model implementations, standard metrics, and datasets
 
+- [FFCTL](https://github.com/lauraset/FFCTL) -> A full-level fused cross-task transfer learning method for building change detection using noise-robust pretrained networks on crowdsourced labels
+
+- [SARAS-Net](https://github.com/f64051041/SARAS-Net) -> SARAS-Net: Scale And Relation Aware Siamese Network for Change Detection
+
+- [Change_Detection_FCNs](https://github.com/DLoboT/Change_Detection_FCNs) -> Deforestation Detection with Fully Convolutional Networks in the Amazon Forest from Landsat-8 and Sentinel-2 Images
+
+- [HyperNet](https://github.com/meiqihu/HyperNet) -> HyperNet: Self-Supervised Hyperspectral SpatialSpectral Feature Understanding Network for Hyperspectral Change Detection [paper](https://ieeexplore.ieee.org/document/9934933)
+
+- [CMCDNet](https://github.com/CAU-HE/CMCDNet) -> CMCDNet: Cross-modal change detection flood extraction based on convolutional neural network [paper](https://www.sciencedirect.com/science/article/pii/S1569843223000195)
+
 #
 ## Time series
 
@@ -2283,6 +2319,8 @@ Crop classification in remote sensing is the identification and mapping of diffe
 - [StressNet: A spatial-spectral-temporal deformable attention-based framework for water stress classification in maize](https://github.com/tejasri19/Stressnet) -> Water Stress Classification on Multispectral data of Maize captured by UAV
 
 - [XAI4EO](https://github.com/adelabbs/XAI4EO) -> Towards Explainable AI4EO: an explainable DL approach for crop type mapping using SITS
+
+- [model_ecaas_agrifieldnet_gold](https://github.com/radiantearth/model_ecaas_agrifieldnet_gold) -> AgriFieldNet Model for Crop Types Detection. First place solution of the of the [Zindi AgriFieldNet India Challenge](https://zindi.africa/competitions/agrifieldnet-india-challenge) for Crop Types Detection from Satellite Imagery. 
 
 #
 ## Crop yield & vegetation forecasting
@@ -3268,6 +3306,8 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 
 - [SITS-MoCo](https://github.com/YXu556/SITS-MoCo) -> Self-supervised pre-training for large-scale crop mapping using Sentinel-2 time series
 
+- [DINO-MC](https://github.com/WennyXY/DINO-MC) -> DINO-MC: Self-supervised Contrastive Learning for Remote Sensing Imagery with Multi-sized Local Crops
+
 #
 ## Weakly & semi-supervised learning
 
@@ -3735,6 +3775,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> dataset and pretrained models for the paper: OnlyPlanes - Incrementally Tuning Synthetic Training Datasets for Satellite Object Detection
 
 - [Using Stable Diffusion to Improve Image Segmentation Models](https://medium.com/edge-analytics/using-stable-diffusion-to-improve-image-segmentation-models-1e99c25acbf) -> Augmenting Data with Stable Diffusion
+
+- [synthetic-satellite-imagery](https://github.com/ms-synthetic-satellite-image/synthetic-satellite-imagery) -> Label-conditional Synthetic Satellite Imagery - generating synthetic satellite images and conducting downstream experiments
 
 #
 ## Large vision & language models (LLMs & LVMs)
