@@ -1212,8 +1212,6 @@ Object detection in remote sensing involves locating and surrounding objects of 
 
 - [HiFT](https://github.com/vision4robotics/HiFT) -> Hierarchical Feature Transformer for Aerial Tracking
 
-- [segment-anything-video](https://github.com/kadirnar/segment-anything-video) -> MetaSeg: Packaged version of the Segment Anything repository
-
 ### Object detection with rotated bounding boxes
 
 Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For datasets checkout DOTA & HRSC2016. Start with Yolov8
