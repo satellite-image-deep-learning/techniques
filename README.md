@@ -213,6 +213,8 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [EfficientBigEarthNet](https://github.com/Orion-AI-Lab/EfficientBigEarthNet) -> Code and models from the paper [Benchmarking and scaling of deep learning models for land cover image classification](https://www.sciencedirect.com/science/article/pii/S0924271622003057).
 
+- [automatic_solar_pv_detection](https://github.com/KennSmithDS/automatic_solar_pv_detection) -> Automatic Solar PV Panel Image Classification with Deep Neural Network Transfer Learning
+
 #
 ## Segmentation
 
@@ -447,6 +449,10 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Nasa_harvest_field_boundary_competition](https://github.com/radiantearth/Nasa_harvest_field_boundary_competition) -> Nasa Harvest Rwanda Field Boundary Detection Challenge Tutorial
 
+- [UTB_codes](https://github.com/zhu-xlab/UTB_codes) -> The Urban Tree Canopy Cover in Brazil [article](https://nkszjx.github.io/projects/UTB.html)
+
+- [nasa_harvest_boundary_detection_challenge](https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge) -> the 4th place solution for NASA Harvest Field Boundary Detection Challenge on Zindi.
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces
@@ -517,6 +523,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [RiverSnap](https://github.com/ArminMoghimi/RiverSnap) -> code for paper: A Comparative Performance Analysis of Popular Deep Learning Models and Segment Anything Model (SAM) for River Water Segmentation in Close-Range Remote Sensing Imagery
 
+- [SAR-water-segmentation](https://github.com/myeungun/SAR-water-segmentation) -> Deep Learning based Water Segmentation Using KOMPSAT-5 SAR Images
+
 ### Segmentation - Fire, smoke & burn areas
 
 - [SatelliteVu-AWS-Disaster-Response-Hackathon](https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon) -> fire spread prediction using classical ML & deep learning
@@ -574,6 +582,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [GlacierSemanticSegmentation](https://github.com/n9Mtq4/GlacierSemanticSegmentation)
 
 - [Antarctic-fracture-detection](https://github.com/chingyaolai/Antarctic-fracture-detection) -> uses UNet with the MODIS Mosaic of Antarctica to detect surface fractures
+
+- [sentinel_lakeice](https://github.com/prs-eth/sentinel_lakeice) -> Lake Ice Detection from Sentinel-1 SAR with Deep Learning
 
 ### Segmentation - Other environmental
 
@@ -1482,6 +1492,8 @@ Detecting the most noticeable or important object in a scene
 
 - [CHPDet](https://github.com/zf020114/CHPDet) -> PyTorch implementation of "Arbitrary-Oriented Ship Detection through Center-Head Point Extraction"
 
+- [VDS2Raw](https://github.com/sirbastiano/VDS2Raw) -> VFNet with ResNet-18 for Vessel Detection in S-2 Raw Imagery
+
 ### Object detection - Cars, vehicles & trains
 
 - [Detection of parkinglots and driveways with retinanet](https://github.com/spiyer99/retinanet)
@@ -1757,6 +1769,8 @@ Regression in remote sensing involves predicting continuous variables such as wi
 - [DengueNet](https://github.com/mimikuo365/DengueNet-IJCAI) -> DengueNet: Dengue Prediction using Spatiotemporal Satellite Imagery for Resource-Limited Countries
 
 - [tropical_cyclone_uq](https://github.com/nilsleh/tropical_cyclone_uq) -> Uncertainty Aware Tropical Cyclone Wind Speed Estimation from Satellite Data
+
+- [AQNet](https://github.com/CoDIS-Lab/AQNet) -> AQNet - Predicting air quality via multimodal AI and satellite imagery [paper](https://www.sciencedirect.com/science/article/pii/S0034425723001608)
 
 #
 ## Cloud detection & removal
@@ -2218,6 +2232,12 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [CMCDNet](https://github.com/CAU-HE/CMCDNet) -> CMCDNet: Cross-modal change detection flood extraction based on convolutional neural network [paper](https://www.sciencedirect.com/science/article/pii/S1569843223000195)
 
+- [Dsfer-Net](https://github.com/ShizhenChang/Dsfer-Net) -> A Deep Supervision and Feature Retrieval Network for Bitemporal Change Detection Using Modern Hopfield Network [paper](https://arxiv.org/pdf/2304.01101)
+
+- [Simple-Remote-Sensing-Change-Detection-Framework](https://github.com/walking-shadow/Simple-Remote-Sensing-Change-Detection-Framework) -> Simplified implementation of remote sensing change detection based on Pytorch
+
+- [BCE-Net](https://github.com/liaochengcsu/BCE-Net) -> BCE-Net: Reliable Building Footprints Change Extraction based on Historical Map and Up-to-Date Images using Contrastive Learning
+
 #
 ## Time series
 
@@ -2678,6 +2698,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 - [GAN-HSI-SR](https://github.com/ZhuangChen25674/GAN-HSI-SR) -> Hyperspectral Image Super-Resolution by Band Attention Through Adversarial Learning
 
 - [Restoring old aerial images with Deep Learning](https://towardsdatascience.com/restoring-old-aerial-images-with-deep-learning-60f0cfd2658) -> Medium article Super Resolution with Perceptual Loss function and real images as input
+
+- [SalDRN](https://github.com/hanlinwu/SalDRN) -> Lightweight Stepless Super-Resolution of Remote Sensing Images via Saliency-Aware Dynamic Routing Strategy [paper](https://arxiv.org/abs/2210.07598)
 
 #
 ## Pansharpening
@@ -3201,6 +3223,8 @@ Generalized Few-shot Semantic Segmentation
 
 - [SegLand](https://github.com/LiZhuoHong/SegLand) -> Generalized Few-Shot Meets Remote Sensing: Discovering Novel Classes in Land Cover Mapping via Hybrid Semantic Segmentation Framework. 1st place in the OpenEarthMap Land Cover Mapping Few-Shot Challenge
 
+- [MCFA-Pytorch](https://github.com/masuqiang/MCFA-Pytorch) -> Multi-level Cross-modal Feature Alignment via Contrastive Learning towards Zero-shot Classification of Remote Sensing Image Scenes [paper](https://arxiv.org/abs/2306.06066)
+
 #
 ## Self-supervised, unsupervised & contrastive learning
 Self-supervised, unsupervised & contrastive learning are all methods of machine learning that use unlabeled data to train algorithms. Self-supervised learning uses labeled data to create an artificial supervisor, while unsupervised learning uses only the data itself to identify patterns and similarities. Contrastive learning uses pairs of data points to learn representations of data, usually for classification tasks. Note that self-supervised approaches are commonly used in the training of so-called Foundational models, since they enable learning from large quantities of unlablleded data, tyipcally time series.
@@ -3305,6 +3329,14 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 - [SITS-MoCo](https://github.com/YXu556/SITS-MoCo) -> Self-supervised pre-training for large-scale crop mapping using Sentinel-2 time series
 
 - [DINO-MC](https://github.com/WennyXY/DINO-MC) -> DINO-MC: Self-supervised Contrastive Learning for Remote Sensing Imagery with Multi-sized Local Crops
+
+- [official-CMID](https://github.com/NJU-LHRS/official-CMID) -> A Unified Self-Supervised Learning Framework for Remote Sensing Image Understanding [paper](https://arxiv.org/abs/2304.09670)
+
+- [Domain-Adaptable-Self-Supervised-Representation-Learning-on-Remote-Sensing-Satellite-Imagery](https://github.com/muskaan712/Domain-Adaptable-Self-Supervised-Representation-Learning-on-Remote-Sensing-Satellite-Imagery) -> Domain Adaptable Self-supervised Representation Learning on Remote Sensing Satellite Imagery
+
+- [PLRDiff](https://github.com/earth-insights/PLRDiff) -> Unsupervised Hyperspectral Pansharpening via Low-rank Diffusion Model (Information Fusion 2024)
+
+- [RSOS_I2I](https://github.com/Sarmadfismael/RSOS_I2I) -> Unsupervised Domain Adaptation for the Semantic Segmentation of Remote Sensing Images via One-Shot Image-to-Image Translation
 
 #
 ## Weakly & semi-supervised learning
@@ -3677,6 +3709,8 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
 - [Sentinel1-Flood-Finder](https://github.com/cordmaur/Sentinel1-Flood-Finder) -> Flood Finder Package from Sentinel 1 Imagery
 
+- [bayes-forest-structure](https://github.com/prs-eth/bayes-forest-structure) -> Country-wide Retrieval of Forest Structure From Optical and SAR Satellite Imagery With Bayesian Deep Learning [paper](https://www.sciencedirect.com/science/article/pii/S0924271622003045)
+
 #
 ## NDVI - vegetation index
 
@@ -3843,6 +3877,12 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [DiffusionSat](https://www.samarkhanna.com/DiffusionSat/) -> A Generative Foundation Model For Satellite Imagery
 
 - [granite-geospatial-biomass](https://github.com/ibm-granite/granite-geospatial-biomass) -> A geospatial model for Above Ground Biomass from IBM
+
+- [RSP](https://github.com/ViTAE-Transformer/RSP) -> An Empirical Study of Remote Sensing Pretraining
+
+- [geo-bench](https://github.com/ServiceNow/geo-bench) -> GEO-Bench is a General Earth Observation benchmark for evaluating the performances of large pre-trained models on geospatial data. Read the full [paper](https://arxiv.org/abs/2306.03831)
+
+- [RS5M](https://github.com/om-ai-lab/RS5M) -> RS5M and GeoRSCLIP: A Large Scale Vision-Language Dataset and A Vision-Language Foundation Model for Remote Sensing
 
 # ⭐️ Star History
 
