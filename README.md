@@ -3922,9 +3922,5 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [RS5M](https://github.com/om-ai-lab/RS5M) -> RS5M and GeoRSCLIP: A Large Scale Vision-Language Dataset and A Vision-Language Foundation Model for Remote Sensing
 
-# ⭐️ Star History
-
-![Star History Chart](https://api.star-history.com/svg?repos=satellite-image-deep-learning/techniques&type=Date)
-
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
