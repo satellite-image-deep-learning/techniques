@@ -215,6 +215,8 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [automatic_solar_pv_detection](https://github.com/KennSmithDS/automatic_solar_pv_detection) -> Automatic Solar PV Panel Image Classification with Deep Neural Network Transfer Learning
 
+- [U-netR](https://github.com/JonathanVSV/U-netR) -> Land Use Land Cover Classification with U-Net: Advantages of Combining Sentinel-1 and Sentinel-2 Imagery [paper](https://doi.org/10.3390/rs13183600)
+
 #
 ## Segmentation
 
@@ -312,6 +314,8 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 - [FLAIR-2 challenge](https://github.com/IGNF/FLAIR-2) -> Semantic segmentation and domain adaptation challenge proposed by the French National Institute of Geographical and Forest Information (IGN)
 
 - [flair-2 8th place solution](https://github.com/association-rosia/flair-2)
+
+- [igarss-spada](https://github.com/links-ads/spada) -> Dataset and code for the paper Land Cover Segmentation with Sparse Annotations from Sentinel-2 Imagery [IGARSS 2023](https://arxiv.org/abs/2306.16252). 
 
 ### Segmentation - Vegetation, deforestation, crops & crop boundaries
 
@@ -452,6 +456,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [UTB_codes](https://github.com/zhu-xlab/UTB_codes) -> The Urban Tree Canopy Cover in Brazil [article](https://nkszjx.github.io/projects/UTB.html)
 
 - [nasa_harvest_boundary_detection_challenge](https://github.com/geoaigroup/nasa_harvest_boundary_detection_challenge) -> the 4th place solution for NASA Harvest Field Boundary Detection Challenge on Zindi.
+
+- [rainforest-segmentation](https://github.com/jcblsn/rainforest-segmentation) -> Identifying and tracking deforestation in the Amazon Rainforest using state-of-the-art deep learning models and multispectral satellite imagery.
 
 ### Segmentation - Water, coastlines, rivers & floods
 
@@ -715,6 +721,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [LRDNet](https://github.com/dyl96/LRDNet) -> A Lightweight Road Detection Algorithm Based on Multiscale Convolutional Attention Network and Coupled Decoder Head
 
 - [Fine–Grained Extraction of Road Networks via Joint Learning of Connectivity and Segmentation](https://github.com/YXu556/RoadExtraction) -> uses SpaceNet 3 dataset
+
+- [Satellite-Image-Road-Segmentation](https://github.com/aavek/Satellite-Image-Road-Segmentation) -> Graph Reasoned Multi-Scale Road Segmentation in Remote Sensing Imagery [paper](https://ieeexplore.ieee.org/document/10281660)
 
 ### Segmentation - Buildings & rooftops
 
@@ -1160,6 +1168,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [SDM](https://github.com/caoql98/SDM) -> Scale-aware Detailed Matching for Few-Shot Aerial Image Semantic Segmentation
 
+- [Transferability-Remote-Sensing](https://github.com/GDAOSU/Transferability-Remote-Sensing) -> On the Transferability of Learning Models for Semantic Segmentation for Remote Sensing Data
+
 #
 ## Instance segmentation
 
@@ -1565,6 +1575,8 @@ Detecting the most noticeable or important object in a scene
 
 - [WindTurbineDetection](https://github.com/nvriese1/WindTurbineDetection) -> Implementation of transfer learning approach using the YOLOv7 framework to detect and rapidly quantify wind turbines in raw LANDSAT and NAIP satellite imagery
 
+- [Arctic-Infrastructure-Detection-Paper](https://github.com/eliasm56/Arctic-Infrastructure-Detection-Paper) -> Convolutional Neural Networks for Automated Built Infrastructure Detection in the Arctic Using Sub-Meter Spatial Resolution Satellite Imagery [paper](https://www.mdpi.com/2072-4292/14/11/2719)
+
 ### Object detection - Oil storage tank detection
 
 Oil is stored in tanks at many points between extraction and sale, and the volume of oil in storage is an important economic indicator.
@@ -1588,6 +1600,8 @@ Oil is stored in tanks at many points between extraction and sale, and the volum
 - [AContrarioTankDetection](https://github.com/anttad/AContrarioTankDetection) -> Oil Tank Detection in Satellite Images via a Contrario Clustering
 
 - [Fast-Large-Image-Object-Detection-yolov7](https://github.com/shah0nawaz/Fast-Large-Image-Object-Detection-yolov7) -> The oil yolov7 model is trained on oil storage tanks (OST) dataset
+
+- [Oiltank-Capacity-Detection](https://github.com/GeNiaaz/Oiltank-Capacity-Detection) -> Analyse storage tanks around the world and identify the external floating roof tanks.
 
 ### Object detection - Animals
 
@@ -1718,6 +1732,10 @@ A variety of techniques can be used to count animals, including object detection
 - [Satellite-Remote-Sensing-Image-Object-Detection](https://github.com/ypw-lbj/Satellite-Remote-Sensing-Image-Object-Detection) -> using RefineDet & DOTA dataset
 
 - [yolov5](https://github.com/leticiastachelski/yolov5) -> yolov5 detecting hurricane with Roboflow
+
+- [SFRNet](https://github.com/Ranchosky/SFRNet) -> SFRNet: Fine-Grained Oriented Object Recognition via Separate Feature Refinement
+
+- [contrail-seg](https://github.com/junzis/contrail-seg) -> Neural network models for contrail detection and segmentation
 
 ## Object counting
 
@@ -2238,6 +2256,12 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [BCE-Net](https://github.com/liaochengcsu/BCE-Net) -> BCE-Net: Reliable Building Footprints Change Extraction based on Historical Map and Up-to-Date Images using Contrastive Learning
 
+- [sits-change-detection](https://github.com/adebowaledaniel/sits-change-detection) -> Detecting Land Cover Changes Between Satellite Image Time Series By Exploiting Self-Supervised Representation Learning Capabilities
+
+- [USSFC-Net](https://github.com/SUST-reynole/USSFC-Net) -> Ultralightweight Spatial–Spectral Feature Cooperation Network for Change Detection in Remote Sensing Images [paper](https://ieeexplore.ieee.org/document/10081023)
+
+- [VcT_Remote_Sensing_Change_Detection](https://github.com/Event-AHU/VcT_Remote_Sensing_Change_Detection) -> VcT: Visual change Transformer for Remote Sensing Image Change Detection [IEEE](https://ieeexplore.ieee.org/document/10294300)
+
 #
 ## Time series
 
@@ -2296,6 +2320,12 @@ The analysis of time series observations in remote sensing data has numerous app
 - [Rapid Wildfire Hotspot Detection Using Self-Supervised Learning on Temporal Remote Sensing Data](https://github.com/links-ads/igarss-multi-temporal-hotspot-detection)
 
 - [stenn-pytorch](https://github.com/ThinkPak/stenn-pytorch) -> A Spatio-temporal Encoding Neural Network for Semantic Segmentation of Satellite Image Time Series
+
+- [SITS-Former](https://github.com/linlei1214/SITS-Former) -> SITS-Former: A Pre-Trained Spatio-Spectral-Temporal Representation Model for Sentinel-2 Time Series Classification
+
+- [graph-dynamic-earth-net](https://github.com/corentin-dfg/graph-dynamic-earth-net) -> Graph Dynamic Earth Net: Spatio-Temporal Graph Benchmark for Satellite Image Time Series [paper](https://ieeexplore.ieee.org/abstract/document/10281458)
+
+- [multi-stage-convSTAR-network](https://github.com/0zgur0/multi-stage-convSTAR-network) -> Pytorch implementation for hierarchical time series classification with multi-stage convolutional RNN [paper](https://arxiv.org/pdf/2102.08820.pdf)
 
 #
 ## Crop classification
@@ -2699,6 +2729,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
 - [SalDRN](https://github.com/hanlinwu/SalDRN) -> Lightweight Stepless Super-Resolution of Remote Sensing Images via Saliency-Aware Dynamic Routing Strategy [paper](https://arxiv.org/abs/2210.07598)
 
+- [BlindSRSNF](https://github.com/hanlinwu/BlindSRSNF) -> Conditional Stochastic Normalizing Flows for Blind Super-Resolution of Remote Sensing Images [paper](https://arxiv.org/abs/2210.07751)
+
 #
 ## Pansharpening
 
@@ -2775,6 +2807,8 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
 - [Pansharpening](https://github.com/nithin-gr/Pansharpening) -> Pansformers: Transformer-Based Self-Attention Network for Pansharpening
 
 - [Sentinel-2 Band Pan-Sharpening](https://github.com/purijs/Sentinel-2-Superresolution)
+
+- [UAPN](https://github.com/keviner1/UAPN) -> Official PyTorch implementation of our TGRS paper: Deep Adaptive Pansharpening via Uncertainty-aware Image Fusion.[Paper link](https://ieeexplore.ieee.org/iel7/36/4358825/10106462.pdf)
 
 #
 ## Image-to-image translation
@@ -2967,6 +3001,8 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
 
 - [SAR2Optical](https://github.com/MuhammedM294/SAR2Optical) -> Transcoding Sentinel-1 SAR to Sentinel-2 using cGAN
 
+- [Urban-Tree-Generator](https://github.com/adnan0819/Urban-Tree-Generator) -> Spatio-Temporal and Generative Deep Learning for Urban Tree Localization and Modeling [paper](https://link.springer.com/article/10.1007/s00371-022-02526-x)
+
 #
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
 
@@ -3057,6 +3093,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 - [TorchSpatial](https://github.com/seai-lab/TorchSpatial) -> A Location Encoding Framework and Benchmark for Spatial Representation Learning
 
 - [experimental-design-multichannel](https://github.com/sbb-gh/experimental-design-multichannel) -> Task-based image channel selection e.g. select most informative hyperspectral wavelengths and perform a task. [Paper](https://openreview.net/forum?id=MloaGA6WwX).
+
+- [PMAA](https://github.com/XavierJiezou/PMAA) -> A Progressive Multi-scale Attention Autoencoder Model for High-Performance Cloud Removal from Multi-temporal Satellite Imagery
   
 #
 ## Anomaly detection
@@ -3335,6 +3373,8 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 - [PLRDiff](https://github.com/earth-insights/PLRDiff) -> Unsupervised Hyperspectral Pansharpening via Low-rank Diffusion Model (Information Fusion 2024)
 
 - [RSOS_I2I](https://github.com/Sarmadfismael/RSOS_I2I) -> Unsupervised Domain Adaptation for the Semantic Segmentation of Remote Sensing Images via One-Shot Image-to-Image Translation
+
+- [aws-smsl-geospatial-analysis-deforestation](https://github.com/aws-samples/aws-smsl-geospatial-analysis-deforestation) -> Detecting deforestation using unsupervised K-means clustering on Sentinel-2 satellite imagery and SageMaker Studio Lab(SMSL) [Sagemaker notebook](https://studiolab.sagemaker.aws/import/github.com/aws-samples/aws-smsl-geospatial-analysis-deforestation/blob/main/geospatial_analysis_deforestation.ipynb)
 
 #
 ## Weakly & semi-supervised learning
