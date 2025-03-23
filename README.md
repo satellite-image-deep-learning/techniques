@@ -165,8 +165,6 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [SIGNA](https://github.com/kyle-one/SIGNA) -> Semantic Interleaving Global Channel Attention for Multilabel Remote Sensing Image Classification
 
-- [Satellite Image Classification](https://github.com/rocketmlhq/rmldnn/tree/main/tutorials/satellite_image_classification) using rmldnn and Sentinel 2 data
-
 - [PBDL](https://github.com/Usman1021/PBDL) -> Patch-Based Discriminative Learning for Remote Sensing Scene Classification
 
 - [EmergencyNet](https://github.com/ckyrkou/EmergencyNet) -> identify fire and other emergencies from a drone
@@ -2758,7 +2756,7 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
 
 - [Sentinel-2 Band Pan-Sharpening](https://github.com/purijs/Sentinel-2-Superresolution)
 
-- [UAPN](https://github.com/keviner1/UAPN) -> Official PyTorch implementation of our TGRS paper: Deep Adaptive Pansharpening via Uncertainty-aware Image Fusion.[Paper link](https://ieeexplore.ieee.org/iel7/36/4358825/10106462.pdf)
+- [UAPN](https://github.com/keviner1/UAPN) -> Official PyTorch implementation of our TGRS paper: Deep Adaptive Pansharpening via Uncertainty-aware Image Fusion.[Paper link](https://ieeexplore.ieee.org/document/10106462)
 
 #
 ## Image-to-image translation
