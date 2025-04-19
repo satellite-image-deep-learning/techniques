@@ -437,6 +437,10 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [rainforest-segmentation](https://github.com/jcblsn/rainforest-segmentation) -> Identifying and tracking deforestation in the Amazon Rainforest using state-of-the-art deep learning models and multispectral satellite imagery.
 
+- [Delineate Anything: Resolution-Agnostic Field Boundary Delineation on Satellite Imagery](https://github.com/Lavreniuk/Delineate-Anything)
+
+- [Semantic_segmentation_for_LCLUC](https://github.com/waterdmd/Semantic_segmentation_for_LCLUC) -> Semantic Segmentation for Simultaneous Crop and Land Cover Land Use Classification Using Multi-Temporal Landsat Imagery
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces
@@ -552,6 +556,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [SAR-landslide-detection-pretraining](https://github.com/VMBoehm/SAR-landslide-detection-pretraining) -> SAR-based landslide classification pretraining leads to better segmentation
 
 - [Landslide mapping from Sentinel-2 imagery through change detection](https://github.com/links-ads/igarss-landslide-delineation)
+
+- [landslide4sense-solution](https://github.com/iamtekson/landslide4sense-solution) -> solution of Tek Kshetri
 
 ### Segmentation - Glaciers
 
@@ -1142,6 +1148,10 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [Transferability-Remote-Sensing](https://github.com/GDAOSU/Transferability-Remote-Sensing) -> On the Transferability of Learning Models for Semantic Segmentation for Remote Sensing Data
 
+- [data-centric-satellite-segmentation](https://github.com/microsoft/data-centric-satellite-segmentation) -> Contains implementations of data-centric approaches for improving semantic segmentation on satellite imagery, from Microsoft
+
+- [HSLabeling](https://github.com/linjiaxing99/HSLabeling) -> Towards Efficient Labeling for Large-scale Remote Sensing Image Segmentation with Hybrid Sparse Labeling
+
 #
 ## Instance segmentation
 
@@ -1467,6 +1477,8 @@ Detecting the most noticeable or important object in a scene
 - [CHPDet](https://github.com/zf020114/CHPDet) -> PyTorch implementation of "Arbitrary-Oriented Ship Detection through Center-Head Point Extraction"
 
 - [VDS2Raw](https://github.com/sirbastiano/VDS2Raw) -> VFNet with ResNet-18 for Vessel Detection in S-2 Raw Imagery
+
+- [Global Fishing Capacity - Vessel Detection Model](https://github.com/allenai/global_fishing_capacity_detector) -> from Allen.ai and using Maxar imagery
 
 ### Object detection - Cars, vehicles & trains
 
@@ -3039,7 +3051,13 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 - [experimental-design-multichannel](https://github.com/sbb-gh/experimental-design-multichannel) -> Task-based image channel selection e.g. select most informative hyperspectral wavelengths and perform a task. [Paper](https://openreview.net/forum?id=MloaGA6WwX).
 
 - [PMAA](https://github.com/XavierJiezou/PMAA) -> A Progressive Multi-scale Attention Autoencoder Model for High-Performance Cloud Removal from Multi-temporal Satellite Imagery
-  
+
+- [Temporal MOSAIKS](https://github.com/isaaccorley/temporal-mosaiks) -> Embed2Scale Challenge 4th Place Solution (Training Free!)
+
+- [RANGE](https://github.com/mvrl/RANGE) -> Retrieval Augmented Neural Fields for Multi-Resolution Geo-Embeddings
+
+- [geoclap](https://github.com/mvrl/geoclap) -> Learning Tri-modal Embeddings for Zero-Shot Soundscape Mapping
+
 #
 ## Anomaly detection
 Anomaly detection refers to the process of identifying unusual patterns or outliers in satellite or aerial images that do not conform to expected norms. This is crucial in applications such as environmental monitoring, defense surveillance, and urban planning. Machine learning algorithms, particularly unsupervised learning methods, are used to analyze vast amounts of remote sensing data efficiently. These algorithms learn the typical patterns and variations in the data, allowing them to flag anomalies such as unexpected land cover changes, illegal deforestation, or unusual maritime activities. The detection of these anomalies can provide valuable insights for timely decision-making and intervention in various fields.
@@ -3316,6 +3334,8 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 
 - [aws-smsl-geospatial-analysis-deforestation](https://github.com/aws-samples/aws-smsl-geospatial-analysis-deforestation) -> Detecting deforestation using unsupervised K-means clustering on Sentinel-2 satellite imagery and SageMaker Studio Lab(SMSL) [Sagemaker notebook](https://studiolab.sagemaker.aws/import/github.com/aws-samples/aws-smsl-geospatial-analysis-deforestation/blob/main/geospatial_analysis_deforestation.ipynb)
 
+- [dinov2-remote-sensing](https://github.com/chagmgang/dinov2-remote-sensing) -> Pytorch implementation and pretrained models for DINO v2 in remote sensing.
+
 #
 ## Weakly & semi-supervised learning
 
@@ -3493,6 +3513,7 @@ Image registration is the process of registering one or more images onto another
 
 - [Multi-Step-Deformable-Registration](https://github.com/mpapadomanolaki/Multi-Step-Deformable-Registration) -> Unsupervised Multi-Step Deformable Registration of Remote Sensing Imagery based on Deep Learning
 
+- [MapGlue](https://github.com/PeihaoWu/MapGlue) -> Multimodal Remote Sensing Image Matching with `MapData-test` dataset
 
 #
 ## Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF
@@ -3851,6 +3872,10 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [geo-bench](https://github.com/ServiceNow/geo-bench) -> GEO-Bench is a General Earth Observation benchmark for evaluating the performances of large pre-trained models on geospatial data. Read the full [paper](https://arxiv.org/abs/2306.03831)
 
 - [RS5M](https://github.com/om-ai-lab/RS5M) -> RS5M and GeoRSCLIP: A Large Scale Vision-Language Dataset and A Vision-Language Foundation Model for Remote Sensing
+
+- [Galileo](https://github.com/nasaharvest/galileo) -> Learning Global and Local Features in Pretrained Remote Sensing Models, from Nasa Harvest
+
+- [AnySat](https://github.com/gastruc/AnySat) -> One Earth Observation Model for Many Resolutions, Scales, and Modalities
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
