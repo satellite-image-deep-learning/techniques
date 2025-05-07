@@ -932,6 +932,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [A Comparative Evaluation of Deep Learning Techniques for Photovoltaic Panel Detection from Aerial Images](https://github.com/links-ads/access-solar-panels)
 
+- [UCSD_MLBootcamp_Capstone](https://github.com/FederCO23/UCSD_MLBootcamp_Capstone) -> Automatic Detection of Photovoltaic Power Stations Using Satellite Imagery and Deep Learning (Sentinel 2)
+
 ### Segmentation - Ships & vessels
 
 - [Universal-segmentation-baseline-Kaggle-Airbus-Ship-Detection](https://github.com/OniroAI/Universal-segmentation-baseline-Kaggle-Airbus-Ship-Detection) -> Kaggle Airbus Ship Detection Challenge - bronze medal solution
