@@ -226,7 +226,7 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
 - [laika](https://github.com/datasciencecampus/laika) -> The goal of this repo is to research potential sources of satellite image data and to implement various algorithms for satellite image segmentation
 
-- [PEARL](https://www.landcover.io/) -> a human-in-the-loop AI tool to drastically reduce the time required to produce an accurate Land Use/Land Cover (LULC) map, [blog post](http://devseed.com/blog/2021-05-17-pearl-ai-land-cover), uses Microsoft Planetary Computer and ML models run locally in the browser. Code for [backelnd](https://github.com/developmentseed/pearl-backend) and [frontend](https://github.com/developmentseed/pearl-frontend)
+- landcover dot io -> was a human-in-the-loop AI tool to drastically reduce the time required to produce an accurate Land Use/Land Cover (LULC) map, [blog post](http://devseed.com/blog/2021-05-17-pearl-ai-land-cover), used Microsoft Planetary Computer and ML models run locally in the browser. Code for [backelnd](https://github.com/developmentseed/pearl-backend) and [frontend](https://github.com/developmentseed/pearl-frontend)
 
 - [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net, uses DeepGlobe Land Cover Segmentation dataset, with [code](https://github.com/TarunKumar1995-glitch/land_cover_classification_unet)
 
@@ -693,8 +693,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [PaRK-Detect](https://github.com/ShenweiXie/PaRK-Detect) -> PaRK-Detect: Towards Efficient Multi-Task Satellite Imagery Road Extraction via Patch-Wise Keypoints Detection
 
 - [tile2net](https://github.com/VIDA-NYU/tile2net) -> Mapping the walk: A scalable computer vision approach for generating sidewalk network datasets from aerial imagery
-
-- [AerialLaneNet](https://github.com/Jiawei-Yao0812/AerialLaneNet) -> Building Lane-Level Maps from Aerial Images, introduces the AErial Lane (AEL) Dataset: a first large-scale aerial image dataset built for lane detection
 
 - [sam_road](https://github.com/htcr/sam_road) -> Segment Anything Model (SAM) for large-scale, vectorized road network extraction from aerial imagery.
 
@@ -2984,7 +2982,7 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [RoofNet](https://github.com/ultysim/RoofNet) -> identify roof age using historical satellite images to lower the customer acquisition cost for new solar installations. Uses a VAE: Variational Autoencoder
 
-- [Visual search over billions of aerial and satellite images](https://arxiv.org/abs/2002.02624) -> implemented [at Descartes labs](https://blog.descarteslabs.com/geovisual-search-for-rapid-generation-of-annotated-datasets)
+- [Visual search over billions of aerial and satellite images](https://arxiv.org/abs/2002.02624)
 
 - [parallax](https://github.com/uber-research/parallax) -> Tool for interactive embeddings visualization
 
@@ -3514,8 +3512,6 @@ Image registration is the process of registering one or more images onto another
 - [L2_Siamese](https://github.com/TheKiteFlier/L2_Siamese) -> Registration of Multiresolution Remote Sensing Images Based on L2-Siamese Model
 
 - [Multi-Step-Deformable-Registration](https://github.com/mpapadomanolaki/Multi-Step-Deformable-Registration) -> Unsupervised Multi-Step Deformable Registration of Remote Sensing Imagery based on Deep Learning
-
-- [MapGlue](https://github.com/PeihaoWu/MapGlue) -> Multimodal Remote Sensing Image Matching with `MapData-test` dataset
 
 #
 ## Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF
