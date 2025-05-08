@@ -2645,6 +2645,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
 - [SGDM](https://github.com/wwangcece/SGDM) -> Semantic Guided Large Scale Factor Remote Sensing Image Super-resolution with Generative Diffusion Prior
 
+- [SEN2SR](https://github.com/ESAOpenSR/SEN2SR) -> A Python package to super-resolve Sentinel-2 satellite imagery up to 2.5 meters.
+  
 ### Super-resolution - Miscellaneous
 
 - [The value of super resolution — real world use case](https://medium.com/sentinel-hub/the-value-of-super-resolution-real-world-use-case-2ba811f4cd7f) -> Medium article on parcel boundary detection with super-resolved satellite imagery
