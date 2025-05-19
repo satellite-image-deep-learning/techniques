@@ -3058,6 +3058,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [geoclap](https://github.com/mvrl/geoclap) -> Learning Tri-modal Embeddings for Zero-Shot Soundscape Mapping
 
+- [Predicting butterfly species presence from satellite data](https://github.com/vdplasthijs/PECL) -> Resnet-based model to predict species presence vectors from satellite images. The model uses PECL (Paired Embeddings Contrastive Loss) as contrastive regularisation.
+
 #
 ## Anomaly detection
 Anomaly detection refers to the process of identifying unusual patterns or outliers in satellite or aerial images that do not conform to expected norms. This is crucial in applications such as environmental monitoring, defense surveillance, and urban planning. Machine learning algorithms, particularly unsupervised learning methods, are used to analyze vast amounts of remote sensing data efficiently. These algorithms learn the typical patterns and variations in the data, allowing them to flag anomalies such as unexpected land cover changes, illegal deforestation, or unusual maritime activities. The detection of these anomalies can provide valuable insights for timely decision-making and intervention in various fields.
