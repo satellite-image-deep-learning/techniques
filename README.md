@@ -1593,6 +1593,8 @@ A variety of techniques can be used to count animals, including object detection
 
 - [Audubon_F21](https://github.com/RiceD2KLab/Audubon_F21) ->  Deep object detection for waterbird monitoring using aerial imagery
 
+- [Beluga Whale Detection from Satellite Imagery with Point Labels](https://github.com/VoyagerXvoyagerx/beluga-seeker/tree/main)
+
 ### Object detection - Miscellaneous
 
 - [Object detection on Satellite Imagery using RetinaNet](https://medium.com/@ije_good/object-detection-on-satellite-imagery-using-retinanet-part-1-training-e589975afbd5) -> using the Kaggle Swimming Pool and Car Detection dataset
