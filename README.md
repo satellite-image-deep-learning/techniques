@@ -1150,6 +1150,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [HSLabeling](https://github.com/linjiaxing99/HSLabeling) -> Towards Efficient Labeling for Large-scale Remote Sensing Image Segmentation with Hybrid Sparse Labeling
 
+- [RemoteSAM](https://github.com/1e12Leon/RemoteSAM) -> Towards Segment Anything for Earth Observation (SAM)
+
 #
 ## Instance segmentation
 
