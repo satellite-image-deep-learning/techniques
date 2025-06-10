@@ -441,6 +441,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Semantic_segmentation_for_LCLUC](https://github.com/waterdmd/Semantic_segmentation_for_LCLUC) -> Semantic Segmentation for Simultaneous Crop and Land Cover Land Use Classification Using Multi-Temporal Landsat Imagery
 
+- [boundary-sam](https://github.com/awadbahaa/boundary-sam) -> parcel boundary delineation using SAM, image embeddings and detail enhancement filters
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [pytorch-waterbody-segmentation](https://github.com/gauthamk02/pytorch-waterbody-segmentation) -> UNET model trained on the Satellite Images of Water Bodies dataset from Kaggle. The model is deployed on Hugging Face Spaces
@@ -1186,6 +1188,8 @@ In instance segmentation, each individual 'instance' of a segmented area is give
 - [aqua_python](https://github.com/tclavelle/aqua_python) -> detecting aquaculture farms using Mask R-CNN
 
 - [RSPrompter](https://github.com/KyanChen/RSPrompter) -> Learning to Prompt for Remote Sensing Instance Segmentation based on Visual Foundation Model
+
+- [VMD-Mask-RCNN-pipeline](https://github.com/Fen100/VMD-Mask-RCNN-pipeline) -> Detecting and segmenting sand mining river vessels on the Vietnam Mekong Delta, using PlanetScope imagery and Mask R-CNN
 
 #
 ## Object detection
@@ -3082,7 +3086,9 @@ Anomaly detection refers to the process of identifying unusual patterns or outli
 
 - [How Airbus Detects Anomalies in ISS Telemetry Data Using TFX](https://blog.tensorflow.org/2020/04/how-airbus-detects-anomalies-iss-telemetry-data-tfx.html) -> uses an autoencoder
 
-* [AgriSen-COG](https://github.com/tselea/agrisen-cog) -> a Multicountry, Multitemporal Large-Scale Sentinel-2 Benchmark Dataset for Crop Mapping: includes an anomaly detection preprocessing step
+- [AgriSen-COG](https://github.com/tselea/agrisen-cog) -> a Multicountry, Multitemporal Large-Scale Sentinel-2 Benchmark Dataset for Crop Mapping: includes an anomaly detection preprocessing step
+
+- [SITS-ExtremeEvents](https://github.com/hfangcat/SITS-ExtremeEvents) -> Leveraging Satellite Image Time Series for Accurate Extreme Event Detection
 
 #
 ## Image retrieval
