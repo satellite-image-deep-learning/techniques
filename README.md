@@ -1709,6 +1709,8 @@ A variety of techniques can be used to count animals, including object detection
 
 - [contrail-seg](https://github.com/junzis/contrail-seg) -> Neural network models for contrail detection and segmentation
 
+- [DQ-DETR](https://github.com/hoiliu-0801/DQ-DETR) -> DETR with Dynamic Query for Tiny Object Detection, uses AI-TOD-v1 and AI-TOD-v2 Datasets
+
 ## Object counting
 
 When the object count, but not its shape is required, U-net can be used to treat this as an image-to-image translation problem.
@@ -2337,6 +2339,8 @@ Crop classification in remote sensing is the identification and mapping of diffe
 - [XAI4EO](https://github.com/adelabbs/XAI4EO) -> Towards Explainable AI4EO: an explainable DL approach for crop type mapping using SITS
 
 - [model_ecaas_agrifieldnet_gold](https://github.com/radiantearth/model_ecaas_agrifieldnet_gold) -> AgriFieldNet Model for Crop Types Detection. First place solution of the of the [Zindi AgriFieldNet India Challenge](https://zindi.africa/competitions/agrifieldnet-india-challenge) for Crop Types Detection from Satellite Imagery. 
+
+- [H2Crop](https://github.com/flyakon/H2Crop) -> Fine-grained Hierarchical Crop Type Classification from Integrated Hyperspectral EnMAP Data and Multispectral Sentinel-2 Time Series: A Large-scale Dataset and Dual-stream Transformer Method
 
 #
 ## Crop yield & vegetation forecasting
