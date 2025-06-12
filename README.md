@@ -1328,6 +1328,8 @@ Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For d
 
 - [CFINet](https://github.com/shaunyuan22/CFINet) -> Small Object Detection via Coarse-to-fine Proposal Generation and Imitation Learning. Introduces [SODA-A dataset](https://shaunyuan22.github.io/SODA/)
 
+- [FRCNN_git](https://github.com/runa91/FRCNN_git) -> Faster R-CNN implementation for rotated boxes
+
 ### Object detection enhanced by super resolution
 
 - [Super-Resolution and Object Detection](https://medium.com/the-downlinq/super-resolution-and-object-detection-a-love-story-part-4-8ad971eef81e) -> Super-resolution is a relatively inexpensive enhancement that can improve object detection performance
