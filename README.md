@@ -2547,7 +2547,7 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
 - [DDRN](https://github.com/kuijiang94/DDRN) -> Deep Distillation Recursive Network for Video Satellite Imagery Super-Resolution
 
--[worldstrat](https://github.com/worldstrat/worldstrat) -> SISR and MISR implementations of SRCNN
+- [worldstrat](https://github.com/worldstrat/worldstrat) -> SISR and MISR implementations of SRCNN
 
 - [MISR-GRU](https://github.com/rarefin/MISR-GRU) -> Pytorch implementation of MISR-GRU, a deep neural network for multi image super-resolution (MISR), for ProbaV Super Resolution Competition
 
@@ -2658,6 +2658,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 - [SGDM](https://github.com/wwangcece/SGDM) -> Semantic Guided Large Scale Factor Remote Sensing Image Super-resolution with Generative Diffusion Prior
 
 - [SEN2SR](https://github.com/ESAOpenSR/SEN2SR) -> A Python package to super-resolve Sentinel-2 satellite imagery up to 2.5 meters.
+
+- [Latent-Diffusion Super-Resolution: Sentinel-2](https://github.com/ESAOpenSR/opensr-model) -> Latent diffusion model to SR RGB-NIR of Sentinel-2 by a factor of 4. Features Interactive Colab demo, run the model on your own coordinates immediately. Can be used together with [SEN2SR](https://github.com/ESAOpenSR/SEN2SR) to SR all 10 & 20m bands of S2 to 2.5m.
   
 ### Super-resolution - Miscellaneous
 
