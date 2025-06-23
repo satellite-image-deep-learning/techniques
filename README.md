@@ -966,6 +966,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [substation-seg](https://github.com/Lindsay-Lab/substation-seg) -> segmenting substations in Sentinel 2 satellite imagery
 
+- [SAMSelect](https://github.com/geoJoost/SAMSelect) -> An Automated Spectral Index Search for Marine Debris using Segment-Anything (SAM)
+
 ### Panoptic segmentation
 
 - [Things and stuff or how remote sensing could benefit from panoptic segmentation](https://softwaremill.com/things-and-stuff-or-how-remote-sensing-could-benefit-from-panoptic-segmentation/)
@@ -2305,6 +2307,8 @@ The analysis of time series observations in remote sensing data has numerous app
 
 - [multi-stage-convSTAR-network](https://github.com/0zgur0/multi-stage-convSTAR-network) -> Pytorch implementation for hierarchical time series classification with multi-stage convolutional RNN [paper](https://arxiv.org/pdf/2102.08820.pdf)
 
+- [RESTORE-DiT](https://github.com/SQD1/RESTORE-DiT) -> Reliable satellite image time series reconstruction by multimodal sequential diffusion transformer
+
 #
 ## Crop classification
 
@@ -2706,6 +2710,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 - [SalDRN](https://github.com/hanlinwu/SalDRN) -> Lightweight Stepless Super-Resolution of Remote Sensing Images via Saliency-Aware Dynamic Routing Strategy [paper](https://arxiv.org/abs/2210.07598)
 
 - [BlindSRSNF](https://github.com/hanlinwu/BlindSRSNF) -> Conditional Stochastic Normalizing Flows for Blind Super-Resolution of Remote Sensing Images [paper](https://arxiv.org/abs/2210.07751)
+
+- [Sentinel2-SR-Toolbox](https://github.com/matciotola/Sentinel2-SR-Toolbox) -> A Comprehensive Benchmarking Framework for Sentinel-2 Sharpening: Methods, Dataset, and Evaluation Metrics
 
 #
 ## Pansharpening
