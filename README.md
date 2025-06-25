@@ -3082,6 +3082,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [Predicting butterfly species presence from satellite data](https://github.com/vdplasthijs/PECL) -> Resnet-based model to predict species presence vectors from satellite images. The model uses PECL (Paired Embeddings Contrastive Loss) as contrastive regularisation.
 
+- [NeuCo-Bench](https://github.com/embed2scale/NeuCo-Bench) -> a benchmarking framework for evaluating compressed embeddings on downstream tasks. Originally developed to evaluate challenge submissions for the 2025 EARTHVISION Challenge at CVPR
+
 #
 ## Anomaly detection
 Anomaly detection refers to the process of identifying unusual patterns or outliers in satellite or aerial images that do not conform to expected norms. This is crucial in applications such as environmental monitoring, defense surveillance, and urban planning. Machine learning algorithms, particularly unsupervised learning methods, are used to analyze vast amounts of remote sensing data efficiently. These algorithms learn the typical patterns and variations in the data, allowing them to flag anomalies such as unexpected land cover changes, illegal deforestation, or unusual maritime activities. The detection of these anomalies can provide valuable insights for timely decision-making and intervention in various fields.
@@ -3900,6 +3902,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [Galileo](https://github.com/nasaharvest/galileo) -> Learning Global and Local Features in Pretrained Remote Sensing Models, from Nasa Harvest
 
 - [AnySat](https://github.com/gastruc/AnySat) -> One Earth Observation Model for Many Resolutions, Scales, and Modalities
+
+- [SMARTIES](https://gsumbul.github.io/SMARTIES/) -> Spectrum-Aware Multi-Sensor Auto-Encoder for Remote Sensing Images
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
