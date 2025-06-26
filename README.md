@@ -573,17 +573,23 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [sentinel_lakeice](https://github.com/prs-eth/sentinel_lakeice) -> Lake Ice Detection from Sentinel-1 SAR with Deep Learning
 
-### Segmentation - Other environmental
-
-- [Detection of Open Landfills](https://github.com/dymaxionlabs/basurales) -> uses Sentinel-2 to detect large changes in the Normalized Burn Ratio (NBR)
-
-- [sea_ice_remote_sensing](https://github.com/sum1lim/sea_ice_remote_sensing) -> Sea Ice Concentration classification
+### Segmentation - methane
 
 - [Methane-detection-from-hyperspectral-imagery](https://github.com/satish1901/Methane-detection-from-hyperspectral-imagery) -> Deep Remote Sensing Methods for Methane Detection in Overhead Hyperspectral Imagery
 
 - [methane-emission-project](https://github.com/stlbnmaria/methane-emission-project) -> Classification CNNs was combined in an ensemble approach with traditional methods on tabular data
 
 - [CH4Net](https://github.com/annavaughan/CH4Net) -> A fast, simple model for detection of methane plumes using sentinel-2
+
+- [STARCOP: Semantic Segmentation of Methane Plumes with Hyperspectral Machine Learning models](https://github.com/spaceml-org/STARCOP)
+
+- [Project-Eucalyptus](https://github.com/Orbio-Earth/Project-Eucalyptus) -> pipelines for satellite-based methane detection. Includes trained segmentation models, a synthetic plume generator, and benchmarking tools for Sentinel-2, Landsat 8/9, and EMIT.
+
+### Segmentation - Other environmental
+
+- [Detection of Open Landfills](https://github.com/dymaxionlabs/basurales) -> uses Sentinel-2 to detect large changes in the Normalized Burn Ratio (NBR)
+
+- [sea_ice_remote_sensing](https://github.com/sum1lim/sea_ice_remote_sensing) -> Sea Ice Concentration classification
 
 - [EddyNet](https://github.com/redouanelg/EddyNet) -> A Deep Neural Network For Pixel-Wise Classification of Oceanic Eddies
 
@@ -600,8 +606,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [kaggle-identify-contrails-4th](https://github.com/selimsef/kaggle-identify-contrails-4th) -> 4th place Solution, Google Research - Identify Contrails to Reduce Global Warming
 
 - [MineSegSAT](https://github.com/macdonaldezra/MineSegSAT) -> An automated system to evaluate mining disturbed area extents from Sentinel-2 imagery
-
-- [STARCOP: Semantic Segmentation of Methane Plumes with Hyperspectral Machine Learning models](https://github.com/spaceml-org/STARCOP)
 
 - [asos](https://gitlab.jsc.fz-juelich.de/kiste/asos) -> Recognizing protected and anthropogenic patterns in landscapes using interpretable machine learning and satellite imagery
 
@@ -2665,6 +2669,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
 - [Latent-Diffusion Super-Resolution: Sentinel-2](https://github.com/ESAOpenSR/opensr-model) -> Latent diffusion model to SR RGB-NIR of Sentinel-2 by a factor of 4. Features Interactive Colab demo, run the model on your own coordinates immediately. Can be used together with [SEN2SR](https://github.com/ESAOpenSR/SEN2SR) to SR all 10 & 20m bands of S2 to 2.5m.
   
+- [sisr4rs](https://github.com/Evoland-Land-Monitoring-Evolution/sisr4rs) -> Single Image Super-Resolution for HR remote-sensing sensors
+
 ### Super-resolution - Miscellaneous
 
 - [The value of super resolution — real world use case](https://medium.com/sentinel-hub/the-value-of-super-resolution-real-world-use-case-2ba811f4cd7f) -> Medium article on parcel boundary detection with super-resolved satellite imagery
