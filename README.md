@@ -457,8 +457,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Urban_flooding](https://github.com/omarseleem92/Urban_flooding) -> Towards transferable data-driven models to predict urban pluvial flood water depth in Berlin, Germany
 
-- [Flood-Mapping-Using-Satellite-Images](https://github.com/KonstantinosF/Flood-Mapping-Using-Satellite-Images) -> masters thesis comparing Random Forest & Unet
-
 - [MECNet](https://github.com/zhilyzhang/MECNet) -> Rich CNN features for water-body segmentation from very high resolution aerial and satellite imagery
 
 - [SWRNET](https://github.com/trongan93/swrnet) -> A Deep Learning Approach for Small Surface Water Area Recognition Onboard Satellite
@@ -472,8 +470,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 ### Segmentation - Fire, smoke & burn areas
 
 - [SatelliteVu-AWS-Disaster-Response-Hackathon](https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon) -> fire spread prediction using classical ML & deep learning
-
-- [Wild Fire Detection](https://github.com/yueureka/WildFireDetection) using U-Net trained on Databricks & Keras, semantic segmentation
 
 - [A Practical Method for High-Resolution Burned Area Monitoring Using Sentinel-2 and VIIRS](https://github.com/mnpinto/FireHR)
 
@@ -505,8 +501,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [landslide-mapping-with-cnn](https://github.com/nprksh/landslide-mapping-with-cnn) -> A new strategy to map landslides with a generalized convolutional neural network
 
-- [Relict_landslides_CNN_kmeans](https://github.com/SPAMLab/data_sharing/tree/main/Relict_landslides_CNN_kmeans) -> Relict landslide detection in rainforest areas using a combination of k-means clustering algorithm and Deep-Learning semantic segmentation models
-
 - [Landslide-mapping-on-SAR-data-by-Attention-U-Net](https://github.com/lorenzonava96/Landslide-mapping-on-SAR-data-by-Attention-U-Net) -> Rapid Mapping of landslide on SAR data by Attention U-net
 
 - [SAR-landslide-detection-pretraining](https://github.com/VMBoehm/SAR-landslide-detection-pretraining) -> SAR-based landslide classification pretraining leads to better segmentation
@@ -520,8 +514,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [HED-UNet](https://github.com/khdlr/HED-UNet) -> a model for simultaneous semantic segmentation and edge detection, examples provided are glacier fronts and building footprints using the Inria Aerial Image Labeling dataset
 
 - [glacier_mapping](https://github.com/krisrs1128/glacier_mapping) -> Mapping glaciers in the Hindu Kush Himalaya, Landsat 7 images, Shapefile labels of the glaciers, Unet with dropout
-
-- [glacier-detect-ML](https://github.com/mikeskaug/glacier-detect-ML) -> a simple logistic regression model to identify a glacier in Landsat satellite imagery
 
 - [GlacierSemanticSegmentation](https://github.com/n9Mtq4/GlacierSemanticSegmentation)
 
@@ -572,11 +564,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [ML_EPFL_Project_2](https://github.com/LucasBrazCappelo/ML_EPFL_Project_2) -> U-Net in Pytorch to perform semantic segmentation of roads on satellite images
 
-- [Semantic Segmentation of roads](https://vihan-tyagi.medium.com/semantic-segmentation-of-satellite-images-based-on-deep-learning-algorithms-ea5ec408ac53) using  U-net Keras, OSM data, project summary article by student, no code
-
 - [Winning Solutions from SpaceNet Road Detection and Routing Challenge](https://github.com/SpaceNetChallenge/RoadDetector)
-
-- [RoadVecNet](https://github.com/gismodelling/RoadVecNet) -> Road-Network-Segmentation-and-Vectorization in keras with dataset
 
 - [Detecting road and road types jupyter notebook](https://github.com/taspinar/sidl/blob/master/notebooks/2_Detecting_road_and_roadtypes_in_sattelite_images.ipynb)
 
@@ -587,8 +575,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [road_detection_mtl](https://github.com/ntelo007/road_detection_mtl) -> Road Detection using a multi-task Learning technique to improve the performance of the road detection task by incorporating prior knowledge constraints, uses the SpaceNet Roads Dataset
 
 - [road_connectivity](https://github.com/anilbatra2185/road_connectivity) -> Improved Road Connectivity by Joint Learning of Orientation and Segmentation (CVPR2019)
-
-- [Road-Network-Extraction using classical Image processing](https://github.com/abhaykes1/Road-Network-Extraction) -> blur & canny edge detection
 
 - [SPIN_RoadMapper](https://github.com/wgcban/SPIN_RoadMapper) -> Extracting Roads from Aerial Images via Spatial and Interaction Space Graph Reasoning for Autonomous Driving
 
@@ -612,15 +598,11 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [ASPN](https://github.com/pshams55/ASPN) -> Road Segmentation for Remote Sensing Images using Adversarial Spatial Pyramid Networks
 
- - [FCNs-for-road-extraction-keras](https://github.com/zetrun-liu/FCNs-for-road-extraction-keras) -> Road extraction of high-resolution remote sensing images based on various semantic segmentation networks
-
 - [cresi](https://github.com/avanetten/cresi) -> Road network extraction from satellite imagery, with speed and travel time estimates
 
 - [D-LinkNet](https://github.com/NekoApocalypse/road-extraction-d-linknet) -> LinkNet with Pretrained Encoder and Dilated Convolution for High Resolution Satellite Imagery Road Extraction
 
 - [Sat2Graph](https://github.com/songtaohe/Sat2Graph) -> Road Graph Extraction through Graph-Tensor Encoding
-
-- [Image-Segmentation)](https://github.com/mschulz/Image-Segmentation) -> using Massachusetts Road dataset and fast.ai
 
 - [RoadTracer-M](https://github.com/astro-ck/RoadTracer-M) -> Road Network Extraction from Satellite Images Using CNN Based Segmentation and Tracing
 
@@ -646,8 +628,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [Istanbul_Dataset](https://github.com/TolgaBkm/Istanbul_Dataset) -> segmentation on the Istanbul, Inria and Massachusetts datasets
 
-- [Road-Segmentation](https://github.com/ralph-elhaddad/Road-Segmentation) -> Road segmentation on Satellite Images using CNN (U-Nets and FCN8) and Logistic Regression
-
 - [D-LinkNet](https://github.com/ShenweiXie/D-LinkNet) -> 1st place solution in DeepGlobe Road Extraction Challenge
 
 - [PaRK-Detect](https://github.com/ShenweiXie/PaRK-Detect) -> PaRK-Detect: Towards Efficient Multi-Task Satellite Imagery Road Extraction via Patch-Wise Keypoints Detection
@@ -670,15 +650,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [SRBuildSeg](https://github.com/xian1234/SRBuildSeg) -> Making low-resolution satellite images reborn: a deep learning approach for super-resolution building extraction
 
-- [Building footprint detection with fastai on the challenging SpaceNet7 dataset](https://deeplearning.berlin/satellite%20imagery/computer%20vision/fastai/2021/02/17/Building-Detection-SpaceNet7.html) uses U-Net & fastai
-
-- [Pix2Pix-for-Semantic-Segmentation-of-Satellite-Images](https://github.com/A2Amir/Pix2Pix-for-Semantic-Segmentation-of-Satellite-Images) -> using Pix2Pix GAN network to segment the building footprint from Satellite Images, uses tensorflow
-
-- [SpaceNetUnet](https://github.com/boggis30/SpaceNetUnet) -> Baseline model is U-net like, applied to SpaceNet Vegas data, using Keras
 
 - [automated-building-detection](https://github.com/rodekruis/automated-building-detection) -> Input: very-high-resolution (<= 0.5 m/pixel) RGB satellite images. Output: buildings in vector format (geojson), to be used in digital map products. Built on top of robosat and robosat.pink.
-
-- [project_sunroof_india](https://github.com/AKASH2907/project_sunroof_india) -> Analyzed Google Satellite images to generate a report on individual house rooftop's solar power potential, uses a range of classical computer vision techniques (e.g Canny Edge Detection) to segment the roofs
 
 - [JointNet-A-Common-Neural-Network-for-Road-and-Building-Extraction](https://github.com/ThomasWangWeiHong/JointNet-A-Common-Neural-Network-for-Road-and-Building-Extraction)
 
@@ -689,10 +662,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [polycnn](https://github.com/Lydorn/polycnn) -> End-to-End Learning of Polygons for Remote Sensing Image Classification
 
 - [spacenet_building_detection](https://github.com/motokimura/spacenet_building_detection) solution by [motokimura](https://github.com/motokimura) using Unet
-
-- [Vec2Instance](https://github.com/lakmalnd/Vec2Instance) -> applied to the SpaceNet challenge AOI 2 (Vegas) building footprint dataset, tensorflow v1.12
-
-- [EarthquakeDamageDetection](https://github.com/JaneKravchenko/EarthquakeDamageDetection) -> Buildings segmentation from satellite imagery and damage classification for each build, using Keras
 
 - [Semantic-segmentation repo by fuweifu-vtoo](https://github.com/fuweifu-vtoo/Semantic-segmentation) -> uses pytorch and the [Massachusetts Buildings & Roads Datasets](https://www.cs.toronto.edu/~vmnih/data/)
 
@@ -727,8 +696,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [Vector-Map-Generation-from-Aerial-Imagery-using-Deep-Learning-GeoSpatial-UNET](https://github.com/ManishSahu53/Vector-Map-Generation-from-Aerial-Imagery-using-Deep-Learning-GeoSpatial-UNET) -> applied to geo-referenced images which are very large size > 10k x 10k pixels
 
 - [building-footprint-segmentation](https://github.com/fuzailpalnak/building-footprint-segmentation) -> pip installable library to train building footprint segmentation on satellite and aerial imagery, applied to Massachusetts Buildings Dataset and Inria Aerial Image Labeling Dataset
-
-- [SemSegBuildings](https://github.com/SharpestProjects/SemSegBuildings) -> Project using fast.ai framework for semantic segmentation on Inria building segmentation dataset
 
 - [FCNN-example](https://github.com/emredog/FCNN-example) -> overfit to a given single image to detect houses
 
@@ -774,9 +741,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [ESFNet](https://github.com/mrluin/ESFNet-Pytorch) -> Efficient Network for Building Extraction from High-Resolution Aerial Images
 
-- [rooftop-detection-python](https://github.com/sayonpalit/rooftop-detection-python) -> Detect Rooftops from low resolution satellite images and calculate area for cultivation and solar panel installment using classical computer vision techniques
-
-- [keras_segmentation_models](https://github.com/sajmonogy/keras_segmentation_models) -> Using Open Vector-Based Spatial Data to Create Semantic Datasets for Building Segmentation for Raster Data
 
 - [CVCMFFNet](https://github.com/Jiankun-chen/CVCMFFNet-master) -> Complex-Valued Convolutional and Multifeature Fusion Network for Building Semantic Segmentation of InSAR Images
 
