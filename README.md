@@ -205,8 +205,6 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [U-netR](https://github.com/JonathanVSV/U-netR) -> Land Use Land Cover Classification with U-Net: Advantages of Combining Sentinel-1 and Sentinel-2 Imagery [paper](https://doi.org/10.3390/rs13183600)
 
-- [EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Cover Classification](https://arxiv.org/abs/1709.00029) -> Important research paper introducing the EuroSAT dataset with 27,000 labeled Sentinel-2 images across 10 classes
-
 - [nshaud/DeepNetsForEO](https://github.com/nshaud/DeepNetsForEO) -> Deep networks for Earth Observation with PyTorch implementations of state-of-the-art architectures for remote sensing image classification
 
 #
