@@ -207,8 +207,6 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Cover Classification](https://arxiv.org/abs/1709.00029) -> Important research paper introducing the EuroSAT dataset with 27,000 labeled Sentinel-2 images across 10 classes
 
-- [Planet: Understanding the Amazon from Space](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space) -> Kaggle competition for multi-label classification of Amazon rainforest satellite images to track deforestation and human impact
-
 - [nshaud/DeepNetsForEO](https://github.com/nshaud/DeepNetsForEO) -> Deep networks for Earth Observation with PyTorch implementations of state-of-the-art architectures for remote sensing image classification
 
 #
@@ -1406,7 +1404,6 @@ Detecting the most noticeable or important object in a scene
 
 - [ssd-spacenet](https://github.com/aurotripathy/ssd-spacenet) -> Detect buildings in the Spacenet dataset using Single Shot MultiBox Detector (SSD)
 
-- [DSTL Satellite Imagery Feature Detection](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection) -> Kaggle competition to classify features in satellite imagery including buildings, roads, vehicles, and more using both 3-band and 16-band imagery
 
 - [3DBuildingInfoMap](https://github.com/LllC-mmd/3DBuildingInfoMap) -> simultaneous extraction of building height and footprint from Sentinel imagery using ResNet
 
@@ -1444,7 +1441,6 @@ Detecting the most noticeable or important object in a scene
 
 - [Ship-Detection-from-Satellite-Images-using-YOLOV4](https://github.com/debasis-dotcom/Ship-Detection-from-Satellite-Images-using-YOLOV4) -> uses Kaggle Airbus Ship Detection dataset
 
-- [Ships in Satellite Imagery](https://www.kaggle.com/rhammell/ships-in-satellite-imagery) -> Kaggle dataset with 4,000 80x80 RGB images labeled with either a "ship" or "no-ship" classification for training ship detection models
 
 - [shipsnet-detector](https://github.com/rhammell/shipsnet-detector) -> Detect container ships in Planet imagery using machine learning
 
