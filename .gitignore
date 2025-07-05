@@ -21,3 +21,7 @@ bin-release/
 .ipynb_checkpoints
 .DS_Store
 .vscode/settings.json
+check_repos.py
+final_removal_analysis.md
+.gitignore
+removal_candidates.md
