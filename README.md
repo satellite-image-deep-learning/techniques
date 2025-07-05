@@ -1461,13 +1461,11 @@ A variety of techniques can be used to count animals, including object detection
 
 - [Faster RCNN for xView satellite data challenge](https://github.com/samirsen/small-object-detection)
 
-- [How to detect small objects in (very) large images](https://blog.ml6.eu/how-to-detect-small-objects-in-very-large-images-70234bab0f98) -> A practical guide to using Slicing-Aided Hyper Inference (SAHI) for performing inference on the DOTAv1.0 object detection dataset using the mmdetection framework
 
 - [Object Detection Satellite Imagery Multi-vehicles Dataset (SIMD)](https://github.com/asimniazi63/Object-Detection-on-Satellite-Images) -> RetinaNet,Yolov3 and Faster RCNN for multi object detection on satellite images dataset
 
 - [SNIPER/AutoFocus](https://github.com/mahyarnajibi/SNIPER) -> an efficient multi-scale object detection training/inference algorithm
 
-- [marine_debris_ML](https://github.com/NASA-IMPACT/marine_debris_ML) -> Marine debris detection, uses 3-meter imagery product called Planetscope with bands in the red, green, blue, and near-infrared. Uses Tensorflow Object Detection API with pre-trained resnet 101
 
 - [Electric-Pylon-Detection-in-RSI](https://github.com/qsjxyz/Electric-Pylon-Detection-in-RSI) -> a dataset which contains 1500 remote sensing images of electric pylons used to train ten deep learning models
 
@@ -1485,7 +1483,6 @@ A variety of techniques can be used to count animals, including object detection
 
 - [Google-earth-Object-Recognition](https://github.com/InnovAIco/Google-earth-Object-Recognition) -> Code for training and evaluating on Dior Dataset (Google Earth Images) using RetinaNet and YOLOV5
 
-- [HIECTOR: Hierarchical object detector at scale](https://medium.com/sentinel-hub/hiector-hierarchical-object-detector-at-scale-5a61753b51a3) -> HIECTOR facilitates multiple satellite data collections of increasingly detailed spatial resolution for a cost-efficient and accurate object detection over large areas. [Code](https://github.com/sentinel-hub/hiector)
 
 - [Detection of Multiclass Objects in Optical Remote Sensing Images](https://github.com/WenchaoliuMUC/Detection-of-Multiclass-Objects-in-Optical-Remote-Sensing-Images) -> Detection of Multiclass Objects in Optical Remote Sensing Images
 
@@ -1497,7 +1494,6 @@ A variety of techniques can be used to count animals, including object detection
 
 - [dior_detect](https://github.com/hm-better/dior_detect) -> benchmarks for object detection on DIOR dataset
 
-- [Panchromatic to Multispectral: Object Detection Performance as a Function of Imaging Bands](https://medium.com/the-downlinq/panchromatic-to-multispectral-object-detection-performance-as-a-function-of-imaging-bands-51ecaaa3dc56) -> Medium article, concludes that more bands are not always beneficial, but likely varies by use case
 
 - [OPLD-Pytorch](https://github.com/yf19970118/OPLD-Pytorch) -> Learning Point-Guided Localization for Detection in Remote Sensing Images
 
@@ -1507,7 +1503,6 @@ A variety of techniques can be used to count animals, including object detection
 
 - [SRAF-Net](https://github.com/Complicateddd/SRAF-Net) -> A Scene-Relevant Anchor-Free Object Detection Network in Remote Sensing Images
 
-- [object_detection_in_remote_sensing_images](https://github.com/EEexplorer001/object_detection_in_remote_sensing_images) -> using CNN and attention mechanism
 
 - [SHAPObjectDetection](https://github.com/hiroki-kawauchi/SHAPObjectDetection) -> SHAP-Based Interpretable Object Detection Method for Satellite Imagery
 
@@ -1541,7 +1536,6 @@ A variety of techniques can be used to count animals, including object detection
 
 - [Satellite-Remote-Sensing-Image-Object-Detection](https://github.com/ypw-lbj/Satellite-Remote-Sensing-Image-Object-Detection) -> using RefineDet & DOTA dataset
 
-- [yolov5](https://github.com/leticiastachelski/yolov5) -> yolov5 detecting hurricane with Roboflow
 
 - [SFRNet](https://github.com/Ranchosky/SFRNet) -> SFRNet: Fine-Grained Oriented Object Recognition via Separate Feature Refinement
 
@@ -1559,7 +1553,6 @@ When the object count, but not its shape is required, U-net can be used to treat
 
 - [DO-U-Net](https://github.com/ToyahJade/DO-U-Net) -> an effective approach for when the size of an object needs to be known, as well as the number of objects in the image, initially created to segment and count Internally Displaced People (IDP) camps in Afghanistan
 
-- [Cassava Crop Counting](https://medium.com/@wongsirikuln/cassava-standing-crop-counting-869cca486ce3)
 
 - [Counting from Sky](https://github.com/gaoguangshuai/Counting-from-Sky-A-Large-scale-Dataset-for-Remote-Sensing-Object-Counting-and-A-Benchmark-Method) -> A Large-scale Dataset for Remote Sensing Object Counting and A Benchmark Method
 
@@ -1585,7 +1578,6 @@ Regression in remote sensing involves predicting continuous variables such as wi
 
 - [HighResCanopyHeight](https://github.com/facebookresearch/HighResCanopyHeight) -> code for Meta paper: Very high resolution canopy height maps from RGB imagery using self-supervised vision transformer and convolutional decoder trained on Aerial Lidar
 
-- [Traffic density estimation as a regression problem instead of object detection](https://omdena.com/blog/ai-road-safety/) -> inspired by paper: Traffic density estimation method from small satellite imagery: Towards frequent remote sensing of car traffic
 
 - [OpticalWaveGauging_DNN](https://github.com/OpticalWaveGauging/OpticalWaveGauging_DNN) -> Optical wave gauging using deep neural networks
 
@@ -1762,11 +1754,9 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [Unstructured-change-detection-using-CNN](https://github.com/vbhavank/Unstructured-change-detection-using-CNN)
 
-- [Change Detection in 3D: Generating Digital Elevation Models from Dove Imagery](https://www.planet.com/pulse/publications/change-detection-in-3d-generating-digital-elevation-models-from-dove-imagery/)
 
 - [QGIS plugin for applying change detection algorithms on high resolution satellite imagery](https://github.com/dymaxionlabs/massive-change-detection)
 
-- [LamboiseNet](https://github.com/hbaudhuin/LamboiseNet) -> Master thesis about change detection in satellite imagery using Deep Learning
 
 - [Fully Convolutional Siamese Networks for Change Detection](https://github.com/rcdaudt/fully_convolutional_change_detection)
 
@@ -1806,11 +1796,9 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [SRCDNet](https://github.com/liumency/SRCDNet) -> Super-resolution-based Change Detection Network with Stacked Attention Module for Images with Different Resolutions. SRCDNet is designed to learn and predict change maps from bi-temporal images with different resolutions
 
-- [Land-Cover-Analysis](https://github.com/Kalit31/Land-Cover-Analysis) -> Land Cover Change Detection using Satellite Image Segmentation
 
 - [A deeply supervised image fusion network for change detection in high resolution bi-temporal remote sening images](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images)
 
-- [Satellite-Image-Alignment-Differencing-and-Segmentation](https://github.com/rishi5kesh/Satellite-Image-Alignment-Differencing-and-Segmentation)
 
 
 - [ChangeFormer](https://github.com/wgcban/ChangeFormer) -> A Transformer-Based Siamese Network for Change Detection. Uses transformer architecture to address the limitations of CNN in handling multi-scale long-range details. Demonstrates that ChangeFormer captures much finer details compared to the other SOTA methods, achieving better performance on benchmark datasets
@@ -1881,7 +1869,6 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [ESCNet](https://github.com/Bobholamovic/ESCNet) -> An End-to-End Superpixel-Enhanced Change Detection Network for Very-High-Resolution Remote Sensing Images
 
-- [ForestCoverChange](https://github.com/annusgit/ForestCoverChange) -> Detecting and Predicting Forest Cover Change in Pakistani Areas Using Remote Sensing Imagery
 
  - [deforestation-detection](https://github.com/vldkhramtsov/deforestation-detection) -> DEEP LEARNING FOR HIGH-FREQUENCY CHANGE DETECTION IN UKRAINIAN FOREST ECOSYSTEM WITH SENTINEL-2
 
@@ -1897,7 +1884,6 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [Remote-sensing-time-series-change-detection](https://github.com/liulianni1688/Remote-sensing-time-series-change-detection) -> Graph-based block-level urban change detection using Sentinel-2 time series
 
-- [austin-ml-change-detection-demo](https://github.com/makepath/austin-ml-change-detection-demo) -> A change detection demo for the Austin area using a pre-trained PyTorch model scaled with Dask on Planet imagery
 
 - [dfc2021-msd-baseline](https://github.com/calebrob6/dfc2021-msd-baseline) -> Multitemporal Semantic Change Detection track of the 2021 IEEE GRSS Data Fusion Competition
 
@@ -1913,7 +1899,6 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [FHD](https://github.com/ZSVOS/FHD) -> Feature Hierarchical Differentiation for Remote Sensing Image Change Detection
 
-- [Change detection with Raster Vision](https://www.azavea.com/blog/2022/04/18/change-detection-with-raster-vision/) -> blog post with Colab notebook
 
 - [building-expansion](https://github.com/reglab/building_expansion) -> Enhancing Environmental Enforcement with Near Real-Time Monitoring: Likelihood-Based Detection of Structural Expansion of Intensive Livestock Farms
 
@@ -2390,27 +2375,20 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
 - [Random Forest Super-Resolution (RFSR repo)](https://github.com/jshermeyer/RFSR) including [sample data](https://github.com/jshermeyer/RFSR/tree/master/SampleImagery)
 
-- [Enhancing Sentinel 2 images by combining Deep Image Prior and Decrappify](https://medium.com/omdena/pushing-the-limits-of-open-source-data-enhancing-satellite-imagery-through-deep-learning-9d8a3bbc0e0a). Repo for [deep-image-prior](https://github.com/DmitryUlyanov/deep-image-prior) and article on [decrappify](https://www.fast.ai/2019/05/03/decrappify/)
 
-- [Image Super-Resolution using an Efficient Sub-Pixel CNN](https://keras.io/examples/vision/super_resolution_sub_pixel/) -> the keras docs have a great tutorial on this light weight but well performing model
 
 - [super-resolution-using-gan](https://github.com/saraivaufc/super-resolution-using-gan) -> Super-Resolution of Sentinel-2 Using Generative Adversarial Networks
 
-- [Super-resolution of Multispectral Satellite Images Using Convolutional Neural Networks](https://up42.com/blog/tech/super-resolution-of-multispectral-satellite-images-using-convolutional)
 
-- [Multi-temporal Super-Resolution on Sentinel-2 Imagery](https://medium.com/sentinel-hub/multi-temporal-super-resolution-on-sentinel-2-imagery-6089c2b39ebc) using HighRes-Net, [repo](https://github.com/sentinel-hub/multi-temporal-super-resolution)
 
 - [SSPSR-Pytorch](https://github.com/junjun-jiang/SSPSR) -> A spatial-spectral prior deep network for single hyperspectral image super-resolution
 
-- [Sentinel-2 Super-Resolution: High Resolution For All (Bands)](https://up42.com/blog/tech/sentinel-2-superresolution)
 
 - [CinCGAN](https://github.com/Junshk/CinCGAN-pytorch) -> Unsupervised Image Super-Resolution using Cycle-in-Cycle Generative Adversarial Networks
 
 - [Satellite-image-SRGAN using PyTorch](https://github.com/xjohnxjohn/Satellite-image-SRGAN)
 
-- [EEGAN](https://github.com/kuijiang0802/EEGAN) -> Edge Enhanced GAN For Remote Sensing Image Super-Resolution, TensorFlow 1.1
 
-- [PECNN](https://github.com/kuijiang0802/PECNN) -> A Progressively Enhanced Network for Video Satellite Imagery Super-Resolution, minimal documentation
 
 - [hs-sr-tvtv](https://github.com/marijavella/hs-sr-tvtv) -> Enhanced Hyperspectral Image Super-Resolution via RGB Fusion and TV-TV Minimization
 
