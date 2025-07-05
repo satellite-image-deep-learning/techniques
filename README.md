@@ -89,12 +89,6 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [satsense](https://github.com/DynaSlum/satsense) -> land use/cover classification using classical features including HoG & NDVI
 
-- [PyTorch_UCMerced_LandUse](https://github.com/GeneralLi95/PyTorch_UCMerced_LandUse)
-
-- [EuroSAT-image-classification](https://github.com/artemisart/EuroSAT-image-classification)
-
-- [landcover_classification](https://github.com/reidfalconer/landcover_classification) -> using fast.ai on EuroSAT
-
 - [IGARSS2020_BWMS](https://github.com/jiankang1991/IGARSS2020_BWMS) -> Band-Wise Multi-Scale CNN Architecture for Remote Sensing Image Scene Classification with a novel CNN architecture for the feature embedding of high-dimensional RS images
 
 - [image.classification.on.EuroSAT](https://github.com/canturan10/image.classification.on.EuroSAT) -> solution in pure pytorch
@@ -103,15 +97,9 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [openai-drivendata-challenge](https://github.com/buildwithcycy/openai-drivendata-challenge) -> Using deep learning to classify the building material of rooftops (aerial imagery from South America)
 
-- [is-it-abandoned](https://github.com/zach-brown-18/is-it-abandoned) -> Can we tell if a house is abandoned based on aerial LIDAR imagery?
-
 - [BoulderAreaDetector](https://github.com/pszemraj/BoulderAreaDetector) -> CNN to classify whether a satellite image shows an area would be a good rock climbing spot or not
 
 - [ISPRS_S2FL](https://github.com/danfenghong/ISPRS_S2FL) -> Multimodal Remote Sensing Benchmark Datasets for Land Cover Classification with A Shared and Specific Feature Learning Model
-
-- [Brazilian-Coffee-Detection](https://github.com/MrSquidward/Brazilian-Coffee-Detection) -> uses Keras with public dataset
-
-- [tf-crash-severity](https://github.com/SoySauceNZ/tf-crash-severity) -> predict the crash severity for given road features contained within satellite images
 
 - [ensemble_LCLU](https://github.com/burakekim/ensemble_LCLU) -> Deep neural network ensembles for remote sensing land cover and land use classification
 
@@ -143,8 +131,6 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [SKAL](https://github.com/hw2hwei/SKAL) -> Looking Closer at the Scene: Multiscale Representation Learning for Remote Sensing Image Scene Classification
 
-- [potsdam-tensorflow-practice](https://github.com/medicinely/potsdam-tensorflow-practice) -> image classification of Potsdam dataset using tensorflow
-
 - [SAFF](https://github.com/zh-hike/SAFF) -> Self-Attention-Based Deep Feature Fusion for Remote Sensing Scene Classification
 
 - [GLNET](https://github.com/wuchangsheng951/GLNET) -> Convolutional Neural Networks Based Remote Sensing Scene Classification under Clear and Cloudy Environments
@@ -152,8 +138,6 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 - [Remote-sensing-image-classification](https://github.com/hiteshK03/Remote-sensing-image-classification) -> transfer learning using pytorch to classify remote sensing data into three classes: aircrafts, ships, none
 
 - [remote_sensing_pretrained_models](https://github.com/lsh1994/remote_sensing_pretrained_models) -> as an alternative to fine tuning on models pretrained on ImageNet, here some CNN are pretrained on the RSD46-WHU & AID datasets
-
-- [CNN_AircraftDetection](https://github.com/UKMIITB/CNN_AircraftDetection) -> CNN for aircraft detection in satellite images using keras
 
 - [OBIC-GCN](https://github.com/CVEO/OBIC-GCN) -> Object-based Classification Framework of Remote Sensing Images with Graph Convolutional Networks
 
@@ -232,8 +216,6 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
 - [Land Cover Classification with U-Net](https://baratam-tarunkumar.medium.com/land-cover-classification-with-u-net-aa618ea64a1b) -> Satellite Image Multi-Class Semantic Segmentation Task with PyTorch Implementation of U-Net, uses DeepGlobe Land Cover Segmentation dataset, with [code](https://github.com/TarunKumar1995-glitch/land_cover_classification_unet)
 
-- [Multi-class semantic segmentation of satellite images using U-Net](https://github.com/rogerxujiang/dstl_unet) using DSTL dataset, tensorflow 1 & python 2.7. 
-
 - [Codebase for multi class land cover classification with U-Net](https://github.com/jaeeolma/lulc_ml) accompanying a masters thesis, uses Keras
 
 - [dubai-satellite-imagery-segmentation](https://github.com/ayushdabra/dubai-satellite-imagery-segmentation) -> due to the small dataset, image augmentation was used
@@ -292,8 +274,6 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 - [spada](https://github.com/links-ads/spada) -> Land Cover Segmentation with Sparse Annotations from Sentinel-2 Imagery
 
 - [M3SPADA](https://github.com/ecapliez/M3SPADA) ->  Multi-Sensor Temporal Unsupervised Domain Adaptation for Land Cover Mapping with spatial pseudo labelling and adversarial learning
-
-- [mapbox/robosat](https://github.com/mapbox/robosat) -> Semantic segmentation on aerial and satellite imagery with active learning to reduce annotation requirements, includes utilities for datasets like OpenStreetMap
 
 - [mitmul/ssai-cnn](https://github.com/mitmul/ssai-cnn) -> Semantic Segmentation for Aerial / Satellite Images with CNN, includes implementation of FCN for dense labeling of aerial imagery
 
@@ -1278,8 +1258,6 @@ Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For d
 
 - [rotation-yolov5](https://github.com/BossZard/rotation-yolov5) -> rotation detection based on yolov5
 
-- [ShipDetection](https://github.com/lilinhao/ShipDetection) -> Ship Detection in HR Optical Remote Sensing Images via Rotated Bounding Box, based on Faster R-CNN and ORN, uses caffe
-
 - [SLRDet](https://github.com/LUCKMOONLIGHT/SLRDet) -> project based on mmdetection to reimplement RRPN and use the model Faster R-CNN OBB
 
 - [AxisLearning](https://github.com/RSIA-LIESMARS-WHU/AxisLearning) -> Axis Learning for Orientated Objects Detection in Aerial Images
@@ -1465,8 +1443,6 @@ Detecting the most noticeable or important object in a scene
 - [LR-TSDet](https://github.com/Lausen-Ng/LR-TSDet) -> LR-TSDet: Towards Tiny Ship Detection in Low-Resolution Remote Sensing Images
 
 - [FGSCR-42](https://github.com/DYH666/FGSCR-42) -> A public Dataset for Fine-Grained Ship Classification in Remote sensing images
-
-- [ShipDetection](https://github.com/lilinhao/ShipDetection) -> Ship Detection in HR Optical Remote Sensing Images via Rotated Bounding Box, based on Faster R-CNN and ORN, uses caffe
 
 - [WakeNet](https://github.com/Lilytopia/WakeNet) -> Rethinking Automatic Ship Wake Detection: State-of-the-Art CNN-based Wake Detection via Optical Images
 
@@ -3494,8 +3470,6 @@ Image registration is the process of registering one or more images onto another
 - [arosics](https://danschef.git-pages.gfz-potsdam.de/arosics/doc/about.html) -> Perform automatic subpixel co-registration of two satellite image datasets using phase-correlation, XY translations only.
 
 - [SubpixelAlignment](https://github.com/vldkhramtsov/SubpixelAlignment) -> Implementation of tiff image alignment through phase correlation for pixel- and subpixel-bias
-
-- [cnn-registration](https://github.com/yzhq97/cnn-registration) -> A image registration method using convolutional neural network features written in Python2, Tensorflow 1.5
 
 - [Siamese_ShiftNet](https://github.com/simon-donike/Siamese_ShiftNet) -> NN predicting spatial coregistration shift of remote sensing imagery. Adapted from HighRes-net
 
