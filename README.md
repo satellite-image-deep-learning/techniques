@@ -205,6 +205,8 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [U-netR](https://github.com/JonathanVSV/U-netR) -> Land Use Land Cover Classification with U-Net: Advantages of Combining Sentinel-1 and Sentinel-2 Imagery [paper](https://doi.org/10.3390/rs13183600)
 
+- [nshaud/DeepNetsForEO](https://github.com/nshaud/DeepNetsForEO) -> Deep networks for Earth Observation with PyTorch implementations of state-of-the-art architectures for remote sensing image classification
+
 #
 ## Segmentation
 
@@ -290,6 +292,10 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 - [spada](https://github.com/links-ads/spada) -> Land Cover Segmentation with Sparse Annotations from Sentinel-2 Imagery
 
 - [M3SPADA](https://github.com/ecapliez/M3SPADA) ->  Multi-Sensor Temporal Unsupervised Domain Adaptation for Land Cover Mapping with spatial pseudo labelling and adversarial learning
+
+- [mapbox/robosat](https://github.com/mapbox/robosat) -> Semantic segmentation on aerial and satellite imagery with active learning to reduce annotation requirements, includes utilities for datasets like OpenStreetMap
+
+- [mitmul/ssai-cnn](https://github.com/mitmul/ssai-cnn) -> Semantic Segmentation for Aerial / Satellite Images with CNN, includes implementation of FCN for dense labeling of aerial imagery
 
 - [GLNet](https://github.com/VITA-Group/GLNet) -> Collaborative Global-Local Networks for Memory-Efﬁcient Segmentation of Ultra-High Resolution Images
 
@@ -1396,6 +1402,7 @@ Detecting the most noticeable or important object in a scene
 
 - [ssd-spacenet](https://github.com/aurotripathy/ssd-spacenet) -> Detect buildings in the Spacenet dataset using Single Shot MultiBox Detector (SSD)
 
+
 - [3DBuildingInfoMap](https://github.com/LllC-mmd/3DBuildingInfoMap) -> simultaneous extraction of building height and footprint from Sentinel imagery using ResNet
 
 - [DeepSolaris](https://github.com/thinkpractice/DeepSolaris) -> a EuroStat project to detect solar panels in aerial images, further material [here](https://github.com/FHNW-IVGI/workshop_geopython2019/tree/master/Ex.02_SolarPanels)
@@ -1431,6 +1438,7 @@ Detecting the most noticeable or important object in a scene
 - [Ship-detection-in-satellite-images](https://github.com/zmf0507/Ship-detection-in-satellite-images) -> experiments with  UNET, YOLO, Mask R-CNN, SSD, Faster R-CNN, RETINA-NET
 
 - [Ship-Detection-from-Satellite-Images-using-YOLOV4](https://github.com/debasis-dotcom/Ship-Detection-from-Satellite-Images-using-YOLOV4) -> uses Kaggle Airbus Ship Detection dataset
+
 
 - [shipsnet-detector](https://github.com/rhammell/shipsnet-detector) -> Detect container ships in Planet imagery using machine learning
 
