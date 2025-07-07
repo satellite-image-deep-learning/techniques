@@ -217,7 +217,9 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
 - [flair-2 8th place solution](https://github.com/association-rosia/flair-2)
 
-- [igarss-spada](https://github.com/links-ads/spada) -> Dataset and code for the paper Land Cover Segmentation with Sparse Annotations from Sentinel-2 Imagery [IGARSS 2023](https://arxiv.org/abs/2306.16252). 
+- [igarss-spada](https://github.com/links-ads/spada) -> Dataset and code for the paper Land Cover Segmentation with Sparse Annotations from Sentinel-2 Imagery [IGARSS 2023](https://arxiv.org/abs/2306.16252)
+
+- [cnn-land-cover-eco](https://github.com/DGalexander/cnn-land-cover-eco) -> Multi-stage semantic segmentation of land cover in the Peak District using high-resolution RGB aerial imagery
 
 ### Segmentation - Vegetation, deforestation, crops & crop boundaries
 
