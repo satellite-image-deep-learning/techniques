@@ -487,6 +487,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [asos](https://gitlab.jsc.fz-juelich.de/kiste/asos) -> Recognizing protected and anthropogenic patterns in landscapes using interpretable machine learning and satellite imagery
 
+- [SinkSAM](https://github.com/osherr1996/SinkSAM) -> Knowledge-Driven Self-Supervised Sinkhole Segmentation Using Topographic Priors and Segment Anything Model
+
 ### Segmentation - Roads & sidewalks
 Extracting roads is challenging due to the occlusions caused by other objects and the complex traffic environment
 
@@ -991,6 +993,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [HSLabeling](https://github.com/linjiaxing99/HSLabeling) -> Towards Efficient Labeling for Large-scale Remote Sensing Image Segmentation with Hybrid Sparse Labeling
 
 - [RemoteSAM](https://github.com/1e12Leon/RemoteSAM) -> Towards Segment Anything for Earth Observation (SAM)
+
+- [HieraRS](https://github.com/AI-Tianlong/HieraRS) -> A Hierarchical Segmentation Paradigm for Remote Sensing Enabling Multi-Granularity Interpretation and Cross-Domain Transfer
 
 #
 ## Instance segmentation
@@ -2754,6 +2758,8 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
 - [SAR2Optical](https://github.com/MuhammedM294/SAR2Optical) -> Transcoding Sentinel-1 SAR to Sentinel-2 using cGAN
 
 - [Urban-Tree-Generator](https://github.com/adnan0819/Urban-Tree-Generator) -> Spatio-Temporal and Generative Deep Learning for Urban Tree Localization and Modeling [paper](https://link.springer.com/article/10.1007/s00371-022-02526-x)
+
+- [EcoMapper](https://github.com/maltevb/ecomapper) -> Generative Modeling for Climate-Aware Satellite Imagery
 
 #
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
