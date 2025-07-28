@@ -3628,6 +3628,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [Llama3-MS-CLIP](https://github.com/IBM/MS-CLIP) -> Multispectral Vision-Language Learning for Earth Observation, from IBM
 
+- [DOFA-CLIP](https://github.com/xiong-zhitong/DOFA-CLIP) -> Multimodal Vision–Language Foundation Models for Earth Observation
+
 #
 ## Foundational models
 
@@ -3678,6 +3680,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [AnySat](https://github.com/gastruc/AnySat) -> One Earth Observation Model for Many Resolutions, Scales, and Modalities
 
 - [SMARTIES](https://gsumbul.github.io/SMARTIES/) -> Spectrum-Aware Multi-Sensor Auto-Encoder for Remote Sensing Images
+
+- [Terramind](https://github.com/IBM/terramind) -> an any-to-any generative foundation model for Earth Observation, built by IBM and ESA.
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
