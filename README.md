@@ -3626,6 +3626,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [Awesome-VLGFM](https://github.com/zytx121/Awesome-VLGFM) -> Towards Vision-Language Geo-Foundation Models: A Survey
 
+- [Llama3-MS-CLIP](https://github.com/IBM/MS-CLIP) -> Multispectral Vision-Language Learning for Earth Observation, from IBM
+
 #
 ## Foundational models
 
