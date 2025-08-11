@@ -2761,6 +2761,8 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
 
 - [EcoMapper](https://github.com/maltevb/ecomapper) -> Generative Modeling for Climate-Aware Satellite Imagery
 
+- [WGAST](https://github.com/Sofianebouaziz1/WGAST) -> Weakly-Supervised Generative Network for Daily 10 m Land Surface Temperature Estimation via Spatio-Temporal Fusion
+
 #
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
 
