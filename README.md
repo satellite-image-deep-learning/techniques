@@ -2091,6 +2091,8 @@ The analysis of time series observations in remote sensing data has numerous app
 
 - [RESTORE-DiT](https://github.com/SQD1/RESTORE-DiT) -> Reliable satellite image time series reconstruction by multimodal sequential diffusion transformer
 
+- [CanadaFireSat](https://github.com/eceo-epfl/CanadaFireSat-Model) -> CNN-based using ResNet encoders and Transformer-based using ViT encoders
+
 #
 ## Crop classification
 
