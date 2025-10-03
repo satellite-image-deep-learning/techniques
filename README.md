@@ -425,6 +425,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [vit-burned-detection](https://github.com/DarthReca/vit-burned-detection) -> Vision transformers in burned area delineation
 
+- [ai4good25-wildfire](https://github.com/VSainteuf/ai4good25-wildfire) -> AI4GOOD Class Fall 2025 : Wildfire spread prediction project
+
 ### Segmentation - Landslides
 
 - [landslide-sar-unet](https://github.com/iprapas/landslide-sar-unet) -> Deep Learning for Rapid Landslide Detection using Synthetic Aperture Radar (SAR) Datacubes
@@ -995,6 +997,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [RemoteSAM](https://github.com/1e12Leon/RemoteSAM) -> Towards Segment Anything for Earth Observation (SAM)
 
 - [HieraRS](https://github.com/AI-Tianlong/HieraRS) -> A Hierarchical Segmentation Paradigm for Remote Sensing Enabling Multi-Granularity Interpretation and Cross-Domain Transfer
+
+- [MultiFranceFences](https://github.com/r-wenger/MultiFranceFences) -> Large-scale fence detection using deep learning and multimodal aerial imagery
 
 #
 ## Instance segmentation
@@ -1577,6 +1581,8 @@ Regression in remote sensing involves predicting continuous variables such as wi
 
 - [AQNet](https://github.com/CoDIS-Lab/AQNet) -> AQNet - Predicting air quality via multimodal AI and satellite imagery [paper](https://www.sciencedirect.com/science/article/pii/S0034425723001608)
 
+- [Soil Moisture Retrieval from Google Research](https://github.com/google-research/google-research/tree/master/soil_moisture_retrieval) -> A Deep Learning Data Fusion Model Using Sentinel-1/2, SoilGrids, SMAP, and GLDAS for Soil Moisture Retrieval
+
 #
 ## Cloud detection & removal
 
@@ -2092,6 +2098,8 @@ The analysis of time series observations in remote sensing data has numerous app
 - [RESTORE-DiT](https://github.com/SQD1/RESTORE-DiT) -> Reliable satellite image time series reconstruction by multimodal sequential diffusion transformer
 
 - [CanadaFireSat](https://github.com/eceo-epfl/CanadaFireSat-Model) -> CNN-based using ResNet encoders and Transformer-based using ViT encoders
+
+- [MMNet](https://github.com/YXu556/MMNet) -> Integration of Snapshot and Time Series Data for Improving SMAP Soil Moisture Downscaling
 
 #
 ## Crop classification
@@ -2862,6 +2870,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [NeuCo-Bench](https://github.com/embed2scale/NeuCo-Bench) -> a benchmarking framework for evaluating compressed embeddings on downstream tasks. Originally developed to evaluate challenge submissions for the 2025 EARTHVISION Challenge at CVPR
 
+- [GeoVibes](https://github.com/cr458/geovibes) -> toolkit for evaluating geospatial embeddings models through similarity search, combining FAISS vector indexing with DuckDB metadata to enable interactive map-based exploration
+
 #
 ## Anomaly detection
 Anomaly detection refers to the process of identifying unusual patterns or outliers in satellite or aerial images that do not conform to expected norms. This is crucial in applications such as environmental monitoring, defense surveillance, and urban planning. Machine learning algorithms, particularly unsupervised learning methods, are used to analyze vast amounts of remote sensing data efficiently. These algorithms learn the typical patterns and variations in the data, allowing them to flag anomalies such as unexpected land cover changes, illegal deforestation, or unusual maritime activities. The detection of these anomalies can provide valuable insights for timely decision-making and intervention in various fields.
@@ -3227,6 +3237,8 @@ Federated learning is an approach to distributed machine learning where a centra
 
 - [MM-FL](https://git.tu-berlin.de/rsim/MM-FL) -> Learning Across Decentralized Multi-Modal Remote Sensing Archives with Federated Learning
 
+- [multi-modal-fl](https://git.tu-berlin.de/rsim/multi-modal-fl) -> A Multi-Modal Federated Learning Framework for Remote Sensing Image Classification
+
 #
 ## Adversarial ML
 
@@ -3504,6 +3516,8 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
 - [bayes-forest-structure](https://github.com/prs-eth/bayes-forest-structure) -> Country-wide Retrieval of Forest Structure From Optical and SAR Satellite Imagery With Bayesian Deep Learning [paper](https://www.sciencedirect.com/science/article/pii/S0924271622003045)
 
+- [ai4g-flood](https://github.com/microsoft/ai4g-flood) -> Toolkit for using Microsoft AI for Good team's flood detection model with SAR imagery
+
 #
 ## NDVI - vegetation index
 
@@ -3688,6 +3702,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [SMARTIES](https://gsumbul.github.io/SMARTIES/) -> Spectrum-Aware Multi-Sensor Auto-Encoder for Remote Sensing Images
 
 - [Terramind](https://github.com/IBM/terramind) -> an any-to-any generative foundation model for Earth Observation, built by IBM and ESA.
+
+- [alphaearth-foundations](https://github.com/Brayden-Zhang/alphaearth-foundations) -> A PyTorch implementation of the AlphaEarth geospatial foundation model from Google DeepMind.
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
