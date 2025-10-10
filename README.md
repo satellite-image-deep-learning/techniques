@@ -2155,27 +2155,15 @@ Crop classification in remote sensing is the identification and mapping of diffe
 
 Crop yield is a crucial metric in agriculture, as it determines the productivity and profitability of a farm. It is defined as the amount of crops produced per unit area of land and is influenced by a range of factors including soil fertility, weather conditions, the type of crop grown, and pest and disease control. By utilizing time series of satellite images, it is possible to perform accurate crop type classification and take advantage of the seasonal variations specific to certain crops. This information can be used to optimize crop management practices and ultimately improve crop yield. However, to achieve accurate results, it is essential to consider the quality and resolution of the input data, as well as the availability of labeled training data. Appropriate pre-processing and feature extraction techniques must also be employed. [Image source](https://www.mdpi.com/2072-4292/14/17/4193).
 
-- [Crop yield Prediction with Deep Learning](https://github.com/JiaxuanYou/crop_yield_prediction) -> Deep Gaussian Process for Crop Yield Prediction Based on Remote Sensing Data
+- [Crop yield Prediction with Deep Learning](https://github.com/JiaxuanYou/crop_yield_prediction) -> Deep Gaussian Process for Crop Yield Prediction Based on Remote Sensing Data. [PyTorch implementation](https://github.com/gabrieltseng/pycrop-yield-prediction)
 
 - [Deep-Transfer-Learning-Crop-Yield-Prediction](https://github.com/sustainlab-group/Deep-Transfer-Learning-Crop-Yield-Prediction)
 
-- [pycrop-yield-prediction](https://github.com/gabrieltseng/pycrop-yield-prediction) -> Deep Gaussian Process for Crop Yield Prediction
-
-- [PredictYield](https://github.com/dberm312/PredictYield) -> using data scraped from Google Earth Engine, this predicts the yield of Corn, Soybean, and Wheat in the USA with Keras
-
-- [Crop-Yield-Prediction-and-Estimation-using-Time-series-remote-sensing-data](https://github.com/mahimatendulkar/Crop-Yield-Prediction-and-Estimation-using-Time-series-remote-sensing-data.)
-
-- [Yield-Prediction-Using-Sentinel-Data](https://github.com/meet-sapu/Crop-Yield-Prediction-Using-Satellite-Imagery)
-
 - [SPACY](https://github.com/rlee360/PLaTYPI) -> Satellite Prediction of Aggregate Corn Yield
-
-- [cropyieldArticle](https://github.com/myliheik/cropyieldArticle) -> Scalable Crop Yield Prediction with Sentinel-2 Time Series and Temporal Convolutional Network
 
 - [CNN-RNN-Yield-Prediction](https://github.com/saeedkhaki92/CNN-RNN-Yield-Prediction) ->A CNN-RNN Framework for Crop Yield Prediction
 
-- [Yield-Prediction-DNN](https://github.com/saeedkhaki92/Yield-Prediction-DNN) -> Crop Yield Prediction Using Deep Neural Networks
-
-- [MMST-ViT](https://github.com/fudong03/MMST-ViT) -> MMST-ViT: Climate Change-aware Crop Yield Prediction via Multi-Modal Spatial-Temporal Vision Transformer. This paper utilizes the Tiny CropNet dataset
+- [MMST-ViT](https://github.com/fudong03/MMST-ViT) -> Climate Change-aware Crop Yield Prediction via Multi-Modal Spatial-Temporal Vision Transformer. This paper utilizes the Tiny CropNet dataset of county-level crop yield predictions
 
 - [Greenearthnet](https://github.com/vitusbenson/greenearthnet) -> Multi-modal learning for geospatial vegetation forecasting
 
