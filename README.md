@@ -2699,6 +2699,8 @@ Data fusion is a technique for combining information from different sources such
 
 Generative networks (e.g. GANs) aim to generate new, synthetic data that appears similar to real-world data. This generated data can be used for a wide range of purposes, including data augmentation, data imbalance correction, and filling in missing or corrupted data. Including generating synthetic data can improve the performance of remote sensing algorithms and models, leading to more accurate and reliable results. [Image source](https://arxiv.org/abs/2207.14580)
 
+- [NIR-GAN](https://github.com/simon-donike/NIR-GAN) -> NIR-GAN: Generate a synthetic NIR band from RGB Remote Sensing Imagery (Sentinel-2, SPOT, basemaps, ...)
+
 - [Using Generative Adversarial Networks to Address Scarcity of Geospatial Training Data](https://medium.com/radiant-earth-insights/using-generative-adversarial-networks-to-address-scarcity-of-geospatial-training-data-e61cacec986e) -> GAN perform better than CNN in segmenting land cover classes outside of the training dataset (article, no code)
 
 - [Building-A-Nets](https://github.com/lixiang-ucas/Building-A-Nets) -> robust building extraction from high-resolution remote sensing images with adversarial networks
