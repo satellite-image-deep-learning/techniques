@@ -136,9 +136,7 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [cyfi](https://github.com/drivendataorg/cyfi) -> Estimate cyanobacteria density based on Sentinel-2 satellite imagery
 
-- [3DGAN-ViT](https://github.com/aj1365/3DGAN-ViT) -> A deep learning framework based on generative adversarial networks and vision transformer for complex wetland classification puplished in [International Journal of Applied Earth Observation and Geoinformation](https://www.sciencedirect.com/science/article/pii/S1569843222002837)
-
-- [EfficientBigEarthNet](https://github.com/Orion-AI-Lab/EfficientBigEarthNet) -> Code and models from the paper [Benchmarking and scaling of deep learning models for land cover image classification](https://www.sciencedirect.com/science/article/pii/S0924271622003057).
+- [3DGAN-ViT](https://github.com/aj1365/3DGAN-ViT) -> A deep learning framework based on generative adversarial networks and vision transformer for complex wetland classification
 
 - [automatic_solar_pv_detection](https://github.com/KennSmithDS/automatic_solar_pv_detection) -> Automatic Solar PV Panel Image Classification with Deep Neural Network Transfer Learning
 
@@ -938,8 +936,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [MSNet](https://github.com/taochx/MSNet) -> multispectral semantic segmentation network for remote sensing images
 
-- [k-textures](https://zenodo.org/record/6359859#.Yytt6OzMK3I) -> K-textures, a self-supervised hard clustering deep learning algorithm for satellite image segmentation
-
 - [Swin-Transformer-Semantic-Segmentation](https://github.com/koechslin/Swin-Transformer-Semantic-Segmentation) -> Satellite Image Semantic Segmentation
 
 - [UDA_for_RS](https://github.com/Levantespot/UDA_for_RS) -> Unsupervised Domain Adaptation for Remote Sensing Semantic Segmentation with Transformer
@@ -1581,7 +1577,7 @@ Regression in remote sensing involves predicting continuous variables such as wi
 
 - [tropical_cyclone_uq](https://github.com/nilsleh/tropical_cyclone_uq) -> Uncertainty Aware Tropical Cyclone Wind Speed Estimation from Satellite Data
 
-- [AQNet](https://github.com/CoDIS-Lab/AQNet) -> AQNet - Predicting air quality via multimodal AI and satellite imagery [paper](https://www.sciencedirect.com/science/article/pii/S0034425723001608)
+- [AQNet](https://github.com/CoDIS-Lab/AQNet) -> Predicting air quality via multimodal AI and satellite imagery
 
 - [Soil Moisture Retrieval from Google Research](https://github.com/google-research/google-research/tree/master/soil_moisture_retrieval) -> A Deep Learning Data Fusion Model Using Sentinel-1/2, SoilGrids, SMAP, and GLDAS for Soil Moisture Retrieval
 
@@ -2018,7 +2014,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [HyperNet](https://github.com/meiqihu/HyperNet) -> HyperNet: Self-Supervised Hyperspectral SpatialSpectral Feature Understanding Network for Hyperspectral Change Detection [paper](https://ieeexplore.ieee.org/document/9934933)
 
-- [CMCDNet](https://github.com/CAU-HE/CMCDNet) -> CMCDNet: Cross-modal change detection flood extraction based on convolutional neural network [paper](https://www.sciencedirect.com/science/article/pii/S1569843223000195)
+- [CMCDNet](https://github.com/CAU-HE/CMCDNet) -> CMCDNet: Cross-modal change detection flood extraction based on convolutional neural network
 
 - [Dsfer-Net](https://github.com/ShizhenChang/Dsfer-Net) -> A Deep Supervision and Feature Retrieval Network for Bitemporal Change Detection Using Modern Hopfield Network [paper](https://arxiv.org/pdf/2304.01101)
 
@@ -2801,7 +2797,7 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [split-brain-remote-sensing](https://github.com/vladan-stojnic/split-brain-remote-sensing) -> Analysis of Color Space Quantization in Split-Brain Autoencoder for Remote Sensing Image Classification
 
-- [image-similarity-measures](https://github.com/up42/image-similarity-measures) -> Implementation of eight evaluation metrics to access the similarity between two images. [Blog post here](https://up42.com/blog/tech/image-similarity-measures)
+- [image-similarity-measures](https://github.com/up42/image-similarity-measures) -> Implementation of eight evaluation metrics to access the similarity between two images
 
 - [Large_Scale_GeoVisual_Search](https://github.com/sdhayalk/Large_Scale_GeoVisual_Search) -> ResNet architecture on UC Merced Land Use Dataset with hamming distance for similarity based search
 
@@ -3499,7 +3495,7 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
 - [Sentinel1-Flood-Finder](https://github.com/cordmaur/Sentinel1-Flood-Finder) -> Flood Finder Package from Sentinel 1 Imagery
 
-- [bayes-forest-structure](https://github.com/prs-eth/bayes-forest-structure) -> Country-wide Retrieval of Forest Structure From Optical and SAR Satellite Imagery With Bayesian Deep Learning [paper](https://www.sciencedirect.com/science/article/pii/S0924271622003045)
+- [bayes-forest-structure](https://github.com/prs-eth/bayes-forest-structure) -> Country-wide Retrieval of Forest Structure From Optical and SAR Satellite Imagery With Bayesian Deep Learning
 
 - [ai4g-flood](https://github.com/microsoft/ai4g-flood) -> Toolkit for using Microsoft AI for Good team's flood detection model with SAR imagery
 
