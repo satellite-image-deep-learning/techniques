@@ -729,6 +729,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [CMGFNet-Building_Extraction](https://github.com/hamidreza2015/CMGFNet-Building_Extraction) -> Deep Learning Code for Building Extraction from very high resolution (VHR) remote sensing images
 
+- [Global Collinearity-aware Polygonizer for Polygonal Building Mapping in Remote Sensing](https://github.com/zhu-xlab/GCP)
+
 ### Segmentation - Solar panels
 
 - [Deep-Learning-for-Solar-Panel-Recognition](https://github.com/saizk/Deep-Learning-for-Solar-Panel-Recognition) -> using both object detection with Yolov5 and Unet segmentation
@@ -2155,7 +2157,7 @@ Crop classification in remote sensing is the identification and mapping of diffe
 
 Crop yield is a crucial metric in agriculture, as it determines the productivity and profitability of a farm. It is defined as the amount of crops produced per unit area of land and is influenced by a range of factors including soil fertility, weather conditions, the type of crop grown, and pest and disease control. By utilizing time series of satellite images, it is possible to perform accurate crop type classification and take advantage of the seasonal variations specific to certain crops. This information can be used to optimize crop management practices and ultimately improve crop yield. However, to achieve accurate results, it is essential to consider the quality and resolution of the input data, as well as the availability of labeled training data. Appropriate pre-processing and feature extraction techniques must also be employed. [Image source](https://www.mdpi.com/2072-4292/14/17/4193).
 
-- [Crop yield Prediction with Deep Learning](https://github.com/JiaxuanYou/crop_yield_prediction) -> Deep Gaussian Process for Crop Yield Prediction Based on Remote Sensing Data. [PyTorch implementation](https://github.com/gabrieltseng/pycrop-yield-prediction)
+- [Crop yield Prediction with Deep Learning](https://github.com/JiaxuanYou/crop_yield_prediction) -> Deep Gaussian Process for Crop Yield Prediction Based on Remote Sensing Data. [PyTorch implementation](https://github.com/gabrieltseng/pycrop-yield-prediction) and [an extension for soybean crop forecasting in Argentina](https://github.com/alvin-in/PyCropYieldPrediction-withTransfer)
 
 - [Deep-Transfer-Learning-Crop-Yield-Prediction](https://github.com/sustainlab-group/Deep-Transfer-Learning-Crop-Yield-Prediction)
 
@@ -2172,6 +2174,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 - [SICKLE](https://github.com/Depanshu-Sani/SICKLE) -> A Multi-Sensor Satellite Imagery Dataset Annotated with Multiple Key Cropping Parameters. Basline solutions: U-TAE, U-Net3D and ConvLSTM
 
 - [yieldCNN](https://github.com/waldnerf/yieldCNN) -> Training temporal Convolution Neural Networks (CNNs) on satellite image time series for yield forecasting
+
+- [Pixel-based yield mapping and prediction from Sentinel-2 using spectral indices and neural networks](https://www.research-collection.ethz.ch/entities/researchdata/9e080be5-b995-4f47-aa82-44c0d22203a7)
 
 #
 ## Wealth and economic activity
@@ -2360,8 +2364,6 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
 - [Satellite-image-SRGAN using PyTorch](https://github.com/xjohnxjohn/Satellite-image-SRGAN)
 
-
-
 - [hs-sr-tvtv](https://github.com/marijavella/hs-sr-tvtv) -> Enhanced Hyperspectral Image Super-Resolution via RGB Fusion and TV-TV Minimization
 
 - [sr4rs](https://github.com/remicres/sr4rs) -> Super resolution for remote sensing, with pre-trained model for Sentinel-2, SRGAN-inspired
@@ -2398,9 +2400,6 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
 - [SatelliteSR](https://github.com/kmalhan/SatelliteSR) -> comparison of a number of techniques on the DOTA dataset
 
-
-
-
 - [Super resolution using GAN / 4x Improvement](https://github.com/purijs/satellite-superresolution) -> applied to Sentinel 2
 
 - [rs-esrgan](https://github.com/luissalgueiro/rs-esrgan) -> RS-ESRGAN: Super-Resolution of Sentinel-2 Imagery Using Generative Adversarial Networks
@@ -2424,6 +2423,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 - [Latent-Diffusion Super-Resolution: Sentinel-2](https://github.com/ESAOpenSR/opensr-model) -> Latent diffusion model to SR RGB-NIR of Sentinel-2 by a factor of 4. Features Interactive Colab demo, run the model on your own coordinates immediately. Can be used together with [SEN2SR](https://github.com/ESAOpenSR/SEN2SR) to SR all 10 & 20m bands of S2 to 2.5m.
   
 - [sisr4rs](https://github.com/Evoland-Land-Monitoring-Evolution/sisr4rs) -> Single Image Super-Resolution for HR remote-sensing sensors
+
+- [DS-HAT: Dual-Stream Hierarchical Attention Transformer for DEM Super-Resolution](https://github.com/sayantanonfire/DSHAT-Code-of-Computer-Vision-for-DEM-Super-resolution)
 
 ### Super-resolution - Miscellaneous
 
@@ -2688,6 +2689,8 @@ Data fusion is a technique for combining information from different sources such
 
 - [multiviewRS-models](https://github.com/fmenat/multiviewRS-models) -> List of multi-view fusion learning models proposed for remote sensing (RS) multi-view data
 
+- [TIF: Time-series-based Image Fusion](https://github.com/GERSL/TIF) -> produce 10 m Harmonized Landsat and Sentinel-2 (HLS) data by fusing 30 m Landsat 8-9 and 10 m Sentinel-2 A/B time series
+
 #
 ## Generative networks
 
@@ -2750,6 +2753,8 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
 - [EcoMapper](https://github.com/maltevb/ecomapper) -> Generative Modeling for Climate-Aware Satellite Imagery
 
 - [WGAST](https://github.com/Sofianebouaziz1/WGAST) -> Weakly-Supervised Generative Network for Daily 10 m Land Surface Temperature Estimation via Spatio-Temporal Fusion
+
+- [EarthSynth: Generating Informative Earth Observation with Diffusion Models](https://github.com/jaychempan/EarthSynth)
 
 #
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
@@ -3129,6 +3134,8 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 - [aws-smsl-geospatial-analysis-deforestation](https://github.com/aws-samples/aws-smsl-geospatial-analysis-deforestation) -> Detecting deforestation using unsupervised K-means clustering on Sentinel-2 satellite imagery and SageMaker Studio Lab(SMSL) [Sagemaker notebook](https://studiolab.sagemaker.aws/import/github.com/aws-samples/aws-smsl-geospatial-analysis-deforestation/blob/main/geospatial_analysis_deforestation.ipynb)
 
 - [dinov2-remote-sensing](https://github.com/chagmgang/dinov2-remote-sensing) -> Pytorch implementation and pretrained models for DINO v2 in remote sensing.
+
+- [K-Means GeoCentroids for DinoV2](https://github.com/aliaksandr960/dinov2_geocentroids_southamerica)
 
 #
 ## Weakly & semi-supervised learning
