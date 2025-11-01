@@ -2173,6 +2173,12 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
 - [Pixel-based yield mapping and prediction from Sentinel-2 using spectral indices and neural networks](https://www.research-collection.ethz.ch/entities/researchdata/9e080be5-b995-4f47-aa82-44c0d22203a7)
 
+- [Predicting Crop Yield Lows Through Highs via Binned Deep Imbalanced Regression](https://github.com/plant-ai-biophysics-lab/imbalance_deep_regression_yield_forecasting)
+
+- [List of CNNs in Agriculture](https://github.com/MohammadElSakka/CNN_in_AGRI)
+
+- [DeepYield](https://github.com/kgavahi/DeepYield) -> A combined convolutional neural network with long short-term memory for crop yield forecasting 
+
 #
 ## Wealth and economic activity
 
@@ -2347,14 +2353,9 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
 - [Random Forest Super-Resolution (RFSR repo)](https://github.com/jshermeyer/RFSR) including [sample data](https://github.com/jshermeyer/RFSR/tree/master/SampleImagery)
 
-
-
 - [super-resolution-using-gan](https://github.com/saraivaufc/super-resolution-using-gan) -> Super-Resolution of Sentinel-2 Using Generative Adversarial Networks
 
-
-
 - [SSPSR-Pytorch](https://github.com/junjun-jiang/SSPSR) -> A spatial-spectral prior deep network for single hyperspectral image super-resolution
-
 
 - [CinCGAN](https://github.com/Junshk/CinCGAN-pytorch) -> Unsupervised Image Super-Resolution using Cycle-in-Cycle Generative Adversarial Networks
 
@@ -2752,6 +2753,8 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
 
 - [EarthSynth: Generating Informative Earth Observation with Diffusion Models](https://github.com/jaychempan/EarthSynth)
 
+- [SatDiFuser](https://github.com/yurujaja/SatDiFuser) -> Can Generative Geospatial Diffusion Models Excel as Discriminative Geospatial Foundation Models?
+
 #
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
 
@@ -2972,6 +2975,8 @@ Mixed data learning is the process of learning from datasets that may contain an
 - [Sub-meter resolution canopy height map by Meta](https://research.facebook.com/blog/2023/4/every-tree-counts-large-scale-mapping-of-canopy-height-at-the-resolution-of-individual-trees/) -> Satellite Metadata combined with outputs from simple CNN to regress canopy height
 
 - [methane-emission-project](https://github.com/stlbnmaria/methane-emission-project) -> Classification CNNs was combined in an ensemble approach with traditional methods on tabular data
+
+- [AutoMergeNet](https://github.com/ADA-research/AutoMergeNet) -> a neural architecture search approach for automatic methane plume detection in TROPOMI images
 
 #
 ## Few & zero shot learning
