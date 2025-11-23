@@ -230,7 +230,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Tree species classification from from airborne LiDAR and hyperspectral data using 3D convolutional neural networks](https://github.com/jaeeolma/tree-detection-evo)
 
-
 - [Find sports fields using Mask R-CNN and overlay on open-street-map](https://github.com/jremillard/images-to-osm)
 
 - [An LSTM to generate a crop mask for Togo](https://github.com/nasaharvest/togo-crop-mask)
@@ -267,7 +266,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [crop-type-detection-ICLR-2020](https://github.com/RadiantMLHub/crop-type-detection-ICLR-2020) -> Winning Solutions from Crop Type Detection Competition at CV4A workshop, ICLR 2020
 
-
 - [S4A-Models](https://github.com/Orion-AI-Lab/S4A-Models) -> Various experiments on the Sen4AgriNet dataset
 
 - [attention-mechanism-unet](https://github.com/davej23/attention-mechanism-unet) -> An attention-based U-Net for detecting deforestation within satellite sensor imagery
@@ -278,8 +276,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Official repository for the "Identifying trees on satellite images" challenge from Omdena](https://github.com/cienciaydatos/ai-challenge-trees)
 
-
-
 - [PTDM](https://github.com/hr8yhtzb/PTDM) -> Pomelo Tree Detection Method Based on Attention Mechanism and Cross-Layer Feature Fusion
 
 - [urban-tree-detection](https://github.com/jonathanventura/urban-tree-detection) -> Individual Tree Detection in Large-Scale Urban Environments using High-Resolution Multispectral Imagery. With [dataset](https://github.com/jonathanventura/urban-tree-detection-data)
@@ -289,7 +285,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [Biomassters winners](https://github.com/drivendataorg/the-biomassters) -> top 3 solutions
 
 - [kbrodt biomassters solution](https://github.com/kbrodt/biomassters) -> 1st place solution
-
 
 - [biomass-estimation](https://github.com/azavea/biomass-estimation) -> from Azavea, applied to Sentinel 1 & 2
 
@@ -308,7 +303,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [UNet-defmapping](https://github.com/bragagnololu/UNet-defmapping) -> master's thesis using UNet to map deforestation using Sentinel-2 Level 2A images, applied to Amazon and Atlantic Rainforest dataset
 
 - [cvpr-multiearth-deforestation-segmentation](https://github.com/h2oai/cvpr-multiearth-deforestation-segmentation) -> multimodal Unet entry to the CVPR Multiearth 2023 deforestation challenge
-
 
 - [TransUNetplus2](https://github.com/aj1365/TransUNetplus2) -> TransU-Net++: Rethinking attention gated TransU-Net for deforestation mapping. Uses the Amazon and Atlantic forest dataset
 
@@ -338,26 +332,19 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [boundary-sam](https://github.com/awadbahaa/boundary-sam) -> parcel boundary delineation using SAM, image embeddings and detail enhancement filters
 
+- [TOFMapper](https://github.com/Moerizzy/TOFMapper) -> a semantic segmentation tool for mapping and classifying Trees outside Forest in high resolution aerial images
+
 ### Segmentation - Water, coastlines, rivers & floods
-
-
-
 
 - [Houston_flooding](https://github.com/Lichtphyz/Houston_flooding) -> labeling each pixel as either flooded or not using data from Hurricane Harvey. Dataset consisted of pre and post flood images, and a ground truth floodwater mask was created using unsupervised clustering (with DBScan) of image pixels with human cluster verification/adjustment
 
 - [ml4floods](https://github.com/spaceml-org/ml4floods) -> An ecosystem of data, models and code pipelines to tackle flooding with ML
-
-
 
 - [1st place solution for STAC Overflow: Map Floodwater from Radar Imagery hosted by Microsoft AI for Earth](https://github.com/sweetlhare/STAC-Overflow) -> combines Unet with Catboostclassifier, taking their maxima, not the average
 
 - [hydra-floods](https://github.com/Servir-Mekong/hydra-floods) -> an open source Python application for downloading, processing, and delivering surface water maps derived from remote sensing data
 
 - [CoastSat](https://github.com/kvos/CoastSat) -> tool for mapping coastlines which has an extension [CoastSeg](https://github.com/dbuscombe-usgs/CoastSeg) using segmentation models
-
-
-
-
 
 - [deepwatermap](https://github.com/isikdogan/deepwatermap) -> a deep model that segments water on multispectral images
 
@@ -1120,7 +1107,6 @@ Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For d
 
 - [GF-CSL](https://github.com/WangJian981002/GF-CSL) -> Gaussian Focal Loss: Learning Distribution Polarized Angle Prediction for Rotated Object Detection in Aerial Images
 
-
 - [Polar-Encodings](https://github.com/flyingshan/Learning-Polar-Encodings-For-Arbitrary-Oriented-Ship-Detection-In-SAR-Images) -> Learning Polar Encodings for Arbitrary-Oriented Ship Detection in SAR Images
 
 - [R-CenterNet](https://github.com/ZeroE04/R-CenterNet) -> detector for rotated-object based on CenterNet
@@ -1334,9 +1320,7 @@ Detecting the most noticeable or important object in a scene
 
 - [RSVC2021-Dataset](https://github.com/YinongGuo/RSVC2021-Dataset) -> A dataset for Vehicle Counting in Remote Sensing images, created from the DOTA & ITCVD
 
-
 - [Vehicle-Counting-in-Very-Low-Resolution-Aerial-Images](https://github.com/hbsszq/Vehicle-Counting-in-Very-Low-Resolution-Aerial-Images) -> Vehicle Counting in Very Low-Resolution Aerial Images via Cross-Resolution Spatial Consistency and Intraresolution Time Continuity
-
 
 - [detecting-trucks](https://github.com/datasciencecampus/detecting-trucks) -> detecting large vehicles in Sentinel-2
 
@@ -1413,7 +1397,6 @@ A variety of techniques can be used to count animals, including object detection
 
 - [cownter_strike](https://github.com/IssamLaradji/cownter_strike) -> counting cows, located with point-annotations, two models: CSRNet (a density-based method) & LCFCN (a detection-based method)
 
-
 - [CNN-Mosquito-Detection](https://github.com/sriramelango/CNN-Mosquito-Detection) -> determining the locations of potentially dangerous breeding grounds, compared YOLOv4, YOLOR & YOLOv5
 
 - [Borowicz_etal_Spacewhale](https://github.com/lynch-lab/Borowicz_etal_Spacewhale) -> locate whales using ResNet
@@ -1426,14 +1409,13 @@ A variety of techniques can be used to count animals, including object detection
 
 - [Beluga Whale Detection from Satellite Imagery with Point Labels](https://github.com/VoyagerXvoyagerx/beluga-seeker/tree/main)
 
+- [HerdNet](https://github.com/Alexandre-Delplanque/HerdNet) -> From Crowd to Herd Counting: How to Precisely Detect and Count African Mammals using Aerial Imagery and Deep Learning?
+
 ### Object detection - Miscellaneous
-
-
 
 - [Object Detection and Image Segmentation with Deep Learning on Earth Observation Data: A Review](https://www.mdpi.com/2072-4292/12/10/1667)
 
 - [awesome-aerial-object-detection bu murari023](https://github.com/murari023/awesome-aerial-object-detection), [another by visionxiang](https://github.com/visionxiang/awesome-object-detection-in-aerial-images) and [awesome-tiny-object-detection](https://github.com/kuanhungchen/awesome-tiny-object-detection) list many relevant papers
-
 
 - [Satellite Imagery Multiscale Rapid Detection with Windowed Networks (SIMRDWN)](https://github.com/avanetten/simrdwn) -> combines some of the leading object detection algorithms into a unified framework designed to detect objects both large and small in overhead imagery. Train models and test on arbitrary image sizes with YOLO (versions 2 and 3), Faster R-CNN, SSD, or R-FCN.
 
@@ -1449,11 +1431,9 @@ A variety of techniques can be used to count animals, including object detection
 
 - [Faster RCNN for xView satellite data challenge](https://github.com/samirsen/small-object-detection)
 
-
 - [Object Detection Satellite Imagery Multi-vehicles Dataset (SIMD)](https://github.com/asimniazi63/Object-Detection-on-Satellite-Images) -> RetinaNet,Yolov3 and Faster RCNN for multi object detection on satellite images dataset
 
 - [SNIPER/AutoFocus](https://github.com/mahyarnajibi/SNIPER) -> an efficient multi-scale object detection training/inference algorithm
-
 
 - [Electric-Pylon-Detection-in-RSI](https://github.com/qsjxyz/Electric-Pylon-Detection-in-RSI) -> a dataset which contains 1500 remote sensing images of electric pylons used to train ten deep learning models
 
@@ -1471,7 +1451,6 @@ A variety of techniques can be used to count animals, including object detection
 
 - [Google-earth-Object-Recognition](https://github.com/InnovAIco/Google-earth-Object-Recognition) -> Code for training and evaluating on Dior Dataset (Google Earth Images) using RetinaNet and YOLOV5
 
-
 - [Detection of Multiclass Objects in Optical Remote Sensing Images](https://github.com/WenchaoliuMUC/Detection-of-Multiclass-Objects-in-Optical-Remote-Sensing-Images) -> Detection of Multiclass Objects in Optical Remote Sensing Images
 
 - [SB-MSN](https://github.com/weihancug/Sampling-Balance_Multi-stage_Network) -> Improving Training Instance Quality in Aerial Image Object Detection With a Sampling-Balance-Based Multistage Network
@@ -1482,7 +1461,6 @@ A variety of techniques can be used to count animals, including object detection
 
 - [dior_detect](https://github.com/hm-better/dior_detect) -> benchmarks for object detection on DIOR dataset
 
-
 - [OPLD-Pytorch](https://github.com/yf19970118/OPLD-Pytorch) -> Learning Point-Guided Localization for Detection in Remote Sensing Images
 
 - [F3Net](https://github.com/yxhnjust/F3Net) -> Feature Fusion and Filtration Network for Object Detection in Optical Remote Sensing Images
@@ -1490,7 +1468,6 @@ A variety of techniques can be used to count animals, including object detection
 - [GLNet](https://github.com/Zhu1Teng/GLNet) -> Global to Local: Clip-LSTM-Based Object Detection From Remote Sensing Images
 
 - [SRAF-Net](https://github.com/Complicateddd/SRAF-Net) -> A Scene-Relevant Anchor-Free Object Detection Network in Remote Sensing Images
-
 
 - [SHAPObjectDetection](https://github.com/hiroki-kawauchi/SHAPObjectDetection) -> SHAP-Based Interpretable Object Detection Method for Satellite Imagery
 
@@ -1523,7 +1500,6 @@ A variety of techniques can be used to count animals, including object detection
 - [DOTA-C](https://github.com/hehaodong530/DOTA-C) -> evaluating the robustness of object detection models to 19 types of image quality degradation
 
 - [Satellite-Remote-Sensing-Image-Object-Detection](https://github.com/ypw-lbj/Satellite-Remote-Sensing-Image-Object-Detection) -> using RefineDet & DOTA dataset
-
 
 - [SFRNet](https://github.com/Ranchosky/SFRNet) -> SFRNet: Fine-Grained Oriented Object Recognition via Separate Feature Refinement
 
@@ -1744,9 +1720,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [Unstructured-change-detection-using-CNN](https://github.com/vbhavank/Unstructured-change-detection-using-CNN)
 
-
 - [QGIS plugin for applying change detection algorithms on high resolution satellite imagery](https://github.com/dymaxionlabs/massive-change-detection)
-
 
 - [Fully Convolutional Siamese Networks for Change Detection](https://github.com/rcdaudt/fully_convolutional_change_detection)
 
@@ -1786,10 +1760,7 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [SRCDNet](https://github.com/liumency/SRCDNet) -> Super-resolution-based Change Detection Network with Stacked Attention Module for Images with Different Resolutions. SRCDNet is designed to learn and predict change maps from bi-temporal images with different resolutions
 
-
 - [A deeply supervised image fusion network for change detection in high resolution bi-temporal remote sening images](https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images)
-
-
 
 - [ChangeFormer](https://github.com/wgcban/ChangeFormer) -> A Transformer-Based Siamese Network for Change Detection. Uses transformer architecture to address the limitations of CNN in handling multi-scale long-range details. Demonstrates that ChangeFormer captures much finer details compared to the other SOTA methods, achieving better performance on benchmark datasets
 
@@ -1859,7 +1830,6 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [ESCNet](https://github.com/Bobholamovic/ESCNet) -> An End-to-End Superpixel-Enhanced Change Detection Network for Very-High-Resolution Remote Sensing Images
 
-
  - [deforestation-detection](https://github.com/vldkhramtsov/deforestation-detection) -> DEEP LEARNING FOR HIGH-FREQUENCY CHANGE DETECTION IN UKRAINIAN FOREST ECOSYSTEM WITH SENTINEL-2
 
 - [forest_change_detection](https://github.com/QuantuMobileSoftware/forest_change_detection) -> forest change segmentation with time-dependent models, including Siamese, UNet-LSTM, UNet-diff, UNet3D models
@@ -1874,7 +1844,6 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [Remote-sensing-time-series-change-detection](https://github.com/liulianni1688/Remote-sensing-time-series-change-detection) -> Graph-based block-level urban change detection using Sentinel-2 time series
 
-
 - [dfc2021-msd-baseline](https://github.com/calebrob6/dfc2021-msd-baseline) -> Multitemporal Semantic Change Detection track of the 2021 IEEE GRSS Data Fusion Competition
 
 - [CorrFusionNet](https://github.com/rulixiang/CorrFusionNet) -> Multi-Temporal Scene Classification and Scene Change Detection with Correlation based Fusion
@@ -1888,7 +1857,6 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 - [Tiny_model_4_CD](https://github.com/AndreaCodegoni/Tiny_model_4_CD) -> TINYCD: A (Not So) Deep Learning Model For Change Detection. Uses LEVIR-CD & WHU-CD datasets
 
 - [FHD](https://github.com/ZSVOS/FHD) -> Feature Hierarchical Differentiation for Remote Sensing Image Change Detection
-
 
 - [building-expansion](https://github.com/reglab/building_expansion) -> Enhancing Environmental Enforcement with Near Real-Time Monitoring: Likelihood-Based Detection of Structural Expansion of Intensive Livestock Farms
 
@@ -2027,6 +1995,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 - [USSFC-Net](https://github.com/SUST-reynole/USSFC-Net) -> Ultralightweight Spatial–Spectral Feature Cooperation Network for Change Detection in Remote Sensing Images [paper](https://ieeexplore.ieee.org/document/10081023)
 
 - [VcT_Remote_Sensing_Change_Detection](https://github.com/Event-AHU/VcT_Remote_Sensing_Change_Detection) -> VcT: Visual change Transformer for Remote Sensing Image Change Detection [IEEE](https://ieeexplore.ieee.org/document/10294300)
+
+- [HabitAlp 2.0](https://github.com/hkristen/habitalp_2) -> Habitat and Land Cover Change Detection in Alpine Protected Areas: A Comparison of AI Architectures
 
 #
 ## Time series
@@ -2227,6 +2197,8 @@ The traditional approach of collecting economic data through ground surveys is a
  - [Population Estimation from Satellite Imagery](https://github.com/ManuelSerranoR/Population-Estimation-from-Satellite-Imagery-using-Deep-Learning)
 
 - [Deep_Learning_Satellite_Imd](https://github.com/surendran-berkeley/Deep_Learning_Satellite_Imd) -> Using Deep Learning on Satellite Imagery to predict population and economic indicators
+
+- [GRAM](https://github.com/DS4H-GIS/GRAM) -> a test-time adaptation framework for robust slum segmentation
 
 #
 ## Disaster response
@@ -2947,6 +2919,8 @@ Image Captioning is the task of automatically generating a textual description o
 
 - [CLIP-rsicd](https://github.com/arampacha/CLIP-rsicd) -> fine tuning CLIP on the [RSICD](https://github.com/201528014227051/RSICD_optimal) image captioning dataset, to enable querying large catalogues in natural language using 🤗. Also read [Why and How to Fine-tune CLIP](https://dienhoa.github.io/dhblog/posts/finetune_clip.html)
 
+- [Multispectral Image Caption Unification Using Diffusion and Cycle GAN Models](https://github.com/kursatkomurcu/Multispectral-Caption-Image-Unification-via-Diffusion-and-CycleGAN)
+
 #
 ## Visual Question Answering
 
@@ -3182,6 +3156,8 @@ Weakly & semi-supervised learning are two methods of machine learning that use b
 - [Flood_Mapping_SSL](https://github.com/YJ-He/Flood_Mapping_SSL) -> Enhancement of Urban Floodwater Mapping From Aerial Imagery With Dense Shadows via Semisupervised Learning
 
 - [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
+
+- [SAHARA](https://github.com/giu-guarino/SAHARA) -> Heterogeneous Semi-Supervised Transfer Learning with Adversarial Adaptation and Dynamic Pseudo-Labeling
 
 #
 ## Active learning
