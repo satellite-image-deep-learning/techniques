@@ -2112,6 +2112,8 @@ Crop classification in remote sensing is the identification and mapping of diffe
 
 - [H2Crop](https://github.com/flyakon/H2Crop) -> Fine-grained Hierarchical Crop Type Classification from Integrated Hyperspectral EnMAP Data and Multispectral Sentinel-2 Time Series: A Large-scale Dataset and Dual-stream Transformer Method
 
+- [Mask-PSTIN](https://github.com/BruceKai/Mask-PSTIN) -> Improving crop type mapping by integrating LSTM with temporal random masking and pixel-set spatial information
+
 #
 ## Crop yield & vegetation forecasting
 
