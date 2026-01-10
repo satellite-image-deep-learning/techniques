@@ -334,6 +334,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [TOFMapper](https://github.com/Moerizzy/TOFMapper) -> a semantic segmentation tool for mapping and classifying Trees outside Forest in high resolution aerial images
 
+- [SERA-H](https://github.com/ThomasBoudras/SERA-H) -> High-resolution (2.5m) canopy height mapping from Sentinel-1 & Sentinel-2 time series. Combines EDSR super-resolution and UTAE temporal attention, trained with ALS supervision, to achieve SOTA accuracy using only open-access sentinel satellite data.
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [Houston_flooding](https://github.com/Lichtphyz/Houston_flooding) -> labeling each pixel as either flooded or not using data from Hurricane Harvey. Dataset consisted of pre and post flood images, and a ground truth floodwater mask was created using unsupervised clustering (with DBScan) of image pixels with human cluster verification/adjustment
@@ -655,7 +657,6 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [ESFNet](https://github.com/mrluin/ESFNet-Pytorch) -> Efficient Network for Building Extraction from High-Resolution Aerial Images
 
-
 - [CVCMFFNet](https://github.com/Jiankun-chen/CVCMFFNet-master) -> Complex-Valued Convolutional and Multifeature Fusion Network for Building Semantic Segmentation of InSAR Images
 
 - [STEB-UNet](https://github.com/BrightGuo048/STEB-UNet) -> A Swin Transformer-Based Encoding Booster Integrated in U-Shaped Network for Building Extraction
@@ -717,6 +718,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [CMGFNet-Building_Extraction](https://github.com/hamidreza2015/CMGFNet-Building_Extraction) -> Deep Learning Code for Building Extraction from very high resolution (VHR) remote sensing images
 
 - [Global Collinearity-aware Polygonizer for Polygonal Building Mapping in Remote Sensing](https://github.com/zhu-xlab/GCP)
+
+- [Building Segmentation on LR-HR-SR Satellite Imagery](https://github.com/ESAOpenSR/Segmentation-Models-Benchmark) -> perform building delineation on different types of satellite imagery: Low-Resolution (LR), High-Resolution (HR), and Super-Resolution (SR). The goal is to compare the performance of segmentation models across these varying resolutions.
 
 ### Segmentation - Solar panels
 
@@ -2154,6 +2157,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
 - [CropMOSAIKS Crop Modeling](https://github.com/cropmosaiks/crop-modeling) -> predicting crop yields in Zambia using MOSAIKS
 
+- [UniCrop](https://github.com/CoDIS-Lab/UniCrop) -> a configuration-driven, universal data pipeline designed to automate the construction of analysis-ready environmental datasets for crop yield modelling
+
 #
 ## Wealth and economic activity
 
@@ -2399,6 +2404,10 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 - [sisr4rs](https://github.com/Evoland-Land-Monitoring-Evolution/sisr4rs) -> Single Image Super-Resolution for HR remote-sensing sensors
 
 - [DS-HAT: Dual-Stream Hierarchical Attention Transformer for DEM Super-Resolution](https://github.com/sayantanonfire/DSHAT-Code-of-Computer-Vision-for-DEM-Super-resolution)
+
+- [Remote-Sensing-SRGAN](https://github.com/ESAOpenSR/SRGAN) -> GAN framework for super-resolution of Sentinel-2 and other remote-sensing imagery. It supports arbitrary band counts, configurable generator/discriminator designs, scalable depth/width, and a modular loss system designed for stable GAN training on EO data.
+
+- [OpenSR Test](https://github.com/ESAOpenSR/opensr-test) -> A comprehensive benchmark for real-world Sentinel-2 imagery super-resolution
 
 ### Super-resolution - Miscellaneous
 
@@ -3163,6 +3172,8 @@ Weakly & semi-supervised learning are two methods of machine learning that use b
 - [MS4D-Net-Building-Damage-Assessment](https://github.com/YJ-He/MS4D-Net-Building-Damage-Assessment) -> MS4D-Net: Multitask-Based Semi-Supervised Semantic Segmentation Framework with Perturbed Dual Mean Teachers for Building Damage Assessment from High-Resolution Remote Sensing Imagery
 
 - [SAHARA](https://github.com/giu-guarino/SAHARA) -> Heterogeneous Semi-Supervised Transfer Learning with Adversarial Adaptation and Dynamic Pseudo-Labeling
+
+- [VCNet](https://github.com/Tusaifei/VCNet) -> a weakly supervised end-to-end deep-learning network for large-scale HR land-cover mapping. Introduces the 0.5 m/pixel Tokyo Dataset.
 
 #
 ## Active learning
