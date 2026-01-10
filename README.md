@@ -438,6 +438,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [sentinel_lakeice](https://github.com/prs-eth/sentinel_lakeice) -> Lake Ice Detection from Sentinel-1 SAR with Deep Learning
 
+- [MCD-Net](https://github.com/Lyra-alpha/MCD-Net) -> a lightweight deep learning framework for optical-only moraine segmentation
+
 ### Segmentation - methane
 
 - [Methane-detection-from-hyperspectral-imagery](https://github.com/satish1901/Methane-detection-from-hyperspectral-imagery) -> Deep Remote Sensing Methods for Methane Detection in Overhead Hyperspectral Imagery
@@ -1276,10 +1278,6 @@ Detecting the most noticeable or important object in a scene
 
 - [WakeNet](https://github.com/Lilytopia/WakeNet) -> Rethinking Automatic Ship Wake Detection: State-of-the-Art CNN-based Wake Detection via Optical Images
 
-
-
-
-
 - [LEVIR-Ship](https://github.com/WindVChen/LEVIR-Ship) -> a dataset for tiny ship detection under medium-resolution remote sensing images
 
 - [Push-and-Pull-Network](https://github.com/WindVChen/Push-and-Pull-Network) -> Contrastive Learning for Fine-grained Ship Classification in Remote Sensing Images
@@ -1542,7 +1540,6 @@ Regression in remote sensing involves predicting continuous variables such as wi
 
 - [HighResCanopyHeight](https://github.com/facebookresearch/HighResCanopyHeight) -> code for Meta paper: Very high resolution canopy height maps from RGB imagery using self-supervised vision transformer and convolutional decoder trained on Aerial Lidar
 
-
 - [OpticalWaveGauging_DNN](https://github.com/OpticalWaveGauging/OpticalWaveGauging_DNN) -> Optical wave gauging using deep neural networks
 
 - [satellite-pose-estimation](https://github.com/eio/satellite-pose-estimation) -> adapts a ResNet50 model architecture to perform pose estimation on several series of satellite images (both real and synthetic)
@@ -1556,6 +1553,8 @@ Regression in remote sensing involves predicting continuous variables such as wi
 - [AQNet](https://github.com/CoDIS-Lab/AQNet) -> Predicting air quality via multimodal AI and satellite imagery
 
 - [Soil Moisture Retrieval from Google Research](https://github.com/google-research/google-research/tree/master/soil_moisture_retrieval) -> A Deep Learning Data Fusion Model Using Sentinel-1/2, SoilGrids, SMAP, and GLDAS for Soil Moisture Retrieval
+
+- [temp-mosaiks](https://github.com/reed-colloton/temp-mosaiks) -> predict ground-level temperature with MOSAIKS
 
 #
 ## Cloud detection & removal
@@ -2069,6 +2068,8 @@ The analysis of time series observations in remote sensing data has numerous app
 
 - [MMNet](https://github.com/YXu556/MMNet) -> Integration of Snapshot and Time Series Data for Improving SMAP Soil Moisture Downscaling
 
+- [CNN-LSTM_for_DSM](https://github.com/leizhang-geo/CNN-LSTM_for_DSM) -> A CNN-LSTM model for soil organic carbon content prediction with long time series of MODIS-based phenological variables
+
 #
 ## Crop classification
 
@@ -2150,6 +2151,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 - [List of CNNs in Agriculture](https://github.com/MohammadElSakka/CNN_in_AGRI)
 
 - [DeepYield](https://github.com/kgavahi/DeepYield) -> A combined convolutional neural network with long short-term memory for crop yield forecasting 
+
+- [CropMOSAIKS Crop Modeling](https://github.com/cropmosaiks/crop-modeling) -> predicting crop yields in Zambia using MOSAIKS
 
 #
 ## Wealth and economic activity
