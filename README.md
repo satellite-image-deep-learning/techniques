@@ -1348,6 +1348,8 @@ Detecting the most noticeable or important object in a scene
 - [rareplanes-yolov5](https://github.com/jeffaudi/rareplanes-yolov5) -> using YOLOv5 and the RarePlanes dataset to detect and classify sub-characteristics of aircraft, with [article](https://medium.com/artificialis/detecting-aircrafts-on-airbus-pleiades-imagery-with-yolov5-5f3d464b75ad)
 
 - [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> Incrementally Tuning Synthetic Training Datasets for Satellite Object Detection
+  
+- [Efficient-YOLO-RS-Airplane-Detection](https://github.com/RSandAI/Efficient-YOLO-RS-Airplane-Detection) - Implementation of YOLOv8 and YOLOv9 for efficient airplane detection in VHR satellite imagery (2025).
 
 
 ### Object detection - Infrastructure & utilities
