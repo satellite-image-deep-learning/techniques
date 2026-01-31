@@ -330,6 +330,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 ### Segmentation - Water, coastlines, rivers & floods
 
+- [sat-water](https://github.com/busayojee/sat-water) -> Semantic segmentation of water bodies in satellite imagery, producing pixel-wise water masks from remote sensing images using a U-Net–style deep learning pipeline (data preparation, training, inference, and evaluation).
+
 - [Houston_flooding](https://github.com/Lichtphyz/Houston_flooding) -> labeling each pixel as either flooded or not using data from Hurricane Harvey. Dataset consisted of pre and post flood images, and a ground truth floodwater mask was created using unsupervised clustering (with DBScan) of image pixels with human cluster verification/adjustment
 
 - [ml4floods](https://github.com/spaceml-org/ml4floods) -> An ecosystem of data, models and code pipelines to tackle flooding with ML
@@ -1350,6 +1352,8 @@ Detecting the most noticeable or important object in a scene
 - [rareplanes-yolov5](https://github.com/jeffaudi/rareplanes-yolov5) -> using YOLOv5 and the RarePlanes dataset to detect and classify sub-characteristics of aircraft, with [article](https://medium.com/artificialis/detecting-aircrafts-on-airbus-pleiades-imagery-with-yolov5-5f3d464b75ad)
 
 - [OnlyPlanes](https://github.com/naivelogic/OnlyPlanes) -> Incrementally Tuning Synthetic Training Datasets for Satellite Object Detection
+  
+- [Efficient-YOLO-RS-Airplane-Detection](https://github.com/RSandAI/Efficient-YOLO-RS-Airplane-Detection) - Implementation of YOLOv8 and YOLOv9 for efficient airplane detection in VHR satellite imagery (2025).
 
 
 ### Object detection - Infrastructure & utilities
