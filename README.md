@@ -376,6 +376,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [SAR-water-segmentation](https://github.com/myeungun/SAR-water-segmentation) -> Deep Learning based Water Segmentation Using KOMPSAT-5 SAR Images
 
+- [TerraMind-Flood](https://github.com/R1-AK/terramind-flood) -> DEM-Enhanced Flood Detection with Physics-Aware Learning, applied to Sen1Floods11
+
 ### Segmentation - Fire, smoke & burn areas
 
 - [SatelliteVu-AWS-Disaster-Response-Hackathon](https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon) -> fire spread prediction using classical ML & deep learning
@@ -1742,8 +1744,6 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [DASNet](https://github.com/lehaifeng/DASNet) -> Dual attentive fully convolutional siamese networks for change detection of high-resolution satellite images
 
-- [Self-Attention for Raw Optical Satellite Time Series Classification](https://github.com/MarcCoru/crop-type-mapping)
-
 - [planet-movement](https://github.com/rhammell/planet-movement) -> Find and process Planet image pairs to highlight object movement
 
 - [temporal-cluster-matching](https://github.com/microsoft/temporal-cluster-matching) -> detecting change in structure footprints from time series of remotely sensed imagery
@@ -2109,6 +2109,8 @@ Crop classification in remote sensing is the identification and mapping of diffe
 - [H2Crop](https://github.com/flyakon/H2Crop) -> Fine-grained Hierarchical Crop Type Classification from Integrated Hyperspectral EnMAP Data and Multispectral Sentinel-2 Time Series: A Large-scale Dataset and Dual-stream Transformer Method
 
 - [Mask-PSTIN](https://github.com/BruceKai/Mask-PSTIN) -> Improving crop type mapping by integrating LSTM with temporal random masking and pixel-set spatial information
+
+- [Self-Attention for Raw Optical Satellite Time Series Classification](https://github.com/MarcCoru/crop-type-mapping) and [Explaining Attention with Domain Knowledge](https://github.com/IvicaObadic/crop-type-classification-explainability)
 
 #
 ## Crop yield & vegetation forecasting
@@ -2830,6 +2832,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [GeoVibes](https://github.com/cr458/geovibes) -> toolkit for evaluating geospatial embeddings models through similarity search, combining FAISS vector indexing with DuckDB metadata to enable interactive map-based exploration
 
+- [Tessera embeddings explorer](https://github.com/sk818/TEE)
+
 #
 ## Anomaly detection
 Anomaly detection refers to the process of identifying unusual patterns or outliers in satellite or aerial images that do not conform to expected norms. This is crucial in applications such as environmental monitoring, defense surveillance, and urban planning. Machine learning algorithms, particularly unsupervised learning methods, are used to analyze vast amounts of remote sensing data efficiently. These algorithms learn the typical patterns and variations in the data, allowing them to flag anomalies such as unexpected land cover changes, illegal deforestation, or unusual maritime activities. The detection of these anomalies can provide valuable insights for timely decision-making and intervention in various fields.
@@ -3485,6 +3489,8 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 - [bayes-forest-structure](https://github.com/prs-eth/bayes-forest-structure) -> Country-wide Retrieval of Forest Structure From Optical and SAR Satellite Imagery With Bayesian Deep Learning
 
 - [ai4g-flood](https://github.com/microsoft/ai4g-flood) -> Toolkit for using Microsoft AI for Good team's flood detection model with SAR imagery
+
+- [SAM3SAR: Ship Segmentation in SAR with SAM3‑UNet](https://github.com/edwardarchaeology/SAR_Segmentation_with_SAM3_UNET)
 
 #
 ## NDVI - vegetation index
