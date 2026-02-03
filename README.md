@@ -1834,6 +1834,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [ddpm-cd](https://github.com/wgcban/ddpm-cd) ->  Remote Sensing Change Detection (Segmentation) using Denoising Diffusion Probabilistic Models
 
+- [DreamCD](https://github.com/tangkai-RS/DreamCD) -> Change detection in remote sensing images
+
 - [Remote-sensing-time-series-change-detection](https://github.com/liulianni1688/Remote-sensing-time-series-change-detection) -> Graph-based block-level urban change detection using Sentinel-2 time series
 
 - [dfc2021-msd-baseline](https://github.com/calebrob6/dfc2021-msd-baseline) -> Multitemporal Semantic Change Detection track of the 2021 IEEE GRSS Data Fusion Competition
