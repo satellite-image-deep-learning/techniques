@@ -2877,6 +2877,8 @@ Image retrieval is the task of retrieving images from a collection that are simi
 
 - [HydroViet_VOR](https://github.com/lannguyen0910/HydroViet_VOR) -> Object Retrieval in satellite images with Triplet Network
 
+- [Hoss-ReID](https://github.com/Alioth2000/Hoss-ReID) -> Cross-modal ship re-identification (optical + SAR): HOSS ReID dataset and TransOSS baseline method (ICCV 2025)
+
 - [AMFMN](https://github.com/AICyberTeam/AMFMN) -> Exploring a Fine-Grained Multiscale Method for Cross-Modal Remote Sensing Image Retrieval
 
 - [remote-sensing-image-retrieval](https://github.com/IBM/remote-sensing-image-retrieval) -> Multi-Spectral Remote Sensing Image Retrieval using Geospatial Foundation Models (IBM Prithvi)
