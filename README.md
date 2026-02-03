@@ -326,8 +326,6 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [TOFMapper](https://github.com/Moerizzy/TOFMapper) -> a semantic segmentation tool for mapping and classifying Trees outside Forest in high resolution aerial images
 
-- [SERA-H](https://github.com/ThomasBoudras/SERA-H) -> High-resolution (2.5m) canopy height mapping from Sentinel-1 & Sentinel-2 time series. Combines EDSR super-resolution and UTAE temporal attention, trained with ALS supervision, to achieve SOTA accuracy using only open-access sentinel satellite data.
-
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [sat-water](https://github.com/busayojee/sat-water) -> Semantic segmentation of water bodies in satellite imagery, producing pixel-wise water masks from remote sensing images using a U-Net–style deep learning pipeline (data preparation, training, inference, and evaluation).
@@ -1206,8 +1204,6 @@ Detecting the most noticeable or important object in a scene
 
 - [satellite_image_tinhouse_detector](https://github.com/yasserius/satellite_image_tinhouse_detector) -> Detection of tin houses from satellite/aerial images using the Tensorflow Object Detection API
 
-- [Machine Learning For Rooftop Detection and Solar Panel Installment](https://www.omdena.com/blog/machine-learning-rooftops) discusses tiling large images and generating annotations from OSM data. Features of the roofs were calculated using a combination of contour detection and classification. [Follow up article using semantic segmentation](https://www.omdena.com/blog/rooftops-classification)
-
 - [Building Extraction with YOLT2 and SpaceNet Data](https://medium.com/the-downlinq/building-extraction-with-yolt2-and-spacenet-data-a926f9ffac4f)
 
 - [XBD-hurricanes](https://github.com/dbuscombe-usgs/XBD-hurricanes) -> Models for building (and building damage) detection in high-resolution (<1m) satellite and aerial imagery using a modified RetinaNet model
@@ -1310,8 +1306,6 @@ Detecting the most noticeable or important object in a scene
 - [cowc_car_counting](https://github.com/motokimura/cowc_car_counting) -> car counting on the. Not sctictly object detection but a CNN to predict the car count in a tile
 
 - [CarCounting](https://github.com/JacksonPeoples/CarCounting) -> using Yolov3 & COWC dataset
-
-- [Traffic density estimation as a regression problem instead of object detection](https://www.omdena.com/blog/ai-road-safety)
 
 - [Rotation-EfficientDet-D0](https://github.com/HsLOL/Rotation-EfficientDet-D0) -> PyTorch implementation of Rotated EfficientDet, applied to a custom rotation vehicle dataset (car counting)
 
@@ -3012,8 +3006,6 @@ Generalized Few-shot Semantic Segmentation
 Self-supervised, unsupervised & contrastive learning are all methods of machine learning that use unlabeled data to train algorithms. Self-supervised learning uses labeled data to create an artificial supervisor, while unsupervised learning uses only the data itself to identify patterns and similarities. Contrastive learning uses pairs of data points to learn representations of data, usually for classification tasks. Note that self-supervised approaches are commonly used in the training of so-called Foundational models, since they enable learning from large quantities of unlablleded data, tyipcally time series.
 
 - [Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://devblog.pytorchlightning.ai/seasonal-contrast-transferable-visual-representations-for-remote-sensing-73a17863ed07) -> Seasonal Contrast (SeCo) is an effective pipeline to leverage unlabeled data for in-domain pre-training of remote sensing representations. Models trained with SeCo achieve better performance than their ImageNet pre-trained counterparts and state-of-the-art self-supervised learning methods on multiple downstream tasks. [paper](https://arxiv.org/abs/2103.16607) and [repo](https://github.com/ElementAI/seasonal-contrast)
-
-- [Unsupervised Learning for Land Cover Classification in Satellite Imagery](https://www.omdena.com/blog/land-cover-classification)
 
 - [Tile2Vec: Unsupervised representation learning for spatially distributed data](https://ermongroup.github.io/blog/tile2vec/)
 
