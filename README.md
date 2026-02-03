@@ -1206,7 +1206,7 @@ Detecting the most noticeable or important object in a scene
 
 - [satellite_image_tinhouse_detector](https://github.com/yasserius/satellite_image_tinhouse_detector) -> Detection of tin houses from satellite/aerial images using the Tensorflow Object Detection API
 
-- [Machine Learning For Rooftop Detection and Solar Panel Installment](https://omdena.com/blog/machine-learning-rooftops/) discusses tiling large images and generating annotations from OSM data. Features of the roofs were calculated using a combination of contour detection and classification. [Follow up article using semantic segmentation](https://omdena.com/blog/rooftops-classification/)
+- [Machine Learning For Rooftop Detection and Solar Panel Installment](https://www.omdena.com/blog/machine-learning-rooftops) discusses tiling large images and generating annotations from OSM data. Features of the roofs were calculated using a combination of contour detection and classification. [Follow up article using semantic segmentation](https://www.omdena.com/blog/rooftops-classification)
 
 - [Building Extraction with YOLT2 and SpaceNet Data](https://medium.com/the-downlinq/building-extraction-with-yolt2-and-spacenet-data-a926f9ffac4f)
 
@@ -1311,7 +1311,7 @@ Detecting the most noticeable or important object in a scene
 
 - [CarCounting](https://github.com/JacksonPeoples/CarCounting) -> using Yolov3 & COWC dataset
 
-- [Traffic density estimation as a regression problem instead of object detection](https://omdena.com/blog/ai-road-safety/)
+- [Traffic density estimation as a regression problem instead of object detection](https://www.omdena.com/blog/ai-road-safety)
 
 - [Rotation-EfficientDet-D0](https://github.com/HsLOL/Rotation-EfficientDet-D0) -> PyTorch implementation of Rotated EfficientDet, applied to a custom rotation vehicle dataset (car counting)
 
@@ -2186,7 +2186,7 @@ The traditional approach of collecting economic data through ground surveys is a
 
 - [africa_poverty](https://github.com/sustainlab-group/africa_poverty) -> Using publicly available satellite imagery and deep learning to understand economic well-being in Africa
 
-- [Predicting-Poverty](https://github.com/jmather625/predicting-poverty-replication) -> Combining satellite imagery and machine learning to predict poverty, in PyTorch
+- [Predicting-Poverty](https://github.com/jmathur25/predicting-poverty-replication) -> Combining satellite imagery and machine learning to predict poverty, in PyTorch
 
 - [income-prediction](https://github.com/tnarayanan/income-prediction) -> Predicting average yearly income based on satellite imagery using CNNs, uses pytorch
 
@@ -3013,7 +3013,7 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 
 - [Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://devblog.pytorchlightning.ai/seasonal-contrast-transferable-visual-representations-for-remote-sensing-73a17863ed07) -> Seasonal Contrast (SeCo) is an effective pipeline to leverage unlabeled data for in-domain pre-training of remote sensing representations. Models trained with SeCo achieve better performance than their ImageNet pre-trained counterparts and state-of-the-art self-supervised learning methods on multiple downstream tasks. [paper](https://arxiv.org/abs/2103.16607) and [repo](https://github.com/ElementAI/seasonal-contrast)
 
-- [Unsupervised Learning for Land Cover Classification in Satellite Imagery](https://omdena.com/blog/land-cover-classification/)
+- [Unsupervised Learning for Land Cover Classification in Satellite Imagery](https://www.omdena.com/blog/land-cover-classification)
 
 - [Tile2Vec: Unsupervised representation learning for spatially distributed data](https://ermongroup.github.io/blog/tile2vec/)
 
