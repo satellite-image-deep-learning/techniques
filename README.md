@@ -3633,6 +3633,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [SpectralGPT](https://github.com/danfenghong/IEEE_TPAMI_SpectralGPT) -> Spectral remote sensing foundation model, with finetuning on classification, segmentation, and change detection tasks
 
+- [SeaMo](https://github.com/danfenghong/Information_Fusion_SeaMo) -> A Season-Aware Multimodal Foundation Model for Remote Sensing
+
 - [DOFA-pytorch](https://github.com/zhu-xlab/DOFA) -> Dynamic One-For-All (DOFA) multimodal foundation models for Earth vision reference implementation
 
 - [Prithvi foundation model](https://github.com/NASA-IMPACT/hls-foundation-os) -> also see the [Baseline Model for Segmentation](https://github.com/ClarkCGA/multi-temporal-crop-classification-baseline)
