@@ -326,6 +326,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [TOFMapper](https://github.com/Moerizzy/TOFMapper) -> a semantic segmentation tool for mapping and classifying Trees outside Forest in high resolution aerial images
 
+- [Mask-PSTIN](https://github.com/BruceKai/Mask-PSTIN) -> Improving crop type mapping by integrating LSTM with temporal random masking and pixel-set spatial information
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [sat-water](https://github.com/busayojee/sat-water) -> Semantic segmentation of water bodies in satellite imagery, producing pixel-wise water masks from remote sensing images using a U-Net–style deep learning pipeline (data preparation, training, inference, and evaluation).
@@ -378,6 +380,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [TerraMind-Flood](https://github.com/R1-AK/terramind-flood) -> DEM-Enhanced Flood Detection with Physics-Aware Learning, applied to Sen1Floods11
 
+- [SMAGNet](https://github.com/ASUcicilab/SMAGNet) -> A Spatially Masked Adaptive Gated Network for Multimodal Post-Flood Water Extent Mapping using SAR and Incomplete Multispectral Data. Uses c2smsfloods dataset
+
 ### Segmentation - Fire, smoke & burn areas
 
 - [SatelliteVu-AWS-Disaster-Response-Hackathon](https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon) -> fire spread prediction using classical ML & deep learning
@@ -421,6 +425,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [Landslide mapping from Sentinel-2 imagery through change detection](https://github.com/links-ads/igarss-landslide-delineation)
 
 - [landslide4sense-solution](https://github.com/iamtekson/landslide4sense-solution) -> solution of Tek Kshetri
+
+- [DiGATe-UNet-LandSlide-Segmentation](https://github.com/mishaown/DiGATe-UNet-LandSlide-Segmentation) -> Lightweight Dual-Stream Framework for Landslide Segmentation
 
 ### Segmentation - Glaciers
 
@@ -2153,6 +2159,12 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
 - [UniCrop](https://github.com/CoDIS-Lab/UniCrop) -> a configuration-driven, universal data pipeline designed to automate the construction of analysis-ready environmental datasets for crop yield modelling
 
+- [rs-spatiotemporal-vineyard-yield-forecasting](https://github.com/plant-ai-biophysics-lab/rs-spatiotemporal-vineyard-yield-forecasting) -> Spatiotemporal vineyard yield forecasting using satellite imagery (Sentinel 2) and management practice data
+
+- [AgriGuard: Multi-Modal Crop Disease Detection System](https://github.com/debanjan06/Agriguard) -> Multi-spectral satellite data analysis system combining Sentinel-2 imagery with deep learning for early crop disease detection in precision agriculture applications.
+
+- [cleanRfield](https://github.com/filipematias23/cleanRfield) -> a compilation of functions to clean and filter observations from yield monitors or other agricultural spatial point data.
+
 #
 ## Wealth and economic activity
 
@@ -2733,6 +2745,10 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
 
 - [SatDiFuser](https://github.com/yurujaja/SatDiFuser) -> Can Generative Geospatial Diffusion Models Excel as Discriminative Geospatial Foundation Models?
 
+- [CTGAN](https://github.com/come880412/CTGAN) -> Cloud Transformer Generative Adversarial Network
+
+ -[SADER](https://github.com/zyfzs0/SADER) -> Structure-Aware Diffusion Framework with Deterministic Resampling for Multi-Temporal Remote Sensing Cloud Removal
+
 #
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
 
@@ -2831,6 +2847,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 - [GeoVibes](https://github.com/cr458/geovibes) -> toolkit for evaluating geospatial embeddings models through similarity search, combining FAISS vector indexing with DuckDB metadata to enable interactive map-based exploration
 
 - [Tessera embeddings explorer](https://github.com/sk818/TEE)
+
+- [pixelverse](https://github.com/developmentseed/pixelverse) -> Cloud native tooling to generate and store pixelwise geospatial foundation model embeddings.
 
 #
 ## Anomaly detection
@@ -3676,6 +3694,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [Terramind](https://github.com/IBM/terramind) -> an any-to-any generative foundation model for Earth Observation, built by IBM and ESA.
 
 - [alphaearth-foundations](https://github.com/Brayden-Zhang/alphaearth-foundations) -> A PyTorch implementation of the AlphaEarth geospatial foundation model from Google DeepMind.
+
+- [THOR](https://github.com/FM4CS/THOR) -> Transformer based foundation model for Heterogeneous Observation and Resolution
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
