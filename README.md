@@ -31,6 +31,7 @@ Deep learning has revolutionized the analysis and interpretation of satellite an
 - [Few & zero shot learning](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#few--zero-shot-learning)
 - [Self-supervised, unsupervised & contrastive learning](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#self-supervised-unsupervised--contrastive-learning)
 - [SAR](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#sar)
+- [Explainable Ai (XAI)](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#explainable-ai-xai)
 - [Large vision & language models (LLMs & LVMs)](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#large-vision--language-models-llms--lvms)
 - [Foundational models](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#foundational-models)
 
@@ -1534,7 +1535,6 @@ When the object count, but not its shape is required, U-net can be used to treat
 
 Regression in remote sensing involves predicting continuous variables such as wind speed, tree height, or soil moisture from an image. Both classical machine learning and deep learning approaches can be used to accomplish this task. Classical machine learning utilizes feature engineering to extract numerical values from the input data, which are then used as input for a regression algorithm like linear regression. On the other hand, deep learning typically employs a convolutional neural network (CNN) to process the image data, followed by a fully connected neural network (FCNN) for regression. The FCNN is trained to map the input image to the desired output, providing predictions for the continuous variables of interest. [Image source](https://github.com/h-fuzzy-logic/python-windspeed)
 
-
 - [GEDI-BDL](https://github.com/langnico/GEDI-BDL) -> Global canopy height regression and uncertainty estimation from GEDI LIDAR waveforms with deep ensembles
 
 - [Global-Canopy-Height-Map](https://github.com/AI4Forest/Global-Canopy-Height-Map) -> Estimating Canopy Height at Scale (ICML2024)
@@ -1556,6 +1556,10 @@ Regression in remote sensing involves predicting continuous variables such as wi
 - [Soil Moisture Retrieval from Google Research](https://github.com/google-research/google-research/tree/master/soil_moisture_retrieval) -> A Deep Learning Data Fusion Model Using Sentinel-1/2, SoilGrids, SMAP, and GLDAS for Soil Moisture Retrieval
 
 - [temp-mosaiks](https://github.com/reed-colloton/temp-mosaiks) -> predict ground-level temperature with MOSAIKS
+
+- [biomsharp](https://github.com/laiaalbors/biomsharp) -> Biomass Super-resolution for High AccuRacy Prediction
+
+- [TREASURE-NET](https://github.com/Global-Earth-Observation/threasure-net) -> Super-Resolved Canopy Height Mapping from Sentinel-2 Time Series Using LiDAR HD Reference Data across Metropolitan France
 
 #
 ## Cloud detection & removal
@@ -1626,7 +1630,6 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
 - [CloudX-Net](https://github.com/sumitkanu/CloudX-Net) -> an efficient and robust architecture used for detection of clouds from satellite images
 
-
 - [cloud_detection_using_satellite_data](https://github.com/ZhouPeng-NIMST/cloud_detection_using_satellite_data) -> performed on Sentinel 2 data
 
 - [Luojia1-Cloud-Detection](https://github.com/dedztbh/Luojia1-Cloud-Detection) -> Luojia-1 Satellite Visible Band Nighttime Imagery Cloud Detection
@@ -1696,6 +1699,8 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 - [UnCRtainTS](https://github.com/PatrickTUM/UnCRtainTS) -> Uncertainty Quantification for Cloud Removal in Optical Satellite Time Series
 
 - [U-TILISE](https://github.com/prs-eth/U-TILISE) -> A Sequence-to-sequence Model for Cloud Removal in Optical Satellite Time Series
+
+- [cloudtran](https://github.com/DionysisChristopoulos/cloudtran) -> Cloud removal from multi-temporal satellite images using axial transformer networks
 
 #
 ## Change detection
@@ -2108,8 +2113,6 @@ Crop classification in remote sensing is the identification and mapping of diffe
 
 - [StressNet: A spatial-spectral-temporal deformable attention-based framework for water stress classification in maize](https://github.com/tejasri19/Stressnet) -> Water Stress Classification on Multispectral data of Maize captured by UAV
 
-- [XAI4EO](https://github.com/adelabbs/XAI4EO) -> Towards Explainable AI4EO: an explainable DL approach for crop type mapping using SITS
-
 - [model_ecaas_agrifieldnet_gold](https://github.com/radiantearth/model_ecaas_agrifieldnet_gold) -> AgriFieldNet Model for Crop Types Detection. First place solution of the of the [Zindi AgriFieldNet India Challenge](https://zindi.africa/competitions/agrifieldnet-india-challenge) for Crop Types Detection from Satellite Imagery. 
 
 - [H2Crop](https://github.com/flyakon/H2Crop) -> Fine-grained Hierarchical Crop Type Classification from Integrated Hyperspectral EnMAP Data and Multispectral Sentinel-2 Time Series: A Large-scale Dataset and Dual-stream Transformer Method
@@ -2164,6 +2167,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 - [AgriGuard: Multi-Modal Crop Disease Detection System](https://github.com/debanjan06/Agriguard) -> Multi-spectral satellite data analysis system combining Sentinel-2 imagery with deep learning for early crop disease detection in precision agriculture applications.
 
 - [cleanRfield](https://github.com/filipematias23/cleanRfield) -> a compilation of functions to clean and filter observations from yield monitors or other agricultural spatial point data.
+
+- [Yield-Loss](https://github.com/mmiranda-l/Yield-Loss) -> Informed Learning for Estimating Drought Stress at Fine-Scale Resolution Enables Accurate Yield Prediction
 
 #
 ## Wealth and economic activity
@@ -2748,6 +2753,8 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
 - [CTGAN](https://github.com/come880412/CTGAN) -> Cloud Transformer Generative Adversarial Network
 
  -[SADER](https://github.com/zyfzs0/SADER) -> Structure-Aware Diffusion Framework with Deterministic Resampling for Multi-Temporal Remote Sensing Cloud Removal
+
+- [noise2change](https://github.com/chiangliu/noise2change) -> Generating Any Changes in the Noise Domain
 
 #
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
@@ -3492,8 +3499,6 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
 - [cogsima2022](https://github.com/galatolofederico/cogsima2022) -> Enhancing land subsidence awareness via InSAR data and Deep Transformers
 
-- [XAI4SAR-PGIL](https://github.com/Alien9427/XAI4SAR-PGIL) -> Physically Explainable CNN for SAR Image Classification
-
 - [PolSARFormer](https://github.com/aj1365/PolSARFormer) -> Local Window Attention Transformer for Polarimetric SAR Image Classification
 
 - [DC4Flood](https://github.com/Kasra2020/DC4Flood) -> A deep clustering framework for rapid flood detection using Sentinel-1 SAR imagery
@@ -3605,6 +3610,18 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [Adapting Vehicle Detectors for Aerial Imagery to Unseen Domains with Weak Supervision](https://github.com/humansensinglab/AGenDA) -> Leverage synthetic data generated by Stable Diffusion to enhance cross-domain object detection in aerial imagery.
 
+# 
+## Explainable Ai (XAI)
+Explainable AI (XAI) is a field of artificial intelligence that focuses on developing methods and techniques to make the decision-making process of AI systems more transparent and understandable to humans. XAI aims to provide insights into how AI models arrive at their predictions or decisions, allowing users to trust and interpret the results effectively. This is particularly important in remote sensing applications where understanding the rationale behind AI-driven insights can be crucial for decision-making in areas such as environmental monitoring, disaster response, and land use planning.
+
+- [Mehak_Transformer_LULC_XAI](https://github.com/Ci2Lab/Mehak_Transformer_LULC_XAI) -> Transformer-based Land Use and Land Cover Classification with Explainability using Satellite Imagery
+
+- [XAI4EO](https://github.com/adelabbs/XAI4EO) -> Towards Explainable AI4EO: an explainable DL approach for crop type mapping using SITS
+
+- [XAI4SAR-PGIL](https://github.com/Alien9427/XAI4SAR-PGIL) -> Physically Explainable CNN for SAR Image Classification
+
+- [Pytorch Lightning UQ Box](https://github.com/lightning-uq-box/lightning-uq-box) -> a tool that enables experimentation with a variety of Uncertainty Quantification (UQ) techniques for neural networks
+
 #
 ## Large vision & language models (LLMs & LVMs)
 
@@ -3637,6 +3654,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [Llama3-MS-CLIP](https://github.com/IBM/MS-CLIP) -> Multispectral Vision-Language Learning for Earth Observation, from IBM
 
 - [DOFA-CLIP](https://github.com/xiong-zhitong/DOFA-CLIP) -> Multimodal Vision–Language Foundation Models for Earth Observation
+
+- [SegEarth-OV-3](https://github.com/earth-insights/SegEarth-OV-3) -> Exploring SAM 3 for Open-Vocabulary Semantic Segmentation in Remote Sensing Images
 
 #
 ## Foundational models
@@ -3696,6 +3715,8 @@ Training data can be hard to acquire, particularly for rare events such as chang
 - [alphaearth-foundations](https://github.com/Brayden-Zhang/alphaearth-foundations) -> A PyTorch implementation of the AlphaEarth geospatial foundation model from Google DeepMind.
 
 - [THOR](https://github.com/FM4CS/THOR) -> Transformer based foundation model for Heterogeneous Observation and Resolution
+
+- [planaura](https://github.com/NRCan/planaura) -> Canadian Geospatial Foundation Models
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
