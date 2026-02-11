@@ -379,9 +379,13 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [SAR-water-segmentation](https://github.com/myeungun/SAR-water-segmentation) -> Deep Learning based Water Segmentation Using KOMPSAT-5 SAR Images
 
-- [TerraMind-Flood](https://github.com/R1-AK/terramind-flood) -> DEM-Enhanced Flood Detection with Physics-Aware Learning, applied to Sen1Floods11
+- [TerraMind-Flood](https://github.com/R1-AK/terramind-flood) -> DEM-Enhanced Flood Detection with Physics-Aware Learning, applied to Sen1Flood11
+
+- [Prithvi-CAFE](https://github.com/Sk-2103/Prithvi-CAFE) -> Transformer-based global reasoning (Prithvi-EO-2.0) with CNN-based local spatial sensitivity, enabling high-resolution, reliable flood inundation mapping across multi-channel/sensor inputs, applied to Sen1Flood11
 
 - [SMAGNet](https://github.com/ASUcicilab/SMAGNet) -> A Spatially Masked Adaptive Gated Network for Multimodal Post-Flood Water Extent Mapping using SAR and Incomplete Multispectral Data. Uses c2smsfloods dataset
+
+- [IBM BlueSky Challenge - ZeroFlood](https://github.com/oroikono/IBM-BlueSky-Challenge-ZeroFlood)
 
 ### Segmentation - Fire, smoke & burn areas
 
@@ -2003,6 +2007,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [HabitAlp 2.0](https://github.com/hkristen/habitalp_2) -> Habitat and Land Cover Change Detection in Alpine Protected Areas: A Comparison of AI Architectures
 
+- [ChangeDINO](https://github.com/chingheng0808/ChangeDINO) -> DINOv3-Driven Building Change Detection in Optical Remote Sensing Imagery.
+
 #
 ## Time series
 
@@ -2169,6 +2175,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 - [cleanRfield](https://github.com/filipematias23/cleanRfield) -> a compilation of functions to clean and filter observations from yield monitors or other agricultural spatial point data.
 
 - [Yield-Loss](https://github.com/mmiranda-l/Yield-Loss) -> Informed Learning for Estimating Drought Stress at Fine-Scale Resolution Enables Accurate Yield Prediction
+
+- [VITA](https://github.com/neehan/VITA) -> Variational Pretraining of Transformers for Climate-Robust Crop Yield Forecasting
 
 #
 ## Wealth and economic activity
@@ -2545,6 +2553,8 @@ Pansharpening is a data fusion method that merges the high spatial detail from a
 
 - [UAPN](https://github.com/keviner1/UAPN) -> Official PyTorch implementation of our TGRS paper: Deep Adaptive Pansharpening via Uncertainty-aware Image Fusion.[Paper link](https://ieeexplore.ieee.org/document/10106462)
 
+- [pansharpening-toolkit](https://github.com/Osman-Geomatics93/pansharpening-toolkit-) -> Pansharpening toolkit with classic and deep learning methods
+
 #
 ## Image-to-image translation
 
@@ -2766,6 +2776,8 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
 </p>
 
 Autoencoders are a type of neural network that aim to simplify the representation of input data by compressing it into a lower dimensional form. This is achieved through a two-step process of encoding and decoding, where the encoding step compresses the data into a lower dimensional representation, and the decoding step restores the data back to its original form. The goal of this process is to reduce the data's dimensionality, making it easier to store and process, while retaining the essential information. Dimensionality reduction, as the name suggests, refers to the process of reducing the number of dimensions in a dataset. This can be achieved through various techniques such as principal component analysis (PCA) or singular value decomposition (SVD). Autoencoders are one type of neural network that can be used for dimensionality reduction. In the field of computer vision, image embeddings are vector representations of images that capture the most important features of the image. These embeddings can then be used to perform similarity searches, where images are compared based on their features to find similar images. This process can be used in a variety of applications, such as image retrieval, where images are searched based on certain criteria like color, texture, or shape. It can also be used to identify duplicate images in a dataset. [Image source](https://www.mdpi.com/2072-4292/11/7/864)
+
+- [Awesome-Geospatial-Embeddings](https://github.com/hfangcat/Awesome-Geospatial-Embeddings) -> A curated list of papers that focus on how to represent Earth data in embedding space
 
 - [LEt-SNE](https://github.com/meghshukla/LEt-SNE) -> Dimensionality Reduction and visualization technique that compensates for the curse of dimensionality
 
@@ -3622,6 +3634,8 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 
 - [Pytorch Lightning UQ Box](https://github.com/lightning-uq-box/lightning-uq-box) -> a tool that enables experimentation with a variety of Uncertainty Quantification (UQ) techniques for neural networks
 
+- [Intrinsic Explainability of Multimodal Learning for Crop Yield Prediction](https://github.com/hibanajjar998/intrinsic_xai_mml)
+
 #
 ## Large vision & language models (LLMs & LVMs)
 
@@ -3717,6 +3731,8 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 - [THOR](https://github.com/FM4CS/THOR) -> Transformer based foundation model for Heterogeneous Observation and Resolution
 
 - [planaura](https://github.com/NRCan/planaura) -> Canadian Geospatial Foundation Models
+
+- [LandSegmenter](https://github.com/zhu-xlab/LandSegmenter) -> Towards a Flexible Foundation Model for Land Use and Land Cover Mapping
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
