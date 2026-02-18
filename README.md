@@ -459,6 +459,9 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Project-Eucalyptus](https://github.com/Orbio-Earth/Project-Eucalyptus) -> pipelines for satellite-based methane detection. Includes trained segmentation models, a synthetic plume generator, and benchmarking tools for Sentinel-2, Landsat 8/9, and EMIT.
 
+- [plume-hunter: Towards Methane Detection On Board Satellites ](https://github.com/spaceml-org/plume-hunter)
+
+
 ### Segmentation - Other environmental
 
 - [Detection of Open Landfills](https://github.com/dymaxionlabs/basurales) -> uses Sentinel-2 to detect large changes in the Normalized Burn Ratio (NBR)
