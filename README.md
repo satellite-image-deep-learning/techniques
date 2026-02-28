@@ -1574,6 +1574,8 @@ Regression in remote sensing involves predicting continuous variables such as wi
 
 - [Seabed-Net](https://github.com/pagraf/Seabed-Net) -> A multi-task network for joint bathymetry and pixel-based seabed classification from remote sensing imagery in shallow waters, uses [MagicBathyNet](https://www.magicbathy.eu/magicbathynet.html) dataset
 
+- [ECHOSAT](https://github.com/AI4Forest/ECHOSAT) -> Estimating Canopy Height Over Space And Time, uses a Swin Video UNet architecture that processes multi-sensor satellite data.
+
 #
 ## Cloud detection & removal
 
@@ -2018,6 +2020,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [ChangeDINO](https://github.com/chingheng0808/ChangeDINO) -> DINOv3-Driven Building Change Detection in Optical Remote Sensing Imagery.
 
+- [mason_cd](https://github.com/blaz-r/mason_cd) -> Make Some Noise: Unsupervised Remote Sensing Change Detection Using Latent Space Perturbations
+
 #
 ## Time series
 
@@ -2188,6 +2192,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 - [Yield-Loss](https://github.com/mmiranda-l/Yield-Loss) -> Informed Learning for Estimating Drought Stress at Fine-Scale Resolution Enables Accurate Yield Prediction
 
 - [VITA](https://github.com/neehan/VITA) -> Variational Pretraining of Transformers for Climate-Robust Crop Yield Forecasting
+
+- [Bayesian-posterior-based-EnKF](https://github.com/paperoses/Bayesian-posterior-based-EnKF) -> The improved winter wheat yield estimation by assimilating GLASS LAI into a crop growth model with the proposed Bayesian posterior-based ensemble Kalman filter.
 
 #
 ## Wealth and economic activity
@@ -2881,6 +2887,10 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 - [Tessera embeddings explorer](https://github.com/sk818/TEE)
 
 - [pixelverse](https://github.com/developmentseed/pixelverse) -> Cloud native tooling to generate and store pixelwise geospatial foundation model embeddings.
+
+- [Looted Site Detection](https://github.com/microsoft/looted_site_detection) -> compares embeddings with CNNs, by Microsoft
+
+- [AI-for-Good-Tutorial-2026](https://github.com/embed2scale/AI-for-Good-Tutorial-2026) -> introduces embedding workflows for Earth Observation using TerraTorch and NeuCo-Bench
 
 #
 ## Anomaly detection
@@ -3695,7 +3705,7 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 
 - [Clay Foundation Model](https://github.com/Clay-foundation/model) -> an open source AI model and interface for Earth.
 
-- [TerraTorch](https://github.com/IBM/terratorch) -> a Python toolkit for fine-tuning Geospatial Foundation Models from IBM, based on PyTorch Lightning and TorchGeo
+- [TerraTorch](https://github.com/terrastackai/terratorch) -> a Python toolkit for fine-tuning Geospatial Foundation Models from IBM, based on PyTorch Lightning and TorchGeo
 
 - [EarthPT](https://github.com/aspiaspace/earthPT) -> A time series foundation model for Earth Observation
 
