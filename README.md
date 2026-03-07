@@ -329,6 +329,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Mask-PSTIN](https://github.com/BruceKai/Mask-PSTIN) -> Improving crop type mapping by integrating LSTM with temporal random masking and pixel-set spatial information
 
+- [paddy_identification](https://github.com/kayathri4/paddy_identification) -> Paddy Field Instance Segmentation using Multi-Temporal SAR Time Series
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [sat-water](https://github.com/busayojee/sat-water) -> Semantic segmentation of water bodies in satellite imagery, producing pixel-wise water masks from remote sensing images using a U-Net–style deep learning pipeline (data preparation, training, inference, and evaluation).
@@ -434,6 +436,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [landslide4sense-solution](https://github.com/iamtekson/landslide4sense-solution) -> solution of Tek Kshetri
 
 - [DiGATe-UNet-LandSlide-Segmentation](https://github.com/mishaown/DiGATe-UNet-LandSlide-Segmentation) -> Lightweight Dual-Stream Framework for Landslide Segmentation
+
+- [Erosion-detection](https://github.com/Andrii-Radyhin/Erosion-detection) -> using Sentinel-2 to detect erosion
 
 ### Segmentation - Glaciers
 
@@ -573,6 +577,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [Fine–Grained Extraction of Road Networks via Joint Learning of Connectivity and Segmentation](https://github.com/YXu556/RoadExtraction) -> uses SpaceNet 3 dataset
 
 - [Satellite-Image-Road-Segmentation](https://github.com/aavek/Satellite-Image-Road-Segmentation) -> Graph Reasoned Multi-Scale Road Segmentation in Remote Sensing Imagery [paper](https://ieeexplore.ieee.org/document/10281660)
+
+- [PathFinder](https://github.com/Oraegbuayomide10/PathFinder) -> A Foundation Model for Road Mapping in Support of United Nations Humanitarian Affairs
 
 ### Segmentation - Buildings & rooftops
 
@@ -2892,6 +2898,10 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [AI-for-Good-Tutorial-2026](https://github.com/embed2scale/AI-for-Good-Tutorial-2026) -> introduces embedding workflows for Earth Observation using TerraTorch and NeuCo-Bench
 
+- [GeoPool](https://github.com/isaaccorley/geopool) -> From Pixels to Patches — Pooling Strategies for Earth Embeddings
+
+- [RS-Embed](https://github.com/cybergis/rs-embed) -> A single line of code to get embeddings from Any Remote Sensing Foundation Model (RSFM) for Any Place and Any Time
+
 #
 ## Anomaly detection
 Anomaly detection refers to the process of identifying unusual patterns or outliers in satellite or aerial images that do not conform to expected norms. This is crucial in applications such as environmental monitoring, defense surveillance, and urban planning. Machine learning algorithms, particularly unsupervised learning methods, are used to analyze vast amounts of remote sensing data efficiently. These algorithms learn the typical patterns and variations in the data, allowing them to flag anomalies such as unexpected land cover changes, illegal deforestation, or unusual maritime activities. The detection of these anomalies can provide valuable insights for timely decision-making and intervention in various fields.
@@ -3663,6 +3673,8 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 
 - [Intrinsic Explainability of Multimodal Learning for Crop Yield Prediction](https://github.com/hibanajjar998/intrinsic_xai_mml)
 
+- [Explainable GeoAI](https://github.com/ASUcicilab/explainable-geoai) -> Performance assessment of deep learning model visualization techniques to understand AI learning processes with geospatial data
+
 #
 ## Large vision & language models (LLMs & LVMs)
 
@@ -3762,6 +3774,8 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 - [LandSegmenter](https://github.com/zhu-xlab/LandSegmenter) -> Towards a Flexible Foundation Model for Land Use and Land Cover Mapping
 
 - [GeoLink_NeurIPS2025](https://github.com/bailubin/GeoLink_NeurIPS2025) -> GeoLink is a multimodal framework that empowers remote sensing foundation models by integrating OpenStreetMap (OSM) data in both pretraining stage and downstream tasks
+
+- [Wildfire Forecasting](https://asucicilab.github.io/wildfire-forecasting/) -> Adapting Video Foundation Models for Spatiotemporal Wildfire Forecasting via Cross-Modal Progressive Fine-Tuning
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
