@@ -3629,8 +3629,6 @@ Training data can be hard to acquire, particularly for rare events such as chang
 
 - [bifrost.ai](https://www.bifrost.ai/) -> simulated data service with geospatial output data formats
 
-- [oktal-se](https://www.oktal-se.fr/deep-learning/) -> software for generating simulated data across a wide range of bands including optical and SAR
-
 - [rendered.ai](https://rendered.ai/) -> The Platform as a Service for Creating Synthetic Data
 
 - [synthetic_xview_airplanes](https://github.com/yangxu351/synthetic_xview_airplanes) -> creation of airplanes synthetic dataset using ArcGIS CityEngine
