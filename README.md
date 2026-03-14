@@ -331,6 +331,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [paddy_identification](https://github.com/kayathri4/paddy_identification) -> Paddy Field Instance Segmentation using Multi-Temporal SAR Time Series
 
+- [CropSight](https://github.com/rssiuiuc/CropSight) -> towards a large-scale operational framework for object-based crop type ground truth retrieval using street view and PlanetScope satellite imagery
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [sat-water](https://github.com/busayojee/sat-water) -> Semantic segmentation of water bodies in satellite imagery, producing pixel-wise water masks from remote sensing images using a U-Net–style deep learning pipeline (data preparation, training, inference, and evaluation).
@@ -736,6 +738,10 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [Global Collinearity-aware Polygonizer for Polygonal Building Mapping in Remote Sensing](https://github.com/zhu-xlab/GCP)
 
 - [Building Segmentation on LR-HR-SR Satellite Imagery](https://github.com/ESAOpenSR/Segmentation-Models-Benchmark) -> perform building delineation on different types of satellite imagery: Low-Resolution (LR), High-Resolution (HR), and Super-Resolution (SR). The goal is to compare the performance of segmentation models across these varying resolutions.
+
+- [UrbanGraphSAGE](https://github.com/OMUZ9924/UrbanGraphSAGE) -> Graph Neural Network (GraphSAGE) for urban building footprint extraction from Sentinel-2 satellite imagery
+
+- [terratorch-building-segmentation](https://github.com/OMUZ9924/terratorch-building-segmentation) -> Fine-tuning Geospatial Foundation Models (Prithvi, TerraMind) for building footprint segmentation from Sentinel-2 using TerraTorch — Algiers case study
 
 ### Segmentation - Solar panels
 
@@ -1582,6 +1588,8 @@ Regression in remote sensing involves predicting continuous variables such as wi
 
 - [ECHOSAT](https://github.com/AI4Forest/ECHOSAT) -> Estimating Canopy Height Over Space And Time, uses a Swin Video UNet architecture that processes multi-sensor satellite data.
 
+- [Popcorn](https://popcorn-population.github.io/) -> High-resolution Population Maps Derived from Sentinel-1 and Sentinel-2, with follow up work [Bourbon](https://github.com/nandometzger/bourbon)
+
 #
 ## Cloud detection & removal
 
@@ -2201,6 +2209,10 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
 - [Bayesian-posterior-based-EnKF](https://github.com/paperoses/Bayesian-posterior-based-EnKF) -> The improved winter wheat yield estimation by assimilating GLASS LAI into a crop growth model with the proposed Bayesian posterior-based ensemble Kalman filter.
 
+- [PBCNN](https://github.com/rssiuiuc/PBCNN) -> A Phenology-guided Bayesian-CNN (PB-CNN) framework for soybean yield estimation and uncertainty analysis.
+
+- [imbalance_deep_regression_yield_forecasting](https://github.com/plant-ai-biophysics-lab/imbalance_deep_regression_yield_forecasting) -> Predicting Crop Yield Lows Through Highs via Binned Deep Imbalanced Regression
+
 #
 ## Wealth and economic activity
 
@@ -2718,6 +2730,8 @@ Data fusion is a technique for combining information from different sources such
 
 - [AnytimeFormer](https://github.com/tangkai-RS/AnytimeFormer) -> Fusing irregular and asynchronous SAR-optical time series to reconstruct reflectance at any given time
 
+- [Rose](https://github.com/bailubin/Rose) -> Integrating remote sensing with OpenStreetMap data for comprehensive scene understanding through multi-modal self-supervised learning
+
 #
 ## Generative networks
 
@@ -2901,6 +2915,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 - [GeoPool](https://github.com/isaaccorley/geopool) -> From Pixels to Patches — Pooling Strategies for Earth Embeddings
 
 - [RS-Embed](https://github.com/cybergis/rs-embed) -> A single line of code to get embeddings from Any Remote Sensing Foundation Model (RSFM) for Any Place and Any Time
+
+- [SatelliteBench](https://github.com/mitcriticaldatacolombia/SatelliteBench) -> a data fusion framework that combines satellite images and tabular data for dengue prediction and socioeconomic analysis
 
 #
 ## Anomaly detection
@@ -3774,6 +3790,10 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 - [GeoLink_NeurIPS2025](https://github.com/bailubin/GeoLink_NeurIPS2025) -> GeoLink is a multimodal framework that empowers remote sensing foundation models by integrating OpenStreetMap (OSM) data in both pretraining stage and downstream tasks
 
 - [Wildfire Forecasting](https://asucicilab.github.io/wildfire-forecasting/) -> Adapting Video Foundation Models for Spatiotemporal Wildfire Forecasting via Cross-Modal Progressive Fine-Tuning
+
+## Geospatial Agents
+
+- [OpenEarthAgent](https://github.com/mbzuai-oryx/OpenEarthAgent) -> a unified framework for tool-augmented geospatial agents
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
