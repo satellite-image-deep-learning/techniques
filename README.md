@@ -1731,6 +1731,8 @@ Clouds are a major issue in remote sensing images as they can obscure the underl
 
 - [cloudtran](https://github.com/DionysisChristopoulos/cloudtran) -> Cloud removal from multi-temporal satellite images using axial transformer networks
 
+- [self-supervised-cloud-detection](https://github.com/eudesyawog/self-supervised-cloud-detection) -> Self-supervised representation learning for cloud detection using Sentinel-2 images
+
 #
 ## Change detection
 
@@ -3689,7 +3691,9 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 
 - [Explainable GeoAI](https://github.com/ASUcicilab/explainable-geoai) -> Performance assessment of deep learning model visualization techniques to understand AI learning processes with geospatial data
 
-#
+- [AlphaEarth-Interpretability-Experiments](https://github.com/FelipeBenavidesMz/AlphaEarth-Interpretability-Experiments) -> Binary classification experiments to interpret Google AlphaEarth Foundation embeddings across ESA WorldCover land cover classes. Part of the study "What on Earth is AlphaEarth?"
+
+  #
 ## Large vision & language models (LLMs & LVMs)
 
 - [awesome-remote-sensing-vision-language-models](https://github.com/lzw-lzw/awesome-remote-sensing-vision-language-models)
