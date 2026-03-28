@@ -305,6 +305,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [transfer-field-delineation](https://github.com/kerner-lab/transfer-field-delineation) -> Multi-Region Transfer Learning for Segmentation of Crop Field Boundaries in Satellite Images with Limited Labels
 
+- [crop-field-segmentation-ukan](https://github.com/DarthReca/crop-field-segmentation-ukan) -> KANs and Sentinel for Effective and Explainable Crop Field Segmentation
+
 - [mowing-detection](https://github.com/lucas-batier/mowing-detection) -> Automatic detection of mowing and grazing from Sentinel images
 
 - [PTAViT3D and PTAViT3DCA](https://github.com/feevos/tfcl) -> Tackling fluffy clouds: field boundaries detection using time series of S2 and/or S1 imagery
@@ -1044,6 +1046,8 @@ In instance segmentation, each individual 'instance' of a segmented area is give
 - [RSPrompter](https://github.com/KyanChen/RSPrompter) -> Learning to Prompt for Remote Sensing Instance Segmentation based on Visual Foundation Model
 
 - [VMD-Mask-RCNN-pipeline](https://github.com/Fen100/VMD-Mask-RCNN-pipeline) -> Detecting and segmenting sand mining river vessels on the Vietnam Mekong Delta, using PlanetScope imagery and Mask R-CNN
+
+- [BRIGHT cvprw26](https://github.com/ChenHongruixuan/BRIGHT/tree/master/cvprw26) -> Mask R-CNN baseline for multimodal building damage instance segmentation on BRIGHT
 
 #
 ## Object detection
@@ -2097,6 +2101,10 @@ The analysis of time series observations in remote sensing data has numerous app
 
 - [stenn-pytorch](https://github.com/ThinkPak/stenn-pytorch) -> A Spatio-temporal Encoding Neural Network for Semantic Segmentation of Satellite Image Time Series
 
+- [RQUNet-DPC](https://github.com/trile83/RQUNet-DPC) -> Dense Predictive Coding and UNet framework for satellite image time series segmentation
+
+- [encroaching-species-cerrado](https://github.com/osmarluiz/encroaching-species-cerrado) -> Detecting Encroaching Species in the Cerrado Using Deep Learning Time-Series Classification
+
 - [SITS-Former](https://github.com/linlei1214/SITS-Former) -> SITS-Former: A Pre-Trained Spatio-Spectral-Temporal Representation Model for Sentinel-2 Time Series Classification
 
 - [graph-dynamic-earth-net](https://github.com/corentin-dfg/graph-dynamic-earth-net) -> Graph Dynamic Earth Net: Spatio-Temporal Graph Benchmark for Satellite Image Time Series [paper](https://ieeexplore.ieee.org/abstract/document/10281458)
@@ -2625,6 +2633,8 @@ Image-to-image translation is a crucial aspect of computer vision that utilizes 
 
 - [RSIT_SRM_ISD](https://github.com/summitgao/RSIT_SRM_ISD) -> PyTorch implementation of Remote sensing image translation via style-based recalibration module and improved style discriminator
 
+- [ACPV-Net](https://heinzjiao.github.io/acpv-net-project-page/) -> All-Class Polygonal Vectorization for Seamless Vector Map Generation from Aerial Imagery
+
 - [pix2pix_google_maps](https://github.com/manishemirani/pix2pix_google_maps) -> Converts satellite images to map images using pix2pix models
 
 - [sar2color-igarss2018-chainer](https://github.com/enomotokenji/sar2color-igarss2018-chainer) -> Image Translation Between Sar and Optical Imagery with Generative Adversarial Nets
@@ -2915,6 +2925,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 - [AI-for-Good-Tutorial-2026](https://github.com/embed2scale/AI-for-Good-Tutorial-2026) -> introduces embedding workflows for Earth Observation using TerraTorch and NeuCo-Bench
 
 - [GeoPool](https://github.com/isaaccorley/geopool) -> From Pixels to Patches — Pooling Strategies for Earth Embeddings
+
+- [TerraCodec](https://github.com/IBM/TerraCodec) -> a family of pretrained neural compression models for optical Sentinel-2 Earth Observation imagery
 
 - [RS-Embed](https://github.com/cybergis/rs-embed) -> A single line of code to get embeddings from Any Remote Sensing Foundation Model (RSFM) for Any Place and Any Time
 
