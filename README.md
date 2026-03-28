@@ -176,8 +176,6 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
 - [generalizablersc](https://github.com/dgominski/generalizablersc) -> Cross-dataset Learning for Generalizable Land Use Scene Classification
 
-- [Large-scale-Automatic-Identification-of-Urban-Vacant-Land](https://github.com/SkydustZ/Large-scale-Automatic-Identification-of-Urban-Vacant-Land) -> Large-scale automatic identification of urban vacant land using semantic segmentation of high-resolution remote sensing images
-
 - [SSLTransformerRS](https://github.com/HSG-AIML/SSLTransformerRS) -> Self-supervised Vision Transformers for Land-cover Segmentation and
   Classification
 
