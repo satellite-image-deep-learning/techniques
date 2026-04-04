@@ -333,6 +333,10 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [CropSight](https://github.com/rssiuiuc/CropSight) -> towards a large-scale operational framework for object-based crop type ground truth retrieval using street view and PlanetScope satellite imagery
 
+- [ftw-prue](https://github.com/fieldsoftheworld/ftw-prue) -> PRUE: A Practical Recipe for Field Boundary Segmentation at Scale.
+
+- [agribound](https://github.com/montimaj/agribound) -> An AI-powered field boundary delineation toolkit combining satellite foundation models, embeddings, and global training data for accurate agricultural parcel/field boundary mapping.
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [sat-water](https://github.com/busayojee/sat-water) -> Semantic segmentation of water bodies in satellite imagery, producing pixel-wise water masks from remote sensing images using a U-Net–style deep learning pipeline (data preparation, training, inference, and evaluation).
@@ -1592,6 +1596,8 @@ Regression in remote sensing involves predicting continuous variables such as wi
 
 - [Popcorn](https://popcorn-population.github.io/) -> High-resolution Population Maps Derived from Sentinel-1 and Sentinel-2, with follow up work [Bourbon](https://github.com/nandometzger/bourbon)
 
+- [UrbanControlNet](https://github.com/kailaisun/UrbanControlNet/) -> Envisioning Global Urban Development with Satellite Imagery and Generative AI.
+
 #
 ## Cloud detection & removal
 
@@ -2221,6 +2227,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
 - [imbalance_deep_regression_yield_forecasting](https://github.com/plant-ai-biophysics-lab/imbalance_deep_regression_yield_forecasting) -> Predicting Crop Yield Lows Through Highs via Binned Deep Imbalanced Regression
 
+- [YieldSAT](https://yieldsat.github.io/) -> A Multimodal Benchmark Dataset for High-Resolution Crop Yield Prediction.
+
 #
 ## Wealth and economic activity
 
@@ -2751,7 +2759,7 @@ Data fusion is a technique for combining information from different sources such
   <b>Example generated images using a GAN.</b>
 </p>
 
-Generative networks (e.g. GANs) aim to generate new, synthetic data that appears similar to real-world data. This generated data can be used for a wide range of purposes, including data augmentation, data imbalance correction, and filling in missing or corrupted data. Including generating synthetic data can improve the performance of remote sensing algorithms and models, leading to more accurate and reliable results. [Image source](https://arxiv.org/abs/2207.14580)
+Generative networks (e.g. GANs and diffusion models) aim to generate new, synthetic data that appears similar to real-world data. This generated data can be used for a wide range of purposes, including data augmentation, data imbalance correction, and filling in missing or corrupted data. Including generating synthetic data can improve the performance of remote sensing algorithms and models, leading to more accurate and reliable results. [Image source](https://arxiv.org/abs/2207.14580)
 
 - [NIR-GAN](https://github.com/simon-donike/NIR-GAN) -> NIR-GAN: Generate a synthetic NIR band from RGB Remote Sensing Imagery (Sentinel-2, SPOT, basemaps, ...)
 
@@ -2814,6 +2822,8 @@ Generative networks (e.g. GANs) aim to generate new, synthetic data that appears
  -[SADER](https://github.com/zyfzs0/SADER) -> Structure-Aware Diffusion Framework with Deterministic Resampling for Multi-Temporal Remote Sensing Cloud Removal
 
 - [noise2change](https://github.com/chiangliu/noise2change) -> Generating Any Changes in the Noise Domain
+
+- [SAT-JEPA-DIFF](https://github.com/VU-AIML/SAT-JEPA-DIFF/) -> Bridging Self-Supervised Learning and Generative Diffusion for Satellite Image Forecasting.
 
 #
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
@@ -3737,6 +3747,8 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 - [DOFA-CLIP](https://github.com/xiong-zhitong/DOFA-CLIP) -> Multimodal Vision–Language Foundation Models for Earth Observation
 
 - [SegEarth-OV-3](https://github.com/earth-insights/SegEarth-OV-3) -> Exploring SAM 3 for Open-Vocabulary Semantic Segmentation in Remote Sensing Images
+
+- [ForestChat](https://github.com/JamesBrockUoB/ForestChat) -> Adapting Vision-Language Models for Interactive Forest Change Analysis.
 
 #
 ## Foundational models
