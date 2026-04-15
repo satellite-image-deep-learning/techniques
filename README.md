@@ -145,6 +145,8 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [nshaud/DeepNetsForEO](https://github.com/nshaud/DeepNetsForEO) -> Deep networks for Earth Observation with PyTorch implementations of state-of-the-art architectures for remote sensing image classification
 
+- [sentinel-landslide-cls](https://github.com/IoannisNasios/sentinel-landslide-cls) -> Classification for Landslide Detection, using Sentinel-1 and Sentinel-2 data.
+
 #
 ## Segmentation
 
@@ -336,6 +338,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [ftw-prue](https://github.com/fieldsoftheworld/ftw-prue) -> PRUE: A Practical Recipe for Field Boundary Segmentation at Scale.
 
 - [agribound](https://github.com/montimaj/agribound) -> An AI-powered field boundary delineation toolkit combining satellite foundation models, embeddings, and global training data for accurate agricultural parcel/field boundary mapping.
+
+- [s2-forest-browning-monitoring](https://github.com/SamanthaBiegel/s2-forest-browning-monitoring) -> Monitoring forest browning using Sentinel-2 imagery.
 
 ### Segmentation - Water, coastlines, rivers & floods
 
@@ -1597,6 +1601,8 @@ Regression in remote sensing involves predicting continuous variables such as wi
 - [Popcorn](https://popcorn-population.github.io/) -> High-resolution Population Maps Derived from Sentinel-1 and Sentinel-2, with follow up work [Bourbon](https://github.com/nandometzger/bourbon)
 
 - [UrbanControlNet](https://github.com/kailaisun/UrbanControlNet/) -> Envisioning Global Urban Development with Satellite Imagery and Generative AI.
+
+- [Emb2Heights](https://github.com/VMarsocci/emb2heights-baselines) -> baseline for the Emb2Heights challenge - trains and runs inference for a model that predicts sub-pixel land cover percentages (Building, Vegetation, Water) and continuous structure heights (nDSM) directly from Earth Observation embeddings
 
 #
 ## Cloud detection & removal
