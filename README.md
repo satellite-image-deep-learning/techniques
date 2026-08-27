@@ -766,6 +766,7 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [UrbanGraphSAGE](https://github.com/OMUZ9924/UrbanGraphSAGE) -> Graph Neural Network (GraphSAGE) for urban building footprint extraction from Sentinel-2 satellite imagery
 
 - [terratorch-building-segmentation](https://github.com/OMUZ9924/terratorch-building-segmentation) -> Fine-tuning Geospatial Foundation Models (Prithvi, TerraMind) for building footprint segmentation from Sentinel-2 using TerraTorch — Algiers case study
+- [AI Segmentation by TerraLab](https://github.com/TerraLabAI/QGIS_AI-Segmentation) -> open-source QGIS plugin for point-and-click SAM segmentation of buildings, trees and any object into vector polygons, with a free CPU-only local mode
 
 ### Segmentation - Solar panels
 
