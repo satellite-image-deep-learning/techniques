@@ -3483,6 +3483,8 @@ Image registration is the process of registering one or more images onto another
 
 - [A deep learning approach to satellite image time series coregistration through alignment of road networks](https://github.com/afperezm/multi-temporal-coregistration)
 
+- [LoRetta](https://github.com/yusiwei77-star/LoRetta) -> code for paper: LoRetta: A Foundation Model and Extensive Dataset for Global-Scale Remote Sensing Dense Image Matching. A localization-and-registration foundation model that estimates affine overlap before refining dense correspondences.
+
 #
 ## Terrain mapping, Disparity Estimation, Lidar, DEMs & NeRF
 
