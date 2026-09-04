@@ -2210,6 +2210,8 @@ Crop classification in remote sensing is the identification and mapping of diffe
 
 - [Self-Attention for Raw Optical Satellite Time Series Classification](https://github.com/MarcCoru/crop-type-mapping) and [Explaining Attention with Domain Knowledge](https://github.com/IvicaObadic/crop-type-classification-explainability)
 
+- [T3S](https://github.com/moturkoglu/T3S) -> code for paper: T³S: Think in Thermal Time for Generalizable Crop Mapping from Satellite Image Time Series. A model-agnostic, phenology-aware method that uses cumulative growing degree days to improve crop mapping across years and regions.
+
 #
 ## Crop yield & vegetation forecasting
 
