@@ -3683,6 +3683,8 @@ Normalized Difference Vegetation Index (NDVI) is an index used to measure the am
 
 - [Remote-Sensing-Indices-Derivation-Tool](https://github.com/rander38/Remote-Sensing-Indices-Derivation-Tool) -> Calculate spectral remote sensing indices from satellite imagery
 
+- [Crop Stage Detection](https://github.com/nasaharvest/crop-stage-detection) -> A crop-agnostic model for estimating growth stage from an NDVI time series, with optional Sentinel-2 and Landsat data retrieval through Google Earth Engine
+
 #
 ## General image quality
 
