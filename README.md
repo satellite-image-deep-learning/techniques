@@ -1094,6 +1094,8 @@ Object detection in remote sensing involves locating and surrounding objects of 
 
 - [HiFT](https://github.com/vision4robotics/HiFT) -> Hierarchical Feature Transformer for Aerial Tracking
 
+- [geo-trax](https://github.com/rfonod/geo-trax) -> extracts georeferenced vehicle trajectories from high-altitude bird's-eye-view drone video
+
 ### Object detection with rotated bounding boxes
 
 Orinted bounding boxes (OBB) are polygons representing rotated rectangles. For datasets checkout DOTA & HRSC2016. Start with Yolov8
@@ -1370,6 +1372,8 @@ Detecting the most noticeable or important object in a scene
 - [Vehicle-Counting-in-Very-Low-Resolution-Aerial-Images](https://github.com/hbsszq/Vehicle-Counting-in-Very-Low-Resolution-Aerial-Images) -> Vehicle Counting in Very Low-Resolution Aerial Images via Cross-Resolution Spatial Consistency and Intraresolution Time Continuity
 
 - [detecting-trucks](https://github.com/datasciencecampus/detecting-trucks) -> detecting large vehicles in Sentinel-2
+
+- [geo-trax](https://github.com/rfonod/geo-trax) -> detects and tracks cars, buses, trucks & motorcycles in high-altitude drone video, output as georeferenced trajectories
 
 ### Object detection - Planes & aircraft
 - [FlightScope_Bench](https://github.com/toelt-llc/FlightScope_Bench) -> A Deep Comprehensive Assessment of Aircraft Detection Algorithms in Satellite Imagery, including Faster RCNN, DETR, SSD, RTMdet, RetinaNet, CenterNet, YOLOv5, and YOLOv8
