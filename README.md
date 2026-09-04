@@ -3566,8 +3566,6 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 
 - [PySAR - InSAR (Interferometric Synthetic Aperture Radar) timeseries analysis in python](https://github.com/hfattahi/PySAR)
 
-- [Synthetic Aperture Radar (SAR) Analysis With Clarifai](https://www.clarifai.com/blog/synthetic-aperture-radar-sar-analysis-with-clarifai)
-
 - [Implementing an Ensemble Convolutional Neural Network on Sentinel-1 Synthetic Aperture Radar data and Sentinel-3 Radiometric data for the detecting of forest fires](https://github.com/aalling93/ECNN-on-SAR-data-and-Radiometry-data)
 
 - [s1_parking_occupancy](https://github.com/sdrdis/s1_parking_occupancy) -> PARKING OCCUPANCY ESTIMATION ON SENTINEL-1 IMAGES
