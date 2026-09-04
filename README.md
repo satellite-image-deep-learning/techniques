@@ -3026,6 +3026,8 @@ Anomaly detection refers to the process of identifying unusual patterns or outli
 
 - [SITS-ExtremeEvents](https://github.com/hfangcat/SITS-ExtremeEvents) -> Leveraging Satellite Image Time Series for Accurate Extreme Event Detection
 
+- [EBA Detector](https://github.com/WorldCereal/EBA_detector) -> code for paper: Embeddings-based Anomaly Detection for Cleaning Global Crop-Type Reference Datasets. Uses geospatial embeddings to identify anomalous or potentially mislabelled samples in crop-type and land-cover reference datasets.
+
 #
 ## Image retrieval
 
