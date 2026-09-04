@@ -767,6 +767,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [terratorch-building-segmentation](https://github.com/OMUZ9924/terratorch-building-segmentation) -> Fine-tuning Geospatial Foundation Models (Prithvi, TerraMind) for building footprint segmentation from Sentinel-2 using TerraTorch — Algiers case study
 
+- [MRPolyBuild](https://github.com/zhu-xlab/MRPolyBuild) -> code for paper: Rethinking Resolution: Large-Scale Polygonal Building Detection Using Medium-Resolution (3-5m) Satellite Data
+
 ### Segmentation - Solar panels
 
 - [Deep-Learning-for-Solar-Panel-Recognition](https://github.com/saizk/Deep-Learning-for-Solar-Panel-Recognition) -> using both object detection with Yolov5 and Unet segmentation
