@@ -3378,6 +3378,8 @@ Supervised deep learning techniques typically require a huge number of annotated
 
 - [AL4FM](https://github.com/mburges-cvl/ICCV_AL4FM) -> Active Learning Meets Foundation Models: a real-time, SAM-assisted annotation framework for object detection in remote sensing imagery
 
+- [ALFICC](https://github.com/mrp2106/ALFICC) -> Code and datasets for the Master's dissertation: Active Learning for Improved Landcover Classification. Uses active learning and Sentinel-2 data to map cashew orchards in Guinea-Bissau and Guinea.
+
 #
 ## Federated learning
 
