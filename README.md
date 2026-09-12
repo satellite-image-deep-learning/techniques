@@ -2889,6 +2889,8 @@ Generative networks (e.g. GANs and diffusion models) aim to generate new, synthe
 
 - [SAT-JEPA-DIFF](https://github.com/VU-AIML/SAT-JEPA-DIFF/) -> Bridging Self-Supervised Learning and Generative Diffusion for Satellite Image Forecasting.
 
+- [TerraDiT](https://github.com/mvrl/TerraDiT) -> code for papers: TerraDiT: Point-Conditioned Diffusion Transformer for Satellite Image Synthesis; TerraDiT-Ω: Unified Spatial Control for Satellite Image Synthesis with Any Geospatial Primitive
+
 #
 ## Autoencoders, dimensionality reduction, image embeddings & similarity search
 
