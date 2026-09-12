@@ -491,6 +491,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [plume-hunter: Towards Methane Detection On Board Satellites ](https://github.com/spaceml-org/plume-hunter)
 
+- [MethaneFuse](https://github.com/yuyao-wang/MethaneFuse) -> code for paper: MethaneFuse: Learning from Multi-Sensor Satellite Observations for Methane Plume Detection
+
 
 ### Segmentation - Other environmental
 
