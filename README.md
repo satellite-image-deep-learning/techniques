@@ -344,6 +344,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Pseudo-fields](https://github.com/philipperufin/pseudo-fields/) -> Generating pseudo labels for satellite-based crop field delineatio.
 
+- [JEDI](https://github.com/Kishor-Bhaumik/JEDI) -> code for paper: JEDI: JEPA-to-Edge Distillation for Efficient Cropland Segmentation from Satellite Imagery
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [sat-water](https://github.com/busayojee/sat-water) -> Semantic segmentation of water bodies in satellite imagery, producing pixel-wise water masks from remote sensing images using a U-Net–style deep learning pipeline (data preparation, training, inference, and evaluation).
@@ -2083,6 +2085,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 - [Noise2Map](https://github.com/alishibli97/noise2map) ->  End-to-End Diffusion Model for Semantic Segmentation and Change Detection
 
 - [MBCTD](https://github.com/abdelpy/MBCTD) -> Multi-Label Building Change Type Detection
+
+- [FAIR-EO-CD-benchmark](https://github.com/biasvariancelabs/FAIR-EO-CD-benchmark) -> code for paper: A comprehensive and trustworthy benchmark of AI methods for change detection in Earth observation
 
 #
 ## Time series
