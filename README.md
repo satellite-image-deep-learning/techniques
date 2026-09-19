@@ -144,6 +144,8 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [sentinel-landslide-cls](https://github.com/IoannisNasios/sentinel-landslide-cls) -> Classification for Landslide Detection, using Sentinel-1 and Sentinel-2 data.
 
+- [Infra-Bench CLS](https://github.com/justing0909/infra-bench-cls) -> code for paper: Infra-Bench CLS: A Global, Open-Source Benchmark for Critical Infrastructure Classification with Earth Observation Foundation Models
+
 #
 ## Segmentation
 
