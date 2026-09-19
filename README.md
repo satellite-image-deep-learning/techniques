@@ -2295,6 +2295,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
 - [PhenoYieldNet](https://github.com/roroyo/PhenoYieldNet)
 
+- [CropFusionNet](https://github.com/geonextgis/CropFusionNet) -> an interpretable deep learning framework for probabilistic crop yield forecasting in Germany that fuses satellite, climate, soil, and topographic data
+
 #
 ## Wealth and economic activity
 
