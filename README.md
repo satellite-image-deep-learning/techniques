@@ -1363,8 +1363,6 @@ Detecting the most noticeable or important object in a scene
 
 - [Global Fishing Capacity - Vessel Detection Model](https://github.com/allenai/global_fishing_capacity_detector) -> from Allen.ai and using Maxar imagery
 
-- [darkvessel-stack](https://github.com/arunshar/darkvessel-stack) -> A multi-modal stack for dark vessel detection fusing Sentinel-1 SAR, Sentinel-2 optical, and AIS through a geospatial foundation model backbone (Prithvi-2 / Clay / SatMAE++). Covers detection, segmentation, classification, change detection, super-resolution, time-series forecasting, and anomaly reasoning. Benchmarked on xView3-SAR with Microsoft Planetary Computer ingest.
-
 ### Object detection - Cars, vehicles & trains
 
 - [Detection of parkinglots and driveways with retinanet](https://github.com/spiyer99/retinanet)
