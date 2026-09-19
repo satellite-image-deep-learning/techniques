@@ -863,6 +863,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [SAMSelect](https://github.com/geoJoost/SAMSelect) -> An Automated Spectral Index Search for Marine Debris using Segment-Anything (SAM)
 
+- [MambaMPD](https://github.com/Multimodal-Intelligence-Lab-MIL/MambaMPD) -> code for paper: MambaMPD: A Mamba-Driven Segmentation Framework for Marine Pollution Detection from Remote Sensing Imagery
+
 ### Panoptic segmentation
 
 - [Things and stuff or how remote sensing could benefit from panoptic segmentation](https://softwaremill.com/things-and-stuff-or-how-remote-sensing-could-benefit-from-panoptic-segmentation/)
