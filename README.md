@@ -2731,6 +2731,8 @@ Image-to-image translation is a crucial aspect of computer vision that utilizes 
 
 - [map-sat](https://github.com/miquel-espinosa/map-sat) -> Generate Your Own Scotland: Satellite Image Generation Conditioned on Maps
 
+- [SAR Image Colorization — Attention GAN](https://github.com/fahad-mughal-rehman/sar-colorization-gan) -> translates grayscale SAR imagery into optical-style RGB using an Attention U-Net generator and multi-scale PatchGAN discriminator
+
 #
 ## Data fusion
 
