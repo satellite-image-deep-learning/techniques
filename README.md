@@ -146,6 +146,8 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [Infra-Bench CLS](https://github.com/justing0909/infra-bench-cls) -> code for paper: Infra-Bench CLS: A Global, Open-Source Benchmark for Critical Infrastructure Classification with Earth Observation Foundation Models
 
+- [Detecting old-growth forests](https://github.com/ratsakatika/detecting-old-growth-forests) -> code for paper: Geospatial embeddings detect old-growth forests but buffered spatial validation narrows their advantage over Sentinel features
+
 #
 ## Segmentation
 
