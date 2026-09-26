@@ -2094,6 +2094,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [FAIR-EO-CD-benchmark](https://github.com/biasvariancelabs/FAIR-EO-CD-benchmark) -> code for paper: A comprehensive and trustworthy benchmark of AI methods for change detection in Earth observation
 
+- [CF-MAE](https://github.com/AnandaKrishnan11/CF-MAE) -> code for paper: CF-MAE: A Change-Fused Masked Autoencoder for Earth Observation-Based Multi-Hazard Change Detection
+
 #
 ## Time series
 
