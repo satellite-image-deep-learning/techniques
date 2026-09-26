@@ -350,6 +350,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [NAIP Farmland ResSAM](https://github.com/MohammadrezaNarimaniUCDavis/NAIP_Farmland_ResSAM) -> code for paper: Farmland Extent and Visible Boundary Mapping from 1 m NAIP Imagery Using Residual U-Net and Text-Prompted SAM 3 Refinement
 
+- [Fields of the Planet](https://github.com/taylor-geospatial/fields-of-the-planet) -> code and dataset for paper: Fields of the Planet: Field Boundary Mapping Beyond 10m
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [sat-water](https://github.com/busayojee/sat-water) -> Semantic segmentation of water bodies in satellite imagery, producing pixel-wise water masks from remote sensing images using a U-Net–style deep learning pipeline (data preparation, training, inference, and evaluation).
