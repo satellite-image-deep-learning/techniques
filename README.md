@@ -3030,6 +3030,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [alphaearth-cropland-maine](https://github.com/Black-Lights/alphaearth-cropland-maine) -> code for MSc thesis: Binary Cropland Classification from AlphaEarth Embeddings: A Geospatial Foundation Model Approach for Maine, USA
 
+- [MIND](https://github.com/taylor-geospatial/mind) -> code for paper: MIND the Gap: A Geographic Implicit Neural Representation with Adjustable Spatial Scale
+
 #
 ## Anomaly detection
 Anomaly detection refers to the process of identifying unusual patterns or outliers in satellite or aerial images that do not conform to expected norms. This is crucial in applications such as environmental monitoring, defense surveillance, and urban planning. Machine learning algorithms, particularly unsupervised learning methods, are used to analyze vast amounts of remote sensing data efficiently. These algorithms learn the typical patterns and variations in the data, allowing them to flag anomalies such as unexpected land cover changes, illegal deforestation, or unusual maritime activities. The detection of these anomalies can provide valuable insights for timely decision-making and intervention in various fields.
