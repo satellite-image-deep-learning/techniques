@@ -2301,7 +2301,7 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
 - [HarvestSight](https://github.com/Alex0420W/HarvestSight) -> Geospatial-AI corn yield forecasting for the U.S. Corn Belt. Fine-tuning NASA/IBM Prithvi-EO-2.0-600M with LoRA, fused with weather/soil/drought features and calibrated uncertainty cones.
 
-- [PhenoYieldNet](https://github.com/roroyo/PhenoYieldNet)
+- [PhenoYieldNet](https://github.com/roroyo/PhenoYieldNet) -> Learning Crop-Aware Phenological Responses for Multi-Crop Yield Prediction.
 
 - [CropFusionNet](https://github.com/geonextgis/CropFusionNet) -> an interpretable deep learning framework for probabilistic crop yield forecasting in Germany that fuses satellite, climate, soil, and topographic data
 
