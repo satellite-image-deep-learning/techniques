@@ -1645,6 +1645,8 @@ Regression in remote sensing involves predicting continuous variables such as wi
 
 - [Emb2Heights](https://github.com/VMarsocci/emb2heights-baselines) -> baseline for the Emb2Heights challenge - trains and runs inference for a model that predicts sub-pixel land cover percentages (Building, Vegetation, Water) and continuous structure heights (nDSM) directly from Earth Observation embeddings
 
+- [pixel-level-transformers](https://github.com/SvenLigensa/pixel-level-transformers) -> code for paper: Pixel-Level Transformers in Remote Sensing: A Canopy Height Case Study
+
 #
 ## Cloud detection & removal
 
