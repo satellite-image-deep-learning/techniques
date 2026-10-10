@@ -148,6 +148,8 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [Detecting old-growth forests](https://github.com/ratsakatika/detecting-old-growth-forests) -> code for paper: Geospatial embeddings detect old-growth forests but buffered spatial validation narrows their advantage over Sentinel features
 
+- [Hyperspectral-Image-Models](https://github.com/Tanishq251/Hyperspectral-Image-Models) -> code for paper: A PyTorch Library for Hyperspectral Image Models: Technical Report
+
 #
 ## Segmentation
 
@@ -3166,6 +3168,8 @@ Mixed data learning is the process of learning from datasets that may contain an
 - [methane-emission-project](https://github.com/stlbnmaria/methane-emission-project) -> Classification CNNs was combined in an ensemble approach with traditional methods on tabular data
 
 - [AutoMergeNet](https://github.com/ADA-research/AutoMergeNet) -> a neural architecture search approach for automatic methane plume detection in TROPOMI images
+
+- [TabPFN-GSA](https://github.com/ruid7181/TabPFN-GSA) -> code for paper: Do foundation models work for geospatial tabular data? An investigation of TabPFN and a proposed enhancement based on geospatial sparse attention
 
 #
 ## Few & zero shot learning
