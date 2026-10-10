@@ -2560,6 +2560,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
 - [SFG-SwinSR](https://github.com/aminurhossain/SFG-SwinSR) -> Spatial-Frequency Gated Swin Transformer for Remote Sensing Single-Image Super-Resolution
 
+- [SYNAPSE-SR](https://github.com/SharadhNaidu/synapse-sr) -> physics-consistent single-image super-resolution of Sentinel-2 imagery from 10 m to 2 m, with per-pixel trust maps and calibrated uncertainty
+
 ### Super-resolution - Miscellaneous
 
 - [The value of super resolution — real world use case](https://medium.com/sentinel-hub/the-value-of-super-resolution-real-world-use-case-2ba811f4cd7f) -> Medium article on parcel boundary detection with super-resolved satellite imagery
