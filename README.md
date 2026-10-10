@@ -780,6 +780,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 
 - [MRPolyBuild](https://github.com/zhu-xlab/MRPolyBuild) -> code for paper: Rethinking Resolution: Large-Scale Polygonal Building Detection Using Medium-Resolution (3-5m) Satellite Data
 
+- [UniBuild](https://github.com/zhu-xlab/UniBuild) -> code for paper: UniBuild: Unified Building Mapping From Multi-Source Optical Remote Sensing Imagery With Detail Decoding and Geometry Regularization
+
 ### Segmentation - Solar panels
 
 - [Deep-Learning-for-Solar-Panel-Recognition](https://github.com/saizk/Deep-Learning-for-Solar-Panel-Recognition) -> using both object detection with Yolov5 and Unet segmentation
