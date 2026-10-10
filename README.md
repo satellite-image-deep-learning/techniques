@@ -1090,6 +1090,8 @@ In instance segmentation, each individual 'instance' of a segmented area is give
 
 - [BRIGHT cvprw26](https://github.com/ChenHongruixuan/BRIGHT/tree/master/cvprw26) -> Mask R-CNN baseline for multimodal building damage instance segmentation on BRIGHT
 
+- [PolyTopoBench](https://github.com/seai-lab/PolyTopoBench) -> code and dataset for paper: PolyTopoBench: A Benchmark for Complex Vector Polygon Generation from Remote Sensing Imagery
+
 #
 ## Object detection
 
