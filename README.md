@@ -3936,5 +3936,7 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 
 - [TerraMind vs. THOR](https://github.com/KenzoBou/Terramind-vs-Thor-ESA-PhiLab) -> code for paper: TerraMind vs. THOR: A Comparative Analysis of ESA’s Geospatial Foundation Models
 
+- [FairRSFM](https://github.com/aminurhossain/FairRSFM) -> code for paper: FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models
+
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
