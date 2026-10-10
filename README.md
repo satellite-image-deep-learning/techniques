@@ -2308,6 +2308,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 
 - [CropBench](https://github.com/vishalned/CropBench/tree/main) -> A set of heterogeneous agriculture tasks to evaluate models.
 
+- [GEOMaize](https://github.com/EOAfrica/GEOMaize) -> few-shot maize yield prediction and Low/High yield mapping in Ghana using Earth observation data and the Presto foundation model
+
 #
 ## Wealth and economic activity
 
