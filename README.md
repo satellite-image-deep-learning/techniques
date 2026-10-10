@@ -356,6 +356,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Fields of the Planet](https://github.com/taylor-geospatial/fields-of-the-planet) -> code and dataset for paper: Fields of the Planet: Field Boundary Mapping Beyond 10m
 
+- [Cropland PAtteRNS](https://github.com/JoeMetc/CroplandPAtteRNS) -> code for paper: Cropland PAtteRNS: Parallel Dimensional Attention Networks and Attention to Dataset Disparity for Crop Segmentation in Satellite Imagery Time Series Data
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [sat-water](https://github.com/busayojee/sat-water) -> Semantic segmentation of water bodies in satellite imagery, producing pixel-wise water masks from remote sensing images using a U-Net–style deep learning pipeline (data preparation, training, inference, and evaluation).
