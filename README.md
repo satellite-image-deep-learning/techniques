@@ -455,6 +455,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [wildfire-lora-gfm](https://github.com/alishibli97/wildfire-lora-gfm) -> adapting large Earth-Observation foundation models
 (Prithvi-v2, TerraMind, DINOv3) using LoRA, to detect wildfire burned areas from bi-temporal (pre-fire / post-fire) Sentinel-2 imagery.
 
+- [TMB-S3](https://github.com/links-ads/tmb-s3) -> code for paper: Temporal Modelling for Burn Scars on Sentinel-3
+
 ### Segmentation - Landslides
 
 - [landslide-sar-unet](https://github.com/iprapas/landslide-sar-unet) -> Deep Learning for Rapid Landslide Detection using Synthetic Aperture Radar (SAR) Datacubes
