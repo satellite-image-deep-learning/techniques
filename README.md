@@ -1487,6 +1487,8 @@ A variety of techniques can be used to count animals, including object detection
 
 - [sat-rhino](https://github.com/sat-rhino/sat-rhino) -> evaluating a YOLOv12 model, plus tools for generating synthetic data in Blender
 
+- [DroneMegaDetector](https://github.com/ConservationDronesAI/DroneMegaDetector) -> code for paper: DroneMegaDetector, A Generalised Model For Detecting Large Mammals In Aerial Imagery
+
 ### Object detection - Miscellaneous
 
 - [Object Detection and Image Segmentation with Deep Learning on Earth Observation Data: A Review](https://www.mdpi.com/2072-4292/12/10/1667)
@@ -2573,6 +2575,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 - [SFG-SwinSR](https://github.com/aminurhossain/SFG-SwinSR) -> Spatial-Frequency Gated Swin Transformer for Remote Sensing Single-Image Super-Resolution
 
 - [SYNAPSE-SR](https://github.com/SharadhNaidu/synapse-sr) -> physics-consistent single-image super-resolution of Sentinel-2 imagery from 10 m to 2 m, with per-pixel trust maps and calibrated uncertainty
+
+- [SR-Agriculture](https://github.com/arifmasrur/SR-Agriculture) -> super-resolution of Sentinel-2 imagery from 10 m to 1 m for precision agriculture, evaluated against UAS-harmonized ground truth mosaics
 
 ### Super-resolution - Miscellaneous
 
