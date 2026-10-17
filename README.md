@@ -33,6 +33,7 @@ Deep learning has revolutionized the analysis and interpretation of satellite an
 - [SAR](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#sar)
 - [Explainable Ai (XAI)](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#explainable-ai-xai)
 - [Large vision & language models (LLMs & LVMs)](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#large-vision--language-models-llms--lvms)
+- [AI agents](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#ai-agents)
 - [Foundational models](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#foundational-models)
 
 #
@@ -3167,8 +3168,6 @@ Visual Question Answering (VQA) is the task of automatically answering a natural
 
 - [lit4rsvqa](https://git.tu-berlin.de/rsim/lit4rsvqa) -> LiT-4-RSVQA: Lightweight Transformer-based Visual Question Answering in Remote Sensing
 
-- [Change-Agent](https://github.com/Chen-Yang-Liu/Change-Agent) -> Towards Interactive Comprehensive Remote Sensing Change Interpretation and Analysis
-
 #
 ## Mixed data learning
 Mixed data learning is the process of learning from datasets that may contain an mix of images, textual and numeric data. Mixed data learning can help improve the accuracy of models by allowing them to learn from multiple sources at once and use more sophisticated methods to identify patterns and correlations.
@@ -3849,8 +3848,6 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 
 - [Awesome-Remote-Sensing-Multimodal-Large-Language-Model](https://github.com/ZhanYang-nwpu/Awesome-Remote-Sensing-Multimodal-Large-Language-Model)
 
-- [Remote-Sensing-ChatGPT](https://github.com/HaonanGuo/Remote-Sensing-ChatGPT) -> an open source tool for solving remote sensing tasks with ChatGPT in an interactive way.
-
 - [ChangeCLIP](https://github.com/dyzy41/ChangeCLIP) -> ChangeCLIP: Remote sensing change detection with multimodal vision-language representation learning
 
 - [SkyEyeGPT](https://github.com/ZhanYang-nwpu/SkyEyeGPT) -> SkyEyeGPT: Unifying Remote Sensing Vision-Language Tasks via Instruction Tuning with Large Language Model
@@ -3858,8 +3855,6 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 - [RemoteCLIP](https://github.com/ChenDelong1999/RemoteCLIP) -> A Vision Language Foundation Model for Remote Sensing
 
 - [GeoChat](https://github.com/mbzuai-oryx/GeoChat) -> Grounded Large Vision-Language Model for Remote Sensing
-
-- [labs-gpt-stac](https://github.com/developmentseed/labs-gpt-stac) -> connect ChatGPT to a STAC API backend
 
 - [EarthGPT](https://github.com/wivizhang/EarthGPT) -> A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain
 
@@ -3878,6 +3873,17 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 - [ForestChat](https://github.com/JamesBrockUoB/ForestChat) -> Adapting Vision-Language Models for Interactive Forest Change Analysis.
 
 - [MTRefSeg](https://github.com/LiBingyu01/MTRefSeg) -> MTRefSeg-R1 is a bi-temporal vision-language segmentation framework where the model receives two temporal images (T1, T2) plus a natural-language instruction and predicts the changed region. Built on the SegEarth-R1 codebase, it extends instruction-following change referring segmentation to remote-sensing, aerial, and normal-scene views.
+
+#
+## AI agents
+
+- [RSI4EO](https://github.com/Yokoya-Lab-UTokyo/RSI4EO) -> project for paper: The Last Remote Sensing Model Built by Humans? Casting Any Earth Observation Task as Recursive Self-Improvement. Uses coding agents with task harnesses and sealed verifiers to build and recursively improve models across Earth observation tasks
+
+- [Change-Agent](https://github.com/Chen-Yang-Liu/Change-Agent) -> Towards Interactive Comprehensive Remote Sensing Change Interpretation and Analysis
+
+- [Remote-Sensing-ChatGPT](https://github.com/HaonanGuo/Remote-Sensing-ChatGPT) -> an open source tool for solving remote sensing tasks with ChatGPT in an interactive way.
+
+- [labs-gpt-stac](https://github.com/developmentseed/labs-gpt-stac) -> connect ChatGPT to a STAC API backend
 
 #
 ## Foundational models
