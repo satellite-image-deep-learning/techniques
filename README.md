@@ -2268,6 +2268,10 @@ Crop classification in remote sensing is the identification and mapping of diffe
 
 - [CatCrops](https://github.com/UEA-Irta/CatCrops) -> crop-type classification library combining Sentinel-2 time series with crop-history and irrigation-system metadata using a Transformer model. Paper: Early Crop Type Classification and Mapping Combining Remote Sensing and Ancillary Data
 
+- [STCLN](https://github.com/XiaoleiQinn/STCLN) -> spatiotemporal masked pretraining and collaborative learning for label-scarce, early-season, and cross-year crop mapping from satellite image time series. Paper: Spatiotemporal masked pre-training for advancing crop mapping on satellite image time series with limited labels
+
+- [FineCrop](https://github.com/LL0912/FineCrop) -> class-aware feature decoupling and parcel-aware class rebalancing for fine-grained crop classification from Sentinel-2 time series. Paper: FineCrop: Mapping fine-grained crops using class-aware feature decoupling and parcel-aware class rebalancing with Sentinel-2 time series
+
 #
 ## Crop yield & vegetation forecasting
 
@@ -2306,6 +2310,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 - [DFYP](https://github.com/onef1shy/DFYP) -> dynamic fusion framework combining spectral-channel attention and adaptive operator learning for crop-yield prediction from processed MODIS data and the Sentinel-2 Tiny-CropNet dataset. Paper: DFYP: A Dynamic Fusion Framework with Spectral Channel Attention and Adaptive Operator Learning for Crop Yield Prediction
 
 - [Terra](https://github.com/GedikEngin/terra-corn-yield-forecasting) -> in-season county-level US corn-yield forecasting system that fuses NASS, gridMET, gSSURGO, drought, MODIS NDVI, and HLS data with per-date XGBoost models and calibrated uncertainty estimates
+
+- [Mapping Sowing Dates in Smallholder Farming Systems](https://github.com/JainsLab/sowing-date-smallholders) -> reproducible Sentinel-2, MODIS, and HLS time-series workflow using smoothing and start-of-season detection to estimate grain-crop sowing dates in Bihar, India. Paper: Mapping grain crop sowing date in smallholder systems using optical imagery
 
 - [DeepYield](https://github.com/kgavahi/DeepYield) -> A combined convolutional neural network with long short-term memory for crop yield forecasting 
 
@@ -3999,6 +4005,8 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 - [TerraMind vs. THOR](https://github.com/KenzoBou/Terramind-vs-Thor-ESA-PhiLab) -> code for paper: TerraMind vs. THOR: A Comparative Analysis of ESA’s Geospatial Foundation Models
 
 - [FairRSFM](https://github.com/aminurhossain/FairRSFM) -> code for paper: FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models
+
+- [TimeSenCLIP](https://github.com/pallavijain-pj/TimeSenCLIP) -> lightweight vision-language model aligning single-pixel, 12-month, 10-band Sentinel-2 time series with ground-image embeddings for zero-shot land-cover, crop-type, and ecosystem classification. Paper: TimeSenCLIP: A time series vision-language model for remote sensing
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
