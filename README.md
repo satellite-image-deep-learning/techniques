@@ -223,6 +223,10 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
 Note that deforestation detection may be treated as a segmentation task or a change detection task
 
+- [Auditing GeoFM Evaluation](https://github.com/thesantoshpant/auditing-geofm-evaluation) -> reproducible audit of label proxies, supervised baselines, and frozen versus fine-tuned Prithvi and TerraMind decoders for single-date Sentinel-2 field-extent segmentation across six countries. Paper: Auditing GeoFM Evaluation for Field-Extent Segmentation: Label Proxies, Baselines, and When Frozen Features Match Fine-tuning
+
+- [field-boundary-zero-shot](https://github.com/PratyushTripathy/field-boundary-zero-shot) -> zero-shot Segment Anything inference, post-processing, and evaluation for delineating sub-0.1 ha smallholder fields from 0.8 m pansharpened SkySat imagery in Bihar. Paper: Zero-shot inference strategies for smallholder (<0.1 ha) agriculture field delineation with the Segment Anything foundation model
+
 - [DetecTree](https://github.com/martibosch/detectree) -> Tree detection from aerial imagery in Python, a LightGBM classifier of tree/non-tree pixels from aerial imagery
 
 - [kenya-crop-mask](https://github.com/nasaharvest/kenya-crop-mask) -> Annual and in-season crop mapping in Kenya - LSTM classifier to classify pixels as containing crop or not, and a multi-spectral forecaster that provides a 12 month time series given a partial input. Dataset downloaded from GEE and pytorch lightning used for training
@@ -898,6 +902,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [BSB-Aerial-Dataset](https://github.com/osmarluiz/BSB-Aerial-Dataset) -> an example on how to use Detectron2's Panoptic-FPN in the BSB Aerial Dataset
 
 ### Segmentation - Miscellaneous
+
+- [SegEarth-R2](https://github.com/earth-insights/SegEarth-R2) -> code and models for comprehensive language-guided segmentation of remote-sensing imagery. Paper: SegEarth-R2: Towards Comprehensive Language-guided Segmentation for Remote Sensing Images
 
 - [seg-eval](https://github.com/itracasa/seg-eval) -> SegEval is a Python library that provides tools for evaluating semantic segmentation models. Generate evaluation regions and to analyze segmentation results within them.
 
@@ -2258,6 +2264,10 @@ Crop classification in remote sensing is the identification and mapping of diffe
 
 - [CropNet](https://github.com/x-ytong/CropNet) -> cross-region crop-type classification experiments comparing harmonic and temporal-median features, geospatial foundation-model embeddings, and augmentation-based invariant learning. Paper: Invariant Features for Global Crop Type Classification
 
+- [Benchmarking GeoFMs for Agriculture Applications](https://github.com/Sanmay-Das/Benchmarking-GeoFMs-for-Agriculture-Applications) -> reproducible crop segmentation and change-detection evaluation of SatMAE, SpectralGPT, and Prithvi across agricultural regions in Iowa, Minnesota, North Carolina, and California. Paper: Benchmarking Geospatial Foundation Models for Agriculture Applications
+
+- [CatCrops](https://github.com/UEA-Irta/CatCrops) -> crop-type classification library combining Sentinel-2 time series with crop-history and irrigation-system metadata using a Transformer model. Paper: Early Crop Type Classification and Mapping Combining Remote Sensing and Ancillary Data
+
 #
 ## Crop yield & vegetation forecasting
 
@@ -2292,6 +2302,10 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 - [Predicting Crop Yield Lows Through Highs via Binned Deep Imbalanced Regression](https://github.com/plant-ai-biophysics-lab/imbalance_deep_regression_yield_forecasting)
 
 - [List of CNNs in Agriculture](https://github.com/MohammadElSakka/CNN_in_AGRI)
+
+- [DFYP](https://github.com/onef1shy/DFYP) -> dynamic fusion framework combining spectral-channel attention and adaptive operator learning for crop-yield prediction from processed MODIS data and the Sentinel-2 Tiny-CropNet dataset. Paper: DFYP: A Dynamic Fusion Framework with Spectral Channel Attention and Adaptive Operator Learning for Crop Yield Prediction
+
+- [Terra](https://github.com/GedikEngin/terra-corn-yield-forecasting) -> in-season county-level US corn-yield forecasting system that fuses NASS, gridMET, gSSURGO, drought, MODIS NDVI, and HLS data with per-date XGBoost models and calibrated uncertainty estimates
 
 - [DeepYield](https://github.com/kgavahi/DeepYield) -> A combined convolutional neural network with long short-term memory for crop yield forecasting 
 
@@ -2774,6 +2788,8 @@ Image-to-image translation is a crucial aspect of computer vision that utilizes 
 - [map-sat](https://github.com/miquel-espinosa/map-sat) -> Generate Your Own Scotland: Satellite Image Generation Conditioned on Maps
 
 - [SAR Image Colorization — Attention GAN](https://github.com/fahad-mughal-rehman/sar-colorization-gan) -> translates grayscale SAR imagery into optical-style RGB using an Attention U-Net generator and multi-scale PatchGAN discriminator
+
+- [Any2Any](https://github.com/MiliLab/Any2Any) -> unified latent-diffusion framework for arbitrary translation among heterogeneous remote-sensing modalities, trained with the paired five-modality RST-1M dataset. Paper: Any2Any: Unified Arbitrary Modality Translation for Remote Sensing
 
 #
 ## Data fusion
