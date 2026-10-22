@@ -2213,6 +2213,8 @@ The analysis of time series observations in remote sensing data has numerous app
 
 - [rice-irrigation-mapping-s1s2](https://github.com/microsoft/rice-irrigation-mapping-s1s2) -> Mapping rice irrigation using Sentinel-1 and Sentinel-2 data
 
+- [Terrascope openEO Algorithm Catalog](https://github.com/VITObelgium/openeo_algorithm_catalog) -> catalog of reusable openEO processes for Sentinel-1/2 MOGPR reconstruction, phenology and peak detection, Whittaker smoothing, biophysical variables, and spectral indices
+
 #
 ## Crop classification
 
@@ -2271,6 +2273,8 @@ Crop classification in remote sensing is the identification and mapping of diffe
 - [STCLN](https://github.com/XiaoleiQinn/STCLN) -> spatiotemporal masked pretraining and collaborative learning for label-scarce, early-season, and cross-year crop mapping from satellite image time series. Paper: Spatiotemporal masked pre-training for advancing crop mapping on satellite image time series with limited labels
 
 - [FineCrop](https://github.com/LL0912/FineCrop) -> class-aware feature decoupling and parcel-aware class rebalancing for fine-grained crop classification from Sentinel-2 time series. Paper: FineCrop: Mapping fine-grained crops using class-aware feature decoupling and parcel-aware class rebalancing with Sentinel-2 time series
+
+- [VITO agricultural monitoring tutorials](https://github.com/VITO-agri/vito-agri-tutorials) -> hands-on notebooks for parcel phenology and crop-type classification, Sentinel-2 retrieval, drought monitoring, and satellite time-series analysis
 
 #
 ## Crop yield & vegetation forecasting
@@ -2356,6 +2360,8 @@ Crop yield is a crucial metric in agriculture, as it determines the productivity
 - [CropBench](https://github.com/vishalned/CropBench/tree/main) -> A set of heterogeneous agriculture tasks to evaluate models.
 
 - [GEOMaize](https://github.com/EOAfrica/GEOMaize) -> few-shot maize yield prediction and Low/High yield mapping in Ghana using Earth observation data and the Presto foundation model
+
+- [ANIN drought indices](https://github.com/VitoTAP/ANIN-drought-indices) -> openEO implementations of soil-moisture anomaly, SPI, SPEI, VCI, FAPAR anomaly, and combined drought indicators for agricultural monitoring
 
 #
 ## Wealth and economic activity
@@ -3099,6 +3105,8 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 - [MIND](https://github.com/taylor-geospatial/mind) -> code for paper: MIND the Gap: A Geographic Implicit Neural Representation with Adjustable Spatial Scale
 
 - [surfaceWaterMappingGlobal](https://github.com/Rohit18/surfaceWaterMappingGlobal) -> code for paper: Extending Dynamic World Surface Water Mapping to Sentinel-1 with AlphaEarth Embeddings
+
+- [CORSA-Major TOM on Terrascope](https://github.com/VITO-RS-CORSA/Terrascope-MajorTom) -> notebooks for accessing and using compressed CORSA representations of Sentinel-2 Major TOM patches for reconstruction, visualization, and downstream land-cover classification
 
 #
 ## Anomaly detection
