@@ -359,6 +359,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [Cropland PAtteRNS](https://github.com/JoeMetc/CroplandPAtteRNS) -> code for paper: Cropland PAtteRNS: Parallel Dimensional Attention Networks and Attention to Dataset Disparity for Crop Segmentation in Satellite Imagery Time Series Data
 
+- [1mCHM forest conservation](https://github.com/mldv/1mCHM-forest-conservation) -> U-Net workflow for predicting pixel-level boreal-forest conservation value from metre-resolution canopy-height models. Paper: Meter-resolution canopy height data alone can be used for predicting the conservation value of Boreal forests
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [sat-water](https://github.com/busayojee/sat-water) -> Semantic segmentation of water bodies in satellite imagery, producing pixel-wise water masks from remote sensing images using a U-Net–style deep learning pipeline (data preparation, training, inference, and evaluation).
@@ -423,6 +425,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [utae-water-segmentation](https://github.com/khlaifiabilel/utae-water-segmentation) -> UTAE-PAPS model for water/land segmentation using Sentinel-1 and Sentinel-2 data with IBM Granite flood detection dataset
 
+- [Flood-Mapping](https://github.com/taylor-millin-reade/Flood-Mapping) -> self-contained Sentinel-1, Sentinel-2, and dual-encoder fusion pipelines for training and comparing flood-segmentation models on STURM-Fusion-24.
+
 ### Segmentation - Fire, smoke & burn areas
 
 - [SatelliteVu-AWS-Disaster-Response-Hackathon](https://github.com/SatelliteVu/SatelliteVu-AWS-Disaster-Response-Hackathon) -> fire spread prediction using classical ML & deep learning
@@ -457,6 +461,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 (Prithvi-v2, TerraMind, DINOv3) using LoRA, to detect wildfire burned areas from bi-temporal (pre-fire / post-fire) Sentinel-2 imagery.
 
 - [TMB-S3](https://github.com/links-ads/tmb-s3) -> code for paper: Temporal Modelling for Burn Scars on Sentinel-3
+
+- [FireScope](https://github.com/insait-institute/FireScope) -> wildfire-risk raster prediction using a chain-of-thought oracle, with training, evaluation, and ablation code. Paper: FireScope: Wildfire Risk Raster Prediction with a Chain-of-Thought Oracle
 
 ### Segmentation - Landslides
 
@@ -507,6 +513,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [Project-Eucalyptus](https://github.com/Orbio-Earth/Project-Eucalyptus) -> pipelines for satellite-based methane detection. Includes trained segmentation models, a synthetic plume generator, and benchmarking tools for Sentinel-2, Landsat 8/9, and EMIT.
 
 - [plume-hunter: Towards Methane Detection On Board Satellites ](https://github.com/spaceml-org/plume-hunter)
+
+- [SB-SHOT](https://github.com/ayushprd/gfm-methane-domain-shift) -> spatially aware test-time adaptation for geographic domain shift in satellite methane-plume segmentation, with seven comparison methods.
 
 ### Segmentation - Other environmental
 
@@ -1656,6 +1664,10 @@ Regression in remote sensing involves predicting continuous variables such as wi
 
 - [pixel-level-transformers](https://github.com/SvenLigensa/pixel-level-transformers) -> code for paper: Pixel-Level Transformers in Remote Sensing: A Canopy Height Case Study
 
+- [AGBD-GFMs](https://github.com/ghjuliasialelli/AGBD-GFMs) -> supervised and foundation-model baselines for estimating above-ground biomass from Earth-observation data. Paper: Above-ground Biomass Estimation with Geospatial Foundation Models
+
+- [Physics-Informed Geo-AI](https://github.com/Esmaeel-A/Physics-Informed-Geo-AI) -> a TabNet-based physics-informed neural network combining AlphaEarth embeddings with hydrological equations to estimate daily irrigation intensity.
+
 #
 ## Cloud detection & removal
 
@@ -2110,6 +2122,8 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [CF-MAE](https://github.com/AnandaKrishnan11/CF-MAE) -> code for paper: CF-MAE: A Change-Fused Masked Autoencoder for Earth Observation-Based Multi-Hazard Change Detection
 
+- [BRCD](https://github.com/jfloresf17/brcd) -> training and evaluation code for multitemporal Sentinel-1/2 change detection of buildings and roads.
+
 #
 ## Time series
 
@@ -2241,6 +2255,8 @@ Crop classification in remote sensing is the identification and mapping of diffe
 - [T3S](https://github.com/moturkoglu/T3S) -> Think in Thermal Time for Generalizable Crop Mapping from Satellite Image Time Series. A model-agnostic, phenology-aware method that uses cumulative growing degree days (cGDD) to improve crop mapping across years and regions.
 
 - [SwissCrop25](https://github.com/thomaslauber/SwissCrop25) -> code and dataset for paper: SwissCrop25: A National Multi-Year Benchmark for Operational Crop Mapping
+
+- [CropNet](https://github.com/x-ytong/CropNet) -> cross-region crop-type classification experiments comparing harmonic and temporal-median features, geospatial foundation-model embeddings, and augmentation-based invariant learning. Paper: Invariant Features for Global Crop Type Classification
 
 #
 ## Crop yield & vegetation forecasting
@@ -2434,6 +2450,8 @@ Remote sensing images are used in disaster response to identify and assess damag
 - [building-damage-assessment](https://github.com/microsoft/building-damage-assessment) -> A toolkit that enables building damage assessments from remotely sensed imagery
 
 - [building-damage-assessment-cnn-siamese](https://github.com/microsoft/building-damage-assessment-cnn-siamese) -> from the Microsoft Ai for Good lab
+
+- [Building-Guided Pseudo-Label Learning](https://github.com/Henryjiepanli/Building-Guided-Pseudo-Label-Learning-for-Cross-Modal-Building-Damage-Mapping) -> two-stage building extraction and optical–SAR change-detection pipeline for all-weather building-damage mapping. Paper: Building-Guided Pseudo-Label Learning for Cross-Modal Building Damage Mapping
 
 #
 ## Super-resolution
@@ -3349,6 +3367,8 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 - [K-Means GeoCentroids for DinoV2](https://github.com/aliaksandr960/dinov2_geocentroids_southamerica)
 
 - [UnigeoCLIP](https://github.com/gastruc/unigeoclip) -> a large-scale multimodal remote sensing dataset for semantically grounded foundation modeling. It contains approximately 2.5 million spatially aligned samples spanning optical imagery, SAR, elevation, canopy height, land-cover products, and geographic metadata, paired with semantically grounded captions generated through an agentic captioning framework.
+
+- [DINOSAR](https://github.com/kenanking/DINOSAR) -> DINO-style self-supervised SAR pretraining with content-aware multi-crop view construction on UniSAR-7M. Paper: DINOSAR: Large-Scale SAR Self-Supervised Pretraining with Content-Aware View Construction
 
 #
 ## Weakly & semi-supervised learning
