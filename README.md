@@ -3935,6 +3935,8 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 
 - [labs-gpt-stac](https://github.com/developmentseed/labs-gpt-stac) -> connect ChatGPT to a STAC API backend
 
+- [Awesome EO Agent Benchmarks](https://github.com/AlexEco1/awesome-eo-agent-benchmarks) -> a curated list of benchmarks that test LLM agents on Earth observation tasks, checked against their sources, with venue, task count, and code and data availability for each
+
 #
 ## Foundational models
 
