@@ -1982,8 +1982,6 @@ Change detection is a vital component of remote sensing analysis, enabling the m
 
 - [EGCTNet_pytorch](https://github.com/chen11221/EGCTNet_pytorch) -> Building Change Detection Based on an Edge-Guided Convolutional Neural Network Combined with a Transformer
 
-- [S2-cGAN](https://git.tu-berlin.de/rsim/S2-cGAN) -> S2-cGAN: Self-Supervised Adversarial Representation Learning for Binary Change Detection in Multispectral Images
-
 - [A-loss-function-for-change-detection](https://github.com/Chuan-shanjia/A-loss-function-for-change-detection) -> UAL: Unchanged Area Loss-Function for Change Detection Networks
 
 - [IEEE_TGRS_SSTFormer](https://github.com/yanhengwang-heu/IEEE_TGRS_SSTFormer) -> Spectral–Spatial–Temporal Transformers for Hyperspectral Image Change Detection
