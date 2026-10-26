@@ -371,6 +371,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [PGMpk-dl](https://github.com/friendszc/Plastic-Greenhouse-Mapping-Coupling-Prior-Knowledge-and-Deep-Learning-PGMpkdl) -> prior-knowledge pseudo-labelling and deep-learning pipeline for large-scale plastic-greenhouse extraction from Sentinel-1/2 imagery. Paper: A novel approach: Coupling prior knowledge and deep learning methods for large-scale plastic greenhouse extraction using Sentinel-1/2 data
 
+- [CSA Field Boundary Segmentation](https://github.com/thuanhavan/CSA_Field_Boundary_Segmentation) -> scalable field-boundary extraction workflow combining seasonal Sentinel-2 imagery, Segment Anything, GIS post-processing and accuracy assessment across the Canadian Prairies
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [sat-water](https://github.com/busayojee/sat-water) -> Semantic segmentation of water bodies in satellite imagery, producing pixel-wise water masks from remote sensing images using a U-Net–style deep learning pipeline (data preparation, training, inference, and evaluation).
@@ -440,6 +442,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [MSSFNet](https://github.com/Harsh-M1/MSSFNet) -> spatial-spectral and multiscale-attention network with the CHN-YE7-FRA dataset for extracting offshore floating-raft aquaculture from Sentinel-2 imagery
 
 - [Prithvi Coastal Habitat Mapping](https://github.com/ClarkCGA/prithvi-coastal-habitat-mapping) -> Prithvi fine-tuning and evaluation under limited-data and domain-shift scenarios for coastal-habitat segmentation. Paper: Assessing the Robustness of Prithvi Geospatial Foundation Model for Coastal Habitat Mapping under Data Availability and Domain Shift Scenarios
+
+- [Prairies Wetland Prediction](https://github.com/thuanhavan/Prairies-Wetland-Prediction) -> workflow for predicting wetland soils across Canadian Prairie croplands from Ducks Unlimited survey labels and Sentinel-1/2, terrain, soil and climate predictors
 
 ### Segmentation - Fire, smoke & burn areas
 
@@ -1406,6 +1410,8 @@ Detecting the most noticeable or important object in a scene
 - [Vessel Detection](https://github.com/anisayari/vessel-detection) -> Gradio application and reproducible local inference wrapper for a fine-tuned YOLOv8 Sentinel-2 vessel detector
 
 - [Kitagawa](https://github.com/RaghavGohil/kitagawa) -> multi-sensor Sentinel-1/2 vessel-detection pipeline with cloud and land filtering, AIS correlation, classification and trajectory interpolation and forecasting
+
+- [Trident](https://github.com/kbhujbal/Trident-synthetic_aperture_radar_maritime_vessel_detection_yolov8) -> SAR maritime vessel-detection pipeline combining Lee speckle filtering with YOLOv8 oriented bounding boxes, including SSDD preparation, training and inference
 
 ### Object detection - Cars, vehicles & trains
 
