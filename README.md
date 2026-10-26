@@ -2493,7 +2493,7 @@ Super-resolution is a technique aimed at improving the resolution of an imaging 
 - [Awesome Geospatial Super-Resolution](https://github.com/khlaifiabilel/awesome-geospatial-super-resolution) -> A curated list of algorithms, datasets, models, code, papers, and resources for super-resolution of geospatial and remote sensing data
 
 ### Multi image super-resolution (MISR)
-Note that nearly all the MISR publications resulted from the [PROBA-V Super Resolution competition](https://kelvins.esa.int/proba-v-super-resolution/)
+Note that nearly all the MISR publications resulted from the PROBA-V Super Resolution competition
 
 - [deepsum](https://github.com/diegovalsesia/deepsum) -> Deep neural network for Super-resolution of Unregistered Multitemporal images (ESA PROBA-V challenge)
 
