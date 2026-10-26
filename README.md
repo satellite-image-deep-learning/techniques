@@ -151,6 +151,10 @@ Classification is a fundamental task in remote sensing data analysis, where the 
 
 - [Hyperspectral-Image-Models](https://github.com/Tanishq251/Hyperspectral-Image-Models) -> code for paper: A PyTorch Library for Hyperspectral Image Models: Technical Report
 
+- [AIS–Sentinel-2 Vessel Type Classification](https://github.com/ahmetcagriustun/ais-sentinel2-shiptype-classification) -> end-to-end pipeline for matching AIS records to cloud-free four-band Sentinel-2 patches and training ResNet vessel-type classifiers
+
+- [Aquaculture Pond Detection under Temporal Domain Shift](https://github.com/jpsicilia/geoai-aquaculture-pond-detection) -> reproducible FAO/ITU challenge solution using domain-invariant temporal satellite features to classify 10 m aquaculture ponds
+
 #
 ## Segmentation
 
@@ -365,6 +369,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [1mCHM forest conservation](https://github.com/mldv/1mCHM-forest-conservation) -> U-Net workflow for predicting pixel-level boreal-forest conservation value from metre-resolution canopy-height models. Paper: Meter-resolution canopy height data alone can be used for predicting the conservation value of Boreal forests
 
+- [PGMpk-dl](https://github.com/friendszc/Plastic-Greenhouse-Mapping-Coupling-Prior-Knowledge-and-Deep-Learning-PGMpkdl) -> prior-knowledge pseudo-labelling and deep-learning pipeline for large-scale plastic-greenhouse extraction from Sentinel-1/2 imagery. Paper: A novel approach: Coupling prior knowledge and deep learning methods for large-scale plastic greenhouse extraction using Sentinel-1/2 data
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [sat-water](https://github.com/busayojee/sat-water) -> Semantic segmentation of water bodies in satellite imagery, producing pixel-wise water masks from remote sensing images using a U-Net–style deep learning pipeline (data preparation, training, inference, and evaluation).
@@ -430,6 +436,10 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [utae-water-segmentation](https://github.com/khlaifiabilel/utae-water-segmentation) -> UTAE-PAPS model for water/land segmentation using Sentinel-1 and Sentinel-2 data with IBM Granite flood detection dataset
 
 - [Flood-Mapping](https://github.com/taylor-millin-reade/Flood-Mapping) -> self-contained Sentinel-1, Sentinel-2, and dual-encoder fusion pipelines for training and comparing flood-segmentation models on STURM-Fusion-24.
+
+- [MSSFNet](https://github.com/Harsh-M1/MSSFNet) -> spatial-spectral and multiscale-attention network with the CHN-YE7-FRA dataset for extracting offshore floating-raft aquaculture from Sentinel-2 imagery
+
+- [Prithvi Coastal Habitat Mapping](https://github.com/ClarkCGA/prithvi-coastal-habitat-mapping) -> Prithvi fine-tuning and evaluation under limited-data and domain-shift scenarios for coastal-habitat segmentation. Paper: Assessing the Robustness of Prithvi Geospatial Foundation Model for Coastal Habitat Mapping under Data Availability and Domain Shift Scenarios
 
 ### Segmentation - Fire, smoke & burn areas
 
@@ -547,6 +557,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [SinkSAM](https://github.com/osherr1996/SinkSAM) -> Knowledge-Driven Self-Supervised Sinkhole Segmentation Using Topographic Priors and Segment Anything Model
 
 - [SENSE](https://github.com/kailaisun/GenAI4Urban-Energy/) -> Satellite-based ENergy Synthesis for Sustainable Environment
+
+- [Automatic Mine Segmentation](https://github.com/SimonJasansky/mine-segmentation) -> compares visual foundation models including Clay and SAMGeo with custom-trained models for semantic segmentation of mining areas in Sentinel-2 imagery
 
 ### Segmentation - Roads & sidewalks
 Extracting roads is challenging due to the occlusions caused by other objects and the complex traffic environment
@@ -1389,6 +1401,12 @@ Detecting the most noticeable or important object in a scene
 
 - [Global Fishing Capacity - Vessel Detection Model](https://github.com/allenai/global_fishing_capacity_detector) -> from Allen.ai and using Maxar imagery
 
+- [4Channel-YOLO-Maritime-Detection](https://github.com/eraygencc/4Channel-YOLO-Maritime-Detection) -> four-channel RGB-NIR YOLOv11 pipeline for Sentinel-2 ship detection with weak-label refinement and Monte Carlo dropout uncertainty estimation
+
+- [Vessel Detection](https://github.com/anisayari/vessel-detection) -> Gradio application and reproducible local inference wrapper for a fine-tuned YOLOv8 Sentinel-2 vessel detector
+
+- [Kitagawa](https://github.com/RaghavGohil/kitagawa) -> multi-sensor Sentinel-1/2 vessel-detection pipeline with cloud and land filtering, AIS correlation, classification and trajectory interpolation and forecasting
+
 ### Object detection - Cars, vehicles & trains
 
 - [Detection of parkinglots and driveways with retinanet](https://github.com/spiyer99/retinanet)
@@ -2212,6 +2230,8 @@ The analysis of time series observations in remote sensing data has numerous app
 - [rice-irrigation-mapping-s1s2](https://github.com/microsoft/rice-irrigation-mapping-s1s2) -> Mapping rice irrigation using Sentinel-1 and Sentinel-2 data
 
 - [Terrascope openEO Algorithm Catalog](https://github.com/VITObelgium/openeo_algorithm_catalog) -> catalog of reusable openEO processes for Sentinel-1/2 MOGPR reconstruction, phenology and peak detection, Whittaker smoothing, biophysical variables, and spectral indices
+
+- [RBC-SatImg](https://github.com/neu-spiral/RBC-SatImg) -> recursive Bayesian classification framework for satellite-image time series, demonstrated on land-cover and water mapping and deforestation detection
 
 #
 ## Crop classification
@@ -3398,6 +3418,8 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 
 - [DINOSAR](https://github.com/kenanking/DINOSAR) -> DINO-style self-supervised SAR pretraining with content-aware multi-crop view construction on UniSAR-7M. Paper: DINOSAR: Large-Scale SAR Self-Supervised Pretraining with Content-Aware View Construction
 
+- [ALISE](https://github.com/irisdum/alise) -> self-supervised encoder for irregular and unaligned ten-band Sentinel-2 image time series, distributed with ONNX inference support. Paper: Paving the way toward foundation model for irregular and unaligned satellite image time series
+
 #
 ## Weakly & semi-supervised learning
 
@@ -3662,6 +3684,8 @@ Measure surface contours & locate 3D points in space from 2D images. NeRF stands
 
 - [Mapping drainage ditches in forested landscapes using deep learning and aerial laser scanning](https://github.com/williamlidberg/Mapping-drainage-ditches-in-forested-landscapes-using-deep-learning-and-aerial-laser-scanning)
 
+- [segment-lidar](https://github.com/Yarroudh/segment-lidar) -> Python package that projects aerial LiDAR point clouds into images, applies Segment Anything Model 3, and transfers instance labels back to LAS or LAZ points
+
 #
 ## Thermal Infrared
 
@@ -3889,6 +3913,8 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 
 - [AlphaEarth-Interpretability-Experiments](https://github.com/FelipeBenavidesMz/AlphaEarth-Interpretability-Experiments) -> Binary classification experiments to interpret Google AlphaEarth Foundation embeddings across ESA WorldCover land cover classes. Part of the study "What on Earth is AlphaEarth?"
 
+- [txyXAI](https://github.com/DeepExtremes/txyXAI) -> tools for training, visualising and explaining temporal, spatial and spatiotemporal Earth-observation models. Paper: Explainable Earth Surface Forecasting under Extreme Events
+
   #
 ## Large vision & language models (LLMs & LVMs)
 
@@ -4015,6 +4041,10 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 - [FairRSFM](https://github.com/aminurhossain/FairRSFM) -> code for paper: FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models
 
 - [TimeSenCLIP](https://github.com/pallavijain-pj/TimeSenCLIP) -> lightweight vision-language model aligning single-pixel, 12-month, 10-band Sentinel-2 time series with ground-image embeddings for zero-shot land-cover, crop-type, and ecosystem classification. Paper: TimeSenCLIP: A time series vision-language model for remote sensing
+
+- [GeoFM Semantic Structure](https://github.com/JamesEBall/geofm-semantic-structure) -> reproduction code and reference results evaluating whether frozen Clay and Prithvi representations learn semantic relationships that transfer to unseen land-feature categories. Paper: Do Geospatial Foundation Models Learn Semantic Structure from Imagery Alone?
+
+- [GFM Shortcut Learning](https://github.com/alishibli97/gfm-shortcut-learning) -> evaluates TerraMind, Prithvi, DOFA and DINOv3 embeddings for shortcut learning in cross-disaster building-damage assessment. Paper: Shortcut Learning in Geospatial Foundation Model Embeddings for Cross-Disaster Damage Assessment
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
