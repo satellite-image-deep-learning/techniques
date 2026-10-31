@@ -373,6 +373,10 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [CSA Field Boundary Segmentation](https://github.com/thuanhavan/CSA_Field_Boundary_Segmentation) -> scalable field-boundary extraction workflow combining seasonal Sentinel-2 imagery, Segment Anything, GIS post-processing and accuracy assessment across the Canadian Prairies
 
+- [desert-boundary](https://github.com/FaranIdo/desert-boundary) -> extracts desert-vegetation boundaries by projecting AlphaEarth embeddings onto an NDVI-supervised vegetation axis. Code for paper: Desert-Vegetation Boundary Detection via Projection of Self-Supervised Satellite Embeddings
+
+- [RFLUC-aef](https://github.com/TmtStss/rfluc-aef) -> country-level forest land-use mapping with Random Forest models, AlphaEarth embeddings and expert reference annotations. Code for paper: Leveraging satellite embeddings and national expert annotations for country-level forest land use mapping
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [sat-water](https://github.com/busayojee/sat-water) -> Semantic segmentation of water bodies in satellite imagery, producing pixel-wise water masks from remote sensing images using a U-Net–style deep learning pipeline (data preparation, training, inference, and evaluation).
@@ -1698,6 +1702,8 @@ Regression in remote sensing involves predicting continuous variables such as wi
 
 - [Physics-Informed Geo-AI](https://github.com/Esmaeel-A/Physics-Informed-Geo-AI) -> a TabNet-based physics-informed neural network combining AlphaEarth embeddings with hydrological equations to estimate daily irrigation intensity.
 
+- [calibrated-spatial-uq](https://github.com/dpjohnsoIU/calibrated-spatial-uq) -> estimates calibrated per-pixel prediction intervals for NDVI and land surface temperature from frozen OlmoEarth embeddings. Code for paper: Calibrated spatial uncertainty for Earth observation foundation models via Matérn-motivated latent stochastic regularization
+
 #
 ## Cloud detection & removal
 
@@ -2647,6 +2653,8 @@ Note that nearly all the MISR publications resulted from the PROBA-V Super Resol
 
 - [SR-Agriculture](https://github.com/arifmasrur/SR-Agriculture) -> super-resolution of Sentinel-2 imagery from 10 m to 1 m for precision agriculture, evaluated against UAS-harmonized ground truth mosaics
 
+- [CrossVAR](https://github.com/SHANOAL/RSSR) -> reconstructs 1 m RGB imagery from a single 10 m Sentinel-2 composite using visual autoregressive modelling. Code for paper: From Sentinel-2 to 1-m Imagery: Real-World ×10 Cross-Sensor Super-Resolution via Visual Autoregressive Modeling
+
 ### Super-resolution - Miscellaneous
 
 - [The value of super resolution — real world use case](https://medium.com/sentinel-hub/the-value-of-super-resolution-real-world-use-case-2ba811f4cd7f) -> Medium article on parcel boundary detection with super-resolved satellite imagery
@@ -3305,6 +3313,8 @@ Generalized Few-shot Semantic Segmentation
 
 - [MCFA-Pytorch](https://github.com/masuqiang/MCFA-Pytorch) -> Multi-level Cross-modal Feature Alignment via Contrastive Learning towards Zero-shot Classification of Remote Sensing Image Scenes [paper](https://arxiv.org/abs/2306.06066)
 
+- [LoRA-DiffusionDet](https://github.com/HichTala/LoRA-DiffusionDet) -> applies Low-Rank Adaptation to DiffusionDet for cross-domain few-shot aerial object detection. Code for paper: Analyzing the Impact of Low-Rank Adaptation for Cross-Domain Few-Shot Object Detection in Aerial Images
+
 #
 ## Self-supervised, unsupervised & contrastive learning
 Self-supervised, unsupervised & contrastive learning are all methods of machine learning that use unlabeled data to train algorithms. Self-supervised learning uses labeled data to create an artificial supervisor, while unsupervised learning uses only the data itself to identify patterns and similarities. Contrastive learning uses pairs of data points to learn representations of data, usually for classification tasks. Note that self-supervised approaches are commonly used in the training of so-called Foundational models, since they enable learning from large quantities of unlablleded data, tyipcally time series.
@@ -3920,6 +3930,10 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 - [AlphaEarth-Interpretability-Experiments](https://github.com/FelipeBenavidesMz/AlphaEarth-Interpretability-Experiments) -> Binary classification experiments to interpret Google AlphaEarth Foundation embeddings across ESA WorldCover land cover classes. Part of the study "What on Earth is AlphaEarth?"
 
 - [txyXAI](https://github.com/DeepExtremes/txyXAI) -> tools for training, visualising and explaining temporal, spatial and spatiotemporal Earth-observation models. Paper: Explainable Earth Surface Forecasting under Extreme Events
+
+- [PiCo](https://github.com/yihshe/PiCo) -> probes geo-foundation models using physical concept vectors learned from simulated multispectral forest observations. Code for paper: PiCo: Physics-Informed Concept Probing for Geo-Foundation Models
+
+- [SSI](https://github.com/AtheavenMa/Spectral-Spatial-Interpretation) -> explains model predictions with spatially localized spectral-channel attributions using Shapley values. Code for paper: Spectral-Spatial Interpretation
 
   #
 ## Large vision & language models (LLMs & LVMs)
