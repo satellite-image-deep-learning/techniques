@@ -377,6 +377,10 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 
 - [RFLUC-aef](https://github.com/TmtStss/rfluc-aef) -> country-level forest land-use mapping with Random Forest models, AlphaEarth embeddings and expert reference annotations. Code for paper: Leveraging satellite embeddings and national expert annotations for country-level forest land use mapping
 
+- [UT Austin GIScience Colloquium](https://github.com/isaaccorley/ut-austin-giscience-2026) -> Isaac Corley's October 2026 research talk on Fields of the World, global field-boundary mapping, spatial generalization and MIND, with slides and live demos.
+
+- [zero-shot-parcel-seg](https://github.com/joaocalist0/zero-shot-parcel-seg) -> combines vegetation enhancement and Segment Anything for zero-shot agricultural parcel instance delineation across Sentinel-2, PlanetScope and super-resolved imagery. Code for paper: Zero-Shot Parcel Instance Delineation in Fragmented Agricultural Landscapes: Cross-Source Evaluation and Structure-Aware Validation
+
 ### Segmentation - Water, coastlines, rivers & floods
 
 - [sat-water](https://github.com/busayojee/sat-water) -> Semantic segmentation of water bodies in satellite imagery, producing pixel-wise water masks from remote sensing images using a U-Net–style deep learning pipeline (data preparation, training, inference, and evaluation).
@@ -448,6 +452,8 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [Prithvi Coastal Habitat Mapping](https://github.com/ClarkCGA/prithvi-coastal-habitat-mapping) -> Prithvi fine-tuning and evaluation under limited-data and domain-shift scenarios for coastal-habitat segmentation. Paper: Assessing the Robustness of Prithvi Geospatial Foundation Model for Coastal Habitat Mapping under Data Availability and Domain Shift Scenarios
 
 - [Prairies Wetland Prediction](https://github.com/thuanhavan/Prairies-Wetland-Prediction) -> workflow for predicting wetland soils across Canadian Prairie croplands from Ducks Unlimited survey labels and Sentinel-1/2, terrain, soil and climate predictors
+
+- [SAMWater](https://github.com/zkang-CN/SAMWater) -> surface-water mapping using SAM3 text prompts, prompt-based boundary refinement and Water-IoU LoRA adaptation without ground-truth masks. Code for paper: SAMWater: a prompt-guided multimodal framework for transferable water mapping with the segment anything model
 
 ### Segmentation - Fire, smoke & burn areas
 
@@ -870,6 +876,8 @@ Extracting roads is challenging due to the occlusions caused by other objects an
 - [A Comparative Evaluation of Deep Learning Techniques for Photovoltaic Panel Detection from Aerial Images](https://github.com/links-ads/access-solar-panels)
 
 - [UCSD_MLBootcamp_Capstone](https://github.com/FederCO23/UCSD_MLBootcamp_Capstone) -> Automatic Detection of Photovoltaic Power Stations Using Satellite Imagery and Deep Learning (Sentinel 2)
+
+- [Direct Rooftop Solar Prediction (DRSP)](https://github.com/joshualee124/direct_rooftop_solar_prediction) -> predicts usable-rooftop masks and solar-energy heatmaps from RGB satellite imagery and regional sunlight values without explicit roof geometry. Code for paper: An Empirical Study on Learning Rooftop Solar Potential from Satellite Imagery Directly Without Explicit Geometry
 
 ### Segmentation - Ships & vessels
 
@@ -1704,6 +1712,8 @@ Regression in remote sensing involves predicting continuous variables such as wi
 
 - [calibrated-spatial-uq](https://github.com/dpjohnsoIU/calibrated-spatial-uq) -> estimates calibrated per-pixel prediction intervals for NDVI and land surface temperature from frozen OlmoEarth embeddings. Code for paper: Calibrated spatial uncertainty for Earth observation foundation models via Matérn-motivated latent stochastic regularization
 
+- [swiss-tree-species-mapping](https://github.com/yixin-zhou/swiss-tree-species-mapping) -> maps tree-species basal-area shares across Switzerland using aerial RGB imagery, LiDAR, AlphaEarth embeddings and climate data. Code for paper: National-scale mapping of tree species composition in Switzerland from high-resolution aerial imagery and multimodal data
+
 #
 ## Cloud detection & removal
 
@@ -2244,6 +2254,8 @@ The analysis of time series observations in remote sensing data has numerous app
 - [Terrascope openEO Algorithm Catalog](https://github.com/VITObelgium/openeo_algorithm_catalog) -> catalog of reusable openEO processes for Sentinel-1/2 MOGPR reconstruction, phenology and peak detection, Whittaker smoothing, biophysical variables, and spectral indices
 
 - [RBC-SatImg](https://github.com/neu-spiral/RBC-SatImg) -> recursive Bayesian classification framework for satellite-image time series, demonstrated on land-cover and water mapping and deforestation detection
+
+- [E²Forecast](https://github.com/ucam-eo/e2forecast) -> forecasts Earth-observation foundation-model embeddings at arbitrary dates from irregular observation histories, with uncertainty estimates and anomaly-based change detection. Code for paper: Forecasting Earth Surface Change in Embedding Space
 
 #
 ## Crop classification
@@ -3245,6 +3257,8 @@ Image Captioning is the task of automatically generating a textual description o
 Visual Question Answering (VQA) is the task of automatically answering a natural language question about an image. In remote sensing, VQA enables users to interact with the images and retrieve information using natural language questions. For example, a user could ask a VQA system questions such as "What is the type of land cover in this area?", "What is the dominant crop in this region?" or "What is the size of the city in this image?". The system would then analyze the image and generate an answer based on its understanding of the image content.
 
 - [lit4rsvqa](https://git.tu-berlin.de/rsim/lit4rsvqa) -> LiT-4-RSVQA: Lightweight Transformer-based Visual Question Answering in Remote Sensing
+
+- [EarthJev](https://github.com/CosmoIknosLab/EarthJev) -> answers typed land-cover questions about 12-band Sentinel-2 imagery with calibrated probabilities over the permitted options. Code for paper: EarthJev: Calibrated, Non-Generative Answers to Natural-Language Questions about Sentinel-2 Land Cover
 
 #
 ## Mixed data learning
