@@ -1507,9 +1507,6 @@ Oil is stored in tanks at many points between extraction and sale, and the volum
 
 - [oil_well_detector](https://github.com/dzubke/oil_well_detector) -> detect oil wells in the Bakken oil field based on satellite imagery
 
-
-- [AContrarioTankDetection](https://github.com/anttad/AContrarioTankDetection) -> Oil Tank Detection in Satellite Images via a Contrario Clustering
-
 - [Fast-Large-Image-Object-Detection-yolov7](https://github.com/shah0nawaz/Fast-Large-Image-Object-Detection-yolov7) -> The oil yolov7 model is trained on oil storage tanks (OST) dataset
 
 - [Oiltank-Capacity-Detection](https://github.com/GeNiaaz/Oiltank-Capacity-Detection) -> Analyse storage tanks around the world and identify the external floating roof tanks.
