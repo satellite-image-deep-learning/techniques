@@ -2315,6 +2315,8 @@ Crop classification in remote sensing is the identification and mapping of diffe
 
 - [VITO agricultural monitoring tutorials](https://github.com/VITO-agri/vito-agri-tutorials) -> hands-on notebooks for parcel phenology and crop-type classification, Sentinel-2 retrieval, drought monitoring, and satellite time-series analysis
 
+- [sentinel-crop-pipeline](https://github.com/muend/sentinel-crop-pipeline) -> reproducible Sentinel-2 L2A data preparation for crop-classification models: scene discovery, cloud/shadow masking, fixed-size patches, spatially blocked splits and patch-aligned label masks
+
 #
 ## Crop yield & vegetation forecasting
 
