@@ -3148,6 +3148,7 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 - [surfaceWaterMappingGlobal](https://github.com/Rohit18/surfaceWaterMappingGlobal) -> code for paper: Extending Dynamic World Surface Water Mapping to Sentinel-1 with AlphaEarth Embeddings
 
 - [CORSA-Major TOM on Terrascope](https://github.com/VITO-RS-CORSA/Terrascope-MajorTom) -> notebooks for accessing and using compressed CORSA representations of Sentinel-2 Major TOM patches for reconstruction, visualization, and downstream land-cover classification
+- [GeoSAE](https://github.com/EarthyScience/geosae) -> sparse autoencoders for interpreting Earth observation embeddings.
 
 #
 ## Anomaly detection
@@ -3256,6 +3257,7 @@ Visual Question Answering (VQA) is the task of automatically answering a natural
 - [lit4rsvqa](https://git.tu-berlin.de/rsim/lit4rsvqa) -> LiT-4-RSVQA: Lightweight Transformer-based Visual Question Answering in Remote Sensing
 
 - [EarthJev](https://github.com/CosmoIknosLab/EarthJev) -> answers typed land-cover questions about 12-band Sentinel-2 imagery with calibrated probabilities over the permitted options. Code for paper: EarthJev: Calibrated, Non-Generative Answers to Natural-Language Questions about Sentinel-2 Land Cover
+- [EarthJev (Dai et al.)](https://github.com/Da1daidaidai/EarthJev) -> visual question answering for ultra-high-resolution remote sensing imagery. [Paper](https://arxiv.org/abs/2611.10005).
 
 #
 ## Mixed data learning
@@ -3976,6 +3978,7 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 - [ForestChat](https://github.com/JamesBrockUoB/ForestChat) -> Adapting Vision-Language Models for Interactive Forest Change Analysis.
 
 - [MTRefSeg](https://github.com/LiBingyu01/MTRefSeg) -> MTRefSeg-R1 is a bi-temporal vision-language segmentation framework where the model receives two temporal images (T1, T2) plus a natural-language instruction and predicts the changed region. Built on the SegEarth-R1 codebase, it extends instruction-following change referring segmentation to remote-sensing, aerial, and normal-scene views.
+- [GeoVLM-R1 Toolkit](https://github.com/IBM/GeoVLM-R1-Toolkit) -> training and evaluation toolkit for Earth observation reasoning with task-aware GRPO (CC BY-NC 4.0). [Paper](https://arxiv.org/abs/2509.25026).
 
 #
 ## AI agents
@@ -4074,6 +4077,7 @@ Explainable AI (XAI) is a field of artificial intelligence that focuses on devel
 - [GeoFM Semantic Structure](https://github.com/JamesEBall/geofm-semantic-structure) -> reproduction code and reference results evaluating whether frozen Clay and Prithvi representations learn semantic relationships that transfer to unseen land-feature categories. Paper: Do Geospatial Foundation Models Learn Semantic Structure from Imagery Alone?
 
 - [GFM Shortcut Learning](https://github.com/alishibli97/gfm-shortcut-learning) -> evaluates TerraMind, Prithvi, DOFA and DINOv3 embeddings for shortcut learning in cross-disaster building-damage assessment. Paper: Shortcut Learning in Geospatial Foundation Model Embeddings for Cross-Disaster Damage Assessment
+- [Pasiphae v2](https://github.com/jurriandoornbos/pasiv2) -> pretrained encoder for RGB and multispectral UAV imagery.
 
 ----
 - *Logo created with* [*Brandmark*](https://app.brandmark.io/v3/)
