@@ -1625,8 +1625,6 @@ A variety of techniques can be used to count animals, including object detection
 
 - [DOTA-C](https://github.com/hehaodong530/DOTA-C) -> evaluating the robustness of object detection models to 19 types of image quality degradation
 
-- [Satellite-Remote-Sensing-Image-Object-Detection](https://github.com/ypw-lbj/Satellite-Remote-Sensing-Image-Object-Detection) -> using RefineDet & DOTA dataset
-
 - [SFRNet](https://github.com/Ranchosky/SFRNet) -> SFRNet: Fine-Grained Oriented Object Recognition via Separate Feature Refinement
 
 - [contrail-seg](https://github.com/junzis/contrail-seg) -> Neural network models for contrail detection and segmentation
